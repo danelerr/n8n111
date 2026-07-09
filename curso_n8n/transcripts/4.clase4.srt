@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:09,360
+Bueno, continuando con la clase, en este caso vamos a proceder a la instalación de lo que es N8n,
+
+2
+00:00:09,360 --> 00:00:13,080
+pero en este caso ahora vamos a trabajar como habíamos trabajado anteriormente con lo que es
+
+3
+00:00:13,080 --> 00:00:20,120
+Google Cloud, ahora vamos a trabajar con Cloud Virtualnel y luego posteriormente en Rock, pero en
+
+4
+00:00:20,120 --> 00:00:27,320
+este caso lo más interesante sería aplicar en Rock, no sé qué, vamos a en Rock, voy a ver una
+
+5
+00:00:27,320 --> 00:00:34,440
+nueva pestaña, voy a colocar en rock.com, entramos ahí directamente, esto por sé que
+
+6
+00:00:34,440 --> 00:00:40,520
+os recordarles que no es necesario hacerlo porque no es parte de lo que es la parte de N8n, pero
+
+7
+00:00:40,520 --> 00:00:46,400
+sería importante que puedan publicarlo con el N8n para hacer algunas pruebas más que todo con sus
+
+8
+00:00:46,400 --> 00:00:51,880
+amigos para ver si está en, cómo funciona en producción y demás, ya para esta parte pueden
+
+9
+00:00:51,880 --> 00:00:58,560
+colocar Get Started for Free, pero ojo no necesito que lo instalen, necesariamente solamente vamos a
+
+10
+00:00:58,560 --> 00:01:06,560
+descargar algunas partecitas, ya, así que vamos a entrar, en este caso si no tienen una cuenta pueden
+
+11
+00:01:06,560 --> 00:01:12,760
+registrarse, es sumamente sencillo, se registran con su misma cuenta de email y acceden, ya,
+
+12
+00:01:13,360 --> 00:01:23,840
+en mi caso yo ya lo tengo, así que voy a loguearme directamente, me logeo y voy a hacer lo siguiente.
+
+13
+00:01:27,560 --> 00:01:36,000
+Mientras va accediendo vamos a hacer alguna parte con esto y listo, ya, una vez que entro acá,
+
+14
+00:01:36,520 --> 00:01:45,120
+voy a irme directamente a lo que es, a la piz y aquí nos han ponido que voy a manejar,
+
+15
+00:01:45,120 --> 00:01:51,600
+vayase directamente a lo que es your out token, ya, en your out token vamos a ingresar
+
+16
+00:01:52,640 --> 00:01:58,040
+y netamente acá si nos damos cuenta hay una determinada configuración del sistema,
+
+17
+00:01:58,440 --> 00:02:06,080
+pero yo no necesito tanto eso, lo que yo necesito es que me muestre el out token,
+
+18
+00:02:06,080 --> 00:02:13,920
+voy a hacer clic acá y ahí se muestra, estos van a copiar y lo van a pegar en una,
+
+19
+00:02:13,920 --> 00:02:20,040
+en este caso el blog de notas que lo sugiero, guarden eso, a veces lo explica cómo van a manejar,
+
+20
+00:02:20,040 --> 00:02:25,280
+esa parte, guardenlo o directamente acá, si no quieren mostrar se enclica acá, copy
+
+21
+00:02:26,280 --> 00:02:32,200
+y lo guarden netamente en un blog de notas o en lo que decen pero si guardenla,
+
+22
+00:02:32,200 --> 00:02:39,280
+ya para no estar ingresando cada vez. Una vez que lo hacen esa parte, yo voy a tratar de descarar,
+
+23
+00:02:39,280 --> 00:02:47,440
+ahora si me voy a ir acá, voy a volverme atrás, vamos a irnos atrás y voy a hacer lo siguiente,
+
+24
+00:02:47,440 --> 00:03:00,360
+voy a volver entre la pura cádida, voy a escribir el nuevo en Glock y vamos a hacer lo siguiente,
+
+25
+00:03:01,960 --> 00:03:08,880
+se vienen acá en la parte inferior donde dice en este caso, get started for free, hacen clic,
+
+26
+00:03:08,880 --> 00:03:19,120
+ahora se van acá abajo dice en este caso, instalaciones, pueden hacer clic directamente acá o
+
+27
+00:03:19,120 --> 00:03:28,200
+pueden descarar mediante su compilador, en este caso yo necesito esto, hacen clic,
+
+28
+00:03:28,200 --> 00:03:33,080
+los va a detectar por si acaso el tipo de sistema operativo, hacen clic, lo abre el
+
+29
+00:03:33,080 --> 00:03:40,040
+micro store y lo pueden descargar o hay otra forma, si no les conviene esa forma, van a hacer
+
+30
+00:03:40,040 --> 00:03:49,320
+la siguiente, van a colocar en Glock, descargar, dole, vienen acá y van a descargar directamente esto,
+
+31
+00:03:49,320 --> 00:03:57,720
+acá abajo dice van a ser lo mismo pero en este caso esto es la guarden directa y aquí les va a
+
+32
+00:03:57,720 --> 00:04:03,400
+detectar el tipo de sistema operativo que tengan y cuál es la versión de su máquina, se va a
+
+33
+00:04:03,400 --> 00:04:11,720
+autodetectar, en mi caso 64 bits, lo voy a descargar, una vez que lo descargan lo van a detener ahí,
+
+34
+00:04:13,000 --> 00:04:19,680
+si se sirve detener porque no lo necesito, ahora voy a hacer lo siguiente, van a desactivar un
+
+35
+00:04:19,760 --> 00:04:29,720
+unos momentos, aunque 10 minutitos su cortafuego, en este caso su antivirus y una vez que lo hagan
+
+36
+00:04:29,720 --> 00:04:35,880
+no lo van a ejecutar porque los va a salir esto y te voy a mostrar, no sé dónde tenía de mí o mi
+
+37
+00:04:35,880 --> 00:04:43,520
+engroco, yo le guardo por si acaso en esto, ahí está, coloco instaladores y aquí está,
+
+38
+00:04:43,520 --> 00:04:47,760
+en una carpeta muy aparte lo he guardado y no lo he ejecutado, así les va a salir esto pero
+
+39
+00:04:47,760 --> 00:04:53,760
+van a descomprimir y eso y lo estoy copiando acá afuera, ahora que van a hacer lo siguiente,
+
+40
+00:04:53,760 --> 00:05:03,200
+se van a ver otros md, ya se abren otros md y van a copiar la ruta, es decir esta ruta que
+
+41
+00:05:03,200 --> 00:05:09,960
+donde está guardado el punto x, lo van a copiar, control c, van a escribir lo siguiente,
+
+42
+00:05:10,960 --> 00:05:18,480
+cd, espacio o en minúsculos, se van a hacer lo cd, espacio, pegan y entera y se van a direccionar
+
+43
+00:05:18,480 --> 00:05:24,560
+a esa, esa carpeta, ya, ahora para ejecutar esto van a colocar lo siguiente, en groc,
+
+44
+00:05:24,560 --> 00:05:41,560
+config, at, get on, out, token, out, token y van a pegar acá la, la contraseña o el token que les ha dado
+
+45
+00:05:41,560 --> 00:05:49,360
+en groc, lo que hemos hecho acá, no? en esta parte, y cuando entran a your token, esta parte lo copian
+
+46
+00:05:49,360 --> 00:05:58,720
+y lo van a adjuntar acá, espacio y lo adjuntan, ya, listo, ahí voy a, voy a,
+
+47
+00:05:58,720 --> 00:06:06,880
+quería, voy a borrar esta parte, ok copió otra cosa, listo y voy a copiarme,
+
+48
+00:06:09,280 --> 00:06:18,240
+vengo acá, copio y lo voy a pegar acá, enter y esto es básicamente, es un acceso de negado pero
+
+49
+00:06:18,240 --> 00:06:25,840
+porque el mío está con abasto, ya, voy a un cacho desactivar esto, lo voy a desactivar por unos
+
+50
+00:06:25,840 --> 00:06:35,200
+10 minutitos y listo, ya lo desactivado, ahora si, de nuevo vuelvo a ejecutar, pueden apretar el tecla,
+
+51
+00:06:35,200 --> 00:06:43,600
+la flechita hacia arriba y lo unimos, los les va a aparecer y ya está, ya, en este caso una vez
+
+52
+00:06:43,600 --> 00:06:50,720
+que lo tengan, vamos a lo siguiente, pero a mi me está botando algún problemita de un cachito,
+
+53
+00:06:50,720 --> 00:07:03,520
+ahora si, ya, vamos a abrir otro para no tener problemas, listo, ahora si, ahora se voy a hacer
+
+54
+00:07:03,520 --> 00:07:07,760
+los mismos, los mismos pasos para que les corriba a ustedes, para que ustedes la corren, el mío
+
+55
+00:07:07,760 --> 00:07:15,920
+estaba ejecutando anteriormente un proyecto que me está generando problemas, pero igual es la solución,
+
+56
+00:07:18,920 --> 00:07:23,120
+listo y voy a copiarme eso, ya, ahora si, voy a copiarme,
+
+57
+00:07:24,800 --> 00:07:29,760
+ahora si, esto tiene que salir así, auto-enclamación,
+
+58
+00:07:29,760 --> 00:07:37,760
+tal cual les tiene que votar, ya, una vez que lo hagan, todavía no lo estoy generando, no lo estoy diciendo,
+
+59
+00:07:37,760 --> 00:07:42,400
+ah, crear metunel, cuando lo quiero crear, ahora lo hago, en rock,
+
+60
+00:07:44,400 --> 00:07:52,400
+HTTP o HTTP, el puerto de N8n, esto pueden trabajar con cualquier tipo de puertos, pueden trabajar con
+
+61
+00:07:52,400 --> 00:07:58,080
+otros puertos, ya que ustedes conocen de React, de otros frames, pero en este caso voy a copiar
+
+62
+00:07:58,400 --> 00:08:08,080
+de N8n, de N8n su puerto es el 5678, apretan enter, y esto que vaya corriendo ahí, esto se van a guardar,
+
+63
+00:08:08,080 --> 00:08:12,560
+en un blog de notas igual, ya, yo voy a abrir un blog de notas muy aparte,
+
+64
+00:08:15,200 --> 00:08:22,640
+ya, ahí, voy a abrirme esto, ahí lo voy a pegar, mientras tanto mi URL de mi en rock,
+
+65
+00:08:23,200 --> 00:08:30,640
+vamos a hacer lo siguiente, una vez que hemos realizado esa parte, voy a hacerlo,
+
+66
+00:08:30,640 --> 00:08:41,600
+siguiente, de mi en cachito, y adónde está mi en rock, mi proyecto, aquí está, ya,
+
+67
+00:08:42,880 --> 00:08:52,160
+entonces, ahora todo esto, ya lo tenemos, ya trabajamos bastante bien, lo siguiente que voy a hacer,
+
+68
+00:08:52,960 --> 00:09:00,800
+es generar esto, pero ahora para un Google Sheet, ya, vamos a enviarlo a Google Sheet, pero para esa
+
+69
+00:09:00,800 --> 00:09:07,920
+parte, vamos a hacer lo siguiente, voy a hacer ahora esto, voy a modificar esto acá, y en este caso
+
+70
+00:09:07,920 --> 00:09:17,200
+aquí arriba voy a escribir Google Sheets, voy, aquí hay un montón de opciones, ya, yo quiero solamente
+
+71
+00:09:17,280 --> 00:09:25,120
+que se vaya modificando línea a línea, en mi Google Sheet, ya, les voy a colocar, en este caso,
+
+72
+00:09:25,120 --> 00:09:32,320
+up and row in sheet, aquí está, up and row in sheet, hago click, me va a aparecer esto, ya,
+
+73
+00:09:33,360 --> 00:09:38,640
+como me aparece, yo tengo que ingresar en este caso los datos, que me capture y que me envía mi
+
+74
+00:09:38,640 --> 00:09:45,120
+Google Sheet, pero en este caso, no solamente voy a tener que ingresar esto, ya, voy a tener que
+
+75
+00:09:45,200 --> 00:09:51,840
+conectarme con una API de Google, para eso, voy a proceder a lo siguiente, voy a hacer ahora esto y
+
+76
+00:09:51,840 --> 00:09:58,640
+se van a dar cuenta que ya se ha unido acá, ya, ahí pueden modificar y demás, pero esa parte de
+
+77
+00:09:58,640 --> 00:10:06,240
+conexión con APIs y demás para Google Sheet específicamente, lo vamos a hacer en el siguiente video.
+

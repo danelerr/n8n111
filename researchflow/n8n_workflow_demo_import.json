@@ -1,0 +1,273 @@
+{
+  "name": "ResearchFlow - Demo sin credenciales",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "researchflow-demo",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "*"
+        }
+      },
+      "id": "rf-0056",
+      "name": "Webhook - Demo",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "notes": "Demo sin credenciales: no requiere DB, Gemini, Gmail ni Evolution. Ideal para probar la landing y ensenar el flujo.",
+      "webhookId": "researchflow-demo"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "nombre",
+              "name": "nombre",
+              "value": "={{ $json.body?.nombre || $json.nombre || 'Investigador' }}",
+              "type": "string"
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "value": "={{ $json.body?.email || $json.email || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "whatsapp",
+              "name": "whatsapp",
+              "value": "={{ $json.body?.whatsapp || $json.whatsapp || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "tema",
+              "name": "tema",
+              "value": "={{ $json.body?.tema || $json.tema || 'Tema sin titulo' }}",
+              "type": "string"
+            },
+            {
+              "id": "pregunta",
+              "name": "pregunta",
+              "value": "={{ ($json.body?.pregunta || $json.pregunta || '').trim() }}",
+              "type": "string"
+            },
+            {
+              "id": "url_fuente",
+              "name": "url_fuente",
+              "value": "={{ $json.body?.url_fuente || $json.url_fuente || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "texto_fuente",
+              "name": "texto_fuente",
+              "value": "={{ $json.body?.texto_fuente || $json.texto_fuente || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "tipo_entregable",
+              "name": "tipo_entregable",
+              "value": "={{ $json.body?.tipo_entregable || $json.tipo_entregable || 'articulo' }}",
+              "type": "string"
+            },
+            {
+              "id": "prioridad",
+              "name": "prioridad",
+              "value": "={{ $json.body?.prioridad || $json.prioridad || 'media' }}",
+              "type": "string"
+            },
+            {
+              "id": "canal_origen",
+              "name": "canal_origen",
+              "value": "={{ $json.body?.origen || $json.origen || 'landing_page' }}",
+              "type": "string"
+            },
+            {
+              "id": "modo",
+              "name": "modo",
+              "value": "={{ ($json.body?.pregunta || $json.pregunta || '').trim() ? 'investigar' : 'generar_preguntas' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "rf-0057",
+      "name": "Normalizar solicitud",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-modo-demo",
+              "leftValue": "={{ $json.modo }}",
+              "rightValue": "investigar",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0058",
+      "name": "IF - Con pregunta",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst req = $('Normalizar solicitud').first().json;\nconst tema = req.tema;\nconst pregunta = req.pregunta;\nconst datos = [\n  { etiqueta: '2021', valor: 18, unidad: 'indice 0-100', periodo: '2021', fuente_url: 'https://ejemplo.demo/indice-adopcion' },\n  { etiqueta: '2022', valor: 24, unidad: 'indice 0-100', periodo: '2022', fuente_url: 'https://ejemplo.demo/indice-adopcion' },\n  { etiqueta: '2023', valor: 31, unidad: 'indice 0-100', periodo: '2023', fuente_url: 'https://ejemplo.demo/indice-adopcion' },\n  { etiqueta: '2024', valor: 47, unidad: 'indice 0-100', periodo: '2024', fuente_url: 'https://ejemplo.demo/indice-adopcion' },\n  { etiqueta: '2025', valor: 58, unidad: 'indice 0-100', periodo: '2025', fuente_url: 'https://ejemplo.demo/indice-adopcion' }\n];\nconst cfg = {\n  type: 'line',\n  data: { labels: datos.map(d => d.etiqueta), datasets: [{ label: ('Indice de interes: ' + tema).slice(0, 80), data: datos.map(d => d.valor), borderColor: '#2563eb', backgroundColor: 'rgba(37,99,235,0.15)', fill: true }] },\n  options: { plugins: { title: { display: true, text: ('Evolucion (DATOS DEMO): ' + tema).slice(0, 90) } } }\n};\nconst grafico_url = 'https://quickchart.io/chart?w=620&h=360&bkg=white&c=' + encodeURIComponent(JSON.stringify(cfg));\nconst hechos = [\n  { afirmacion: 'DEMO: hecho de ejemplo 1 sobre ' + tema + ' (en produccion saldria de la busqueda con fuentes reales).', fuente_url: 'https://ejemplo.demo/fuente-1' },\n  { afirmacion: 'DEMO: hecho de ejemplo 2 con dato numerico y su fuente.', fuente_url: 'https://ejemplo.demo/fuente-2' }\n];\nconst md = [\n  '# ' + tema,\n  '',\n  '**Pregunta central:** ' + pregunta,\n  '',\n  '**Respuesta corta (DEMO):** Esta es una ejecucion de demostracion sin credenciales; en produccion aqui va la respuesta directa sustentada en fuentes reales.',\n  '',\n  '## Hechos verificados',\n  ...hechos.map(h => '- ' + h.afirmacion + ' [fuente: ' + h.fuente_url + ']'),\n  '',\n  '## El porque (5 porques)',\n  '- Por que 1: causa inmediata de ejemplo.',\n  '- Por que 2: causa intermedia de ejemplo.',\n  '- Por que 3: causa estructural de ejemplo.',\n  '',\n  '## Graficos',\n  '- Evolucion temporal (DATOS DEMO): ' + grafico_url,\n  '',\n  '## Fuentes',\n  '- [demo] Fuente de ejemplo 1 - https://ejemplo.demo/fuente-1',\n  '- [demo] Fuente de ejemplo 2 - https://ejemplo.demo/fuente-2'\n];\nreturn [{ json: {\n  ...req,\n  nota_demo: 'DEMO: investigacion simulada sin credenciales. El grafico QuickChart SI es real y se genera en vivo. En produccion los datos provienen de Gemini con Google Search grounding.',\n  respuesta_corta: 'Respuesta corta de demostracion para: ' + pregunta,\n  resumen: 'Resumen de demostracion sobre \"' + tema + '\". El flujo de produccion realiza 2 fases de busqueda con grounding y una sintesis JSON con hechos, datasets con fuente y articulo.',\n  hechos,\n  datasets: [{ titulo: 'Evolucion (DATOS DEMO): ' + tema, tipo_grafico: 'lineas', datos, quickchart_url: grafico_url }],\n  grafico_url,\n  informe_markdown: md.join('\\n')\n} }];\n"
+      },
+      "id": "rf-0059",
+      "name": "Investigacion simulada",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, modo: 'investigacion_demo', nota: $json.nota_demo, tema: $json.tema, pregunta: $json.pregunta, respuesta_corta: $json.respuesta_corta, resumen: $json.resumen, hechos: $json.hechos, grafico_url: $json.grafico_url, informe_markdown: $json.informe_markdown } }}",
+        "options": {}
+      },
+      "id": "rf-0060",
+      "name": "Responder informe demo",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst req = $('Normalizar solicitud').first().json;\nconst tema = req.tema;\nconst preguntas = [\n  { pregunta: 'Que dice la evidencia mas reciente sobre ' + tema + '?', por_que_interesa: 'Establece la base factual con fuentes primarias', angulo: 'datos' },\n  { pregunta: 'Por que esta creciendo (o frenandose) ' + tema + '?', por_que_interesa: 'Aplica los 5 porques hasta la causa estructural', angulo: 'causas' },\n  { pregunta: 'Que mitos circulan sobre ' + tema + ' y cuales resisten la evidencia?', por_que_interesa: 'Separa hechos de opiniones; ideal para compartir', angulo: 'mitos' },\n  { pregunta: 'Quien gana y quien pierde con ' + tema + '?', por_que_interesa: 'Revela incentivos e impacto real', angulo: 'impacto' }\n];\nreturn [{ json: { ...req, preguntas, nota_demo: 'DEMO: preguntas generadas con plantilla local, sin llamar a la API de Gemini.' } }];\n"
+      },
+      "id": "rf-0061",
+      "name": "Preguntas simuladas",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, modo: 'preguntas_generadas', nota: $json.nota_demo, tema: $json.tema, preguntas: $json.preguntas } }}",
+        "options": {}
+      },
+      "id": "rf-0062",
+      "name": "Responder preguntas demo",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        880,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook - Demo": {
+      "main": [
+        [
+          {
+            "node": "Normalizar solicitud",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar solicitud": {
+      "main": [
+        [
+          {
+            "node": "IF - Con pregunta",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Con pregunta": {
+      "main": [
+        [
+          {
+            "node": "Investigacion simulada",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preguntas simuladas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Investigacion simulada": {
+      "main": [
+        [
+          {
+            "node": "Responder informe demo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preguntas simuladas": {
+      "main": [
+        [
+          {
+            "node": "Responder preguntas demo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "active": false,
+  "versionId": "researchflow-demo-v2",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "id": "researchflow-demo",
+  "tags": []
+}

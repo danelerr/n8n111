@@ -1,0 +1,2935 @@
+{
+  "source": "13clase14.mp4",
+  "language": "es",
+  "duration_seconds": 3247.68,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 10.4,
+      "text": "Ok, empezaremos entonces. Antes de empezar, voy a ver las listas y voy a tomar asistencia ya."
+    },
+    {
+      "id": 1,
+      "start": 12.52,
+      "end": 17.6,
+      "text": "Y aquí ya estamos finalizando el curso, así que los últimos cuatro clases que nos queda,"
+    },
+    {
+      "id": 2,
+      "start": 19.2,
+      "end": 24.8,
+      "text": "voy a tratar de llamar lista para ver quiénes son sobrevividos y que"
+    },
+    {
+      "id": 3,
+      "start": 30.0,
+      "end": 33.64,
+      "text": "ya."
+    },
+    {
+      "id": 4,
+      "start": 37.88,
+      "end": 44.92,
+      "text": "Ya, en base a lo que me han presentado a sus compañeros, la lista,"
+    },
+    {
+      "id": 5,
+      "start": 44.92,
+      "end": 49.48,
+      "text": "ahorita les voy a mostrar la lista oficial, listo? Si alguien falta,"
+    },
+    {
+      "id": 6,
+      "start": 50.92,
+      "end": 57.8,
+      "text": "puede decirme, pero en este caso voy a mostrar los extenabilitados directamente para esta"
+    },
+    {
+      "id": 7,
+      "start": 57.8,
+      "end": 65.04,
+      "text": "segunda fase. Los que tienen más de cinco o seis faltas ya están eliminados, pero no"
+    },
+    {
+      "id": 8,
+      "start": 65.04,
+      "end": 73.16,
+      "text": "ustedes, no son esos creo, así que los 16 oficiales que quedan son los siguientes."
+    },
+    {
+      "id": 9,
+      "start": 73.16,
+      "end": 74.4,
+      "text": "Ahora dame el ratito."
+    },
+    {
+      "id": 10,
+      "start": 82.48,
+      "end": 84.6,
+      "text": "Ya sé, dame el ratito chicos."
+    },
+    {
+      "id": 11,
+      "start": 87.8,
+      "end": 96.32,
+      "text": "Ya."
+    },
+    {
+      "id": 12,
+      "start": 107.32,
+      "end": 115.56,
+      "text": "Listo, son ellos ya, son los 16 que tengo en lista y con eso en base eso vamos a tratar de llamar"
+    },
+    {
+      "id": 13,
+      "start": 115.56,
+      "end": 123.0,
+      "text": "lista el día de hoy, listo? Así que empezaremos la clase y al final voy a llamar la lista una vez que tengamos."
+    },
+    {
+      "id": 14,
+      "start": 134.6,
+      "end": 139.32,
+      "text": "Ya, ahora sí empezaremos chicos. Para esta parte vamos a hacer lo siguiente, ya."
+    },
+    {
+      "id": 15,
+      "start": 140.28,
+      "end": 145.6,
+      "text": "Voy a poner el pantalla, dame un ratito."
+    },
+    {
+      "id": 16,
+      "start": 150.2,
+      "end": 151.2,
+      "text": "Ya, ahí."
+    },
+    {
+      "id": 17,
+      "start": 152.56,
+      "end": 153.96,
+      "text": "Dame un ratito."
+    },
+    {
+      "id": 18,
+      "start": 156.72,
+      "end": 159.12,
+      "text": "Ya, vámonos directamente, os voy a pasar al git."
+    },
+    {
+      "id": 19,
+      "start": 159.12,
+      "end": 160.12,
+      "text": "Ya."
+    },
+    {
+      "id": 20,
+      "start": 166.12,
+      "end": 171.92,
+      "text": "Para venir acá, evolution app, ya lo he subido hace ratito y vamos a hacer los siguientes"
+    },
+    {
+      "id": 21,
+      "start": 171.92,
+      "end": 177.4,
+      "text": "aspectos ya, así que voy a venir acá y les voy a pasar el link."
+    },
+    {
+      "id": 22,
+      "start": 179.72,
+      "end": 183.64,
+      "text": "Listo, les estoy mandando ahorita mi small chat."
+    },
+    {
+      "id": 23,
+      "start": 184.64,
+      "end": 192.16,
+      "text": "De mit, copian esa parte y directamente vayan descarreando."
+    },
+    {
+      "id": 24,
+      "start": 192.16,
+      "end": 198.24,
+      "text": "Voy a hacer de dos maneras hoy día, no creo que tardemos mucho la clase ya que solamente"
+    },
+    {
+      "id": 25,
+      "start": 198.24,
+      "end": 202.6,
+      "text": "va a ser instalación y no, no voy a avanzar todavía ya que quisiera que todos tengan instalación"
+    },
+    {
+      "id": 26,
+      "start": 202.6,
+      "end": 207.68,
+      "text": "para el día sábado, pero voy a tratar de hacer los pasos correspondientes para lo que"
+    },
+    {
+      "id": 27,
+      "start": 207.68,
+      "end": 215.68,
+      "text": "esto lo logre ya. Entonces, lo que les acabo de enviar vayan haciendo un push o si no se"
+    },
+    {
+      "id": 28,
+      "start": 215.68,
+      "end": 222.56,
+      "text": "se hace un code, ya que dice doble ansip, hagan clic ahí y les va a descargar un archivo"
+    },
+    {
+      "id": 29,
+      "start": 222.56,
+      "end": 225.72,
+      "text": "comprimido. Ya ahorita les indico qué van a hacer con eso."
+    },
+    {
+      "id": 30,
+      "start": 225.72,
+      "end": 229.0,
+      "text": "Ahí vayan, contin mando."
+    },
+    {
+      "id": 31,
+      "start": 229.0,
+      "end": 242.56,
+      "text": "Ya, continuamos ahora así. Una vez que tengan eso, vamos a hacer lo siguiente,"
+    },
+    {
+      "id": 32,
+      "start": 242.56,
+      "end": 249.16,
+      "text": "lo van a descomprimir, van a abrirse una carpeta muy aparte. Yo les recomiendo que trabajen con"
+    },
+    {
+      "id": 33,
+      "start": 249.16,
+      "end": 253.52,
+      "text": "sus discos locales, es decir ahorita yo por ejemplo no tengo discos, solamente tengo un"
+    },
+    {
+      "id": 34,
+      "start": 253.52,
+      "end": 259.48,
+      "text": "disco central que es mi disco C. Si ustedes tienen otro disco, pueden meterlo ahí, ya,"
+    },
+    {
+      "id": 35,
+      "start": 259.48,
+      "end": 265.68,
+      "text": "pero si es que no pueden trabajar en su escritorio o en una carpeta específica. Yo voy a trabajar"
+    },
+    {
+      "id": 36,
+      "start": 265.68,
+      "end": 271.68,
+      "text": "por ejemplo en mi escritorio, voy a ir a la programación y ahí voy a crear una carpetita,"
+    },
+    {
+      "id": 37,
+      "start": 271.68,
+      "end": 278.76,
+      "text": "ya, esa carpetita le pueden llamar, no se depende de ese proyecto genérico en este caso."
+    },
+    {
+      "id": 38,
+      "start": 279.36,
+      "end": 283.0,
+      "text": "Yo voy a colocar una carpetita y voy a colocar en este caso,"
+    },
+    {
+      "id": 39,
+      "start": 285.0,
+      "end": 287.64,
+      "text": "Evolution App, ya, Evolution."
+    },
+    {
+      "id": 40,
+      "start": 290.16,
+      "end": 298.08,
+      "text": "Evolution. Ya, dentro de ahí van a llevar su comprimido y ahí lo van a descomprimir,"
+    },
+    {
+      "id": 41,
+      "start": 298.08,
+      "end": 304.32,
+      "text": "ya, aquí lo van a descomprimir ustedes. Yo lo voy a hacer contigo con ustedes para no tener,"
+    },
+    {
+      "id": 42,
+      "start": 304.32,
+      "end": 311.64,
+      "text": "que no tengan problemas, así que demos ratito. Voy a admitir a alguien más. Entonces una vez"
+    },
+    {
+      "id": 43,
+      "start": 311.64,
+      "end": 320.12,
+      "text": "que hayan regresado ahí, a ver, voy a admitir a alguien más. Ya, listo, voy a hacer lo que"
+    },
+    {
+      "id": 44,
+      "start": 320.12,
+      "end": 330.44,
+      "text": "usted decía, lo voy a descargar. Ya, vengo acá, voy a abrir esta parte."
+    },
+    {
+      "id": 45,
+      "start": 333.12,
+      "end": 337.92,
+      "text": "Ya, esto lo voy a hacer control X y me lo voy a llevar a esa carpeta que acabo de"
+    },
+    {
+      "id": 46,
+      "start": 337.92,
+      "end": 345.32,
+      "text": "mostrar, sí, voy a admitir mi carpeta, voy a venir ahí, lo voy a descargar y lo voy a descomprimir."
+    },
+    {
+      "id": 47,
+      "start": 346.84,
+      "end": 347.88,
+      "text": "Ya, acercó."
+    },
+    {
+      "id": 48,
+      "start": 350.24,
+      "end": 353.28,
+      "text": "Pues va a aparecer este mensaje seguramente y lo extrae, ya."
+    },
+    {
+      "id": 49,
+      "start": 355.16,
+      "end": 358.68,
+      "text": "Una vez que tengan eso, todo lo que está acá dentro chicos,"
+    },
+    {
+      "id": 50,
+      "start": 360.16,
+      "end": 365.2,
+      "text": "todo lo que está acá dentro, pueden cortarlo y pegarlo, o sea, control X y colocarlo todo acá,"
+    },
+    {
+      "id": 51,
+      "start": 365.2,
+      "end": 371.48,
+      "text": "para que no tenga un montón de carpetas creados. Ya, esto lo pueden eliminar y esto también lo"
+    },
+    {
+      "id": 52,
+      "start": 371.48,
+      "end": 377.04,
+      "text": "pueden eliminar. Ya, esos cuatro chicos tienen que estar ahí. Hasta les voy esperando."
+    },
+    {
+      "id": 53,
+      "start": 377.88,
+      "end": 380.8,
+      "text": "Ya, de manjotito."
+    },
+    {
+      "id": 54,
+      "start": 383.64,
+      "end": 387.68,
+      "text": "Una vez que tengan eso, vamos a lo siguiente."
+    },
+    {
+      "id": 55,
+      "start": 389.36,
+      "end": 395.96,
+      "text": "Van a venir acá y van a abrir terminal. Dentro de su terminal pueden hacerlo con PowerShell o"
+    },
+    {
+      "id": 56,
+      "start": 395.96,
+      "end": 402.16,
+      "text": "Command Prom, o sea, CMD, no hay problema y una vez que tengan eso, los pasos que voy a hacer son"
+    },
+    {
+      "id": 57,
+      "start": 402.24,
+      "end": 408.96,
+      "text": "bastante largitos, así que traten de hacer pruebas hoy porque a la mayoría les va a ser"
+    },
+    {
+      "id": 58,
+      "start": 408.96,
+      "end": 416.36,
+      "text": "errores. Si no lo hacen prueba hoy, van a tener problemas luego para instalar o quizás sí o quizás"
+    },
+    {
+      "id": 59,
+      "start": 416.36,
+      "end": 422.96,
+      "text": "no. Así que traten de hacerlo junto con mi hoy día para que pueda ayudarlos a corregir, ya, porque"
+    },
+    {
+      "id": 60,
+      "start": 422.96,
+      "end": 429.16,
+      "text": "justamente no voy a poder ayudarles mañana y pasado, directamente os merezco la clase y aquí tengo"
+    },
+    {
+      "id": 61,
+      "start": 429.16,
+      "end": 434.4,
+      "text": "un viaje urgente y si es que lo hacen ahorita conmigo, normalmente lo podemos solucionar."
+    },
+    {
+      "id": 62,
+      "start": 436.04,
+      "end": 443.44,
+      "text": "Ya, porque el sábado yo voy a programar un poco más rápido y quizás ya terminemos la clase de"
+    },
+    {
+      "id": 63,
+      "start": 443.44,
+      "end": 446.76,
+      "text": "la siguiente y la subsegúntica, o sea, de las cuatro clases que nos quedan tres clases,"
+    },
+    {
+      "id": 64,
+      "start": 446.76,
+      "end": 455.0,
+      "text": "de ahí empezarían con las defensas de sus proyectos. Ya, esa parte. Hasta ahí les espero,"
+    },
+    {
+      "id": 65,
+      "start": 455.0,
+      "end": 464.48,
+      "text": "vayan apresurándose los que se puedan y los que no, pues traten de hacer si o si la paso a paso,"
+    },
+    {
+      "id": 66,
+      "start": 464.48,
+      "end": 470.56,
+      "text": "lo que está en la vídeo que voy a mandar después de realmente. Ya, les voy a volver a enviar a"
+    },
+    {
+      "id": 67,
+      "start": 470.56,
+      "end": 480.52,
+      "text": "los que acaban de entrar el link. Ya, vamos a ver. Ya, voy a volver a estar en la masajaria de"
+    },
+    {
+      "id": 68,
+      "start": 480.52,
+      "end": 486.36,
+      "text": "mit, por si lo estoy volviendo a reenviar. Ahí entrense y vayan descargando code de un ansip"
+    },
+    {
+      "id": 69,
+      "start": 486.36,
+      "end": 491.96,
+      "text": "y eso vayan descomprimiendo en una carpeta que netamente no se conjuncen con sus otras"
+    },
+    {
+      "id": 70,
+      "start": 491.96,
+      "end": 497.92,
+      "text": "carpetas y que sea en este caso quizás mejor si estudie local, no es central, sino es el de él,"
+    },
+    {
+      "id": 71,
+      "start": 497.92,
+      "end": 504.76,
+      "text": "el que tengan directamente en eso. Ya, vayan haciendo este chico, pues yo los descomprimiendo"
+    },
+    {
+      "id": 72,
+      "start": 504.76,
+      "end": 507.92,
+      "text": "en una carpeta, netamente de mi escritorio, así que no hay problema si lo hacen así."
+    },
+    {
+      "id": 73,
+      "start": 508.92,
+      "end": 515.0,
+      "text": "Visto, una vez que vayan descomprimiendo, ya van a empezar a procesar lo siguiente."
+    },
+    {
+      "id": 74,
+      "start": 516.8,
+      "end": 526.4,
+      "text": "Ya, vuelvas a repetir esta parte. Vayan acá control, pero en su mouse, clic derecho,"
+    },
+    {
+      "id": 75,
+      "start": 526.4,
+      "end": 534.12,
+      "text": "abren terminal y van a colocar lo siguiente que voy a hacer. Ya, ahora antes de empezar esto,"
+    },
+    {
+      "id": 76,
+      "start": 534.12,
+      "end": 547.24,
+      "text": "ahora sí, ya tienen que haber tenido el docker. Vamos a ver docker, docker desktop."
+    },
+    {
+      "id": 77,
+      "start": 547.24,
+      "end": 554.88,
+      "text": "Y ahí vamos a esperar. Todo esto va a tardar dos horas en instalarse. Así que en la mayor de los"
+    },
+    {
+      "id": 78,
+      "start": 554.88,
+      "end": 561.56,
+      "text": "casos, hasta 30 minutos, los que tienen veloz sistema, en 30 minutos, 20 minutos y hasta,"
+    },
+    {
+      "id": 79,
+      "start": 561.88,
+      "end": 568.2,
+      "text": "pero los que tienen baja latencia de red, así es un poquito largo. En mi caso,"
+    },
+    {
+      "id": 80,
+      "start": 568.2,
+      "end": 576.4,
+      "text": "está tardando una hora porque justamente al internet es muy malo, así que además el vecino no ha"
+    },
+    {
+      "id": 81,
+      "start": 576.4,
+      "end": 583.6,
+      "text": "pagado y en base a eso. Vayan a ver su desktop, tiene que estar funcionando antes de hacer lo que"
+    },
+    {
+      "id": 82,
+      "start": 583.6,
+      "end": 599.32,
+      "text": "voy a hacer. Ya, démonos un ratito. Ya, vayan haciendo ambos puntos para que todo funciona,"
+    },
+    {
+      "id": 83,
+      "start": 599.32,
+      "end": 605.12,
+      "text": "si no es nuevo a funcionar. Si es que no les funcionase, va a haber otra opción."
+    },
+    {
+      "id": 84,
+      "start": 605.12,
+      "end": 613.12,
+      "text": "Ya."
+    },
+    {
+      "id": 85,
+      "start": 631.52,
+      "end": 632.8,
+      "text": "Ya, no lo sé."
+    },
+    {
+      "id": 86,
+      "start": 636.12,
+      "end": 642.24,
+      "text": "Bueno, hay que esperar un buen tiempo y así que tener paciencia por esta parte. Y una vez que"
+    },
+    {
+      "id": 87,
+      "start": 642.24,
+      "end": 649.6,
+      "text": "tengan eso, lo hacemos ejecutar acá. Si no, no todavía. Bueno, les explico un poquito antes,"
+    },
+    {
+      "id": 88,
+      "start": 649.6,
+      "end": 657.08,
+      "text": "aprovechando el tiempo, ¿no? Todo este aspecto me pregunté, ¿por qué docker? Generalmente,"
+    },
+    {
+      "id": 89,
+      "start": 657.08,
+      "end": 663.08,
+      "text": "evolution API para WhatsApp trabaja con docker. Ya, no sé, su mano derecha en los palabras."
+    },
+    {
+      "id": 90,
+      "start": 663.68,
+      "end": 669.72,
+      "text": "Pues no lo trabajamos en otro entorno. Además, cuando trabajamos con un servidor en la 9,"
+    },
+    {
+      "id": 91,
+      "start": 669.72,
+      "end": 676.32,
+      "text": "ya pues sí o sí nosotros trabajamos con puro Linux y lo demás y esto y entra. O sea,"
+    },
+    {
+      "id": 92,
+      "start": 676.32,
+      "end": 682.88,
+      "text": "ya está por defecto incluso esto. Ya, no sé si han visto algunos que son de informáticos, igual"
+    },
+    {
+      "id": 93,
+      "start": 682.88,
+      "end": 691.28,
+      "text": "hay diplomados, maestrías, netamente en AWS, o servidores Linux, no, ahí entra más que"
+    },
+    {
+      "id": 94,
+      "start": 691.28,
+      "end": 697.88,
+      "text": "todo estos cosas. Pero como no estamos haciendo netamente local y posteriormente en la 9 que va"
+    },
+    {
+      "id": 95,
+      "start": 697.88,
+      "end": 706.52,
+      "text": "a haber una segunda versión, si es que la hay, ahí vamos a implementar algunas cosas. Pero ya está."
+    },
+    {
+      "id": 96,
+      "start": 706.52,
+      "end": 713.76,
+      "text": "Ahora, yo hago un consejo, chicos, antes de empezar. Generalmente lo que voy a hacer yo,"
+    },
+    {
+      "id": 97,
+      "start": 714.76,
+      "end": 723.0,
+      "text": "en la mayoría de los casos, pues no sé, a ver, lo tengo en la cajita,"
+    },
+    {
+      "id": 98,
+      "start": 723.0,
+      "end": 729.76,
+      "text": "de web, los integrations, esto los va a aparecer algunas veces, ya. Y ahora estoy subiendo lo"
+    },
+    {
+      "id": 99,
+      "start": 729.76,
+      "end": 738.52,
+      "text": "AWS para lo que se arruinó. Ya, mientras tanto. Ahora sí, voy a parar esto un rato antes de empezar."
+    },
+    {
+      "id": 100,
+      "start": 739.12,
+      "end": 744.4,
+      "text": "Y ahora vamos a lo siguiente entonces."
+    },
+    {
+      "id": 101,
+      "start": 746.44,
+      "end": 751.08,
+      "text": "Podría pasar de nuevo la."
+    },
+    {
+      "id": 102,
+      "start": 751.08,
+      "end": 758.76,
+      "text": "Listo, listo, listo, listo. Listo. Ya, ahorita lo se envía. Listo, ya lo se envía."
+    },
+    {
+      "id": 103,
+      "start": 759.28,
+      "end": 767.56,
+      "text": "Listo, ahora sí ya pueden descargar los municipios listos. Bueno,"
+    },
+    {
+      "id": 104,
+      "start": 767.56,
+      "end": 773.88,
+      "text": "comentó los los siguientes. Generalmente, evolution API, si se trabaja con normal para"
+    },
+    {
+      "id": 105,
+      "start": 773.88,
+      "end": 781.16,
+      "text": "un negocio donde no tengamos mucha fluencia. A fluencia me refiero, ponganles que por día"
+    },
+    {
+      "id": 106,
+      "start": 781.16,
+      "end": 788.08,
+      "text": "puedan recibir más de mil, dos mil, bueno, arriba de 500 mensajes a diferentes números."
+    },
+    {
+      "id": 107,
+      "start": 788.08,
+      "end": 796.28,
+      "text": "Ahí sí les van a detectar y ver si les dan diferentes tipos de baneos por 4, 6, 10, 12 horas,"
+    },
+    {
+      "id": 108,
+      "start": 796.28,
+      "end": 805.56,
+      "text": "24 horas. Pero si somos una empresa bastante legal, no creo que tengamos esa fluencia de gente de"
+    },
+    {
+      "id": 109,
+      "start": 805.96,
+      "end": 813.56,
+      "text": "por día. No es casi imposible tener esa cantidad de de ventas. Así que por eso es que es todo"
+    },
+    {
+      "id": 110,
+      "start": 813.56,
+      "end": 820.28,
+      "text": "es más aplicativo, más que todo, ámbitos corporativos de empresas medianas y bajas."
+    },
+    {
+      "id": 111,
+      "start": 820.28,
+      "end": 827.56,
+      "text": "Ya empresas grandes, pero que tengan alta fluencia de usuarios como arriba de 500,"
+    },
+    {
+      "id": 112,
+      "start": 828.56,
+      "end": 835.68,
+      "text": "lo utilizan algunos este tipo de evolution APIs para hackear o para incluso de la cárcel"
+    },
+    {
+      "id": 113,
+      "start": 835.68,
+      "end": 843.16,
+      "text": "o de algún no sé, de algún clan más que todo de hackers, sí o sí utiliza esto a grosso modo y"
+    },
+    {
+      "id": 114,
+      "start": 843.16,
+      "end": 847.32,
+      "text": "cuando utiliza grosso modo pues se detectan. Por eso la mayoría de los hackers tienen"
+    },
+    {
+      "id": 115,
+      "start": 847.32,
+      "end": 853.76,
+      "text": "un montón de números aleatorios para poder detectar ales y hackearles. Ya, pero esto por"
+    },
+    {
+      "id": 116,
+      "start": 853.76,
+      "end": 858.12,
+      "text": "suerte tiene límites, o sea, les detectan y automáticamente el número se elimina o les dan"
+    },
+    {
+      "id": 117,
+      "start": 858.12,
+      "end": 865.52,
+      "text": "de baja. Por eso es que si es que ustedes lo van a utilizar para por día mayor a 500 usuarios,"
+    },
+    {
+      "id": 118,
+      "start": 865.52,
+      "end": 869.84,
+      "text": "no es recomendable. Sí o sí, ya se tiene que pagar lo que es, lo que hemos hecho anterior"
+    },
+    {
+      "id": 119,
+      "start": 869.84,
+      "end": 876.52,
+      "text": "clase que es WhatsApp API que es de Google, hay que pagar los tokens y demás para hacer los misos"
+    },
+    {
+      "id": 120,
+      "start": 876.52,
+      "end": 880.72,
+      "text": "procesos. Lo que hemos hecho anterior clase, voy a seguir continuando, pero quiero aprovechar esta"
+    },
+    {
+      "id": 121,
+      "start": 880.72,
+      "end": 886.84,
+      "text": "parte para que no nos atracemos mucho en la parte de instalación. Ese consejo les doy más que todo."
+    },
+    {
+      "id": 122,
+      "start": 888.72,
+      "end": 896.48,
+      "text": "Así que procederemos. Ya, una vez que ya lo han hecho eso, ya es día de estar habilitar su Docker,"
+    },
+    {
+      "id": 123,
+      "start": 896.48,
+      "end": 903.04,
+      "text": "esconder un habilito a Docker. El mío ya tengo algunos, ya. Bueno, tengo unas imágenes,"
+    },
+    {
+      "id": 124,
+      "start": 903.04,
+      "end": 908.12,
+      "text": "algunas containers de los distintos proyectos, pero este caso, por ejemplo,"
+    },
+    {
+      "id": 125,
+      "start": 909.12,
+      "end": 913.84,
+      "text": "estos litros va a parecer a ustedes. A mí me parece porque yo tengo instalado,"
+    },
+    {
+      "id": 126,
+      "start": 913.84,
+      "end": 919.36,
+      "text": "pero no podemos ser con ustedes ahora. Puedo eliminarlo incluso para hacerlo con ustedes."
+    },
+    {
+      "id": 127,
+      "start": 921.36,
+      "end": 925.0,
+      "text": "Va a haber, voy a tratar de eliminarlo para ejecutarlo."
+    },
+    {
+      "id": 128,
+      "start": 927.84,
+      "end": 933.16,
+      "text": "Ya, le meteremos chicos, yo voy a eliminarlo y directamente."
+    },
+    {
+      "id": 129,
+      "start": 934.16,
+      "end": 941.52,
+      "text": "Y vamos a ver con ustedes. Ya, así debe estar ustedes en la mayoría. Bueno, vacío."
+    },
+    {
+      "id": 130,
+      "start": 943.76,
+      "end": 945.08,
+      "text": "Ahora se voy a empezar."
+    },
+    {
+      "id": 131,
+      "start": 947.56,
+      "end": 952.96,
+      "text": "Una vez que han determinado esto, directamente vamos a hacer los siguientes pasos que les voy a"
+    },
+    {
+      "id": 132,
+      "start": 952.96,
+      "end": 959.2,
+      "text": "indicar. Les voy a pasar ahorita por Manuel, lo siguiente. Vamos a abrir nosotros en mede."
+    },
+    {
+      "id": 133,
+      "start": 960.2,
+      "end": 964.48,
+      "text": "Y voy a hacer los siguientes consults. Vamos a hacer estos consultitas."
+    },
+    {
+      "id": 134,
+      "start": 967.12,
+      "end": 972.52,
+      "text": "Y bueno, que te quiero que tengan. No tengan problemas con lo que les voy a mostrar."
+    },
+    {
+      "id": 135,
+      "start": 972.52,
+      "end": 980.44,
+      "text": "Ejecuten esto. Nestat. Net. Net. Estat. Así. Tal cual."
+    },
+    {
+      "id": 136,
+      "start": 985.44,
+      "end": 987.68,
+      "text": "Ya, este es lo que comando por secos."
+    },
+    {
+      "id": 137,
+      "start": 989.6,
+      "end": 995.2,
+      "text": "Ya, este es el comando. Net. Estat. Espacio."
+    },
+    {
+      "id": 138,
+      "start": 997.2,
+      "end": 1002.72,
+      "text": "Listo. Eso me muestra todas las direcciones de mis PIPIDs que están funcionando, o sea,"
+    },
+    {
+      "id": 139,
+      "start": 1002.72,
+      "end": 1010.16,
+      "text": "los puertos que estoy manipulando. Por ejemplo, este de acá, fíjense. Este que es para mí está"
+    },
+    {
+      "id": 140,
+      "start": 1010.16,
+      "end": 1018.24,
+      "text": "ocupado. Está ocupado y generalmente Docker y, bueno, Evolution API utiliza este puerto."
+    },
+    {
+      "id": 141,
+      "start": 1019.2,
+      "end": 1025.2,
+      "text": "Para comunicarse. Ya es como un número telefónico y nos la hablamos y nos puede"
+    },
+    {
+      "id": 142,
+      "start": 1025.2,
+      "end": 1031.44,
+      "text": "responder eso mismo. Y pues si no los los desarrollados la decimos. Está escuchando. Ya por ese puerto."
+    },
+    {
+      "id": 143,
+      "start": 1031.44,
+      "end": 1038.72,
+      "text": "Pero en este caso de ustedes no debe estar. Porque utilizo aquí Apache y Spark. Así que de"
+    },
+    {
+      "id": 144,
+      "start": 1038.72,
+      "end": 1045.56,
+      "text": "ustedes no debe estar. Debe estar libre. Pero si es que no estuviese igual podemos solaparlo."
+    },
+    {
+      "id": 145,
+      "start": 1045.56,
+      "end": 1050.96,
+      "text": "Pueden colocar lo siguiente. Algo más específico. Net. Así van a colocar. Net. Estat."
+    },
+    {
+      "id": 146,
+      "start": 1052.68,
+      "end": 1061.08,
+      "text": "Espacio. En este caso vamos a colocar esta parte. Así el simbolito de este de acá que ven."
+    },
+    {
+      "id": 147,
+      "start": 1062.08,
+      "end": 1068.6,
+      "text": "Ahora vamos a encontrar. Find. Esa tere. Ya. 80. 80."
+    },
+    {
+      "id": 148,
+      "start": 1069.6,
+      "end": 1075.08,
+      "text": "Ya. Esta parte. Pero no voy a copiar. Yo voy a suscribir. Pasar."
+    },
+    {
+      "id": 149,
+      "start": 1077.72,
+      "end": 1083.48,
+      "text": "Listo. Ya. Este puerto que estoy escuchando. Acá es lógico, ¿no? Porque aquí los hemos"
+    },
+    {
+      "id": 150,
+      "start": 1083.48,
+      "end": 1091.0,
+      "text": "echado el 80 80. Si es que no les aparece eso. En otros que les aparece el 80 80."
+    },
+    {
+      "id": 151,
+      "start": 1092.0,
+      "end": 1101.08,
+      "text": "Acá que está escuchando. Fíjense. Mi pide es el 3.704. Y cuando le he buscado de manera"
+    },
+    {
+      "id": 152,
+      "start": 1101.08,
+      "end": 1107.28,
+      "text": "específica. Aquí está el 3.704. Ya. Pero yo quiero ver quién está en este caso."
+    },
+    {
+      "id": 153,
+      "start": 1107.28,
+      "end": 1116.12,
+      "text": "Escuchándome. Así que voy a ejecutar esto. El task list. Find. En este caso es mi 704."
+    },
+    {
+      "id": 154,
+      "start": 1116.12,
+      "end": 1126.84,
+      "text": "Listo. Ahí está ejecutándose este programa. Ya. Así que los voy a pasar este. Si es que"
+    },
+    {
+      "id": 155,
+      "start": 1126.84,
+      "end": 1136.36,
+      "text": "están utilizando ese aspecto. Lo he pasado en su enermit. Ya. Ese es el primero que pueden ejecutar."
+    },
+    {
+      "id": 156,
+      "start": 1137.36,
+      "end": 1145.8,
+      "text": "Y en base a ese van a hacer este otro. Y van a copiar esto. Para ver quién está utilizando"
+    },
+    {
+      "id": 157,
+      "start": 1145.8,
+      "end": 1154.32,
+      "text": "ese puerto. Listo. Ya. Si está ahorita vamos a la par. Si no está, hagan lo mismo que lo que yo voy a"
+    },
+    {
+      "id": 158,
+      "start": 1154.32,
+      "end": 1161.08,
+      "text": "hacer. Ya. No hay problema. Mejor si no les aparece nada. Para evitar algún problema en el futuro."
+    },
+    {
+      "id": 159,
+      "start": 1161.4,
+      "end": 1167.6,
+      "text": "Pero yo voy a trabajar en base como si estuviera trabajando con problemas. Ya. Ensemblaza de esta"
+    },
+    {
+      "id": 160,
+      "start": 1167.6,
+      "end": 1176.56,
+      "text": "parte. Vamos a empezar a trabajar. Se leyes. Se voy a colocar para borrar. Y empezaremos con el sistema."
+    },
+    {
+      "id": 161,
+      "start": 1176.56,
+      "end": 1183.32,
+      "text": "Ya. Una vez que hayan tenido eso. Vamos a instalar en este caso lo que es Docker. Docker ya no"
+    },
+    {
+      "id": 162,
+      "start": 1183.32,
+      "end": 1188.52,
+      "text": "han instalado. Así que voy a irme directamente a la versión. Así que voy a consultar qué versiones"
+    },
+    {
+      "id": 163,
+      "start": 1188.52,
+      "end": 1200.36,
+      "text": "antes de empezar. Docker y versión. Perdón. Ya. Bueno, no hay problemas. Y bueno, me dar. Ya. Ahora"
+    },
+    {
+      "id": 164,
+      "start": 1200.36,
+      "end": 1209.12,
+      "text": "voy a hacer lo siguiente. Docker. Vamos a colocar esto más. Docker compose. Versión. Vamos a ver"
+    },
+    {
+      "id": 165,
+      "start": 1209.12,
+      "end": 1216.32,
+      "text": "qué versión tengo yo acá. 2.35.1. Bueno, me está antiguito. No sé. ¿Dónde usted se usa superior este?"
+    },
+    {
+      "id": 166,
+      "start": 1217.28,
+      "end": 1224.36,
+      "text": "Ya. Una vez que tengan eso, vamos a tratar de trabajar con los sistemas. Ahora. Una vez que"
+    },
+    {
+      "id": 167,
+      "start": 1224.36,
+      "end": 1230.4,
+      "text": "aquí les de esto arriba de 2.35. Este es el más aconsejable para el core Docker."
+    },
+    {
+      "id": 168,
+      "start": 1231.4,
+      "end": 1238.92,
+      "text": "Vamos a hacer lo siguiente. Voy a abrir la termina que había abierto más antes cuando trabajaba"
+    },
+    {
+      "id": 169,
+      "start": 1238.92,
+      "end": 1246.2,
+      "text": "dentro de mi carpetita. Ahí voy a ejecutarlo. Para los que acaban de entrar, por ejemplo,"
+    },
+    {
+      "id": 170,
+      "start": 1246.2,
+      "end": 1254.04,
+      "text": "voy a volver a hacer roar y voy a abrir esto acá. A ver terminal y directamente aires va a aparecer."
+    },
+    {
+      "id": 171,
+      "start": 1255.04,
+      "end": 1263.16,
+      "text": "Ya. Ahora sí. A partir de acá voy a tratar de empezar a trabajar con Docker. Así que estoy más o"
+    },
+    {
+      "id": 172,
+      "start": 1263.16,
+      "end": 1269.2,
+      "text": "menos espero para que no tengan problemas. Ya. En este caso voy a tratar de trabajar con Docker"
+    },
+    {
+      "id": 173,
+      "start": 1269.2,
+      "end": 1277.4,
+      "text": "compose y Docker sin haber. Ahora te los voy a mostrar esa parte. Ya. Con lo que vemos entonces."
+    },
+    {
+      "id": 174,
+      "start": 1277.4,
+      "end": 1287.92,
+      "text": "Docker compose espacio app. Quión de así van a colocar. Si no les funciona ese guión de van a"
+    },
+    {
+      "id": 175,
+      "start": 1287.92,
+      "end": 1293.6,
+      "text": "hacerlo solamente con el app. Está ahí nomás. Ya. Yo voy a hacer con el app para que no tengan"
+    },
+    {
+      "id": 176,
+      "start": 1293.6,
+      "end": 1303.04,
+      "text": "problemas la mayoría. A veces cumplir con de para ver qué me da. Hacen enter y van a empezar a cargar."
+    },
+    {
+      "id": 177,
+      "start": 1303.04,
+      "end": 1310.84,
+      "text": "Ya. Y se los va a crear rápidamente eso. Ya está. De ustedes seguramente va a tardar un poco."
+    },
+    {
+      "id": 178,
+      "start": 1312.24,
+      "end": 1319.32,
+      "text": "Ya. De usted va a tardar bastante. Que es veinte minutos, media hora, dos horas. Mucho va a depender"
+    },
+    {
+      "id": 179,
+      "start": 1319.32,
+      "end": 1327.04,
+      "text": "de la de la capacidad de su computadora como tanto de la internet. Voy a ejecutar a Docker compose sin"
+    },
+    {
+      "id": 180,
+      "start": 1327.04,
+      "end": 1334.84,
+      "text": "de. Ya. Y esto es lo que les tiene que aparecer."
+    },
+    {
+      "id": 181,
+      "start": 1338.04,
+      "end": 1343.68,
+      "text": "Está tratando de conectar a pos. Y está tratando de generarse crearse la tabla de base de datos."
+    },
+    {
+      "id": 182,
+      "start": 1343.68,
+      "end": 1349.28,
+      "text": "Ahora qué está haciendo acá. El bueno contenedor acá se está creando dentro del"
+    },
+    {
+      "id": 183,
+      "start": 1349.28,
+      "end": 1353.96,
+      "text": "contenedor lo que es la conexión con la base de datos. Para qué para que futuro ya me pueda grabar"
+    },
+    {
+      "id": 184,
+      "start": 1353.96,
+      "end": 1360.88,
+      "text": "números, grabar citas, grabar todo acá dentro de la configuración. Ya. Ahora no se van a"
+    },
+    {
+      "id": 185,
+      "start": 1360.88,
+      "end": 1366.92,
+      "text": "asustar. Va a parar tus errores. Es decir, esto internamente se va hackeando y hackeando en"
+    },
+    {
+      "id": 186,
+      "start": 1366.92,
+      "end": 1374.28,
+      "text": "bucles hasta lograr la conexión con la base de datos. Esto puede tardar mucho o puede tardar muy"
+    },
+    {
+      "id": 187,
+      "start": 1374.28,
+      "end": 1379.72,
+      "text": "poco. En este caso, la primera vez que hagan va a tardar bien rápido porque no no utilizan"
+    },
+    {
+      "id": 188,
+      "start": 1379.72,
+      "end": 1388.28,
+      "text": "ustedes programas para que vaya enchocando haciendo reconversión de valores en mascarando"
+    },
+    {
+      "id": 189,
+      "start": 1388.28,
+      "end": 1393.28,
+      "text": "criptografía. No lo hace. Pero en mi caso, como lo he borró y lo estoy volviendo a ejecutar,"
+    },
+    {
+      "id": 190,
+      "start": 1393.28,
+      "end": 1399.52,
+      "text": "va a empezar a analizar todo eso. Ya y está empezando a crear las migraciones correspondientes"
+    },
+    {
+      "id": 191,
+      "start": 1400.16,
+      "end": 1402.68,
+      "text": "para generarme. Hay que esperar."
+    },
+    {
+      "id": 192,
+      "start": 1404.68,
+      "end": 1413.08,
+      "text": "Y hasta creo a ver si está conectando mi sistema y me tiene que lanzar una cheta de"
+    },
+    {
+      "id": 193,
+      "start": 1413.08,
+      "end": 1420.0,
+      "text": "p. Pero ya está en sí. Ya está terminando y está conectando y está volviendo a entrar."
+    },
+    {
+      "id": 194,
+      "start": 1421.04,
+      "end": 1426.4,
+      "text": "Está empezando a inicializar o levantar lo que es la evolución API."
+    },
+    {
+      "id": 195,
+      "start": 1427.4,
+      "end": 1433.24,
+      "text": "Y ahí está. Fíjense acá. Por ejemplo, aquí me dice que está terminando. No está terminando"
+    },
+    {
+      "id": 196,
+      "start": 1433.24,
+      "end": 1440.2,
+      "text": "pero ya está corredible a levantar mi HTTP 8080. Este es el puerto que les había comentado que trabaja."
+    },
+    {
+      "id": 197,
+      "start": 1442.12,
+      "end": 1448.36,
+      "text": "Ya esa parte, si te chicos, va a tardar un montón era o va a tardar un rápido."
+    },
+    {
+      "id": 198,
+      "start": 1448.36,
+      "end": 1455.12,
+      "text": "Lo hace muy rápido en este caso. Para ver si está instalado bien hasta que les debo"
+    },
+    {
+      "id": 199,
+      "start": 1455.12,
+      "end": 1462.0,
+      "text": "te hasta acá. Esta cosa verde que ven acá hasta ahí vamos a abrir un nuevo navegador."
+    },
+    {
+      "id": 200,
+      "start": 1464.32,
+      "end": 1474.84,
+      "text": "En este caso mi navegador va a ser el local 7777. Ya van a colocar entonces local hosts"
+    },
+    {
+      "id": 201,
+      "start": 1476.6,
+      "end": 1482.56,
+      "text": "7777 y van a petrante. Les tendría que aparecer esto."
+    },
+    {
+      "id": 202,
+      "start": 1485.52,
+      "end": 1493.4,
+      "text": "Ya. Y si nos damos cuenta me dice. Ah, no anda tal manager me dice y el manager me está dando"
+    },
+    {
+      "id": 203,
+      "start": 1493.4,
+      "end": 1502.92,
+      "text": "una o nueva o URL. Aquí está. Eso voy a copiarme. Ojo, siempre y cuando haya llegado hasta acá."
+    },
+    {
+      "id": 204,
+      "start": 1504.24,
+      "end": 1510.72,
+      "text": "Ya tiene que aparecer tal cual como están viendo. Eso significa que ya se ha conectado a todo la base"
+    },
+    {
+      "id": 205,
+      "start": 1510.8,
+      "end": 1518.36,
+      "text": "de datos, ha conectado a sí mismo y está levantando. Directamente para trabajar. Ya ahora si entramos"
+    },
+    {
+      "id": 206,
+      "start": 1518.36,
+      "end": 1525.96,
+      "text": "antes al docker de esto miren ya se instalado. Y si hago esta partecita clica."
+    },
+    {
+      "id": 207,
+      "start": 1526.8,
+      "end": 1533.84,
+      "text": "Dice que mi postgres y mi evolución API están funcionando por su medalla los interfaces"
+    },
+    {
+      "id": 208,
+      "start": 1533.92,
+      "end": 1541.84,
+      "text": "verdes y te dice que mi puerto se localhost 7777 por eso es que ingresado acá a ese puerto y me"
+    },
+    {
+      "id": 209,
+      "start": 1541.84,
+      "end": 1549.2,
+      "text": "tendría que votar esto. Una vez que hago eso copio y voy a abrir acá."
+    },
+    {
+      "id": 210,
+      "start": 1551.64,
+      "end": 1559.08,
+      "text": "Y esta parte les va a aparecer así. Es la interfaz general de evolución API."
+    },
+    {
+      "id": 211,
+      "start": 1560.08,
+      "end": 1567.64,
+      "text": "Ya ahora que hay que colocar a piquí. Esta piquí hasta dentro del proyecto. Si nos"
+    },
+    {
+      "id": 212,
+      "start": 1567.64,
+      "end": 1572.8,
+      "text": "nos vamos acá en acá mismo donde están hecho y la la conversión y donde han"
+    },
+    {
+      "id": 213,
+      "start": 1572.8,
+      "end": 1578.84,
+      "text": "y descomprimido se les va a crear estas tres instancias evolución intancia evolución postgres"
+    },
+    {
+      "id": 214,
+      "start": 1578.84,
+      "end": 1588.48,
+      "text": "y es el store. Ya van a abrir ustedes el evolución punto en vez hacen clic derecho y lo van a abrir"
+    },
+    {
+      "id": 215,
+      "start": 1588.48,
+      "end": 1594.96,
+      "text": "con eso con un blog de notas. Abre el blog de notas va a aparecer esto."
+    },
+    {
+      "id": 216,
+      "start": 1597.24,
+      "end": 1602.2,
+      "text": "Aquí está toda la información y dónde tenemos que hacer y demás y acá abajo."
+    },
+    {
+      "id": 217,
+      "start": 1604.16,
+      "end": 1611.84,
+      "text": "Aquí dice autentication API piquí dice aquí está esta parte ustedes pueden cambiar la"
+    },
+    {
+      "id": 218,
+      "start": 1612.2,
+      "end": 1617.16,
+      "text": "ya su clave secreta de ustedes no hay problema yo no voy a cambiar"
+    },
+    {
+      "id": 219,
+      "start": 1618.88,
+      "end": 1623.92,
+      "text": "porque esto voy a copiar y lo voy a pegar acá"
+    },
+    {
+      "id": 220,
+      "start": 1627.0,
+      "end": 1632.08,
+      "text": "y lo voy a hacer el login. Si se han dado cuenta y he podido ingresar a"
+    },
+    {
+      "id": 221,
+      "start": 1632.08,
+      "end": 1643.52,
+      "text": "bueno a la API ya este instanche me sirve para instanciar lo que son los números así puedo"
+    },
+    {
+      "id": 222,
+      "start": 1643.52,
+      "end": 1651.4,
+      "text": "colocar aquí la instancia que se llama milton y trabajemos con algunos modelos ya unos canales"
+    },
+    {
+      "id": 223,
+      "start": 1651.4,
+      "end": 1660.76,
+      "text": "en los palabras hay tres canales hay bailaris el whatsapp api el evolución generalmente para"
+    },
+    {
+      "id": 224,
+      "start": 1660.76,
+      "end": 1668.6,
+      "text": "trabajar de manera no tan legal pero para que esto es como se ve comentas rato no no"
+    },
+    {
+      "id": 225,
+      "start": 1668.6,
+      "end": 1675.24,
+      "text": "los aquí ni en sus usuarios normales o funcional bailing pero este whatsapp clave api ya pueden"
+    },
+    {
+      "id": 226,
+      "start": 1675.24,
+      "end": 1682.68,
+      "text": "trabajar con su clout de lo que pueden comprarse de meta ya estos dos de acá por ejemplo esto"
+    },
+    {
+      "id": 227,
+      "start": 1682.68,
+      "end": 1688.6,
+      "text": "igual trabajamos acá directamente así de manera ilegal se podría decir pero no es ilegal sino"
+    },
+    {
+      "id": 228,
+      "start": 1688.6,
+      "end": 1697.04,
+      "text": "es que para aspectos de marketing si se lo ve ilegal pero yo me trabaja con el bailing y aquí"
+    },
+    {
+      "id": 229,
+      "start": 1697.04,
+      "end": 1704.92,
+      "text": "que loca en el número de ustedes siempre coloque en el 591 con como adelante y su número de"
+    },
+    {
+      "id": 230,
+      "start": 1704.92,
+      "end": 1711.36,
+      "text": "whatsapp business whatsapp normal pero supongo que la mayor de su business pero acá en este caso"
+    },
+    {
+      "id": 231,
+      "start": 1711.36,
+      "end": 1718.52,
+      "text": "consejo verbos repetibles si es que van a manejar arriba de 500 usuarios yo no les aconsejo"
+    },
+    {
+      "id": 232,
+      "start": 1718.52,
+      "end": 1723.4,
+      "text": "que coloquen sus números ya pueden trabajar con los números de empresa porque les van a"
+    },
+    {
+      "id": 233,
+      "start": 1723.4,
+      "end": 1732.56,
+      "text": "vanear pero no creo no hay negocio que yo conozca excepto las dos restaurantes y algunas empresas"
+    },
+    {
+      "id": 234,
+      "start": 1732.56,
+      "end": 1741.44,
+      "text": "que venden por delivery pero que administran por whatsapp ahí si son más de 500 usuarios ahí"
+    },
+    {
+      "id": 235,
+      "start": 1741.44,
+      "end": 1747.4,
+      "text": "si les pueden vanear siempre y cuando el sistema vuelva a petiles no les detecte que es marketing"
+    },
+    {
+      "id": 236,
+      "start": 1747.4,
+      "end": 1753.0,
+      "text": "ya es que más refiero con marketing no sé si en alguna vez algún grupo al entrado ustedes"
+    },
+    {
+      "id": 237,
+      "start": 1753.0,
+      "end": 1762.32,
+      "text": "y siempre les mandan de criptografía de binance de bitcoins que este tipo de mensajes si les detecta"
+    },
+    {
+      "id": 238,
+      "start": 1762.32,
+      "end": 1774.08,
+      "text": "eso si es se podría decir si bueno nosotros decimos los virus informáticos pero de marketing en este"
+    },
+    {
+      "id": 239,
+      "start": 1774.08,
+      "end": 1780.84,
+      "text": "caso los crashing pero no creo que ustedes lo utilicen ya pero por si acaso se aconsejo si"
+    },
+    {
+      "id": 240,
+      "start": 1780.84,
+      "end": 1785.36,
+      "text": "nos van a vanear los van a bajar la cuenta y demás si están trabajando con una empresa que es"
+    },
+    {
+      "id": 241,
+      "start": 1785.36,
+      "end": 1791.56,
+      "text": "bastante de tiempo y ya no tiene ese mismo número bastante tiempo cuidado que les que les hagan"
+    },
+    {
+      "id": 242,
+      "start": 1791.56,
+      "end": 1801.76,
+      "text": "problemas eso es la primera parte hasta aquí debería de funcionar a todos porque nunca han"
+    },
+    {
+      "id": 243,
+      "start": 1801.76,
+      "end": 1808.6,
+      "text": "trabajado con otro tipo de programas para que se les vaya solapando y eso es bien complicado"
+    },
+    {
+      "id": 244,
+      "start": 1808.6,
+      "end": 1816.16,
+      "text": "de deshacer y volver a hacer otros instancias una vez que tengan ahí ya estaría terminado el proyecto"
+    },
+    {
+      "id": 245,
+      "start": 1817.36,
+      "end": 1824.92,
+      "text": "a partir de acá netamente es conexiones y delas hay otra forma si es que les va a dar"
+    },
+    {
+      "id": 246,
+      "start": 1825.24,
+      "end": 1832.96,
+      "text": "esos de esa parte les enseñará pero la que voy a enseñar les hablará no debería de no deberían"
+    },
+    {
+      "id": 247,
+      "start": 1832.96,
+      "end": 1841.04,
+      "text": "aplicarlo porque con esto ya sufi pero les voy a enseñar igual para que se crean sus propios"
+    },
+    {
+      "id": 248,
+      "start": 1841.04,
+      "end": 1849.08,
+      "text": "contenedores en esta parte por si acaso lo que acabo de hacer acá todo esto todo esto netamente"
+    },
+    {
+      "id": 249,
+      "start": 1849.08,
+      "end": 1859.52,
+      "text": "chicos es tiene un tiempo de vida no nomás refiero que vaya a dejar de funcionar si no es que"
+    },
+    {
+      "id": 250,
+      "start": 1859.52,
+      "end": 1868.92,
+      "text": "si quieren creer proyectos nuevos y demás y propios netamente así ya pueden hacer usted sea"
+    },
+    {
+      "id": 251,
+      "start": 1869.8,
+      "end": 1876.84,
+      "text": "normal pero tiene otro proceso es lo que voy a hacer ahorita esto lo que se ha pasado es eterno"
+    },
+    {
+      "id": 252,
+      "start": 1876.84,
+      "end": 1882.56,
+      "text": "si pero alguien quizá me quiera hacer prueba pide más así que esa parte lo vamos a hacer ya no con"
+    },
+    {
+      "id": 253,
+      "start": 1882.56,
+      "end": 1895.48,
+      "text": "esto ya pero lo otro es más para subirlo a la nube así que lo haremos y a ver creme otro ya"
+    },
+    {
+      "id": 254,
+      "start": 1898.56,
+      "end": 1903.44,
+      "text": "recomendación no hagan lo que voy a hacer si es que no lo funcionan van a chocar y van a tener"
+    },
+    {
+      "id": 255,
+      "start": 1903.44,
+      "end": 1913.52,
+      "text": "problemas si es que las a funcionado la primera normal voy a crear mucho carpeta voy a colocar"
+    },
+    {
+      "id": 256,
+      "start": 1913.52,
+      "end": 1919.04,
+      "text": "evolución ya"
+    },
+    {
+      "id": 257,
+      "start": 1921.64,
+      "end": 1930.8,
+      "text": "listo voy a entrar en acá y voy a empezar a crear ya en esta casa voy a colocar lo siguiente por"
+    },
+    {
+      "id": 258,
+      "start": 1930.8,
+      "end": 1933.68,
+      "text": "ejemplo no va a terminar"
+    },
+    {
+      "id": 259,
+      "start": 1936.0,
+      "end": 1942.52,
+      "text": "ahí van a estar y voy a empezar a crear mechos ya pero que voy a trabajar con visor de code"
+    },
+    {
+      "id": 260,
+      "start": 1946.24,
+      "end": 1947.12,
+      "text": "y esto"
+    },
+    {
+      "id": 261,
+      "start": 1954.88,
+      "end": 1955.48,
+      "text": "yo"
+    },
+    {
+      "id": 262,
+      "start": 1956.48,
+      "end": 1967.36,
+      "text": "y a lo que voy a creerme son cuatro cuatro folders ya pueden crearlo por consola pueden crearlo"
+    },
+    {
+      "id": 263,
+      "start": 1967.36,
+      "end": 1976.76,
+      "text": "directamente por de manera gráfica directamente acá voy a colocar en este caso un file"
+    },
+    {
+      "id": 264,
+      "start": 1976.76,
+      "end": 1981.72,
+      "text": "docker compos"
+    },
+    {
+      "id": 265,
+      "start": 1984.4,
+      "end": 1988.36,
+      "text": "punto y ml listo"
+    },
+    {
+      "id": 266,
+      "start": 1991.32,
+      "end": 1992.76,
+      "text": "listo esperamos ahí"
+    },
+    {
+      "id": 267,
+      "start": 1992.76,
+      "end": 2007.28,
+      "text": "y a esta parte por si a casi igual tarde ya pero se plan veces que no les funcionan ningún"
+    },
+    {
+      "id": 268,
+      "start": 2013.52,
+      "end": 2018.0,
+      "text": "esto sabe tener 15 minutos en el peor de los casos"
+    },
+    {
+      "id": 269,
+      "start": 2018.44,
+      "end": 2026.52,
+      "text": "otro día crame el debe punto m que es mi base de datos no se va a guardar todos mis"
+    },
+    {
+      "id": 270,
+      "start": 2026.52,
+      "end": 2038.48,
+      "text": "informaciones luego voy a crame un evolución punto nv y luego voy a crame un"
+    },
+    {
+      "id": 271,
+      "start": 2039.48,
+      "end": 2048.32,
+      "text": "para escolar que se vaya a mi gt y si tal cual ya listo"
+    },
+    {
+      "id": 272,
+      "start": 2049.92,
+      "end": 2054.72,
+      "text": "así en esta parte del nv voy a hacer lo siguiente"
+    },
+    {
+      "id": 273,
+      "start": 2056.84,
+      "end": 2061.56,
+      "text": "si no me acuerdo o si me recuerdo ahorita que lo sé"
+    },
+    {
+      "id": 274,
+      "start": 2062.56,
+      "end": 2066.2,
+      "text": "evolución"
+    },
+    {
+      "id": 275,
+      "start": 2069.2,
+      "end": 2075.6,
+      "text": "ahora por si acaso esto tiene ya sus pases si si es que no se se no se recuerdo ahorita no me"
+    },
+    {
+      "id": 276,
+      "start": 2075.6,
+      "end": 2082.24,
+      "text": "recuerdo pueden hacer acá de volución hay perdón"
+    },
+    {
+      "id": 277,
+      "start": 2082.48,
+      "end": 2094.12,
+      "text": "y a ponerse acá y aquí está en evolución el pie documentación van a colocar sin los"
+    },
+    {
+      "id": 278,
+      "start": 2099.8,
+      "end": 2107.36,
+      "text": "ya no solamente pueden trabajar con posiles ya vamos a saber tardar de un reto"
+    },
+    {
+      "id": 279,
+      "start": 2108.24,
+      "end": 2113.8,
+      "text": "puede trabajar con otros entornos de base de datos no es obligatorio trabajar con eso"
+    },
+    {
+      "id": 280,
+      "start": 2113.8,
+      "end": 2116.16,
+      "text": "ya aquí está"
+    },
+    {
+      "id": 281,
+      "start": 2117.84,
+      "end": 2122.4,
+      "text": "puede trabajar como es y cual con demás aspectos de api ya"
+    },
+    {
+      "id": 282,
+      "start": 2124.68,
+      "end": 2126.16,
+      "text": "llevando con compos"
+    },
+    {
+      "id": 283,
+      "start": 2127.16,
+      "end": 2136.12,
+      "text": "no se integración ya voy a irme a"
+    },
+    {
+      "id": 284,
+      "start": 2138.76,
+      "end": 2140.88,
+      "text": "y aquí está por si acaso todo"
+    },
+    {
+      "id": 285,
+      "start": 2143.44,
+      "end": 2145.6,
+      "text": "ya toda la documentación"
+    },
+    {
+      "id": 286,
+      "start": 2147.56,
+      "end": 2151.72,
+      "text": "para poder hacer las instalaciones por responder solamente tiene que tomar el"
+    },
+    {
+      "id": 287,
+      "start": 2151.72,
+      "end": 2159.76,
+      "text": "tiempo y el literal de leer bastante y instalaciones por ejemplo ya aquí está"
+    },
+    {
+      "id": 288,
+      "start": 2159.76,
+      "end": 2166.56,
+      "text": "docker se se dan cuenta aquí están las últimas versiones de ok ver docker y docker compos y"
+    },
+    {
+      "id": 289,
+      "start": 2166.56,
+      "end": 2173.28,
+      "text": "a los mínimos y aquí pueden clonar aquí está justo lo que les estoy ahorita creando"
+    },
+    {
+      "id": 290,
+      "start": 2174.28,
+      "end": 2180.88,
+      "text": "todo esto está todos podemos copiar y pegar uno más aquí está bien post los datos de"
+    },
+    {
+      "id": 291,
+      "start": 2180.88,
+      "end": 2187.84,
+      "text": "esa evolución de v pues es el ser un empeor secret password y aquí lo mismo ahí está todo lo que"
+    },
+    {
+      "id": 292,
+      "start": 2187.84,
+      "end": 2193.12,
+      "text": "voy a hacer ahorita es que voy a copiar y voy a pegar nomás y aquí por ejemplo donde dice"
+    },
+    {
+      "id": 293,
+      "start": 2193.12,
+      "end": 2200.64,
+      "text": "docker compos y a y a m o y a m l no importa mucho eso todos estos problemas copiar y pegar no hay"
+    },
+    {
+      "id": 294,
+      "start": 2200.64,
+      "end": 2209.24,
+      "text": "problema aquí es donde ustedes tienen que cambiar sus passwords de usuario pero que les ha pasado"
+    },
+    {
+      "id": 295,
+      "start": 2209.24,
+      "end": 2214.36,
+      "text": "automáticamente y a los a creado ustedes de que no van a tener problema y también se puede trabajar"
+    },
+    {
+      "id": 296,
+      "start": 2214.36,
+      "end": 2222.08,
+      "text": "con instalaciones de npm pero por tipo de instancias y que hay para mac los que tienen mac y aquí"
+    },
+    {
+      "id": 297,
+      "start": 2222.08,
+      "end": 2228.08,
+      "text": "otros dos hay un montón de las de cosas que pueden trabajar aquí está maya se cuide configuración"
+    },
+    {
+      "id": 298,
+      "start": 2229.28,
+      "end": 2234.8,
+      "text": "como se instala tanto en windows en linux en mac todo está ahí"
+    },
+    {
+      "id": 299,
+      "start": 2234.8,
+      "end": 2243.44,
+      "text": "y a todos estoy hasta con lo que les ha pasado ahora sí volveremos al medio del asunto"
+    },
+    {
+      "id": 300,
+      "start": 2243.44,
+      "end": 2246.4,
+      "text": "voy a copiarme estas partes y te sé"
+    },
+    {
+      "id": 301,
+      "start": 2246.4,
+      "end": 2248.2,
+      "text": "me ha gustado"
+    },
+    {
+      "id": 302,
+      "start": 2251.76,
+      "end": 2254.68,
+      "text": "de menudo chico que está"
+    },
+    {
+      "id": 303,
+      "start": 2255.68,
+      "end": 2257.0,
+      "text": "voy a copiarme esto"
+    },
+    {
+      "id": 304,
+      "start": 2258.4,
+      "end": 2260.68,
+      "text": "voy a venir a mí acá"
+    },
+    {
+      "id": 305,
+      "start": 2260.68,
+      "end": 2276.12,
+      "text": "listo y a pegar yo y aquí pueden colocar diferente tipo de bueno username y demás hay otro más más"
+    },
+    {
+      "id": 306,
+      "start": 2276.12,
+      "end": 2282.92,
+      "text": "compacto por ejemplo en vez de trabajar con base de datos podemos trabajar con igual evolución"
+    },
+    {
+      "id": 307,
+      "start": 2282.92,
+      "end": 2287.72,
+      "text": "nomás que se llama también evolución evolución de media pero ya pueden ver ustedes ahí para que"
+    },
+    {
+      "id": 308,
+      "start": 2287.8,
+      "end": 2291.88,
+      "text": "no se ve con los anteriores tratan de darles siempre numeritos por ejemplo yo voy a colocar dos"
+    },
+    {
+      "id": 309,
+      "start": 2291.88,
+      "end": 2299.64,
+      "text": "cuatro seis pero siempre me morís en ceso ya el pasbo también traten de darse un pasbo que ustedes"
+    },
+    {
+      "id": 310,
+      "start": 2299.64,
+      "end": 2305.64,
+      "text": "pueden ejecutar ya por ejemplo voy a dar evolución igual uno dos tres"
+    },
+    {
+      "id": 311,
+      "start": 2305.8,
+      "end": 2318.36,
+      "text": "ya y en username déjanlo con pósfilos nomás ya o incluso a que lo pueden cambiar y lo pueden ser"
+    },
+    {
+      "id": 312,
+      "start": 2318.36,
+      "end": 2319.56,
+      "text": "evolución"
+    },
+    {
+      "id": 313,
+      "start": 2321.56,
+      "end": 2330.56,
+      "text": "y listo ya eso ya dependen de ustedes ahora voy a buscarme el otro el evolution punto en y"
+    },
+    {
+      "id": 314,
+      "start": 2330.56,
+      "end": 2339.72,
+      "text": "ya vamos a irnos acá aquí debe estar aquí está todo esto se copian"
+    },
+    {
+      "id": 315,
+      "start": 2341.28,
+      "end": 2342.72,
+      "text": "y en acá y lo pegan"
+    },
+    {
+      "id": 316,
+      "start": 2346.8,
+      "end": 2352.72,
+      "text": "otro les igual esto ya luego que nos necesitamos el ya ya aquí de"
+    },
+    {
+      "id": 317,
+      "start": 2352.72,
+      "end": 2354.88,
+      "text": "usted ya carriba este bueno"
+    },
+    {
+      "id": 318,
+      "start": 2359.6,
+      "end": 2365.76,
+      "text": "ya tenemos eso las instancias aquí está se copian esto igual lo crean acá"
+    },
+    {
+      "id": 319,
+      "start": 2369.28,
+      "end": 2374.24,
+      "text": "ya control es para guardarlo y ahora vamos a irnos directamente a lo que es la fase del"
+    },
+    {
+      "id": 320,
+      "start": 2374.96,
+      "end": 2380.8,
+      "text": "el git no es necesario automáticamente se genera esto ahora lo mismo"
+    },
+    {
+      "id": 321,
+      "start": 2382.16,
+      "end": 2388.16,
+      "text": "esta parte vayan cambiando si se dan cuenta todo esto es idéntico esto"
+    },
+    {
+      "id": 322,
+      "start": 2390.32,
+      "end": 2393.84,
+      "text": "entonces vamos a tener que copiarlo y pegarlo acá"
+    },
+    {
+      "id": 323,
+      "start": 2394.56,
+      "end": 2395.84,
+      "text": "y"
+    },
+    {
+      "id": 324,
+      "start": 2396.88,
+      "end": 2404.96,
+      "text": "listo ahí pueden pegarlo directamente nada más ya esta parte aumenten eso y hagan el así tal"
+    },
+    {
+      "id": 325,
+      "start": 2404.96,
+      "end": 2410.8,
+      "text": "cual para que no los tenga de que tengan problemas supuestamente ya yo no lo voy a hacer todavía"
+    },
+    {
+      "id": 326,
+      "start": 2410.8,
+      "end": 2416.8,
+      "text": "porque ya tengo un estrado no me quiero generar problemas interno así que prefiero no trabajar"
+    },
+    {
+      "id": 327,
+      "start": 2416.8,
+      "end": 2421.2,
+      "text": "todavía para estos por el caso para los que no no les está corriendo con este tipo de"
+    },
+    {
+      "id": 328,
+      "start": 2421.76,
+      "end": 2423.68,
+      "text": "ejemplos y demás ya"
+    },
+    {
+      "id": 329,
+      "start": 2425.52,
+      "end": 2430.0,
+      "text": "listo en su la vez que tengan hasta ahí que más pueden cambiar esta partecito"
+    },
+    {
+      "id": 330,
+      "start": 2431.12,
+      "end": 2432.72,
+      "text": "todo esto dejen lo por defecto"
+    },
+    {
+      "id": 331,
+      "start": 2434.0,
+      "end": 2436.24,
+      "text": "esto también dejen lo por defecto"
+    },
+    {
+      "id": 332,
+      "start": 2437.52,
+      "end": 2441.84,
+      "text": "si si todo ahora los que tienen problemas con el puerto"
+    },
+    {
+      "id": 333,
+      "start": 2442.72,
+      "end": 2447.44,
+      "text": "si ahorita no les ha corrido por los motivos y es decir algún puerto que está mal"
+    },
+    {
+      "id": 334,
+      "start": 2447.52,
+      "end": 2452.08,
+      "text": "aquí pueden cambiarlo en vez de 80 81"
+    },
+    {
+      "id": 335,
+      "start": 2453.2,
+      "end": 2455.04,
+      "text": "o el 82 o el 83"
+    },
+    {
+      "id": 336,
+      "start": 2456.56,
+      "end": 2462.56,
+      "text": "una vez que ya hemos hecho todo eso o sea siempre es hacemos lo mismo que hemos hecho anterior"
+    },
+    {
+      "id": 337,
+      "start": 2463.76,
+      "end": 2466.64,
+      "text": "o sea en la carpeta que he creado en la nueva"
+    },
+    {
+      "id": 338,
+      "start": 2468.56,
+      "end": 2474.96,
+      "text": "directamente acá ahora que estoy ahorita no acá lo mismo clic derecho"
+    },
+    {
+      "id": 339,
+      "start": 2475.68,
+      "end": 2477.2,
+      "text": "abren terminar"
+    },
+    {
+      "id": 340,
+      "start": 2479.2,
+      "end": 2484.88,
+      "text": "y de nuevo van a colocar docker compose así docker compose"
+    },
+    {
+      "id": 341,
+      "start": 2485.44,
+      "end": 2490.24,
+      "text": "espacio y onde y listo lo crean entre y lo mismo que hemos hecho eso otros"
+    },
+    {
+      "id": 342,
+      "start": 2492.08,
+      "end": 2496.64,
+      "text": "nada más ya eso es en caso de que tengan problemas"
+    },
+    {
+      "id": 343,
+      "start": 2498.32,
+      "end": 2502.64,
+      "text": "pero no lo vamos a trabajar así porque creo que lo medio debe tener normal"
+    },
+    {
+      "id": 344,
+      "start": 2502.8,
+      "end": 2511.6,
+      "text": "normal ya eso es un más que todo necesito chicos hasta la si hasta el día sábado"
+    },
+    {
+      "id": 345,
+      "start": 2513.04,
+      "end": 2522.0,
+      "text": "para que podamos empezar a hacer proyectos un poquito más estructurados ya a la primera"
+    },
+    {
+      "id": 346,
+      "start": 2522.0,
+      "end": 2528.4,
+      "text": "les va a funcionar no creo que nadie tenga problemas porque es de manera directa ya esa"
+    },
+    {
+      "id": 347,
+      "start": 2528.72,
+      "end": 2530.16,
+      "text": "parte si de chicos ahora si"
+    },
+    {
+      "id": 348,
+      "start": 2532.4,
+      "end": 2537.76,
+      "text": "una vez que ya hemos hecho eso pues ya podemos en este caso llamar lista"
+    },
+    {
+      "id": 349,
+      "start": 2539.6,
+      "end": 2544.32,
+      "text": "y en base a la lista que os voy a mostrar vas a hacer defensa ya hoy día los voy a dar los grupos"
+    },
+    {
+      "id": 350,
+      "start": 2544.32,
+      "end": 2547.04,
+      "text": "bueno grupos van a trabajar independientemente"
+    },
+    {
+      "id": 351,
+      "start": 2549.28,
+      "end": 2549.84,
+      "text": "así que"
+    },
+    {
+      "id": 352,
+      "start": 2552.32,
+      "end": 2553.76,
+      "text": "aprovecharemos esa parte"
+    },
+    {
+      "id": 353,
+      "start": 2554.48,
+      "end": 2554.96,
+      "text": "y"
+    },
+    {
+      "id": 354,
+      "start": 2558.16,
+      "end": 2558.64,
+      "text": "listo"
+    },
+    {
+      "id": 355,
+      "start": 2561.76,
+      "end": 2562.96,
+      "text": "me voy a sortear"
+    },
+    {
+      "id": 356,
+      "start": 2566.48,
+      "end": 2569.84,
+      "text": "y en base a esto pues vamos a ya tener defensas"
+    },
+    {
+      "id": 357,
+      "start": 2570.88,
+      "end": 2577.36,
+      "text": "son 16 como son cuatro días de dissertación a partir de la fecha por si acaso tenemos"
+    },
+    {
+      "id": 358,
+      "start": 2578.08,
+      "end": 2579.36,
+      "text": "apague mi computadora"
+    },
+    {
+      "id": 359,
+      "start": 2581.6,
+      "end": 2588.08,
+      "text": "y hoy estamos 18 ya a ver vamos a hacer los carcados necesarios nos queda cuatro clases"
+    },
+    {
+      "id": 360,
+      "start": 2588.64,
+      "end": 2597.84,
+      "text": "el sábado 20 jueves 25 sábado 27 y el último clases sería jueves 2 ya incluso probablemente"
+    },
+    {
+      "id": 361,
+      "start": 2597.84,
+      "end": 2603.04,
+      "text": "vamos a terminar sábado 27 terminamos las clases ya se el 27 y es el 2"
+    },
+    {
+      "id": 362,
+      "start": 2604.0,
+      "end": 2611.28,
+      "text": "inmediatamente el 4 el 9 el 11 y el 16 son las defensas"
+    },
+    {
+      "id": 363,
+      "start": 2612.32,
+      "end": 2618.72,
+      "text": "ya voy a intentar de copiar este ratito para que nos perdamos tenemos ratito voy a hacer un scream y"
+    },
+    {
+      "id": 364,
+      "start": 2618.72,
+      "end": 2619.6,
+      "text": "los voy a colocar acá"
+    },
+    {
+      "id": 365,
+      "start": 2622.64,
+      "end": 2625.12,
+      "text": "ya creo que no puedo hacer scream tenemos retito"
+    },
+    {
+      "id": 366,
+      "start": 2625.28,
+      "end": 2632.72,
+      "text": "y en base a eso ya van a tener sus fechas de desertación"
+    },
+    {
+      "id": 367,
+      "start": 2634.96,
+      "end": 2635.84,
+      "text": "ahora sí creo"
+    },
+    {
+      "id": 368,
+      "start": 2639.2,
+      "end": 2642.56,
+      "text": "nunca son casas y a eso voy a colocar acá"
+    },
+    {
+      "id": 369,
+      "start": 2650.56,
+      "end": 2651.12,
+      "text": "ahora sí"
+    },
+    {
+      "id": 370,
+      "start": 2651.76,
+      "end": 2658.48,
+      "text": "y a de nueve nos repartiremos y a grupos y va a ser en base a lo que han mandado"
+    },
+    {
+      "id": 371,
+      "start": 2660.48,
+      "end": 2661.04,
+      "text": "en la lista"
+    },
+    {
+      "id": 372,
+      "start": 2663.6,
+      "end": 2665.28,
+      "text": "ya nos quedamos en lo siguiente"
+    },
+    {
+      "id": 373,
+      "start": 2668.08,
+      "end": 2668.88,
+      "text": "primer grupo"
+    },
+    {
+      "id": 374,
+      "start": 2673.12,
+      "end": 2674.16,
+      "text": "segundo grupo"
+    },
+    {
+      "id": 375,
+      "start": 2677.92,
+      "end": 2679.04,
+      "text": "tercer grupo"
+    },
+    {
+      "id": 376,
+      "start": 2682.08,
+      "end": 2683.12,
+      "text": "y cuarto grupo"
+    },
+    {
+      "id": 377,
+      "start": 2685.28,
+      "end": 2693.68,
+      "text": "ya no están obligados a asistir esos días chicos ya directamente el día de su exposición"
+    },
+    {
+      "id": 378,
+      "start": 2694.32,
+      "end": 2699.2,
+      "text": "nada más ya voy a aceptar los cuatro y luego el siguiente clase de ellos y ellos y ellos ya"
+    },
+    {
+      "id": 379,
+      "start": 2699.84,
+      "end": 2709.68,
+      "text": "entonces para que seamos justos ellos seguramente han llenado primeritos ya van a pasar al último"
+    },
+    {
+      "id": 380,
+      "start": 2712.08,
+      "end": 2716.16,
+      "text": "así que la el orden de defensa va a ser el siguiente"
+    },
+    {
+      "id": 381,
+      "start": 2720.4,
+      "end": 2721.68,
+      "text": "listo ahí pari"
+    },
+    {
+      "id": 382,
+      "start": 2723.52,
+      "end": 2724.32,
+      "text": "ya ahora sí"
+    },
+    {
+      "id": 383,
+      "start": 2728.96,
+      "end": 2735.92,
+      "text": "listo este primer grupo en exponer segundo tercero cuarto"
+    },
+    {
+      "id": 384,
+      "start": 2737.84,
+      "end": 2738.96,
+      "text": "ya ese es el orden"
+    },
+    {
+      "id": 385,
+      "start": 2741.68,
+      "end": 2742.88,
+      "text": "la fecha para ellos"
+    },
+    {
+      "id": 386,
+      "start": 2744.08,
+      "end": 2748.96,
+      "text": "fecha aquí voy a notar asistencia partir de anterior crecio estoy notando porque lo voy a notar con"
+    },
+    {
+      "id": 387,
+      "start": 2748.96,
+      "end": 2760.0,
+      "text": "ustedes si el rey llama lista asistencia 18 0 6 20 26 listo vamos a colocar luego en este caso"
+    },
+    {
+      "id": 388,
+      "start": 2760.0,
+      "end": 2769.04,
+      "text": "estamos el 18 luego tenemos el 20 0 6 20 26 y así sucede una dos tres hasta aquí pasaríamos"
+    },
+    {
+      "id": 389,
+      "start": 2769.52,
+      "end": 2774.8,
+      "text": "ya quedaremos bien ya probablemente si es que no terminó hasta el 27"
+    },
+    {
+      "id": 390,
+      "start": 2776.24,
+      "end": 2780.32,
+      "text": "bueno termina el 2 pero lo más probable es que terminamos el 27 así que"
+    },
+    {
+      "id": 391,
+      "start": 2782.48,
+      "end": 2787.44,
+      "text": "25 0 6 20 26 y directamente"
+    },
+    {
+      "id": 392,
+      "start": 2788.88,
+      "end": 2793.28,
+      "text": "perdón perdón perdón se que me voy a colocar y ahora sí y por último 27"
+    },
+    {
+      "id": 393,
+      "start": 2794.24,
+      "end": 2800.64,
+      "text": "y aquí empezarían las defensas y esto es asistencia asistencia y asistencia"
+    },
+    {
+      "id": 394,
+      "start": 2804.08,
+      "end": 2809.52,
+      "text": "ya estos de certación ya el primer grupo empezaría"
+    },
+    {
+      "id": 395,
+      "start": 2812.16,
+      "end": 2816.72,
+      "text": "netamente el 2 de julio"
+    },
+    {
+      "id": 396,
+      "start": 2817.28,
+      "end": 2818.72,
+      "text": "y"
+    },
+    {
+      "id": 397,
+      "start": 2820.72,
+      "end": 2827.84,
+      "text": "es la primera defensa anotense la fecha porque es 98 por ciento probable que lo defienden ese día"
+    },
+    {
+      "id": 398,
+      "start": 2830.08,
+      "end": 2834.8,
+      "text": "ya me veo un poquito y los demás ya van y sucesivamente obviamente"
+    },
+    {
+      "id": 399,
+      "start": 2835.52,
+      "end": 2843.44,
+      "text": "ya entonces siguiente grupo va a ser el perdón estamos tres no el cuatro sería su siguiente"
+    },
+    {
+      "id": 400,
+      "start": 2843.6,
+      "end": 2848.64,
+      "text": "0 4 0 7 20 20 esto perdón esto es el 7"
+    },
+    {
+      "id": 401,
+      "start": 2851.52,
+      "end": 2859.92,
+      "text": "listo y por último el siguiente grupo va a ser obviamente el 9 y el 11 respectivamente"
+    },
+    {
+      "id": 402,
+      "start": 2864.4,
+      "end": 2868.16,
+      "text": "ya ya y terminaríamos las clases ese día bueno las clases no es la"
+    },
+    {
+      "id": 403,
+      "start": 2869.12,
+      "end": 2870.88,
+      "text": "de este aspecto ese día"
+    },
+    {
+      "id": 404,
+      "start": 2872.4,
+      "end": 2879.6,
+      "text": "y ya no habría más procesos listo si alguien falta ahorita en la lista puede hablar"
+    },
+    {
+      "id": 405,
+      "start": 2883.2,
+      "end": 2887.76,
+      "text": "ya que están todos en el dinero yo pasa que no puede"
+    },
+    {
+      "id": 406,
+      "start": 2889.04,
+      "end": 2895.76,
+      "text": "hacerlo el formulario que se me cortó esa esa clases no cortó el fallo y no puede"
+    },
+    {
+      "id": 407,
+      "start": 2896.72,
+      "end": 2909.12,
+      "text": "tenía cinco días y ahora si ya vamos a quedar contigo ya unite al grupo número uno ya cual es tu nombre"
+    },
+    {
+      "id": 408,
+      "start": 2912.8,
+      "end": 2914.0,
+      "text": "ay perdón tu visa"
+    },
+    {
+      "id": 409,
+      "start": 2917.6,
+      "end": 2918.88,
+      "text": "listo gracias miguel"
+    },
+    {
+      "id": 410,
+      "start": 2919.68,
+      "end": 2920.88,
+      "text": "si"
+    },
+    {
+      "id": 411,
+      "start": 2920.88,
+      "end": 2926.32,
+      "text": "res lo es lo hizo miguel listo yo te voy a notar ahí"
+    },
+    {
+      "id": 412,
+      "start": 2928.16,
+      "end": 2931.44,
+      "text": "sé llenar el formulario"
+    },
+    {
+      "id": 413,
+      "start": 2932.64,
+      "end": 2934.56,
+      "text": "eso la verdad me ha estado mucho trabajo"
+    },
+    {
+      "id": 414,
+      "start": 2936.56,
+      "end": 2937.36,
+      "text": "pero es tu nombre"
+    },
+    {
+      "id": 415,
+      "start": 2939.76,
+      "end": 2940.64,
+      "text": "son brabalos"
+    },
+    {
+      "id": 416,
+      "start": 2941.84,
+      "end": 2942.32,
+      "text": "listo"
+    },
+    {
+      "id": 417,
+      "start": 2943.28,
+      "end": 2943.76,
+      "text": "listo"
+    },
+    {
+      "id": 418,
+      "start": 2946.96,
+      "end": 2949.76,
+      "text": "listo van a ser el primer grupo entonces"
+    },
+    {
+      "id": 419,
+      "start": 2949.76,
+      "end": 2952.48,
+      "text": "si ahora vamos a hablar ahorita ahorita os voy a acomodar"
+    },
+    {
+      "id": 420,
+      "start": 2952.48,
+      "end": 2953.12,
+      "text": "vemos ratito"
+    },
+    {
+      "id": 421,
+      "start": 2954.0,
+      "end": 2958.08,
+      "text": "y estos bien otras sus nombres ya bien pero quedaremos bien"
+    },
+    {
+      "id": 422,
+      "start": 2959.52,
+      "end": 2963.52,
+      "text": "y entonces no creo que nos alcance mucho tiempo"
+    },
+    {
+      "id": 423,
+      "start": 2965.52,
+      "end": 2966.64,
+      "text": "ya vamos a hacer lo siguiente"
+    },
+    {
+      "id": 424,
+      "start": 2967.6,
+      "end": 2968.48,
+      "text": "todos ellos"
+    },
+    {
+      "id": 425,
+      "start": 2969.44,
+      "end": 2978.08,
+      "text": "que día cae pues un miércoles no no es una pero el dos jueves la media jueves no tiene tiempo"
+    },
+    {
+      "id": 426,
+      "start": 2980.08,
+      "end": 2980.48,
+      "text": "ya"
+    },
+    {
+      "id": 427,
+      "start": 2982.8,
+      "end": 2987.44,
+      "text": "ruiz te vas a pasar te mantienes ahí sandra te vas al grupo verde"
+    },
+    {
+      "id": 428,
+      "start": 2988.8,
+      "end": 2994.16,
+      "text": "al grupo verde del grupo número dos listo bueno si ya alguien más"
+    },
+    {
+      "id": 429,
+      "start": 2995.12,
+      "end": 3004.48,
+      "text": "no todos están ya todos están entonces chicos los 18 estaríamos y yendo directamente a defensa"
+    },
+    {
+      "id": 430,
+      "start": 3004.48,
+      "end": 3011.76,
+      "text": "con la embajada ya hasta hoy día tenemos que quedar eso y hasta quedado si alguien falta pues no"
+    },
+    {
+      "id": 431,
+      "start": 3011.76,
+      "end": 3018.88,
+      "text": "dudan hablar ahorita mismo antes que envíe las listas oficiales ya bueno vaya mal lista si están"
+    },
+    {
+      "id": 432,
+      "start": 3019.36,
+      "end": 3026.96,
+      "text": "duditos si no están vamos a sacarlos ya bien mal y en base eso antes de eso voy a secar las"
+    },
+    {
+      "id": 433,
+      "start": 3029.04,
+      "end": 3030.8,
+      "text": "los screams de ahí de morratito"
+    },
+    {
+      "id": 434,
+      "start": 3033.52,
+      "end": 3040.16,
+      "text": "y en base eso vamos a quedar ya bueno aquí mismo lo que aguarda los screens para los clases correspondientes"
+    },
+    {
+      "id": 435,
+      "start": 3040.64,
+      "end": 3048.96,
+      "text": "ya siguiente voy a dejar de compartir y voy a empezar a llamar listo ya"
+    },
+    {
+      "id": 436,
+      "start": 3050.32,
+      "end": 3051.68,
+      "text": "de monroto chicos"
+    },
+    {
+      "id": 437,
+      "start": 3056.24,
+      "end": 3056.56,
+      "text": "ya"
+    },
+    {
+      "id": 438,
+      "start": 3058.88,
+      "end": 3063.28,
+      "text": "de monroto estoy anotando los participaciones y las"
+    },
+    {
+      "id": 439,
+      "start": 3065.2,
+      "end": 3067.44,
+      "text": "listo ya no se empezamos a llamar listo"
+    },
+    {
+      "id": 440,
+      "start": 3068.16,
+      "end": 3072.56,
+      "text": "los demás cuatro clases y muchos ya da valor y aliso"
+    },
+    {
+      "id": 441,
+      "start": 3076.64,
+      "end": 3078.88,
+      "text": "ya no hay ríbar a coimbra está"
+    },
+    {
+      "id": 442,
+      "start": 3079.92,
+      "end": 3082.48,
+      "text": "rascanda listo gracias ramos castro"
+    },
+    {
+      "id": 443,
+      "start": 3084.24,
+      "end": 3086.32,
+      "text": "presente listo al barber de quispe"
+    },
+    {
+      "id": 444,
+      "start": 3088.8,
+      "end": 3091.76,
+      "text": "maria veran no hay cuento to rico"
+    },
+    {
+      "id": 445,
+      "start": 3093.92,
+      "end": 3095.44,
+      "text": "no hay serrano velozco"
+    },
+    {
+      "id": 446,
+      "start": 3098.4,
+      "end": 3099.28,
+      "text": "hay a la arias"
+    },
+    {
+      "id": 447,
+      "start": 3101.68,
+      "end": 3105.52,
+      "text": "listo gracias menchaca araus"
+    },
+    {
+      "id": 448,
+      "start": 3107.36,
+      "end": 3108.8,
+      "text": "esto vida lurquiza"
+    },
+    {
+      "id": 449,
+      "start": 3110.96,
+      "end": 3112.24,
+      "text": "listo lópez vizaga"
+    },
+    {
+      "id": 450,
+      "start": 3114.8,
+      "end": 3116.48,
+      "text": "listo callejás camargo"
+    },
+    {
+      "id": 451,
+      "start": 3118.8,
+      "end": 3120.88,
+      "text": "ya no hay hay creo no hay"
+    },
+    {
+      "id": 452,
+      "start": 3123.6,
+      "end": 3124.8,
+      "text": "no hay valdes vargas"
+    },
+    {
+      "id": 453,
+      "start": 3125.6,
+      "end": 3129.28,
+      "text": "no hay serrantes mamá no ya gracias valdes"
+    },
+    {
+      "id": 454,
+      "start": 3129.28,
+      "end": 3133.44,
+      "text": "serrantes listo y hasta serrantes mamá"
+    },
+    {
+      "id": 455,
+      "start": 3133.44,
+      "end": 3138.88,
+      "text": "monica patricia listo gracias luis agar rubín"
+    },
+    {
+      "id": 456,
+      "start": 3141.36,
+      "end": 3142.24,
+      "text": "no hay"
+    },
+    {
+      "id": 457,
+      "start": 3144.24,
+      "end": 3145.52,
+      "text": "vaca perera"
+    },
+    {
+      "id": 458,
+      "start": 3147.52,
+      "end": 3148.32,
+      "text": "no hay tanto"
+    },
+    {
+      "id": 459,
+      "start": 3149.44,
+      "end": 3150.72,
+      "text": "salinas y baños"
+    },
+    {
+      "id": 460,
+      "start": 3150.88,
+      "end": 3152.0,
+      "text": "salinas y bañas"
+    },
+    {
+      "id": 461,
+      "start": 3154.0,
+      "end": 3156.56,
+      "text": "si que te lo que tal rubín de"
+    },
+    {
+      "id": 462,
+      "start": 3156.56,
+      "end": 3162.72,
+      "text": "ella listo listo listo gracias salinas y bañas está madeline"
+    },
+    {
+      "id": 463,
+      "start": 3164.56,
+      "end": 3166.16,
+      "text": "y ahora ya pasó a mi"
+    },
+    {
+      "id": 464,
+      "start": 3166.16,
+      "end": 3167.04,
+      "text": "vaya listo"
+    },
+    {
+      "id": 465,
+      "start": 3170.0,
+      "end": 3173.36,
+      "text": "riz loisa miguel ahí estaba y ahora lo son de esta listo"
+    },
+    {
+      "id": 466,
+      "start": 3174.16,
+      "end": 3176.16,
+      "text": "riberos despulcan los asipas"
+    },
+    {
+      "id": 467,
+      "start": 3177.12,
+      "end": 3178.0,
+      "text": "riberos"
+    },
+    {
+      "id": 468,
+      "start": 3178.96,
+      "end": 3180.48,
+      "text": "a valdivia solo valerias no?"
+    },
+    {
+      "id": 469,
+      "start": 3180.48,
+      "end": 3181.28,
+      "text": "si"
+    },
+    {
+      "id": 470,
+      "start": 3181.28,
+      "end": 3183.12,
+      "text": "ya listo listo gracias"
+    },
+    {
+      "id": 471,
+      "start": 3184.0,
+      "end": 3187.6,
+      "text": "ya eh taten de existir las cuatro clases que nos queda"
+    },
+    {
+      "id": 472,
+      "start": 3187.6,
+      "end": 3191.68,
+      "text": "ya que algunas personas no solamente no notó todo el nombre creo y no nos"
+    },
+    {
+      "id": 473,
+      "start": 3191.68,
+      "end": 3195.6,
+      "text": "existió ninguna clase o pocas clases así que vamos a eliminarlos"
+    },
+    {
+      "id": 474,
+      "start": 3195.6,
+      "end": 3199.68,
+      "text": "pero taten de existir las últimas cuatro clases hasta el 27 y ahí terminamos ya"
+    },
+    {
+      "id": 475,
+      "start": 3199.68,
+      "end": 3201.6,
+      "text": "ya directamente sus exorcisiones y demás"
+    },
+    {
+      "id": 476,
+      "start": 3202.56,
+      "end": 3206.16,
+      "text": "y este chico cosas hasta el sábado porfa taten de instalar todo ese aspecto"
+    },
+    {
+      "id": 477,
+      "start": 3206.16,
+      "end": 3211.12,
+      "text": "si tienen problemas me dicen internamente pero no creo que tengan problemas"
+    },
+    {
+      "id": 478,
+      "start": 3211.12,
+      "end": 3216.24,
+      "text": "así que el sábado mismo voy a empezar a avanzar todo de manera corrida ya"
+    },
+    {
+      "id": 479,
+      "start": 3217.6,
+      "end": 3220.48,
+      "text": "y este chico sino hay preguntas ahí terminamos la clase"
+    },
+    {
+      "id": 480,
+      "start": 3221.28,
+      "end": 3222.16,
+      "text": "pueden retirar"
+    },
+    {
+      "id": 481,
+      "start": 3223.44,
+      "end": 3226.16,
+      "text": "o toma un metito porfa ya listo esto va a haber"
+    },
+    {
+      "id": 482,
+      "start": 3227.28,
+      "end": 3228.72,
+      "text": "los puedes retirarse chicos no hay problema"
+    },
+    {
+      "id": 483,
+      "start": 3229.6,
+      "end": 3231.04,
+      "text": "nos vemos la siguiente clase"
+    },
+    {
+      "id": 484,
+      "start": 3231.68,
+      "end": 3235.6,
+      "text": "eje lo subirá hasta hasta noche si si"
+    },
+    {
+      "id": 485,
+      "start": 3235.6,
+      "end": 3240.0,
+      "text": "tarde la el vídeo ahorita mejor voy a subir porque como es cortito no hay problema"
+    },
+    {
+      "id": 486,
+      "start": 3240.0,
+      "end": 3246.56,
+      "text": "si si ya listo listo gracias listo chucho ahorita voy a dejar de que pueda"
+    },
+    {
+      "id": 487,
+      "start": 3246.56,
+      "end": 3247.68,
+      "text": "no chucho"
+    }
+  ]
+}

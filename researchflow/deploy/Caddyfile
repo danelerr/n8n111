@@ -1,0 +1,11 @@
+# Caddy: HTTPS automatico (Let's Encrypt) para n8n y Evolution API.
+# Requiere que n8n.{DOMAIN} y evo.{DOMAIN} apunten a la IP del droplet
+# (con DuckDNS: crear el subdominio y usar el wildcard *.tuproyecto.duckdns.org).
+
+n8n.{$DOMAIN} {
+	reverse_proxy n8n:5678
+}
+
+evo.{$DOMAIN} {
+	reverse_proxy evolution:8080
+}

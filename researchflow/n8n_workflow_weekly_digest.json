@@ -1,0 +1,245 @@
+{
+  "name": "ResearchFlow - Digest semanal",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                1
+              ],
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "id": "rf-0049",
+      "name": "Schedule - Lunes 8am",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "notes": "Digest semanal del backlog. Ajustar dia/hora a gusto."
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT id, estado, LEFT(COALESCE(NULLIF(tema_refinado, ''), idea_original), 80) AS titulo, created_at::date AS fecha FROM research_ideas WHERE estado IN ('idea', 'refinada') ORDER BY created_at DESC LIMIT 15;",
+        "options": {}
+      },
+      "id": "rf-0050",
+      "name": "Postgres - Ideas pendientes",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        220,
+        0
+      ],
+      "notes": "Asignar credencial Postgres (base researchflow). Ejecutar database_schema_postgres.sql antes de activar.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst items = $input.all().map(i => i.json).filter(j => j && j.id != null);\nconst lineas = items.map(j => '#' + j.id + ' [' + j.estado + '] ' + (j.titulo || '') + (j.fecha ? ' (' + j.fecha + ')' : ''));\nconst lista = lineas.join('\\n');\nconst hay_ideas = lineas.length > 0;\nconst prompt_digest = hay_ideas\n  ? [\n      'Eres ResearchFlow. Redacta un digest semanal breve y motivador (maximo 200 palabras) para el propietario del sistema.',\n      'Backlog de ideas de investigacion pendientes:',\n      lista,\n      '',\n      'Incluye: 1) resumen del backlog en una frase, 2) cual idea recomiendas investigar primero y por que, 3) recordatorio de que puede lanzar con \"investigar N\" por WhatsApp.',\n      'Texto plano, sin markdown.'\n    ].join('\\n')\n  : 'Di exactamente: Tu backlog de ideas esta vacio esta semana. Manda cualquier idea al WhatsApp de ResearchFlow y la refinamos.';\nreturn [{ json: { hay_ideas, lista, prompt_digest } }];\n"
+      },
+      "id": "rf-0051",
+      "name": "Preparar digest",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_digest }] }], generationConfig: { temperature: 0.4 } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0052",
+      "name": "Gemini - Redactar digest",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        0
+      ],
+      "notes": "Redaccion del digest; sin busqueda web.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst prev = $('Preparar digest').first().json;\nconst resp = $input.first().json || {};\nlet texto = extractText(resp);\nif (!texto) {\n  texto = prev.hay_ideas\n    ? 'Ideas pendientes en tu backlog:\\n' + prev.lista + '\\n\\nLanza una con \"investigar N\" por WhatsApp.'\n    : 'Tu backlog de ideas esta vacio esta semana. Manda cualquier idea al WhatsApp de ResearchFlow.';\n}\nconst email_html = '<div style=\"font-family:Segoe UI,Arial,sans-serif;max-width:640px;margin:auto\"><h2>Digest semanal ResearchFlow</h2><p style=\"white-space:pre-wrap\">' + texto.replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</p></div>';\nconst whatsapp_text = ('ResearchFlow digest semanal:\\n' + texto).slice(0, 900);\nreturn [{ json: { email_html, whatsapp_text } }];\n"
+      },
+      "id": "rf-0053",
+      "name": "Preparar envio",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "REPLACE_WITH_OWNER_EMAIL",
+        "subject": "ResearchFlow - Digest semanal de ideas",
+        "emailType": "html",
+        "message": "={{ $json.email_html }}",
+        "options": {}
+      },
+      "id": "rf-0054",
+      "name": "Gmail - Enviar digest",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1100,
+        0
+      ],
+      "notes": "Asignar credencial Gmail OAuth2 y correo del propietario.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: 'REPLACE_WITH_OWNER_WHATSAPP', text: $('Preparar envio').first().json.whatsapp_text } }}",
+        "options": {}
+      },
+      "id": "rf-0055",
+      "name": "Evolution - Aviso digest",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        0
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    }
+  ],
+  "connections": {
+    "Schedule - Lunes 8am": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Ideas pendientes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Ideas pendientes": {
+      "main": [
+        [
+          {
+            "node": "Preparar digest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar digest": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Redactar digest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Redactar digest": {
+      "main": [
+        [
+          {
+            "node": "Preparar envio",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar envio": {
+      "main": [
+        [
+          {
+            "node": "Gmail - Enviar digest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail - Enviar digest": {
+      "main": [
+        [
+          {
+            "node": "Evolution - Aviso digest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "active": false,
+  "versionId": "researchflow-digest-v2",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "id": "researchflow-digest",
+  "tags": []
+}

@@ -1,0 +1,3089 @@
+WEBVTT
+
+00:01:00.000 --> 00:01:25.000
+Y aquí estamos los chichicos, y empezaremos la clase de hoy.
+
+00:01:25.000 --> 00:01:37.000
+Hoy vamos a pasar una hora por cuestiones de salud.
+
+00:01:37.000 --> 00:01:57.000
+No va a ser tan complicado la clase, pero va a ser bastante interesante lo que vamos a saber.
+
+00:01:57.000 --> 00:02:06.000
+No se preocupa en esa parte.
+
+00:02:06.000 --> 00:02:24.000
+Voy a admitir algunas personas más y ahora empezamos.
+
+00:02:24.000 --> 00:02:53.000
+Ya, ya lo iniciaremos. Hoy sí va a haber una pequeña evaluación, así que vamos a abrir un borte.
+
+00:02:53.000 --> 00:03:02.000
+Voy a abrir el borte, va a ser el trabajo número 6, si no me equivoco.
+
+00:03:02.000 --> 00:03:06.000
+Igual es lo mismo.
+
+00:03:06.000 --> 00:03:25.000
+Voy a seleccionar 4 personas al azar para mostrarles el día.
+
+00:03:25.000 --> 00:03:33.000
+Aquí lo mismo nombre que pasó Patricia.
+
+00:03:33.000 --> 00:03:36.000
+Buenas noches.
+
+00:03:36.000 --> 00:03:47.000
+¿Cuál es el proyecto que tenemos que proponer?
+
+00:03:47.000 --> 00:04:01.000
+Voy a trabajar con visión artificial para los créditos de carbono en la agricultura.
+
+00:04:01.000 --> 00:04:12.000
+Me pregunta, alguna de las clases recomiendo que podríamos comprar un paquete de 5 dólares.
+
+00:04:12.000 --> 00:04:22.000
+¿Qué opinas de hacer estos análisis con visión artificial?
+
+00:04:22.000 --> 00:04:30.000
+Voy a ir comprando paquetes, quería saber qué recomendaciones me da a usted.
+
+00:04:30.000 --> 00:04:33.000
+¿Qué vas a entrenar?
+
+00:04:33.000 --> 00:04:45.000
+Imágenes satelitales. Voy a trabajar con regiones de Santa Cruz.
+
+00:04:45.000 --> 00:04:51.000
+Bueno, así resumiendo, porque no lo tengo todavía, como tenía que dar más o menos la estructura.
+
+00:04:51.000 --> 00:04:59.000
+La consulta, la automatización, como tal, va a ser también que se pongan las coordenadas de su área o el archivo en cada DMZ
+
+00:04:59.000 --> 00:05:03.000
+y que les dé una respuesta más o menos de ciertos índices.
+
+00:05:03.000 --> 00:05:06.000
+Exacto, ya, es lo que te recomiendo, siguiente.
+
+00:05:06.000 --> 00:05:13.000
+Para esa parte no es necesario utilizar, pero es utilizar netamente websockets.
+
+00:05:13.000 --> 00:05:18.000
+Websockets directamente te trabaja con el sistema.
+
+00:05:18.000 --> 00:05:21.000
+Esto trabaja de manera paralela.
+
+00:05:21.000 --> 00:05:24.000
+Tú la consultas la posición, él te entrega y viceversa.
+
+00:05:24.000 --> 00:05:27.000
+Cuando él te entrega te va a decir, ah, ya, eso está actualizando.
+
+00:05:27.000 --> 00:05:29.000
+O sea, se actualiza el tiempo actual.
+
+00:05:29.000 --> 00:05:36.000
+No necesitas una idea, porque esto lo vas a seguir directamente con los parámetros y con las interfaz que vas a conectarlos.
+
+00:05:36.000 --> 00:05:38.000
+Así que no es necesario.
+
+00:05:38.000 --> 00:05:46.000
+Para entrenar netamente esto, si lo vas a utilizar, supongo en call-up o en Piedorch, no sé cuál, pero no necesitas.
+
+00:05:46.000 --> 00:05:52.000
+A no ser que tú le preguntes, ah, ya, ¿quieren esta coordenada tal proceso o tal análisis?
+
+00:05:52.000 --> 00:06:00.000
+A todos los parámetros estadísticos y sensidades que manejas, ah, y así puedes utilizar para hacerte menos, menos extenso tu proyecto y menos pesado.
+
+00:06:00.000 --> 00:06:06.000
+Pero, para lo que me comentas, no es más que pueda trabajar sin IASO, esa parte.
+
+00:06:06.000 --> 00:06:11.000
+¿Eso podría ser válido para que también lo presente acá?
+
+00:06:11.000 --> 00:06:13.000
+No, no hay problema.
+
+00:06:13.000 --> 00:06:16.000
+No hay problema, no sé si, ¿listo?
+
+00:06:16.000 --> 00:06:18.000
+¿Listo, Valeria?
+
+00:06:18.000 --> 00:06:19.000
+Gracias.
+
+00:06:19.000 --> 00:06:20.000
+¿Listo?
+
+00:06:20.000 --> 00:06:24.000
+Pero sí. Continuaremos entonces.
+
+00:06:24.000 --> 00:06:33.000
+Y, igual con lo que no hay su nombre, su la fecha de IASO, la evaluación número 6, creo.
+
+00:06:33.000 --> 00:06:35.000
+Valeró 6, sí, sí, la evaluación 6.
+
+00:06:35.000 --> 00:06:42.000
+Valeró 6, número 6.
+
+00:06:42.000 --> 00:06:43.000
+Ok, continuamos.
+
+00:06:43.000 --> 00:06:44.000
+Captura 1.
+
+00:06:45.000 --> 00:06:49.000
+Ya, y un buen punto que tocó su compañero.
+
+00:06:49.000 --> 00:06:52.000
+O eso lo voy a hablar cuando ya termine de hacer este proceso.
+
+00:06:52.000 --> 00:06:54.000
+Ahí vamos a aplicarlo.
+
+00:06:54.000 --> 00:06:56.000
+Ya, algunos cosillas, además.
+
+00:06:56.000 --> 00:06:58.000
+Yo voy a hacer compaseros de pago.
+
+00:06:58.000 --> 00:07:02.000
+O sea, de este módulo no va a hacer compaseros de pago, pero le voy a dar una idea de cómo hacerlo.
+
+00:07:02.000 --> 00:07:04.000
+Eh, listo.
+
+00:07:04.000 --> 00:07:06.000
+Aprobre, de muy poquito.
+
+00:07:06.000 --> 00:07:08.000
+¿Inicializaremos en H&M?
+
+00:07:14.000 --> 00:07:16.000
+Listo.
+
+00:07:16.000 --> 00:07:21.000
+Voy a esperamos un rato y ahorita voy a indicar los que vamos a ver.
+
+00:07:44.000 --> 00:08:04.000
+Listo.
+
+00:08:05.000 --> 00:08:07.000
+Ahora sí.
+
+00:08:07.000 --> 00:08:09.000
+A ver, voy a ver si está.
+
+00:08:09.000 --> 00:08:11.000
+Se que iniciando.
+
+00:08:11.000 --> 00:08:13.000
+No sé qué. Esperamos un rato.
+
+00:08:13.000 --> 00:08:18.000
+El road truck inisero, porque la verdad es que es ordenado 6 weeks.
+
+00:08:18.000 --> 00:08:23.000
+Listo, listo, listo.
+
+00:08:23.000 --> 00:08:26.000
+Bueno, hasta que vaya habilitando, ¿sí?
+
+00:08:26.000 --> 00:08:28.000
+Te voy a dar unas ideas.
+
+00:08:28.000 --> 00:08:30.000
+Valería.
+
+00:08:30.000 --> 00:08:32.000
+Soy Patricia.
+
+00:08:32.000 --> 00:08:34.000
+No, Patricia, perdón, Patricia.
+
+00:08:34.000 --> 00:08:36.000
+Siempre me confunden con nombres.
+
+00:08:36.000 --> 00:08:38.000
+En Zacarias.
+
+00:08:38.000 --> 00:08:40.000
+Aquí dice dole a Zacarias.
+
+00:08:40.000 --> 00:08:42.000
+Una vez que entres ahí, lo descargas.
+
+00:08:42.000 --> 00:08:44.000
+Bueno, esto es.
+
+00:08:44.000 --> 00:08:46.000
+Hay la parte comienta, por eso.
+
+00:08:46.000 --> 00:08:48.000
+Ahí está el dole, lo descargas.
+
+00:08:48.000 --> 00:08:50.000
+Lo bueno de esto es que,
+
+00:08:50.000 --> 00:08:52.000
+si no tienes que hacer un rato,
+
+00:08:52.000 --> 00:08:54.000
+si no tienes que hacer un rato,
+
+00:08:54.000 --> 00:08:56.000
+si no tienes que hacer un rato,
+
+00:08:56.000 --> 00:08:58.000
+si no tienes que hacer un rato,
+
+00:08:58.000 --> 00:09:01.000
+lo bueno de esto es que,
+
+00:09:01.000 --> 00:09:05.000
+el rango que maneja es bastante preciso.
+
+00:09:05.000 --> 00:09:06.000
+Demasiado.
+
+00:09:06.000 --> 00:09:08.000
+Varia por medio metro.
+
+00:09:08.000 --> 00:09:11.000
+Ahora la otra cuestionante,
+
+00:09:11.000 --> 00:09:12.000
+lo siguiente.
+
+00:09:12.000 --> 00:09:15.000
+Todo esto maneja, netamente, con boards.
+
+00:09:15.000 --> 00:09:18.000
+Boards, se hace se llama GS.
+
+00:09:18.000 --> 00:09:21.000
+Boards, Boards System, dice un otro.
+
+00:09:21.000 --> 00:09:22.000
+Esto.
+
+00:09:22.000 --> 00:09:24.000
+Es un geo server.
+
+00:09:24.000 --> 00:09:26.000
+Un geo server es como,
+
+00:09:26.000 --> 00:09:28.000
+como se te dijera,
+
+00:09:28.000 --> 00:09:30.000
+todos los datos que estás consultando,
+
+00:09:30.000 --> 00:09:32.000
+directamente aquí server,
+
+00:09:32.000 --> 00:09:33.000
+en una base de datos.
+
+00:09:33.000 --> 00:09:35.000
+Esa base de datos ya consultas.
+
+00:09:35.000 --> 00:09:37.000
+Las posiciones, tiempos.
+
+00:09:37.000 --> 00:09:40.000
+Por ejemplo, yo esto trabajo con la empresa de Uber.
+
+00:09:40.000 --> 00:09:42.000
+Yo se los gestiono los datos
+
+00:09:42.000 --> 00:09:44.000
+para posicionamiento.
+
+00:09:44.000 --> 00:09:47.000
+Y ahí lo trabajo con ellos,
+
+00:09:47.000 --> 00:09:50.000
+pero ya, ellos se han quedado con ese software.
+
+00:09:50.000 --> 00:09:52.000
+Y ya, pues, problemas se van a decir
+
+00:09:52.000 --> 00:09:54.000
+y se van a autorizarlo.
+
+00:09:54.000 --> 00:09:55.000
+Pero esa parte.
+
+00:09:55.000 --> 00:09:56.000
+Listo.
+
+00:09:56.000 --> 00:09:57.000
+Eso es bueno.
+
+00:09:57.000 --> 00:09:59.000
+Y eso lo enlace con Poges,
+
+00:09:59.000 --> 00:10:01.000
+PQDS, Python, NCHN.
+
+00:10:01.000 --> 00:10:02.000
+Y listo.
+
+00:10:02.000 --> 00:10:04.000
+Es larga el proceso.
+
+00:10:04.000 --> 00:10:07.000
+Es que no, pero es interesante.
+
+00:10:07.000 --> 00:10:10.000
+Y para algunos eventos que tienes problemas
+
+00:10:10.000 --> 00:10:12.000
+aquí, estas sus suportes.
+
+00:10:12.000 --> 00:10:14.000
+Cómo se aplica un suporte,
+
+00:10:14.000 --> 00:10:16.000
+cómo puedes cargren code,
+
+00:10:16.000 --> 00:10:18.000
+se avisa todo.
+
+00:10:18.000 --> 00:10:20.000
+¿Qué modelos existen?
+
+00:10:20.000 --> 00:10:21.000
+No.
+
+00:10:21.000 --> 00:10:24.000
+Te recomiendo que siempre trabajes con los M5s
+
+00:10:24.000 --> 00:10:26.000
+y con lo que es 3.4.6.
+
+00:10:26.000 --> 00:10:28.000
+Los demás son medvinas tablas.
+
+00:10:28.000 --> 00:10:32.000
+Esto es lo más estable de Poges.
+
+00:10:32.000 --> 00:10:36.000
+Otro frame que puedes utilizar si pareces a nivel Pro,
+
+00:10:36.000 --> 00:10:39.000
+tu sistema, yo lo meto con Larabel.
+
+00:10:39.000 --> 00:10:45.000
+Larabel, Poges, QDS, Python, NCHN.
+
+00:10:45.000 --> 00:10:46.000
+Y listo.
+
+00:10:46.000 --> 00:10:48.000
+Ya funciona.
+
+00:10:48.000 --> 00:10:51.000
+Es mayor lo que dice más en aplicaciones que
+
+00:10:51.000 --> 00:10:53.000
+en sistemas webs.
+
+00:10:53.000 --> 00:10:55.000
+Pero es interesante.
+
+00:10:55.000 --> 00:10:56.000
+Listo.
+
+00:10:56.000 --> 00:10:57.000
+Lo que he abierto.
+
+00:10:57.000 --> 00:10:58.000
+A ver si continuamos.
+
+00:10:58.000 --> 00:10:59.000
+Ah, perdón.
+
+00:10:59.000 --> 00:11:00.000
+Refresco y tu es 0.
+
+00:11:00.000 --> 00:11:01.000
+Ya.
+
+00:11:01.000 --> 00:11:05.000
+Listo.
+
+00:11:05.000 --> 00:11:07.000
+Voy entre mi workflow.
+
+00:11:07.000 --> 00:11:09.000
+Y ahora si,
+
+00:11:09.000 --> 00:11:10.000
+trabajar en mucho chico.
+
+00:11:10.000 --> 00:11:11.000
+Yo ya me he adelantado.
+
+00:11:11.000 --> 00:11:13.000
+Así que voy a ser de 0 de estas.
+
+00:11:13.000 --> 00:11:17.000
+Estaba probando mis días.
+
+00:11:17.000 --> 00:11:20.000
+Para que no perdiera tiempo y estar conectando cada rato.
+
+00:11:20.000 --> 00:11:22.000
+Así que me refiero un poquito de adelantar.
+
+00:11:22.000 --> 00:11:24.000
+Pero voy a ser con ustedes de 0.
+
+00:11:24.000 --> 00:11:27.000
+Así que ese webhook lo voy a borrar.
+
+00:11:27.000 --> 00:11:28.000
+De ustedes ya estaba así.
+
+00:11:28.000 --> 00:11:30.000
+Ya voy a continuar.
+
+00:11:30.000 --> 00:11:33.000
+Webhook.
+
+00:11:33.000 --> 00:11:34.000
+Listo.
+
+00:11:34.000 --> 00:11:35.000
+Lo jalo.
+
+00:11:35.000 --> 00:11:37.000
+Listo.
+
+00:11:37.000 --> 00:11:40.000
+Esto lo voy a jalar acá.
+
+00:11:40.000 --> 00:11:41.000
+Ya.
+
+00:11:41.000 --> 00:11:42.000
+Ahora si.
+
+00:11:42.000 --> 00:11:45.000
+A partir de acá es un poquito interesante las cosas.
+
+00:11:45.000 --> 00:11:48.000
+Porque a partir de acá es más real su proyecto.
+
+00:11:48.000 --> 00:11:51.000
+Y a partir de acá ya pueden hacer lo que ustedes quieren.
+
+00:11:51.000 --> 00:11:54.000
+Ya los 100 clásico le vamos a hacer algo más complejo.
+
+00:11:54.000 --> 00:11:58.000
+Y supongo que vamos a pasar unos 8 cosas más.
+
+00:11:58.000 --> 00:11:59.000
+Y va a morirlos.
+
+00:11:59.000 --> 00:12:01.000
+Se comentó anteriormente.
+
+00:12:01.000 --> 00:12:03.000
+Ya nos queda mucho tiempo.
+
+00:12:03.000 --> 00:12:06.000
+Y a lo demás es más más cosa avanzada de programación.
+
+00:12:06.000 --> 00:12:08.000
+Que se acro que lo vamos a hacer en un módulo 2.
+
+00:12:08.000 --> 00:12:10.000
+No sé cómo queden internamente.
+
+00:12:10.000 --> 00:12:12.000
+Voy a consultar esa parte.
+
+00:12:13.000 --> 00:12:16.000
+Así que vayas como se vea indicado.
+
+00:12:16.000 --> 00:12:18.000
+Vayan abriendo base code.
+
+00:12:18.000 --> 00:12:21.000
+Esto es opcional chicos.
+
+00:12:21.000 --> 00:12:24.000
+Yo lo voy a hacer para darles algún contexto más.
+
+00:12:24.000 --> 00:12:25.000
+Pero es opcional.
+
+00:12:25.000 --> 00:12:27.000
+No necesito que se lo manejen.
+
+00:12:27.000 --> 00:12:29.000
+Pero en este caso vamos a hacer lo siguiente.
+
+00:12:29.000 --> 00:12:32.000
+Voy a abrir una nueva carpeta.
+
+00:12:33.000 --> 00:12:36.000
+Dentro de esa carpeta vayas a hacer lo siguiente.
+
+00:12:36.000 --> 00:12:38.000
+Crean que es una carpeta ahorita misma.
+
+00:12:38.000 --> 00:12:39.000
+Muy aparte.
+
+00:12:40.000 --> 00:12:42.000
+Voy a crear un mayor.
+
+00:12:42.000 --> 00:12:44.000
+Por este caso en programación.
+
+00:12:44.000 --> 00:12:46.000
+Y vamos a crear lo que.
+
+00:12:47.000 --> 00:12:49.000
+Y a proyectos en 8 n.
+
+00:12:49.000 --> 00:12:51.000
+Proyectos.
+
+00:12:53.000 --> 00:12:55.000
+Proyectos en 8 n.
+
+00:12:57.000 --> 00:12:59.000
+Listo. Entran ahí.
+
+00:12:59.000 --> 00:13:02.000
+Vienen acá y van a colocar una carpeta.
+
+00:13:02.000 --> 00:13:03.000
+Bueno decirle.
+
+00:13:03.000 --> 00:13:04.000
+No sé.
+
+00:13:04.000 --> 00:13:05.000
+Proyecto 1.
+
+00:13:05.000 --> 00:13:06.000
+Pro 1.
+
+00:13:06.000 --> 00:13:07.000
+O Pro 1.
+
+00:13:07.000 --> 00:13:08.000
+Listo.
+
+00:13:08.000 --> 00:13:09.000
+Listo.
+
+00:13:09.000 --> 00:13:10.000
+Hasta ahí.
+
+00:13:10.000 --> 00:13:11.000
+De mi pecho.
+
+00:13:11.000 --> 00:13:12.000
+Actíbarme.
+
+00:13:14.000 --> 00:13:15.000
+Y sistema.
+
+00:13:15.000 --> 00:13:16.000
+Ahora sí.
+
+00:13:16.000 --> 00:13:17.000
+Ya.
+
+00:13:17.000 --> 00:13:19.000
+Una vez que dentro de ahí.
+
+00:13:19.000 --> 00:13:21.000
+Van a hacer clic derecho.
+
+00:13:22.000 --> 00:13:24.000
+Abren terminal.
+
+00:13:25.000 --> 00:13:27.000
+Abren la terminal.
+
+00:13:28.000 --> 00:13:30.000
+Y van a hacer lo siguiente.
+
+00:13:30.000 --> 00:13:31.000
+Ya.
+
+00:13:31.000 --> 00:13:33.000
+Van a colocar en este caso.
+
+00:13:33.000 --> 00:13:34.000
+Code.
+
+00:13:34.000 --> 00:13:35.000
+O sea,
+
+00:13:35.000 --> 00:13:37.000
+en minúsculo de mallos,
+
+00:13:37.000 --> 00:13:39.000
+code espacio.
+
+00:13:39.000 --> 00:13:41.000
+Y apretan enter.
+
+00:13:41.000 --> 00:13:43.000
+Listo.
+
+00:13:44.000 --> 00:13:46.000
+Apretan enter.
+
+00:13:46.000 --> 00:13:48.000
+Y nos va a modificar el sistema.
+
+00:13:48.000 --> 00:13:50.000
+Una vez que los modifique.
+
+00:13:50.000 --> 00:13:51.000
+Ahí todos esperan.
+
+00:13:51.000 --> 00:13:53.000
+Les va a habilitar esta cosa.
+
+00:13:53.000 --> 00:13:54.000
+Ya.
+
+00:13:55.000 --> 00:13:57.000
+Automáticamente les va a abrir.
+
+00:13:59.000 --> 00:14:02.000
+Una vez que ya lo han abierto automáticamente.
+
+00:14:02.000 --> 00:14:04.000
+Voy a ingresar aquí.
+
+00:14:04.000 --> 00:14:05.000
+Esto es una.
+
+00:14:05.000 --> 00:14:07.000
+Los voy a hacer un poquito de programación.
+
+00:14:07.000 --> 00:14:09.000
+Obviamente no he hecho en este modo lo nuevo.
+
+00:14:09.000 --> 00:14:10.000
+O sea,
+
+00:14:10.000 --> 00:14:11.000
+mucha programación.
+
+00:14:11.000 --> 00:14:13.000
+Lo que se me ha dedicado a hacerlo de manera directa.
+
+00:14:13.000 --> 00:14:14.000
+Pero.
+
+00:14:14.000 --> 00:14:17.000
+Siempre es bueno que conozcan los que no conocen esta parte.
+
+00:14:18.000 --> 00:14:20.000
+Una vez que ya han abierto esa parte.
+
+00:14:20.000 --> 00:14:21.000
+Voy a apretar la tecla.
+
+00:14:21.000 --> 00:14:22.000
+Contrón.
+
+00:14:22.000 --> 00:14:24.000
+Y se va a habilitar esto.
+
+00:14:25.000 --> 00:14:26.000
+Ya.
+
+00:14:26.000 --> 00:14:27.000
+Abreta en control.
+
+00:14:27.000 --> 00:14:28.000
+Y voy a usarme.
+
+00:14:28.000 --> 00:14:29.000
+A ese proyecto.
+
+00:14:29.000 --> 00:14:30.000
+Este.
+
+00:14:30.000 --> 00:14:31.000
+Qué creado.
+
+00:14:31.000 --> 00:14:33.000
+Entrar el CD y para salir de CD.
+
+00:14:33.000 --> 00:14:34.000
+C.
+
+00:14:34.000 --> 00:14:35.000
+CD pro y.
+
+00:14:37.000 --> 00:14:38.000
+Uno.
+
+00:14:38.000 --> 00:14:39.000
+Y listo.
+
+00:14:39.000 --> 00:14:40.000
+Y se va a entrar.
+
+00:14:40.000 --> 00:14:42.000
+Se dan cuenta de si quiero salir de ese.
+
+00:14:42.000 --> 00:14:43.000
+C.
+
+00:14:43.000 --> 00:14:44.000
+Y se sal.
+
+00:14:44.000 --> 00:14:45.000
+Entrar el CD.
+
+00:14:45.000 --> 00:14:46.000
+Pro.
+
+00:14:46.000 --> 00:14:47.000
+Así es.
+
+00:14:47.000 --> 00:14:48.000
+Ya.
+
+00:14:48.000 --> 00:14:49.000
+Esa parte pueden hacer.
+
+00:14:50.000 --> 00:14:51.000
+Sus comandos.
+
+00:14:51.000 --> 00:14:53.000
+Si es que no quieren manejar esto.
+
+00:14:53.000 --> 00:14:54.000
+Se llama.
+
+00:14:54.000 --> 00:14:55.000
+Comand prompt.
+
+00:14:55.000 --> 00:14:56.000
+Bien.
+
+00:14:56.000 --> 00:14:57.000
+Acá.
+
+00:14:57.000 --> 00:14:58.000
+Entre acá.
+
+00:14:58.000 --> 00:15:00.000
+Y coloquen en este caso.
+
+00:15:00.000 --> 00:15:01.000
+Y.
+
+00:15:01.000 --> 00:15:02.000
+O pueden colocar.
+
+00:15:02.000 --> 00:15:05.000
+Lo que los voy a decir ahorita.
+
+00:15:05.000 --> 00:15:07.000
+Pero todavía no quiero que lo haga.
+
+00:15:07.000 --> 00:15:09.000
+Esta parte conozcan hoy listo.
+
+00:15:09.000 --> 00:15:10.000
+Ya.
+
+00:15:10.000 --> 00:15:13.000
+Ahora voy a trabajar con web hooks.
+
+00:15:13.000 --> 00:15:14.000
+Ya.
+
+00:15:14.000 --> 00:15:15.000
+Anotamente compuro web hooks.
+
+00:15:15.000 --> 00:15:16.000
+Hoy día.
+
+00:15:16.000 --> 00:15:18.000
+Hasta cierto punto.
+
+00:15:18.000 --> 00:15:19.000
+Ya.
+
+00:15:19.000 --> 00:15:21.000
+Voy a abrirme en este caso el proyecto.
+
+00:15:21.000 --> 00:15:24.000
+Voy a abrirme chat y piti.
+
+00:15:24.000 --> 00:15:26.000
+O cualquier ida que ustedes quieran.
+
+00:15:26.000 --> 00:15:27.000
+Ver.
+
+00:15:27.000 --> 00:15:28.000
+Ya.
+
+00:15:28.000 --> 00:15:29.000
+Ya.
+
+00:15:29.000 --> 00:15:32.000
+Y le voy a dar un prompt correspondiente.
+
+00:15:32.000 --> 00:15:33.000
+Ojo.
+
+00:15:33.000 --> 00:15:35.000
+Esto lo van a hacer ustedes independientemente.
+
+00:15:35.000 --> 00:15:38.000
+No quiero que los repitan lo mismo que yo.
+
+00:15:38.000 --> 00:15:40.000
+Pero si algunos prompts que yo voy a hacer.
+
+00:15:40.000 --> 00:15:41.000
+Y.
+
+00:15:41.000 --> 00:15:43.000
+Esto en base a que.
+
+00:15:43.000 --> 00:15:46.000
+Esto va a hacerlo en base a lo que son sus proyectos.
+
+00:15:46.000 --> 00:15:47.000
+Por ejemplo.
+
+00:15:47.000 --> 00:15:48.000
+En este caso.
+
+00:15:48.000 --> 00:15:50.000
+Mi proyecto era acá.
+
+00:15:50.000 --> 00:15:52.000
+Era en este caso.
+
+00:15:52.000 --> 00:15:53.000
+La voy a ensercar.
+
+00:15:53.000 --> 00:15:54.000
+Submission.
+
+00:15:54.000 --> 00:15:56.000
+Era de Uriacilo.
+
+00:15:56.000 --> 00:15:57.000
+Vente de fertilizantes.
+
+00:15:57.000 --> 00:15:58.000
+Ya.
+
+00:15:58.000 --> 00:15:59.000
+Eso voy a mantener.
+
+00:15:59.000 --> 00:16:03.000
+Y nos voy a darle prompt en base a su.
+
+00:16:03.000 --> 00:16:06.000
+Vengo acá a mi chatito GPT.
+
+00:16:06.000 --> 00:16:08.000
+Y voy a hacer lo siguiente.
+
+00:16:08.000 --> 00:16:09.000
+Voy a darle prompt.
+
+00:16:09.000 --> 00:16:10.000
+Voy a decir.
+
+00:16:10.000 --> 00:16:11.000
+Necesito.
+
+00:16:11.000 --> 00:16:13.000
+Hagan lo mismo conmigo.
+
+00:16:13.000 --> 00:16:14.000
+Pero embasa ustedes.
+
+00:16:14.000 --> 00:16:16.000
+Con sus proyectos que están lo haciendo.
+
+00:16:16.000 --> 00:16:17.000
+Ya.
+
+00:16:17.000 --> 00:16:18.000
+Necesito una página.
+
+00:16:18.000 --> 00:16:19.000
+Web.
+
+00:16:19.000 --> 00:16:20.000
+Con.
+
+00:16:20.000 --> 00:16:21.000
+Chowlin.
+
+00:16:21.000 --> 00:16:22.000
+Vale a decir.
+
+00:16:22.000 --> 00:16:23.000
+Chow.
+
+00:16:23.000 --> 00:16:24.000
+Chowlin.
+
+00:16:24.000 --> 00:16:25.000
+Chowlin.
+
+00:16:25.000 --> 00:16:26.000
+Ya.
+
+00:16:26.000 --> 00:16:27.000
+Cs.
+
+00:16:27.000 --> 00:16:28.000
+Cs.
+
+00:16:28.000 --> 00:16:29.000
+Html.
+
+00:16:29.000 --> 00:16:32.000
+Y van a colocarle.
+
+00:16:32.000 --> 00:16:34.000
+Esto se llama por ser caso.
+
+00:16:34.000 --> 00:16:35.000
+Esto es interesante.
+
+00:16:35.000 --> 00:16:37.000
+Cuando son páginas web sencillas.
+
+00:16:37.000 --> 00:16:39.000
+Se llaman los landing page.
+
+00:16:39.000 --> 00:16:40.000
+Ya.
+
+00:16:40.000 --> 00:16:42.000
+Y vamos a hacer un landing page.
+
+00:16:42.000 --> 00:16:44.000
+Y luego vamos a volver al sistema.
+
+00:16:44.000 --> 00:16:46.000
+El cual voy a colocar.
+
+00:16:46.000 --> 00:16:48.000
+El cual debe detener.
+
+00:16:48.000 --> 00:16:52.000
+Tres secciones.
+
+00:16:53.000 --> 00:16:54.000
+Ya.
+
+00:16:54.000 --> 00:16:58.000
+Y esa parte siempre es bueno colocarla con mayúsculo.
+
+00:16:58.000 --> 00:16:59.000
+Lo que me termina es.
+
+00:16:59.000 --> 00:17:01.000
+La parte primera es inicio.
+
+00:17:01.000 --> 00:17:02.000
+Inicio.
+
+00:17:02.000 --> 00:17:03.000
+Coma.
+
+00:17:03.000 --> 00:17:04.000
+Servicios.
+
+00:17:04.000 --> 00:17:05.000
+Coma.
+
+00:17:05.000 --> 00:17:06.000
+Contactos.
+
+00:17:06.000 --> 00:17:07.000
+O contacto.
+
+00:17:07.000 --> 00:17:08.000
+Listo.
+
+00:17:08.000 --> 00:17:09.000
+Ya.
+
+00:17:09.000 --> 00:17:10.000
+Ahora.
+
+00:17:10.000 --> 00:17:11.000
+Punto.
+
+00:17:11.000 --> 00:17:12.000
+Van a colocar.
+
+00:17:12.000 --> 00:17:13.000
+Lo siguiente.
+
+00:17:13.000 --> 00:17:15.000
+Ahora si coloquen el contexto de su empresa.
+
+00:17:15.000 --> 00:17:16.000
+Yo voy a decir.
+
+00:17:16.000 --> 00:17:17.000
+Somos.
+
+00:17:17.000 --> 00:17:18.000
+Una empresa.
+
+00:17:18.000 --> 00:17:19.000
+Que vende.
+
+00:17:19.000 --> 00:17:20.000
+Productos.
+
+00:17:20.000 --> 00:17:21.000
+Destinados.
+
+00:17:21.000 --> 00:17:22.000
+Destinados.
+
+00:17:22.000 --> 00:17:23.000
+Al ámbito.
+
+00:17:23.000 --> 00:17:24.000
+Del fertilizante.
+
+00:17:24.000 --> 00:17:25.000
+Fertilizantes.
+
+00:17:25.000 --> 00:17:26.000
+Es.
+
+00:17:26.000 --> 00:17:27.000
+Ya.
+
+00:17:27.000 --> 00:17:28.000
+Voy a colocar en la página.
+
+00:17:28.000 --> 00:17:29.000
+En la página.
+
+00:17:29.000 --> 00:17:30.000
+De contacto.
+
+00:17:30.000 --> 00:17:31.000
+Y.
+
+00:17:31.000 --> 00:17:32.000
+De contacto.
+
+00:17:32.000 --> 00:17:33.000
+Y.
+
+00:17:33.000 --> 00:17:34.000
+De contacto.
+
+00:17:34.000 --> 00:17:35.000
+Ya.
+
+00:17:35.000 --> 00:17:36.000
+Y.
+
+00:17:36.000 --> 00:17:37.000
+Y.
+
+00:17:37.000 --> 00:17:38.000
+De contacto.
+
+00:17:38.000 --> 00:17:39.000
+Ya.
+
+00:17:39.000 --> 00:17:40.000
+Y.
+
+00:17:40.000 --> 00:17:41.000
+Y.
+
+00:17:41.000 --> 00:17:42.000
+De contacto.
+
+00:17:42.000 --> 00:17:43.000
+Y.
+
+00:17:43.000 --> 00:17:44.000
+De contacto.
+
+00:17:44.000 --> 00:17:45.000
+Y.
+
+00:17:45.000 --> 00:17:46.000
+Y.
+
+00:17:46.000 --> 00:17:47.000
+De contacto.
+
+00:17:47.000 --> 00:17:48.000
+Punto.
+
+00:17:48.000 --> 00:17:49.000
+Html.
+
+00:17:49.000 --> 00:17:50.000
+Así es.
+
+00:17:50.000 --> 00:17:51.000
+Si tienen que colocar ustedes.
+
+00:17:51.000 --> 00:17:52.000
+Necesito.
+
+00:17:52.000 --> 00:17:53.000
+Necesito.
+
+00:17:53.000 --> 00:17:54.000
+Enviar.
+
+00:17:54.000 --> 00:17:55.000
+4.
+
+00:17:55.000 --> 00:17:56.000
+Campos.
+
+00:17:56.000 --> 00:17:57.000
+Ya.
+
+00:17:57.000 --> 00:17:58.000
+Esto.
+
+00:17:58.000 --> 00:17:59.000
+Esto va a tener que tener cuidado.
+
+00:17:59.000 --> 00:18:00.000
+Ya.
+
+00:18:00.000 --> 00:18:02.000
+Porque esta parte es muy dependiente de los campos que usted está manejando.
+
+00:18:02.000 --> 00:18:03.000
+Por ejemplo acá.
+
+00:18:03.000 --> 00:18:04.000
+En web.
+
+00:18:04.000 --> 00:18:05.000
+Hux.
+
+00:18:05.000 --> 00:18:06.000
+En.
+
+00:18:06.000 --> 00:18:07.000
+En.
+
+00:18:07.000 --> 00:18:08.000
+En.
+
+00:18:08.000 --> 00:18:09.000
+En.
+
+00:18:09.000 --> 00:18:10.000
+En.
+
+00:18:10.000 --> 00:18:11.000
+En.
+
+00:18:11.000 --> 00:18:12.000
+En.
+
+00:18:12.000 --> 00:18:13.000
+En.
+
+00:18:13.000 --> 00:18:14.000
+En.
+
+00:18:14.000 --> 00:18:15.000
+En.
+
+00:18:15.000 --> 00:18:16.000
+Y.
+
+00:18:16.000 --> 00:18:19.000
+De contacto.
+
+00:18:19.000 --> 00:18:21.000
+De contacto, ¿no?
+
+00:18:21.000 --> 00:18:22.000
+Eshou.
+
+00:18:22.000 --> 00:18:23.000
+Hay.
+
+00:18:23.000 --> 00:18:25.000
+P disparando.
+
+00:18:25.000 --> 00:18:26.000
+Estada capturando.
+
+00:18:26.000 --> 00:18:27.000
+nombre.
+
+00:18:27.000 --> 00:18:28.000
+E-mail.
+
+00:18:28.000 --> 00:18:44.000
+Cellular.
+
+00:18:44.000 --> 00:18:45.480
+celular
+
+00:18:47.800 --> 00:18:53.840
+celular y van a colocar en este caso un mensaje de cliente
+
+00:18:56.720 --> 00:19:02.440
+ya, voy a hacer uno a propósito lo voy a errar
+
+00:19:04.240 --> 00:19:12.240
+digamos que es 4 parámetros digamos que es 4, voy a ir a recocatriz, me olvidé, me voy a
+
+00:19:12.240 --> 00:19:18.280
+asesorar, no me he notado y listo, voy a crear eso, ahora te van a ver cómo voy a modificar el sistema
+
+00:19:19.840 --> 00:19:23.960
+luego en este caso lo cierro y voy a colocar esa información
+
+00:19:26.880 --> 00:19:28.200
+se debe enviar
+
+00:19:30.640 --> 00:19:39.120
+por el método post, se van a colocar el mayúsculo, ya, a la url, dos puntos, ahora van a hacer lo siguiente
+
+00:19:40.080 --> 00:19:44.080
+vienen a la parte de su webhook, o acá
+
+00:19:46.080 --> 00:19:48.880
+y van a enchar acá, doble clic
+
+00:19:50.880 --> 00:19:53.680
+esto ahorita está en el método get, van a cambiar la post
+
+00:19:55.680 --> 00:20:02.160
+y van a copiarse esto, ya, los abuelen, estamos ahorita en testing, luego vamos a producción
+
+00:20:03.160 --> 00:20:04.640
+y le van a pegar esto
+
+00:20:06.640 --> 00:20:07.140
+ya
+
+00:20:09.600 --> 00:20:14.320
+y bueno, con la coma, dame los tres archivos
+
+00:20:15.680 --> 00:20:16.480
+archivos
+
+00:20:18.160 --> 00:20:18.880
+html
+
+00:20:20.080 --> 00:20:20.480
+listo
+
+00:20:21.520 --> 00:20:25.680
+hasta ahí, por si acaso al ultimo siempre le van a añadir
+
+00:20:28.320 --> 00:20:30.320
+as o realiza
+
+00:20:32.320 --> 00:20:35.520
+realiza un diseño atractivo
+
+00:20:35.920 --> 00:20:41.920
+listo, ya está, enter, viveremos con webhook
+
+00:20:47.920 --> 00:20:49.440
+game está botando el index
+
+00:20:52.320 --> 00:20:53.360
+y los servicios
+
+00:20:57.200 --> 00:20:58.080
+y el contacto
+
+00:21:02.720 --> 00:21:03.200
+listo
+
+00:21:05.680 --> 00:21:12.240
+como ya no abierto todo esto, van a hacer lo siguiente, van a copiarse el código, pero puede antes de
+
+00:21:12.240 --> 00:21:19.760
+descagar y demás, pueden ver cómo se ve, la voy a ver acá, fíjense, no se ve mucho
+
+00:21:21.520 --> 00:21:27.920
+lo que es la parte del ccs, así que ahorita lo voy a decir de nuevo que lo corrijo,
+
+00:21:28.000 --> 00:21:36.080
+eso puede ser veanlo antes, a veces no lo crea, añade, sigue, sigue, sigue, cada archivo
+
+00:21:40.000 --> 00:21:40.480
+listo
+
+00:21:43.520 --> 00:21:45.680
+ya ahora sí, ya me he añadido
+
+00:21:47.920 --> 00:21:52.960
+pero en este caso lo voy a decir, si es que les molesta, sigue, en conjunto, dame completo,
+
+00:21:53.520 --> 00:21:59.360
+pero aquí ya pueden ver cuál es su estilo más o menos, ya pueden decirle dame
+
+00:22:03.440 --> 00:22:10.480
+el código completo, listo, y ahora sí los voy a añadir los tres
+
+00:22:13.760 --> 00:22:16.320
+en versión básica
+
+00:22:19.280 --> 00:22:19.780
+listo
+
+00:22:23.920 --> 00:22:29.040
+ya la cuestión que tenga estilos, o sea, y incluso le pueden colocar que sea para celular,
+
+00:22:29.040 --> 00:22:36.480
+digamos, ya que sea responsivo, saliendo eso, ya medio que algo ha mejorado, pero esta ya no
+
+00:22:36.480 --> 00:22:42.960
+me sirve, a ustedes no debe funcionar, yo voy a copiar la misma a otra ida,
+
+00:22:45.360 --> 00:22:51.360
+ya abragan pruebas, ahí y vayan viendo qué les conviene, que es más bonito, que es menos bonito,
+
+00:22:51.600 --> 00:22:57.360
+ya voy a abrir otro, otra ida, voy a tratar de manejar con Groco, DeepSick,
+
+00:22:59.680 --> 00:23:05.200
+y vamos a ver cómo me da DeepSick, la parte donde está DeepSick,
+
+00:23:07.360 --> 00:23:16.960
+ahora sí, voy naciendo las mejores ies, y la mejor mejor es la cláutela en formato estético,
+
+00:23:17.280 --> 00:23:22.640
+pero aquí me pide número de teléfono, vamos a iniciar la sensación,
+
+00:23:25.280 --> 00:23:30.160
+yémini también pueden hacer pruebas, se van haciendo pruebas, y esa captura que saquen,
+
+00:23:30.160 --> 00:23:36.080
+lo van a añadir como se puede poner a captura, ya eso van a añadirlo hasta ahí,
+
+00:23:36.080 --> 00:23:42.240
+de mancacho, voy a ver donde está mi yémini, esto aquí está por ejemplo,
+
+00:23:42.640 --> 00:23:45.520
+voy a utilizar el mismo prompt acá, y vamos a ver qué me bota,
+
+00:23:48.160 --> 00:23:48.640
+listo,
+
+00:23:52.960 --> 00:23:54.560
+ya y voy a abrir otro más,
+
+00:23:56.560 --> 00:23:57.280
+ahí me da,
+
+00:24:05.120 --> 00:24:06.960
+me da servicios,
+
+00:24:07.040 --> 00:24:17.520
+y me da contacto, pero no yémini creo que no se puede, se puede descargar el archivo directo,
+
+00:24:17.520 --> 00:24:20.800
+ya pero como ya no quiero, bueno ustedes pueden descargar, no hay problema,
+
+00:24:20.800 --> 00:24:26.080
+yo lo voy a hacer como estamos trabajando acá, voy a hacer control C, tengo acá,
+
+00:24:26.080 --> 00:24:33.760
+dentro del proyecto voy a colocar index, listo, ahora lo voy a pegar el prompt,
+
+00:24:33.920 --> 00:24:41.040
+y esto copio, ustedes más o menos se lo pueden descargar y llevarlo a esa carpeta más rápido,
+
+00:24:42.240 --> 00:24:48.400
+ya quiero ver antes cómo va a salir, de mi pechita, listo, voy a ver cómo va a salir,
+
+00:24:51.200 --> 00:24:54.640
+ya, me de que miren, bastante bonito,
+
+00:24:55.600 --> 00:24:57.280
+yo lo he hecho,
+
+00:24:57.280 --> 00:25:02.960
+ustedes pueden para hacer esto, pueden ustedes, y dos veces hacen clic en la carpetita aquí,
+
+00:25:04.000 --> 00:25:09.280
+proyecto, ahí haciendo double click y la suavirita, miren, listo, eso pueden hacerlo,
+
+00:25:10.480 --> 00:25:17.120
+igual, igual da, ya, voy a copiármelo los demás, voy a descargarlo para el nuestro copiéndolo,
+
+00:25:17.120 --> 00:25:24.560
+voy a pegar directamente la carpeta, lo descargo y lo descargo, ya vean ustedes la mejor apariencia,
+
+00:25:25.600 --> 00:25:36.320
+voy a abrir esa carpeta, me descargas, ya, y listo, voy a control X y lo voy a pegar a mi
+
+00:25:36.320 --> 00:25:46.160
+sistema, ya danse los proyectos, programación, proyectos en 8n, proyectos y aquí lo voy a pegar,
+
+00:25:46.640 --> 00:25:53.600
+listo, ya está, lo que aquí van a modificar es el nombre, es el nombre, si es lo malo,
+
+00:25:53.600 --> 00:25:59.360
+hay veces de diferencia, ya tienen sus propios, cómo trabajan, ya, este es contacto 8n,
+
+00:25:59.360 --> 00:26:06.720
+le supongo que es el otro, ahora voy a abrir, es el segundo que se ha abritado, este es el
+
+00:26:06.720 --> 00:26:14.800
+07, es el contacto, ya vengo acá y aquí se va a hacer los 07, este es lo que es contacto,
+
+00:26:14.800 --> 00:26:23.840
+no sé si me estoy equivocando, no, contacto 8n, y el otro debe ser servicio, así que lo mismo,
+
+00:26:25.840 --> 00:26:30.160
+este es mi chachito, voy a hacer el otro, y danse el otro, aquí este van a,
+
+00:26:31.520 --> 00:26:37.280
+esto lo voy a hacer rápido, no confundirme y voy a meter el otro, el contacto y el otro,
+
+00:26:38.240 --> 00:26:44.240
+traten de manejarse y con los datos que les da, si no, se va a tener problemas,
+
+00:26:44.240 --> 00:26:47.360
+es servicio, se hace control, rename y listo,
+
+00:26:49.760 --> 00:26:55.760
+ya está, ahora sí, voy a actualizar lo que hecho correr, donde estaba lo que hecho correr,
+
+00:26:55.760 --> 00:27:01.840
+aquí está, esto lo voy a hacer raro, bueno se va a conocer cómo se va a dar este repuesto
+
+00:27:02.560 --> 00:27:09.360
+y aquí voy a actualizar, voy a ver si es contacto siempre, a ver, y voy a irme a servicios,
+
+00:27:10.320 --> 00:27:15.760
+ahí está, y voy a irme a contactos, ahí está, ya,
+
+00:27:17.680 --> 00:27:25.520
+y eso que me lo ha creado, teléfono y contacto más, ya, listo, ahora supuestamente al momento de
+
+00:27:25.520 --> 00:27:31.760
+enviar el mensaje ese dedo, se está linkando con la web el correspondiente, ya así que haremos
+
+00:27:31.840 --> 00:27:39.120
+la prueba, hasta ahí, hasta aquí ustedes deberían de sacar o tienen que sacar chicos su primera captura,
+
+00:27:40.560 --> 00:27:46.160
+ya en base a su proyecto por su caso, ahí, y listo,
+
+00:27:48.480 --> 00:27:50.560
+y la captura 1, captura 2 ahora,
+
+00:27:50.640 --> 00:28:01.520
+listo, voy a verificar yo si es que tiene el código correspondiente de contacto,
+
+00:28:08.080 --> 00:28:14.800
+ya supuestamente sí me está enviado, pero si hay algunos problemas hay que revisar el código,
+
+00:28:14.800 --> 00:28:17.120
+pero cómo está el curso, no es el código, aquí está, mira,
+
+00:28:18.480 --> 00:28:24.240
+this form reaction, aquí me está enviando justamente al mismo link que estoy enviando
+
+00:28:24.240 --> 00:28:31.680
+yo anteriormente, acá, a mi webhook, ya, ahí está mi link, nada más, eso verifican si está,
+
+00:28:32.560 --> 00:28:39.120
+porque hay algunas ideas medio que raras, no es en caso, por ejemplo a mí no me hace caso
+
+00:28:39.760 --> 00:28:48.240
+dipsick, así que esa parte, ya, lo demás lo dejan por defecto, y lo cierran,
+
+00:28:50.480 --> 00:28:58.720
+ahora sí, haremos prueba, voy a dividir mi pantallita entre dos,
+
+00:29:01.840 --> 00:29:08.320
+y haremos prueba de esa parte, y esto es su segunda captura, pero cuál es todavía, voy a acomodar,
+
+00:29:09.760 --> 00:29:14.560
+listo, ahí,
+
+00:29:18.800 --> 00:29:24.800
+ya, ahí digamos, ok, empezaremos, voy a minimizar esto un poco más,
+
+00:29:26.480 --> 00:29:31.360
+ahora sí, para que funcione esto tienen que colocar lo siguiente,
+
+00:29:32.240 --> 00:29:37.360
+ahí, ejécuten el workflow,
+
+00:29:42.720 --> 00:29:47.440
+hay que esperar un cacho, si no les reacciona al principio, vuelven a actualizar, ya,
+
+00:29:48.720 --> 00:29:55.680
+en este caso está bugueando salmío, porque a eso estaba dando clases con IAS, y se me
+
+00:29:55.680 --> 00:30:05.280
+complicó todo mis dependencias, voy a actualizarlo y voy a volverlo a ver, ya, listo,
+
+00:30:08.400 --> 00:30:12.800
+ya, ahora voy a abrir un cacho, y, y para que esto pase,
+
+00:30:14.960 --> 00:30:19.600
+ya, listo, muy lento, esto, pues mi intervalo es una cosa,
+
+00:30:20.480 --> 00:30:26.560
+ya, ya, estoy muy acercado, estoy muy excedido, ya, voy a reiniciar creo, ya,
+
+00:30:29.680 --> 00:30:35.840
+esto no ocurre, porque le activó ahí el visual, o nada que ve, no, nada que, porque este es muy
+
+00:30:35.840 --> 00:30:43.520
+independiente, si, porque no solamente estoy habiendo una URL para que le escuches, ahorita no estoy,
+
+00:30:43.520 --> 00:30:45.080
+no se preocupan esa parte.
+
+00:30:46.440 --> 00:30:50.340
+Ya, el mío es porque tengo un montón de dependencias que he activado
+
+00:30:50.340 --> 00:30:52.640
+y no inicia mi componso en bien su...
+
+00:30:55.520 --> 00:30:56.240
+listo.
+
+00:31:00.380 --> 00:31:00.880
+Ya.
+
+00:31:01.720 --> 00:31:02.980
+Si no nos voy a reiniciar esto.
+
+00:31:03.520 --> 00:31:04.020
+¡Maya!
+
+00:31:06.080 --> 00:31:08.320
+Ahora, antes de trabajar con los edificios,
+
+00:31:08.320 --> 00:31:11.280
+yo solo necesito que este me escuche, nada más, ya.
+
+00:31:11.280 --> 00:31:12.480
+¿Arién quería hablar, creo?
+
+00:31:14.520 --> 00:31:19.880
+Sí, creo que debe de aquí ver el engrro en el localhost para que te acuche.
+
+00:31:20.880 --> 00:31:23.280
+Ah, sí, eso luego lo vamos a hacer cuando sea de producción.
+
+00:31:23.880 --> 00:31:25.480
+Ahorita debería de...
+
+00:31:26.120 --> 00:31:26.880
+darme.
+
+00:31:29.480 --> 00:31:31.680
+Esto, por si caso, trabaja sin engroc.
+
+00:31:31.680 --> 00:31:34.880
+Si es local, solamente le voy a reloj a escuchar.
+
+00:31:36.480 --> 00:31:37.720
+Ya, así que...
+
+00:31:38.480 --> 00:31:39.880
+listo, vamos a decir.
+
+00:31:39.880 --> 00:31:40.380
+Ok.
+
+00:31:42.200 --> 00:31:44.480
+Voy a activar algunas cosas.
+
+00:31:44.480 --> 00:31:45.240
+Listo.
+
+00:31:48.240 --> 00:31:48.740
+Ya.
+
+00:31:48.740 --> 00:31:50.640
+Mmm-hmm-hmm-hmm-hmm.
+
+00:31:52.440 --> 00:31:55.280
+A ver, esperamos un cacho, si no aparece siempre,
+
+00:31:55.280 --> 00:31:56.840
+voy a tener que hacer lo siguiente.
+
+00:31:57.080 --> 00:31:57.580
+Ya.
+
+00:31:57.880 --> 00:31:59.640
+Voy a reiniciar el engrro en el chón.
+
+00:32:00.340 --> 00:32:03.580
+Voy a hacer lo resto, voy a abrirlo de esta forma para que no tenga problemas.
+
+00:32:03.580 --> 00:32:05.080
+Está, está, está, listo.
+
+00:32:05.080 --> 00:32:06.040
+Para irme acá.
+
+00:32:07.740 --> 00:32:09.640
+Voy a irme a contacto directamente.
+
+00:32:10.140 --> 00:32:11.940
+Y listo, ahí vamos a hacer...
+
+00:32:13.080 --> 00:32:15.040
+esto lo voy a dejar acá.
+
+00:32:15.040 --> 00:32:15.640
+Listo.
+
+00:32:16.840 --> 00:32:18.840
+Ya, si no se van a esperar un tiempo, ya.
+
+00:32:18.840 --> 00:32:20.640
+Ustedes, si los da super.
+
+00:32:21.540 --> 00:32:23.440
+Porque no había estado en un lío mis...
+
+00:32:23.640 --> 00:32:24.440
+mis...
+
+00:32:24.440 --> 00:32:25.040
+versiones.
+
+00:32:25.040 --> 00:32:29.140
+Ahora, te trabajamos para la noche, ya, si me ha fregado todo el sistema.
+
+00:32:29.980 --> 00:32:32.440
+Listo, voy a cerrarlo y voy a abrirlo de la huya.
+
+00:32:33.480 --> 00:32:34.680
+Ustedes, vayan haciendo lo más.
+
+00:32:34.680 --> 00:32:37.940
+Vayan viendo y vayan capturando sus pantallas y así de más.
+
+00:32:38.940 --> 00:32:41.400
+Ah, yo estoy con el entorno Linux más.
+
+00:32:41.900 --> 00:32:42.900
+Todo me está fregado.
+
+00:32:42.900 --> 00:32:43.700
+De mancacho.
+
+00:32:45.200 --> 00:32:49.200
+Y listo.
+
+00:32:50.900 --> 00:32:51.400
+Ya.
+
+00:32:51.400 --> 00:32:54.400
+De mancacho voy a desactivar mi Linux.
+
+00:32:54.400 --> 00:32:55.400
+Tata, tata, tata.
+
+00:32:57.400 --> 00:32:59.400
+Si, no se va a haber problemas.
+
+00:33:01.900 --> 00:33:03.900
+Vuelto, vuelto a saber.
+
+00:33:03.900 --> 00:33:04.900
+Vuelto a saber.
+
+00:33:08.900 --> 00:33:09.900
+Vuelto a saber.
+
+00:33:09.900 --> 00:33:10.900
+Si, se va a ver.
+
+00:33:12.900 --> 00:33:13.900
+Ya, ahora si.
+
+00:33:13.900 --> 00:33:14.900
+Ya voy a cerrarlo.
+
+00:33:14.900 --> 00:33:15.900
+Vuelto a saber.
+
+00:33:18.900 --> 00:33:19.900
+Ya.
+
+00:33:19.900 --> 00:33:20.900
+Viento, voy a esperar.
+
+00:33:20.900 --> 00:33:21.900
+Ya.
+
+00:33:23.900 --> 00:33:24.900
+Tata, tata, tata.
+
+00:33:24.900 --> 00:33:25.900
+Que más, nada más.
+
+00:33:25.900 --> 00:33:28.900
+Bueno, mientras tanto les explicaré un poquito de webhooks,
+
+00:33:29.900 --> 00:33:31.900
+pero a nivel un poquito más avanzado.
+
+00:33:32.900 --> 00:33:35.900
+No voy a entrar mucho en detalle de algunos aspectos más técnicos,
+
+00:33:36.860 --> 00:33:39.860
+pero eso para entonces en un segundo módulo más o menos es que existen.
+
+00:33:41.860 --> 00:33:44.860
+Pero voy a trabajar ahorita con pasadas de pago, digamos.
+
+00:33:44.860 --> 00:33:45.860
+Así que voy a ver acá.
+
+00:33:47.860 --> 00:33:48.860
+Scaledro.
+
+00:33:50.860 --> 00:33:51.860
+Diez miles, va veritando esa parte.
+
+00:33:51.860 --> 00:33:53.860
+Aprovecharemos en el avance al trabajo de teoría.
+
+00:33:55.860 --> 00:33:56.860
+Ya.
+
+00:33:56.860 --> 00:33:57.860
+Listo.
+
+00:33:58.860 --> 00:34:00.860
+Generalmente lo que son los webhooks,
+
+00:34:00.860 --> 00:34:03.860
+pero ahora voy a hacer en dos ámbitos aplicativos.
+
+00:34:03.860 --> 00:34:06.860
+Voy a trabajar más que todo en banca.
+
+00:34:07.860 --> 00:34:12.860
+Y voy a trabajar también en la parte de inteligencia artificiales,
+
+00:34:12.860 --> 00:34:13.860
+pero no las básicas.
+
+00:34:13.860 --> 00:34:14.860
+Por ejemplo las deekoms.
+
+00:34:14.860 --> 00:34:15.860
+Deekoms ahí.
+
+00:34:15.860 --> 00:34:17.860
+Son los deekoms que trabajamos ahí.
+
+00:34:19.860 --> 00:34:20.860
+Ya.
+
+00:34:20.860 --> 00:34:21.860
+Qué diferencia hay.
+
+00:34:21.860 --> 00:34:22.860
+Cómo trabajan los webhooks.
+
+00:34:24.860 --> 00:34:26.860
+Generalmente cuando yo trabajo con banca.
+
+00:34:28.860 --> 00:34:29.860
+Ehh, en es sinceramente el cuervo.
+
+00:34:29.860 --> 00:34:30.860
+Bueno, en Bolivia,
+
+00:34:30.860 --> 00:34:35.860
+lamentablemente los bancos no tienen una actualización de sus sistemas internos.
+
+00:34:35.860 --> 00:34:41.860
+Por eso hay veces complicado que hagamos pasadas de pago con paypal o con otras empresas,
+
+00:34:41.860 --> 00:34:44.860
+porque no están todavía automatizadas.
+
+00:34:44.860 --> 00:34:49.860
+Y pero en Bolivia existe netamente lo que son los queries por defecto.
+
+00:34:49.860 --> 00:34:53.860
+Eso los tienen en varias bancas, que en este caso puede ser la BNB.
+
+00:34:53.860 --> 00:34:56.860
+La BNB tiene Básica y la Mercantil.
+
+00:34:56.860 --> 00:35:02.860
+Las dos son las únicas que en Bolivia tienen cueres tramitables.
+
+00:35:02.860 --> 00:35:06.860
+Es decir, que los cueres puedan utilizarse con webhooks.
+
+00:35:07.860 --> 00:35:08.860
+Ya.
+
+00:35:08.860 --> 00:35:09.860
+Las demás bancos no tienen.
+
+00:35:09.860 --> 00:35:13.860
+Los ciencias están actualizando y manejan un montón de parámetros.
+
+00:35:14.860 --> 00:35:17.860
+Entonces necesariamente cuando yo hablo de un webhook,
+
+00:35:17.860 --> 00:35:20.860
+le estoy dando una dirección, o sea, un HTTP.
+
+00:35:20.860 --> 00:35:23.860
+Si es un HTTP o un HTTP es.
+
+00:35:23.860 --> 00:35:28.860
+Cuando accede desde el cuero, esto me recepciona.
+
+00:35:28.860 --> 00:35:32.860
+Me recepciona inmediatamente y me valida.
+
+00:35:32.860 --> 00:35:37.860
+Ahora dentro de los cueres sabemos que existe encriptaciones.
+
+00:35:37.860 --> 00:35:40.860
+Dentro de estas encriptaciones hay donde dentro en términos webhooks.
+
+00:35:40.860 --> 00:35:44.860
+Pero estos webhooks ya no se llaman webhooks normales,
+
+00:35:44.860 --> 00:35:46.860
+se llaman webhooks antinaturales.
+
+00:35:46.860 --> 00:35:51.860
+Los webhooks antinaturales me generan aleatoriedades
+
+00:35:51.860 --> 00:35:54.860
+en mis sistemas patrones de mis contraseñas.
+
+00:35:54.860 --> 00:35:55.860
+O sea, lo hashé.
+
+00:35:55.860 --> 00:35:57.860
+Para los que no entienden esa parte,
+
+00:35:57.860 --> 00:36:00.860
+hashé es como encriptar la contraseña que tengo.
+
+00:36:00.860 --> 00:36:02.860
+Pero aquí se llaman los webhooks.
+
+00:36:02.860 --> 00:36:04.860
+Los webhooks se llaman.
+
+00:36:04.860 --> 00:36:06.860
+Los webhooks o los webhooks se llaman.
+
+00:36:06.860 --> 00:36:07.860
+Es bien raro esos nombres, ¿no?
+
+00:36:07.860 --> 00:36:09.860
+Pero tienen esos dos nombres.
+
+00:36:09.860 --> 00:36:12.860
+Una vez que los webhooks entran en proceso,
+
+00:36:12.860 --> 00:36:13.860
+lo recién es tu valida.
+
+00:36:13.860 --> 00:36:15.860
+Y ahora en un N8N si se puede implementar.
+
+00:36:15.860 --> 00:36:16.860
+No es que no.
+
+00:36:16.860 --> 00:36:19.860
+Tiene procesos internos que se puede trabajar.
+
+00:36:19.860 --> 00:36:21.860
+Ahora los d-comps.
+
+00:36:21.860 --> 00:36:23.860
+O sea, lo estoy explicando ahorita.
+
+00:36:23.860 --> 00:36:26.860
+¿Dónde mayormente existe este tipo de webhooks?
+
+00:36:26.860 --> 00:36:28.860
+Ya, de mucho.
+
+00:36:28.860 --> 00:36:30.860
+Ahora sí, voy a abrir esto.
+
+00:36:32.860 --> 00:36:34.860
+Y haremos la prueba correspondiente.
+
+00:36:34.860 --> 00:36:35.860
+Ya.
+
+00:36:35.860 --> 00:36:37.860
+Y si me da error,
+
+00:36:37.860 --> 00:36:42.860
+se va a tener que renunciar porque he dejado de...
+
+00:36:42.860 --> 00:36:44.860
+No sé si se han dado cuenta,
+
+00:36:44.860 --> 00:36:46.860
+pero miren acá.
+
+00:36:46.860 --> 00:36:48.860
+Mi sistema está vulnerable ahorita.
+
+00:36:48.860 --> 00:36:50.860
+Porque...
+
+00:36:50.860 --> 00:36:55.860
+Le he deshabilitado todo en mis paquetes para crearme entornos.
+
+00:36:55.860 --> 00:36:59.860
+Así que ahorita está en modo hackeable.
+
+00:37:00.860 --> 00:37:04.860
+Así que esa parte voy a ahorita verlo.
+
+00:37:04.860 --> 00:37:07.860
+Por eso no me está dejando algunos punts.
+
+00:37:07.860 --> 00:37:09.860
+Tengo que activarlos desde mi bio.
+
+00:37:09.860 --> 00:37:12.860
+Si no, siempre voy a poder trabajar con ustedes.
+
+00:37:12.860 --> 00:37:14.860
+Ya.
+
+00:37:14.860 --> 00:37:15.860
+Listo.
+
+00:37:15.860 --> 00:37:16.860
+Listo.
+
+00:37:16.860 --> 00:37:18.860
+Una vez más voy a hacer...
+
+00:37:18.860 --> 00:37:20.860
+Sí.
+
+00:37:20.860 --> 00:37:22.860
+Tengo que desactivarles.
+
+00:37:22.860 --> 00:37:23.860
+Ya, chics.
+
+00:37:23.860 --> 00:37:25.860
+Voy a hacer lo siguiente.
+
+00:37:27.860 --> 00:37:30.860
+Vamos a trabajar de manera aleatoria.
+
+00:37:30.860 --> 00:37:32.860
+Voy a desactivar eso.
+
+00:37:33.860 --> 00:37:35.860
+Lo malo que voy a demorar un poquito tiempo.
+
+00:37:35.860 --> 00:37:36.860
+Listo.
+
+00:37:36.860 --> 00:37:37.860
+Ahora sí.
+
+00:37:37.860 --> 00:37:39.860
+Lo voy a abrir desde acá.
+
+00:37:41.860 --> 00:37:42.860
+Ya.
+
+00:37:42.860 --> 00:37:43.860
+Ya lo he activado.
+
+00:37:43.860 --> 00:37:44.860
+Esperemos que funcione.
+
+00:37:44.860 --> 00:37:47.860
+Una vez que estoy escuchando...
+
+00:37:48.860 --> 00:37:49.860
+Ahora sí.
+
+00:37:49.860 --> 00:37:52.860
+Dividanlo entre dos pantallas.
+
+00:37:53.860 --> 00:37:54.860
+Y mandenlo.
+
+00:37:54.860 --> 00:37:58.860
+Voy a abrir esto donde estaba esa cosa.
+
+00:37:59.860 --> 00:38:01.860
+Donde estaba, donde estaba, donde estaba.
+
+00:38:01.860 --> 00:38:02.860
+Acá está.
+
+00:38:02.860 --> 00:38:04.860
+Acá está.
+
+00:38:04.860 --> 00:38:05.860
+Ya voy a abrir de nuevo.
+
+00:38:05.860 --> 00:38:07.860
+Si no, ya abran su contacto.
+
+00:38:08.860 --> 00:38:09.860
+Ahora sí.
+
+00:38:09.860 --> 00:38:10.860
+Abranse esto.
+
+00:38:10.860 --> 00:38:11.860
+Muy aparte.
+
+00:38:11.860 --> 00:38:13.860
+Y ahora sí, envíenlo.
+
+00:38:13.860 --> 00:38:14.860
+Ya envíenlo.
+
+00:38:14.860 --> 00:38:16.860
+Tiene que estar escuchando eso.
+
+00:38:17.860 --> 00:38:18.860
+Listo.
+
+00:38:18.860 --> 00:38:19.860
+Ahí voy a colocarlo.
+
+00:38:19.860 --> 00:38:21.860
+Y voy a dividirlo en dos pantallas.
+
+00:38:22.860 --> 00:38:23.860
+Listo.
+
+00:38:23.860 --> 00:38:25.860
+Esa captura me van a sacar ustedes.
+
+00:38:26.860 --> 00:38:27.860
+Listo.
+
+00:38:27.860 --> 00:38:28.860
+Ahora sí.
+
+00:38:30.860 --> 00:38:31.860
+Ya.
+
+00:38:32.860 --> 00:38:34.860
+Colocaremos en este caso...
+
+00:38:34.860 --> 00:38:36.860
+Coloquen un correo que realmente están utilizando.
+
+00:38:36.860 --> 00:38:37.860
+Y sea verdadero.
+
+00:38:37.860 --> 00:38:39.860
+Para que les vote todo eso.
+
+00:38:39.860 --> 00:38:41.860
+Ahora voy a colocar milton, blanco.
+
+00:38:41.860 --> 00:38:43.860
+Tata, tata, tata. Listo.
+
+00:38:43.860 --> 00:38:44.860
+732.
+
+00:38:44.860 --> 00:38:45.860
+732.
+
+00:38:45.860 --> 00:38:46.860
+732.
+
+00:38:46.860 --> 00:38:47.860
+Y listo.
+
+00:38:47.860 --> 00:38:53.860
+Quiero productos de venta para fertilizantes.
+
+00:38:55.860 --> 00:38:56.860
+Listo.
+
+00:38:56.860 --> 00:38:57.860
+Colocan en vía.
+
+00:38:58.860 --> 00:38:59.860
+Y ha escuchado.
+
+00:38:59.860 --> 00:39:00.860
+Miren.
+
+00:39:00.860 --> 00:39:01.860
+Ha escuchado.
+
+00:39:02.860 --> 00:39:03.860
+Ahí está.
+
+00:39:04.860 --> 00:39:05.860
+Ya ha capturado esos datos.
+
+00:39:05.860 --> 00:39:06.860
+Milton.
+
+00:39:06.860 --> 00:39:07.860
+Tantos, tantos.
+
+00:39:07.860 --> 00:39:09.860
+Quiero venta para fertilizantes.
+
+00:39:09.860 --> 00:39:13.860
+Esto que sea su siguiente captura.
+
+00:39:14.860 --> 00:39:15.860
+Ya.
+
+00:39:15.860 --> 00:39:16.860
+Listo.
+
+00:39:16.860 --> 00:39:18.860
+Vienen a su word.
+
+00:39:19.860 --> 00:39:20.860
+Y lo pegan a la siguiente captura.
+
+00:39:22.860 --> 00:39:23.860
+Ya.
+
+00:39:23.860 --> 00:39:24.860
+Ahora sí.
+
+00:39:24.860 --> 00:39:25.860
+Pero si lo cierro esto, van a fijar solo.
+
+00:39:26.860 --> 00:39:27.860
+Está el bucle.
+
+00:39:28.860 --> 00:39:29.860
+Pero mi modelo ya está pensando.
+
+00:39:29.860 --> 00:39:31.860
+Y ya me está enviando el correo.
+
+00:39:31.860 --> 00:39:32.860
+No sé qué me he enviado.
+
+00:39:32.860 --> 00:39:34.860
+Pero van a ver cuál es la diferencia.
+
+00:39:34.860 --> 00:39:35.860
+Ya.
+
+00:39:35.860 --> 00:39:36.860
+Ahora sí.
+
+00:39:36.860 --> 00:39:38.860
+Voy a entrar en mi correo.
+
+00:39:38.860 --> 00:39:39.860
+Ya.
+
+00:39:39.860 --> 00:39:40.860
+De un coche.
+
+00:39:40.860 --> 00:39:42.860
+Os voy a mostrar cómo es mi correo personal.
+
+00:39:42.860 --> 00:39:43.860
+Lo voy a ocultar ya.
+
+00:39:43.860 --> 00:39:44.860
+Un coche.
+
+00:39:44.860 --> 00:39:46.860
+Tengo un montón de datos ahí.
+
+00:39:46.860 --> 00:39:48.860
+Capazes más ustedes son hackers.
+
+00:39:48.860 --> 00:39:50.860
+Hay que siempre ver.
+
+00:39:50.860 --> 00:39:51.860
+Ya.
+
+00:39:51.860 --> 00:39:52.860
+Listo.
+
+00:39:52.860 --> 00:39:53.860
+Ya.
+
+00:39:53.860 --> 00:39:54.860
+Y justo me he enviado.
+
+00:39:54.860 --> 00:39:55.860
+Pero me he enviado cualquier cosa.
+
+00:39:55.860 --> 00:39:56.860
+Miren.
+
+00:39:56.860 --> 00:39:57.860
+Y ya.
+
+00:39:57.860 --> 00:39:58.860
+Y ya.
+
+00:39:58.860 --> 00:39:59.860
+Y ya.
+
+00:39:59.860 --> 00:40:00.860
+Y ya.
+
+00:40:00.860 --> 00:40:01.860
+Y ya.
+
+00:40:01.860 --> 00:40:02.860
+Y ya.
+
+00:40:02.860 --> 00:40:03.860
+Y ya.
+
+00:40:03.860 --> 00:40:04.860
+Y ya.
+
+00:40:04.860 --> 00:40:05.860
+¿Qué es lo que es?
+
+00:40:05.860 --> 00:40:06.860
+¿Qué?
+
+00:40:06.860 --> 00:40:07.860
+Miren.
+
+00:40:07.860 --> 00:40:09.860
+Bueno, me he enviado lo que...
+
+00:40:09.860 --> 00:40:10.860
+No me he dado el nombre.
+
+00:40:10.860 --> 00:40:11.860
+No voy a hablar solamente...
+
+00:40:11.860 --> 00:40:12.860
+Me he enviado.
+
+00:40:12.860 --> 00:40:13.860
+Ha hecho lo que tiene que hacer.
+
+00:40:13.860 --> 00:40:14.860
+Pero sí en la distribución.
+
+00:40:14.860 --> 00:40:15.860
+¿Por qué?
+
+00:40:15.860 --> 00:40:16.860
+Porque no, no estamos sobre te capturando con mi.
+
+00:40:16.860 --> 00:40:18.860
+Con mi Edit Fills.
+
+00:40:18.860 --> 00:40:20.860
+Así que voy a hacer clic acá.
+
+00:40:20.860 --> 00:40:24.860
+Y aquí voy a hacer lo siguiente.
+
+00:40:24.860 --> 00:40:25.860
+Fíjense acá.
+
+00:40:25.860 --> 00:40:27.860
+Aquí, si nos damos cuenta.
+
+00:40:27.860 --> 00:40:28.860
+Voy a borrar esta parte.
+
+00:40:28.860 --> 00:40:30.860
+parte
+
+00:40:32.220 --> 00:40:39.900
+y de usted debe estar así ahorita tal cual ya vienen a webbox van a ese anombres
+
+00:40:39.900 --> 00:40:45.760
+acá abajo de usted dice nombre completo esto lo jalan ahí antes de eso van a
+
+00:40:45.760 --> 00:40:52.560
+colocar acá doble bar espacio lo jalan esto
+
+00:40:52.560 --> 00:40:59.200
+costo que no choque ahí lo jalan y les va a aparecer en verdecito eso significa que
+
+00:40:59.200 --> 00:41:03.840
+ya está bien van a hacer sus demás variables y voy a colocar esto ahora voy a irme al
+
+00:41:03.840 --> 00:41:10.480
+email igual acá a mí aquí a mí a mí ha detectado pero si usted no se ha detectado igual
+
+00:41:10.480 --> 00:41:17.160
+barrita significa o y lo jalan subime o correo ahí también
+
+00:41:17.320 --> 00:41:24.960
+y esto y esto me voy a ahorrar el tercero al celular igual acá aquí fíjense esta
+
+00:41:24.960 --> 00:41:32.420
+parte los quería explicar voy a mover esto un poco esta partecito fíjense esta parte por
+
+00:41:32.420 --> 00:41:37.920
+ejemplo dice nul porque hecho nul porque quise es algún dato solamente captura 3
+
+00:41:37.920 --> 00:41:43.040
+datos por ejemplo en mi en mi formulario estaba 4 datos y en mi edificio está con 4 datos
+
+00:41:43.280 --> 00:41:49.000
+pero qué pasa si yo me olvidado y coloco solamente tres y hecho montó de trabajos para evitar eso
+
+00:41:49.000 --> 00:41:54.520
+pueden colocar nul porque están emitidos en valor o les dicen puedes capturar el valor
+
+00:41:54.520 --> 00:42:00.920
+estos de mi 1 for submission y es de mi juego si no tengo el dato la colocó nul no hay lío pero
+
+00:42:00.920 --> 00:42:12.640
+si lo tienen no voy a jalar esto y el último mensaje en mensaje igual lo voy a eliminar esta
+
+00:42:12.640 --> 00:42:18.360
+parte y voy a colocar eso dos barritas y lo jalo el cliente
+
+00:42:19.720 --> 00:42:29.360
+visto ahí lo dejan ya ahora con eso ya debería de trabajar ahora de nuevo voy a tratar de escuchar
+
+00:42:30.880 --> 00:42:35.480
+vamos a escucharlo y voy a volver a llenar ya voy a volver a minimizar esto
+
+00:42:36.200 --> 00:42:39.620
+y vamos a volver a clicar el otro
+
+00:42:40.880 --> 00:42:44.840
+donde estaba ya de un cachito cada vez lo cierro
+
+00:42:47.800 --> 00:42:50.200
+no sé dónde está voy a volver a abrir mi contacto
+
+00:42:52.440 --> 00:42:59.120
+listo ahora sí voy a apartar esto y voy a apartar el otro de mancacho
+
+00:42:59.120 --> 00:43:10.720
+y bueno aquí lo voy a dividir más en 22 ahora sí seguiremos como está escuchando en este caso
+
+00:43:10.720 --> 00:43:19.520
+igual coloco lo mismo ya estaba yo voy a colocar tanto listo
+
+00:43:19.680 --> 00:43:32.720
+y aquí voy a decir dame los quiero hacer un pedido de sus productos
+
+00:43:34.000 --> 00:43:36.080
+y productos ofrecían
+
+00:43:36.080 --> 00:43:43.160
+listo apeten enviar y veremos
+
+00:43:46.080 --> 00:43:48.400
+ya ahí está pensando
+
+00:43:51.000 --> 00:43:57.920
+ahí está parte aquí en la captura pausa que quiero directamente ya que se pre-entrenen
+
+00:43:57.920 --> 00:44:03.600
+o ejecutado que la ejecuta directamente ahí está ya está capturando y aquí también lo voy a
+
+00:44:03.600 --> 00:44:09.200
+pre entrenar listo que se ejecute que vaya pre entrenando sin base ahora el web hook
+
+00:44:11.440 --> 00:44:16.240
+en lo mejor es la función de manera de golpe ya en algunos como yo tenía que hacerlo para
+
+00:44:16.240 --> 00:44:24.600
+entrenarlo listo a esperar un poquito ya saben que la primera vez es un poquito tedioso
+
+00:44:24.600 --> 00:44:37.200
+ya mientras tanto después de las 19 30 voy a pedirles que presenten a cuatro personas su
+
+00:44:37.200 --> 00:44:43.880
+proyecto con el proyecto de anterior clase era que hagan la conexión mediante su modelo interno
+
+00:44:43.880 --> 00:44:53.880
+local ya eso va a dar el puntaje y eso voy a registrar base a la sarea listo y lo ejecutaremos
+
+00:44:53.880 --> 00:45:01.480
+esto yo que me enví ya está ya me enviado voy a abrir mi correo bueno aquí está ahorita
+
+00:45:01.480 --> 00:45:09.760
+se va a mochar ya está ya me lo lleve ya me he enviado ahí voy a entrar acá y listo ahí está
+
+00:45:10.760 --> 00:45:19.200
+ya me ha capturado mi nombre lo que le preguntaba qué productos ofrece y está recibido esto
+
+00:45:19.320 --> 00:45:20.720
+ya listo
+
+00:45:22.840 --> 00:45:27.760
+en cesa capturita que ustedes han hecho se van a colocar como su captura número 3
+
+00:45:30.920 --> 00:45:37.920
+listo y ahora sí captura número 3
+
+00:45:37.920 --> 00:45:49.400
+yo lo tenemos bueno esto ya ya ya podemos trabajar ahora sí con entornos un poquito más
+
+00:45:51.080 --> 00:45:57.240
+más reales no cuando ya hacemos con html con demás procesos ya podemos trabajar
+
+00:45:58.240 --> 00:46:03.800
+ahora si quieren hacer un loyin un proceso más de autenticación ya tienen que aplicar
+
+00:46:03.800 --> 00:46:10.160
+si vas a hacer el dato ya ahora por ese caso ahora digamos que queremos en este caso capturar
+
+00:46:10.160 --> 00:46:17.440
+los datos del cliente para hacerle para bombardear de google ads para bombardear de promociones para
+
+00:46:17.440 --> 00:46:24.640
+bombardear de las whatsapp se puede hacer como tendríamos que crear acá otro maya secuela
+
+00:46:24.960 --> 00:46:35.280
+ya creamos ahora puede colocar insert robin table o sea insertar variados o líneas en tu código
+
+00:46:35.280 --> 00:46:42.320
+de paso de datos y listo ya eso pero en este caso aquí pueden también hacer clic ya que
+
+00:46:42.320 --> 00:46:51.160
+voy a colocar es maya secuela y esta parte ya tendría que ser insert yo ya lo conectan
+
+00:46:53.400 --> 00:47:00.240
+ahí está a la base de que voy a crear acá por ejemplo ya colocarlo inserción de pins
+
+00:47:01.360 --> 00:47:11.840
+inserción de clíns listo lo voy a cerrar ya ya podemos capturar quien está enviando tal cosa
+
+00:47:11.840 --> 00:47:20.480
+y puedo obtener más datos se puede mejorar para su edifice para que captura email teléfono su
+
+00:47:20.480 --> 00:47:28.080
+ip incluso puede hacer que captura para luego bombardear de donde esté y listo así que esa
+
+00:47:28.080 --> 00:47:35.160
+parte más haremos hoy y vamos a tener a la clase van a presentar sus trabajos ya así que abran su
+
+00:47:35.160 --> 00:47:41.880
+sam o su post lo que se lo utilizan más pero yo voy a utilizar como se había enseñado el sam ya
+
+00:47:41.880 --> 00:47:49.200
+voy a habilitar ya no estoy habilitando acá solamente eso si quieren pueden habilitar esto no
+
+00:47:49.200 --> 00:47:57.640
+iría pero me hecho ya listo y una vez que hagan eso ya saben tienen que habilitar su maya secuela
+
+00:47:57.800 --> 00:48:05.320
+no es igual y listo voy a ahoritarlo y voy a irme a la ida que estaba previamente trabajando para
+
+00:48:05.320 --> 00:48:11.480
+que me dé una tabla de datos de inserción de datos ya vengo acá que estaba la y que estábamos
+
+00:48:11.480 --> 00:48:16.680
+trabajando anteriormente voy a venir a secuel editor voy a venir acá luego enter y aquí voy a colocar
+
+00:48:16.680 --> 00:48:24.640
+lo que le voy a preguntar a la ida ya vengo acá entonces voy a habilitar uno nuevo de mancachito
+
+00:48:24.640 --> 00:48:30.920
+donde está ya voy a cerrar mi correo y ahora si aquí no es
+
+00:48:36.360 --> 00:48:39.360
+vengo acá y voy a entrarme como mod incómodo
+
+00:48:41.160 --> 00:48:49.000
+y aquí van a colocar todos los datos que quieren capturar así dame una base de datos
+
+00:48:50.000 --> 00:48:54.960
+en la secuela en la secuela para
+
+00:48:56.600 --> 00:49:02.760
+para los que con los siguientes para con los siguientes dame una base de datos de una sola
+
+00:49:02.760 --> 00:49:10.280
+tabla de una sola tabla en ese cuele con los siguientes
+
+00:49:10.280 --> 00:49:21.320
+listo entonces hago clic y voy a decirle lo que está acá en el web y ya lo que he capturado
+
+00:49:21.320 --> 00:49:26.480
+acá porque este va a trabajar netamente con esta edad sino este y en base a mis edificios así
+
+00:49:26.480 --> 00:49:33.760
+que estaba nombre completo si no me equivoco nombre e-mail número de celular y mensaje
+
+00:49:33.760 --> 00:49:45.360
+ya nombre completo nombre completo nombre a lo más e-mail celular y mensaje
+
+00:49:46.800 --> 00:49:48.480
+pero mensaje no necesito
+
+00:49:50.320 --> 00:49:57.880
+quizás si bueno hay mucho de pende quizás yo quiero capturar los mensajes para ver cuál es mi
+
+00:49:57.880 --> 00:50:03.760
+intinerancia de pedidos es capaz no sé la mayoría de mis clientes me pide en pk como
+
+00:50:03.760 --> 00:50:10.960
+estoy vendiendo yo en este caso fertilizantes me pide netamente sulfato de potasio nitrato de
+
+00:50:10.960 --> 00:50:16.600
+potasio ahí sí me serviría lo que es el mensaje más para que luego la ya me haga un análisis de
+
+00:50:18.120 --> 00:50:20.560
+hasta estadístico ya y listo
+
+00:50:21.320 --> 00:50:29.320
+y ahí me está creando contactos de b ya que nuestro e-mail celular secundario no es necesario
+
+00:50:29.320 --> 00:50:34.480
+esto lo voy a borrar los que no necesito y a ustedes pueden aumentar más y demás
+
+00:50:35.480 --> 00:50:43.360
+lo clickeamos le voy a llevar acá lo voy a pegar y lo que no necesito es todo mi
+
+00:50:43.360 --> 00:50:51.680
+interés a celular nomás quiero yo fecha de registros y por default va a ser eso así que
+
+00:50:51.680 --> 00:50:59.440
+voy a crear primero la base de datos agarro la base de datos esto lo voy a minimizar esto
+
+00:50:59.440 --> 00:51:06.400
+tiene que estar así clickeado luego y los contactos y directamente esto y hasta eso creado
+
+00:51:06.400 --> 00:51:12.400
+bien venimos acá y esto no habría en el mes o larga mensaje y entonces lo que voy a hacer acá
+
+00:51:12.400 --> 00:51:21.760
+es de nuevo lo que he hecho anteriormente vengo a mi workflow voy a hacer ahora esto voy a crear acá
+
+00:51:23.280 --> 00:51:29.520
+voy a llevarlo directamente a mi nueva credencial sería porque voy a hacer con otra credencial
+
+00:51:29.520 --> 00:51:39.360
+y esta parte ya sabe no es 127.0.0.1 database mail SQL en este caso que era
+
+00:51:39.360 --> 00:51:45.600
+ya me olvidó su nombre era contactos de be y a contactos
+
+00:51:48.480 --> 00:51:53.440
+barso a baja de be y o ser voy a colocar lo que ruta
+
+00:51:56.800 --> 00:52:03.680
+listo pasu lo que tengo en los sistemas tienen pueden colocar listo ya soy listo y hacia
+
+00:52:04.640 --> 00:52:08.240
+linkeado esto capturó
+
+00:52:11.680 --> 00:52:13.280
+y eso es su cuarta captura
+
+00:52:16.560 --> 00:52:17.760
+captura cuarta
+
+00:52:20.320 --> 00:52:22.160
+y esto locan y esto
+
+00:52:24.000 --> 00:52:28.720
+ya una vez que lo tengan ya pueden trabajar con parámetros aquí voy a colocar insert
+
+00:52:29.680 --> 00:52:33.360
+y aquí voy a colocar contactos los va a actualizar no esto
+
+00:52:34.960 --> 00:52:41.440
+y aquí me pide automap si puedo hacer automapiable pero quiere mape a cada colobre podemos mape a
+
+00:52:41.440 --> 00:52:48.160
+cada colobre voy a colocar el punto número 2 y aquí voy a añadir los valores ad value y este
+
+00:52:48.160 --> 00:52:55.120
+value lo van a jalar de acá ya voy a colocar select y value van a colocar el nombre y van a colocar
+
+00:52:55.280 --> 00:52:56.000
+aquí el nombre
+
+00:52:58.800 --> 00:53:04.880
+otro valor vienen acá colocan el igual email y le van a signal el email
+
+00:53:08.320 --> 00:53:12.320
+otro valor acá van a colocarlo en este caso celular y van a jalar los de
+
+00:53:15.360 --> 00:53:17.120
+y por último el mensaje
+
+00:53:17.840 --> 00:53:23.520
+y lojala con eso ya estaría
+
+00:53:25.840 --> 00:53:27.040
+lo cerramos esto
+
+00:53:29.040 --> 00:53:32.560
+y listo ejecutamos nuevamente
+
+00:53:34.560 --> 00:53:37.600
+escuchamos y voy a hacer dónde está mi formulario
+
+00:53:39.280 --> 00:53:40.720
+ahí no lo se rode nuevo
+
+00:53:40.800 --> 00:53:44.320
+no
+
+00:53:44.320 --> 00:53:49.040
+lo se rode nuevo si lo se lo lo voy a hacer esto y lo voy a abrir de nuevo
+
+00:53:50.800 --> 00:53:53.680
+no sé porque tengo la maña de de cerrarlo siempre
+
+00:53:55.280 --> 00:53:57.200
+ya voy a escuchar y voy a ver
+
+00:54:00.560 --> 00:54:03.680
+ya así que esta parte donde estaba ahora mi bejo
+
+00:54:06.880 --> 00:54:07.360
+listo
+
+00:54:10.800 --> 00:54:13.840
+ya empezaremos entonces voy a minimizar un poco esto
+
+00:54:17.120 --> 00:54:18.320
+listo ahí
+
+00:54:20.080 --> 00:54:22.800
+procedemos escuchamos y voy a hacer lo siguiente
+
+00:54:25.120 --> 00:54:27.200
+ya vamos a colocar Milton
+
+00:54:27.920 --> 00:54:28.640
+Probably
+
+00:54:31.280 --> 00:54:31.760
+I know
+
+00:54:32.560 --> 00:54:32.880
+where you
+
+00:54:35.600 --> 00:54:36.160
+doing
+
+00:54:37.940 --> 00:54:38.620
+talking
+
+00:54:41.840 --> 00:54:42.780
+潮
+
+00:54:44.540 --> 00:54:45.140
+very
+
+00:54:47.200 --> 00:54:48.080
+getting
+
+00:54:52.080 --> 00:54:53.380
+out
+
+00:54:55.180 --> 00:54:55.600
+getting
+
+00:54:57.200 --> 00:55:02.200
+hacemos clic y listo
+
+00:55:02.200 --> 00:55:07.200
+hay que se ejecute, ya saben esta parte pueden trabajarlo así
+
+00:55:07.200 --> 00:55:13.200
+para que se vaya primero a otro entrenándose
+
+00:55:13.200 --> 00:55:17.200
+luego hacer la parte producción en el hilo
+
+00:55:17.200 --> 00:55:29.200
+me faltaba, no le he dado un prompt todavía a mi
+
+00:55:29.200 --> 00:55:36.200
+a mi mensaje, ya eso es el caso, bueno que termine lo pongo a hacer el mensaje
+
+00:55:36.200 --> 00:55:39.200
+para que me inserta mi client, porque ahorita no me he hecho eso
+
+00:55:39.200 --> 00:55:41.200
+voy a venir acá entonces
+
+00:55:41.200 --> 00:55:46.200
+voy a irme directamente a prompt, el sistema, y voy a hacer
+
+00:55:46.200 --> 00:55:51.200
+insertame, voy a copiarme esto
+
+00:55:58.200 --> 00:56:03.200
+inserta los datos capturados
+
+00:56:03.200 --> 00:56:09.200
+capturados
+
+00:56:09.200 --> 00:56:14.200
+van a especificar si es posible, porque a veces no entienden
+
+00:56:14.200 --> 00:56:20.200
+nombre en este caso es celular, perdón nombre y mail
+
+00:56:20.200 --> 00:56:23.200
+celular
+
+00:56:23.200 --> 00:56:26.200
+mensaje
+
+00:56:26.200 --> 00:56:36.200
+se hiron en mi base de datos
+
+00:56:36.200 --> 00:56:40.200
+que se llamaba ahora, ya no me acuerdo
+
+00:56:40.200 --> 00:56:44.200
+insurción de clientes, y ahorita los voy a pasar
+
+00:56:44.200 --> 00:56:48.200
+ahi ya me he hecho olvidar, les tenía que pasar lo apenada
+
+00:56:48.200 --> 00:56:55.200
+y listo los pasaré el token ya para que vean si no es como lo están haciendo
+
+00:56:55.200 --> 00:57:01.200
+ahora que me digan, o les fue un ocio en el anterior tocan, creo que lo he eliminado
+
+00:57:01.200 --> 00:57:06.200
+no se cuanta tokens ya tengo, ahorita voy a ver
+
+00:57:06.200 --> 00:57:11.200
+listo, así que de banqueteche te los voy a enviar
+
+00:57:17.200 --> 00:57:22.200
+ya, voy a poner prueba
+
+00:57:22.200 --> 00:57:26.200
+listo, ya los he enviado, lo estoy enviando ahorita en su
+
+00:57:26.200 --> 00:57:29.200
+mensaje de mid, haga un prueba con eso
+
+00:57:29.200 --> 00:57:31.200
+ya los tokens
+
+00:57:31.200 --> 00:57:35.200
+y con eso son los capturas correspondientes
+
+00:57:35.200 --> 00:57:39.200
+listo, vayan haciendo eso
+
+00:57:39.200 --> 00:57:45.200
+yo también hice ya mi insulción cliente, se ve que insulciona mas por el cliente
+
+00:57:45.200 --> 00:57:47.200
+si vamos a hacer acá
+
+00:57:47.200 --> 00:57:50.200
+de nuevo mi prompt
+
+00:57:58.200 --> 00:58:02.200
+los cierro y vuelvo a ejecutar
+
+00:58:02.200 --> 00:58:05.200
+ya vamos a volver a ejecutar entonces
+
+00:58:05.200 --> 00:58:10.200
+igual hay que pre entrenarlo, así que de nuevo voy a tratar de hacer esto
+
+00:58:11.200 --> 00:58:14.200
+de nuevo los he rodado
+
+00:58:16.200 --> 00:58:19.200
+voy a ver de nuevo esta puerta
+
+00:58:21.200 --> 00:58:23.200
+listo, contactos
+
+00:58:23.200 --> 00:58:25.200
+ya lo sé
+
+00:58:26.200 --> 00:58:28.200
+escucharemos
+
+00:58:28.200 --> 00:58:31.200
+listo, empezaremos a hacerlo
+
+00:58:32.200 --> 00:58:35.200
+ya, de nuevo milton
+
+00:58:35.200 --> 00:58:38.200
+un blanco
+
+00:58:41.200 --> 00:58:44.200
+ya quiero saber
+
+00:58:44.200 --> 00:58:48.200
+los productos
+
+00:58:48.200 --> 00:58:51.200
+listo
+
+00:58:52.200 --> 00:58:56.200
+ya, ahí esperemos y luego vamos a pre entrenar
+
+00:58:56.200 --> 00:58:58.200
+pre entrenamos este
+
+00:58:58.200 --> 00:59:01.200
+pre entrenamos este
+
+00:59:01.200 --> 00:59:03.200
+listo
+
+00:59:05.200 --> 00:59:07.200
+ya
+
+00:59:10.200 --> 00:59:12.200
+listo
+
+00:59:16.200 --> 00:59:22.200
+ah, ya se porque el dominio de si que estaba, ya vamos a ver esa parte
+
+00:59:24.200 --> 00:59:27.200
+ya, de nuevo voy a ejecutar
+
+00:59:34.200 --> 00:59:37.200
+ok, ya te envío el rivero
+
+00:59:38.200 --> 00:59:40.200
+listo
+
+00:59:44.200 --> 00:59:48.200
+ya, seguí el roloz en el mío, ahí estoy con un montón de cosas abiertas
+
+00:59:48.200 --> 00:59:52.200
+ya, los tres unos tendría que dar mal, tendría que dar si o si
+
+00:59:53.200 --> 00:59:55.200
+ya, porque
+
+00:59:55.200 --> 00:59:59.200
+no sé si me escuchan pero ahorita estoy con la voz apenas
+
+00:59:59.200 --> 01:00:03.200
+es que justamente he dado casi 14 horas seguidas de clases
+
+01:00:03.200 --> 01:00:06.200
+y estoy casi fregado, ya, así que
+
+01:00:08.200 --> 01:00:13.200
+paciencia chicos, los sábados siempre estoy así, muerto
+
+01:00:13.200 --> 01:00:17.200
+ya está, ha entrado a lista, ha entrado acá, ya lo que me enví
+
+01:00:20.200 --> 01:00:23.200
+listo, voy a revisar mi correo, le voy a encochar
+
+01:00:24.200 --> 01:00:28.200
+ya está mi correo ahora, ya voy a entrar en mi correo
+
+01:00:29.200 --> 01:00:33.200
+listo, voy a irme acá y los voy a mostrar
+
+01:00:33.200 --> 01:00:37.200
+ahí los voy a mostrar, ya, ya me han llegado
+
+01:00:39.200 --> 01:00:44.200
+listo, ahora si, ahí está, ya ha capturado, me da los, todos los
+
+01:00:45.200 --> 01:00:48.200
+productos que ofrecen y listo, ya
+
+01:00:49.200 --> 01:00:51.200
+ahora voy a irme a ver mi base datos
+
+01:00:54.200 --> 01:00:57.200
+voy a actualizarlo, y ahí está, miren
+
+01:00:58.200 --> 01:01:00.200
+ya se me ha actualizado
+
+01:01:00.200 --> 01:01:04.200
+y si no se pueden dar cuenta 19.32, 19.30
+
+01:01:04.200 --> 01:01:08.200
+con 49 segundos, ya, ahí está
+
+01:01:08.200 --> 01:01:12.200
+esos chicos saquen a captura y deberían de aparecer
+
+01:01:12.200 --> 01:01:14.200
+los iguales a ustedes
+
+01:01:15.200 --> 01:01:18.200
+listo, ahí está su quinta captura creo que es
+
+01:01:20.200 --> 01:01:23.200
+y listo, eso es todo para el por el día de hoy
+
+01:01:23.200 --> 01:01:25.200
+ahora voy a
+
+01:01:25.200 --> 01:01:28.200
+corregir sus proyectos
+
+01:01:29.200 --> 01:01:32.200
+o levante en la mano, quiénes no han hecho así, así que
+
+01:01:32.200 --> 01:01:34.200
+conscientemente
+
+01:01:34.200 --> 01:01:37.200
+lo que tienen que ser con su modelo de I a interna de su
+
+01:01:37.200 --> 01:01:40.200
+oyama, ya, uno
+
+01:01:42.200 --> 01:01:45.200
+uno, quién más a ver, los demás se pueden que no echen
+
+01:01:46.200 --> 01:01:49.200
+uno, dos no más, los demás han hecho, ya entonces los demás vamos a
+
+01:01:51.200 --> 01:01:55.200
+ya, tres, cuatro, parece que es montón era, ya
+
+01:01:56.200 --> 01:02:00.200
+los demás han hecho, a ver, tampoco Patricia
+
+01:02:01.200 --> 01:02:04.200
+confiaba en Patricia, qué pasó
+
+01:02:06.200 --> 01:02:10.200
+listo, ya, entonces vayan avanzando a esa parte chicos
+
+01:02:10.200 --> 01:02:13.200
+las siguientes, les voy a pedir a las personas, si pueden
+
+01:02:13.200 --> 01:02:15.200
+bajar sus manos nomás
+
+01:02:16.200 --> 01:02:19.200
+las siguientes les voy a pedir que sí o si lo tengan en mente
+
+01:02:19.200 --> 01:02:22.200
+y lo tengan para presentación, y por si acaso la siguiente
+
+01:02:22.200 --> 01:02:25.200
+semana, el día jueves, netamente media hora ya me van a
+
+01:02:25.200 --> 01:02:28.200
+presentar sus proyectos, ya el proyecto yo no necesito más que
+
+01:02:28.200 --> 01:02:30.200
+tu
+
+01:02:32.200 --> 01:02:35.200
+necesito unas dos planitas que me den su
+
+01:02:35.200 --> 01:02:38.200
+su proceso, qué van a ser, cómo van a ser y para aquí los
+
+01:02:38.200 --> 01:02:42.200
+vaya valiendo, ya, no se explaen, o sea trabajen en algo
+
+01:02:42.200 --> 01:02:45.200
+que puedan cumplir en estas dos, tres semanas que nos queda
+
+01:02:47.200 --> 01:02:51.200
+no no traten de rayarse, que quiero un montón de softwares
+
+01:02:51.200 --> 01:02:55.200
+está bien, pero exigian esas estas mismas, pero también cumplen el tiempo
+
+01:02:55.200 --> 01:02:58.200
+listo, alguien quiere hablar, no hay problema,
+
+01:02:58.200 --> 01:03:01.200
+alguien quería hablar,
+
+01:03:01.200 --> 01:03:05.200
+ya, no hay nada entonces, listo chicos, por ahí, las sábadas
+
+01:03:05.200 --> 01:03:08.200
+vamos a terminar siempre un poquito antes, porque ya no soporto
+
+01:03:08.200 --> 01:03:12.200
+la garganta, así que esa parte chicos, y los dos
+
+01:03:12.200 --> 01:03:15.200
+lo voy a recompensar un poquito más de tiempo, ya, pero
+
+01:03:15.200 --> 01:03:20.200
+y hemos hecho bastante, así que vayan haciendo y vayan generando
+
+01:03:20.200 --> 01:03:23.200
+sus sistemas para que ya puedan
+

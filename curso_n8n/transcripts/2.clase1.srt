@@ -1,0 +1,3080 @@
+1
+00:00:00,000 --> 00:00:10,260
+listo ahora si empezamos oficialmente la clase y les voy a colocar lo siguiente
+
+2
+00:00:14,460 --> 00:00:20,760
+yo creo que nadie más ventral se que de nuevo mentico más para que les muestre el sistemito
+
+3
+00:00:21,840 --> 00:00:28,880
+lo que hiciera lo primero quisiera saber de ustedes cuál es la versión que tienen de sus
+
+4
+00:00:30,160 --> 00:00:36,480
+sistemas operativos y también ahorita os voy a mostrar cómo tienen que calcularlo es y cómo
+
+5
+00:00:36,480 --> 00:00:41,800
+tienen que mostrarlo para que no tengan problemas listo y ahorita os voy a compartir el temario
+
+6
+00:00:41,800 --> 00:00:45,280
+también para que puedan observarlo ya ahora si
+
+7
+00:00:49,240 --> 00:00:50,960
+listo ahora si empezaremos
+
+8
+00:00:51,920 --> 00:00:55,160
+es el temario que les voy a mostrar
+
+9
+00:00:57,000 --> 00:01:04,040
+ya la integración en este caso de n8n a nivel más que todo de negocios y todo lo que tienen
+
+10
+00:01:04,040 --> 00:01:09,960
+que ver el ámbito tanto de transacciones automatización es todo aspecto es el siguiente
+
+11
+00:01:09,960 --> 00:01:17,080
+flujo ya nuestras clases van a dividir en las siguientes partes son actualmente por semana
+
+12
+00:01:17,080 --> 00:01:23,560
+vamos a pasar dos clases así que al mes tendríamos más o menos ocho clases en nuestros meses
+
+13
+00:01:23,560 --> 00:01:30,400
+tenemos 24 clases de las 24 clases vamos a pasar netamente en las 22 así legalmente y las
+
+14
+00:01:30,400 --> 00:01:36,880
+demás van a hacer presentaciones de sus prototipos ya este es el módulo 1 tenemos en este caso total
+
+15
+00:01:36,880 --> 00:01:44,360
+seis módulos de los cuales vamos a trabajar a nivel un poquito más avanzado para pero ojo no es una
+
+16
+00:01:44,440 --> 00:01:51,440
+clase de programación así que en ese aspecto no se preocupen listo pero si es que nos acaso algún
+
+17
+00:01:51,440 --> 00:01:58,960
+tiempo vamos a tratar de hacerlo quizás con ias y con sistemas integros en sus mismos computadoras
+
+18
+00:01:58,960 --> 00:02:05,160
+y trabajar con otras dependencias de inteligencia artificiales o como también ustedes le llaman
+
+19
+00:02:05,160 --> 00:02:13,520
+agentes ya así que en ese aspecto normal vamos a trabajar ya vamos a instalar la versión de n8n
+
+20
+00:02:13,520 --> 00:02:18,960
+la última vamos a trabajar con servidores de amazon web service o a bw s también la conocen
+
+21
+00:02:18,960 --> 00:02:25,360
+vamos a trabajar con xux y sistemas de chet tepe los voy a explicar todo eso en un nivel un poquito
+
+22
+00:02:25,360 --> 00:02:33,560
+más entendible ahorita es un poquito chino quizás para nosotros algunos puntos y vamos a trabajar
+
+23
+00:02:33,560 --> 00:02:39,120
+también con web hoots crawl manual triggers ser de cebásico whatsapp integración de whatsapp
+
+24
+00:02:39,120 --> 00:02:45,480
+integración de sus sistemas internos en fabricación de epis y también con consumos de
+
+25
+00:02:45,480 --> 00:02:51,000
+apis públicas también con consumos de apis internas y voy a tratar de enseñar cómo se va a manejar
+
+26
+00:02:51,000 --> 00:02:55,200
+más que todos los que son los sistemas de secuel pero no ligado a programación sino es más un
+
+27
+00:02:55,200 --> 00:03:02,600
+entorno de de aplicativo y que sea más interesante las clases para no agobiarles mucho en programación
+
+28
+00:03:02,760 --> 00:03:09,640
+y hay aquí en hecho en es es más dirigido a personas que no tienen conocimiento
+
+29
+00:03:09,640 --> 00:03:15,960
+básico ni avanzado en programación o sea tenemos que aprender de manera
+
+30
+00:03:15,960 --> 00:03:24,480
+sincrona sin tener sin tener que depender de algunos tipos de fraymos y así que ese aspecto
+
+31
+00:03:24,480 --> 00:03:31,800
+si tienen dudas preguntas amenazas durante la clase no hay problema traten de siempre preguntar
+
+32
+00:03:31,800 --> 00:03:37,080
+interrumpir porque es la única forma y veces de que todos podamos hacer compilar los proyectos
+
+33
+00:03:37,080 --> 00:03:44,600
+ya y ahorita me presento una vez que entre en todos esperamos unos un poquito más a los demás
+
+34
+00:03:46,040 --> 00:03:52,880
+integrantes ya ahora si me presento a por si acaso si es que desean
+
+35
+00:03:52,880 --> 00:04:01,460
+obtener procesos y sistemas muy avanzados en programación y en aplicaciones pueden
+
+36
+00:04:01,460 --> 00:04:09,800
+entrar mi git si vienen acá y colocan git es voy a pasar esto ahí tengo 12 positores uno
+
+37
+00:04:09,800 --> 00:04:15,560
+de los cuales tiene un montón de proyectos avanzados tiene arimas arima hay conexiones
+
+38
+00:04:15,560 --> 00:04:22,360
+avanzadas automatizaciones sistemas aplicativos también trabajamos con drones
+
+39
+00:04:22,360 --> 00:04:30,360
+sistemas de control avanzado también misiles de alcance directo de kibis desolios exponenciales
+
+40
+00:04:30,360 --> 00:04:35,400
+estandarizaciones hay todo ahí lo pueden descargar y también os voy a pasar un repositor
+
+41
+00:04:35,400 --> 00:04:43,760
+interno donde tenemos ahí algunos puntos ya bueno me presento soy doctor en ciencias espaciales
+
+42
+00:04:43,760 --> 00:04:49,560
+y también soy ingeniero informático y ahorita estoy haciendo más ingeniero espacial en la
+
+43
+00:04:49,560 --> 00:04:55,600
+universidad nacional autónoma de vexico en la unam y actualmente también tengo un maestría en
+
+44
+00:04:55,600 --> 00:05:01,840
+la universidad de oxford y cambridge de sistemas aeroespaciales y sistemas difusos y actualmente
+
+45
+00:05:01,840 --> 00:05:10,560
+también soy docente en la umsa en la unifrance en la uv en la emi en algunos instituciones más
+
+46
+00:05:10,560 --> 00:05:18,240
+actualmente tengo 300 libros escritos para sistemas de control avanzado y si quieren si tienen
+
+47
+00:05:18,240 --> 00:05:24,280
+dudas y interés en el campo es un poco más interesante es muy lío bueno aquí me presento
+
+48
+00:05:24,280 --> 00:05:32,240
+este es más o menos mi para que me conozcan y pues en base yo podemos trabajar en varios aspectos
+
+49
+00:05:32,240 --> 00:05:38,000
+no solamente automatización si tienen dudas en preguntas en cosas que no tiene que ver con
+
+50
+00:05:38,000 --> 00:05:44,360
+esta materia y con esta capacitación pues no hay problema listo así que en ese aspecto no hay
+
+51
+00:05:44,360 --> 00:05:52,640
+problema chico cos bueno yo les voy a tratar así y podemos trabajar un montón de sistemas avanzados
+
+52
+00:05:52,640 --> 00:05:58,840
+así que no hay problema en ese aspecto y ahora si empezaremos con la clase si tienen dudas
+
+53
+00:05:58,840 --> 00:06:13,400
+preguntas hasta ese nivel con gusto los responda ya ya listo como no hay preguntas como no hay dudas
+
+54
+00:06:13,400 --> 00:06:22,000
+vamos a empezar con sistemas aplicativos ya voy a abrir una en google en este caso les voy a mostrar
+
+55
+00:06:22,000 --> 00:06:28,520
+cómo trabajen en 8n cómo se trabaja con sistemas un poco más avanzados así que voy a tratar de
+
+56
+00:06:28,520 --> 00:06:37,000
+habilitar o no y listo abran una interfaz un navegador que navegador que ustedes deseen la clase las
+
+57
+00:06:37,000 --> 00:06:45,960
+clases van a ser recontrapácticas así que traten si o si de detener siempre su laptop o su computador
+
+58
+00:06:45,960 --> 00:06:52,560
+de escritoria al lado para no quedarse atrás ya así que empezaremos lo primero que voy a tratar de
+
+59
+00:06:52,560 --> 00:06:59,000
+explicar es algo de teoría básica para no irme directamente al punto y no desfasar es un poquito
+
+60
+00:06:59,000 --> 00:07:05,040
+ustedes así que en base eso voy a tratar de trabajar con eso listo así que vamos a colocar acá
+
+61
+00:07:05,040 --> 00:07:13,760
+x calibrado listo vamos a colocar listo voy a habilitar nuevo listo
+
+62
+00:07:14,240 --> 00:07:17,600
+listo
+
+63
+00:07:17,600 --> 00:07:22,920
+de menco hecho lo voy a borrar todo esto que las pasadas así que
+
+64
+00:07:25,000 --> 00:07:36,320
+ya ahora sí entaremos en contexto ya bueno excálida pueden utilizarlo para ser igual a algunas
+
+65
+00:07:36,320 --> 00:07:43,440
+diapositivas para hacer entornos de de explicación más rápida y profunda es bastante didáctico
+
+66
+00:07:43,440 --> 00:07:49,800
+esta esta aplicación ya que pasó ricardo por esto consulta
+
+67
+00:07:52,640 --> 00:07:56,840
+se tienen preguntas no dudan en decirlo ya no hay problema chico
+
+68
+00:07:58,680 --> 00:08:02,480
+ya valería alición cual esto consulta
+
+69
+00:08:02,480 --> 00:08:04,560
+y en el nuevo en las noches
+
+70
+00:08:04,560 --> 00:08:17,600
+y también creo que una plataforma interactiva todas las herramientas y elementos lo va a compartir al
+
+71
+00:08:17,600 --> 00:08:25,400
+final de la clase se automáticamente debe ser a subir en un en un repositorio yo lo voy a trabajar
+
+72
+00:08:26,120 --> 00:08:30,240
+netamente con una aplicación interna o también lo vamos a trabajar con
+
+73
+00:08:32,400 --> 00:08:37,480
+con claro también ya así que en ese perspective no hay problema se va a también pasar tanto en
+
+74
+00:08:37,480 --> 00:08:46,240
+el sistema como en la plataforma de claro y ambos tanto la grabación y todo así si se está grabando
+
+75
+00:08:46,240 --> 00:08:51,080
+disto no te preocupes está grabando así que no se preocupen listo lo voy a grabar en zoom
+
+76
+00:08:51,080 --> 00:08:56,240
+chicos porque si lo graban otros son es bien pesado cuando usted trabaja con obese estudio
+
+77
+00:08:56,240 --> 00:09:05,560
+de más es muy pesado y van a tener problemas y veces en solamente con pilar y demás ya así que
+
+78
+00:09:05,560 --> 00:09:14,800
+voy a trabajar si listo empezaremos entonces la clase automatización vaya a colocar acá y me van a
+
+79
+00:09:14,800 --> 00:09:21,400
+tratar de entender si tienen dudas preguntas todo no hay problema en hacerlo ya así que en
+
+80
+00:09:21,400 --> 00:09:27,320
+ese aspecto normal y a cuando vamos a manejar automatización no solamente vamos a manejar el
+
+81
+00:09:27,320 --> 00:09:31,640
+término de automatización el término de automatización no solamente repercute en ámbitos de
+
+82
+00:09:31,640 --> 00:09:38,480
+que tenemos que hacer aplicaciones donde todo se nos haga la idea o la inteligencia artificial si se
+
+83
+00:09:38,480 --> 00:09:45,320
+puede si pero generalmente cuando hacemos automatización requiere dos puntos fundamentales uno
+
+84
+00:09:45,320 --> 00:09:51,680
+que trabajemos en la nube como ya sabemos la mayoría de nosotros o también que podamos trabajar de
+
+85
+00:09:51,680 --> 00:09:57,280
+manera local hay dos diferencias yo lo voy a hacer en ambos casos voy a trabajar en tres
+
+86
+00:09:57,280 --> 00:10:02,840
+tipos de sistemas voy a trabajar con los que van a manejar docker van a trabajar con los que van
+
+87
+00:10:02,840 --> 00:10:08,280
+a manejar con sistemas mucho más básicos internos en su sistema y voy a trabajar también con datos
+
+88
+00:10:08,280 --> 00:10:13,920
+en la nube ya y al trabajar con datos en la nube no solamente estoy diciendo que vamos a trabajar
+
+89
+00:10:13,920 --> 00:10:21,600
+todo el sistema sincronizado con el internet trabajar en la nube significa que también nosotros
+
+90
+00:10:21,600 --> 00:10:27,440
+podemos trabajar de manera asincrona y sincrona a qué me refiero con eso que cuando nosotros procesamos
+
+91
+00:10:27,440 --> 00:10:33,480
+datos los datos deberían de por ejemplo un ejemplo a ver básico digamos yo estoy en la calle estoy
+
+92
+00:10:33,480 --> 00:10:39,680
+viajando a una provincia y en la provincia el sistema se pierda esa no hay señal pero sé que los datos
+
+93
+00:10:39,680 --> 00:10:46,040
+de mis mensajes de se de whatsapp ongamos como ejemplo están ingresando a mi celular pero se
+
+94
+00:10:46,040 --> 00:10:51,920
+ha dado cuenta que cuando ustedes entran en señal le llega un montón de mensajes es por eso se
+
+95
+00:10:51,920 --> 00:10:57,880
+llama esos plataformas sincronas y plataformas asincronas se compatibilizan y entran en redundancia
+
+96
+00:10:57,880 --> 00:11:01,920
+mutua para darles a ustedes la información que ya se ha guardado en la nube es lo mismo que se hace
+
+97
+00:11:01,920 --> 00:11:07,400
+también automatizaciones pero esto ya requiere un poquito de más capacidad de la computadora así
+
+98
+00:11:07,400 --> 00:11:11,840
+es que van a trabajar de manera local ahora al hacerlo de manera local no solamente nosotros
+
+99
+00:11:11,840 --> 00:11:18,520
+trabajamos en una computadora o se podemos trabajar con redes y al momento de hacer redes estos
+
+100
+00:11:18,520 --> 00:11:24,000
+sistemas van creciendo y van creciendo y podemos crear plataformas sumamente inmensas sin depender
+
+101
+00:11:24,000 --> 00:11:29,800
+del internet pero eso ya va a ser mucho depende de ustedes si quieren aplicar este sin nivel pero
+
+102
+00:11:29,800 --> 00:11:34,240
+voy a tratar de enseñarles hasta ese nivel hasta que hagamos sistemas artificiales en
+
+103
+00:11:36,560 --> 00:11:43,080
+en ciudades contemporáneas lo dice o ciudades en este caso de agentes de ida pero eso ya va a ser
+
+104
+00:11:43,080 --> 00:11:49,680
+mucho de la capacidad de sus computadoras para ver si soportan si no os voy a tratar de trabajar lo
+
+105
+00:11:49,680 --> 00:11:54,320
+más básico igual nos avanza todos sus sistemas y nos alcanza un poco más de tiempo pues voy a
+
+106
+00:11:54,320 --> 00:11:59,360
+trabajar en un habitoso ya al momento de trabajar vuelvas a repetir es con la nube está mucho
+
+107
+00:11:59,600 --> 00:12:04,080
+tomamos trabajando de manera sin croná sin croná
+
+108
+00:12:06,480 --> 00:12:09,120
+listo y también se llama de manera en bebida
+
+109
+00:12:12,640 --> 00:12:17,480
+y cuando trabajamos es un sistema se automatizados y vamos a trabajar de manera legal ahora
+
+110
+00:12:17,480 --> 00:12:23,800
+otra manera de trabajar de con automotor es directamente trabajar de manera local y para
+
+111
+00:12:23,800 --> 00:12:28,760
+trabajar de manera local hay dos campos grandes uno podemos trabajar con no gs y otro podemos
+
+112
+00:12:28,760 --> 00:12:39,280
+trabajarlo con docker y algunos con docker y otros con no gs o sea no de gs eso se trabaja en
+
+113
+00:12:39,280 --> 00:12:44,920
+ambientes locales ahora cuando trabajamos de manera híbrida ahorita os voy a mostrar eso de un
+
+114
+00:12:44,920 --> 00:12:56,680
+cachito estoy besas y ahora si ahí y ahora acá por ejemplo vamos a trabajar de manera línea
+
+115
+00:12:56,680 --> 00:13:02,880
+los estos ya se llaman híbridos cuando trabajamos en el hecho de manera híbrida mezclamos tanto el
+
+116
+00:13:02,880 --> 00:13:12,280
+nube o local ahí es donde entran los agentes y agentes de lla vamos a colocar bien miscubos
+
+117
+00:13:13,320 --> 00:13:14,480
+agentes de lla
+
+118
+00:13:17,480 --> 00:13:21,360
+listo entonces lo primero que vamos a hacer hoy día es instalar
+
+119
+00:13:22,120 --> 00:13:28,760
+ya las instalaciones van a tardar hay veces yo voy a empezar de manera local
+
+120
+00:13:28,760 --> 00:13:33,880
+es lo primero que los voy a enseñar de ahí vamos a pasar a los demás porque lo demás es
+
+121
+00:13:33,880 --> 00:13:41,240
+casi se aplica lo mismo solamente que en el otro se paga y en el otro ya y en base a eso vamos a
+
+122
+00:13:41,240 --> 00:13:46,800
+trabajar de dos maneras cuando trabaje de manera local si vamos a trabajar con sistemas más avanzados
+
+123
+00:13:47,360 --> 00:13:58,000
+podemos trabajar con oyama podemos trabajar con clouds o podemos trabajar con open codes
+
+124
+00:13:58,000 --> 00:14:06,760
+la ocult sería en ese caso yo generalmente estoy más acostumbrado a trabajar con oyama y con algunos
+
+125
+00:14:06,760 --> 00:14:14,920
+agentes internos de cloud pero mucho va a depender de cómo están trabajando ustedes o que yas
+
+126
+00:14:14,920 --> 00:14:22,040
+utilizan la mayoría de ustedes debe utilizar el famoso chat y pt o chat y pt otros deben utilizar
+
+127
+00:14:22,040 --> 00:14:29,080
+cloud otros deben utilizar yemina y otros de la de psique bueno tiene ventajas y desventajas cada
+
+128
+00:14:29,080 --> 00:14:37,200
+uno por ejemplo de psique me sirva a mí más para codificación y cloud también pero yas como
+
+129
+00:14:37,200 --> 00:14:44,440
+yemina y más va a ser para sistemas de investigación avanzada en el nivel científico digamos pero
+
+130
+00:14:44,440 --> 00:14:50,760
+también hay otros que son variables o rock que también se trabaja de manera mucho más investigativa
+
+131
+00:14:50,760 --> 00:15:02,440
+así que hay dependencias y así que en base a eso que manejan ustedes chicos a modo que me adecuaste
+
+132
+00:15:02,440 --> 00:15:10,440
+es que tipo de yas están manejando cuál es su día más como ya ve y marc cual es tuya más
+
+133
+00:15:12,080 --> 00:15:13,440
+más confiable
+
+134
+00:15:15,320 --> 00:15:18,680
+pueden hablar nomás no hay problema o daniel cueto igual
+
+135
+00:15:23,120 --> 00:15:30,720
+a buenas que tal buenas en mi caso la idea que más utilizo es en este caso códex
+
+136
+00:15:30,720 --> 00:15:40,600
+junto con yemina y chas pt y open cloud con olama pero todo lo que es cloud no lo utilizo
+
+137
+00:15:40,600 --> 00:15:49,000
+debido a que tiene muy limitado sus tokens exacto los skills también exacto de veces es limitantes
+
+138
+00:15:50,200 --> 00:15:57,000
+si lo vamos a utilizar en los aspectos ya ahora quisiera haceros la siguiente pregunta levanten la
+
+139
+00:15:57,000 --> 00:16:05,680
+mano y en ese ya dominan la programación avanzada porque esta clase es más para más dedicado a
+
+140
+00:16:05,680 --> 00:16:13,560
+personas y en este caso negocios donde casi no vamos a tocar programación pero quisiera saber
+
+141
+00:16:13,560 --> 00:16:19,600
+cuántas personas dominan la programación y dominan el manejo de yas o interfaces avanzadas
+
+142
+00:16:20,880 --> 00:16:22,520
+pueden levantar la mano
+
+143
+00:16:22,520 --> 00:16:28,200
+y a uno y en más dos
+
+144
+00:16:30,240 --> 00:16:38,440
+a lo que sabía dos personas según me comunicaron ya siguiente pregunta quienes no saben nada
+
+145
+00:16:38,440 --> 00:16:41,000
+cero así todo cero cero
+
+146
+00:16:43,520 --> 00:16:49,000
+para que vaya su ritmo sean sincer de dos personas los tres
+
+147
+00:16:50,920 --> 00:16:51,640
+y ya
+
+148
+00:16:52,960 --> 00:16:59,520
+ya tres los demás entonces de los terren intermedio ya porque me refiero esto porque voy a avanzar
+
+149
+00:16:59,520 --> 00:17:07,120
+en base a ellos ya si ustedes quieren un poquito más no hay problema me pueden preguntar y con
+
+150
+00:17:07,120 --> 00:17:13,640
+gusto les responde pero había tratado de avanzar desde cero absolutamente si como si no
+
+151
+00:17:13,640 --> 00:17:19,120
+supiéramos nada de yas nada de programación absolutamente nada de nada ya para que todos
+
+152
+00:17:19,120 --> 00:17:24,600
+vayamos en el mismo camino ya ahora sí les presentaré lo siguiente ya
+
+153
+00:17:27,040 --> 00:17:30,920
+vamos a manejar en este caso doctor así que vayense a tocar
+
+154
+00:17:31,080 --> 00:17:40,120
+ya y vaya a abrir otro más van a abrir lo que es en este caso no yas así van a coca no de jota
+
+155
+00:17:40,120 --> 00:17:49,800
+esa y les va a aparecer esto ya los voy a mandar el link a la a la mensajería de de mit
+
+156
+00:17:51,040 --> 00:17:57,720
+entre en ahí y hasta ya les he enviado y vayan a vamos a descartar lo siguiente
+
+157
+00:17:58,720 --> 00:18:07,200
+yo no ten este caso su antecesor era ya pero sé que quizás la mayoría no conoce estos aspectos
+
+158
+00:18:07,200 --> 00:18:14,400
+de programación pero no actualmente me ofrecen trabajos como interfaces tanto de bacán como
+
+159
+00:18:14,400 --> 00:18:20,920
+tanto de front a que más refiero como front y bacán bacán lo podemos hacer un ejemplo interesante
+
+160
+00:18:20,920 --> 00:18:26,360
+que cuando ustedes han construido su casa al principio solamente que hacen el cimiento los
+
+161
+00:18:26,360 --> 00:18:34,240
+machones o sea todos un esqueleto eso para mí es un bacán pero cuando se colocamos ladrillo le
+
+162
+00:18:34,240 --> 00:18:40,720
+colocamos calamina le pintamos le colocamos montón de cosas para que se ve estético eso se llama
+
+163
+00:18:40,720 --> 00:18:50,160
+front entonces no está netamente destinado a trabajar con como bacán y se le puede manipular
+
+164
+00:18:50,160 --> 00:18:56,080
+también como front ya o sea esas dos cosas pero en este caso yo no me voy a ir al ámbito de la
+
+165
+00:18:56,080 --> 00:19:02,240
+programación me voy al ámbito de que esto es como el autito que me va a llevar a mí hacer todo el
+
+166
+00:19:02,240 --> 00:19:08,640
+problemario y toda la secuencia que vamos a codificarlo de manera como si no supiéramos absolutamente
+
+167
+00:19:08,640 --> 00:19:14,600
+nada de programación eso sabe lo que me interesa ya entonces una vez que entre en esta enlace van
+
+168
+00:19:14,600 --> 00:19:22,720
+a irse a dole en dole hay varias maneras de instalarlo ya hay uno que si instala mediante docker
+
+169
+00:19:23,480 --> 00:19:30,520
+y hay otro que se está a mediante sistemas de instaladores automáticos que con los puntos
+
+170
+00:19:30,520 --> 00:19:36,960
+ex ya lo conocen ya la mayoría de nosotros lo vamos a instalar de manera normal y obviamente voy a
+
+171
+00:19:36,960 --> 00:19:43,480
+hacer una instalación de manera serializada para evitar eso ya ahora lo que quiero que hagan es lo
+
+172
+00:19:43,480 --> 00:19:49,920
+siguiente vayan a su microsoft si está manejando windows esto no es más igual vayan a su centralizado
+
+173
+00:19:49,920 --> 00:19:55,440
+como se está manejando linux igual pero como sé que la mayoría siempre utilizamos windows
+
+174
+00:19:55,440 --> 00:20:04,160
+voy a escribir los comandos cmed ya cmed es el símbolo del sistema es decir que la mayoría
+
+175
+00:20:04,160 --> 00:20:10,760
+de los sistemas en windows desde un principio ya sabemos que hay instaladores hay ventanas
+
+176
+00:20:10,760 --> 00:20:15,600
+cuando ustedes instalan un programa colocan siguiente siguiente siguiente siguiente y hasta
+
+177
+00:20:15,600 --> 00:20:21,160
+la vez nos hemos acostumbrado eso sí pero cuando utilicen símbolos de sistema ya no
+
+178
+00:20:21,160 --> 00:20:26,040
+utilizó ese tipo de caminos utilizó de manera mucho más decodificada y aquí me refiero de
+
+179
+00:20:26,040 --> 00:20:31,920
+codificada atacar directamente a lo que es el chip de la computadora así que es mejor trabajarlo
+
+180
+00:20:31,920 --> 00:20:40,760
+acá y hacen clica y y les va a parecer esto ya ahora hay dos formas uno pueden trabajar con esto
+
+181
+00:20:40,840 --> 00:20:46,440
+no se han visto alguna vez como en películas donde están casi hackeando sistemas y solamente
+
+182
+00:20:46,440 --> 00:20:52,920
+porque ponen esto para que les aparezca en pantalla nada más no es cuando no se simulan
+
+183
+00:20:52,920 --> 00:20:57,000
+algunas veces que están hackeando pero solamente es el árbol de toda la construcción de la
+
+184
+00:20:57,000 --> 00:21:04,400
+computadora o sea del árbol de archivos de mi sistema nada más ya pero esto nada que ver ya
+
+185
+00:21:04,840 --> 00:21:11,480
+en scav de nuevo voy a aplicar esto voy a hacer vuelvas a partir cmd interesan y les va a
+
+186
+00:21:11,480 --> 00:21:18,720
+habilitar lo que es el símbolo del sistema ya ahora para esto necesitamos netamente entender
+
+187
+00:21:18,720 --> 00:21:23,440
+qué es un símbolo de sistema por qué se lo aplique por qué se lo crea lo primero que
+
+188
+00:21:23,440 --> 00:21:29,840
+ustedes tienen que entender es que esto lo vamos a trabajar casi siempre para hacer de manera local
+
+189
+00:21:29,840 --> 00:21:35,920
+y se van a costumbrar no es complicado así que no se asustan y lo primero que voy a hacer es ipconfig
+
+190
+00:21:38,280 --> 00:21:44,360
+cuando hago y pecan y cuando ustedes tienen ven cual a que red está conectado a sus sistemas y
+
+191
+00:21:44,360 --> 00:21:48,760
+solamente esto conecta unos de la alámbrica quizás el de codificado sus compus y demás y
+
+192
+00:21:48,760 --> 00:21:54,360
+apretan enter y les va a aparecer esto en este caso estoy conectado de un medio inalámbrico con
+
+193
+00:21:54,360 --> 00:21:59,360
+este puerto estoy inalámbricamente mediante wifi con esta dirección de ipv4 eso se llama
+
+194
+00:21:59,360 --> 00:22:04,300
+este es mi puerto con el cual yo me estoy conectando a la red es ustedes pueden verlo en sus
+
+195
+00:22:04,300 --> 00:22:09,720
+computadoras voy a admitir alguien de muy chito eso lo pueden ver en su computador a ver hagan
+
+196
+00:22:09,720 --> 00:22:15,320
+clic ahí y van a ver esto y esto casi cambie y vamos a cambiarlo van a ver por qué luego les
+
+197
+00:22:15,320 --> 00:22:22,400
+estoy enseñando esto y luego hay máscaras de red eso luego vamos a hablarlo porque lo utiliza
+
+198
+00:22:22,400 --> 00:22:29,800
+y cuando lo utiliza cuando manipule mis agentes ya así que hasta ahí espero que lo hayan
+
+199
+00:22:30,720 --> 00:22:37,880
+tenido y apretan cls para limpiar ya vuelvas de peti y pecan fic
+
+200
+00:22:39,800 --> 00:22:45,400
+para volver a hacer es ahora si quieren entrar una carpeta específica en el carcader si quieren
+
+201
+00:22:45,400 --> 00:22:53,400
+salirse cd punto punto por ejemplo no sé yo quiero salirme de de mi sistema operativo llamado
+
+202
+00:22:53,400 --> 00:22:59,440
+milton ya voy a colocar cd punto punto y se salen si quiero entrar vuelvo a cd y vuelvo a escribir
+
+203
+00:22:59,440 --> 00:23:04,400
+milton y listo vuelven a entrar nada más esos para en realidad salir a las carpetas o a las
+
+204
+00:23:04,400 --> 00:23:10,160
+direcciones que yo estoy generando porque eso lo hacemos en acá de esta manera y otra manera de
+
+205
+00:23:10,160 --> 00:23:16,680
+manera intuitiva y de manera normal es cuando ustedes trabajan con esto tienen su carpeta
+
+206
+00:23:16,680 --> 00:23:21,640
+entren al disco entra en el documento y eso es lo que están haciendo pero yo estoy haciendo
+
+207
+00:23:21,640 --> 00:23:33,280
+mediante esto nada más ya eso ahora si volvemos a no y una vez que tenga no aquí una versión
+
+208
+00:23:33,280 --> 00:23:42,360
+y release generalmente las versiones lateds son las que son estables y las versiones que actualmente
+
+209
+00:23:42,360 --> 00:23:47,440
+se están actualizando y demás se llaman release así que voy a directamente hacer
+
+210
+00:23:47,440 --> 00:23:55,440
+lateds ya hacen el lateds y directamente aquí pueden obtener un montón de información que la
+
+211
+00:23:55,440 --> 00:24:02,760
+mayoría se prepara para qué sirves las cosas si y no nos sirven muchas de muchos es que no estamos
+
+212
+00:24:02,760 --> 00:24:08,520
+más que todo trabajando con odio eso lo trabajan en otro campo ya ahora si no también pueden venir
+
+213
+00:24:08,520 --> 00:24:13,720
+acá y pueden colocar get note y aquí pueden escoger para qué bien aquí están las diferentes
+
+214
+00:24:13,720 --> 00:24:23,480
+versiones que son quizás un poquito antiguitas ahora para ver yo eso puedo colocar en este caso
+
+215
+00:24:23,480 --> 00:24:28,840
+lo siguiente voy a borrar todo y vamos a instalar con ustedes ya ahí abranse
+
+216
+00:24:29,840 --> 00:24:37,960
+luego van a venir acá y van a instalarse lo siguiente a veces el cd es un poquito
+
+217
+00:24:39,000 --> 00:24:43,440
+tedioso el momento de instalar porque algunos los vas a hacer errores si se sale errores no
+
+218
+00:24:43,440 --> 00:24:50,160
+van a avisar para que hires de algunos documentos y algunas ya tengo armadito todo para que ustedes
+
+219
+00:24:50,160 --> 00:24:54,920
+lo ejecuten y las funciones es que cualquier tipo de errores lo que van a abrir se acá
+
+220
+00:24:55,880 --> 00:25:01,240
+netamente lo siguiente ya se han abierto docker no de la mayoría así que en docker
+
+221
+00:25:01,240 --> 00:25:07,800
+vamos a bajar van a colocar si no se aparece acá docker de acster por windows si es que
+
+222
+00:25:07,800 --> 00:25:12,400
+está manejando windows si no es para diferentes sistemas operativos yo voy a insertar aquí para
+
+223
+00:25:12,400 --> 00:25:20,440
+windows hago clic y aquí me aparece docker y aquí están las versiones tanto para 32 bit como
+
+224
+00:25:20,440 --> 00:25:26,240
+64 bits hagan clic acá les voy a pasar igual esto a la mensajería de
+
+225
+00:25:28,880 --> 00:25:36,640
+de mit listo ya los he enviado así que entren ahí ya tendrían abiertas dos dos páginas así que
+
+226
+00:25:36,640 --> 00:25:45,200
+vayan entrando ahí y vayan instalando esto docker de acster y se nos va a aparecer acá descargando
+
+227
+00:25:46,200 --> 00:25:54,000
+lo malo fíjense pesa 618 gigas yo ya lo tengo no lo voy a instalar pero necesito que ustedes lo
+
+228
+00:25:54,000 --> 00:26:00,520
+descarguen para que procedamos a la instalación porque mientras voy dando la clase hasta que
+
+229
+00:26:00,520 --> 00:26:09,960
+sea más o menos 7 supongo 7 y media ya va a estar terminado de descargar de mi es solamente lento
+
+230
+00:26:09,960 --> 00:26:17,600
+en internet así que va a tardar en el mío pero eso los voy esperando ya eso vayan haciendo chico
+
+231
+00:26:17,600 --> 00:26:26,800
+cosas luego lo siguiente en no lo vamos a instalar después que han instalado docker ya no todavía
+
+232
+00:26:26,800 --> 00:26:31,040
+porque voy a trabajar con unos sistemas un poquito más internos para que no tenga un
+
+233
+00:26:31,040 --> 00:26:37,560
+problema es a futuro porque si ya tienen no instalado algo no hay problema porque ya saben
+
+234
+00:26:37,560 --> 00:26:42,480
+que se pueden instalar varias versiones de note no es necesario siempre trabajar con una versión de
+
+235
+00:26:42,480 --> 00:26:54,720
+note ya listo una vez que tengan eso me van a avisar ya pasaremos a lo siguiente por si acaso
+
+236
+00:26:54,720 --> 00:27:03,080
+quizás las clases esto igual a descargar luego no te vayan descargando pero no lo ejecuten aquí
+
+237
+00:27:03,080 --> 00:27:12,560
+coloquen windows y ms e msi descarguen lo pero no lo van a ejecutar solamente que se descargue esos
+
+238
+00:27:12,560 --> 00:27:20,520
+dos necesito listo hasta ahí una vez que tengan instalados yo los voy a se los voy a subir en
+
+239
+00:27:20,520 --> 00:27:29,480
+en youtube cómo se ha instalación paso a paso si es que alguien no se ha olvidado o tiene
+
+240
+00:27:29,480 --> 00:27:35,200
+problemas y lo voy a subir en plataforma netamente por instalaciones ya sé que ese aspecto no hay
+
+241
+00:27:35,200 --> 00:27:44,520
+problema cuando ustedes ya lo tengan van a ejecutar no llombe o no y bien version de mí por ejemplo
+
+242
+00:27:44,520 --> 00:27:55,480
+22.14 ya y la actual en este caso es la 22.15 fijan soy más detrás a un poco pero yo los por
+
+243
+00:27:55,480 --> 00:28:04,000
+recomendación yo les diría que se instale en esta versión por recomendación porque algunas
+
+244
+00:28:04,000 --> 00:28:10,960
+librerías para las actuales tiene problemas así que antes de descargar el la el note por que están
+
+245
+00:28:10,960 --> 00:28:18,640
+descargan supongo mientras tanto docker van a entrar acá y van a buscar esa versión ya esta pueden
+
+246
+00:28:18,640 --> 00:28:27,720
+descargar la 12.2 o la 24.1 la 22.21 vuelvas a repetir es la mía la 22.14 algo similar pueden
+
+247
+00:28:27,720 --> 00:28:38,040
+hacerlo entre la 22 y la 23 son estables mejor si los recomiendo la 22.22 este que estamos viendo
+
+248
+00:28:38,040 --> 00:28:43,320
+acá este es la que mejor les recomiendo para para que no tengan problemas en las instalaciones
+
+249
+00:28:43,320 --> 00:28:48,440
+en los futuros proyectos que vamos a realizar y a por eso trabaja con docker porque a veces con docker
+
+250
+00:28:48,440 --> 00:28:57,080
+tratamos de a los explico que es docker antes de empezar esa partecito ya docker
+
+251
+00:28:58,640 --> 00:29:06,240
+generalmente nosotros cuando trabajamos con sistemas más abasas de manera local o que
+
+252
+00:29:06,240 --> 00:29:13,400
+leemos nosotros automatizan muchas cosas docker me sirve en este caso para trabajar con determinadas
+
+253
+00:29:14,160 --> 00:29:23,660
+versiones de algunos frames de algunas librerías de más por ejemplo si yo quiero fabricarme una
+
+254
+00:29:23,660 --> 00:29:29,720
+lla que netamente trabaje con python y que me detecte vision artificial y sistemas avanzados
+
+255
+00:29:29,720 --> 00:29:34,120
+en machine learning y de learning ande ve a escuchar que es machine learning y de learners ya
+
+256
+00:29:34,120 --> 00:29:40,760
+en ese aspecto generalmente algunas versiones por ejemplo de machine learning o de learning netamente
+
+257
+00:29:40,760 --> 00:29:46,600
+trabajan con python 3.10 o sea python es un tipo de frameros un tipo es un lenguaje de programación
+
+258
+00:29:46,600 --> 00:29:51,840
+en el cual la mayoría de los procesos que es con inteligencia artificial es la plica con python
+
+259
+00:29:51,840 --> 00:29:59,360
+pero lo malo de python es que cuando trabajamos por ejemplo en este caso con python la última
+
+260
+00:29:59,360 --> 00:30:07,320
+versión que en este caso es la la 3 15 si no me equivocó a ver vamos a entrar a python siempre
+
+261
+00:30:07,320 --> 00:30:12,880
+que por eso me estoy diciendo que se actualiza que siempre es un ejemplo no sé que lo hagan
+
+262
+00:30:12,880 --> 00:30:17,280
+solamente quiero que me entiendan cuál es la finalidad del sistema por ejemplo en python
+
+263
+00:30:18,400 --> 00:30:28,920
+es ahorita que versión está ya ahorita está la última no vamos a ver la 3 14 está yo tengo a ver
+
+264
+00:30:28,920 --> 00:30:45,080
+vamos a ver hoy de mil a 3 13 la 3 10 bien se va cargando ya entonces por ejemplo para
+
+265
+00:30:45,080 --> 00:30:51,800
+que me entiendan que es docker y por qué se lo trabaja en docker es lo siguiente python trabaja
+
+266
+00:30:51,800 --> 00:30:56,720
+con machine learning y con deep learning en su manera mayor de las libreras que son compatibles
+
+267
+00:30:56,720 --> 00:31:03,600
+con python a ese nivel un nivel un poquito avanzado en el o de vez entonces trabaja con
+
+268
+00:31:03,600 --> 00:31:09,960
+la versión 3 10 3 11 si queremos trabajar con los últimos versiones de python medio que les va a
+
+269
+00:31:09,960 --> 00:31:15,080
+dar un montón de errores que hay veces hay que estar parchando y después de parchar hay que estar
+
+270
+00:31:15,080 --> 00:31:20,480
+volviendo a descargar y que utiliza contenedores así que es muy complicado que hago entonces
+
+271
+00:31:20,480 --> 00:31:28,160
+docker lo engloba lo encierra a todas las versiones que son compatibles con dicha aplicación o con
+
+272
+00:31:28,160 --> 00:31:33,520
+dicho proyecto para que no tengan diferentes versiones y obviamente la larga podamos chocar en
+
+273
+00:31:33,520 --> 00:31:40,920
+versiones por ejemplo cuando yo instalo a mi entorno global una aplicación o un frame o un tipo
+
+274
+00:31:40,920 --> 00:31:47,000
+de código para que funcione una cosa instala una versión a la compo de manera general o sea
+
+275
+00:31:47,000 --> 00:31:51,560
+x siguiente siguiente siguiente y ejecutamos y listo y hemos descargado una una aplicación
+
+276
+00:31:51,560 --> 00:31:58,480
+digamos pero cuando aparece una nueva versión o quiero trabajar con otro tipo de aplicaciones y
+
+277
+00:31:58,480 --> 00:32:04,800
+justo está utilizando el mismo motor de esta aplicación justo me dice haya digamos que me
+
+278
+00:32:04,800 --> 00:32:11,720
+instala de whatsapp business y whatsapp normal ya el business digamos en su comillas me pide ano tú
+
+279
+00:32:11,720 --> 00:32:22,000
+necesitas un motor de un hp de potencia y el y el whatsapp normal me dice ano tú necesitas un motor
+
+280
+00:32:22,000 --> 00:32:28,920
+de tres hp de potencia que hago yo no puedo colocar dos motores a mi computadora porque solamente va
+
+281
+00:32:28,920 --> 00:32:36,080
+a trabajar con un motor entonces que hago como no puedo hacer eso trabajo con docker docker encierra
+
+282
+00:32:36,080 --> 00:32:43,520
+todo esos son contenedores o sea netamente trabajan con contenedores y esos contenedores
+
+283
+00:32:43,520 --> 00:32:50,600
+engloban a una determinada cantidad de procesos que trabajan con la misma versión y eso me ayuda
+
+284
+00:32:50,600 --> 00:33:00,400
+docker encierra todo y así que son en este caso versiones ahora hay otro punto tan no me
+
+285
+00:33:00,400 --> 00:33:06,720
+quiero andar mucho el ámbito programativo porque es un mundo muy muy gigantesco hay otro que podemos
+
+286
+00:33:06,720 --> 00:33:11,880
+trabajar se llama cobernets los cobernets también se trabaja de manera lineal con n hn
+
+287
+00:33:11,880 --> 00:33:18,240
+yo no lo hago porque es un lío a veces hacerlo con cobernets pero más me sirve por ejemplo
+
+288
+00:33:18,240 --> 00:33:25,440
+si ustedes están dedicados a negocios ahorita pero se quieren dedicar a automatizar digamos no sé
+
+289
+00:33:25,440 --> 00:33:31,960
+porque en el cuando hablamos de negocios estamos hablando de una palabra que casi engloba todo
+
+290
+00:33:31,960 --> 00:33:39,000
+y al englobar todo quizás ustedes quieren automatizar no solamente una un entorno de negocios de una
+
+291
+00:33:39,000 --> 00:33:46,400
+empresa netamente empresarial dedicada a bienes y raíces por ejemplo o dedicada a no sé administración
+
+292
+00:33:46,400 --> 00:33:54,360
+de empresas o dedicada a abogacía o ese tipo de ámbitos sino que lo podemos aplicar ámbitos
+
+293
+00:33:54,360 --> 00:33:59,400
+industriales porque sé que la mayoría no siempre trabajamos uno siempre llegamos al punto donde
+
+294
+00:33:59,400 --> 00:34:05,240
+queríamos estar sino a veces la vida nos hace un montón de marañas y terminamos en cosas que no
+
+295
+00:34:05,240 --> 00:34:10,960
+estamos destinados a ello pero lamentablemente a larga o bien no nos gusta o bien nos gusta y
+
+296
+00:34:10,960 --> 00:34:16,200
+ese es el punto entonces este ámbito de negocios no solamente los voy a enseñar un ámbito de
+
+297
+00:34:16,200 --> 00:34:23,880
+como la palabra dice empresarial netamente de oficina sino resuelven a nivel industrial y a nivel
+
+298
+00:34:23,880 --> 00:34:29,000
+de un poquito más automatizado en diferentes tipos de campos así que en base a eso voy a tratar
+
+299
+00:34:29,000 --> 00:34:36,640
+de manejar y es lo mismo que hacen la mayoría de los casos no eso ya se está descargando supongo
+
+300
+00:34:36,640 --> 00:34:43,840
+esta versión así que vamos a lo siguiente una vez que entendemos todo este aspecto
+
+301
+00:34:45,280 --> 00:34:51,200
+ya podemos instalar a lo malo que hoy día necesito que sí o sí su node y esté corriendo
+
+302
+00:34:51,800 --> 00:34:59,120
+esta no ya así que vuelvas a repetir es lo instalan ejecutan luego lo que les está
+
+303
+00:34:59,120 --> 00:35:07,840
+entregando acá y vamos a proceder a lo siguiente ya hasta ahí les espero mientras voy admitiendo
+
+304
+00:35:07,840 --> 00:35:15,880
+el mundo de sus compañeros ya una vez que lo tengan así tal cual se les va a descartar es 30.2
+
+305
+00:35:15,880 --> 00:35:24,400
+megabytes y es listo valeria con esta consulta para confirmar hay que descargar
+
+306
+00:35:24,400 --> 00:35:32,800
+el tocker para windows esto que eso ya está descargado y el node versión 22.22 exactamente
+
+307
+00:35:32,800 --> 00:35:39,880
+exactamente perfecto sí ya lo tengo listo una vez que tienen eso instalado procederemos a la
+
+308
+00:35:39,880 --> 00:35:44,840
+instalación del node voy a hacer dos maneras yo voy a hacer esto primero bueno a ócligar acá
+
+309
+00:35:46,760 --> 00:35:49,400
+y van a aparecer una
+
+310
+00:35:51,240 --> 00:35:55,120
+instalador prepara y install y los voy a hacer esto
+
+311
+00:35:56,480 --> 00:36:03,080
+hasta ahí ya deben estar el mío ya lo tengo pues que no me deja de ustedes solamente tienen que
+
+312
+00:36:03,080 --> 00:36:09,280
+coger next next next next y listo pero hay que esperar un poquito porque está mi gran ahora sí
+
+313
+00:36:10,120 --> 00:36:14,200
+el mío por ejemplo va a chocar con mi otra versión pero les voy a decir hasta cierto punto para que
+
+314
+00:36:14,200 --> 00:36:21,440
+no checa con mis versiones ya listo podemos tener varios nodes no hay problema pero mi memoria
+
+315
+00:36:21,440 --> 00:36:25,520
+está muriendo así que voy a tratar de hacer lo que nos decía una vez que te caen hasta acá
+
+316
+00:36:25,520 --> 00:36:34,760
+colocan next aceptan los términos next esto por si acaso verifiquen por ejemplo en mi caso si
+
+317
+00:36:34,920 --> 00:36:44,040
+voy a mi voy a dividirse en dos este es su program files a bando su este equipo van a
+
+318
+00:36:44,040 --> 00:36:49,000
+disculparse y buscan este program files voy a colocar minimizar esta cosa
+
+319
+00:36:50,520 --> 00:36:59,080
+ya hay buscan program files archivos de program en español y si no tienen nada con este nombre que
+
+320
+00:36:59,080 --> 00:37:04,280
+digan no gs lo instalan pero si tienen otro pueden dar otro nombre los que dominan programación
+
+321
+00:37:04,280 --> 00:37:09,840
+no saben ya pueden colocar el otro así que a él le aplican eso
+
+322
+00:37:13,240 --> 00:37:17,560
+y dice hay un mensaje de un cachiche fue pues
+
+323
+00:37:22,560 --> 00:37:31,080
+transcribe y a entorno es que ganas o buscan no si no hay no le meten a ver enter enter enter
+
+324
+00:37:31,080 --> 00:37:35,760
+siguiente siguiente está el en mí por ejemplo dividen varios segmentos y que no hay problema con
+
+325
+00:37:35,760 --> 00:37:44,080
+el mío hayan siguiente de esto todo está bien algunos podemos desinstalarlo pero no
+
+326
+00:37:44,080 --> 00:37:56,640
+manténlo así por defecto y instale next ya next next automáticamente esto coloquen
+
+327
+00:37:56,640 --> 00:38:03,400
+no hay coloque antes de esto chocolate van a necesitar de no lo cliquen van a tener
+
+328
+00:38:03,400 --> 00:38:08,840
+problemas y no hay dejenlo sin clicarlo y next y por último instale
+
+329
+00:38:11,080 --> 00:38:17,560
+ya que tal patricia el otro es docker vas a escribir si tienes windows lo colocas
+
+330
+00:38:18,680 --> 00:38:24,520
+solamente docker desktop y te va a aparecer para mac para linux pero si es para windows
+
+331
+00:38:24,520 --> 00:38:26,520
+directamente los específicos por ejemplo ya acá
+
+332
+00:38:28,120 --> 00:38:32,600
+voy a colocar docker for windows nada más aquí está aquí miren
+
+333
+00:38:32,600 --> 00:38:38,320
+dice docker desktop aquí está los diferentes sistemas operativos ya
+
+334
+00:38:39,960 --> 00:38:48,240
+en este caso de mí es a med y lo instalo en versión m de 64 listo les estoy pasando los
+
+335
+00:38:48,240 --> 00:38:54,240
+links a los que acaban de entrar ya y lo voy a colocar también en la plataforma
+
+336
+00:38:55,840 --> 00:38:57,560
+ya de mencachito
+
+337
+00:39:01,560 --> 00:39:05,800
+el docker y el no sí exacto docker primer
+
+338
+00:39:09,320 --> 00:39:16,680
+ya una vez que lo tengan hasta ahí me avisan ya y esto tienen que clicar igual en instalar y
+
+339
+00:39:16,680 --> 00:39:22,640
+que lo va a instalar y lo voy a cancelar porque yo lo tengo porque les va a pedir permitir que
+
+340
+00:39:22,640 --> 00:39:26,360
+está aplicarse el tenia en su tienda la pelada
+
+341
+00:39:26,360 --> 00:39:30,120
+yo que está voy a cerrar esta parte de los videos
+
+342
+00:39:30,120 --> 00:39:33,640
+con el mismo que voy a hacer en nadie
+
+343
+00:39:33,640 --> 00:39:38,380
+cuando tome todo con todo sec a todo con el
+
+344
+00:39:38,380 --> 00:39:40,720
+como se habla solo y ya
+
+345
+00:39:40,880 --> 00:39:47,520
+listo ya entonces coloquen finish y listo
+
+346
+00:39:50,640 --> 00:39:53,400
+y ya está luego bueno una vez que hagan eso
+
+347
+00:39:54,800 --> 00:40:01,640
+instale no van a colocar no guion de y les tiene que parecer esta versión que están
+
+348
+00:40:01,640 --> 00:40:10,320
+instalando seguramente se va a pasar a 22.22.22 o 22.22 hasta ahí traten de llegarlo
+
+349
+00:40:11,680 --> 00:40:17,120
+ya les he enviado por secas igual al chavos en las de no y docker
+
+350
+00:40:18,800 --> 00:40:20,680
+ya esto lo voy a cerrar
+
+351
+00:40:24,200 --> 00:40:24,800
+ya
+
+352
+00:40:27,400 --> 00:40:33,360
+cuando ya estén hasta el no me avisan levantan la mano los que ya están luego ya para proceder
+
+353
+00:40:34,360 --> 00:40:40,120
+a lo siguiente que vamos a hacer mientras tanto tienes están
+
+354
+00:40:40,720 --> 00:40:42,720
+en el piso de la mano
+
+355
+00:40:49,720 --> 00:40:56,160
+ya no se sorprendan si no lo terminamos en unas seis clases a siete clases
+
+356
+00:40:57,720 --> 00:41:00,040
+vamos a hacer más aplicaciones en las manos
+
+357
+00:41:04,040 --> 00:41:06,960
+ya están levantando manos pueden haber no hay problema
+
+358
+00:41:06,960 --> 00:41:15,280
+en un pequeño problema no pero si el toque me sale un aviso
+
+359
+00:41:15,280 --> 00:41:24,040
+y que te dice por razones de seguridad la dirección de c program data tocker
+
+360
+00:41:24,040 --> 00:41:32,360
+de estado probablemente must be owned by el efeit aconte necesita permisos de
+
+361
+00:41:33,360 --> 00:41:37,560
+asignar el permiso debe haber dos opciones hay que desapareciendo
+
+362
+00:41:38,840 --> 00:41:40,560
+y le doy este asignar como
+
+363
+00:41:41,560 --> 00:41:45,800
+la administradora y si directamente como el
+
+364
+00:41:45,800 --> 00:41:53,960
+administrador y a eso y no por alguna razón me sale puedes compartir tu pantalla
+
+365
+00:41:53,960 --> 00:41:59,160
+sino que ya porfa que comparte es para que te ayude y estar así
+
+366
+00:42:02,360 --> 00:42:04,560
+y
+
+367
+00:42:09,960 --> 00:42:10,520
+ya
+
+368
+00:42:21,760 --> 00:42:25,440
+ya andate a la carpeta donde lo has descargado
+
+369
+00:42:25,440 --> 00:42:26,760
+y esa parte
+
+370
+00:42:39,120 --> 00:42:43,840
+y a clic derecho ejecutar como administrador con el color y
+
+371
+00:42:50,280 --> 00:42:51,680
+y ahora esperamos
+
+372
+00:42:51,780 --> 00:42:54,680
+y ahora si es un mes más implication.
+
+373
+00:43:01,680 --> 00:43:04,500
+yaonse los siguientes aceptaron amas no se deja de compartirων
+
+374
+00:43:04,720 --> 00:43:06,840
+les voy a explicar ha de este governments
+
+375
+00:43:07,640 --> 00:43:14,600
+no masanto
+
+376
+00:43:19,660 --> 00:43:20,180
+esto
+
+377
+00:43:21,680 --> 00:43:27,680
+Ya. Hay dos problemas con Docker generalmente que lo trabajan con ese tipo de muy tutoria,
+
+378
+00:43:27,680 --> 00:43:32,680
+silenciar, arribar, listo.
+
+379
+00:43:38,680 --> 00:43:43,680
+Ya, tu compañero por ejemplo ya está dando una solución, tu compañero dice se puede eliminar
+
+380
+00:43:43,680 --> 00:43:50,680
+Docker en ese programa exactamente. Hay dos maneras, una para que eliminas de manera directa
+
+381
+00:43:50,680 --> 00:43:53,680
+de tu programa acá.
+
+382
+00:43:54,680 --> 00:44:00,680
+Ahora entra a tu, este equipo, entra acá.
+
+383
+00:44:01,680 --> 00:44:05,680
+Hay tres formas, te voy a enseñar, las tres formas están acá.
+
+384
+00:44:05,680 --> 00:44:12,680
+Ya uno es que aquí busca Docker y elimina lo de esa carpeta. Busca lo Docker acá en tu discosé.
+
+385
+00:44:12,680 --> 00:44:17,680
+Otra manera es esta, si es que te sigue dando, hay tres tipos de sistemas, ¿sí?
+
+386
+00:44:17,680 --> 00:44:25,680
+El que les acabo de enviar este de acá, es el que realmente vamos a trabajar con este para que no tengan problemas.
+
+387
+00:44:25,680 --> 00:44:28,680
+Hay versiones medio raras ahí.
+
+388
+00:44:28,680 --> 00:44:33,680
+Ya aquí, aquí por ejemplo, aquí dice InstaLocker for desktop, este pueden elegir.
+
+389
+00:44:33,680 --> 00:44:38,680
+Ya, esto lo instalan y diste para Windows y este es el que es más estable en SystemiT.
+
+390
+00:44:38,680 --> 00:44:40,680
+Ya, esto lo han descargado si no momento ustedes.
+
+391
+00:44:40,680 --> 00:44:44,680
+O pueden trabajar con Microsoft Store, con cada de los dos es que les sigue dando errores.
+
+392
+00:44:44,680 --> 00:44:49,680
+Pero intenta primero con ese y me avises, eliminando eso, la carpeta si los he encontrado.
+
+393
+00:44:49,680 --> 00:44:55,680
+Ya, y lo que has descargado, lo vuelves a ejecutar, luego lo vamos a eliminar esa parte.
+
+394
+00:44:55,680 --> 00:45:02,680
+Ya, pero ahorita lo que me interesa es no, si tienen varios problemas igual voy a subir algunos SystemiT.
+
+395
+00:45:03,680 --> 00:45:09,680
+Ahora, si hay uno que se guarda acá, ahora el otro es esto, si no encuentras en ahí, puedes venir acá.
+
+396
+00:45:10,680 --> 00:45:17,680
+Colocas acá, ver y aquí vas a colocar mostrar elementos ocultos.
+
+397
+00:45:17,680 --> 00:45:24,680
+Esto lo vas a clicar, porque vamos a entrar a una carpeta donde generalmente no aparecen algunos computadores.
+
+398
+00:45:24,680 --> 00:45:32,680
+Ya, así que colocas ahí elementos ocultos, cliqueas, lo encuentras acá y vas a buscar lo siguiente.
+
+399
+00:45:32,680 --> 00:45:38,680
+En este caso, puedes irte a usuarios o puedes buscar aquí program data.
+
+400
+00:45:38,680 --> 00:45:45,680
+Y ahí vas a buscar igual el Docker. Aquí está, ves, ahí aparece una carpeta medio que borrosa, eso es porque estaba oculto.
+
+401
+00:45:45,680 --> 00:45:51,680
+Ahí entras y aquí vas a buscar lo que es Docker, ahí también puedes borrarlo lo que es.
+
+402
+00:45:51,680 --> 00:45:55,680
+Aquí mira, aquí dice Docker Desktop, eso lo borras y lo vuelves a instalar.
+
+403
+00:45:56,680 --> 00:46:01,680
+Esta parte si te borrarlo y listo, lo vuelves a ejecutar.
+
+404
+00:46:02,680 --> 00:46:10,680
+Ya, ahora sí. Mientras tanto, los que hayan instalado Notes, y esto.
+
+405
+00:46:11,680 --> 00:46:17,680
+Levanta en la mano para proceder a lo siguiente. Obviamente no voy a trabajar con Docker, así que hay tiempo para eso.
+
+406
+00:46:17,680 --> 00:46:26,680
+Levanta en la mano los que ya tienen instalado Notes para, lo sé, o los voy a seguir esperando los demás, no hay problema.
+
+407
+00:46:26,680 --> 00:46:31,680
+Y acá Dalia tiene, quién más lo tiene. Note, solamente Note.
+
+408
+00:46:34,680 --> 00:46:36,680
+Ya, así los espero.
+
+409
+00:46:38,680 --> 00:46:47,680
+Ya, faltan muchos, así que los doy tiempo y te achiques para que vayan instalando Notes.
+
+410
+00:46:50,680 --> 00:46:53,680
+Mientras les voy a estar mostrando qué podemos hacer con Docker.
+
+411
+00:46:56,680 --> 00:47:18,680
+Ya. Mientras tanto, bien va instalando. Es liviano, así que no van a tardar mucho.
+
+412
+00:47:19,680 --> 00:47:22,680
+Patricia, ya lo tienes o es una consulta?
+
+413
+00:47:27,680 --> 00:47:28,680
+Ya lo tengo.
+
+414
+00:47:28,680 --> 00:47:29,680
+Ya, super.
+
+415
+00:47:30,680 --> 00:47:32,680
+Alguien más.
+
+416
+00:47:35,680 --> 00:47:37,680
+Cuántos somos? 22.
+
+417
+00:47:37,680 --> 00:47:40,680
+Bueno, quitando a mi adulto somos 20.
+
+418
+00:47:41,680 --> 00:47:48,680
+De los 20 tendrán que estar mínimo 11 ya con la instalación para proceder.
+
+419
+00:47:49,680 --> 00:47:52,680
+2 ya llega. Si alguien más lo tiene, super.
+
+420
+00:47:52,680 --> 00:47:57,680
+Ya van a estar haciendo los pintos.
+
+421
+00:47:57,680 --> 00:47:59,680
+Mamá, los voy esperando.
+
+422
+00:48:00,680 --> 00:48:09,680
+Para la siguiente clase, que es el jueves, van a crear ustedes un Word.
+
+423
+00:48:10,680 --> 00:48:15,680
+Donde esté un negocio en el cual ustedes van a trabajar.
+
+424
+00:48:15,680 --> 00:48:17,680
+Pongo en lo que yo voy a hacer papas fritas.
+
+425
+00:48:18,680 --> 00:48:24,680
+Pero tengo pedidos, tengo mis proveedores, tengo mis cursales.
+
+426
+00:48:25,680 --> 00:48:31,680
+Todos se vayan armándose. Todavía no lo voy a aplicar, pero ustedes vayan armando su negocio netamente.
+
+427
+00:48:32,680 --> 00:48:34,680
+Porque es la larga, vamos a automatizarlo.
+
+428
+00:48:35,680 --> 00:48:38,680
+Ya, así que para eso pueden trabajar de dos maneras.
+
+429
+00:48:39,680 --> 00:48:43,680
+Pueden trabajar con Marta o pueden trabajar con codificación latex.
+
+430
+00:48:43,680 --> 00:48:47,680
+Yo trabajo más con Marta para hacer ese tipo de sistemas.
+
+431
+00:48:48,680 --> 00:48:50,680
+O pueden trabajar con wearables.
+
+432
+00:48:51,680 --> 00:48:53,680
+Ahora os vemos que son wearables.
+
+433
+00:48:54,680 --> 00:48:56,680
+Y con Warpets.
+
+434
+00:48:57,680 --> 00:48:59,680
+También pueden hacerlo con Figma, si desean.
+
+435
+00:49:00,680 --> 00:49:02,680
+O pueden hacerlo con cualquier tipo de plataformas.
+
+436
+00:49:02,680 --> 00:49:05,680
+A ver, por ejemplo, yo necesito lo así para la siguiente clase lo siguiente.
+
+437
+00:49:09,680 --> 00:49:11,680
+Os voy a mostrar algunos...
+
+438
+00:49:11,680 --> 00:49:21,680
+...erramientes para que ustedes vayan aplicándolo a sus proyectos.
+
+439
+00:49:23,680 --> 00:49:25,680
+Está bien lento esto.
+
+440
+00:49:29,680 --> 00:49:32,680
+Figma en este caso trabaja para en tonos.
+
+441
+00:49:33,680 --> 00:49:36,680
+Pueden hacerlo con IA o pueden trabajar de manera legal.
+
+442
+00:49:37,680 --> 00:49:38,680
+O sea, sin IA.
+
+443
+00:49:38,680 --> 00:49:41,680
+Lo que yo les recomiendo es que...
+
+444
+00:49:44,680 --> 00:49:51,680
+Bueno, si fueran de programación les diría que no sean muy abusivos con la IA, pero no somos de programación.
+
+445
+00:49:51,680 --> 00:49:53,680
+Así que no las veis, si quieres.
+
+446
+00:49:54,680 --> 00:49:58,680
+Ya, así que podemos trabajar con diferentes tipos de sistemas.
+
+447
+00:49:59,680 --> 00:50:01,680
+Para hacerlo rápido, obviamente se puede, pero...
+
+448
+00:50:01,680 --> 00:50:02,680
+Este es Figma.
+
+449
+00:50:02,680 --> 00:50:06,680
+Hace una interfaz de cómo puede ser mi automatización.
+
+450
+00:50:06,680 --> 00:50:11,680
+No solamente automatización, podemos trabajar también con modelo de negocios.
+
+451
+00:50:12,680 --> 00:50:19,680
+Pueden hacerlo con sistemas Kamba, pueden hacerlo con Figma, pueden ser por Traybase o Pimp Pensil.
+
+452
+00:50:19,680 --> 00:50:20,680
+Pueden trabajar.
+
+453
+00:50:20,680 --> 00:50:21,680
+Yo trabajaba con Pensil.
+
+454
+00:50:21,680 --> 00:50:25,680
+Si quieren trabajar con Pensil es bonito.
+
+455
+00:50:26,680 --> 00:50:29,680
+Pero no, no tenía.
+
+456
+00:50:29,680 --> 00:50:33,680
+Es lo que no les va a favorecer algún aspecto para hacerlo rápido.
+
+457
+00:50:33,680 --> 00:50:35,680
+Pero Pensil pueden trabajar.
+
+458
+00:50:35,680 --> 00:50:38,680
+A ver, realmente me voy a trabajar con Pensil.
+
+459
+00:50:38,680 --> 00:50:39,680
+Ay, perdón.
+
+460
+00:50:41,680 --> 00:50:43,680
+Aper Pensil.
+
+461
+00:50:45,680 --> 00:50:48,680
+Ya, este es Pensil Project.
+
+462
+00:50:48,680 --> 00:50:49,680
+Esto puede ser click.
+
+463
+00:50:49,680 --> 00:50:50,680
+Hay dos.
+
+464
+00:50:51,680 --> 00:50:54,680
+Con la un InchCode pueden trabajarlo.
+
+465
+00:50:54,680 --> 00:50:58,680
+Pueden descargarse de Pensil.
+
+466
+00:50:58,680 --> 00:51:01,680
+Y se maneja un montón de cosas.
+
+467
+00:51:01,680 --> 00:51:07,680
+Aquí espero más que todo es una automatización, más que todo para entre los gráficos.
+
+468
+00:51:07,680 --> 00:51:08,680
+Ya.
+
+469
+00:51:08,680 --> 00:51:15,680
+O sea, si quieren ustedes hacer un modelo de negocio y un modelo de negocio que pueden automatizar para sus clientes,
+
+470
+00:51:15,680 --> 00:51:21,680
+algo que sea trayente y algo que sea bastante interesante pueden aplicar Pensil.
+
+471
+00:51:21,680 --> 00:51:26,680
+Se puede descargar y lo trabajan con Cloud Code, o Bizcode.
+
+472
+00:51:26,680 --> 00:51:28,680
+Pero generalmente esto trabaja con Skills.
+
+473
+00:51:28,680 --> 00:51:30,680
+Máximo tienen tres Skills.
+
+474
+00:51:30,680 --> 00:51:32,680
+Tienen que si comprarse.
+
+475
+00:51:32,680 --> 00:51:35,680
+Pero no les recomiendo si es que no tienen eso.
+
+476
+00:51:35,680 --> 00:51:40,680
+Ahora, hay otro que vamos a trabajar con este app.
+
+477
+00:51:42,680 --> 00:51:45,680
+No, todo se los voy a pasar, así que no hay problema.
+
+478
+00:51:45,680 --> 00:51:46,680
+Igual lo hace.
+
+479
+00:51:47,680 --> 00:51:50,680
+Quien es la agenda, es sistematizado.
+
+480
+00:51:50,680 --> 00:51:53,680
+O sea, esto ya es algo más...
+
+481
+00:51:53,680 --> 00:51:55,680
+dedicado a empresas.
+
+482
+00:51:55,680 --> 00:51:57,680
+Pero...
+
+483
+00:51:57,680 --> 00:52:00,680
+se puede generar un Pensil propio.
+
+484
+00:52:00,680 --> 00:52:02,680
+Luego los vindica cómo hacer eso.
+
+485
+00:52:02,680 --> 00:52:04,680
+Pero es bastante interesante.
+
+486
+00:52:04,680 --> 00:52:05,680
+Ya.
+
+487
+00:52:05,680 --> 00:52:06,680
+Hasta ahí.
+
+488
+00:52:06,680 --> 00:52:07,680
+Cuánto se lo tienen, chico?
+
+489
+00:52:07,680 --> 00:52:09,680
+Para continuar.
+
+490
+00:52:09,680 --> 00:52:11,680
+De a dos.
+
+491
+00:52:11,680 --> 00:52:12,680
+Necesito once.
+
+492
+00:52:12,680 --> 00:52:13,680
+Once y avanzamos.
+
+493
+00:52:13,680 --> 00:52:14,680
+Y no hay once.
+
+494
+00:52:14,680 --> 00:52:15,680
+Me voy a quedar.
+
+495
+00:52:18,680 --> 00:52:20,680
+O les obligo a que prendamos.
+
+496
+00:52:20,680 --> 00:52:22,680
+Creo que los voy a obligar.
+
+497
+00:52:22,680 --> 00:52:24,680
+Pero háganlo esa parte, chicos.
+
+498
+00:52:24,680 --> 00:52:26,680
+Once, ya tenemos tres.
+
+499
+00:52:26,680 --> 00:52:27,680
+Cuatro, tres tenemos.
+
+500
+00:52:27,680 --> 00:52:28,680
+Faltan.
+
+501
+00:52:28,680 --> 00:52:29,680
+Por favor.
+
+502
+00:52:29,680 --> 00:52:32,680
+Y si quizá mientras mi compañero me han terminado,
+
+503
+00:52:32,680 --> 00:52:34,680
+le podría compartir pantalla para que me ayude.
+
+504
+00:52:34,680 --> 00:52:38,680
+No me sale la opción para ver esos archivos ocultos.
+
+505
+00:52:38,680 --> 00:52:40,680
+Ya, a ver, ahora sí, compartilo.
+
+506
+00:52:42,680 --> 00:52:43,680
+Gracias.
+
+507
+00:52:43,680 --> 00:52:44,680
+Visto.
+
+508
+00:52:44,680 --> 00:52:45,680
+Vale.
+
+509
+00:52:45,680 --> 00:52:47,680
+Estoy aquí en el Colocal C.
+
+510
+00:52:47,680 --> 00:52:48,680
+¿No?
+
+511
+00:52:48,680 --> 00:52:50,680
+Activo la parte de Berno, ¿verdad?
+
+512
+00:52:50,680 --> 00:52:52,680
+Eso es lo que quieran encontrar.
+
+513
+00:52:52,680 --> 00:52:53,680
+Ya.
+
+514
+00:52:53,680 --> 00:52:54,680
+Ahí está.
+
+515
+00:52:54,680 --> 00:52:55,680
+Allá arriba está.
+
+516
+00:52:55,680 --> 00:52:57,680
+Allá arriba está eso, ¿verdad?
+
+517
+00:52:57,680 --> 00:52:58,680
+Abajo dice mostrar.
+
+518
+00:52:58,680 --> 00:53:00,680
+Ahí dice, ahí abajo.
+
+519
+00:53:00,680 --> 00:53:01,680
+Bajate con tu mouse.
+
+520
+00:53:01,680 --> 00:53:02,680
+Te estoy listo.
+
+521
+00:53:02,680 --> 00:53:03,680
+En el que te pones.
+
+522
+00:53:03,680 --> 00:53:04,680
+En el que te pones.
+
+523
+00:53:04,680 --> 00:53:05,680
+No, no, no.
+
+524
+00:53:05,680 --> 00:53:07,680
+Yo voy a ponerle la parte de Berno.
+
+525
+00:53:07,680 --> 00:53:09,680
+No me puedo, yo no voy a ponerle la parte de Berno.
+
+526
+00:53:09,680 --> 00:53:11,680
+Yo voy a ponerle la parte de Berno.
+
+527
+00:53:11,680 --> 00:53:13,680
+Es que yo no me he puesto el pared.
+
+528
+00:53:13,680 --> 00:53:18,320
+ahí abajo bajate con tu mouse te está tapando creo que así debe decir ver archivos ocultos
+
+529
+00:53:21,080 --> 00:53:28,840
+es a clic ahora entró a ir a discos para andarte a programa hay de ver a parcer ahí dice program
+
+530
+00:53:28,840 --> 00:53:35,480
+data dice más abajo program es ahora hay blusca ahí dice tocker eso por raro
+
+531
+00:53:37,840 --> 00:53:41,040
+list ahora si vuelve a ejecutar tu instalador
+
+532
+00:53:43,680 --> 00:53:50,720
+y ahora si te abres todo eso
+
+533
+00:53:51,920 --> 00:53:53,000
+sigue te da
+
+534
+00:53:54,560 --> 00:54:00,080
+ya ahora vas a hacer lo siguiente de nuevo es lo mismo pero con
+
+535
+00:54:02,120 --> 00:54:04,080
+con ejecutar como administrador
+
+536
+00:54:07,560 --> 00:54:13,280
+y si no vamos a hacerlo más fregado para para completar esa parte
+
+537
+00:54:14,680 --> 00:54:15,400
+ya
+
+538
+00:54:16,120 --> 00:54:16,560
+ya
+
+539
+00:54:24,160 --> 00:54:32,760
+si no te da eso vamos a hacer otro otro sistema
+
+540
+00:54:35,640 --> 00:54:39,320
+si creo que ya ya listo hay esperanza un cacho luego
+
+541
+00:54:39,320 --> 00:54:43,360
+no hay pleno ya gracias y esto no te preocupes
+
+542
+00:54:44,960 --> 00:54:46,600
+ya cuántos ya tenemos
+
+543
+00:54:49,880 --> 00:54:57,280
+tres chicos tres cuatro necesito once once quien da más once necesito
+
+544
+00:54:59,800 --> 00:55:00,720
+cinco
+
+545
+00:55:02,520 --> 00:55:03,200
+seis
+
+546
+00:55:03,920 --> 00:55:11,160
+y solamente si se puede instalar los dos que si ya tienen los 600 megas descargados no hay
+
+547
+00:55:11,160 --> 00:55:20,120
+problema ya y a mí no me permite descargarlo por el tema de espacio tengo que
+
+548
+00:55:20,120 --> 00:55:26,080
+eliminar los archivos y pierda mi computadora pero el no ya ya puede descargar no hay problema
+
+549
+00:55:27,080 --> 00:55:28,240
+no hay problema
+
+550
+00:55:30,840 --> 00:55:38,040
+pero si no vas a estar luego un docker así que desespero mientras tanto igual para instalar esa parte
+
+551
+00:55:38,040 --> 00:55:43,200
+ya lo siguiente a ver yo voy a abrir mi docker nuestro
+
+552
+00:55:46,720 --> 00:55:52,480
+les va a decir que hablite un shock cuando va a instalar y olito y así así así esto y listo
+
+553
+00:55:53,480 --> 00:56:01,640
+ya de un cachito voy a abrir mi docker bueno docker eso sí listo eso es docker
+
+554
+00:56:01,640 --> 00:56:05,960
+bueno es si va a dar al principio para evitar y de un literar
+
+555
+00:56:08,640 --> 00:56:14,920
+ya ahora si pueden pueden crearse usuarios pero usuario contraseña que crearse posteriormente
+
+556
+00:56:14,920 --> 00:56:17,880
+pero también podemos trabajar de manera directa así que no hay problema
+
+557
+00:56:17,880 --> 00:56:26,560
+hay perdón gracias gracias por suerte se agravan así que no hay problema
+
+558
+00:56:28,080 --> 00:56:29,440
+ya listo
+
+559
+00:56:31,440 --> 00:56:38,200
+vamos a hacer lo siguiente no sé si les parece lo siguiente chocos les parece que grave algunas
+
+560
+00:56:38,520 --> 00:56:48,000
+que tengan cosas bastante pesadas y una vez que lo vean ustedes en la siguiente clase
+
+561
+00:56:48,000 --> 00:56:53,640
+ya van a tener hechito o se ya van a estar listos como para proceder así no perdemos un poco de
+
+562
+00:56:53,640 --> 00:57:01,480
+tiempo ya eso voy a tratar de ser con ustedes para no perder tiempo y en descargas y así
+
+563
+00:57:01,480 --> 00:57:08,840
+directamente me consultan en los nuestros poncia si nos vamos a perder tiempo y
+
+564
+00:57:09,960 --> 00:57:16,200
+hasta que tenemos suficiente tiempo así de manera directa les puedo hablar que docker digo
+
+565
+00:57:16,200 --> 00:57:26,480
+en h&m y en tres clases a cuatro se termina pero sí es que tenemos todo hecho y derecho pero si
+
+566
+00:57:26,480 --> 00:57:32,840
+es que avanzamos cosas más específicas con agentes con sistemas avanzados pongan las que hasta
+
+567
+00:57:32,840 --> 00:57:40,800
+18 16 clases así que alcanzamos incluso nos va a sobrar unos 4 5 clases y no habría problema ya
+
+568
+00:57:40,800 --> 00:57:47,760
+hace siempre tardó el principio por eso un poquito mucho depende de sus computadoras también
+
+569
+00:57:48,160 --> 00:57:54,040
+por ejemplo la mía si entro acá voy a configuraciones
+
+570
+00:57:55,920 --> 00:58:03,600
+y van a ver mi windows es bastante básico igual no tiene muchas aplicaciones pero
+
+571
+00:58:04,680 --> 00:58:12,560
+bueno si tengo pero si igual me genera problemas
+
+572
+00:58:12,560 --> 00:58:19,560
+y mientras tanto por ejemplo mira en la mía esto no más tiene
+
+573
+00:58:20,560 --> 00:58:27,160
+almacenamiento medio tera 2 llegas de 16 y eso es todo
+
+574
+00:58:28,440 --> 00:58:35,120
+para que no les genere problemas a partir de 8 de ram normal es córrepe si es menor obviamente no
+
+575
+00:58:35,120 --> 00:58:42,880
+va a tener mucho y ahora si no no es que ha ido eso vale a lo siguiente y nos vamos a esperándolo
+
+576
+00:58:42,880 --> 00:58:45,520
+porque solamente cuántos personas hay 7
+
+577
+00:58:48,160 --> 00:58:56,800
+bien acá van a escribir n8n ingresan n8n van a ir a hay 4 flow automitrizio para
+
+578
+00:58:57,280 --> 00:59:04,400
+los voy a pasar ese link ya no bajen las manos los que ya tienen para estar contando ya si tienen
+
+579
+00:59:04,400 --> 00:59:14,320
+todas consultas igual me hablan o es ya vayan entrando en n8n punto y o hayo estoy enviando
+
+580
+00:59:14,320 --> 00:59:18,280
+a la plataforma y también los estoy mandando a su
+
+581
+00:59:22,000 --> 00:59:23,600
+a su grupo de whatsapp
+
+582
+00:59:25,280 --> 00:59:32,880
+y pueden entrar con great start for free o directamente sin ya hay entrón y pueden crecer
+
+583
+00:59:32,880 --> 00:59:41,600
+usuario ya hay van a esperar un poco y aquí el mío ya está creado pero en este caso pueden
+
+584
+00:59:42,320 --> 00:59:48,800
+empezar con acá o si está por cría y ahí pueden colocar su compañía no se yo me llamo
+
+585
+00:59:50,320 --> 00:59:56,240
+bosón digamos bosón y ahí buena eso todavía pueden crear pero aquí van a colocar su gmail que
+
+586
+00:59:56,240 --> 01:00:02,800
+utilizan o un gmail alterno pueden colocar dependen de ustedes y ahí voy a desaltar y en el arterno
+
+587
+01:00:02,800 --> 01:00:04,400
+a ver vamos desaltar gmail
+
+588
+01:00:05,120 --> 01:00:06,400
+y
+
+589
+01:00:08,720 --> 01:00:10,320
+ahí va encarando semillas tanto
+
+590
+01:00:11,440 --> 01:00:17,600
+para que las clases sean un poquito didacticasas algunas clases donde si les voy a preguntar cosas
+
+591
+01:00:19,840 --> 01:00:28,720
+ya hay ingres en el gmail y van a observar en su bosón de entrada en su bosón de su gmail les va a llegar la
+
+592
+01:00:29,440 --> 01:00:33,760
+el código en mi caso
+
+593
+01:00:35,760 --> 01:00:43,840
+ya me he llegado me dice n8n.ya vamos a verificar eso y lo voy a copiar 567133 lo copio o lo puedo
+
+594
+01:00:43,840 --> 01:00:50,960
+clicar ahí depende de ustedes ya y nada más ahora voy a minimizar esto y aquí lo voy a colocar
+
+595
+01:00:52,240 --> 01:00:56,640
+ya tengo que crear varios de acá así que quizás no me permite porque ya tengo
+
+596
+01:00:56,720 --> 01:00:58,160
+lo estoy indicando cómo tienen que hacer
+
+597
+01:00:59,920 --> 01:01:04,000
+ojo chicos esto que se están creando acá no se olviden
+
+598
+01:01:05,360 --> 01:01:13,760
+guardenlo si o si ya para no estar cada vez volviendo a instalar o volver a crear sus controceñas
+
+599
+01:01:13,760 --> 01:01:18,640
+guardenlo porque lo mismo que estoy creándome acá con lo mismo vamos a entrar a nuestro
+
+600
+01:01:19,920 --> 01:01:25,200
+n8n que está nuestro computador y esa partecita por favor no se olviden eso vayan haciendo
+
+601
+01:01:26,000 --> 01:01:31,440
+y vamos a hacer lo siguiente como cada clase tiene que ser práctica y tiene que ser más que todo
+
+602
+01:01:31,440 --> 01:01:37,280
+participativa vamos a hacer esto van a ver un word
+
+603
+01:01:39,520 --> 01:01:43,760
+y eso me pueden enviar hasta el día de mañana o sea siempre va a ver ese rango
+
+604
+01:01:44,720 --> 01:01:51,520
+si tenemos la clase mañana me tienen que enviar si o si en su word van a colocar la siguiente
+
+605
+01:01:52,240 --> 01:02:00,400
+didáctica van a colocar en este caso van a trabajar así margen estrechos voy a pasar la plantilla no hay
+
+606
+01:02:00,400 --> 01:02:09,440
+problema van a colocar clase 1 van a colocar n8n bueno en este caso si voy a pasar la plantilla
+
+607
+01:02:10,320 --> 01:02:15,280
+ya voy a colocar curso de automatización
+
+608
+01:02:17,360 --> 01:02:27,760
+n8n vamos a colocar en este caso en bajada o los estados de cen a bajar no colocar nombre su nombre de
+
+609
+01:02:27,760 --> 01:02:35,040
+ustedes y apellido completos van a colocar la fecha del día en cuál se ha llevado la clase y me van
+
+610
+01:02:35,120 --> 01:02:37,680
+a colocar en este caso también la parte de
+
+611
+01:02:40,960 --> 01:02:47,120
+hasta y por mientras tanto ya le van a colocar clase 1 voy a hacerlo así para que sea algo más
+
+612
+01:02:47,120 --> 01:02:53,840
+participativo y que realmente trabajen porque hay veces por experiencia les digo
+
+613
+01:02:55,200 --> 01:03:04,080
+que no trabajan algunos alumnos y que prefiero hacerlo así para que todos se damos participativos y
+
+614
+01:03:05,040 --> 01:03:10,080
+ya una vez que tengamos eso voy a pasar la plantilla bonito más bonito que lo que estoy haciendo
+
+615
+01:03:10,880 --> 01:03:18,400
+y aquí van a colocar clase 1 dentro de la clase 1 van a colocar pasos paso 1 instalando
+
+616
+01:03:19,840 --> 01:03:24,240
+no y paso 2 instalando docker
+
+617
+01:03:24,240 --> 01:03:36,080
+y así paso 3 no sé qué vendrá paso 3 creando en este caso usuario n8n
+
+618
+01:03:38,080 --> 01:03:46,000
+8n que me diga online listo y ahí me tienen que sacar lo siguiente digamos y instalado no es
+
+619
+01:03:46,000 --> 01:03:51,840
+necesario que me instalen todo el proceso contar que ustedes me saquen el screen de pantalla porque
+
+620
+01:03:51,840 --> 01:03:55,840
+esto es el nombre de su computadora así yo voy a poder reconocer si realmente su compa
+
+621
+01:03:57,680 --> 01:04:05,440
+porque hay veces mis alumnos me hacen esa esa maraña porque me mandan el mismo screen y como
+
+622
+01:04:05,440 --> 01:04:09,120
+y no se dan cuenta que me están enviando de la misma computadora no todos los computadores
+
+623
+01:04:09,120 --> 01:04:14,160
+llaman lo mismo no sé qué es lo que instalando docker me tienen que enviar por ejemplo y ahí
+
+624
+01:04:14,160 --> 01:04:17,840
+hasta instalado esto pues lo voy a colocar así una una screen
+
+625
+01:04:19,840 --> 01:04:24,720
+y listo y ahí tiene que estar todo y todos ustedes y listo lo ven y misa le lo pegan ahí
+
+626
+01:04:26,240 --> 01:04:31,760
+y hasta y entonces así vamos a tratar de armar las clases para que para que ustedes también tengan
+
+627
+01:04:31,760 --> 01:04:38,080
+uno el vídeo y uno como como si los pasos que han hecho ya y cómo están trabajando para que no se
+
+628
+01:04:38,160 --> 01:04:46,000
+olviden tampoco ustedes y luego paso número tres pues colocan lo que estoy haciendo ahorita no
+
+629
+01:04:46,880 --> 01:04:54,960
+que es esto creado y listo ahí colocamos y eso también me tienen que enviar de manera
+
+630
+01:04:57,680 --> 01:05:05,360
+así tal cual ahora pregunta para todos ustedes cuánto tiempo quieren para esto
+
+631
+01:05:06,080 --> 01:05:13,920
+un día mañana les doy hasta el otro un día antes de la siguiente clase cuando lo quieren
+
+632
+01:05:13,920 --> 01:05:22,480
+porque mejor si lo hacen hoy mismo para que no se olviden ya eso eso quedaremos entre nosotros
+
+633
+01:05:22,480 --> 01:05:34,880
+porque si no es nada vamos a avanzar ya eso giren chicos hasta mañana les doy 24 horas 48 horas 72
+
+634
+01:05:34,880 --> 01:05:40,080
+horas o cuánto desean ustedes de tiempo para subir sus trabajos de cada clase posterior
+
+635
+01:05:50,160 --> 01:05:57,200
+y ya que fuera un bien antes de la siguiente clase ya que tengo que seleccionar archivos de mi laptop
+
+636
+01:05:57,920 --> 01:06:04,960
+ya ya súper entonces va a ser siempre 24 horas antes de la siguiente clase listo ya no hay problema
+
+637
+01:06:04,960 --> 01:06:12,400
+chicos eso quedamos para que todos trabajemos de lo mismo manera ya hasta ahí lo tienen ahora
+
+638
+01:06:12,400 --> 01:06:18,640
+vamos a entrar a la segunda parte ya voy a hacer ahora este encajo porque ya he creado otros sistemas
+
+639
+01:06:19,120 --> 01:06:20,080
+y
+
+640
+01:06:22,480 --> 01:06:29,360
+así una vez que lo creen ahí e vayan ingresando esos enhechos de manera online creando sus
+
+641
+01:06:29,360 --> 01:06:33,360
+passwords y cuántas años esto no necesitan así que voy a colocar por ejemplo basón
+
+642
+01:06:36,000 --> 01:06:37,920
+y pasos no son inventaron
+
+643
+01:06:41,120 --> 01:06:43,680
+o lo que no pasó el que no se lo vieron por su casa
+
+644
+01:06:44,560 --> 01:06:47,360
+y aquí voy a colocarnos
+
+645
+01:06:49,360 --> 01:06:59,920
+ya eso no es lo que no es lo que más cositas acá no hay problema ya así que me olvida por
+
+646
+01:06:59,920 --> 01:07:11,440
+ejemplo que puesto bien y lo que tengan el mismo que yo listo y ya les va a crear esperan le colocan
+
+647
+01:07:11,440 --> 01:07:16,320
+gracias ya y vamos a colocar lo siguiente
+
+648
+01:07:18,880 --> 01:07:23,920
+exactamente se está grabando las clases no se preocupan ya ahora en este caso van a colocar
+
+649
+01:07:23,920 --> 01:07:31,680
+acá solamente for me o por mi para mí ok luego colocan para que no para que les para que un
+
+650
+01:07:31,680 --> 01:07:36,960
+cachito le engañemos en el 8 n para que me dé algunos prompts más directos vamos a colocar
+
+651
+01:07:37,680 --> 01:07:38,960
+aquí
+
+652
+01:07:38,960 --> 01:07:47,680
+marketing les soporta ok van a colocar y aquí van a colocar siempre ojo siempre creen aquí con su
+
+653
+01:07:47,680 --> 01:07:54,160
+link en cuando crean en el 8 n con su link en inglés de algunos beneficios más que podemos
+
+654
+01:07:54,160 --> 01:07:58,320
+hacerlo de manera online ya no de manera local así que mejor si lo meten su link y
+
+655
+01:08:00,000 --> 01:08:05,280
+ya bien en este caso pueden trabajar con su con quién más colaborar ya en este caso
+
+656
+01:08:07,920 --> 01:08:08,960
+tu
+
+657
+01:08:08,960 --> 01:08:10,960
+usado
+
+658
+01:08:12,000 --> 01:08:18,720
+y esto ya está pueden invitar para que para proyectos donde os olviden necesitan vacabos o
+
+659
+01:08:18,720 --> 01:08:24,240
+tienen trabajar en grupo con el 8 n no solamente una persona que hay en el reservario o sistemas
+
+660
+01:08:24,240 --> 01:08:31,120
+pero que pueden hacer si nos pueden colocar script no hay problema ya y ya está ahora empezamos de
+
+661
+01:08:31,280 --> 01:08:43,440
+manera automática y las ahorita la interfaz de noche ahí esperamos un poco y listo lo van a tener
+
+662
+01:08:45,440 --> 01:08:47,520
+ya mientras tanto de mi cachito chocó
+
+663
+01:08:47,680 --> 01:08:49,520
+los
+
+664
+01:08:53,760 --> 01:08:56,480
+en estos 14 días podemos hacer un montón de
+
+665
+01:08:58,800 --> 01:09:03,680
+cositas aquí así que la siguiente clase y voy a hacer algunos videos trabajando de esto y a ver si
+
+666
+01:09:03,680 --> 01:09:09,840
+lo implementan rápidamente para tener más más extensión del trabajo o lo pueden en este caso
+
+667
+01:09:09,840 --> 01:09:17,120
+también comprar si lo quieren comprar en el 8 n hay otros sistemas ya actuales les comento
+
+668
+01:09:18,480 --> 01:09:26,560
+yo les recomiendo así no como docente sino como un colaborador más o como si estuviéramos
+
+669
+01:09:26,560 --> 01:09:33,520
+trabajando en la misma compañía yo les recomiendo que en el 8 n lo trabajen de manera local
+
+670
+01:09:34,800 --> 01:09:40,560
+si van a hacer negocios o se van a tener un servidor central porque ya hay otros sistemas
+
+671
+01:09:40,720 --> 01:09:50,320
+avanzados que superan en 8 n y es mucho más rápido pero si exige un poquito más de conocimientos
+
+672
+01:09:50,320 --> 01:09:58,800
+en programación ya pero es casi lo mismo pero el otro me ofrece incluso inteligencia artificial es
+
+673
+01:09:58,800 --> 01:10:04,720
+que trabajar con 17 18 inteligencia artificial incorporadas y trabajar con automatización es
+
+674
+01:10:04,800 --> 01:10:10,400
+no solamente en ámbitos empresariales sino en ámbitos industriales y otro trabajo con
+
+675
+01:10:10,400 --> 01:10:16,960
+schrinberg y también hay con python divit esos son dos sistemas potentes para sistemas de python
+
+676
+01:10:16,960 --> 01:10:25,760
+avanzado y se puede hacer más cosas ya pero en 8 n está bien para para procesos más que no son
+
+677
+01:10:25,760 --> 01:10:32,080
+de netamente del problema así para aquí podemos ver cuáles son los costos ya y esto ojo es por mes
+
+678
+01:10:32,800 --> 01:10:35,120
+creo que hay algunas ofertas más que todo para
+
+679
+01:10:37,040 --> 01:10:42,640
+anuales ya pero vamos a empezar obviamente con fría nada más así que hasta ahí
+
+680
+01:10:43,920 --> 01:10:50,000
+una vez que lo tengan hasta acá podemos hacer algunas aplicaciones bastante interesantes a ver
+
+681
+01:10:50,000 --> 01:10:50,880
+si esperemos hasta ahí
+
+682
+01:10:53,280 --> 01:10:58,560
+y a por ejemplo acá cuando trabajamos con el spa y se va a hacer vamos a trabajar con
+
+683
+01:10:58,560 --> 01:11:04,080
+estadísticos también vamos a colocar randwith demo start for scratch listos en click ahí
+
+684
+01:11:05,120 --> 01:11:06,480
+esperamos un poquito
+
+685
+01:11:08,800 --> 01:11:16,160
+ahí se van a ejecutar algunos puntos ya esto por ejemplo es una interfaz ya hecha
+
+686
+01:11:16,160 --> 01:11:23,200
+para ver cómo trabajamos con gmail o como de los de open e i ahora en este caso
+
+687
+01:11:23,680 --> 01:11:29,440
+si ustedes quieren trabajar como de los de open e i o sea no solamente de las repeticiones de cloud
+
+688
+01:11:30,560 --> 01:11:37,600
+pueden comprarse scales o tokens un millón de tokens creo que no se cuenta en cloud no utilizo
+
+689
+01:11:37,600 --> 01:11:43,360
+mucho cloud más que tu tienes otros softwares pido tus días pero mientras ustedes pueden
+
+690
+01:11:43,360 --> 01:11:52,240
+trabajar con cuáles desea mucho más acerquible ya así que si entramos a open e i vamos a ver cuál
+
+691
+01:11:52,240 --> 01:11:58,400
+es los costos más o menos para que podamos trabajar en este aspecto ya hay también con otro tipo de
+
+692
+01:11:58,400 --> 01:12:08,560
+sistemas pero vamos a ver ahora sí vamos a también descarar lo siguiente antes de continuar voy a
+
+693
+01:12:08,560 --> 01:12:17,200
+venirme ahora a oyama y ahí vamos a ver qué podemos hacer cosas más interesantes después de las
+
+694
+01:12:17,520 --> 01:12:23,120
+clases de n8n pero que si aquí lo tengan directamente instalado para que habían como se trabaja también
+
+695
+01:12:23,120 --> 01:12:32,000
+con otros agentes de ida entra en a oyama les voy a pasar ahorita el enlace igual y luego
+
+696
+01:12:32,000 --> 01:12:37,200
+explicar algunas cositas de ica es necesario que lo entieman y que lo apliquen si es que están
+
+697
+01:12:38,160 --> 01:12:47,840
+si para vosotros de manera local pero todavía no es aparte ya que le faltan muchos que vayan
+
+698
+01:12:47,840 --> 01:12:54,080
+instalando tokens pero voy a hacerlo en ambos ámbitos ya los estoy haciendo de manera online
+
+699
+01:12:54,080 --> 01:12:58,000
+para aprovechar algunos puntos más que vamos a tratar pero luego vamos a trabajar de manera local
+
+700
+01:12:58,000 --> 01:13:03,280
+también directamente voy a trabajar en primera parte con manera local y les explico un poquito
+
+701
+01:13:03,360 --> 01:13:09,280
+esta parte o llama más que todo trabaja como un intérprete de lo que va a ser los modelos de ida
+
+702
+01:13:09,280 --> 01:13:17,360
+o modelos de inteligencia artificial ya creadas por ejemplo la última de chad y pt 5.2 está
+
+703
+01:13:17,360 --> 01:13:25,840
+alrededor de 34 billones de entrenamientos internos que tiene pero como pueden entender eso más o
+
+704
+01:13:26,160 --> 01:13:34,160
+menos si dentro y ahorita models que moda hay a modelos entrenados por ejemplo no sé si ahora
+
+705
+01:13:34,160 --> 01:13:43,200
+entreno a un chimpanze para que me pase por ejemplo no sé una roca siempre que me que a mí me
+
+706
+01:13:43,200 --> 01:13:50,320
+pase la roca cada mañana ten que entrenarle ese entrenamiento dura no solamente un día dos días
+
+707
+01:13:50,400 --> 01:13:56,720
+tres días puede durar incluso meses o años para que haga eso esto es lo mismo pero aquí
+
+708
+01:13:56,720 --> 01:14:02,640
+ha sido entrenado con un montón de datos para que este modelo ya me pueda responder si es que
+
+709
+01:14:02,640 --> 01:14:08,400
+ciertas características ahora si cómo nos vamos a dar que es cómo nos vamos a dar cuenta que su
+
+710
+01:14:08,400 --> 01:14:14,880
+modelo avanzado o no avanzado o que su modelo mucho más de bajo escala o bajo nivel en este caso
+
+711
+01:14:14,960 --> 01:14:23,440
+trabajamos con este tipo de simulito ya los que tienen tres b 4 b son los más básicos y los que
+
+712
+01:14:23,440 --> 01:14:32,480
+menos capacidades de memoria les va a exigir ya pero hay modelos que trabajan con 277 billones o
+
+713
+01:14:32,480 --> 01:14:39,840
+sabés y hay miren aquí 122 b hay otros modelos que trabajan con más incluso pero aquí generalmente
+
+714
+01:14:39,920 --> 01:14:47,520
+1 de 30 a 43 por ejemplo miren este es sumamente liviano es un modelo de dipstick
+
+715
+01:14:48,400 --> 01:14:54,720
+ya pueden bajarlo a ver si entramos a dipstick acá lo malo de esto es que ves es un poco lento o no
+
+716
+01:14:54,720 --> 01:15:03,200
+me ofrece mucho rango de de en este caso de respuesta pero si es interesante como responde pero miren
+
+717
+01:15:03,680 --> 01:15:11,920
+pesa 6.7 gigabytes lo pueden trabajar con esto de manera interna ya pero si tienen una computadora
+
+718
+01:15:11,920 --> 01:15:20,160
+que es pro o sea muy avanzada tanto en rango sus gpo pueden instalarse una que tenga estas
+
+719
+01:15:20,160 --> 01:15:27,840
+características como la de extra que es la 123 b ya o hay la o mart que haya parecido otra la gm 4.9
+
+720
+01:15:27,920 --> 01:15:33,760
+que es una buena y pueden trabajar ahí de manera interna sin hacer esquías de las demás de
+
+721
+01:15:33,760 --> 01:15:41,120
+copenco comprar cosas evitamos por ejemplo esto es muy bueno pues esta se le asemeja a la chacha y
+
+722
+01:15:41,120 --> 01:15:49,200
+pt 4.5 y tiene 2 2 2 2 255 b pueden trabajar pero fíjense cuánto es su capacidad que necesitan
+
+723
+01:15:49,200 --> 01:16:00,000
+143 gigas les va a exigir de escagar eso y no nos convierte pueden trabajar como de los sí
+
+724
+01:16:00,000 --> 01:16:09,600
+a preguntar cuál que tal este estos modelos son como podría decir yas o en sí como por
+
+725
+01:16:09,600 --> 01:16:20,560
+secuencias de actividades específicas son en sí yas y aquí por ejemplo crees
+
+726
+01:16:20,560 --> 01:16:29,040
+el nombre de este gigante sobre esta este estas yas son de libre acceso a la que uno puede descargar
+
+727
+01:16:29,040 --> 01:16:33,480
+sí son de libre acceso directamente a cuándo es que lo descargar sin que se pueda centrar su
+
+728
+01:16:33,480 --> 01:16:43,080
+carne y modificar ellos se puede manipular incluso generalmente por ejemplo la empresa no se
+
+729
+01:16:43,080 --> 01:16:50,400
+hacía en escuchar de blu origin de jeff esos conocen a jeff esos de blu origin por ejemplo uno
+
+730
+01:16:50,400 --> 01:16:56,680
+de sus hackers ha intentado hackear los sistemas de aniquilación que tenía la nasa y parte de
+
+731
+01:16:56,680 --> 01:17:03,520
+el oler en los más y lo ha hecho gracias a lo que es la clonación que ha descargado la parte de
+
+732
+01:17:03,520 --> 01:17:11,320
+que se llama esta empresa la se me fue un hombre si te preocupa en la la antítesis de opinión
+
+733
+01:17:11,320 --> 01:17:19,600
+ahí hay se me fue el nombre y la otra empresa brutal en la inteligencia artificiales pero esa
+
+734
+01:17:19,600 --> 01:17:24,880
+contratado jeff besos y con eso ha podido controlar los cohetes en control avanzada y control
+
+735
+01:17:25,760 --> 01:17:32,200
+independiente para sus cohetes y con eso se han creado ya sistemas de guerras frías a nivel
+
+736
+01:17:32,200 --> 01:17:41,200
+espacial eso maneja más o menos y se puede hacer eso porque ahorita justamente ayer se ha liberado
+
+737
+01:17:41,200 --> 01:17:47,840
+cuatro yas potentes para la parte de apenía y eso ahorita os voy a mostrar que se me ha ido el nombre
+
+738
+01:17:47,840 --> 01:17:54,920
+pero ahorita se me va a acordar y les voy a mostrar esto por si se puede manipular si se
+
+739
+01:17:54,920 --> 01:18:00,080
+puede echar su carner pueden ver un montón de cosas ahí en manera encriptada y si se puede
+
+740
+01:18:00,080 --> 01:18:05,280
+trabajar incluso con sus propios modelos por ejemplo yo independientemente creo yas para
+
+741
+01:18:05,280 --> 01:18:11,560
+sistemas robóticos para mis clientes por ejemplo yo utilizo digamos ahorita yo fabrico prótesis
+
+742
+01:18:11,560 --> 01:18:17,440
+para los diferentes hospitales y les meto estas yas para que puedan tener una latencia de la red y
+
+743
+01:18:17,440 --> 01:18:23,920
+latencia de sus sistemas de control de manera estable y para no depender de ellas en la nube y
+
+744
+01:18:23,920 --> 01:18:30,720
+eso yo hago pero en la parte de hardware no tanto en software pero si utilizo estas yas ya ahora
+
+745
+01:18:30,720 --> 01:18:38,840
+una que es bastante liviana es la mistra es la más liviana y que tiene un nivel aceptable de
+
+746
+01:18:39,000 --> 01:18:49,240
+cognitividad esto que es de 7b y no está empezada miren esa 4.4 yas y esto creo que lo pueden tener
+
+747
+01:18:49,240 --> 01:18:58,760
+todos yo les recomiendo esto para hacer pruebas básicas y pruebas no tan básicas o si tiene nivel
+
+748
+01:18:59,200 --> 01:19:09,720
+tiene nivel pero es la más 7b es es es considerado esto eso descarguense los veas los veas subir un
+
+749
+01:19:09,720 --> 01:19:17,320
+documento muy aparte donde está paso a paso cómo tienen que instalar esto si lo hacen súper esto
+
+750
+01:19:17,320 --> 01:19:24,760
+por si acaso lo que los estoy mostrando se puede trabajar con n hn pero en este curso es como vamos
+
+751
+01:19:24,760 --> 01:19:30,400
+a trabajar de manera aditiva no de manera que tengamos que seguir con el penso que ya está
+
+752
+01:19:30,400 --> 01:19:36,200
+definido si es que nos alcanza algo más de tiempo y lo voy a implementar pero si o si hay
+
+753
+01:19:36,200 --> 01:19:43,240
+algunas veces algunas clases si siempre lo implemento así que no se hagan no se asusten
+
+754
+01:19:43,240 --> 01:19:49,680
+seis veces voy a hacer cosas fuera de la clase que van a ser más interesantes pero con el hn
+
+755
+01:19:50,080 --> 01:19:56,760
+fuera del penso así que si lo tienen y al listito no hay más chicos y lo pueden trabajar por
+
+756
+01:19:56,760 --> 01:20:00,040
+ejemplo miran acá yo voy a ejecutar mi mi oleada
+
+757
+01:20:01,600 --> 01:20:03,000
+ahí está ejecutando
+
+758
+01:20:04,440 --> 01:20:06,440
+esta parte voy a minimizar el lenguaje
+
+759
+01:20:11,320 --> 01:20:13,240
+y ahora les voy a mostrar esa parte
+
+760
+01:20:13,960 --> 01:20:21,280
+ya me pueden trabajar y pueden ver hablar incluso o llama y n hn se le puede implementar con
+
+761
+01:20:21,280 --> 01:20:27,920
+alexa cuando solamente le hablas ya te puede indicar que está pasando que el coro te ha llegado
+
+762
+01:20:27,920 --> 01:20:33,760
+quien te ha depositado cuál es tu factibilidad de tu negocio en cierto plazo y todo suceso
+
+763
+01:20:33,760 --> 01:20:43,160
+es un mundo muy interesante ya eso es un chico que os creo que ya se van a cumplir el tiempo
+
+764
+01:20:43,160 --> 01:20:50,280
+ya es casi 8 la clase quedaremos en lo siguiente y hasta la siguiente clase necesito hasta acá sus
+
+765
+01:20:50,280 --> 01:20:58,200
+modelos de sus instalaciones en su world suck in the screen los voy a enviar después de la clase
+
+766
+01:21:00,040 --> 01:21:06,560
+el código de classroom les voy a mandar el código del drive y los voy a enviar el código de sus
+
+767
+01:21:06,560 --> 01:21:12,040
+kits ya así que en base se pueden clonar subir sus documentaciones ahí va a estar las grabaciones
+
+768
+01:21:12,040 --> 01:21:18,040
+que voy a subir ahí va a estar todo de manera ordenada cualquier consulta escríbame mediante
+
+769
+01:21:18,040 --> 01:21:26,000
+el inbox y la clase también lo voy a colocar en el en el clavo todo va a estar ahí ya así que no se
+
+770
+01:21:26,000 --> 01:21:28,440
+preocupa voy a detener la grabación del encuchito
+

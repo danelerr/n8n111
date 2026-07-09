@@ -1,0 +1,3 @@
+INSTALADORES
+NODE JS:  https://nodejs.org/en
+DOCKER:   https://docs.docker.com/desktop/setup/install/windows-install/

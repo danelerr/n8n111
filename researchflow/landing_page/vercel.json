@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/investigar",
+      "destination": "https://REPLACE_WITH_N8N_DOMAIN/webhook/researchflow"
+    },
+    {
+      "source": "/api/demo",
+      "destination": "https://REPLACE_WITH_N8N_DOMAIN/webhook/researchflow-demo"
+    }
+  ]
+}

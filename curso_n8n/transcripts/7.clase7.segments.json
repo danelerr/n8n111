@@ -1,0 +1,601 @@
+{
+  "source": "7.clase7.mp4",
+  "language": "es",
+  "duration_seconds": 722.16,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 6.2,
+      "text": "Hola a todos, bienvenidos a la siguiente clase. Vamos a continuar con el trabajo que"
+    },
+    {
+      "id": 1,
+      "start": 6.2,
+      "end": 12.92,
+      "text": "vemos que ha dado un triunfo pendiente. Así que voy a hacer lo siguiente. Venimos acá y"
+    },
+    {
+      "id": 2,
+      "start": 12.92,
+      "end": 21.48,
+      "text": "decimos lo siguiente. Muy aparte de estos, existe lo que son también webhooks. Un webhook"
+    },
+    {
+      "id": 3,
+      "start": 21.48,
+      "end": 28.56,
+      "text": "netamente es un sistema que puede darnos una información, una actualización o una alerta"
+    },
+    {
+      "id": 4,
+      "start": 28.56,
+      "end": 33.8,
+      "text": "de que estamos recibiendo un mensaje. Por ejemplo, un webhook es donde generalmente se puede"
+    },
+    {
+      "id": 5,
+      "start": 33.8,
+      "end": 39.36,
+      "text": "interpretar procesos como cuesta cuando ustedes pagan el banco, generalmente los que ganan una"
+    },
+    {
+      "id": 6,
+      "start": 39.36,
+      "end": 45.72,
+      "text": "notificación. Esa aspecto sí o sí se tiene que notificar. Ahora puede haber webhooks que"
+    },
+    {
+      "id": 7,
+      "start": 45.72,
+      "end": 50.8,
+      "text": "traen un montón de tiempo, mucho depende del tipo de proyecto que hagan, pero siempre"
+    },
+    {
+      "id": 8,
+      "start": 50.8,
+      "end": 57.04,
+      "text": "mesas las alertas. Cuando me dice su solicitud ha sido completada o recibió 2000 bolivianos de"
+    },
+    {
+      "id": 9,
+      "start": 57.04,
+      "end": 66.72,
+      "text": "tal pago y listo. Voy a añadir esto. Vamos a añadir un webhook ahí. No lo voy a conectar todavía."
+    },
+    {
+      "id": 10,
+      "start": 68.48,
+      "end": 74.0,
+      "text": "Puedo hacerlo así, diríamos. No hay lío para que ya trabaje con los webhooks. Ahora paso a otro"
+    },
+    {
+      "id": 11,
+      "start": 74.0,
+      "end": 81.04,
+      "text": "punto también, que en este caso voy a tratar de utilizar algunos aspectos más técnicos. Por"
+    },
+    {
+      "id": 12,
+      "start": 81.04,
+      "end": 88.16,
+      "text": "ejemplo, acá. Hay algo también interesante. Un modelo de ya no solamente puede preenprenerse"
+    },
+    {
+      "id": 13,
+      "start": 88.16,
+      "end": 94.4,
+      "text": "con modelos previos o con ya proms realizados como hemos hecho anterior clase. Aquí podemos"
+    },
+    {
+      "id": 14,
+      "start": 94.4,
+      "end": 103.2,
+      "text": "trabajar ya también con la parte de. Apis, nuestras bases de dato y demás. Podemos procesar varios"
+    },
+    {
+      "id": 15,
+      "start": 103.2,
+      "end": 109.2,
+      "text": "aspectos técnicos para evitar luego tener problemas a futuro. En para eso, yo voy a trabajar"
+    },
+    {
+      "id": 16,
+      "start": 109.2,
+      "end": 116.72,
+      "text": "netamente con lo siguiente. Ancliga acá. Y aquí van a trabajar con http requests. Estos pueden"
+    },
+    {
+      "id": 17,
+      "start": 116.72,
+      "end": 125.52,
+      "text": "manejar los tools. Listo, lo voy a cerrar acá uno. Pueden sacarse varios. Ya no es necesario con uno"
+    },
+    {
+      "id": 18,
+      "start": 125.52,
+      "end": 133.84,
+      "text": "nomás. Yo voy a sacar dos o uno para el proceso. Voy a colocar uno de trigger y voy a colocar http"
+    },
+    {
+      "id": 19,
+      "start": 133.84,
+      "end": 144.88,
+      "text": "requests. Listo, ya tengo otro digamos. Esta parte no perdón. Yo me estoy equivocando. De aquí tienen"
+    },
+    {
+      "id": 20,
+      "start": 144.88,
+      "end": 153.04,
+      "text": "que clicar acá. Y esto lo hará. Ya lo cerramos y también puede enjala en este caso de bases de"
+    },
+    {
+      "id": 21,
+      "start": 153.04,
+      "end": 164.4,
+      "text": "dato. Ya. Podemos trabajar con Maya SQL. Van a colocar el tool. Y dentro de este tool lo dejamos ahí."
+    },
+    {
+      "id": 22,
+      "start": 165.68,
+      "end": 174.32,
+      "text": "Pueden colocarse. En el table en Maya SQL. Ya. Lo que voy a proceder en lo siguiente."
+    },
+    {
+      "id": 23,
+      "start": 175.04,
+      "end": 181.44,
+      "text": "Vamos a crear primero algunos puntos y vamos a tratar de entrarnos alguna."
+    },
+    {
+      "id": 24,
+      "start": 183.04,
+      "end": 188.08,
+      "text": "Ya. Así que va a cambiar un poquito mis datos, pero vamos a trabajar con algunos puntos más"
+    },
+    {
+      "id": 25,
+      "start": 188.08,
+      "end": 192.8,
+      "text": "desarrollados dentro de qué tipo de APIs voy a manejar. Porque hay un montón de APIs que se puede"
+    },
+    {
+      "id": 26,
+      "start": 192.8,
+      "end": 202.32,
+      "text": "trabajar en la web. Ya no es necesario trabajar con webs externas o web internas. Apis también se"
+    },
+    {
+      "id": 27,
+      "start": 202.4,
+      "end": 209.12,
+      "text": "puede trabajar con fakes. Ya. Y esos fakes generalmente lo vamos a aplicar para que me dé algún tipo de"
+    },
+    {
+      "id": 28,
+      "start": 209.76,
+      "end": 215.84,
+      "text": "dato y respuesta. Ya. Así que puedo venir acá y voy a colocar lo siguiente."
+    },
+    {
+      "id": 29,
+      "start": 218.56,
+      "end": 225.68,
+      "text": "Publi. Publi. Voy a colocar. Publi. Api. Creo que se llama."
+    },
+    {
+      "id": 30,
+      "start": 226.24,
+      "end": 235.36,
+      "text": "Punto de esto más que todo está simulando tiendas. O sea, qué vende, digamos. Ya. Bueno,"
+    },
+    {
+      "id": 31,
+      "start": 235.36,
+      "end": 241.04,
+      "text": "aquí no me aparece, pero creo que tengo aquí una interfaz. A ver, voy a copiar esto."
+    },
+    {
+      "id": 32,
+      "start": 242.56,
+      "end": 246.64,
+      "text": "Ya. Estos van a estar en la descripción del grupo. Va a estar ahí colocados los APIs."
+    },
+    {
+      "id": 33,
+      "start": 247.92,
+      "end": 252.0,
+      "text": "Entonces aquí, por ejemplo, es una API. La voy a traducir para que se entienda. Dice."
+    },
+    {
+      "id": 34,
+      "start": 252.64,
+      "end": 257.76,
+      "text": "Fakes. Terapia. Es una API. Gratuita que proporciona que es una variedad de datos"
+    },
+    {
+      "id": 35,
+      "start": 257.76,
+      "end": 261.68,
+      "text": "simulados para una tienda en línea. Los usuarios pueden acceder a productos,"
+    },
+    {
+      "id": 36,
+      "start": 261.68,
+      "end": 265.84,
+      "text": "categorías, usuarios, pedidos, ficticias para utilizarse en el desarrollo y pruebas de sus"
+    },
+    {
+      "id": 37,
+      "start": 265.84,
+      "end": 270.48,
+      "text": "aplicaciones. Vamos a hacer una prueba. Entonces, por eso significa que dígese. Dice. HTTPS."
+    },
+    {
+      "id": 38,
+      "start": 271.68,
+      "end": 276.96,
+      "text": "Entonces yo quiero productos. A ver, porque estamos ahorita vendiendo en este caso comida para perros."
+    },
+    {
+      "id": 39,
+      "start": 277.04,
+      "end": 283.44,
+      "text": "Pero voy a inventarme. Como quiero productos, puedo en este caso, esta partecita, copiarme todo el"
+    },
+    {
+      "id": 40,
+      "start": 283.44,
+      "end": 288.48,
+      "text": "HTTPS. Control C, control B. Me voy a ir a mi workflow. Voy a entrarme acá."
+    },
+    {
+      "id": 41,
+      "start": 290.72,
+      "end": 297.6,
+      "text": "Ya. Y aquí la URL puedo pegar acá. Control B y listo. Ya tenemos ese aspecto más técnico."
+    },
+    {
+      "id": 42,
+      "start": 297.6,
+      "end": 304.08,
+      "text": "Ahora para hacer pruebas alternas, pruebas externas, voy a ver acá. Lo mismo voy a copiarlo acá y me va"
+    },
+    {
+      "id": 43,
+      "start": 304.16,
+      "end": 309.12,
+      "text": "a aparecer un montón de dats. Bueno, ahí está un montón de productos que ya está dentro de"
+    },
+    {
+      "id": 44,
+      "start": 309.12,
+      "end": 316.24,
+      "text": "SAPI para colocar datos. Como les he dicho, fakes. Ya lo cierro. Ahora voy a hacer lo siguiente."
+    },
+    {
+      "id": 45,
+      "start": 316.24,
+      "end": 325.2,
+      "text": "Una vez que tenga eso, voy a decir esto. Alguna cosa más. No. Lo voy a cerrar mientras tanto."
+    },
+    {
+      "id": 46,
+      "start": 326.08,
+      "end": 334.24,
+      "text": "Y acá dentro del modelo, voy a irme a sistema donde está mi sistema acá."
+    },
+    {
+      "id": 47,
+      "start": 336.24,
+      "end": 342.64,
+      "text": "Academy Prom, no? En sistema aquí. Voy a agrandar esto y voy a colocar acá."
+    },
+    {
+      "id": 48,
+      "start": 345.04,
+      "end": 352.64,
+      "text": "Voy a decir. Si te preguntan por nuestros productos,"
+    },
+    {
+      "id": 49,
+      "start": 355.44,
+      "end": 362.88,
+      "text": "ingresa ingresa a dos puntos o a voy a colocar. Voy a cerrar un cachó."
+    },
+    {
+      "id": 50,
+      "start": 363.84,
+      "end": 369.44,
+      "text": "Voy a venir acá y voy a hacer lo siguiente. Voy a doble clic. Esta parte voy a cambiar lista de"
+    },
+    {
+      "id": 51,
+      "start": 369.44,
+      "end": 377.12,
+      "text": "productos. Listo. Y aquí igual le pueden colocar lista de productos."
+    },
+    {
+      "id": 52,
+      "start": 378.0,
+      "end": 384.96,
+      "text": "Para que la I ya sepa dónde ir. Lo cierro y listo. Ya es actualizado. Vuelvo acá."
+    },
+    {
+      "id": 53,
+      "start": 386.0,
+      "end": 395.04,
+      "text": "Y ahora voy a volver a mi prompt. Doble clic. Voy a irme a sistema. A lista de productos."
+    },
+    {
+      "id": 54,
+      "start": 395.76,
+      "end": 410.64,
+      "text": "Producción. Si te preguntan, voy a volver a copiar esto. Si te preguntan en este caso. Por nuestros"
+    },
+    {
+      "id": 55,
+      "start": 411.36,
+      "end": 423.2,
+      "text": "asesores de venta. Asesores. No. Asesores. De venta. Entra o ingresa a asesores."
+    },
+    {
+      "id": 56,
+      "start": 424.72,
+      "end": 431.36,
+      "text": "Voy a hacer dos prompts ya internos. Por qué? Por lo siguiente. Aquí voy a cremear a puro."
+    },
+    {
+      "id": 57,
+      "start": 432.08,
+      "end": 433.04,
+      "text": "Por lo en este caso."
+    },
+    {
+      "id": 58,
+      "start": 435.76,
+      "end": 441.92,
+      "text": "Osoarios. Ya. Para esa parte voy a darles igual otro otro link."
+    },
+    {
+      "id": 59,
+      "start": 443.2,
+      "end": 447.12,
+      "text": "En el cuerpo al ingresar. Voy a venir acá y voy a hacer lo siguiente."
+    },
+    {
+      "id": 60,
+      "start": 449.2,
+      "end": 455.6,
+      "text": "Ya. Yo hice un place holder. Aquí por ejemplo hay igual a la piz. Pero aquí hay usuarios."
+    },
+    {
+      "id": 61,
+      "start": 455.6,
+      "end": 459.68,
+      "text": "Inventé sus usuarios. Pero no importa. Conta que fotos también. Puedes hacer cualquier cosa."
+    },
+    {
+      "id": 62,
+      "start": 460.0,
+      "end": 466.96,
+      "text": "Ustedes. Vengo acá. Voy a copiar este HTTP. Voy a venir a workflow. Voy a hacer doble clic acá."
+    },
+    {
+      "id": 63,
+      "start": 468.72,
+      "end": 475.28,
+      "text": "Ya. Voy a pegarlo. Y esta parte voy a colocar en vez de todos users. Por qué está acá? No con"
+    },
+    {
+      "id": 64,
+      "start": 475.28,
+      "end": 486.32,
+      "text": "users. Barra users. Ya listo. Ya está. Enseguida colocar asesores. Aquí también asesores."
+    },
+    {
+      "id": 65,
+      "start": 487.04,
+      "end": 498.08,
+      "text": "Listo. Eso sería todo. Los cerramos. Ya tendríamos eso. Ahora cuando yo le pregunte acá por el one"
+    },
+    {
+      "id": 66,
+      "start": 498.08,
+      "end": 504.72,
+      "text": "form submission. Vas a tener que recibir algún dato en base a eso. A ver. Trabajaremos. Además."
+    },
+    {
+      "id": 67,
+      "start": 506.72,
+      "end": 510.88,
+      "text": "Podemos colocar acá también algunos punts para no trabajar en base a eso."
+    },
+    {
+      "id": 68,
+      "start": 511.6,
+      "end": 514.56,
+      "text": "Barriame a mi sistema."
+    },
+    {
+      "id": 69,
+      "start": 517.44,
+      "end": 530.64,
+      "text": "Voy a colocarle. Genera una respuesta. En formato HTML y CSS. Para enviar al cliente."
+    },
+    {
+      "id": 70,
+      "start": 533.52,
+      "end": 535.04,
+      "text": "Al corredo del cliente."
+    },
+    {
+      "id": 71,
+      "start": 536.0,
+      "end": 545.2,
+      "text": "Listo. Los cerramos. Ahora podemos ejecutar. Sí. Pero voy a trabajar acá."
+    },
+    {
+      "id": 72,
+      "start": 546.4,
+      "end": 549.44,
+      "text": "A esta parte voy a despinar. One pint."
+    },
+    {
+      "id": 73,
+      "start": 551.04,
+      "end": 560.72,
+      "text": "Voy a ejecutarlo y voy a hacer lo siguiente. Y a mil ton. En 7, 32, 5, 5, 8. Listo. Email."
+    },
+    {
+      "id": 74,
+      "start": 560.8,
+      "end": 563.12,
+      "text": "Ya saben. Voy a colocar. Ahí me olvidó mi email."
+    },
+    {
+      "id": 75,
+      "start": 565.12,
+      "end": 568.24,
+      "text": "Deben un cacho. Voy a hacer prueba con este que estamos trabajando."
+    },
+    {
+      "id": 76,
+      "start": 570.8,
+      "end": 586.88,
+      "text": "Listo. Y mensaje. Deseo. Los productos. Y lista. De asesores. De venta. Para. Un pedido."
+    },
+    {
+      "id": 77,
+      "start": 587.84,
+      "end": 594.56,
+      "text": "Que quiero. Que quiero realizar. Para comida de perros."
+    },
+    {
+      "id": 78,
+      "start": 598.08,
+      "end": 599.68,
+      "text": "Listo. Los subimos."
+    },
+    {
+      "id": 79,
+      "start": 601.28,
+      "end": 604.8,
+      "text": "Vemos cómo se ejecuta. Seguirán los errores y bueno, van a tener problemas."
+    },
+    {
+      "id": 80,
+      "start": 604.8,
+      "end": 607.12,
+      "text": "Pero fijense que está entrando lista de productos dentro de asesores."
+    },
+    {
+      "id": 81,
+      "start": 607.12,
+      "end": 611.84,
+      "text": "Está generando el modelo. Y me tiene que enviar."
+    },
+    {
+      "id": 82,
+      "start": 612.8,
+      "end": 615.68,
+      "text": "Yo me tiene que enviar. Sí o sí. Va a tardar esto un poco."
+    },
+    {
+      "id": 83,
+      "start": 617.44,
+      "end": 623.28,
+      "text": "Poco estar recién aprendiendo. Está procesando. Ya está. Ya me envió. Vengo directamente."
+    },
+    {
+      "id": 84,
+      "start": 623.28,
+      "end": 631.6,
+      "text": "Mi correo. Voy a actualizarlo. Y listo. Me llego. Qué dice. A ver."
+    },
+    {
+      "id": 85,
+      "start": 632.64,
+      "end": 638.16,
+      "text": "Hola. Mi. A media me dice. Entonces, no."
+    },
+    {
+      "id": 86,
+      "start": 639.12,
+      "end": 643.12,
+      "text": "Disponibilidad de asesoramiento personalizado y me da los datos. Nada más."
+    },
+    {
+      "id": 87,
+      "start": 644.08,
+      "end": 647.52,
+      "text": "Entonces, si se dan cuenta, vuelve a trabajar. Ya."
+    },
+    {
+      "id": 88,
+      "start": 648.24,
+      "end": 652.96,
+      "text": "Ahora podemos mejorar todo ese prompt y mejorar algunos aspectos. Sí."
+    },
+    {
+      "id": 89,
+      "start": 653.84,
+      "end": 660.0,
+      "text": "Pero para eso hay que trabajar, vayan viendo. Incluso podemos añadir acá. Entonces, el mensaje."
+    },
+    {
+      "id": 90,
+      "start": 661.52,
+      "end": 666.24,
+      "text": "Digamos. Ahora el nuevo prompt. Voy a colocar. No está la respuesta."
+    },
+    {
+      "id": 91,
+      "start": 667.2,
+      "end": 674.32,
+      "text": "Por resumimiento web. Está bien todo texto que tiene su respuesta. Está bien. Ya."
+    },
+    {
+      "id": 92,
+      "start": 676.96,
+      "end": 681.92,
+      "text": "Listo. Este prompt puedo colocar acá. Si deseo."
+    },
+    {
+      "id": 93,
+      "start": 683.76,
+      "end": 690.48,
+      "text": "Puedo mejorar. Pero ya es mucho. Depende de ustedes. Y ver qué parametros también pueden conocer."
+    },
+    {
+      "id": 94,
+      "start": 690.48,
+      "end": 695.84,
+      "text": "Manipular y demás. Ya. En el siguiente video ya vamos a ver alguna clase más con base de"
+    },
+    {
+      "id": 95,
+      "start": 695.92,
+      "end": 703.2,
+      "text": "datos y webhooks. Pero para esto va a haber una clase previa de enseñarles un poquito de HTML,"
+    },
+    {
+      "id": 96,
+      "start": 703.2,
+      "end": 710.32,
+      "text": "CSS, creación de páginas simples. Con IA y también con algunos aspectos más locales. Voy a trabajar"
+    },
+    {
+      "id": 97,
+      "start": 710.32,
+      "end": 716.96,
+      "text": "con el llama. Con algunos modelos netamente de llama que sean no tan pesados y que puedan"
+    },
+    {
+      "id": 98,
+      "start": 716.96,
+      "end": 722.16,
+      "text": "responder bien. Eso lo vamos a ver en el siguiente clase. Se cuidan. Nos vemos la siguiente."
+    }
+  ]
+}

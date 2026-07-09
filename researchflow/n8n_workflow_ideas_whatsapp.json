@@ -1,0 +1,755 @@
+{
+  "name": "ResearchFlow - Ideas por WhatsApp",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "researchflow-whatsapp",
+        "options": {}
+      },
+      "id": "rf-0026",
+      "name": "Webhook - Evolution WhatsApp",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "notes": "Configurar en Evolution Manager el webhook de la instancia 'researchflow' apuntando a esta URL (evento messages.upsert).",
+      "webhookId": "researchflow-whatsapp"
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst b = $json.body || $json;\nconst data = b.data || {};\nconst key = data.key || {};\nconst msg = data.message || {};\nconst texto = (msg.conversation || (msg.extendedTextMessage && msg.extendedTextMessage.text) || '').trim();\nconst remoteJid = key.remoteJid || '';\nconst numero = remoteJid.replace('@s.whatsapp.net', '');\nconst es_grupo = remoteJid.includes('@g.us');\nconst from_me = !!key.fromMe;\nconst evento = b.event || '';\nconst es_valido = Boolean(texto) && Boolean(numero) && !from_me && !es_grupo && (evento === '' || evento === 'messages.upsert');\nreturn [{ json: { numero, texto, texto_lower: texto.toLowerCase(), push_name: data.pushName || '', evento, es_valido } }];\n"
+      },
+      "id": "rf-0027",
+      "name": "Normalizar mensaje",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-valido",
+              "leftValue": "={{ $json.es_valido }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0028",
+      "name": "IF - Mensaje valido",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "rf-0029",
+      "name": "Ignorar evento",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        660,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-inv",
+              "leftValue": "={{ /^investigar\\s*#?\\d+/.test($json.texto_lower || '') }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0030",
+      "name": "IF - Comando investigar",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        -60
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-ideas",
+              "leftValue": "={{ ($json.texto_lower || '').trim() }}",
+              "rightValue": "ideas",
+              "operator": {
+                "type": "string",
+                "operation": "startsWith"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0031",
+      "name": "IF - Comando ideas",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        880,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.texto }}",
+        "options": {
+          "systemMessage": "Eres ResearchFlow Ideas, el asistente de WhatsApp de Daniel para capturar y refinar ideas de investigacion. El usuario suele mandar ideas vagas; tu trabajo es convertirlas en material investigable, NO investigar todavia. En cada respuesta: 1) reformula la idea como un tema claro (linea que empiece con 'Tema:'), 2) propone 3 a 5 preguntas investigables numeradas (1. 2. 3.), especificas, comprobables con evidencia e interesantes para compartir, mezclando angulos (datos, causas, mitos, impacto, futuro), 3) si la idea es demasiado vaga, haz UNA pregunta aclaratoria y aun asi propone 2 preguntas tentativas. Se breve (mensaje de WhatsApp, maximo ~900 caracteres), tono cercano, espanol. No inventes datos ni cifras: aqui solo se formulan preguntas. Toda idea queda guardada automaticamente en el backlog; recuerda al usuario que puede escribir 'ideas' para ver su backlog e 'investigar N' para lanzar la investigacion completa de la idea N."
+        }
+      },
+      "id": "rf-0032",
+      "name": "AI Agent - Refinar idea",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        1120,
+        240
+      ],
+      "notes": "Agente conversacional con memoria por numero de WhatsApp. Requiere el modelo Gemini y la memoria conectados.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {}
+      },
+      "id": "rf-0033",
+      "name": "Google Gemini Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1060,
+        430
+      ],
+      "notes": "Asignar credencial Google Gemini (PaLM) API con la key de AI Studio."
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Normalizar mensaje').first().json.numero }}",
+        "contextWindowLength": 10
+      },
+      "id": "rf-0034",
+      "name": "Memoria por numero",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        1240,
+        430
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst norm = $('Normalizar mensaje').first().json;\nconst out = (($input.first().json || {}).output || '').trim() || 'Idea registrada. Escribe \"ideas\" para ver tu backlog o \"investigar N\" para lanzar una investigacion.';\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst preguntas = out.split('\\n').filter(l => /^\\s*\\d+[\\).\\-]/.test(l)).map(l => l.trim());\nconst sql_idea = \"INSERT INTO research_ideas (origen, idea_original, preguntas_sugeridas, notas_conversacion, estado) VALUES ('whatsapp', '\" + esc(norm.texto).slice(0, 2000) + \"', '\" + esc(JSON.stringify(preguntas)) + \"', '\" + esc(out).slice(0, 4000) + \"', 'idea');\";\nconst respuesta = out + '\\n\\n_Comandos: \"ideas\" (ver backlog) | \"investigar N\" (lanzar la idea N)_';\nreturn [{ json: { numero: norm.numero, respuesta, sql_idea } }];\n"
+      },
+      "id": "rf-0035",
+      "name": "Preparar guardado",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1360,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "={{ $json.sql_idea }}",
+        "options": {}
+      },
+      "id": "rf-0036",
+      "name": "Postgres - Guardar idea",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1580,
+        240
+      ],
+      "notes": "Guarda cada idea entrante con las preguntas sugeridas por el agente.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: $('Preparar guardado').first().json.numero, text: $('Preparar guardado').first().json.respuesta } }}",
+        "options": {}
+      },
+      "id": "rf-0037",
+      "name": "Evolution - Responder idea",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1800,
+        240
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT id, estado, LEFT(COALESCE(NULLIF(tema_refinado, ''), idea_original), 80) AS titulo FROM research_ideas WHERE estado IN ('idea', 'refinada', 'en_cola') ORDER BY id DESC LIMIT 10;",
+        "options": {}
+      },
+      "id": "rf-0038",
+      "name": "Postgres - Listar ideas",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1120,
+        60
+      ],
+      "notes": "Asignar credencial Postgres (base researchflow). Ejecutar database_schema_postgres.sql antes de activar.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst norm = $('Normalizar mensaje').first().json;\nconst items = $input.all().map(i => i.json).filter(j => j && j.id != null);\nconst lineas = items.map(j => '#' + j.id + ' [' + j.estado + '] ' + (j.titulo || ''));\nconst respuesta = lineas.length\n  ? 'Tu backlog de ideas:\\n' + lineas.join('\\n') + '\\n\\nEscribe \"investigar N\" para lanzar una.'\n  : 'Tu backlog esta vacio. Mandame cualquier idea vaga y la refinamos juntos.';\nreturn [{ json: { numero: norm.numero, respuesta } }];\n"
+      },
+      "id": "rf-0039",
+      "name": "Formatear lista",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1340,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: $json.numero, text: $json.respuesta } }}",
+        "options": {}
+      },
+      "id": "rf-0040",
+      "name": "Evolution - Enviar lista",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1560,
+        60
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst norm = $('Normalizar mensaje').first().json;\nconst m = (norm.texto_lower || '').match(/(\\d+)/);\nconst idea_id = m ? parseInt(m[1], 10) : 0;\nreturn [{ json: { numero: norm.numero, idea_id, sql_get: 'SELECT id, idea_original, tema_refinado, preguntas_sugeridas FROM research_ideas WHERE id=' + idea_id + ';' } }];\n"
+      },
+      "id": "rf-0041",
+      "name": "Extraer idea",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        -220
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "={{ $json.sql_get }}",
+        "options": {}
+      },
+      "id": "rf-0042",
+      "name": "Postgres - Obtener idea",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1100,
+        -220
+      ],
+      "notes": "Asignar credencial Postgres (base researchflow). Ejecutar database_schema_postgres.sql antes de activar.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-found",
+              "leftValue": "={{ $json.id }}",
+              "rightValue": "",
+              "operator": {
+                "type": "number",
+                "operation": "exists",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0043",
+      "name": "IF - Idea encontrada",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1320,
+        -220
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst ctx = $('Extraer idea').first().json;\nconst idea = $input.first().json || {};\nlet pregunta = '';\ntry {\n  const lista = JSON.parse(idea.preguntas_sugeridas || '[]');\n  if (lista.length) {\n    const p0 = lista[0];\n    pregunta = String(typeof p0 === 'object' ? (p0.pregunta || '') : p0).replace(/^\\s*\\d+[\\).\\-]\\s*/, '');\n  }\n} catch (e) { pregunta = ''; }\nconst payload = {\n  nombre: 'REPLACE_WITH_OWNER_NAME',\n  email: 'REPLACE_WITH_OWNER_EMAIL',\n  whatsapp: ctx.numero,\n  tema: String(idea.tema_refinado || idea.idea_original || '').slice(0, 200),\n  pregunta,\n  tipo_entregable: 'articulo',\n  prioridad: 'media',\n  origen: 'whatsapp_backlog'\n};\nreturn [{ json: { idea_id: ctx.idea_id, numero: ctx.numero, payload } }];\n"
+      },
+      "id": "rf-0044",
+      "name": "Preparar lanzamiento",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        -280
+      ],
+      "notes": "Reemplazar REPLACE_WITH_OWNER_NAME y REPLACE_WITH_OWNER_EMAIL con los datos del propietario."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:5678/webhook/researchflow",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.payload }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "rf-0045",
+      "name": "HTTP - Lanzar investigacion",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        -280
+      ],
+      "notes": "Llama al workflow de investigacion (mismo n8n). Si n8n corre detras de Caddy, tambien sirve la URL publica https://DOMINIO/webhook/researchflow.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "=UPDATE research_ideas SET estado='en_cola', request_id={{ $json.request_id || 'NULL' }}, updated_at=NOW() WHERE id={{ $('Preparar lanzamiento').first().json.idea_id }};",
+        "options": {}
+      },
+      "id": "rf-0046",
+      "name": "Postgres - Marcar en cola",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1980,
+        -280
+      ],
+      "notes": "Asignar credencial Postgres (base researchflow). Ejecutar database_schema_postgres.sql antes de activar.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: $('Preparar lanzamiento').first().json.numero, text: 'ResearchFlow: idea #' + $('Preparar lanzamiento').first().json.idea_id + ' lanzada como investigacion. El articulo llegara al correo configurado en unos minutos.' } }}",
+        "options": {}
+      },
+      "id": "rf-0047",
+      "name": "Evolution - Confirmar lanzamiento",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2200,
+        -280
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: $('Extraer idea').first().json.numero, text: 'No encontre la idea #' + $('Extraer idea').first().json.idea_id + '. Escribe \"ideas\" para ver tu backlog.' } }}",
+        "options": {}
+      },
+      "id": "rf-0048",
+      "name": "Evolution - Idea no encontrada",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        -140
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    }
+  ],
+  "connections": {
+    "Webhook - Evolution WhatsApp": {
+      "main": [
+        [
+          {
+            "node": "Normalizar mensaje",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar mensaje": {
+      "main": [
+        [
+          {
+            "node": "IF - Mensaje valido",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Mensaje valido": {
+      "main": [
+        [
+          {
+            "node": "IF - Comando investigar",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ignorar evento",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Comando investigar": {
+      "main": [
+        [
+          {
+            "node": "Extraer idea",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "IF - Comando ideas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Comando ideas": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Listar ideas",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "AI Agent - Refinar idea",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent - Refinar idea",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Memoria por numero": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent - Refinar idea",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent - Refinar idea": {
+      "main": [
+        [
+          {
+            "node": "Preparar guardado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar guardado": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Guardar idea",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Guardar idea": {
+      "main": [
+        [
+          {
+            "node": "Evolution - Responder idea",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Listar ideas": {
+      "main": [
+        [
+          {
+            "node": "Formatear lista",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Formatear lista": {
+      "main": [
+        [
+          {
+            "node": "Evolution - Enviar lista",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extraer idea": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Obtener idea",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Obtener idea": {
+      "main": [
+        [
+          {
+            "node": "IF - Idea encontrada",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Idea encontrada": {
+      "main": [
+        [
+          {
+            "node": "Preparar lanzamiento",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Evolution - Idea no encontrada",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar lanzamiento": {
+      "main": [
+        [
+          {
+            "node": "HTTP - Lanzar investigacion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP - Lanzar investigacion": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Marcar en cola",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Marcar en cola": {
+      "main": [
+        [
+          {
+            "node": "Evolution - Confirmar lanzamiento",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "active": false,
+  "versionId": "researchflow-ideas-whatsapp-v2",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "id": "researchflow-ideas-whatsapp",
+  "tags": []
+}

@@ -1,0 +1,6032 @@
+1
+00:00:00,000 --> 00:00:09,960
+ahora sí, las voy a compartir pantalla del monroquito
+
+2
+00:00:20,440 --> 00:00:22,800
+déjame hacer estas cosas
+
+3
+00:00:30,480 --> 00:00:31,480
+ya
+
+4
+00:00:31,480 --> 00:00:34,720
+empezando con la clase de hoy, entonces la clase número 10
+
+5
+00:00:34,720 --> 00:00:40,320
+antes de iniciar la clase pues les voy a comentar algunos puntos del calendario
+
+6
+00:00:41,680 --> 00:00:49,800
+académico que tengamos y les he comentado en la parte del grupo para que tener en cuenta
+
+7
+00:00:49,800 --> 00:00:53,840
+ya, de mi monroquito voy a mocharles esa parte
+
+8
+00:00:57,120 --> 00:00:58,120
+ya
+
+9
+00:00:59,120 --> 00:01:04,560
+en nuestra clase número 10 la programación de todas las clases son total 12 clases
+
+10
+00:01:04,560 --> 00:01:11,620
+perdón 22 clases, son total 22 clases de las cuales 4 de esas clases son
+
+11
+00:01:11,620 --> 00:01:17,160
+netamente exposición de sus trabajos de las cuales como estamos viendo ahorita
+
+12
+00:01:17,160 --> 00:01:27,200
+que son un promedio de 20 alumnos de los 32 que son de los 20 pongámosle que
+
+13
+00:01:28,120 --> 00:01:33,040
+durante cuatro clases 5 van a exponer 5 grupos, de los 5 personas van a exponer
+
+14
+00:01:33,040 --> 00:01:39,320
+ya entonces esas fechas van a ser las siguientes, vuelvo a repetirles la cantidad de clases son
+
+15
+00:01:39,320 --> 00:01:47,400
+22 clases, ya hoy estamos en la clase número 10 y desde el sábado estaríamos en clase número 11
+
+16
+00:01:47,400 --> 00:01:55,440
+pero en este caso vamos a fijar algunos horarios para lo cual voy a habilitar mi word y ahí les
+
+17
+00:01:55,440 --> 00:01:59,800
+voy a, se los voy a notar para que lo tengan también porque es lo que es subir a plataforma y van a
+
+18
+00:01:59,800 --> 00:02:05,320
+tener las fechas estimadas y las fechas en las cuales nosotros vamos a terminar la
+
+19
+00:02:07,320 --> 00:02:14,840
+clase en este caso, ya, de monroquito voy a mocharles sobre esta parte cita
+
+20
+00:02:17,560 --> 00:02:24,680
+listo, ya voy a admitir alguien más ahora si, entonces hablaremos un cachito de los cronogramas
+
+21
+00:02:26,440 --> 00:02:30,280
+entonces desde nuestro programa voy a colocar esta parte
+
+22
+00:02:33,280 --> 00:02:35,040
+ya de un cachito voy a
+
+23
+00:02:36,240 --> 00:02:37,840
+clicar esta cosa
+
+24
+00:02:39,840 --> 00:02:45,520
+y anotaremos bien antes, les voy a esperar los demás que vean entrando mientras tanto, ya
+
+25
+00:02:45,520 --> 00:02:49,040
+entonces voy a insertar a ver
+
+26
+00:02:50,040 --> 00:03:06,200
+ya, entonces lo siguiente, oye la clase número 10, 4 de junio y a nos quedaría todo esto, todo ese
+
+27
+00:03:06,200 --> 00:03:13,400
+punto voy a eliminar esta parte, vamos a estimar fechas, ya vamos a estimar fechas para sus diferentes
+
+28
+00:03:13,400 --> 00:03:16,800
+actividades que se va a tener, nos quedaría estos
+
+29
+00:03:19,120 --> 00:03:28,720
+ahí de todo junio, ya, entonces voy a anotarme algunos puntitos, ya, antes de iniciar, ya,
+
+30
+00:03:29,320 --> 00:03:32,440
+entonces, esta es nuestra clase número
+
+31
+00:03:34,280 --> 00:03:46,720
+actualmente la 10, la 11, 12, 13, 14, 15, 16, 17, del 17 más o menos, esto hace nos quedarse 18,
+
+32
+00:03:46,720 --> 00:04:01,920
+19, 20, 21 y 22, ya 22 clases, de las cuales estas que voy a colocar en amarillo
+
+33
+00:04:03,600 --> 00:04:10,880
+son netamente para ustedes de defensa, ya, pero les había comentado que vamos a
+
+34
+00:04:11,600 --> 00:04:17,160
+minimizar el tiempo, es decir que solamente vamos a hasta el 9, les había comentado,
+
+35
+00:04:18,880 --> 00:04:29,160
+hasta el 9, entonces ustedes estarían defendiendo el 27, el 2, el 4 y el 9 de sus proyectos, ya,
+
+36
+00:04:29,160 --> 00:04:38,520
+en otras palabras nos quedan solamente 6 clases, ya, obviamente aparte muy bien y ahí va a terminar
+
+37
+00:04:38,520 --> 00:04:45,240
+su proyecto, el día 11, ustedes ya tienen que presentar sus píxanes, de enbajada y el 16
+
+38
+00:04:45,240 --> 00:04:55,080
+hasta el 23 que tienen tiempo, ya, así que en base eso vayan cronometrándose y eso es nuestro final de
+
+39
+00:04:55,080 --> 00:05:06,720
+clases, ya, listo, si está bien, porque a ver, 2, 4, 6, 7, 8, 9, 10, 20, si, esto más bien chicos,
+
+40
+00:05:06,720 --> 00:05:13,200
+si, eso, eso vayan anotándose, bueno, les voy a pasar esto, por si acaso esa es la color amarilla,
+
+41
+00:05:13,200 --> 00:05:21,160
+los que acaban de entrar, es netamente para la parte de exposiciones, de aquí el 13, voy a darles
+
+42
+00:05:21,160 --> 00:05:27,200
+la lista de quienes oficialmente están inscritos, porque son 32, los que son 32 solamente asisten 20
+
+43
+00:05:28,480 --> 00:05:35,560
+y solamente voy a repartir entre los 20, ya, y esa parte van ahí a armándose, el 13 voy a
+
+44
+00:05:35,560 --> 00:05:40,320
+llamar a la lista oficial para que que personas van a asistir, el 27, el 2, el 4 y el 9, ya,
+
+45
+00:05:40,320 --> 00:05:46,440
+es independientemente, pues de acaso esta parte no es necesaria que nos en todo, solamente los que
+
+46
+00:05:46,440 --> 00:05:52,320
+están asignados en esas fechas, nada más, ya, así que empezaremos de nuevo chicos, ahora si,
+
+47
+00:05:53,680 --> 00:05:58,600
+6 class nos queda aparte de hoy día, ya, así que voy a tratar de hacerlo más
+
+48
+00:06:00,600 --> 00:06:05,840
+completo posible, quizás haya un módulo 2, pero el módulo 2 no creo que lo llevemos este
+
+49
+00:06:07,800 --> 00:06:15,400
+en este curso, el módulo es netamente de pbps y abds, así que eso es cuando se hace producción
+
+50
+00:06:15,400 --> 00:06:21,000
+a nivel un poquito más avanzado, eso va a ver el módulo 2 lo más probable, ya, pero no sé si,
+
+51
+00:06:21,000 --> 00:06:27,760
+no me encoge ahorita, todavía los iba a ver el módulo 2, módulo 2 y ya, ya, haremos de una vez
+
+52
+00:06:27,760 --> 00:06:34,840
+un... ¿Y Jef? ¿De culpa de? Una preguntita. Claro, ¿Qué pasó? ¿Cómo está, Vanessa? ¿Querías
+
+53
+00:06:34,840 --> 00:06:42,120
+hacer una cosa surta, Jef? Tengo un problemita con mi N8N, quería por ejemplo entrar hace,
+
+54
+00:06:42,200 --> 00:06:48,160
+hace, o sea, el día de ayer, pero me sale que la versión que tengo, o sea, que ya, o sea, la parte
+
+55
+00:06:48,160 --> 00:06:54,800
+gratuita que tengo ya no, ya no está, ya, es como que intenté meter, echar mi, ingresar a mis flujos
+
+56
+00:06:54,800 --> 00:06:59,560
+de trabajo y me salía que ya estaba como que, caucado o expirado y ya no me dejan entrar, entonces,
+
+57
+00:06:59,560 --> 00:07:04,240
+¿Qué puedo hacer aquí? ¿Tengo que hacerlo de nuevo todo el flujo que venía haciendo? ¿O no necesito
+
+58
+00:07:04,400 --> 00:07:05,240
+recuperarlo?
+
+59
+00:07:05,240 --> 00:07:16,000
+En sí, has debido de crearlo mediante por usuario en Internet porque el N8N es gratuito, el local
+
+60
+00:07:16,000 --> 00:07:23,520
+host, es decir, no tienes que pagar nada y debería haberse creado, no debería haberte dicho que tienes
+
+61
+00:07:23,520 --> 00:07:32,840
+flujos limitados en tus palabras, eso habría que volver a instalarlo de cero y volverlo a generar,
+
+62
+00:07:33,000 --> 00:07:41,280
+ya, porque eso tienes que ser lo mediante sin Internet. Una vez que lo descargas, lo desactivas
+
+63
+00:07:41,280 --> 00:07:48,680
+el Internet y lo directamente lo ejecutas sin Internet, pero y cuando ya te bote lo que es la
+
+64
+00:07:48,680 --> 00:07:54,040
+parte de lo que es el usuario que el contraseña, te va a botear y crear el usuario contraseño,
+
+65
+00:07:54,040 --> 00:07:59,320
+pero que tiene que decirte local host, si dice otra cosa es porque lo has creado de manera en línea.
+
+66
+00:07:59,720 --> 00:08:01,600
+En la página de N8N.
+
+67
+00:08:01,600 --> 00:08:07,120
+Sí, y no hay que hacer eso porque si es que el mismo usuario, o sea, hay otro problema también,
+
+68
+00:08:07,120 --> 00:08:13,160
+si es que el mismo usuario es repetido con el mismo usuario que te has creado localmente y el mismo
+
+69
+00:08:13,160 --> 00:08:17,720
+usuario has creado de manera en N8N, la plataforma oficial, te va a denegar todo.
+
+70
+00:08:18,960 --> 00:08:26,200
+Pues esa parte no, sería que lo instalas de nuevo y justamente cuando ya lo tengas acá,
+
+71
+00:08:26,200 --> 00:08:30,240
+si instalado lo desactivas en Internet. Esto cuando ya te bote la página.
+
+72
+00:08:32,240 --> 00:08:37,160
+Pero sería solamente en este caso digamos que yo me desinstale solamente en N8N,
+
+73
+00:08:37,160 --> 00:08:40,120
+o sea el Note, el Docker, todo ya lo mantengo.
+
+74
+00:08:40,120 --> 00:08:43,720
+Eso es normal, el Note y eso es un trabajo interno.
+
+75
+00:08:43,720 --> 00:08:48,120
+En N8N, listo? Si necesitan ahí de ahora, los voy a mandar igual a un videito para que
+
+76
+00:08:48,120 --> 00:08:53,600
+puden hacer ese proceso. ¿Listo? Valeria quería hablar. ¿Qué pasa, Vale?
+
+77
+00:08:53,800 --> 00:08:59,080
+Si, era un aspecto para aconsejarle a Gabriel no hay que yo tuve esa misma situación,
+
+78
+00:08:59,080 --> 00:09:06,800
+hacer un par de semanas y en realidad este amigo me hiciera error pero volví a crear,
+
+79
+00:09:06,800 --> 00:09:13,320
+obviamente cambié los usuarios con otro correo en mis casos y pero me lo caljó
+
+80
+00:09:13,320 --> 00:09:17,000
+todos mis flujos de trabajo ya cuando ingresé con esa nueva cuenta, se mantenía,
+
+81
+00:09:17,000 --> 00:09:19,920
+no se había borrado ninguno y desde ahí ya no tuvo problema.
+
+82
+00:09:19,960 --> 00:09:26,360
+Exacto, gracias Valeria, si el mismo aspecto, gracias Valeria.
+
+83
+00:09:26,360 --> 00:09:32,480
+Ahora si vayan activando mientras tanto son hecho en N, haremos la parte de, voy a eso ahora con otra
+
+84
+00:09:32,480 --> 00:09:38,480
+de Inteligencia Artificial y con eso creo que los vas a soltar mucho más barato y más gratuito.
+
+85
+00:09:38,480 --> 00:09:42,800
+A ver, vamos a intentar con eso hoy día para que no tengan problemas a FotoLog,
+
+86
+00:09:42,800 --> 00:09:45,280
+ven inicializándolo, ven un poquito chicos.
+
+87
+00:09:45,280 --> 00:09:53,880
+Listo, ahora si, mi Lisco aquí tengo un perrito,
+
+88
+00:09:53,880 --> 00:09:58,800
+mi de loco es que se encha mi oficina de la nada, golpeando todo.
+
+89
+00:09:58,800 --> 00:10:02,480
+Ahora si, listo, empezaremos entonces.
+
+90
+00:10:05,840 --> 00:10:08,040
+Ya los comparto esta parte, listo.
+
+91
+00:10:09,480 --> 00:10:12,120
+Crearemos un nuevo workflow, ya.
+
+92
+00:10:12,880 --> 00:10:15,600
+Listo de este workflow, voy a crear los siguientes aspectos.
+
+93
+00:10:15,600 --> 00:10:22,040
+Antes de eso, antes, antes, antes, pueden abrirse Canvas,
+
+94
+00:10:22,040 --> 00:10:28,800
+Val, que es gratuito, si tienen el Canvas Premium Super o ahorita mismo creense
+
+95
+00:10:28,800 --> 00:10:34,880
+cualquier PDF relacionado con su negocio. O sea ahorita no quiero que lo aprendan en su negocio,
+
+96
+00:10:34,880 --> 00:10:40,000
+sino que un ejemplo. Yo voy a usar ahorita venta de laptops, ya, venta de laptops,
+
+97
+00:10:40,080 --> 00:10:45,440
+si voy a crear un Canvas, que es netamente venta de laptops,
+
+98
+00:10:45,440 --> 00:10:49,280
+o sea, aunque tres marcas pueden crearse, ya ahorita vamos a hacer esta parte.
+
+99
+00:10:49,280 --> 00:10:54,080
+Lo siguiente, me voy a entrar acá, ahora hay otro punto,
+
+100
+00:10:54,080 --> 00:10:56,960
+y esto debería aprovecharlo porque está barato.
+
+101
+00:10:58,560 --> 00:11:04,960
+Sienten a DeepSick Platform, ya, Platform.
+
+102
+00:11:05,600 --> 00:11:11,360
+En DeepSick Platform es donde pueden adquirir ustedes sus apiquis, ya,
+
+103
+00:11:11,360 --> 00:11:16,840
+igual, cualquier tipo de LMS. El idéntico que el OpenAI, ya,
+
+104
+00:11:16,840 --> 00:11:21,600
+solamente fíjense que en este caso, hoy día lo he comprado para hacer la prueba,
+
+105
+00:11:21,600 --> 00:11:29,440
+como realmente era. Y miren, viene, les comento que se puede comprar desde dos dólares,
+
+106
+00:11:29,600 --> 00:11:36,880
+los pricing. Voy a ir marcar los modelos y los modelos de vota por dos dólares las últimas
+
+107
+00:11:36,880 --> 00:11:45,920
+versiones, es el Flask y el B4 Pro por lo. Y lo bueno que cuando se compran con dos dólares,
+
+108
+00:11:45,920 --> 00:11:51,240
+pasa lo siguiente. Me voy a ir acá, por ejemplo, hecho en los case, miren acá dice,
+
+109
+00:11:51,240 --> 00:11:58,120
+he utilizado los dos, el Flask y el Pro para ver y fíjense, cuando utilizo las últimas versiones
+
+110
+00:11:58,120 --> 00:12:06,440
+de los modelos de IA de DeepSick, me cobra 0.01 dólares por token, pero este token es bien
+
+111
+00:12:06,440 --> 00:12:13,560
+complejo, así que yo le daría un buen crédito de aspecto, ya, pero tiene una parte que es gratuita,
+
+112
+00:12:13,560 --> 00:12:19,760
+que es el DeepSick Chat o DeepSick Resoner, o sea, es un DeepSick que piensa con un modelo básico,
+
+113
+00:12:19,760 --> 00:12:28,200
+pero te responde rápidamente y no me cobra nada. Les cobra 0.000001 dólares por token,
+
+114
+00:12:28,200 --> 00:12:33,280
+es decir, es como si en vez de, ahorita compre un usuario de un millón de tokens,
+
+115
+00:12:33,280 --> 00:12:38,880
+pero cuando trabajo con DeepSick Chat y DeepSick Resoner, me da más que todo hasta 5 millones
+
+116
+00:12:38,880 --> 00:12:46,520
+de tokens. Imagínense, es más barato. Y la cuenta oficial me permite pagarlo desde dos dólares,
+
+117
+00:12:46,680 --> 00:12:55,080
+pueden subirlo a 5, a 20, a lo que ustedes quieran, pero es mucho más barato. Ya, eso yo los recomiendo
+
+118
+00:12:55,080 --> 00:13:00,720
+que se compre, mire, acá 2 dólares, 5, y este es más su, este me ha cobrado más, IVA,
+
+119
+00:13:02,240 --> 00:13:09,320
+pero ahí está, pueden trabajarlos. Y es más fácil, me bota el tiro y funciona,
+
+120
+00:13:09,320 --> 00:13:16,760
+por eso voy a salir y los voy a pasar el token. Así que voy a abrirme un instant
+
+121
+00:13:18,520 --> 00:13:25,200
+blog de notas. Y lo bueno es que les acepta cualquier banco, así que no hay problema.
+
+122
+00:13:27,240 --> 00:13:32,040
+Deben un coche, los voy a dar una API, la API que está utilizando los voy a dar mejor en esto.
+
+123
+00:13:33,000 --> 00:13:39,680
+Igual API key se crean un nuevo API y igual es lo otro, si es API, se lo trabajan con su sistema.
+
+124
+00:13:39,680 --> 00:13:48,800
+Ya, es más rápido, incluso que el mismo OpenAI. Ahora si me voy a ir acá y haremos el proceso de
+
+125
+00:13:48,800 --> 00:13:58,920
+trabajo, los estoy pasando ahorita la API key, DeepSick, a la mensajería de Meet, ya, ahí les
+
+126
+00:13:58,920 --> 00:14:09,080
+he pasado por eso. Van a copiar desde el SK y eso, ya, ya los he enviado. Así continuaremos con
+
+127
+00:14:09,080 --> 00:14:14,880
+esta fase del proceso. Voy a trabajar casi lo mismo. Hoy quizás la clase va a ser un poquito,
+
+128
+00:14:14,880 --> 00:14:20,160
+lo voy a dividir en dos clases, lo que vamos a hacer hoy día. La siguiente clase ya voy a aplicar
+
+129
+00:14:20,480 --> 00:14:31,640
+WhatsApps, Evolutions, voy a aplicar a DPTFs, porque no sé si se han dado cuenta. Cuando alguna
+
+130
+00:14:31,640 --> 00:14:39,160
+empresa me envía, digamos, a mi WhatsApp, a mi correo, sus publicidades, qué me envía su catálogo,
+
+131
+00:14:39,160 --> 00:14:47,440
+me envía su QR y me envía, a veces, todo su temario, ¿no? Entonces yo vamos a integrar algo de
+
+132
+00:14:47,440 --> 00:14:53,360
+DPTFs que están exados sus sistemas. Y vamos a ver que con este modelo de DeepSick es más fácil
+
+133
+00:14:53,360 --> 00:14:59,640
+de hacer. Ya, a ver, vamos a venir acá y vamos a hacer con OpenAI, o si lo tienen con OpenAI,
+
+134
+00:14:59,640 --> 00:15:04,720
+pueden trabajar de la misma manera. Vamos a ir a One Force Submission, ya saben que esto lo pueden
+
+135
+00:15:04,720 --> 00:15:12,640
+trabajar con un webhook, pero mientras tanto, para hacer pruebas antes de meter la webhooks,
+
+136
+00:15:12,640 --> 00:15:19,280
+vamos a trabajar con eso, ¿no? Así que se saca One Force Submission, luego de esto se van a sacar
+
+137
+00:15:19,280 --> 00:15:25,060
+esto siguiente, ¿vienen acá? Ya saben, siempre tenemos que capturar los datos, así que voy a
+
+138
+00:15:25,060 --> 00:15:35,960
+colocar a DPTFs y escribo acá a DPTFs y se sacan este. Lo voy a sacar y listo, ya se ha conectado
+
+139
+00:15:35,960 --> 00:15:44,120
+automáticamente. Una vez que saque ese, voy a sacar el DeepSick. Ya, DeepSick.
+
+140
+00:15:47,040 --> 00:15:54,160
+El DeepSick aquí dice DeepSick Chat Model, ya, ese es el modelo gratuito que ya tiene DeepSick. No
+
+141
+00:15:54,160 --> 00:16:01,760
+es tan gratuito que digamos, pero eso es medio gratuito, ¿verdad? Son esos 100%. Listo. Y les va a
+
+142
+00:16:01,760 --> 00:16:12,080
+votar esto, ya. Así. Ahí está. Este yo lo voy a eliminar y lo voy a conectar de manera directa
+
+143
+00:16:12,080 --> 00:16:19,400
+este con este, ya, porque ahí solo me estoy haciendo pruebas con el otro hook. Ya, una vez que tengan esto,
+
+144
+00:16:20,400 --> 00:16:26,600
+analizaremos algunos puntos, ya. Así que en la parte de One Force Submission, me voy a crear
+
+145
+00:16:26,600 --> 00:16:35,040
+algunas entidades, ya. Los voy esperando hasta ahí para que lo vean teniendo. Vean pensando en un
+
+146
+00:16:35,040 --> 00:16:42,120
+tipo de negocio hoy día, alterno a sus proyectos y ahorita vamos a crear algunos puntos de para
+
+147
+00:16:42,120 --> 00:16:49,320
+nuestro PDF, ya. Para que también pueda obtener datos de ahí e echarse a los mismos desde el PDF.
+
+148
+00:16:50,200 --> 00:16:54,720
+Así que para esa parte los voy dejando tiempito y yo voy a estar habilitando mi
+
+149
+00:16:57,160 --> 00:16:59,840
+mi camba, ya. Ya.
+
+150
+00:17:02,040 --> 00:17:05,120
+Ahí los voy a dejar un cacho, voy a encocaditarlo y demás.
+
+151
+00:17:06,960 --> 00:17:11,880
+Y abranse un camba o abranse cualquier, aunque un WordSync no tiene, no quieren
+
+152
+00:17:11,880 --> 00:17:18,040
+utilizar camba porque todos tenemos cambas y que, pero es que no quieren trabajar con solamente
+
+153
+00:17:18,040 --> 00:17:22,080
+directamente, vayan copiándose y eso me van a enviar hoy día como su tal trabajo, ya.
+
+154
+00:17:22,080 --> 00:17:30,560
+Esta clase nueva es tan compleja, pero va a ser más trabajable. Así que démenme un ratito,
+
+155
+00:17:30,560 --> 00:17:37,520
+voy a colocar lo siguiente. Voy a crear mi mensaje tanto. Ya. A ver, los indico esa parte.
+
+156
+00:17:37,520 --> 00:17:46,040
+Si es que algunos de esos nuevos utilizan el TVCamba, viene acá y digamos van a colocar
+
+157
+00:17:46,040 --> 00:17:55,040
+el que crear. Y en este caso van a colocar un documento A4. Ya. Un documento, si no, no hay problema.
+
+158
+00:17:56,160 --> 00:18:01,760
+A un doc digital, listo? En este caso voy a hacer un doc digital porque no se tan vacío y ya tenga
+
+159
+00:18:01,760 --> 00:18:13,080
+algunas plantillas. Ya. Vayan haciendo eso igual para que los vaya igual trabajando. Ya.
+
+160
+00:18:13,880 --> 00:18:20,280
+Porque me van en el patafono van a subir su PDF más trabajado. Obviamente,
+
+161
+00:18:20,280 --> 00:18:27,680
+háganlo lo más sencillo posible, pero que sea adecuado. A ver, aquí voy a escribir
+
+162
+00:18:27,680 --> 00:18:37,200
+un tienda de laptops. Tienda de laptops. Listo. No voy a generar porque sé que no debe haber.
+
+163
+00:18:37,360 --> 00:18:46,800
+Ya. Ustedes hagan lo normal. Yo tengo el Pro. Pues que lo puedo generar, pero si
+
+164
+00:18:46,800 --> 00:18:55,680
+usted no tiene el Pro, pueden copiar si pegar sus imágenes. No hay ni. Ya. Aquí me he generado
+
+165
+00:18:55,680 --> 00:19:03,280
+algunos. Bueno, aquí me dice tienda de laptops. Ya. Tipo de laptops. Esta. Ultra box. Gaming.
+
+166
+00:19:03,440 --> 00:19:12,960
+Estudiantes. Ya me he generado todo. Ya. La vea si entonces genera. Mén. Un catálogo.
+
+167
+00:19:13,960 --> 00:19:21,080
+Con imágenes o con productos. De modelos de laptops.
+
+168
+00:19:23,760 --> 00:19:25,240
+Laptops con imagen.
+
+169
+00:19:27,280 --> 00:19:31,160
+Con imagen de la con imagen y precio.
+
+170
+00:19:32,160 --> 00:19:34,520
+Listo. No voy a ser generar.
+
+171
+00:19:36,800 --> 00:19:38,360
+A ver, veremos que me bota.
+
+172
+00:19:40,360 --> 00:19:44,680
+Bueno, aquí me he dado una perspectiva. Vamos a ver si lo ha hecho todo.
+
+173
+00:19:46,480 --> 00:19:48,280
+A ver, lo voy a reemplazar.
+
+174
+00:19:49,280 --> 00:19:50,200
+Y listo.
+
+175
+00:19:53,600 --> 00:19:56,720
+No, yo no me he generado bastantes.
+
+176
+00:19:58,880 --> 00:20:00,400
+No me he generado los.
+
+177
+00:20:03,320 --> 00:20:10,440
+Los catálogos que necesito, pero lo puedo anexar este con este. Ya lo vamos a anexar este con
+
+178
+00:20:10,440 --> 00:20:14,240
+este eliminar y voy a ver las páginas de esto.
+
+179
+00:20:16,240 --> 00:20:22,480
+No lo sé. Listo. Y voy a hacer los. No sé si esto es viste de cuadrícula.
+
+180
+00:20:25,480 --> 00:20:31,320
+Y voy a colocar a ver. Vayan haciendo estas mientras tanto.
+
+181
+00:20:31,320 --> 00:20:44,000
+Y me voy a dejarlo así. Voy a añadirme algunas imágenes para que la I ya me entienda y lo
+
+182
+00:20:44,000 --> 00:20:48,040
+haga. Así que aquí voy a colocar laptop extreme.
+
+183
+00:20:48,040 --> 00:20:49,320
+Extreme.
+
+184
+00:20:51,320 --> 00:20:59,400
+Listo. Vayan armándose. Aunque tres imágenes. No hay problema si cada una o dos.
+
+185
+00:21:02,120 --> 00:21:06,560
+Ya me voy a inventar esa. Listo.
+
+186
+00:21:06,560 --> 00:21:08,560
+Ay, lo voy a acomodar. Ya.
+
+187
+00:21:09,640 --> 00:21:13,240
+Otra más acá. Aquí dice un apto profesional.
+
+188
+00:21:16,680 --> 00:21:20,720
+Listo. Ay, hasta está medio. Qué interesante.
+
+189
+00:21:22,320 --> 00:21:24,840
+Listo. Lo copio y lo voy a pegar acá.
+
+190
+00:21:27,320 --> 00:21:28,040
+Listo.
+
+191
+00:21:29,040 --> 00:21:34,640
+Por otro. Va a ver. Unas dos más voy a hacer. Ya. Vayan haciendo ustedes igual.
+
+192
+00:21:36,040 --> 00:21:39,440
+Depende de qué quieren hacer su sistema.
+
+193
+00:21:40,840 --> 00:21:43,360
+Otra boca de light. Es esto.
+
+194
+00:21:44,840 --> 00:21:49,560
+Ya. Me dio que esta está buena la imagen. Ya. Listo.
+
+195
+00:21:51,640 --> 00:21:53,400
+Vamos a ir listo.
+
+196
+00:21:53,400 --> 00:21:58,440
+Y una ultimita que la esencia.
+
+197
+00:21:59,760 --> 00:22:02,240
+600 dólares. No conozco esos.
+
+198
+00:22:03,600 --> 00:22:04,800
+Estas laptops.
+
+199
+00:22:06,400 --> 00:22:07,040
+Hmm.
+
+200
+00:22:08,400 --> 00:22:09,520
+Interesante.
+
+201
+00:22:10,920 --> 00:22:11,400
+Ya.
+
+202
+00:22:13,000 --> 00:22:16,560
+Listo. Ya. Hací armándose bonito.
+
+203
+00:22:17,720 --> 00:22:20,440
+Lo más sintetizado posible. Ya.
+
+204
+00:22:20,440 --> 00:22:25,920
+Ya. Ahora si no tienen canvas, díganle a a Gemini que se los
+
+205
+00:22:25,920 --> 00:22:28,360
+hago. Gemini tiene un potente con nano banana.
+
+206
+00:22:28,360 --> 00:22:34,360
+Lo ve. Así que con nano banana se pueden generar su catálogo de
+
+207
+00:22:34,360 --> 00:22:39,120
+ustedes. Ya. Lo voy a eliminar esto y eso voy a dejarlo y tal
+
+208
+00:22:39,120 --> 00:22:44,720
+cual lo que quiera. Productos al me inventaré la parte de del
+
+209
+00:22:44,720 --> 00:22:46,000
+nombre de la empresa.
+
+210
+00:22:47,000 --> 00:22:49,680
+A ver que lo voy a modificando ahí.
+
+211
+00:22:49,680 --> 00:22:50,880
+Y listo.
+
+212
+00:22:51,880 --> 00:22:56,680
+Vamos a colocarle producto laptop center. No se va a inventar.
+
+213
+00:22:58,280 --> 00:22:59,200
+Laptops.
+
+214
+00:23:01,200 --> 00:23:02,040
+Pssss.
+
+215
+00:23:03,520 --> 00:23:04,240
+Center.
+
+216
+00:23:06,480 --> 00:23:08,640
+Listo. Voy a colocar modelos.
+
+217
+00:23:09,720 --> 00:23:10,840
+Modelos.
+
+218
+00:23:11,840 --> 00:23:13,680
+Bueno, voy a ultimos.
+
+219
+00:23:14,840 --> 00:23:16,480
+Modelos. No se va a inventar.
+
+220
+00:23:18,840 --> 00:23:19,520
+Mira.
+
+221
+00:23:21,840 --> 00:23:25,840
+Voy a decirlo en Bolivia para este. Pero tal o algo específico.
+
+222
+00:23:26,840 --> 00:23:28,600
+Listo. Lo guardamos.
+
+223
+00:23:29,440 --> 00:23:30,840
+Y ya está. Ya.
+
+224
+00:23:31,840 --> 00:23:35,000
+Hmm. Tengo cuatro productos. Listo.
+
+225
+00:23:36,840 --> 00:23:39,840
+Esto voy a hacer lo siguiente. Voy a compartirlo.
+
+226
+00:23:41,840 --> 00:23:44,840
+Y lo exportaré en formato PDF.
+
+227
+00:23:46,840 --> 00:23:48,840
+Descargar PDF.
+
+228
+00:23:49,840 --> 00:23:50,840
+Vamos a cargarlo ahí.
+
+229
+00:23:52,840 --> 00:23:55,840
+Y listo. Ya vamos a descregar.
+
+230
+00:23:57,840 --> 00:23:58,840
+Yo.
+
+231
+00:23:58,840 --> 00:24:09,840
+Y ya les voy dando tiempo.
+
+232
+00:24:10,840 --> 00:24:11,840
+Para que ustedes más saben.
+
+233
+00:24:13,840 --> 00:24:17,840
+Listo. Emicos ya descargado. Mientras vos te ven haciendo unos dos,
+
+234
+00:24:17,840 --> 00:24:21,840
+tres, cuatro productos mínimo, tres chicos para que no les generen
+
+235
+00:24:22,840 --> 00:24:24,840
+falsas expectativas la idea.
+
+236
+00:24:24,840 --> 00:24:25,840
+Así que.
+
+237
+00:24:26,840 --> 00:24:29,840
+Mínimo creanse en unos tres o cuatro productos.
+
+238
+00:24:30,840 --> 00:24:32,840
+Yo. En mi caso ya se ha descargado.
+
+239
+00:24:33,840 --> 00:24:34,840
+Listo.
+
+240
+00:24:36,840 --> 00:24:39,840
+Ahora voy a irme directamente a lo que hace a lo.
+
+241
+00:24:41,840 --> 00:24:44,840
+Y voy a abrirme en tanto sus trabajos.
+
+242
+00:24:45,840 --> 00:24:48,840
+Pues abranse un word para el trabajo número 7.
+
+243
+00:24:50,840 --> 00:24:54,840
+Y ya saben que colocar clase número 10. Tantas, tantas, tantas.
+
+244
+00:24:54,840 --> 00:24:56,840
+Y me voy a ejecutar.
+
+245
+00:24:56,840 --> 00:24:59,840
+Ya ahorita os voy a decir qué capturas voy a necesitar hoy día.
+
+246
+00:25:04,840 --> 00:25:07,840
+Hoy en entro poquito son 16 de los 20.
+
+247
+00:25:07,840 --> 00:25:08,840
+Ya me estaba en su feriado.
+
+248
+00:25:10,840 --> 00:25:11,840
+Ya ahora sí.
+
+249
+00:25:12,840 --> 00:25:14,840
+Van a colocar clase número 10.
+
+250
+00:25:18,840 --> 00:25:19,840
+Nombre completo.
+
+251
+00:25:20,840 --> 00:25:22,840
+Van a colocar ahí y van a colocar la fecha de.
+
+252
+00:25:22,840 --> 00:25:23,840
+Me ha hecho.
+
+253
+00:25:24,840 --> 00:25:25,840
+Y listo.
+
+254
+00:25:27,840 --> 00:25:28,840
+Ya nada más.
+
+255
+00:25:29,840 --> 00:25:30,840
+Y vamos a hacer la siguiente captura.
+
+256
+00:25:39,840 --> 00:25:40,840
+Listo.
+
+257
+00:25:40,840 --> 00:25:41,840
+Pensé que voy a colocar.
+
+258
+00:25:42,840 --> 00:25:43,840
+Evaluación.
+
+259
+00:25:45,840 --> 00:25:46,840
+Contínua.
+
+260
+00:25:48,840 --> 00:25:49,840
+Continua número 7.
+
+261
+00:25:49,840 --> 00:25:50,840
+Ya captura.
+
+262
+00:25:52,840 --> 00:25:53,840
+Y ya captura.
+
+263
+00:25:55,840 --> 00:25:56,840
+Y ya captura 1.
+
+264
+00:25:57,840 --> 00:25:58,840
+Y ya captura 1.
+
+265
+00:25:58,840 --> 00:26:00,840
+Van a colocar lo que es el modelo de negocio.
+
+266
+00:26:02,840 --> 00:26:03,840
+Por si.
+
+267
+00:26:03,840 --> 00:26:05,840
+En este caso, netamente estoy haciendo un catálogo.
+
+268
+00:26:05,840 --> 00:26:06,840
+Y ya.
+
+269
+00:26:06,840 --> 00:26:07,840
+Listo.
+
+270
+00:26:08,840 --> 00:26:11,840
+Entonces esta parte para no confundir mi demás.
+
+271
+00:26:11,840 --> 00:26:13,840
+Lo voy a copiar y pegar varios.
+
+272
+00:26:15,840 --> 00:26:17,840
+Vamos a hacer unas 5 capturitas hoy día.
+
+273
+00:26:17,840 --> 00:26:19,840
+Ya que la siguiente vamos a completarlo.
+
+274
+00:26:20,840 --> 00:26:22,840
+Y creo que está el.
+
+275
+00:26:23,840 --> 00:26:24,840
+Voy a dar un cacho.
+
+276
+00:26:24,840 --> 00:26:25,840
+Corregirlo.
+
+277
+00:26:28,840 --> 00:26:29,840
+Ya.
+
+278
+00:26:31,840 --> 00:26:32,840
+Y ahora sí.
+
+279
+00:26:32,840 --> 00:26:34,840
+Ahora sí lo procesaremos.
+
+280
+00:26:34,840 --> 00:26:35,840
+Listo.
+
+281
+00:26:37,840 --> 00:26:38,840
+Listo.
+
+282
+00:26:38,840 --> 00:26:39,840
+Y listo.
+
+283
+00:26:41,840 --> 00:26:42,840
+Ya.
+
+284
+00:26:42,840 --> 00:26:43,840
+Esto no me interesa todo bien.
+
+285
+00:26:44,840 --> 00:26:45,840
+Listo.
+
+286
+00:26:45,840 --> 00:26:47,840
+En el modelo de negocio de acá.
+
+287
+00:26:47,840 --> 00:26:49,840
+Me van a hacer la primera captura de quién.
+
+288
+00:26:49,840 --> 00:26:50,840
+De su.
+
+289
+00:26:52,840 --> 00:26:53,840
+Pdf.
+
+290
+00:26:53,840 --> 00:26:54,840
+Ya.
+
+291
+00:26:54,840 --> 00:26:56,840
+En este caso pueden hacer captura de dónde están trabajando.
+
+292
+00:26:57,840 --> 00:26:59,840
+O la descarga que les ha originado.
+
+293
+00:26:59,840 --> 00:27:01,840
+Eso pueden sacarlo su pdf.
+
+294
+00:27:01,840 --> 00:27:02,840
+Su screen de pantalla.
+
+295
+00:27:02,840 --> 00:27:03,840
+Listo.
+
+296
+00:27:03,840 --> 00:27:04,840
+No hay problema.
+
+297
+00:27:04,840 --> 00:27:05,840
+Ya lo tienen ahí.
+
+298
+00:27:07,840 --> 00:27:08,840
+Y listo.
+
+299
+00:27:08,840 --> 00:27:09,840
+Ese va a ser el primero.
+
+300
+00:27:12,840 --> 00:27:13,840
+Está cargando.
+
+301
+00:27:13,840 --> 00:27:14,840
+Listo.
+
+302
+00:27:14,840 --> 00:27:16,840
+Ese es su primera captura.
+
+303
+00:27:16,840 --> 00:27:18,840
+Es el modelo de su negocio.
+
+304
+00:27:18,840 --> 00:27:20,840
+Y van a colocar metálico al esterco al carro.
+
+305
+00:27:20,840 --> 00:27:21,840
+Listo.
+
+306
+00:27:21,840 --> 00:27:22,840
+En formato pdf.
+
+307
+00:27:22,840 --> 00:27:23,840
+Luego lo descargen.
+
+308
+00:27:23,840 --> 00:27:25,840
+Hasta ahí les voy dando un tiempo.
+
+309
+00:27:25,840 --> 00:27:27,840
+En los tres minutitos.
+
+310
+00:27:27,840 --> 00:27:28,840
+Cuatro minutitos.
+
+311
+00:27:30,840 --> 00:27:31,840
+Hagan que la ya se los haga.
+
+312
+00:27:31,840 --> 00:27:33,840
+Y solamente se diseñan las imágenes.
+
+313
+00:27:33,840 --> 00:27:34,840
+Nada más.
+
+314
+00:27:34,840 --> 00:27:35,840
+Ya.
+
+315
+00:27:36,840 --> 00:27:38,840
+Ahí les voy a dar un comentario.
+
+316
+00:27:38,840 --> 00:27:40,840
+Y abranse paralelamente.
+
+317
+00:27:40,840 --> 00:27:41,840
+Un.
+
+318
+00:27:43,840 --> 00:27:45,840
+El drive donde están trabajando con sus app.
+
+319
+00:27:45,840 --> 00:27:46,840
+Con sus.
+
+320
+00:27:47,840 --> 00:27:48,840
+Credenciales.
+
+321
+00:27:48,840 --> 00:27:49,840
+Es.
+
+322
+00:27:49,840 --> 00:27:50,840
+Esa cuenta.
+
+323
+00:27:50,840 --> 00:27:51,840
+Abranse.
+
+324
+00:27:51,840 --> 00:27:53,840
+Yo siempre lo hago aparte por.
+
+325
+00:27:53,840 --> 00:27:54,840
+Por muchas cosas.
+
+326
+00:27:54,840 --> 00:27:55,840
+Porque.
+
+327
+00:27:55,840 --> 00:27:57,840
+Mezclar cosas de negocio.
+
+328
+00:27:57,840 --> 00:27:58,840
+Y.
+
+329
+00:27:58,840 --> 00:27:59,840
+Y.
+
+330
+00:27:59,840 --> 00:28:00,840
+Y.
+
+331
+00:28:00,840 --> 00:28:01,840
+Y.
+
+332
+00:28:01,840 --> 00:28:02,840
+Y.
+
+333
+00:28:02,840 --> 00:28:03,840
+Y.
+
+334
+00:28:03,840 --> 00:28:04,840
+Y.
+
+335
+00:28:04,840 --> 00:28:05,840
+Y.
+
+336
+00:28:05,840 --> 00:28:06,840
+Y.
+
+337
+00:28:06,840 --> 00:28:07,840
+Porque.
+
+338
+00:28:07,840 --> 00:28:08,840
+Mezclar cosas de negocio.
+
+339
+00:28:08,840 --> 00:28:10,840
+Y mezclar cosas de nuestro diario.
+
+340
+00:28:10,840 --> 00:28:11,840
+Vivir.
+
+341
+00:28:11,840 --> 00:28:12,840
+No es.
+
+342
+00:28:12,840 --> 00:28:14,840
+Lo más recomendable.
+
+343
+00:28:15,840 --> 00:28:17,840
+Así que me voy a abrir.
+
+344
+00:28:17,840 --> 00:28:19,840
+Estaba trabajando con el.
+
+345
+00:28:19,840 --> 00:28:20,840
+En el 8n.
+
+346
+00:28:22,840 --> 00:28:23,840
+Y.
+
+347
+00:28:23,840 --> 00:28:24,840
+Crense un.
+
+348
+00:28:24,840 --> 00:28:25,840
+En su.
+
+349
+00:28:25,840 --> 00:28:26,840
+Drive.
+
+350
+00:28:27,840 --> 00:28:28,840
+Créense netamente.
+
+351
+00:28:28,840 --> 00:28:29,840
+Ustedes.
+
+352
+00:28:29,840 --> 00:28:30,840
+Una.
+
+353
+00:28:30,840 --> 00:28:32,840
+Carpetica.
+
+354
+00:28:32,840 --> 00:28:34,840
+Que diga.
+
+355
+00:28:34,840 --> 00:28:35,840
+No sé.
+
+356
+00:28:35,840 --> 00:28:36,840
+Cualquier nombre.
+
+357
+00:28:36,840 --> 00:28:37,840
+Yo lo estoy colocando.
+
+358
+00:28:37,840 --> 00:28:38,840
+Archivos.
+
+359
+00:28:38,840 --> 00:28:39,840
+Dentro de.
+
+360
+00:28:39,840 --> 00:28:40,840
+En el archivo estoy creando.
+
+361
+00:28:40,840 --> 00:28:41,840
+Pdf.
+
+362
+00:28:41,840 --> 00:28:42,840
+Y dentro de pdf.
+
+363
+00:28:42,840 --> 00:28:43,840
+Voy a.
+
+364
+00:28:43,840 --> 00:28:44,840
+Aláres el.
+
+365
+00:28:44,840 --> 00:28:45,840
+El.
+
+366
+00:28:45,840 --> 00:28:46,840
+Pdf.
+
+367
+00:28:46,840 --> 00:28:47,840
+Que me he creado.
+
+368
+00:28:47,840 --> 00:28:48,840
+Ya.
+
+369
+00:28:48,840 --> 00:28:49,840
+Ahí.
+
+370
+00:28:49,840 --> 00:28:50,840
+Pienso.
+
+371
+00:28:50,840 --> 00:28:51,840
+Viendo.
+
+372
+00:28:51,840 --> 00:28:52,840
+Yo lo voy a colocar a mi.
+
+373
+00:28:52,840 --> 00:28:53,840
+Pdf.
+
+374
+00:28:53,840 --> 00:28:54,840
+Otro nombre.
+
+375
+00:28:54,840 --> 00:28:55,840
+De nuevo.
+
+376
+00:28:55,840 --> 00:28:56,840
+Lo titulé.
+
+377
+00:28:56,840 --> 00:28:57,840
+Colocalón.
+
+378
+00:28:57,840 --> 00:28:58,840
+Catálogo.
+
+379
+00:28:58,840 --> 00:28:59,840
+Productos.
+
+380
+00:28:59,840 --> 00:29:00,840
+Estar.
+
+381
+00:29:00,840 --> 00:29:01,840
+Laptops.
+
+382
+00:29:01,840 --> 00:29:02,840
+20.
+
+383
+00:29:02,840 --> 00:29:03,840
+26.
+
+384
+00:29:03,840 --> 00:29:04,840
+Digo.
+
+385
+00:29:04,840 --> 00:29:05,840
+O sea.
+
+386
+00:29:05,840 --> 00:29:06,840
+La mayoría.
+
+387
+00:29:06,840 --> 00:29:07,840
+Cuando.
+
+388
+00:29:07,840 --> 00:29:08,840
+Cuando vende sus productos.
+
+389
+00:29:08,840 --> 00:29:09,840
+Siempre la coloqué sus.
+
+390
+00:29:09,840 --> 00:29:10,840
+Fechas.
+
+391
+00:29:10,840 --> 00:29:11,840
+No.
+
+392
+00:29:11,840 --> 00:29:12,840
+No estoy subiendo.
+
+393
+00:29:12,840 --> 00:29:14,840
+Ahora fíjense lo que estoy haciendo acá.
+
+394
+00:29:14,840 --> 00:29:15,840
+Cuando ustedes van a subir.
+
+395
+00:29:15,840 --> 00:29:17,840
+Cualquier tipo de catálogos.
+
+396
+00:29:17,840 --> 00:29:18,840
+Pdf.
+
+397
+00:29:18,840 --> 00:29:19,840
+O.
+
+398
+00:29:19,840 --> 00:29:20,840
+O.
+
+399
+00:29:20,840 --> 00:29:22,840
+Lo que ustedes quieran realizar.
+
+400
+00:29:22,840 --> 00:29:24,840
+Siempre van a trabajar con.
+
+401
+00:29:24,840 --> 00:29:25,840
+Barra baja.
+
+402
+00:29:25,840 --> 00:29:26,840
+Para los espacios.
+
+403
+00:29:26,840 --> 00:29:27,840
+O bien.
+
+404
+00:29:27,840 --> 00:29:28,840
+Directamente.
+
+405
+00:29:28,840 --> 00:29:29,840
+Háselo todo junto.
+
+406
+00:29:29,840 --> 00:29:30,840
+Ya.
+
+407
+00:29:30,840 --> 00:29:31,840
+Por el.
+
+408
+00:29:31,840 --> 00:29:32,840
+Este caso.
+
+409
+00:29:32,840 --> 00:29:33,840
+Porque veces la.
+
+410
+00:29:33,840 --> 00:29:34,840
+Interpeta mal.
+
+411
+00:29:34,840 --> 00:29:35,840
+Y.
+
+412
+00:29:35,840 --> 00:29:36,840
+No.
+
+413
+00:29:36,840 --> 00:29:37,840
+No.
+
+414
+00:29:37,840 --> 00:29:38,840
+No responda.
+
+415
+00:29:38,840 --> 00:29:39,840
+No.
+
+416
+00:29:39,840 --> 00:29:40,840
+No lo complementa.
+
+417
+00:29:40,840 --> 00:29:41,840
+Así que siempre es bueno trabajar sin.
+
+418
+00:29:41,840 --> 00:29:42,840
+Sin espacios.
+
+419
+00:29:42,840 --> 00:29:43,840
+Sin.
+
+420
+00:29:43,840 --> 00:29:44,840
+En vez de espacios.
+
+421
+00:29:44,840 --> 00:29:45,840
+Barra baja.
+
+422
+00:29:45,840 --> 00:29:46,840
+Ya.
+
+423
+00:29:46,840 --> 00:29:47,840
+Pueden hacer guiones.
+
+424
+00:29:47,840 --> 00:29:48,840
+Pero más recomendables.
+
+425
+00:29:48,840 --> 00:29:49,840
+Barra baja.
+
+426
+00:29:49,840 --> 00:29:50,840
+De catálogo.
+
+427
+00:29:50,840 --> 00:29:51,840
+Laptop.
+
+428
+00:29:51,840 --> 00:29:52,840
+20.
+
+429
+00:29:52,840 --> 00:29:53,840
+26.
+
+430
+00:29:53,840 --> 00:29:54,840
+Listo.
+
+431
+00:29:54,840 --> 00:29:55,840
+Así lo van a hacer.
+
+432
+00:29:55,840 --> 00:29:56,840
+Páxia más entendible.
+
+433
+00:29:56,840 --> 00:29:57,840
+Ya.
+
+434
+00:29:57,840 --> 00:29:58,840
+Esa base su segunda captura.
+
+435
+00:29:58,840 --> 00:29:59,840
+Ya crean sus.
+
+436
+00:29:59,840 --> 00:30:00,840
+En su.
+
+437
+00:30:00,840 --> 00:30:01,840
+Unidad.
+
+438
+00:30:01,840 --> 00:30:02,840
+Sus archivos.
+
+439
+00:30:02,840 --> 00:30:03,840
+De ahí.
+
+440
+00:30:03,840 --> 00:30:04,840
+En su.
+
+441
+00:30:04,840 --> 00:30:05,840
+No sé.
+
+442
+00:30:05,840 --> 00:30:06,840
+N8N.
+
+443
+00:30:06,840 --> 00:30:07,840
+Pueden colocar.
+
+444
+00:30:07,840 --> 00:30:08,840
+N8N producto.
+
+445
+00:30:08,840 --> 00:30:09,840
+No sé.
+
+446
+00:30:09,840 --> 00:30:10,840
+Cree.
+
+447
+00:30:10,840 --> 00:30:11,840
+Conveniente.
+
+448
+00:30:11,840 --> 00:30:12,840
+Vayan haciéndolo.
+
+449
+00:30:12,840 --> 00:30:13,840
+Ya.
+
+450
+00:30:13,840 --> 00:30:14,840
+Les doy hasta unos 5.
+
+451
+00:30:14,840 --> 00:30:15,840
+Miluticos.
+
+452
+00:30:15,840 --> 00:30:16,840
+Y ya voy a empezar.
+
+453
+00:30:16,840 --> 00:30:17,840
+Hacer lo siguiente.
+
+454
+00:30:17,840 --> 00:30:18,840
+Ya.
+
+455
+00:30:18,840 --> 00:30:19,840
+A partir de.
+
+456
+00:30:19,840 --> 00:30:20,840
+Esta clase.
+
+457
+00:30:20,840 --> 00:30:21,840
+La siguiente.
+
+458
+00:30:21,840 --> 00:30:22,840
+Es que nos resta las 6.
+
+459
+00:30:22,840 --> 00:30:23,840
+Casi.
+
+460
+00:30:23,840 --> 00:30:24,840
+Se nos resta.
+
+461
+00:30:24,840 --> 00:30:25,840
+Netamente.
+
+462
+00:30:25,840 --> 00:30:26,840
+Chicos.
+
+463
+00:30:26,840 --> 00:30:27,840
+Vayan.
+
+464
+00:30:27,840 --> 00:30:28,840
+Me hayan.
+
+465
+00:30:28,840 --> 00:30:29,840
+Y.
+
+466
+00:30:29,840 --> 00:30:30,840
+Los.
+
+467
+00:30:30,840 --> 00:30:31,840
+Pede.
+
+468
+00:30:31,840 --> 00:30:32,840
+Los.
+
+469
+00:30:32,840 --> 00:30:33,840
+Enviar van a ser.
+
+470
+00:30:33,840 --> 00:30:34,840
+Directamente.
+
+471
+00:30:34,840 --> 00:30:35,840
+En clase.
+
+472
+00:30:35,840 --> 00:30:36,840
+O hasta.
+
+473
+00:30:36,840 --> 00:30:37,840
+Media noche de esa misma clase.
+
+474
+00:30:37,840 --> 00:30:38,840
+Esto.
+
+475
+00:30:38,840 --> 00:30:40,840
+Por cuáles cuestiones nos están pidiendo notas.
+
+476
+00:30:40,840 --> 00:30:41,840
+urgentemente.
+
+477
+00:30:41,840 --> 00:30:42,840
+Así que.
+
+478
+00:30:42,840 --> 00:30:43,840
+Yo tengo que.
+
+479
+00:30:43,840 --> 00:30:44,840
+Subirlo.
+
+480
+00:30:44,840 --> 00:30:45,840
+Inmediatamente.
+
+481
+00:30:45,840 --> 00:30:46,840
+Pero.
+
+482
+00:30:46,840 --> 00:30:47,840
+Los voy a tratar de hablar.
+
+483
+00:30:47,840 --> 00:30:48,840
+Los voy a tratar de dar.
+
+484
+00:30:48,840 --> 00:30:49,840
+La lista oficial.
+
+485
+00:30:49,840 --> 00:30:50,840
+Lo voy a pedir a.
+
+486
+00:30:50,840 --> 00:30:51,840
+Al encargado.
+
+487
+00:30:51,840 --> 00:30:52,840
+La lista oficial.
+
+488
+00:30:52,840 --> 00:30:53,840
+Para.
+
+489
+00:30:53,840 --> 00:30:54,840
+Ya.
+
+490
+00:30:54,840 --> 00:30:55,840
+Ver.
+
+491
+00:30:55,840 --> 00:30:56,840
+Quienes realmente están y no están.
+
+492
+00:30:56,840 --> 00:30:57,840
+Porque son 32 personas.
+
+493
+00:30:57,840 --> 00:30:58,840
+Son las de los cuales solamente.
+
+494
+00:30:58,840 --> 00:30:59,840
+Estan 20.
+
+495
+00:30:59,840 --> 00:31:00,840
+Así que.
+
+496
+00:31:00,840 --> 00:31:01,840
+Eso parte voy a analizar.
+
+497
+00:31:01,840 --> 00:31:02,840
+Internamente.
+
+498
+00:31:02,840 --> 00:31:03,840
+Ya.
+
+499
+00:31:03,840 --> 00:31:04,840
+Hay.
+
+500
+00:31:04,840 --> 00:31:05,840
+Todos los.
+
+501
+00:31:05,840 --> 00:31:06,840
+Próxicos.
+
+502
+00:31:06,840 --> 00:31:07,840
+Hasta.
+
+503
+00:31:07,840 --> 00:31:08,840
+Y sin costes.
+
+504
+00:31:08,840 --> 00:31:09,840
+Y 6 tienen.
+
+505
+00:31:09,840 --> 00:31:10,840
+Las 2 6 para.
+
+506
+00:31:10,840 --> 00:31:11,840
+Crear su catálogo.
+
+507
+00:31:27,840 --> 00:31:28,840
+Y.
+
+508
+00:31:57,840 --> 00:31:58,840
+Y.
+
+509
+00:32:27,840 --> 00:32:28,840
+Y.
+
+510
+00:32:57,840 --> 00:32:58,840
+Ya.
+
+511
+00:32:58,840 --> 00:32:59,840
+Estar un minuto y co.
+
+512
+00:32:59,840 --> 00:33:00,840
+Empezamos.
+
+513
+00:33:00,840 --> 00:33:01,840
+¿Sí?
+
+514
+00:33:01,840 --> 00:33:02,840
+¿Sí?
+
+515
+00:33:02,840 --> 00:33:03,840
+¿Sí?
+
+516
+00:33:03,840 --> 00:33:04,840
+Sí.
+
+517
+00:33:04,840 --> 00:33:05,840
+¿Sí?
+
+518
+00:33:05,840 --> 00:33:06,840
+Sí.
+
+519
+00:33:06,840 --> 00:33:07,840
+Sí.
+
+520
+00:33:07,840 --> 00:33:08,840
+No.
+
+521
+00:33:08,840 --> 00:33:09,840
+No.
+
+522
+00:33:09,840 --> 00:33:10,840
+No.
+
+523
+00:33:10,840 --> 00:33:11,840
+No.
+
+524
+00:33:11,840 --> 00:33:12,840
+No.
+
+525
+00:33:12,840 --> 00:33:13,840
+No.
+
+526
+00:33:13,840 --> 00:33:14,840
+No.
+
+527
+00:33:14,840 --> 00:33:15,840
+No.
+
+528
+00:33:15,840 --> 00:33:16,840
+No.
+
+529
+00:33:16,840 --> 00:33:17,840
+No.
+
+530
+00:33:17,840 --> 00:33:18,840
+No.
+
+531
+00:33:18,840 --> 00:33:19,840
+No.
+
+532
+00:33:19,840 --> 00:33:20,840
+Yo.
+
+533
+00:33:20,840 --> 00:33:21,840
+Yo.
+
+534
+00:33:21,840 --> 00:33:22,840
+No.
+
+535
+00:33:22,840 --> 00:33:23,840
+Yo.
+
+536
+00:33:23,840 --> 00:33:24,840
+No.
+
+537
+00:33:24,840 --> 00:33:25,840
+No.
+
+538
+00:33:25,840 --> 00:33:51,320
+Ya, listo, 16.
+
+539
+00:33:52,320 --> 00:33:54,320
+Ahora uno siguiente.
+
+540
+00:33:56,320 --> 00:33:59,320
+Ya una vez que ya hayan subido su catálogo,
+
+541
+00:33:59,320 --> 00:34:04,320
+ya ya en este caso también trabajado mediante su aspecto,
+
+542
+00:34:04,320 --> 00:34:06,320
+de Warflow vamos a hacer lo siguiente.
+
+543
+00:34:07,320 --> 00:34:11,320
+Generalmente acá lo que les acabo de enviar a ustedes es el,
+
+544
+00:34:13,320 --> 00:34:15,320
+el apiqui, hagan doble clic acá.
+
+545
+00:34:15,320 --> 00:34:19,320
+Ahora aquí dice,
+
+546
+00:34:19,320 --> 00:34:24,320
+DeepSeqAccount van a crearse una credencial, ya.
+
+547
+00:34:24,320 --> 00:34:28,320
+En esa credencial si se dan cuenta es mucho más sencillo,
+
+548
+00:34:28,320 --> 00:34:31,320
+solamente me pide la apiqui, ya.
+
+549
+00:34:31,320 --> 00:34:34,320
+Ya lo voy a copiar mi apiqui,
+
+550
+00:34:34,320 --> 00:34:36,320
+que les he enviado igual a ustedes,
+
+551
+00:34:36,320 --> 00:34:42,320
+y peganlo ahí, ya, y lo guardo.
+
+552
+00:34:43,320 --> 00:34:44,320
+Y aquí les dice,
+
+553
+00:34:44,320 --> 00:34:46,320
+Credential successfully created,
+
+554
+00:34:46,320 --> 00:34:48,320
+y hay inside your personal space.
+
+555
+00:34:49,320 --> 00:34:53,320
+Esa parte lo van a igual sacar como su tercera captura.
+
+556
+00:34:56,320 --> 00:34:58,320
+Ya, listo.
+
+557
+00:34:59,320 --> 00:35:04,320
+Esa parte ya tiene que estar directamente en la sal.
+
+558
+00:35:05,320 --> 00:35:08,320
+Voy a irme entonces a mi world,
+
+559
+00:35:08,320 --> 00:35:11,320
+no sé porque he abierto tantos worlds en mi rato.
+
+560
+00:35:13,320 --> 00:35:16,320
+No sé qué ha pasado, pero ya,
+
+561
+00:35:16,320 --> 00:35:18,320
+mismo es nuestro, vamos a trabajar acá.
+
+562
+00:35:18,320 --> 00:35:20,320
+Captura 3, conexión,
+
+563
+00:35:22,320 --> 00:35:23,320
+a DeepSeq.
+
+564
+00:35:25,320 --> 00:35:26,320
+Listo.
+
+565
+00:35:28,320 --> 00:35:31,320
+La de nosotros, crees que se voy a hacer con CloudCode?
+
+566
+00:35:31,320 --> 00:35:33,320
+CloudCode van a ver que es monstruo.
+
+567
+00:35:34,320 --> 00:35:37,320
+Es un monstruo, literal, es un monstruo, tiene todo,
+
+568
+00:35:37,320 --> 00:35:39,320
+hasta tiene sentimientos, creo.
+
+569
+00:35:40,320 --> 00:35:42,320
+Listo, bueno, lo hago.
+
+570
+00:35:43,320 --> 00:35:47,320
+Y por ejemplo, ahorita lo que son las LLMS de OpenAI,
+
+571
+00:35:47,320 --> 00:35:49,320
+me sirven más que todo para hacer charlos,
+
+572
+00:35:49,320 --> 00:35:51,320
+lo que hemos hecho anteriormente.
+
+573
+00:35:51,320 --> 00:35:54,320
+Las de DeepSeq son más numéricas,
+
+574
+00:35:54,320 --> 00:35:56,320
+o sea, son más matemáticas.
+
+575
+00:35:56,320 --> 00:35:58,320
+Las de CloudCode son más de interfaces.
+
+576
+00:35:59,320 --> 00:36:01,320
+Y esos tres, si se combinan,
+
+577
+00:36:01,320 --> 00:36:04,320
+nuestros agentes hacen lo que quieran ustedes.
+
+578
+00:36:04,320 --> 00:36:06,320
+Pueden incluso meter a otros agentes en uno mismo.
+
+579
+00:36:06,320 --> 00:36:09,320
+Si quieren hacer un proyecto de automatización,
+
+580
+00:36:09,320 --> 00:36:11,320
+por ejemplo, para el Instituto Balceiro,
+
+581
+00:36:11,320 --> 00:36:13,320
+les voy a mostrar cómo trabajar el Instituto Balceiro
+
+582
+00:36:13,320 --> 00:36:15,320
+en NSTOS, en NEOGENER.
+
+583
+00:36:16,320 --> 00:36:19,320
+No sé si han escuchado el Instituto Balceiro, pero...
+
+584
+00:36:21,320 --> 00:36:23,320
+Es uno de las universidades más potentes
+
+585
+00:36:23,320 --> 00:36:26,320
+a nivel mundial en física nuclear y sistemas
+
+586
+00:36:28,320 --> 00:36:31,320
+que se llama Producción en Inteligencia Artificiales
+
+587
+00:36:31,320 --> 00:36:34,320
+y Ciencias Informáticas,
+
+588
+00:36:34,320 --> 00:36:38,320
+que netamente el que es su líder se llama Maldacen.
+
+589
+00:36:38,320 --> 00:36:42,320
+Maldacen es uno de los instants de nuestro...
+
+590
+00:36:43,320 --> 00:36:46,320
+Bueno, de nuestra época mostrador.
+
+591
+00:36:48,320 --> 00:36:51,320
+Y aquí tienen niveles impresionantes.
+
+592
+00:36:51,320 --> 00:36:53,320
+Su sistema está hecho con N8N.
+
+593
+00:36:54,320 --> 00:36:57,320
+Y sus exámenes se han hecho con N8N.
+
+594
+00:36:58,320 --> 00:37:01,320
+Y esto está enlazado con MIT de Estados Unidos
+
+595
+00:37:01,320 --> 00:37:04,320
+y van a ver cómo su flujo.
+
+596
+00:37:05,320 --> 00:37:08,320
+Ya no me acuerdo de dónde estaban sus flujos, pero lo van a ver.
+
+597
+00:37:08,320 --> 00:37:11,320
+Ellos, por ejemplo, hacen N8N y automateccion
+
+598
+00:37:11,320 --> 00:37:16,320
+con sistemas para el desarrollo de física termo nuclear
+
+599
+00:37:16,320 --> 00:37:19,320
+y nuclear para sistemas cuánticos.
+
+600
+00:37:19,320 --> 00:37:22,320
+Ellos lo trabajan con siete agentes.
+
+601
+00:37:22,320 --> 00:37:25,320
+Netamente trabajan con agentes, en este caso,
+
+602
+00:37:25,320 --> 00:37:29,320
+de IA contemporánea, IA moderna, IA híbrida.
+
+603
+00:37:29,320 --> 00:37:32,320
+O sea, CloudCode es la IA híbrida.
+
+604
+00:37:32,320 --> 00:37:34,320
+IA y Aia se todo.
+
+605
+00:37:34,320 --> 00:37:37,320
+CloudCode lo maneja y lo toma a DeepSync
+
+606
+00:37:37,320 --> 00:37:39,320
+y DeepSync lo toma a OpenAI
+
+607
+00:37:39,320 --> 00:37:43,320
+y los tres ya trabajan con tres agentes potentes a nivel cuántico.
+
+608
+00:37:43,320 --> 00:37:46,320
+Ellos Maldacen, el hace sus sistemas.
+
+609
+00:37:47,320 --> 00:37:50,320
+Si creen leerle a él, es interesante.
+
+610
+00:37:50,320 --> 00:37:54,320
+Esta tiene más de 5.500 artículos científicos publicados
+
+611
+00:37:54,320 --> 00:37:56,320
+en solamente 10 años.
+
+612
+00:37:57,320 --> 00:37:59,320
+Es la nivel potencia.
+
+613
+00:38:00,320 --> 00:38:04,320
+Ya, ahora seguiremos al otro punto, donde estamos
+
+614
+00:38:04,320 --> 00:38:07,320
+volviendo al medio de la asunta.
+
+615
+00:38:09,320 --> 00:38:11,320
+Ahora acá, por ejemplo,
+
+616
+00:38:11,320 --> 00:38:15,320
+se actualizan los repositories V4 y la Pro, que son las últimas.
+
+617
+00:38:15,320 --> 00:38:18,320
+Ya no les recomiendo eso. Déjenlo por defecto ahí.
+
+618
+00:38:18,320 --> 00:38:20,320
+Aunque les salga a warning
+
+619
+00:38:20,320 --> 00:38:23,320
+porque van a tener problemas
+
+620
+00:38:23,320 --> 00:38:26,320
+en que les va a cobrar.
+
+621
+00:38:26,320 --> 00:38:29,320
+No va a ser tal cuál es el cobro,
+
+622
+00:38:29,320 --> 00:38:31,320
+pero así les va a terminar el token.
+
+623
+00:38:31,320 --> 00:38:33,320
+Así que déjenlo por defecto.
+
+624
+00:38:34,320 --> 00:38:36,320
+Ahora, en añadir opciones,
+
+625
+00:38:36,320 --> 00:38:38,320
+pueden añadir paramétricas y métricas,
+
+626
+00:38:38,320 --> 00:38:41,320
+pero no es necesario por el momento.
+
+627
+00:38:41,320 --> 00:38:44,320
+Hoy te vamos a ver cómo se trabajan estos modelitos.
+
+628
+00:38:44,320 --> 00:38:46,320
+Pero lo voy a hacer.
+
+629
+00:38:46,320 --> 00:38:49,320
+Y voy a irme directamente a OneFourSubmission.
+
+630
+00:38:50,320 --> 00:38:53,320
+En OneFourSubmission, voy a hacer lo que necesito.
+
+631
+00:38:53,320 --> 00:38:55,320
+Es decir, voy a crear mi empresa.
+
+632
+00:38:55,320 --> 00:38:57,320
+Esto ya sabemos, ¿o sí?
+
+633
+00:38:58,320 --> 00:39:00,320
+Voy a colocar aquí el LabCenter.
+
+634
+00:39:02,320 --> 00:39:04,320
+Y aquí voy a colocar en este caso,
+
+635
+00:39:04,320 --> 00:39:07,320
+sistemas, venta,
+
+636
+00:39:07,320 --> 00:39:10,320
+venta e importación
+
+637
+00:39:11,320 --> 00:39:13,320
+de laptops.
+
+638
+00:39:13,320 --> 00:39:15,320
+Ya, listo.
+
+639
+00:39:16,320 --> 00:39:19,320
+Luego, aquí voy a añadir, ¿qué quiero capturar del cliente?
+
+640
+00:39:19,320 --> 00:39:21,320
+Ya lo sabéis, yo no me trabajo muchas veces,
+
+641
+00:39:21,320 --> 00:39:24,320
+así que no hago mucho problema.
+
+642
+00:39:24,320 --> 00:39:26,320
+Voy a utilizar tres variables,
+
+643
+00:39:26,320 --> 00:39:29,320
+aún más, esperando que no se lo tan largo.
+
+644
+00:39:29,320 --> 00:39:32,320
+Text simple, que es el requerido.
+
+645
+00:39:32,320 --> 00:39:34,320
+Recall file, el requerido.
+
+646
+00:39:34,320 --> 00:39:37,320
+Vamos a añadir en este caso, su Gmail.
+
+647
+00:39:38,320 --> 00:39:40,320
+Correo.
+
+648
+00:39:40,320 --> 00:39:42,320
+Tipo Gmail.
+
+649
+00:39:42,320 --> 00:39:45,320
+Y vamos a colocar directamente el requerido.
+
+650
+00:39:45,320 --> 00:39:47,320
+Listo.
+
+651
+00:39:47,320 --> 00:39:49,320
+Y obviamente, el mensaje, ¿no?
+
+652
+00:39:51,320 --> 00:39:53,320
+Tipo TextOrea.
+
+653
+00:39:54,320 --> 00:39:56,320
+Y directamente atributos,
+
+654
+00:39:56,320 --> 00:39:58,320
+que es también un campo publicatorio.
+
+655
+00:39:58,320 --> 00:40:00,320
+Ya.
+
+656
+00:40:00,320 --> 00:40:02,320
+Nada más. Eso sería todo.
+
+657
+00:40:02,320 --> 00:40:04,320
+Ahora, aquí voy a colocar la Oceans.
+
+658
+00:40:04,320 --> 00:40:06,320
+App n8, no atributos.
+
+659
+00:40:06,320 --> 00:40:08,320
+Y ahora voy a descontinuar.
+
+660
+00:40:09,320 --> 00:40:11,320
+Y listo.
+
+661
+00:40:11,320 --> 00:40:13,320
+Hasta ahí.
+
+662
+00:40:13,320 --> 00:40:15,320
+Lo ejecutaremos.
+
+663
+00:40:17,320 --> 00:40:19,320
+Ejecutamos y voy a
+
+664
+00:40:19,320 --> 00:40:21,320
+realizar algunas cosas.
+
+665
+00:40:21,320 --> 00:40:23,320
+Milton,
+
+666
+00:40:23,320 --> 00:40:25,320
+Peño Blanco, listo.
+
+667
+00:40:25,320 --> 00:40:27,320
+Ahora voy, me olvido mi
+
+668
+00:40:27,320 --> 00:40:29,320
+mi correo de este.
+
+669
+00:40:31,320 --> 00:40:33,320
+Voy a copiarme
+
+670
+00:40:33,320 --> 00:40:35,320
+y voy a jugar loca.
+
+671
+00:40:37,320 --> 00:40:39,320
+Buenas noches
+
+672
+00:40:39,320 --> 00:40:41,320
+que quisiera
+
+673
+00:40:41,320 --> 00:40:43,320
+saber qué productos
+
+674
+00:40:43,320 --> 00:40:45,320
+tienen
+
+675
+00:40:45,320 --> 00:40:47,320
+a la venta.
+
+676
+00:40:49,320 --> 00:40:51,320
+Listo.
+
+677
+00:40:51,320 --> 00:40:53,320
+Lo voy a subir.
+
+678
+00:40:53,320 --> 00:40:55,320
+Y buena vez que lo he subido.
+
+679
+00:40:57,320 --> 00:40:59,320
+Ya lo voy a
+
+680
+00:40:59,320 --> 00:41:01,320
+pinear acá.
+
+681
+00:41:01,320 --> 00:41:03,320
+A veces no se ve mucho ahí.
+
+682
+00:41:03,320 --> 00:41:05,320
+Pueden esto un poquito llevarlo a este lado.
+
+683
+00:41:05,320 --> 00:41:07,320
+Minimizarlo un poquito.
+
+684
+00:41:07,320 --> 00:41:09,320
+Y listo.
+
+685
+00:41:09,320 --> 00:41:11,320
+Ahora se van a colocar el pin de ahí.
+
+686
+00:41:11,320 --> 00:41:13,320
+Hacen el pin de ira.
+
+687
+00:41:13,320 --> 00:41:15,320
+Y directamente ya.
+
+688
+00:41:15,320 --> 00:41:17,320
+Esto va a ser cuarto
+
+689
+00:41:17,320 --> 00:41:19,320
+o tercero.
+
+690
+00:41:19,320 --> 00:41:21,320
+Ya.
+
+691
+00:41:21,320 --> 00:41:23,320
+Ahí que tenga.
+
+692
+00:41:23,320 --> 00:41:25,320
+Ya. Voy a venir acá.
+
+693
+00:41:25,320 --> 00:41:27,320
+Entonces.
+
+694
+00:41:27,320 --> 00:41:29,320
+El número de captura es
+
+695
+00:41:29,320 --> 00:41:31,320
+cuatro. Ya. Creo que es cuatro.
+
+696
+00:41:31,320 --> 00:41:33,320
+Si estamos bien, ¿no?
+
+697
+00:41:33,320 --> 00:41:35,320
+Es cuatro. Ya.
+
+698
+00:41:35,320 --> 00:41:37,320
+Listo.
+
+699
+00:41:37,320 --> 00:41:39,320
+Listo.
+
+700
+00:41:39,320 --> 00:41:41,320
+Captura número cuatro.
+
+701
+00:41:41,320 --> 00:41:43,320
+Voy a colocar conexión.
+
+702
+00:41:43,320 --> 00:41:45,320
+No. En este caso, si conexionado.
+
+703
+00:41:47,320 --> 00:41:49,320
+On from
+
+704
+00:41:49,320 --> 00:41:51,320
+Submission.
+
+705
+00:41:51,320 --> 00:41:53,320
+Listo.
+
+706
+00:41:53,320 --> 00:41:55,320
+Voy a copiarme esto. Voy a hacer la captura cinco.
+
+707
+00:41:59,320 --> 00:42:01,320
+A partir de acá si va a ser un poquito más
+
+708
+00:42:01,320 --> 00:42:03,320
+especial.
+
+709
+00:42:03,320 --> 00:42:05,320
+Pero van a tomarle un comentario.
+
+710
+00:42:05,320 --> 00:42:07,320
+Esto.
+
+711
+00:42:07,320 --> 00:42:09,320
+Una vez que ya lo tenga en pin.
+
+712
+00:42:11,320 --> 00:42:13,320
+Vamos a ver el flujo.
+
+713
+00:42:13,320 --> 00:42:15,320
+Ahora esta parte voy a capturar los datos.
+
+714
+00:42:15,320 --> 00:42:17,320
+No estoy ya sabiendo.
+
+715
+00:42:17,320 --> 00:42:19,320
+Estoy ya hemos hecho varias veces. Así que doble.
+
+716
+00:42:19,320 --> 00:42:21,320
+Doble clic.
+
+717
+00:42:21,320 --> 00:42:23,320
+Voy a dejar cada uno de esto.
+
+718
+00:42:23,320 --> 00:42:25,320
+El nombre.
+
+719
+00:42:25,320 --> 00:42:27,320
+El correo.
+
+720
+00:42:27,320 --> 00:42:29,320
+Y el mensaje.
+
+721
+00:42:29,320 --> 00:42:31,320
+Listo.
+
+722
+00:42:31,320 --> 00:42:33,320
+Listo. Ya esta.
+
+723
+00:42:33,320 --> 00:42:35,320
+Entonces, se va a hacer mi segundo.
+
+724
+00:42:35,320 --> 00:42:37,320
+Escribe.
+
+725
+00:42:41,320 --> 00:42:43,320
+Pero mi quinto.
+
+726
+00:42:43,320 --> 00:42:45,320
+Voy a venir acá y ver si configuración.
+
+727
+00:42:45,320 --> 00:42:47,320
+Edit.
+
+728
+00:42:47,320 --> 00:42:49,320
+Files.
+
+729
+00:42:51,320 --> 00:42:53,320
+Configuración.
+
+730
+00:42:53,320 --> 00:42:55,320
+Del.
+
+731
+00:42:55,320 --> 00:42:57,320
+Edit.
+
+732
+00:42:57,320 --> 00:42:59,320
+Files.
+
+733
+00:42:59,320 --> 00:43:01,320
+Listo.
+
+734
+00:43:01,320 --> 00:43:03,320
+Ya esta. Ya lo tenemos ahí.
+
+735
+00:43:03,320 --> 00:43:05,320
+Ahora si.
+
+736
+00:43:05,320 --> 00:43:07,320
+Una vez que tengamos ese proceso.
+
+737
+00:43:07,320 --> 00:43:09,320
+Voy a.
+
+738
+00:43:09,320 --> 00:43:11,320
+Continuar con lo siguiente.
+
+739
+00:43:11,320 --> 00:43:13,320
+Por adentro de acá.
+
+740
+00:43:13,320 --> 00:43:15,320
+Este es el que me va a generar un montón de problemas.
+
+741
+00:43:15,320 --> 00:43:17,320
+Ya.
+
+742
+00:43:17,320 --> 00:43:19,320
+Hago primeramente clic.
+
+743
+00:43:19,320 --> 00:43:21,320
+Vuelvo a repetir.
+
+744
+00:43:21,320 --> 00:43:23,320
+Me voy a basic.
+
+745
+00:43:23,320 --> 00:43:25,320
+El lm.
+
+746
+00:43:25,320 --> 00:43:27,320
+Hago doble clic.
+
+747
+00:43:27,320 --> 00:43:29,320
+Ya.
+
+748
+00:43:29,320 --> 00:43:31,320
+Aquí es un poquito medio.
+
+749
+00:43:31,320 --> 00:43:33,320
+Este.
+
+750
+00:43:33,320 --> 00:43:35,320
+Como les explico.
+
+751
+00:43:35,320 --> 00:43:37,320
+Un poquito interesante.
+
+752
+00:43:37,320 --> 00:43:39,320
+Ya la ves.
+
+753
+00:43:39,320 --> 00:43:41,320
+Especial esta cuartecita.
+
+754
+00:43:41,320 --> 00:43:43,320
+Lo que voy a hacer lo siguiente.
+
+755
+00:43:43,320 --> 00:43:45,320
+Aquí dice.
+
+756
+00:43:45,320 --> 00:43:47,320
+Para esta parte.
+
+757
+00:43:47,320 --> 00:43:49,320
+Vamos a tomar en cuenta algunos puntos.
+
+758
+00:43:49,320 --> 00:43:51,320
+Más.
+
+759
+00:43:51,320 --> 00:43:53,320
+Que tenemos que aplicar acá.
+
+760
+00:43:53,320 --> 00:43:55,320
+Por ejemplo lo siguiente.
+
+761
+00:43:55,320 --> 00:43:57,320
+Vean.
+
+762
+00:43:57,320 --> 00:43:59,320
+Aquí dice.
+
+763
+00:43:59,320 --> 00:44:01,320
+Esta parte.
+
+764
+00:44:01,320 --> 00:44:03,320
+Me estás diciendo que los nodos directamente.
+
+765
+00:44:03,320 --> 00:44:05,320
+Ya pueden ser conectados.
+
+766
+00:44:05,320 --> 00:44:07,320
+Ya.
+
+767
+00:44:07,320 --> 00:44:09,320
+Esto no es bueno.
+
+768
+00:44:09,320 --> 00:44:11,320
+Porque antes se tiene que definir algunos puntos.
+
+769
+00:44:11,320 --> 00:44:13,320
+Algunas expresiones.
+
+770
+00:44:13,320 --> 00:44:15,320
+Definir.
+
+771
+00:44:15,320 --> 00:44:17,320
+Ya.
+
+772
+00:44:17,320 --> 00:44:19,320
+Vamos a trabajar.
+
+773
+00:44:19,320 --> 00:44:21,320
+Aquí.
+
+774
+00:44:21,320 --> 00:44:23,320
+Me dice.
+
+775
+00:44:23,320 --> 00:44:25,320
+Hola.
+
+776
+00:44:25,320 --> 00:44:27,320
+Aquí voy a colocar la bienvenida al usuario.
+
+777
+00:44:27,320 --> 00:44:29,320
+Ya es decir.
+
+778
+00:44:29,320 --> 00:44:31,320
+Puedo colocar directamente.
+
+779
+00:44:31,320 --> 00:44:33,320
+Bienvenido.
+
+780
+00:44:33,320 --> 00:44:35,320
+Bienvenido.
+
+781
+00:44:35,320 --> 00:44:37,320
+A la.
+
+782
+00:44:37,320 --> 00:44:39,320
+La.
+
+783
+00:44:39,320 --> 00:44:41,320
+La.
+
+784
+00:44:41,320 --> 00:44:43,320
+Listo.
+
+785
+00:44:43,320 --> 00:44:45,320
+Ahora acá.
+
+786
+00:44:45,320 --> 00:44:47,320
+Me dice.
+
+787
+00:44:47,320 --> 00:44:49,320
+Ya.
+
+788
+00:44:49,320 --> 00:44:51,320
+Y dentro de estos.
+
+789
+00:44:51,320 --> 00:44:53,320
+Y aquí dice.
+
+790
+00:44:53,320 --> 00:44:55,320
+Añadimos.
+
+791
+00:44:55,320 --> 00:44:57,320
+Y esta parte si se dan cuenta.
+
+792
+00:44:57,320 --> 00:44:59,320
+Es la misma que se ha utilizado anteriormente.
+
+793
+00:44:59,320 --> 00:45:01,320
+En qué.
+
+794
+00:45:01,320 --> 00:45:03,320
+En opinión.
+
+795
+00:45:03,320 --> 00:45:05,320
+Es lo mismo.
+
+796
+00:45:05,320 --> 00:45:07,320
+Solamente acá.
+
+797
+00:45:07,320 --> 00:45:09,320
+Le voy a darle prompt.
+
+798
+00:45:09,320 --> 00:45:11,320
+Necesario.
+
+799
+00:45:11,320 --> 00:45:13,320
+Porque estoy eligiendo.
+
+800
+00:45:13,320 --> 00:45:15,320
+Están los tres roles que los he indicado.
+
+801
+00:45:15,320 --> 00:45:17,320
+Voy a hacer.
+
+802
+00:45:17,320 --> 00:45:19,320
+Y voy a hacer.
+
+803
+00:45:19,320 --> 00:45:21,320
+Y.
+
+804
+00:45:21,320 --> 00:45:23,320
+Eres.
+
+805
+00:45:23,320 --> 00:45:25,320
+Asistente.
+
+806
+00:45:25,320 --> 00:45:27,320
+Comercia.
+
+807
+00:45:27,320 --> 00:45:29,320
+Ya.
+
+808
+00:45:31,320 --> 00:45:33,320
+En este caso responde.
+
+809
+00:45:35,320 --> 00:45:37,320
+De forma.
+
+810
+00:45:37,320 --> 00:45:39,320
+Lara.
+
+811
+00:45:39,320 --> 00:45:41,320
+Y profesional.
+
+812
+00:45:41,320 --> 00:45:43,320
+Y profesional.
+
+813
+00:45:43,320 --> 00:45:45,320
+Y.
+
+814
+00:45:45,320 --> 00:45:47,320
+A este usuario.
+
+815
+00:45:47,320 --> 00:45:49,320
+A este usuario.
+
+816
+00:45:49,320 --> 00:45:51,320
+A este usuario.
+
+817
+00:45:51,320 --> 00:45:53,320
+Van a colocar dos puntos.
+
+818
+00:45:53,320 --> 00:45:55,320
+Y ahorita lo vamos a preguer eso.
+
+819
+00:45:55,320 --> 00:45:57,320
+Voy a irme hacia abajo.
+
+820
+00:45:57,320 --> 00:45:59,320
+Voy a hacer.
+
+821
+00:45:59,320 --> 00:46:01,320
+Envía.
+
+822
+00:46:01,320 --> 00:46:03,320
+El mensaje.
+
+823
+00:46:03,320 --> 00:46:05,320
+Respuesta.
+
+824
+00:46:07,320 --> 00:46:09,320
+En formato.
+
+825
+00:46:09,320 --> 00:46:11,320
+HTML.
+
+826
+00:46:11,320 --> 00:46:13,320
+Y.
+
+827
+00:46:13,320 --> 00:46:15,320
+CSS.
+
+828
+00:46:15,320 --> 00:46:17,320
+Esto.
+
+829
+00:46:17,320 --> 00:46:19,320
+Voy a cerrar esta parte.
+
+830
+00:46:19,320 --> 00:46:21,320
+Y acá.
+
+831
+00:46:21,320 --> 00:46:23,320
+Por si acaso van a jalar este.
+
+832
+00:46:23,320 --> 00:46:25,320
+El nombre del usuario.
+
+833
+00:46:27,320 --> 00:46:29,320
+No sé dónde estará.
+
+834
+00:46:29,320 --> 00:46:31,320
+Voy a modificar.
+
+835
+00:46:31,320 --> 00:46:33,320
+Yo.
+
+836
+00:46:33,320 --> 00:46:35,320
+En esto lo voy a cortar y pegar donde quiero que esté.
+
+837
+00:46:35,320 --> 00:46:37,320
+Ahí.
+
+838
+00:46:37,320 --> 00:46:39,320
+Listo.
+
+839
+00:46:39,320 --> 00:46:41,320
+Nada más.
+
+840
+00:46:41,320 --> 00:46:43,320
+Listo.
+
+841
+00:46:43,320 --> 00:46:45,320
+Y.
+
+842
+00:46:45,320 --> 00:46:47,320
+Una vez que lo cierren.
+
+843
+00:46:47,320 --> 00:46:49,320
+Directamente voy a añadir otro prompt.
+
+844
+00:46:51,320 --> 00:46:53,320
+Este prompt.
+
+845
+00:46:53,320 --> 00:46:55,320
+Pero va a ser del usuario.
+
+846
+00:46:55,320 --> 00:46:57,320
+Y el mensaje que se va a adaptar.
+
+847
+00:46:57,320 --> 00:46:59,320
+Pues vosotros el mensaje.
+
+848
+00:46:59,320 --> 00:47:01,320
+Quiere estar diciendo.
+
+849
+00:47:01,320 --> 00:47:03,320
+Listo.
+
+850
+00:47:03,320 --> 00:47:05,320
+Nada más.
+
+851
+00:47:05,320 --> 00:47:07,320
+Hasta ahí lo tienen.
+
+852
+00:47:07,320 --> 00:47:09,320
+Para hacer la siguiente fase.
+
+853
+00:47:09,320 --> 00:47:11,320
+Yo.
+
+854
+00:47:11,320 --> 00:47:13,320
+Qué más.
+
+855
+00:47:13,320 --> 00:47:15,320
+Ahora acá por ejemplo.
+
+856
+00:47:15,320 --> 00:47:17,320
+Si hacemos aquí.
+
+857
+00:47:17,320 --> 00:47:19,320
+Dice.
+
+858
+00:47:19,320 --> 00:47:21,320
+Podemos aumentar algunos tipos de.
+
+859
+00:47:21,320 --> 00:47:23,320
+Pensamientos.
+
+860
+00:47:23,320 --> 00:47:25,320
+Pero luego lo vamos a hacer.
+
+861
+00:47:25,320 --> 00:47:27,320
+Pueden ejecutar.
+
+862
+00:47:27,320 --> 00:47:29,320
+Lo ejecutan.
+
+863
+00:47:29,320 --> 00:47:31,320
+Aquí debería darme el formato.
+
+864
+00:47:31,320 --> 00:47:33,320
+HTML.
+
+865
+00:47:33,320 --> 00:47:35,320
+Y demás.
+
+866
+00:47:35,320 --> 00:47:37,320
+Yo.
+
+867
+00:47:37,320 --> 00:47:39,320
+Lo esperamos.
+
+868
+00:47:39,320 --> 00:47:41,320
+Porque va a tardar un poco en cranear al principio.
+
+869
+00:47:41,320 --> 00:47:43,320
+Ya saben.
+
+870
+00:47:43,320 --> 00:47:45,320
+Pero es un poquito más veloz que el.
+
+871
+00:47:45,320 --> 00:47:47,320
+Open ahí.
+
+872
+00:47:47,320 --> 00:47:49,320
+Bien.
+
+873
+00:47:49,320 --> 00:47:51,320
+Ahora como ya me ha dado.
+
+874
+00:47:51,320 --> 00:47:53,320
+Algunas respuestas.
+
+875
+00:47:53,320 --> 00:47:55,320
+Podemos verlo en forma de tabla.
+
+876
+00:47:55,320 --> 00:47:57,320
+Y está todo lo que me ha respondido.
+
+877
+00:47:59,320 --> 00:48:01,320
+Y aquí también me da un formato.
+
+878
+00:48:01,320 --> 00:48:03,320
+Y ahí me dice todo lo que me está respondiendo.
+
+879
+00:48:03,320 --> 00:48:05,320
+Ya.
+
+880
+00:48:05,320 --> 00:48:07,320
+Directamente lo voy a cerrar.
+
+881
+00:48:07,320 --> 00:48:09,320
+Y listo.
+
+882
+00:48:09,320 --> 00:48:11,320
+Ya tengo las conexiones necesarias.
+
+883
+00:48:11,320 --> 00:48:13,320
+Posteriora eso.
+
+884
+00:48:13,320 --> 00:48:15,320
+Puedo yo llevarlo a mensaje.
+
+885
+00:48:15,320 --> 00:48:17,320
+Así que voy a irme a mi.
+
+886
+00:48:17,320 --> 00:48:19,320
+Gmail.
+
+887
+00:48:19,320 --> 00:48:21,320
+Gmail.
+
+888
+00:48:21,320 --> 00:48:23,320
+Y voy a enviarme un send.
+
+889
+00:48:23,320 --> 00:48:25,320
+Message.
+
+890
+00:48:25,320 --> 00:48:27,320
+Gmail.
+
+891
+00:48:27,320 --> 00:48:29,320
+Send.
+
+892
+00:48:29,320 --> 00:48:31,320
+Message.
+
+893
+00:48:31,320 --> 00:48:33,320
+Hago clic.
+
+894
+00:48:33,320 --> 00:48:35,320
+Y justamente ya lo tengo acá capturado.
+
+895
+00:48:35,320 --> 00:48:37,320
+Y aquí me dice el conectado automáticamente.
+
+896
+00:48:37,320 --> 00:48:39,320
+Esta parte.
+
+897
+00:48:39,320 --> 00:48:41,320
+Ya lo saben ustedes.
+
+898
+00:48:41,320 --> 00:48:43,320
+Ya hago doble clic.
+
+899
+00:48:43,320 --> 00:48:45,320
+Aquí les vaya a decir cuáles su cuenta.
+
+900
+00:48:45,320 --> 00:48:47,320
+Ya en la sala su credencial.
+
+901
+00:48:47,320 --> 00:48:49,320
+De lo que es la.
+
+902
+00:48:49,320 --> 00:48:51,320
+La parte de Gmail.
+
+903
+00:48:51,320 --> 00:48:53,320
+Y acá.
+
+904
+00:48:53,320 --> 00:48:55,320
+Voy a sacar siempre.
+
+905
+00:48:55,320 --> 00:48:57,320
+Voy a hacerlo de edit files.
+
+906
+00:48:57,320 --> 00:48:59,320
+Y voy a sacar siempre correo ahí.
+
+907
+00:48:59,320 --> 00:49:01,320
+Nunca.
+
+908
+00:49:01,320 --> 00:49:03,320
+De.
+
+909
+00:49:03,320 --> 00:49:05,320
+Subject.
+
+910
+00:49:05,320 --> 00:49:07,320
+Que me va a decir bienvenido.
+
+911
+00:49:07,320 --> 00:49:09,320
+O.
+
+912
+00:49:09,320 --> 00:49:11,320
+Lapsenter.
+
+913
+00:49:11,320 --> 00:49:13,320
+Lapsenter.
+
+914
+00:49:13,320 --> 00:49:15,320
+Lapsenter.
+
+915
+00:49:15,320 --> 00:49:17,320
+Listo.
+
+916
+00:49:17,320 --> 00:49:19,320
+Y aquí el mensaje.
+
+917
+00:49:19,320 --> 00:49:21,320
+Va a ser la el mensaje.
+
+918
+00:49:21,320 --> 00:49:23,320
+Que ha hecho la lla.
+
+919
+00:49:23,320 --> 00:49:25,320
+El text.
+
+920
+00:49:25,320 --> 00:49:27,320
+Hago clic.
+
+921
+00:49:27,320 --> 00:49:29,320
+Listo.
+
+922
+00:49:29,320 --> 00:49:31,320
+Ya lo ejecutamos.
+
+923
+00:49:31,320 --> 00:49:33,320
+Ahora acá.
+
+924
+00:49:33,320 --> 00:49:35,320
+Aquí es algo interesante.
+
+925
+00:49:35,320 --> 00:49:37,320
+Hoy estamos hacerlo con veces.
+
+926
+00:49:37,320 --> 00:49:39,320
+Y bueno a ver qué pasa.
+
+927
+00:49:39,320 --> 00:49:41,320
+Lo ejecuto.
+
+928
+00:49:43,320 --> 00:49:45,320
+Y ya se enviado.
+
+929
+00:49:45,320 --> 00:49:47,320
+No.
+
+930
+00:49:47,320 --> 00:49:49,320
+Listo.
+
+931
+00:49:49,320 --> 00:49:51,320
+Voy a irme a mi.
+
+932
+00:49:51,320 --> 00:49:53,320
+Mi unidad.
+
+933
+00:49:53,320 --> 00:49:55,320
+Perdón.
+
+934
+00:49:55,320 --> 00:49:57,320
+Esto no es mi correo.
+
+935
+00:49:57,320 --> 00:49:59,320
+Es mi droid.
+
+936
+00:49:59,320 --> 00:50:01,320
+Voy a irme a mi correo.
+
+937
+00:50:01,320 --> 00:50:03,320
+Y vamos a ver.
+
+938
+00:50:03,320 --> 00:50:05,320
+Que sea.
+
+939
+00:50:05,320 --> 00:50:07,320
+821 para que estén listos.
+
+940
+00:50:07,320 --> 00:50:09,320
+Ahí está.
+
+941
+00:50:09,320 --> 00:50:11,320
+Me da lapsenter.
+
+942
+00:50:11,320 --> 00:50:13,320
+Me da el catálogo.
+
+943
+00:50:13,320 --> 00:50:15,320
+Y me da todo.
+
+944
+00:50:15,320 --> 00:50:17,320
+No lo ha hecho tan estético.
+
+945
+00:50:17,320 --> 00:50:19,320
+Pero.
+
+946
+00:50:19,320 --> 00:50:21,320
+Aquí ya me está generando hasta un catálogo.
+
+947
+00:50:21,320 --> 00:50:23,320
+Disponible.
+
+948
+00:50:23,320 --> 00:50:25,320
+Y ahí es donde tengo que anexarlo mis PDF.
+
+949
+00:50:25,320 --> 00:50:27,320
+Pero ahí pueden ver.
+
+950
+00:50:27,320 --> 00:50:29,320
+Funciona.
+
+951
+00:50:29,320 --> 00:50:31,320
+10 mucho más barato.
+
+952
+00:50:31,320 --> 00:50:33,320
+Y a ver. Ustedes vayan haciéndolo.
+
+953
+00:50:33,320 --> 00:50:35,320
+Y vamos a ver.
+
+954
+00:50:35,320 --> 00:50:37,320
+Cuánto ha consumido en créditos.
+
+955
+00:50:37,320 --> 00:50:39,320
+Por qué ahorita estoy haciendo con el apps normal.
+
+956
+00:50:39,320 --> 00:50:41,320
+Pero.
+
+957
+00:50:41,320 --> 00:50:43,320
+Vamos a irnos acá.
+
+958
+00:50:43,320 --> 00:50:45,320
+A Dipsy platform.
+
+959
+00:50:45,320 --> 00:50:47,320
+Voy a irme a mi.
+
+960
+00:50:47,320 --> 00:50:49,320
+A Piquí.
+
+961
+00:50:49,320 --> 00:50:51,320
+Y voy a ver a caminar mi token.
+
+962
+00:50:51,320 --> 00:50:53,320
+Ahí está.
+
+963
+00:50:53,320 --> 00:50:55,320
+Cero me sigue cobrando.
+
+964
+00:50:55,320 --> 00:50:57,320
+Cero.
+
+965
+00:50:57,320 --> 00:50:59,320
+Porque estoy utilizando chat normal.
+
+966
+00:50:59,320 --> 00:51:01,320
+Pues no me ha hecho algo tan estético.
+
+967
+00:51:01,320 --> 00:51:03,320
+Ahora te puedo utilizar el flash.
+
+968
+00:51:03,320 --> 00:51:05,320
+Voy a ver.
+
+969
+00:51:05,320 --> 00:51:07,320
+Aquí voy a ver si están trabajando ustedes.
+
+970
+00:51:07,320 --> 00:51:09,320
+Porque esto me tiene que generar varios.
+
+971
+00:51:09,320 --> 00:51:11,320
+Penpoints.
+
+972
+00:51:11,320 --> 00:51:13,320
+Voy a actualizar.
+
+973
+00:51:13,320 --> 00:51:15,320
+Vamos a ver si están trabajando.
+
+974
+00:51:15,320 --> 00:51:17,320
+Ya.
+
+975
+00:51:17,320 --> 00:51:19,320
+Ya hay dos personas.
+
+976
+00:51:19,320 --> 00:51:21,320
+Pero nadie más.
+
+977
+00:51:21,320 --> 00:51:23,320
+Dos requests.
+
+978
+00:51:23,320 --> 00:51:25,320
+Aquí están.
+
+979
+00:51:25,320 --> 00:51:27,320
+259 tokens.
+
+980
+00:51:27,320 --> 00:51:29,320
+Esos míos.
+
+981
+00:51:29,320 --> 00:51:31,320
+A ver una vez más.
+
+982
+00:51:31,320 --> 00:51:33,320
+Vamos a ver si están trabajando.
+
+983
+00:51:33,320 --> 00:51:35,320
+Ahí más.
+
+984
+00:51:35,320 --> 00:51:37,320
+Si están haciendo.
+
+985
+00:51:37,320 --> 00:51:39,320
+Está bien.
+
+986
+00:51:39,320 --> 00:51:41,320
+2578 tokens.
+
+987
+00:51:41,320 --> 00:51:43,320
+A ver una vez más.
+
+988
+00:51:43,320 --> 00:51:45,320
+Ahí se ha quedado.
+
+989
+00:51:45,320 --> 00:51:47,320
+Aquí hay otros más.
+
+990
+00:51:47,320 --> 00:51:49,320
+Está bien.
+
+991
+00:51:49,320 --> 00:51:51,320
+Ya están trabajando.
+
+992
+00:51:51,320 --> 00:51:53,320
+Pero si están en cuenta no gasta.
+
+993
+00:51:53,320 --> 00:51:55,320
+Ahora voy a utilizar el modo.
+
+994
+00:51:55,320 --> 00:51:57,320
+Modo.
+
+995
+00:51:57,320 --> 00:51:59,320
+Modo.
+
+996
+00:51:59,320 --> 00:52:01,320
+Modo monstruo.
+
+997
+00:52:01,320 --> 00:52:03,320
+Ya.
+
+998
+00:52:03,320 --> 00:52:05,320
+Aquí directamente.
+
+999
+00:52:05,320 --> 00:52:07,320
+Van a cambiarlo.
+
+1000
+00:52:07,320 --> 00:52:09,320
+Ah.
+
+1001
+00:52:09,320 --> 00:52:11,320
+Perdón.
+
+1002
+00:52:11,320 --> 00:52:13,320
+Esta parte chicos.
+
+1003
+00:52:13,320 --> 00:52:15,320
+El modelo.
+
+1004
+00:52:15,320 --> 00:52:17,320
+Veas.
+
+1005
+00:52:17,320 --> 00:52:19,320
+Este modelito.
+
+1006
+00:52:19,320 --> 00:52:21,320
+Esa es la parte que se hace.
+
+1007
+00:52:21,320 --> 00:52:23,320
+Como se escribe.
+
+1008
+00:52:23,320 --> 00:52:25,320
+Porque desaparece cuando eligen.
+
+1009
+00:52:25,320 --> 00:52:27,320
+De memoria.
+
+1010
+00:52:27,320 --> 00:52:29,320
+Deep seek.
+
+1011
+00:52:29,320 --> 00:52:31,320
+Espacio chat.
+
+1012
+00:52:31,320 --> 00:52:33,320
+Y los llevan a elegir.
+
+1013
+00:52:33,320 --> 00:52:35,320
+Voy a utilizar el flash.
+
+1014
+00:52:35,320 --> 00:52:37,320
+El pro.
+
+1015
+00:52:37,320 --> 00:52:39,320
+Vamos a ver qué tal con el pro.
+
+1016
+00:52:39,320 --> 00:52:41,320
+Lo voy a hacer.
+
+1017
+00:52:41,320 --> 00:52:43,320
+Y lo voy a ejecutar directamente.
+
+1018
+00:52:43,320 --> 00:52:45,320
+Lo ejecutamos.
+
+1019
+00:52:45,320 --> 00:52:47,320
+Vamos a ver cuál es su cambio.
+
+1020
+00:52:47,320 --> 00:52:49,320
+Pero hay que hacer varios entrenamientos.
+
+1021
+00:52:49,320 --> 00:52:51,320
+Para que mejore.
+
+1022
+00:52:51,320 --> 00:52:53,320
+Vamos a ver si la primera da.
+
+1023
+00:52:53,320 --> 00:52:55,320
+No he hecho el flash.
+
+1024
+00:52:55,320 --> 00:52:57,320
+El pro me ha dado buena interfaz.
+
+1025
+00:52:59,320 --> 00:53:01,320
+Vamos a ver si el otro no da.
+
+1026
+00:53:01,320 --> 00:53:03,320
+Pero van a ver que con este me va a cobrar dinero.
+
+1027
+00:53:07,320 --> 00:53:09,320
+Pero vamos a ver si realmente es.
+
+1028
+00:53:11,320 --> 00:53:13,320
+Que se llama.
+
+1029
+00:53:17,320 --> 00:53:19,320
+Voy a ver.
+
+1030
+00:53:19,320 --> 00:53:21,320
+Voy a ver acá.
+
+1031
+00:53:21,320 --> 00:53:23,320
+Vamos a ver.
+
+1032
+00:53:23,320 --> 00:53:25,320
+Este lapsen me envía otro.
+
+1033
+00:53:25,320 --> 00:53:27,320
+Ya.
+
+1034
+00:53:27,320 --> 00:53:29,320
+Me dio que ha mejorado.
+
+1035
+00:53:29,320 --> 00:53:31,320
+Algo.
+
+1036
+00:53:31,320 --> 00:53:33,320
+No es lo que espero.
+
+1037
+00:53:33,320 --> 00:53:35,320
+Pero obviamente le doy un pro bastante básico.
+
+1038
+00:53:35,320 --> 00:53:37,320
+Debería darle un pro más.
+
+1039
+00:53:37,320 --> 00:53:39,320
+Más específico.
+
+1040
+00:53:39,320 --> 00:53:41,320
+Y además bien.
+
+1041
+00:53:41,320 --> 00:53:43,320
+Como yo no le he hecho un pro directamente.
+
+1042
+00:53:43,320 --> 00:53:45,320
+Que le he delimitado.
+
+1043
+00:53:45,320 --> 00:53:47,320
+Me ha hecho cualquier pro.
+
+1044
+00:53:47,320 --> 00:53:49,320
+Por eso le quedan los pro.
+
+1045
+00:53:49,320 --> 00:53:51,320
+Porque aquí debería decirle.
+
+1046
+00:53:51,320 --> 00:53:53,320
+En mi prompt.
+
+1047
+00:53:53,320 --> 00:53:55,320
+Trabajame en este caso.
+
+1048
+00:53:55,320 --> 00:53:57,320
+De tal mente con qué.
+
+1049
+00:53:57,320 --> 00:53:59,320
+Ya.
+
+1050
+00:53:59,320 --> 00:54:01,320
+Eres un estente comercial.
+
+1051
+00:54:01,320 --> 00:54:03,320
+De venta de laptops.
+
+1052
+00:54:07,320 --> 00:54:09,320
+Laptops.
+
+1053
+00:54:09,320 --> 00:54:11,320
+En todos los modelos.
+
+1054
+00:54:11,320 --> 00:54:13,320
+Y además.
+
+1055
+00:54:13,320 --> 00:54:15,320
+Hacemos.
+
+1056
+00:54:15,320 --> 00:54:17,320
+Importaciones.
+
+1057
+00:54:19,320 --> 00:54:21,320
+Como nos ubicamos.
+
+1058
+00:54:23,320 --> 00:54:25,320
+En la paz.
+
+1059
+00:54:25,320 --> 00:54:27,320
+Cocha.
+
+1060
+00:54:27,320 --> 00:54:29,320
+Y Santa Cruz.
+
+1061
+00:54:29,320 --> 00:54:31,320
+Listo.
+
+1062
+00:54:31,320 --> 00:54:33,320
+Ya está.
+
+1063
+00:54:33,320 --> 00:54:35,320
+Eso debería de hacer.
+
+1064
+00:54:35,320 --> 00:54:37,320
+Aquí si tienen que delimitar ustedes al igual que los demás aspectos.
+
+1065
+00:54:37,320 --> 00:54:39,320
+Porque se está inventando.
+
+1066
+00:54:39,320 --> 00:54:41,320
+Está tomando como idea.
+
+1067
+00:54:41,320 --> 00:54:43,320
+La venta.
+
+1068
+00:54:43,320 --> 00:54:45,320
+La venta.
+
+1069
+00:54:45,320 --> 00:54:47,320
+Debe ser algo químico.
+
+1070
+00:54:47,320 --> 00:54:49,320
+Debe ser algo biológico.
+
+1071
+00:54:49,320 --> 00:54:51,320
+Ahora sí.
+
+1072
+00:54:51,320 --> 00:54:53,320
+Haremos la siguiente fase.
+
+1073
+00:54:57,320 --> 00:54:59,320
+Ya.
+
+1074
+00:54:59,320 --> 00:55:01,320
+Ahora vamos a conocer.
+
+1075
+00:55:01,320 --> 00:55:03,320
+Lo que son merges.
+
+1076
+00:55:03,320 --> 00:55:05,320
+Que son los merges.
+
+1077
+00:55:05,320 --> 00:55:07,320
+¿Alguien quería hablar?
+
+1078
+00:55:11,320 --> 00:55:13,320
+Ya voy a entrar.
+
+1079
+00:55:13,320 --> 00:55:15,320
+Listo.
+
+1080
+00:55:15,320 --> 00:55:17,320
+Y lo ejecutan directamente.
+
+1081
+00:55:17,320 --> 00:55:19,320
+Vamos a ver qué me da.
+
+1082
+00:55:19,320 --> 00:55:21,320
+Ya está ya me enviado.
+
+1083
+00:55:21,320 --> 00:55:23,320
+¿Qué pasó?
+
+1084
+00:55:23,320 --> 00:55:25,320
+Bueno, una pregunta.
+
+1085
+00:55:25,320 --> 00:55:27,320
+Esa.
+
+1086
+00:55:27,320 --> 00:55:29,320
+Es el nodo de LLM Chain.
+
+1087
+00:55:29,320 --> 00:55:31,320
+¿Cuál es la diferencia?
+
+1088
+00:55:31,320 --> 00:55:33,320
+De colocar ahí una IA.
+
+1089
+00:55:33,320 --> 00:55:35,320
+Y colocarlo eso.
+
+1090
+00:55:35,320 --> 00:55:37,320
+Y colocar un agente.
+
+1091
+00:55:37,320 --> 00:55:39,320
+Ya.
+
+1092
+00:55:39,320 --> 00:55:41,320
+Bueno, la diferencia es que cuando trabajamos con LLM.
+
+1093
+00:55:41,320 --> 00:55:43,320
+Este nodo se puede eliminar.
+
+1094
+00:55:43,320 --> 00:55:45,320
+Y puedo meter otro tipo de.
+
+1095
+00:55:45,320 --> 00:55:47,320
+O puedo conjugarlo más agentes.
+
+1096
+00:55:47,320 --> 00:55:49,320
+Ahorita cuando trabajamos con IA.
+
+1097
+00:55:49,320 --> 00:55:51,320
+Este ahorita que estoy ahora manejándolo.
+
+1098
+00:55:51,320 --> 00:55:53,320
+Es como si fuera un modelo bien básico.
+
+1099
+00:55:53,320 --> 00:55:55,320
+Que no se puede considerar que fuera un agente.
+
+1100
+00:55:55,320 --> 00:55:57,320
+Ahora si esto lo elimino.
+
+1101
+00:55:57,320 --> 00:55:59,320
+Lo puedo añadir digamos agentes más avanzados.
+
+1102
+00:55:59,320 --> 00:56:01,320
+Ya.
+
+1103
+00:56:01,320 --> 00:56:03,320
+Esa es la única diferencia.
+
+1104
+00:56:03,320 --> 00:56:05,320
+Cuando utilices un blaze.
+
+1105
+00:56:05,320 --> 00:56:07,320
+El blaze es como un canal.
+
+1106
+00:56:07,320 --> 00:56:09,320
+Por eso me dice Chain.
+
+1107
+00:56:09,320 --> 00:56:11,320
+El LLM.
+
+1108
+00:56:11,320 --> 00:56:13,320
+Es un canal.
+
+1109
+00:56:13,320 --> 00:56:15,320
+Ahí lo puedo añadir más modelos.
+
+1110
+00:56:15,320 --> 00:56:17,320
+Aquí otro.
+
+1111
+00:56:17,320 --> 00:56:19,320
+Ahí es donde trabajan con agentes.
+
+1112
+00:56:19,320 --> 00:56:21,320
+Eso pueden hacer ustedes.
+
+1113
+00:56:21,320 --> 00:56:23,320
+Igual lo voy a tratar de hacer en la siguiente clase.
+
+1114
+00:56:23,320 --> 00:56:25,320
+Ya. No hay problema.
+
+1115
+00:56:25,320 --> 00:56:27,320
+Pero ese es el trabajo.
+
+1116
+00:56:27,320 --> 00:56:29,320
+Hay otro.
+
+1117
+00:56:29,320 --> 00:56:31,320
+Por ejemplo acá.
+
+1118
+00:56:31,320 --> 00:56:33,320
+Si se entra en la AI.
+
+1119
+00:56:33,320 --> 00:56:35,320
+Váyanse directamente.
+
+1120
+00:56:35,320 --> 00:56:37,320
+Ah.
+
+1121
+00:56:37,320 --> 00:56:39,320
+Aquí.
+
+1122
+00:56:39,320 --> 00:56:41,320
+Sumerization.
+
+1123
+00:56:41,320 --> 00:56:43,320
+Y aquí otro.
+
+1124
+00:56:43,320 --> 00:56:45,320
+Vamos a irnos acá.
+
+1125
+00:56:45,320 --> 00:56:47,320
+Aquí dice por ejemplo.
+
+1126
+00:56:47,320 --> 00:56:49,320
+Language models.
+
+1127
+00:56:49,320 --> 00:56:51,320
+Se van directamente a lo que son.
+
+1128
+00:56:51,320 --> 00:56:53,320
+Todos los modelos que puede soportar este LLM.
+
+1129
+00:56:53,320 --> 00:56:55,320
+Todos estos trabajos.
+
+1130
+00:56:55,320 --> 00:56:57,320
+Son lenguajes o modelos.
+
+1131
+00:56:57,320 --> 00:56:59,320
+Por ese caso.
+
+1132
+00:56:59,320 --> 00:57:01,320
+Estos lenguajes.
+
+1133
+00:57:01,320 --> 00:57:03,320
+Estos lenguajes.
+
+1134
+00:57:03,320 --> 00:57:05,320
+Modelos de lenguaje.
+
+1135
+00:57:05,320 --> 00:57:07,320
+Netamente son gratuitos.
+
+1136
+00:57:07,320 --> 00:57:09,320
+Cuando esto yo ya lo trabajo en base.
+
+1137
+00:57:09,320 --> 00:57:11,320
+A.
+
+1138
+00:57:11,320 --> 00:57:13,320
+Agentes.
+
+1139
+00:57:13,320 --> 00:57:15,320
+Y es lo que habíamos visto acá.
+
+1140
+00:57:15,320 --> 00:57:17,320
+Que tiene opciones para cambiarnos.
+
+1141
+00:57:17,320 --> 00:57:19,320
+Ahorita si hago que esto clique.
+
+1142
+00:57:19,320 --> 00:57:21,320
+Esto para mí es un lenguaje.
+
+1143
+00:57:21,320 --> 00:57:23,320
+El chat básico.
+
+1144
+00:57:23,320 --> 00:57:25,320
+Pero cuando ya le digo estoy a esos modelos de agente.
+
+1145
+00:57:25,320 --> 00:57:27,320
+Es la única diferencia.
+
+1146
+00:57:27,320 --> 00:57:29,320
+Unos gratuitos y otros.
+
+1147
+00:57:29,320 --> 00:57:31,320
+Estos son los que han visto ahorita.
+
+1148
+00:57:31,320 --> 00:57:33,320
+Todos es gratuito.
+
+1149
+00:57:33,320 --> 00:57:35,320
+Pero obviamente tienen que tener su cuenta.
+
+1150
+00:57:35,320 --> 00:57:37,320
+Y tienen que comprarse aunque dos dólares o cinco dólares.
+
+1151
+00:57:37,320 --> 00:57:39,320
+Porque los pide si o si para funcionar.
+
+1152
+00:57:39,320 --> 00:57:41,320
+Esa parte.
+
+1153
+00:57:41,320 --> 00:57:43,320
+Eso más que todo.
+
+1154
+00:57:43,320 --> 00:57:45,320
+Hagan pruebas chicos.
+
+1155
+00:57:45,320 --> 00:57:47,320
+Hagan pruebas.
+
+1156
+00:57:47,320 --> 00:57:49,320
+Creense.
+
+1157
+00:57:49,320 --> 00:57:51,320
+Y van a ver.
+
+1158
+00:57:51,320 --> 00:57:53,320
+Yo les recomiendo este.
+
+1159
+00:57:53,320 --> 00:57:55,320
+Language model.
+
+1160
+00:57:55,320 --> 00:57:57,320
+Yo les recomiendo de Antropiq.
+
+1161
+00:57:57,320 --> 00:57:59,320
+Y la de Azure.
+
+1162
+00:57:59,320 --> 00:58:01,320
+La de Azure les va a trabajar con bases de datos en la nube.
+
+1163
+00:58:01,320 --> 00:58:03,320
+Ya no con bases de datos locales.
+
+1164
+00:58:03,320 --> 00:58:05,320
+Y obviamente están los demás.
+
+1165
+00:58:05,320 --> 00:58:07,320
+El graco también es.
+
+1166
+00:58:07,320 --> 00:58:09,320
+Barato.
+
+1167
+00:58:09,320 --> 00:58:11,320
+Pero que todos estos hay que comprarse.
+
+1168
+00:58:11,320 --> 00:58:13,320
+Para que trabaja de manera gratuita.
+
+1169
+00:58:13,320 --> 00:58:15,320
+Nada más.
+
+1170
+00:58:15,320 --> 00:58:17,320
+Eso.
+
+1171
+00:58:17,320 --> 00:58:19,320
+Hay también vectorizados.
+
+1172
+00:58:19,320 --> 00:58:21,320
+Les voy a mostrar esta parte.
+
+1173
+00:58:21,320 --> 00:58:23,320
+Aparte de estos.
+
+1174
+00:58:23,320 --> 00:58:25,320
+Hay un supaba base.
+
+1175
+00:58:25,320 --> 00:58:27,320
+Supaba base.
+
+1176
+00:58:27,320 --> 00:58:29,320
+Supaba base.
+
+1177
+00:58:29,320 --> 00:58:31,320
+Es una base de datos SQL.
+
+1178
+00:58:31,320 --> 00:58:33,320
+Que trabaja en la nube y es gratuito.
+
+1179
+00:58:33,320 --> 00:58:35,320
+Hasta.
+
+1180
+00:58:35,320 --> 00:58:37,320
+3 a 4.
+
+1181
+00:58:37,320 --> 00:58:39,320
+Podes crearte gratuito.
+
+1182
+00:58:39,320 --> 00:58:41,320
+Vamos a hacer esto en la siguiente clase.
+
+1183
+00:58:41,320 --> 00:58:43,320
+Con su base de datos.
+
+1184
+00:58:43,320 --> 00:58:45,320
+Ya no en su computador.
+
+1185
+00:58:45,320 --> 00:58:47,320
+Si no.
+
+1186
+00:58:47,320 --> 00:58:49,320
+En acá.
+
+1187
+00:58:49,320 --> 00:58:51,320
+Y compós.
+
+1188
+00:58:51,320 --> 00:58:53,320
+Supaba base trabaja con pós.
+
+1189
+00:58:53,320 --> 00:58:55,320
+De hecho.
+
+1190
+00:58:55,320 --> 00:58:57,320
+Ahora si.
+
+1191
+00:58:57,320 --> 00:58:59,320
+Esta parte lo voy a eliminar.
+
+1192
+00:59:01,320 --> 00:59:03,320
+Haremos ahora merges.
+
+1193
+00:59:03,320 --> 00:59:05,320
+Acá van a escribir merges.
+
+1194
+00:59:05,320 --> 00:59:07,320
+Ahí estamos.
+
+1195
+00:59:07,320 --> 00:59:09,320
+Para que me sirve este.
+
+1196
+00:59:09,320 --> 00:59:11,320
+Este señor.
+
+1197
+00:59:11,320 --> 00:59:13,320
+Este señor.
+
+1198
+00:59:13,320 --> 00:59:15,320
+Puede añadirme.
+
+1199
+00:59:15,320 --> 00:59:17,320
+Monto de nodos más.
+
+1200
+00:59:17,320 --> 00:59:19,320
+Por ejemplo. Si quieren trabajar con más nodos.
+
+1201
+00:59:19,320 --> 00:59:21,320
+Y solamente aquí ven uno.
+
+1202
+00:59:21,320 --> 00:59:23,320
+Si quieren trabajar con más.
+
+1203
+00:59:23,320 --> 00:59:25,320
+Estarí que colocar.
+
+1204
+00:59:25,320 --> 00:59:27,320
+Y pueden añadir muchas otras cosas.
+
+1205
+00:59:27,320 --> 00:59:29,320
+Demasiadas.
+
+1206
+00:59:29,320 --> 00:59:31,320
+Aquí pueden añadir bases de datos.
+
+1207
+00:59:31,320 --> 00:59:33,320
+Pueden añadir archivos.
+
+1208
+00:59:33,320 --> 00:59:35,320
+Ahora te voy a hacer.
+
+1209
+00:59:35,320 --> 00:59:37,320
+Espero que me enganza el tiempo.
+
+1210
+00:59:37,320 --> 00:59:39,320
+Si no la siguiente.
+
+1211
+00:59:39,320 --> 00:59:41,320
+Vamos a continuar.
+
+1212
+00:59:41,320 --> 00:59:43,320
+Este lo voy a dejar acá.
+
+1213
+00:59:43,320 --> 00:59:45,320
+Y aquí.
+
+1214
+00:59:45,320 --> 00:59:47,320
+Voy a crearme lo que es un drive.
+
+1215
+00:59:47,320 --> 00:59:49,320
+Drive.
+
+1216
+00:59:49,320 --> 00:59:51,320
+Voy a irme a Google Drive.
+
+1217
+00:59:51,320 --> 00:59:53,320
+Y voy a irme directamente.
+
+1218
+00:59:53,320 --> 00:59:55,320
+Ahora.
+
+1219
+00:59:55,320 --> 00:59:57,320
+Yo creo que lo intenten tener la siguiente secuencia.
+
+1220
+00:59:57,320 --> 00:59:59,320
+Ya.
+
+1221
+00:59:59,320 --> 01:00:01,320
+La siguiente secuencia es obviamente.
+
+1222
+01:00:01,320 --> 01:00:03,320
+Yo lo estoy enviando.
+
+1223
+01:00:03,320 --> 01:00:05,320
+Si se ve un documento y te ha actualizado mi prom.
+
+1224
+01:00:05,320 --> 01:00:07,320
+Ya mejorado.
+
+1225
+01:00:07,320 --> 01:00:09,320
+Ya me da ahora.
+
+1226
+01:00:09,320 --> 01:00:11,320
+Laptops.
+
+1227
+01:00:11,320 --> 01:00:13,320
+Todo esos aspectos.
+
+1228
+01:00:13,320 --> 01:00:15,320
+Pero ahora esto para un cliente.
+
+1229
+01:00:15,320 --> 01:00:17,320
+Imagínense.
+
+1230
+01:00:17,320 --> 01:00:19,320
+Pero el cual es el punto.
+
+1231
+01:00:19,320 --> 01:00:21,320
+Yo no le puedo enviar.
+
+1232
+01:00:21,320 --> 01:00:23,320
+Si yo tengo más de 2.000 artículos.
+
+1233
+01:00:23,320 --> 01:00:25,320
+O productos.
+
+1234
+01:00:25,320 --> 01:00:27,320
+Yo no le puedo enviar todo acá.
+
+1235
+01:00:27,320 --> 01:00:29,320
+Imagínense.
+
+1236
+01:00:29,320 --> 01:00:31,320
+Que va a tener que leer.
+
+1237
+01:00:31,320 --> 01:00:33,320
+Y le va a ser bien aburrido al cliente.
+
+1238
+01:00:33,320 --> 01:00:35,320
+Y no tengo que dar.
+
+1239
+01:00:35,320 --> 01:00:37,320
+Entonces un catálogo.
+
+1240
+01:00:37,320 --> 01:00:39,320
+El catálogo se envía por PDF.
+
+1241
+01:00:39,320 --> 01:00:41,320
+Por Excel.
+
+1242
+01:00:41,320 --> 01:00:43,320
+No sé.
+
+1243
+01:00:43,320 --> 01:00:45,320
+Como ustedes lo vean necesario.
+
+1244
+01:00:45,320 --> 01:00:47,320
+Pero siempre lo más adecuado.
+
+1245
+01:00:47,320 --> 01:00:49,320
+A nivel negocio.
+
+1246
+01:00:49,320 --> 01:00:51,320
+Siempre se enviar de manera concreta.
+
+1247
+01:00:51,320 --> 01:00:53,320
+Directa.
+
+1248
+01:00:53,320 --> 01:00:55,320
+Y lo que más.
+
+1249
+01:00:55,320 --> 01:00:57,320
+Se abulicioso de nuestro negocio.
+
+1250
+01:00:57,320 --> 01:00:59,320
+Pero lo demás no me interesa.
+
+1251
+01:00:59,320 --> 01:01:01,320
+Lo demás es más mi producto.
+
+1252
+01:01:01,320 --> 01:01:03,320
+Entonces eso por si acaso.
+
+1253
+01:01:03,320 --> 01:01:05,320
+En su proyecto.
+
+1254
+01:01:05,320 --> 01:01:07,320
+Que se pasa a ver.
+
+1255
+01:01:07,320 --> 01:01:09,320
+El proyecto que tienen que verme.
+
+1256
+01:01:09,320 --> 01:01:11,320
+En el documento que tienen que seguir.
+
+1257
+01:01:11,320 --> 01:01:13,320
+Como base principal de APA.
+
+1258
+01:01:13,320 --> 01:01:15,320
+No me pueden generar acá.
+
+1259
+01:01:15,320 --> 01:01:17,320
+Digamos.
+
+1260
+01:01:17,320 --> 01:01:19,320
+Productos.
+
+1261
+01:01:19,320 --> 01:01:21,320
+Se ve feo.
+
+1262
+01:01:21,320 --> 01:01:23,320
+Más que feo.
+
+1263
+01:01:23,320 --> 01:01:25,320
+Entonces anteriormente.
+
+1264
+01:01:25,320 --> 01:01:27,320
+Ya tenían aquí cargado.
+
+1265
+01:01:27,320 --> 01:01:29,320
+Su documento.
+
+1266
+01:01:29,320 --> 01:01:31,320
+Yo le he cargado acá.
+
+1267
+01:01:31,320 --> 01:01:33,320
+Ya.
+
+1268
+01:01:33,320 --> 01:01:35,320
+Como ya lo han cargado acá.
+
+1269
+01:01:35,320 --> 01:01:37,320
+Vamos a los siguientes.
+
+1270
+01:01:37,320 --> 01:01:39,320
+Catálogos.
+
+1271
+01:01:39,320 --> 01:01:41,320
+Van a compartir.
+
+1272
+01:01:41,320 --> 01:01:43,320
+Y van a colocar.
+
+1273
+01:01:43,320 --> 01:01:45,320
+En tipo.
+
+1274
+01:01:45,320 --> 01:01:47,320
+Cualquier usar que tenga el vínculo.
+
+1275
+01:01:47,320 --> 01:01:49,320
+Y ahí lo van a dejar.
+
+1276
+01:01:49,320 --> 01:01:51,320
+Como lector.
+
+1277
+01:01:51,320 --> 01:01:53,320
+Y copian su vínculo.
+
+1278
+01:01:53,320 --> 01:01:55,320
+Listo.
+
+1279
+01:01:55,320 --> 01:01:57,320
+Ese vínculo.
+
+1280
+01:01:57,320 --> 01:01:59,320
+No se olviden.
+
+1281
+01:01:59,320 --> 01:02:01,320
+No se olviden de ese vínculo.
+
+1282
+01:02:01,320 --> 01:02:03,320
+Traten de hacerlo acá.
+
+1283
+01:02:03,320 --> 01:02:05,320
+En un blog de notas.
+
+1284
+01:02:05,320 --> 01:02:07,320
+Y siempre guardense.
+
+1285
+01:02:07,320 --> 01:02:09,320
+Lo más importante.
+
+1286
+01:02:09,320 --> 01:02:11,320
+Es para mi.
+
+1287
+01:02:11,320 --> 01:02:13,320
+Mi enlace.
+
+1288
+01:02:13,320 --> 01:02:15,320
+Este enlace.
+
+1289
+01:02:15,320 --> 01:02:17,320
+Del PDF que estoy enviando.
+
+1290
+01:02:17,320 --> 01:02:19,320
+Netamente.
+
+1291
+01:02:19,320 --> 01:02:21,320
+Mi interés es solamente este.
+
+1292
+01:02:21,320 --> 01:02:23,320
+Este es el código de acceso.
+
+1293
+01:02:23,320 --> 01:02:25,320
+Y el que va.
+
+1294
+01:02:25,320 --> 01:02:27,320
+Y el que es mi código general.
+
+1295
+01:02:27,320 --> 01:02:29,320
+Lo demás es.
+
+1296
+01:02:29,320 --> 01:02:31,320
+Links nomas.
+
+1297
+01:02:31,320 --> 01:02:33,320
+Es lo que me interesa.
+
+1298
+01:02:33,320 --> 01:02:35,320
+Una vez que genero esa parte.
+
+1299
+01:02:35,320 --> 01:02:37,320
+Voy a hacer lo siguiente.
+
+1300
+01:02:37,320 --> 01:02:39,320
+Perdón.
+
+1301
+01:02:39,320 --> 01:02:41,320
+Voy a decir.
+
+1302
+01:02:41,320 --> 01:02:43,320
+Entonces, qué quiero yo.
+
+1303
+01:02:43,320 --> 01:02:45,320
+El cliente.
+
+1304
+01:02:45,320 --> 01:02:47,320
+Me está.
+
+1305
+01:02:47,320 --> 01:02:49,320
+Tengo que cambiar un PDF.
+
+1306
+01:02:49,320 --> 01:02:51,320
+Yo no tengo que hablar con él.
+
+1307
+01:02:51,320 --> 01:02:53,320
+Yo no tengo que.
+
+1308
+01:02:53,320 --> 01:02:55,320
+Hablar.
+
+1309
+01:02:55,320 --> 01:02:57,320
+Modificar el PDF.
+
+1310
+01:02:57,320 --> 01:02:59,320
+Por eso hay un montón de aspectos.
+
+1311
+01:02:59,320 --> 01:03:01,320
+Dice.
+
+1312
+01:03:01,320 --> 01:03:03,320
+A mí me interesa.
+
+1313
+01:03:03,320 --> 01:03:05,320
+Que se descargue.
+
+1314
+01:03:05,320 --> 01:03:07,320
+Es.
+
+1315
+01:03:07,320 --> 01:03:09,320
+Directamente.
+
+1316
+01:03:09,320 --> 01:03:11,320
+Algo.
+
+1317
+01:03:11,320 --> 01:03:13,320
+Automáticamente.
+
+1318
+01:03:13,320 --> 01:03:15,320
+Se está añadiendo.
+
+1319
+01:03:15,320 --> 01:03:17,320
+Pero yo lo voy a eliminar.
+
+1320
+01:03:17,320 --> 01:03:19,320
+Esto no me interesa.
+
+1321
+01:03:19,320 --> 01:03:21,320
+Porque esto tiene que ir antes del modelo.
+
+1322
+01:03:21,320 --> 01:03:23,320
+Perdón.
+
+1323
+01:03:23,320 --> 01:03:25,320
+Porque voy a añadir eso.
+
+1324
+01:03:25,320 --> 01:03:27,320
+Listo.
+
+1325
+01:03:27,320 --> 01:03:29,320
+Pero a ver. Entraremos a la siguiente lógica.
+
+1326
+01:03:29,320 --> 01:03:31,320
+Está.
+
+1327
+01:03:31,320 --> 01:03:33,320
+Llenando el cliente.
+
+1328
+01:03:33,320 --> 01:03:35,320
+Me está enviando.
+
+1329
+01:03:35,320 --> 01:03:37,320
+Aquí está craneando la ida.
+
+1330
+01:03:37,320 --> 01:03:39,320
+Como responderle.
+
+1331
+01:03:39,320 --> 01:03:41,320
+Va a venir acá.
+
+1332
+01:03:41,320 --> 01:03:43,320
+Se dan cuenta que.
+
+1333
+01:03:43,320 --> 01:03:45,320
+Este.
+
+1334
+01:03:45,320 --> 01:03:47,320
+Está solo.
+
+1335
+01:03:47,320 --> 01:03:49,320
+No.
+
+1336
+01:03:49,320 --> 01:03:51,320
+No sabe a quién poder conectarse.
+
+1337
+01:03:51,320 --> 01:03:53,320
+Para entrar en.
+
+1338
+01:03:53,320 --> 01:03:55,320
+En trabajo.
+
+1339
+01:03:55,320 --> 01:03:57,320
+Que hago.
+
+1340
+01:03:57,320 --> 01:03:59,320
+Donde ya tengo que cranear.
+
+1341
+01:03:59,320 --> 01:04:01,320
+Dice.
+
+1342
+01:04:01,320 --> 01:04:03,320
+No.
+
+1343
+01:04:03,320 --> 01:04:05,320
+Con este punto.
+
+1344
+01:04:05,320 --> 01:04:07,320
+Con este.
+
+1345
+01:04:07,320 --> 01:04:09,320
+No se sabe.
+
+1346
+01:04:09,320 --> 01:04:11,320
+Lo más lógico sería que lo enlace con este.
+
+1347
+01:04:11,320 --> 01:04:13,320
+Ahí.
+
+1348
+01:04:13,320 --> 01:04:15,320
+Listo.
+
+1349
+01:04:15,320 --> 01:04:17,320
+Porque la ida va a ser.
+
+1350
+01:04:17,320 --> 01:04:19,320
+Como me está enviando.
+
+1351
+01:04:19,320 --> 01:04:21,320
+Estoy enviando el dato.
+
+1352
+01:04:21,320 --> 01:04:23,320
+También.
+
+1353
+01:04:23,320 --> 01:04:25,320
+Tengo que leer.
+
+1354
+01:04:25,320 --> 01:04:27,320
+Me está enviando el cliente.
+
+1355
+01:04:27,320 --> 01:04:29,320
+Para que yo pueda hacer ese proceso.
+
+1356
+01:04:29,320 --> 01:04:31,320
+No sé.
+
+1357
+01:04:31,320 --> 01:04:33,320
+En la lógica.
+
+1358
+01:04:33,320 --> 01:04:35,320
+Voy a hacer en base a lo siguiente.
+
+1359
+01:04:35,320 --> 01:04:37,320
+Voy a hacer doble que directamente a mi.
+
+1360
+01:04:37,320 --> 01:04:39,320
+Drive.
+
+1361
+01:04:39,320 --> 01:04:41,320
+Y le tengo que dar una credencia.
+
+1362
+01:04:41,320 --> 01:04:43,320
+Una nueva credencia.
+
+1363
+01:04:43,320 --> 01:04:45,320
+Y esa credencial.
+
+1364
+01:04:45,320 --> 01:04:47,320
+Que le tienen que dar.
+
+1365
+01:04:47,320 --> 01:04:49,320
+Es la misma.
+
+1366
+01:04:49,320 --> 01:04:51,320
+La misma.
+
+1367
+01:04:51,320 --> 01:04:53,320
+Que le han dado.
+
+1368
+01:04:53,320 --> 01:04:55,320
+A su correo.
+
+1369
+01:04:55,320 --> 01:04:57,320
+La misma.
+
+1370
+01:04:57,320 --> 01:04:59,320
+Voy a volver a enchar.
+
+1371
+01:04:59,320 --> 01:05:01,320
+No es acá.
+
+1372
+01:05:01,320 --> 01:05:03,320
+En.
+
+1373
+01:05:03,320 --> 01:05:05,320
+Google Cloud.
+
+1374
+01:05:05,320 --> 01:05:07,320
+Cuando hemos hecho Google Cloud.
+
+1375
+01:05:07,320 --> 01:05:09,320
+¿Se acuerdan que hemos habilitado
+
+1376
+01:05:09,320 --> 01:05:11,320
+también la parte de Drive?
+
+1377
+01:05:11,320 --> 01:05:13,320
+La hecho.
+
+1378
+01:05:13,320 --> 01:05:15,320
+Tienen que ver esto más.
+
+1379
+01:05:15,320 --> 01:05:17,320
+Entonces.
+
+1380
+01:05:17,320 --> 01:05:19,320
+Ya está anexado.
+
+1381
+01:05:19,320 --> 01:05:21,320
+No es necesario.
+
+1382
+01:05:21,320 --> 01:05:23,320
+Vienen acá.
+
+1383
+01:05:23,320 --> 01:05:25,320
+Van a verificar.
+
+1384
+01:05:25,320 --> 01:05:27,320
+Van a irse a piz y servicios habilitados.
+
+1385
+01:05:27,320 --> 01:05:29,320
+Hacen click ahí.
+
+1386
+01:05:29,320 --> 01:05:31,320
+Y directamente debería de verse.
+
+1387
+01:05:31,320 --> 01:05:33,320
+Ese aspecto.
+
+1388
+01:05:33,320 --> 01:05:35,320
+Ahí.
+
+1389
+01:05:35,320 --> 01:05:37,320
+Ya habilitado.
+
+1390
+01:05:37,320 --> 01:05:39,320
+Aquí está.
+
+1391
+01:05:39,320 --> 01:05:41,320
+Está habilitado Google Drive.
+
+1392
+01:05:41,320 --> 01:05:43,320
+Está activado.
+
+1393
+01:05:43,320 --> 01:05:45,320
+Y fíjense cuántos.
+
+1394
+01:05:45,320 --> 01:05:47,320
+La tengo en ciudad.
+
+1395
+01:05:47,320 --> 01:05:49,320
+Cuántas solicitudes he generado.
+
+1396
+01:05:49,320 --> 01:05:51,320
+Y ya está.
+
+1397
+01:05:51,320 --> 01:05:53,320
+Y pueden habilitar más.
+
+1398
+01:05:53,320 --> 01:05:55,320
+También está habilitado Google Sheet.
+
+1399
+01:05:55,320 --> 01:05:57,320
+Está habilitado los tres.
+
+1400
+01:05:57,320 --> 01:05:59,320
+Eso verifiquen.
+
+1401
+01:05:59,320 --> 01:06:01,320
+Ya.
+
+1402
+01:06:01,320 --> 01:06:03,320
+Ahora si no está.
+
+1403
+01:06:03,320 --> 01:06:05,320
+Ya saben.
+
+1404
+01:06:05,320 --> 01:06:07,320
+Vienen a habilitar servicios.
+
+1405
+01:06:07,320 --> 01:06:09,320
+Y ahí van a colocar Google Drive.
+
+1406
+01:06:09,320 --> 01:06:11,320
+Y ahí les van a habitar.
+
+1407
+01:06:11,320 --> 01:06:13,320
+Y le van a activar.
+
+1408
+01:06:13,320 --> 01:06:15,320
+Nada más.
+
+1409
+01:06:15,320 --> 01:06:17,320
+Si es que no lo tienen.
+
+1410
+01:06:17,320 --> 01:06:19,320
+Pero ahí lo vamos a echar anteriormente en Google Cloud.
+
+1411
+01:06:19,320 --> 01:06:21,320
+Ya.
+
+1412
+01:06:21,320 --> 01:06:23,320
+Ahí lo voy a dar s tow la memoria.
+
+1413
+01:06:23,320 --> 01:06:47,240
+Las Brasil me han
+
+1414
+01:06:47,240 --> 01:06:49,240
+de ver en Google.
+
+1415
+01:06:49,240 --> 01:06:52,440
+ya no me compió esta
+
+1416
+01:06:55,640 --> 01:07:00,120
+no voy a hacer y la piquilla la clave yo lo tengo a ver
+
+1417
+01:07:01,320 --> 01:07:09,760
+ya entonces acá google drive account creo que esto es lo que me creen me hecho la credencial
+
+1418
+01:07:09,760 --> 01:07:16,600
+pero voy a ver si está bien hace increíble y ahí está ven es la misma a voy a pegarle mi blog
+
+1419
+01:07:16,600 --> 01:07:24,520
+aquí está credencial y me está mi clave secreta y mi id pero en este caso vos es de mí
+
+1420
+01:07:24,520 --> 01:07:33,720
+ven esa está lo mismo y aquí está mi lo mismo que acá nada más estoy copiando y mi clave secreta
+
+1421
+01:07:34,920 --> 01:07:40,880
+lo copia y hasta de mí conectado lo colocan caby hasta cautela con conector los van a decir nada
+
+1422
+01:07:40,880 --> 01:07:43,840
+más la dan y es el contador y listo si es que les pide
+
+1423
+01:07:45,680 --> 01:07:52,640
+y una vez que se han conectado en este caso chicos tienen que aquí trabajar en lo siguiente
+
+1424
+01:07:52,640 --> 01:07:58,960
+en las demás operaciones bien aquí siempre se van a elegir dolan porque tenés que descargar
+
+1425
+01:07:58,960 --> 01:08:07,880
+a dolan algunas vas a ir copi por defecto otros van a elegir dolan y aquí en sus ors van a elegir
+
+1426
+01:08:07,880 --> 01:08:13,760
+siempre file o folder ya esto me indica en qué posición está pero en este caso file voy a dejar
+
+1427
+01:08:13,760 --> 01:08:21,440
+por defecto ya cuando hagan eso aquí automáticamente los va a detectar qué archivos hay mira acá ya me
+
+1428
+01:08:21,440 --> 01:08:28,480
+apareció catálogo laptops 20 26 listó entramos ahí y hasta conectar
+
+1429
+01:08:30,920 --> 01:08:34,480
+eso ya lo pueden ejecutar lo ejecuta
+
+1430
+01:08:38,720 --> 01:08:45,280
+y directamente ya está ahora esta parte base de su siguiente captura de ustedes
+
+1431
+01:08:48,040 --> 01:08:56,000
+y este de ira es un código binario el de ira que me aparece ahí necesariamente trabaja con
+
+1432
+01:08:56,000 --> 01:09:00,400
+binarios ahorita os voy a explicar por qué trabaja con binarios voy a colocar acá
+
+1433
+01:09:01,400 --> 01:09:09,440
+esto captura número cinco voy a colocar y que sea conexión a dry
+
+1434
+01:09:13,800 --> 01:09:14,360
+dry
+
+1435
+01:09:18,920 --> 01:09:22,960
+listo voy a hacer lo siguiente ahora que fíjense esto
+
+1436
+01:09:23,680 --> 01:09:28,800
+me morí sens no me molestan sensuéndose ven que si es y le sale de ira
+
+1437
+01:09:29,960 --> 01:09:35,400
+aquí dice binario si se dan cuenta voy a ir más que más es eso a ceebol es eso
+
+1438
+01:09:35,400 --> 01:09:43,720
+jason es eso pero yo vivimos como binario lo voy a cerrar si se dan cuenta ya se ha conectado
+
+1439
+01:09:44,520 --> 01:09:52,720
+paralelamente el march me voy a ir ahí y voy a hacer lo siguiente dentro de march ahí tienen que
+
+1440
+01:09:52,880 --> 01:10:00,000
+trabajar de manera un poquito más específica ya porque el mesh base en muchas cositas que
+
+1441
+01:10:00,000 --> 01:10:08,400
+la larga quizás no si no hago bien no se va a concretar ya estamos metiendo dos entradas no
+
+1442
+01:10:08,400 --> 01:10:17,840
+vea dos inputs apente dice aquí voy a hacer combina vamos a combinar acá si o si vamos a
+
+1443
+01:10:18,000 --> 01:10:24,960
+combinar porque combina porque estamos combinando ambos aspectos de mi sistema ya una vez que
+
+1444
+01:10:24,960 --> 01:10:33,680
+estén combinando ahí aquí que dice felt a más no es tan necesario esto a no ser que dice
+
+1445
+01:10:37,680 --> 01:10:46,720
+ahí lo dejan haber march en faz posición lo voy a dejar como por defecto y entonces lo ejecutan
+
+1446
+01:10:46,720 --> 01:10:54,840
+si es posible vamos a ver si aquí dice chine te deslelas pero el son más allá entran caban a colocar
+
+1447
+01:10:57,560 --> 01:10:59,120
+posición ya
+
+1448
+01:11:00,440 --> 01:11:07,320
+ahí lo dejan en posición a los ejecutor y hasta posición lo van a dejar porque otro va a
+
+1449
+01:11:07,320 --> 01:11:14,800
+combinar y no nos conviene que combine la y se va a buguear y ahí lo dejan y listo ya está
+
+1450
+01:11:14,800 --> 01:11:23,680
+conectado y este ya funciona pero acá digamos que bueno se doble clica ahí está ya está viniendo
+
+1451
+01:11:23,680 --> 01:11:35,080
+la combinación ahora si podemos ejecutar voy a irme acá y voy a hacer lo siguiente ahora voy a venir acá
+
+1452
+01:11:36,080 --> 01:11:41,160
+y este ya me ha enviado voy a irme a mi
+
+1453
+01:11:43,560 --> 01:11:44,400
+gmail
+
+1454
+01:11:46,520 --> 01:11:47,800
+voy a actuar y solo
+
+1455
+01:11:50,840 --> 01:11:51,880
+ya me llega
+
+1456
+01:11:53,320 --> 01:11:54,880
+y fíjense me da todo
+
+1457
+01:11:56,920 --> 01:12:02,000
+pero no me ha enviado todavía la que me envió a lo sobre todo información detallada
+
+1458
+01:12:02,000 --> 01:12:09,320
+vamos a ver esa parte de actualizar de nuevo vamos a ver vamos a ver algunos puntos ahorita
+
+1459
+01:12:12,200 --> 01:12:19,760
+a ver ya no me enviado vamos a lo siguiente vamos a ejecutar el prompt
+
+1460
+01:12:22,400 --> 01:12:27,840
+o vamos a ejecutarlo de nuevo porque aquí está ejecutándose solamente esta parte
+
+1461
+01:12:27,840 --> 01:12:34,000
+voy a revisar que más me faltaría posiciones ad option ah eso que me falta
+
+1462
+01:12:35,720 --> 01:12:37,720
+aquí donde dice send me shesh
+
+1463
+01:12:39,400 --> 01:12:46,800
+para el sabajo no estoy recibiendo esto de acá estoy recibiendo un código binario
+
+1464
+01:12:46,800 --> 01:12:56,960
+vamos a añadir ad option y voy a irme a touchments ya adentro y en attachments voy a añadirle
+
+1465
+01:12:56,960 --> 01:13:03,840
+ad attachment y lo voy a dejar si por defecto de ira porque este de ira es este se dan cuenta son
+
+1466
+01:13:03,840 --> 01:13:06,040
+datos binarios ahora si voy a ejecutar
+
+1467
+01:13:12,120 --> 01:13:15,440
+esperemos porque está craneando ahí estoy en el final de la vida más
+
+1468
+01:13:17,840 --> 01:13:19,320
+y ahí es para eso
+
+1469
+01:13:20,040 --> 01:13:28,720
+listo ya me enviado ahora se le puede ejecutar esto por muchas
+
+1470
+01:13:30,240 --> 01:13:33,680
+hay ese ejecutado obviamente mi doble doble
+
+1471
+01:13:36,680 --> 01:13:38,040
+ya vengo ahí
+
+1472
+01:13:43,040 --> 01:13:44,480
+ya ya me he llegado
+
+1473
+01:13:44,640 --> 01:13:51,880
+y ahí está dice catargo laptops
+
+1474
+01:13:53,880 --> 01:13:57,280
+entro y justamente me he enviado el pdf que yo no quiero
+
+1475
+01:13:59,280 --> 01:14:05,880
+ya eso es todo en esta parte si te chicos me van a enviar su screen porque es la salida que yo
+
+1476
+01:14:05,880 --> 01:14:13,040
+requiero para sus evaluaciones ya y eso va a ser la última captura de la clase de hoy
+
+1477
+01:14:14,480 --> 01:14:17,840
+captura número 6 resulta
+
+1478
+01:14:19,200 --> 01:14:20,200
+captura 6
+
+1479
+01:14:27,880 --> 01:14:29,800
+viste eso
+
+1480
+01:14:31,520 --> 01:14:43,240
+yo en la tarea de este 7 me van a añadir y el su pdf más ya se me van a anexar a parte
+
+1481
+01:14:43,240 --> 01:14:49,360
+del documento que me van a enviar con las capturas van a enviar su su catalogue más eso lo voy a hacer
+
+1482
+01:14:49,360 --> 01:14:54,680
+lo voy a crear ahorita con los con los requerimientos de la tarea de hoy ya así que no se preocupa para
+
+1483
+01:14:54,680 --> 01:14:58,680
+tarea de hoy nos voy a dar hasta la siguiente semana más y a partir de la siguiente semana
+
+1484
+01:14:58,680 --> 01:15:05,000
+ya voy a vamos a trabajar de manera línea ya se si yo hago ustedes hacen y me envían hasta
+
+1485
+01:15:05,000 --> 01:15:10,320
+media noche ya que vamos a tener ya clases dentro de seis clases la siguiente día va a ser casi
+
+1486
+01:15:10,360 --> 01:15:14,240
+tocando rápidamente las cosas esa parte
+
+1487
+01:15:15,240 --> 01:15:20,200
+listo chicos en el último último captura me van a enviar todo esto ya eso más eso nos
+
+1488
+01:15:20,200 --> 01:15:26,640
+haremos próximos no piensas y esto me van a enviar por si acaso toda su pantalla es donde diga hora
+
+1489
+01:15:26,640 --> 01:15:36,800
+y fecha ya para verificar yo esa cosa captura número 7 creo que 7 7 captura 7
+
+1490
+01:15:40,320 --> 01:15:44,640
+listo hagan el esfuerzo de comprarse de psix y no es más barato que opiné
+
+1491
+01:15:46,480 --> 01:15:50,080
+no 20 pesos al costado y se va a servir bastante
+
+1492
+01:15:51,800 --> 01:15:57,800
+ya listo no se van a salir voy a tomar lista
+
+1493
+01:15:59,920 --> 01:16:04,040
+ahora la clase correspondiente de hoy ya demano ratito
+
+1494
+01:16:04,040 --> 01:16:11,020
+listo esto tengo que subir a la embajada así que no sé si es el
+
+1495
+01:16:11,020 --> 01:16:13,760
+muchisco cruz voy a sacar tres primero
+
+1496
+01:16:17,280 --> 01:16:21,800
+como hay lento mi interno se por cómo está bien lenta
+
+1497
+01:16:23,240 --> 01:16:27,960
+ya lista voy a venir acá y vamos a compartir esto también
+
+1498
+01:16:34,600 --> 01:16:38,440
+y ahora lo traeré a cojoto sus asistencias
+
+1499
+01:16:40,280 --> 01:16:42,800
+y última esto
+
+1500
+01:16:50,320 --> 01:16:52,640
+esto y por último
+
+1501
+01:16:53,960 --> 01:17:00,840
+sus asistencias a ver si ya voy a dejar de compartir y voy a ver sus asistencias
+
+1502
+01:17:00,840 --> 01:17:02,840
+y también un roto
+
+1503
+01:17:02,840 --> 01:17:06,280
+cuantos no se dejo hoy están 15
+
+1504
+01:17:08,160 --> 01:17:13,320
+ya mil disculpas por por su fereado pero si no nos vamos a largar nada
+
+1505
+01:17:14,640 --> 01:17:20,560
+y no es bueno como sabés correspondientes listo estos chicos ahí están todos
+
+1506
+01:17:20,560 --> 01:17:27,000
+todo así esto voy a dejar de compartir no se olviden los que acaban de ingresar
+
+1507
+01:17:27,720 --> 01:17:35,280
+los voy a volver a mostrar la fecha y terminamos bien bien fecha por por plataforma ya para que no
+
+1508
+01:17:35,280 --> 01:17:36,800
+se olvide pues de caso
+

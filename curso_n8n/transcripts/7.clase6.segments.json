@@ -1,0 +1,4219 @@
+{
+  "source": "7.clase6.mp4",
+  "language": "es",
+  "duration_seconds": 5008.96,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 7.04,
+      "text": "bueno en este caso para empezar la clase estoy haciendo correo directamente lo que es n8n con"
+    },
+    {
+      "id": 1,
+      "start": 7.04,
+      "end": 15.12,
+      "text": "npx n8n y voy a apretar la tecla o para que me habite otra instancia de mi local hostia"
+    },
+    {
+      "id": 2,
+      "start": 15.12,
+      "end": 21.12,
+      "text": "así que voy a esperar hasta un cacho y listo ya me está habilitando a mí y ya me habilitan"
+    },
+    {
+      "id": 3,
+      "start": 21.12,
+      "end": 31.12,
+      "text": "yo así que en base yo hoy día vamos a conocer o vamos a aplicar otro workflow y ese workflow va a"
+    },
+    {
+      "id": 4,
+      "start": 31.12,
+      "end": 36.52,
+      "text": "ser algo más interesante así que aplicamos otro workflow y aquí lo voy a colocar en este"
+    },
+    {
+      "id": 5,
+      "start": 36.52,
+      "end": 42.96,
+      "text": "caso en acá la parte de arriba voy a colocar clase número 6 y vamos a engrasar con open"
+    },
+    {
+      "id": 6,
+      "start": 42.96,
+      "end": 47.8,
+      "text": "y ahí y vamos a hacer nuestro primer sistema de negocio o sea o peña y"
+    },
+    {
+      "id": 7,
+      "start": 49.84,
+      "end": 55.42,
+      "text": "listo hacemos clic ahí y ahora voy a empezar a realizar lo siguiente bueno dentro de los"
+    },
+    {
+      "id": 8,
+      "start": 55.42,
+      "end": 61.32,
+      "text": "procesos de lo que es n8n si nos vamos acá anterior que le debíamos hecho algunas cosas no a ver"
+    },
+    {
+      "id": 9,
+      "start": 61.32,
+      "end": 66.84,
+      "text": "voy a ir a anterior clase de moca chito voy a irme a clases de envío con el electrónico esto"
+    },
+    {
+      "id": 10,
+      "start": 66.84,
+      "end": 74.24,
+      "text": "ya esto ya les funciona debería de funcionar les y a que también les ha enviado el vídeo"
+    },
+    {
+      "id": 11,
+      "start": 74.24,
+      "end": 80.44,
+      "text": "y bueno la última que lo que hicimos tal cual debería de estar ahí porque porque a partir de"
+    },
+    {
+      "id": 12,
+      "start": 80.44,
+      "end": 86.24,
+      "text": "esto yo voy a hacer los demás softwares y a los demás a pis así que esta parte sí o si tiene"
+    },
+    {
+      "id": 13,
+      "start": 86.24,
+      "end": 93.32,
+      "text": "que colar ya ahora voy a hacer en base a esto pero voy a ejecutar un nuevo ya voy a creer"
+    },
+    {
+      "id": 14,
+      "start": 93.32,
+      "end": 101.16,
+      "text": "o peña y voy a hacer lo siguiente antes a ver dónde está así yo arrancamos y vamos a entender"
+    },
+    {
+      "id": 15,
+      "start": 101.16,
+      "end": 110.12,
+      "text": "un poquito que es un webhook yo si vamos acá y aquí está aquí dice on webhook call algo clic"
+    },
+    {
+      "id": 16,
+      "start": 110.12,
+      "end": 116.92,
+      "text": "pero que me dice round of flow on resume http requests ya en este caso cuando les había"
+    },
+    {
+      "id": 17,
+      "start": 116.92,
+      "end": 122.4,
+      "text": "comentado en principios de clases o en principios de todo este curso les había hecho que si dominan"
+    },
+    {
+      "id": 18,
+      "start": 122.4,
+      "end": 130.44,
+      "text": "https le pues pueden enlace con cualquier cosa nueva y además existe dos tipos de http el http y el"
+    },
+    {
+      "id": 19,
+      "start": 130.44,
+      "end": 136.0,
+      "text": "https uno es de seguridad encryptada y otros sin seguridad encryptada cuando cuando ustedes han"
+    },
+    {
+      "id": 20,
+      "start": 136.0,
+      "end": 142.64,
+      "text": "ingresado a páginas webs y les dice seguro que quiere continuar entonces ahí es donde"
+    },
+    {
+      "id": 21,
+      "start": 142.64,
+      "end": 149.6,
+      "text": "generalmente nosotros aplicamos http no más pero en este caso cuando es una http ese y cuando tienen"
+    },
+    {
+      "id": 22,
+      "start": 149.6,
+      "end": 155.52,
+      "text": "ssh o sea algunos sistemas de certificaciones internas para autenticación ya no me pide ese"
+    },
+    {
+      "id": 23,
+      "start": 155.52,
+      "end": 161.64,
+      "text": "tipo de enlaces que si o si me que si o si me dicen no ve no si o si tienes que estás seguro está"
+    },
+    {
+      "id": 24,
+      "start": 161.64,
+      "end": 167.12,
+      "text": "seguro y me bota dos veces hasta tres veces incluso me de lanza armas o checks rojos para"
+    },
+    {
+      "id": 25,
+      "start": 167.12,
+      "end": 172.32,
+      "text": "vulnerabilidades y eso hay que evitarlo y cuando nosotros creamos un webcov interno de inercho"
+    },
+    {
+      "id": 26,
+      "start": 172.32,
+      "end": 176.48,
+      "text": "en e hay que evitar esos puntos porque a larga puede generar unos problemas con nuestros propios"
+    },
+    {
+      "id": 27,
+      "start": 176.48,
+      "end": 186.56,
+      "text": "clientes y así que hacemos que hay dentro de web y este web es como un oído va escuchando"
+    },
+    {
+      "id": 28,
+      "start": 186.56,
+      "end": 192.8,
+      "text": "por eso que dice lisa en fortes event o sea vamos a escuchar para cada evento que vamos a probar"
+    },
+    {
+      "id": 29,
+      "start": 192.8,
+      "end": 200.16,
+      "text": "ya en ese caso nosotros tenemos que analizar qué es lo que voy a hacer cómo lo voy a generar ahora"
+    },
+    {
+      "id": 30,
+      "start": 200.16,
+      "end": 207.04,
+      "text": "también esta parte es interesante http métodos son métodos del http pues en gret post delete"
+    },
+    {
+      "id": 31,
+      "start": 207.04,
+      "end": 214.2,
+      "text": "update hay montón en aquí por ejemplo estamos viendo unos cuantos el get el delete el hit el patch"
+    },
+    {
+      "id": 32,
+      "start": 214.2,
+      "end": 220.68,
+      "text": "el post del put ahora en este caso hay un programa que trabajamos bueno los desarrolladores más"
+    },
+    {
+      "id": 33,
+      "start": 220.68,
+      "end": 227.44,
+      "text": "lo trabajamos en wearable wearable o postman pero sé que nosotros la mayoría no sabe mucho de que"
+    },
+    {
+      "id": 34,
+      "start": 227.44,
+      "end": 231.76,
+      "text": "estoy hablando como desarrollador pero esto lo utilizamos casi siempre para hacer conexiones con"
+    },
+    {
+      "id": 35,
+      "start": 231.76,
+      "end": 238.6,
+      "text": "apis y para hacer consultas y realmente el sistema está enviando o recibiendo datos ya entonces nosotros"
+    },
+    {
+      "id": 36,
+      "start": 238.6,
+      "end": 244.44,
+      "text": "vamos a empezar primero con el get ahora cuando hablamos de que vamos a decepcionar algún tipo"
+    },
+    {
+      "id": 37,
+      "start": 244.44,
+      "end": 252.0,
+      "text": "de url ya en este caso voy a copiarme esto este orl que están viendo acá copiense a por si acaso"
+    },
+    {
+      "id": 38,
+      "start": 252.36,
+      "end": 258.96,
+      "text": "antes de empezar la clase bueno según el comunicado interno que me dijeron si o si tienen"
+    },
+    {
+      "id": 39,
+      "start": 258.96,
+      "end": 265.52,
+      "text": "que cumplir algunos puntos ya no se las tareas si o si pido que se olviden y se vayan acumulando"
+    },
+    {
+      "id": 40,
+      "start": 265.52,
+      "end": 275.16,
+      "text": "así que igual voy a hacer con ustedes mientras tanto vayan se abriendo esto y vamos a colocar"
+    },
+    {
+      "id": 41,
+      "start": 275.16,
+      "end": 285.52,
+      "text": "acá en este caso clase número 6 ya saben su nombre y van a colocar todo este aspecto y directamente"
+    },
+    {
+      "id": 42,
+      "start": 285.52,
+      "end": 296.64,
+      "text": "acabamos de conectar web hooks directamente perdón perdón perdón por así web hooks listo"
+    },
+    {
+      "id": 43,
+      "start": 297.64,
+      "end": 305.84,
+      "text": "ya en este caso voy a empezar a hacer lo siguiente ya voy a centrar esto y la altura uno"
+    },
+    {
+      "id": 44,
+      "start": 307.64,
+      "end": 314.44,
+      "text": "vamos a copiar los estitos ya voy a venir acá y voy a hacer lo siguiente esta parte hasta aquí"
+    },
+    {
+      "id": 45,
+      "start": 314.44,
+      "end": 320.8,
+      "text": "espero que lo tengan así que voy a copiarme esto y voy a pegar en mi bot"
+    },
+    {
+      "id": 46,
+      "start": 320.8,
+      "end": 328.84,
+      "text": "listo entonces esta parte lo primero que vamos a hacer nosotros es copiar la hora y vamos a copiar"
+    },
+    {
+      "id": 47,
+      "start": 330.32,
+      "end": 337.84,
+      "text": "la url es a huéreles de test o se va a hacer un test en primero para ver algo clic se copia"
+    },
+    {
+      "id": 48,
+      "start": 337.84,
+      "end": 343.76,
+      "text": "automáticamente ahora voy a hacer lo siguiente voy a escuchar el evento ya voy a ser lisa"
+    },
+    {
+      "id": 49,
+      "start": 343.76,
+      "end": 351.08,
+      "text": "y voy a abrirme otro navegador otro navegador que no sea mi cuenta de este pueden igual"
+    },
+    {
+      "id": 50,
+      "start": 351.08,
+      "end": 355.12,
+      "text": "manejar con su propia cuenta no hay problema pero mejor si es de otro para ver si realmente"
+    },
+    {
+      "id": 51,
+      "start": 355.12,
+      "end": 361.28,
+      "text": "funciona y está escuchando y me voy a abrir otra cuenta a ver de mi cuchito de google o de opera"
+    },
+    {
+      "id": 52,
+      "start": 361.28,
+      "end": 366.72,
+      "text": "lo que ustedes están manejando pero otro usuario yo estoy abriendo otro usuario yo voy a copiar"
+    },
+    {
+      "id": 53,
+      "start": 367.72,
+      "end": 374.84,
+      "text": "y fíjense dice aquí mensaje workflow was a start en ese aspecto dice que por hoy está inicializado"
+    },
+    {
+      "id": 54,
+      "start": 374.84,
+      "end": 381.84,
+      "text": "o así de inicializar ya y aquí si nos damos cuenta puedo observar cómo me da la respuesta"
+    },
+    {
+      "id": 55,
+      "start": 381.84,
+      "end": 389.28,
+      "text": "es mi get así funcionan los gets ya ahora qué es lo bueno de esto y a explicarles un poquito"
+    },
+    {
+      "id": 56,
+      "start": 389.28,
+      "end": 396.96,
+      "text": "interesante de esto no porque con esto yo puedo bañar sistemas porque al momento de que no se"
+    },
+    {
+      "id": 57,
+      "start": 396.96,
+      "end": 404.08,
+      "text": "se han visto cuando había una un mes creo que hace dos meses otros meses atrás estaban enviando"
+    },
+    {
+      "id": 58,
+      "start": 404.08,
+      "end": 409.88,
+      "text": "de la cárcel de palma sol y la cárcel de san pedra un montón de webhooks para robarles sus"
+    },
+    {
+      "id": 59,
+      "start": 409.88,
+      "end": 417.64,
+      "text": "inscripciones y poderles bañar los los correos internos y también las cuentas de bancunio más"
+    },
+    {
+      "id": 60,
+      "start": 417.64,
+      "end": 423.72,
+      "text": "que todo para robarles algún tipo de montos monetarios se ha hecho con esto porque en el"
+    },
+    {
+      "id": 61,
+      "start": 423.72,
+      "end": 430.32,
+      "text": "chanel lo pueden hacer quien sea y contar que tú entres a la url te van en todo y aquí yo ya tengo"
+    },
+    {
+      "id": 62,
+      "start": 430.32,
+      "end": 438.72,
+      "text": "digamos mis datos mis ubicaciones y donde desde qué equipo estoy más o menos entrando en 8n ya y"
+    },
+    {
+      "id": 63,
+      "start": 438.72,
+      "end": 446.68,
+      "text": "ahorita vamos a ser un ejemplo pero aquí tienen más que todo aquí dice params queries bodies y eso"
+    },
+    {
+      "id": 64,
+      "start": 446.72,
+      "end": 451.92,
+      "text": "voy a ver ahorita cómo lo vamos a trabajar por ejemplo si ahora vuelvo a actualizar acá"
+    },
+    {
+      "id": 65,
+      "start": 452.96,
+      "end": 459.12,
+      "text": "si lo actualizo miren ya no me dicen no me dicen que es me dicen un error 400 4 6 que no existe"
+    },
+    {
+      "id": 66,
+      "start": 459.12,
+      "end": 467.08,
+      "text": "porque porque obviamente mi lisa y hasta un webhook y hasta parado ya entonces si vuelvo a"
+    },
+    {
+      "id": 67,
+      "start": 467.08,
+      "end": 476.36,
+      "text": "clicar esto y vuelvo a actualizar esto debería de decir de nuevo a estar ya ahí está listo pero"
+    },
+    {
+      "id": 68,
+      "start": 476.36,
+      "end": 482.8,
+      "text": "aquí de nuevo se ha apagado nueve entonces esa partecita vamos a dar siguiente manera ahora para"
+    },
+    {
+      "id": 69,
+      "start": 482.8,
+      "end": 489.24,
+      "text": "que nosotros podamos entenderlo y saber qué es un query un query más que todo es un tipo de"
+    },
+    {
+      "id": 70,
+      "start": 489.24,
+      "end": 495.48,
+      "text": "bueno en informática se lo conoce como una pregunta una consulta más o menos y aquí le"
+    },
+    {
+      "id": 71,
+      "start": 495.48,
+      "end": 504.36,
+      "text": "vamos a hacer esto ya acá mismo al finalizar su código van a colocar bueno el símbolo de"
+    },
+    {
+      "id": 72,
+      "start": 504.36,
+      "end": 511.64,
+      "text": "interrogación y cuando se habilita la query van a colocar su nombre igual van a colocar mil"
+    },
+    {
+      "id": 73,
+      "start": 511.64,
+      "end": 521.84,
+      "text": "ton tantos tan si ya listo ahora sí ya entonces voy a volver a habilitar esto el local host internal"
+    },
+    {
+      "id": 74,
+      "start": 521.84,
+      "end": 529.08,
+      "text": "lisa y ahora va a estar escuchando ahora si nosotros vamos nos vamos a la plataforma y lo actualizo"
+    },
+    {
+      "id": 75,
+      "start": 530.2,
+      "end": 532.52,
+      "text": "ya está ahora voy a hacer lo siguiente"
+    },
+    {
+      "id": 76,
+      "start": 533.92,
+      "end": 537.92,
+      "text": "esta parte está medio que raro y te lo voy a modificar estos cierran la mejor"
+    },
+    {
+      "id": 77,
+      "start": 537.92,
+      "end": 544.24,
+      "text": "yo copié en ese de nuevo y van a ser lo siguiente ahora si sucede en acá de nuevo voy a hacerlo"
+    },
+    {
+      "id": 78,
+      "start": 544.64,
+      "end": 552.22,
+      "text": "listo voy a escucharlo por si acaso y vamos a hacer un símbolo escucho y ahora si van a"
+    },
+    {
+      "id": 79,
+      "start": 552.22,
+      "end": 561.32,
+      "text": "colocar eso sino de interrogación y en este caso voy a colocar nombre nombre mil ya"
+    },
+    {
+      "id": 80,
+      "start": 564.04,
+      "end": 570.84,
+      "text": "ya está entonces una vez que lo tengan hasta ahí si no se dan cuenta en la parte de acá dice"
+    },
+    {
+      "id": 81,
+      "start": 570.96,
+      "end": 576.56,
+      "text": "query nombre mil tan ese aspecto también va a ir a copiar y pegarlo"
+    },
+    {
+      "id": 82,
+      "start": 579.2,
+      "end": 583.68,
+      "text": "ya ahí vayan colocando su nombre de ustedes ya vayan haciendo el nombre de ustedes"
+    },
+    {
+      "id": 83,
+      "start": 586.12,
+      "end": 591.72,
+      "text": "ahora en la prueba es las voy dando un poquito de tiempo y en más eso voy a hacer darles una"
+    },
+    {
+      "id": 84,
+      "start": 592.84,
+      "end": 599.0,
+      "text": "un ejercicio que todos vamos a trabajar ya otros voy a pasar la lista por n8 en lo que"
+    },
+    {
+      "id": 85,
+      "start": 599.08,
+      "end": 601.76,
+      "text": "tocando anterior clase para tener lista de hoy"
+    },
+    {
+      "id": 86,
+      "start": 603.2,
+      "end": 610.32,
+      "text": "listo ya mientras tanto les explico algunos aspectos técnicos más dentro de no china ya"
+    },
+    {
+      "id": 87,
+      "start": 610.32,
+      "end": 618.28,
+      "text": "esta parte donde dice el pat el pat pueden ustedes modelarlo pueden en este caso diseñarlo en"
+    },
+    {
+      "id": 88,
+      "start": 618.28,
+      "end": 623.72,
+      "text": "base a lo que ustedes quieran cada pat puede representar una función interna de un hueco"
+    },
+    {
+      "id": 89,
+      "start": 623.72,
+      "end": 629.52,
+      "text": "que se que significa eso un ejemplo cuando ustedes van al banco o cuando se han hecho una"
+    },
+    {
+      "id": 90,
+      "start": 629.52,
+      "end": 637.88,
+      "text": "transacción ya se dan cuenta que les se han hecho no transición de bnb por ejemplo porque a lo"
+    },
+    {
+      "id": 91,
+      "start": 637.88,
+      "end": 645.44,
+      "text": "que sé y a lo que tengo en bancos no me da un hueco en bnb si me da si ustedes hacen una transacción"
+    },
+    {
+      "id": 92,
+      "start": 645.44,
+      "end": 654.12,
+      "text": "en bnb con no sé con ya pe con mero etcétera en la parte superior de su celular les sale un mensaje"
+    },
+    {
+      "id": 93,
+      "start": 654.12,
+      "end": 659.72,
+      "text": "que la transacción ha sido validada o usted ha recibido el monto de 800 bolvianos no sé con"
+    },
+    {
+      "id": 94,
+      "start": 659.72,
+      "end": 667.84,
+      "text": "ejemplo x entonces ese tipo de web hook está parametrizado por un determinado pat y cada pat"
+    },
+    {
+      "id": 95,
+      "start": 667.84,
+      "end": 674.8,
+      "text": "tiene un de una determinada tarea el mismo web puede tener varios pat con ese con ese mismo web"
+    },
+    {
+      "id": 96,
+      "start": 674.8,
+      "end": 682.92,
+      "text": "hook pueden lanzarnos transacciones a la vez pueden lanzarnos en este caso pagos si estoy pagando"
+    },
+    {
+      "id": 97,
+      "start": 682.92,
+      "end": 692.16,
+      "text": "por cuera una a una empresa le pago y me va danza web hook alertas alarmas jueguitos no sé por"
+    },
+    {
+      "id": 98,
+      "start": 692.16,
+      "end": 698.56,
+      "text": "ejemplo duolingo se dan cuenta duolingo es bastante interesante porque en duolingo cuando ustedes por"
+    },
+    {
+      "id": 99,
+      "start": 698.56,
+      "end": 704.24,
+      "text": "ejemplo a mí en mi caso ahorita me dice ya no tienes protector milton me dice entonces porque"
+    },
+    {
+      "id": 100,
+      "start": 704.24,
+      "end": 709.36,
+      "text": "ayer ya no jugaba olvidado así que ya tendría que jugar en ese web hook están viendo en su pantalla"
+    },
+    {
+      "id": 101,
+      "start": 709.36,
+      "end": 717.96,
+      "text": "de duolingo los que los tiene manejando o lingo así trabaja con pat sin términos ya y todos supuestamente"
+    },
+    {
+      "id": 102,
+      "start": 717.96,
+      "end": 725.48,
+      "text": "con web hook un montón de cosas y entonces hay uno que se ya si entonces web hook es más"
+    },
+    {
+      "id": 103,
+      "start": 725.48,
+      "end": 732.56,
+      "text": "como una notificación exacto y una notificación pero que está enlazado toda la red y es interesante"
+    },
+    {
+      "id": 104,
+      "start": 732.72,
+      "end": 740.6,
+      "text": "con ozo marahá ahorita ya otro caso interesante web de web hook es cuando ustedes por ejemplo a ver"
+    },
+    {
+      "id": 105,
+      "start": 740.6,
+      "end": 747.16,
+      "text": "si se dan cuenta hay transacciones de algunos bancos por ejemplo el banco visa y veces me tarda"
+    },
+    {
+      "id": 106,
+      "start": 747.16,
+      "end": 753.88,
+      "text": "30 segundos en darme una notificación eso es porque porque generalmente los web hook que"
+    },
+    {
+      "id": 107,
+      "start": 753.88,
+      "end": 760.48,
+      "text": "ellos tienen son estáticas y la mayoría de los bancos actuales tienen web hooks dinámicos y"
+    },
+    {
+      "id": 108,
+      "start": 760.48,
+      "end": 765.72,
+      "text": "los referimientos que significa que el tiempo es mucho menor incluso les podría comentar que"
+    },
+    {
+      "id": 109,
+      "start": 765.72,
+      "end": 772.32,
+      "text": "web hooks que pueden tardar años como quien generalmente los servidores de amazon web service"
+    },
+    {
+      "id": 110,
+      "start": 772.32,
+      "end": 778.8,
+      "text": "o ebbs generalmente tardan un año su web hook en automatizar y en actualizar todos sus servidores"
+    },
+    {
+      "id": 111,
+      "start": 778.8,
+      "end": 785.96,
+      "text": "cerrando anualmente la gestión eso es eso ya se puede incluso automatizar ya así que no"
+    },
+    {
+      "id": 112,
+      "start": 785.96,
+      "end": 790.64,
+      "text": "solamente es de en hecho en un web hook es de cualquier tipo de frameworks que ustedes pueden"
+    },
+    {
+      "id": 113,
+      "start": 790.64,
+      "end": 796.96,
+      "text": "trabajar pero en hecho en ella lo tiene internamente configurado y es lo más y es lo mejor y lo más"
+    },
+    {
+      "id": 114,
+      "start": 796.96,
+      "end": 801.52,
+      "text": "fácil porque lo tenemos a la mano y podemos manipularlo fácilmente sin estar codificando ya"
+    },
+    {
+      "id": 115,
+      "start": 801.52,
+      "end": 809.84,
+      "text": "eso ahora si trabajando aleatoriamente paralelamente voy a abrir metrón cmed y hagan ya saben que"
+    },
+    {
+      "id": 116,
+      "start": 809.84,
+      "end": 816.8,
+      "text": "se vamos a abrir telenguac para hacer lo siguiente de ahí también lo voy a buscarme una carpetita"
+    },
+    {
+      "id": 117,
+      "start": 816.8,
+      "end": 824.88,
+      "text": "ya saben cómo se trabaja esto ahí te estoy mi carpetita de instaladores acá ya voy a minimizar"
+    },
+    {
+      "id": 118,
+      "start": 824.88,
+      "end": 830.8,
+      "text": "un poco ya saben a esta parte voy a repetir una vez más control se bien acá van a acercarse de"
+    },
+    {
+      "id": 119,
+      "start": 830.8,
+      "end": 837.56,
+      "text": "listo ahora para habilitar esto ya les había comentado que ustedes tienen que estén grabado"
+    },
+    {
+      "id": 120,
+      "start": 837.56,
+      "end": 845.12,
+      "text": "o guardado su token del del en grac para no estar cada rato yendo la página y volviendo a copiar"
+    },
+    {
+      "id": 121,
+      "start": 845.12,
+      "end": 853.64,
+      "text": "ya en mi caso ya saben en este caso van a colocar en rock directamente con fic y espacio ad"
+    },
+    {
+      "id": 122,
+      "start": 854.24,
+      "end": 863.12,
+      "text": "llanto que autóquen yo listo y lo voy a copiar mi mi código"
+    },
+    {
+      "id": 123,
+      "start": 865.84,
+      "end": 872.12,
+      "text": "esto lo copia y lo veo y hasta ah y me dice si me dice eso de negado ya te deshabe"
+    },
+    {
+      "id": 124,
+      "start": 872.12,
+      "end": 878.0,
+      "text": "no escuchado ahorita no se ha escuchado pero también ha dicho mi abaz que tengo que tener"
+    },
+    {
+      "id": 125,
+      "start": 878.0,
+      "end": 884.76,
+      "text": "cuidado así que lo voy a desactivar 10 minutitos listo ya lo se desactivado y voy a probar de nuevo"
+    },
+    {
+      "id": 126,
+      "start": 886.4,
+      "end": 891.04,
+      "text": "y hasta ahora si ya no va a decir y les va a decir a otro site no es lo que me interesa"
+    },
+    {
+      "id": 127,
+      "start": 891.84,
+      "end": 898.48,
+      "text": "ya esperamos un poco y lo más olvidado aquí en el mío ahora si ya dice entonces como ya me dice"
+    },
+    {
+      "id": 128,
+      "start": 898.48,
+      "end": 903.64,
+      "text": "autóquen site de configuración ahora de siempre aplicar en en grac"
+    },
+    {
+      "id": 129,
+      "start": 905.8,
+      "end": 917.48,
+      "text": "y el puerto de esto es 5678 5678 listo y hasta entonces ahora si hasta ahí espero que lo tengan"
+    },
+    {
+      "id": 130,
+      "start": 920.64,
+      "end": 928.44,
+      "text": "ahora si vamos a lo siguiente esta misma url que estoy ahorita colocándolo voy a copiarme"
+    },
+    {
+      "id": 131,
+      "start": 928.48,
+      "end": 934.68,
+      "text": "voy a abrir un blog de notas del cachito un blog de notas"
+    },
+    {
+      "id": 132,
+      "start": 937.08,
+      "end": 943.0,
+      "text": "voy a abrir un nuevo blog de notas y voy a pegar esto ya ahí voy a pegar mientras tanto también"
+    },
+    {
+      "id": 133,
+      "start": 943.0,
+      "end": 949.56,
+      "text": "voy a pegarme lo que es mi mi túnel yo me pido copio esto y lo voy a pegar acá"
+    },
+    {
+      "id": 134,
+      "start": 950.2,
+      "end": 958.92,
+      "text": "ya está esto para no olvidarme luego ya entonces ya saben de esta parte lo van a eliminar hasta"
+    },
+    {
+      "id": 135,
+      "start": 958.92,
+      "end": 963.6,
+      "text": "acá donde dice webhook para no eliminar hasta y lo van a dejar y esta parte lo van a eliminar"
+    },
+    {
+      "id": 136,
+      "start": 963.6,
+      "end": 969.4,
+      "text": "pero para no equivocarnos voy a hacer aquí aquí abajo y aquí voy a hacer ese proceso todo esto lo"
+    },
+    {
+      "id": 137,
+      "start": 969.4,
+      "end": 978.52,
+      "text": "copio luego esta parte lo elimino y ahí lo voy a pegar listo y aquí un espacio de esto que estoy"
+    },
+    {
+      "id": 138,
+      "start": 978.52,
+      "end": 986.44,
+      "text": "haciendo acá los voy a pasar ustedes aquí y los voy a pasar y ustedes me van a inviar ahora"
+    },
+    {
+      "id": 139,
+      "start": 987.44,
+      "end": 993.12,
+      "text": "los tres primeros que me envíen o los cinco primarios van a tener puntos extreme así que"
+    },
+    {
+      "id": 140,
+      "start": 993.12,
+      "end": 1001.4,
+      "text": "vamos a lo siguiente voy a abrir mi mi que se llama mi lista de mi cachito ya pero si"
+    },
+    {
+      "id": 141,
+      "start": 1001.8,
+      "end": 1006.76,
+      "text": "estoy pasando a la mensajería de mit"
+    },
+    {
+      "id": 142,
+      "start": 1008.48,
+      "end": 1010.28,
+      "text": "en un cachito voy a abrir"
+    },
+    {
+      "id": 143,
+      "start": 1011.96,
+      "end": 1016.28,
+      "text": "aceptar a los compañeros ya ya les he pasado"
+    },
+    {
+      "id": 144,
+      "start": 1018.48,
+      "end": 1023.0,
+      "text": "todavía van a colocar su nombre ya saben que tienen que hacer al último colocar una"
+    },
+    {
+      "id": 145,
+      "start": 1023.0,
+      "end": 1029.32,
+      "text": "sin la interrogación nombre igual y su nombre van a colocar ya y ahora sí voy a hacer clica"
+    },
+    {
+      "id": 146,
+      "start": 1029.32,
+      "end": 1035.2,
+      "text": "acá en lisent y así me va a admitir y vamos a ver desde donde me está escribiendo listo ahora"
+    },
+    {
+      "id": 147,
+      "start": 1035.2,
+      "end": 1041.32,
+      "text": "sí el primer que listo ya está su nombre en este caso es ángel y aquí tengo sus datos internos"
+    },
+    {
+      "id": 148,
+      "start": 1043.12,
+      "end": 1046.28,
+      "text": "ya ahorita con esto lo podemos vaner incluso"
+    },
+    {
+      "id": 149,
+      "start": 1048.0,
+      "end": 1054.88,
+      "text": "pero no siguiente ahora sí otro ya ha llegado otro pero no ha hecho la consulta"
+    },
+    {
+      "id": 150,
+      "start": 1055.88,
+      "end": 1060.8,
+      "text": "tiene que colocar nombre igual por suerte hay cuatro vacantes más"
+    },
+    {
+      "id": 151,
+      "start": 1062.0,
+      "end": 1067.88,
+      "text": "ya tendrá que colocar su nombre y apellido más juntito para que les pueda"
+    },
+    {
+      "id": 152,
+      "start": 1069.64,
+      "end": 1075.64,
+      "text": "admitir y a eduardo y aduardo que eso más lo envían para por favor listo ya está otro"
+    },
+    {
+      "id": 153,
+      "start": 1077.24,
+      "end": 1082.36,
+      "text": "no tiene nada tienen que modificar acá el que enviado disto otra vuelta"
+    },
+    {
+      "id": 154,
+      "start": 1083.36,
+      "end": 1088.08,
+      "text": "y en mi llegado otro no tiene nada todo bien tiene que colocar por ese caso un"
+    },
+    {
+      "id": 155,
+      "start": 1088.08,
+      "end": 1094.6,
+      "text": "asigno de interrogación nombre igual y su nombre con su apellido junto y a otro"
+    },
+    {
+      "id": 156,
+      "start": 1097.92,
+      "end": 1104.2,
+      "text": "ya está bien gati el día vamos voy a copiarlo y voy a pegarlo de un coche esto"
+    },
+    {
+      "id": 157,
+      "start": 1104.92,
+      "end": 1111.68,
+      "text": "y lo que denotas y luego les voy a notar en la lista el primarito el otro me ha oído su"
+    },
+    {
+      "id": 158,
+      "start": 1111.68,
+      "end": 1116.72,
+      "text": "apelido pero lo que nos con un apellido más por esto siguiente"
+    },
+    {
+      "id": 159,
+      "start": 1118.72,
+      "end": 1125.92,
+      "text": "ya en este caso está el duelo de veracolombra listo dos ya tengo dos necesito tres más"
+    },
+    {
+      "id": 160,
+      "start": 1125.92,
+      "end": 1137.76,
+      "text": "listo quien es el tercero no tiene nombre no puesto siguiente tampoco porque el cuarista"
+    },
+    {
+      "id": 161,
+      "start": 1137.76,
+      "end": 1149.16,
+      "text": "vacío siguiente ahora si quien es es maría susana mencha listo es el tercero queda dos más"
+    },
+    {
+      "id": 162,
+      "start": 1149.32,
+      "end": 1156.52,
+      "text": "listo ya aquí no me llegó nada todavía"
+    },
+    {
+      "id": 163,
+      "start": 1158.12,
+      "end": 1162.56,
+      "text": "ahora si tampoco me ha enviado el nombre"
+    },
+    {
+      "id": 164,
+      "start": 1164.44,
+      "end": 1166.48,
+      "text": "vamos chicos vamos vamos"
+    },
+    {
+      "id": 165,
+      "start": 1168.96,
+      "end": 1175.04,
+      "text": "y ahora si quien es es ángel charca listo último"
+    },
+    {
+      "id": 166,
+      "start": 1179.16,
+      "end": 1181.32,
+      "text": "listo el último ahora si"
+    },
+    {
+      "id": 167,
+      "start": 1188.52,
+      "end": 1194.24,
+      "text": "y todavía último último último no me ha enviado nombre"
+    },
+    {
+      "id": 168,
+      "start": 1196.72,
+      "end": 1198.84,
+      "text": "next next next"
+    },
+    {
+      "id": 169,
+      "start": 1201.04,
+      "end": 1207.04,
+      "text": "quien es el otro persona vamos vamos chicos tampoco no me ha enviado el nombre"
+    },
+    {
+      "id": 170,
+      "start": 1210.16,
+      "end": 1214.32,
+      "text": "ya último último último último"
+    },
+    {
+      "id": 171,
+      "start": 1216.48,
+      "end": 1221.64,
+      "text": "tampoco no me ha enviado el nombre por su caso los que acaban de entrar y están haciendo pruebas"
+    },
+    {
+      "id": 172,
+      "start": 1222.6,
+      "end": 1230.6,
+      "text": "tienen que aquí adjuntar así siglos de interrogación van a colocar nombre igual y se van a coca su"
+    },
+    {
+      "id": 173,
+      "start": 1230.6,
+      "end": 1235.92,
+      "text": "nombre su nombre de ustedes eso eso van a juntar último"
+    },
+    {
+      "id": 174,
+      "start": 1236.28,
+      "end": 1240.72,
+      "text": "tampoco vamos chicos"
+    },
+    {
+      "id": 175,
+      "start": 1248.6,
+      "end": 1256.2,
+      "text": "vamos vamos vamos últimos quedamos en cuatro ya f para todos ya no hay nada no"
+    },
+    {
+      "id": 176,
+      "start": 1257.96,
+      "end": 1264.64,
+      "text": "nadie está haciendo un get alguien más y hasta contar cinco uno dos"
+    },
+    {
+      "id": 177,
+      "start": 1265.92,
+      "end": 1277.36,
+      "text": "tres cuatro y cinco hay llegado pero no ha puesto nombre listo ahí quedamos entonces con los cuatro"
+    },
+    {
+      "id": 178,
+      "start": 1277.36,
+      "end": 1285.28,
+      "text": "que bien está enviando ahora si procederemos a la siguiente fase ya entonces este web es"
+    },
+    {
+      "id": 179,
+      "start": 1285.28,
+      "end": 1292.04,
+      "text": "bastante interesante ya y no solamente interesante en procesar antes antes antes antes me van a"
+    },
+    {
+      "id": 180,
+      "start": 1292.04,
+      "end": 1298.4,
+      "text": "sacar el scream de su documento de esa parte con su nombre en acá les tiene que votar por"
+    },
+    {
+      "id": 181,
+      "start": 1298.4,
+      "end": 1304.44,
+      "text": "ese caso acá tal cual no ves lo están haciendo y directamente a ganas ya no vamos ahora si"
+    },
+    {
+      "id": 182,
+      "start": 1304.44,
+      "end": 1312.0,
+      "text": "continuaremos una vez que hemos ejecutado eso ahora vamos a añadir algunos algunos aspectos más"
+    },
+    {
+      "id": 183,
+      "start": 1312.88,
+      "end": 1317.48,
+      "text": "para que me entiendan de esta parte también"
+    },
+    {
+      "id": 184,
+      "start": 1319.32,
+      "end": 1323.2,
+      "text": "el web es la inversión a la vida van a entender por qué"
+    },
+    {
+      "id": 185,
+      "start": 1324.36,
+      "end": 1330.4,
+      "text": "vamos de nuevo acá ahora vamos a utilizar el método post hacemos click en post"
+    },
+    {
+      "id": 186,
+      "start": 1331.12,
+      "end": 1337.96,
+      "text": "ya no voy a dejar ahí y vamos a de ejemplo ahora con un sistema un poquito más complejo"
+    },
+    {
+      "id": 187,
+      "start": 1338.36,
+      "end": 1344.4,
+      "text": "y lo que habíamos trabajado anteriormente así que voy a minimizar esto voy a venirme acá"
+    },
+    {
+      "id": 188,
+      "start": 1345.28,
+      "end": 1351.48,
+      "text": "y dentro de acá voy a escribir lo que es el el one for submission aquí estaba no voy a coca"
+    },
+    {
+      "id": 189,
+      "start": 1351.48,
+      "end": 1359.24,
+      "text": "un ad another trigger y aquí está el submission reform submission aquí está hacemos click ahí"
+    },
+    {
+      "id": 190,
+      "start": 1360.56,
+      "end": 1366.8,
+      "text": "voy a cerrar mi sustento y lo voy a acomodar acá ahí vengo ahí vengo ahí"
+    },
+    {
+      "id": 191,
+      "start": 1367.24,
+      "end": 1373.56,
+      "text": "voy a abrir el tarot ro ahora vamos a escribir el edith files para que capture mis datos"
+    },
+    {
+      "id": 192,
+      "start": 1373.56,
+      "end": 1378.04,
+      "text": "aquí está edit fills set ya hacemos click ahí"
+    },
+    {
+      "id": 193,
+      "start": 1380.16,
+      "end": 1386.12,
+      "text": "y eso vamos a hacer esta cosa ya esta parte lo voy a quitar ahora si"
+    },
+    {
+      "id": 194,
+      "start": 1388.32,
+      "end": 1395.24,
+      "text": "nosotros qué vamos a hacer con esto un web hook necesariamente va a capturar datos ya pero el"
+    },
+    {
+      "id": 195,
+      "start": 1395.24,
+      "end": 1401.92,
+      "text": "edith fills también lo hace solamente que el edith fills si es un filtro ya el web hook es el que"
+    },
+    {
+      "id": 196,
+      "start": 1401.92,
+      "end": 1408.24,
+      "text": "va a admitir vas a excepcionar datos o va a enviar datos una de dos ya y el for submission"
+    },
+    {
+      "id": 197,
+      "start": 1408.24,
+      "end": 1413.4,
+      "text": "también va a capturar datos a estos dos trabajan casi de la misma manera pero esto ya es un poquito"
+    },
+    {
+      "id": 198,
+      "start": 1413.4,
+      "end": 1420.76,
+      "text": "más anticuado les diría ya porque en vez del for submission yo puedo colocar una HTML"
+    },
+    {
+      "id": 199,
+      "start": 1421.76,
+      "end": 1428.44,
+      "text": "y puedo crearme mi propia interfaz y en vez de estos empresarios y conectarlo a mi web hook y listo"
+    },
+    {
+      "id": 200,
+      "start": 1428.44,
+      "end": 1437.08,
+      "text": "estaría yo admitiendo datos desde una interfaz propia ya entonces vamos a conectarlo directamente a"
+    },
+    {
+      "id": 201,
+      "start": 1437.08,
+      "end": 1447.08,
+      "text": "OpenEye no sé qué vengo acá y vamos a escribir OpenEye aquí está ahora el OpenEye que yo"
+    },
+    {
+      "id": 202,
+      "start": 1447.08,
+      "end": 1456.88,
+      "text": "necesito vamos a hacer el primer trabajo yo quiero generalmente hacer un aspecto más técnico para ello"
+    },
+    {
+      "id": 203,
+      "start": 1456.88,
+      "end": 1464.76,
+      "text": "yo voy a analizar qué proceso voy a hacer ya me echáis clasificar no lo sé entonces para eso"
+    },
+    {
+      "id": 204,
+      "start": 1464.76,
+      "end": 1470.96,
+      "text": "ahorita lo vamos a añadir y vamos a entender qué vamos a trabajar en sacado el delete no me sirve"
+    },
+    {
+      "id": 205,
+      "start": 1470.96,
+      "end": 1478.2,
+      "text": "mientras tanto el update hay montón de aspectos que pueden colocar yo puedo colocar en este caso"
+    },
+    {
+      "id": 206,
+      "start": 1478.2,
+      "end": 1484.88,
+      "text": "en meso y modo ya puedo generar un mensaje voy a crearme esto mientras tanto clic"
+    },
+    {
+      "id": 207,
+      "start": 1486.96,
+      "end": 1495.48,
+      "text": "hago clic y lo voy a cerrar ya así les va a aparecer estas cositas vayan eliminándolo todavía"
+    },
+    {
+      "id": 208,
+      "start": 1495.48,
+      "end": 1501.8,
+      "text": "no lo vamos a conectar ahorita lo vamos a conectar después del proceso ya entonces una vez que"
+    },
+    {
+      "id": 209,
+      "start": 1501.8,
+      "end": 1508.84,
+      "text": "generamos ese aspecto ya voy a poder generar un proceso un poquito más complejo entenderamos primero"
+    },
+    {
+      "id": 210,
+      "start": 1510.44,
+      "end": 1517.92,
+      "text": "quiero que un proceso captura datos queremos filtrarlo y esa filtración quiero llevarlo"
+    },
+    {
+      "id": 211,
+      "start": 1517.92,
+      "end": 1525.16,
+      "text": "modelo de ella que en este caso vaya recibiendo y vaya respondiendo en base a las preguntas que"
+    },
+    {
+      "id": 212,
+      "start": 1525.16,
+      "end": 1530.88,
+      "text": "estás realizando el usuario o el cliente que tengamos en spar eso yo quiero enviarle directamente"
+    },
+    {
+      "id": 213,
+      "start": 1530.88,
+      "end": 1537.56,
+      "text": "su correo así que aquí voy a podemos colocar un gmail y dentro del gmail voy a colocar en este"
+    },
+    {
+      "id": 214,
+      "start": 1537.56,
+      "end": 1545.64,
+      "text": "caso y send me ya porque vamos a enviarle un mensaje al usuario hacemos clic aquí lo voy a"
+    },
+    {
+      "id": 215,
+      "start": 1545.64,
+      "end": 1553.36,
+      "text": "volver a cerrar y lo voy a dejar en esto está bien conectado no hay problema una vez que tenemos"
+    },
+    {
+      "id": 216,
+      "start": 1553.36,
+      "end": 1561.76,
+      "text": "eso ya podemos ahora exceder también a bases de datos ya ahora si la mayoría no sabe que es una base"
+    },
+    {
+      "id": 217,
+      "start": 1561.76,
+      "end": 1569.16,
+      "text": "de datos una base de datos netamente alberga variables esas variables albergan ya datos que"
+    },
+    {
+      "id": 218,
+      "start": 1569.16,
+      "end": 1574.44,
+      "text": "ya están normalizados para que un determinado cliente pueda introducir así si se ahorita"
+    },
+    {
+      "id": 219,
+      "start": 1574.44,
+      "end": 1581.24,
+      "text": "mi one force mission estoy decepcionando nombre ciudad y celular en la base de datos tendría que"
+    },
+    {
+      "id": 220,
+      "start": 1581.24,
+      "end": 1585.32,
+      "text": "tener esos tres parámetros también para que los datos que esté ingresando el usuario se pueda"
+    },
+    {
+      "id": 221,
+      "start": 1585.32,
+      "end": 1591.28,
+      "text": "grabar en los también es la misma cantidad de datos que está resabcionando ahora hay dos"
+    },
+    {
+      "id": 222,
+      "start": 1591.28,
+      "end": 1597.28,
+      "text": "tipos de base de datos hay ese cuele y no se cuele las bases de datos se cuelen ya están en este caso"
+    },
+    {
+      "id": 223,
+      "start": 1597.28,
+      "end": 1603.64,
+      "text": "fragmentadas y ya tiene una estructura mientras la base de datos con no hace cuelé trabajan de manera"
+    },
+    {
+      "id": 224,
+      "start": 1603.64,
+      "end": 1610.64,
+      "text": "informato y son y son de manera desordenada pero tienen orden de acuerdo al al acuery que"
+    },
+    {
+      "id": 225,
+      "start": 1610.64,
+      "end": 1616.0,
+      "text": "nosotros le vamos a dar ya en este caso y voy a trabajar como estamos iniciando siempre es bueno"
+    },
+    {
+      "id": 226,
+      "start": 1616.0,
+      "end": 1623.2,
+      "text": "empezar a trabajar con cosas más estructuradas por lo cual voy a trabajar lentamente con base de"
+    },
+    {
+      "id": 227,
+      "start": 1623.2,
+      "end": 1631.76,
+      "text": "datos ese cueles ya entonces para esa parte quiero lo siguiente ahora vamos a hacer un poco"
+    },
+    {
+      "id": 228,
+      "start": 1631.76,
+      "end": 1638.72,
+      "text": "vuelvo a repetir este proceso nos excepcionamos datos capturamos los datos lo filtramos y lo"
+    },
+    {
+      "id": 229,
+      "start": 1638.72,
+      "end": 1648.16,
+      "text": "encryptamos y va a ir a mi modelo de ia y hasta ia va a analizar en base aquí quizás uno va a"
+    },
+    {
+      "id": 230,
+      "start": 1648.16,
+      "end": 1654.8,
+      "text": "enviar a mis bases de datos o dos bases va a tomar la base de datos como si fuera su fuente ya de"
+    },
+    {
+      "id": 231,
+      "start": 1654.8,
+      "end": 1661.96,
+      "text": "información o sea podemos trabajar de dos maneras para ello hago clic acá en el símbolo de más y"
+    },
+    {
+      "id": 232,
+      "start": 1661.96,
+      "end": 1670.0,
+      "text": "voy a ir a lo siguiente ya en este caso si se va a dar cuenta hay un montón de cositas pero en este"
+    },
+    {
+      "id": 233,
+      "start": 1670.0,
+      "end": 1677.2,
+      "text": "caso yo voy a buscar algo específico ya voy a buscar el http request tool hago clic para que"
+    },
+    {
+      "id": 234,
+      "start": 1677.2,
+      "end": 1684.92,
+      "text": "más sirves ya les había comentado para retornar procesar enviar datos o sea es y conectarme con"
+    },
+    {
+      "id": 235,
+      "start": 1684.92,
+      "end": 1689.32,
+      "text": "cualquier tipo de software hardware así que cuando es algo clic lo voy a hacer al esto y se va a"
+    },
+    {
+      "id": 236,
+      "start": 1689.32,
+      "end": 1696.64,
+      "text": "auto completar acá ya hasta ahí no estoy tiempo chicos estoy volando me dicen ya para"
+    },
+    {
+      "id": 237,
+      "start": 1698.4,
+      "end": 1700.04,
+      "text": "para detenerme un poquito"
+    },
+    {
+      "id": 238,
+      "start": 1701.8,
+      "end": 1708.32,
+      "text": "ya seguiremos entonces de nuevo voy a venir acá y hago clic acá y voy a escribir en este caso"
+    },
+    {
+      "id": 239,
+      "start": 1708.32,
+      "end": 1714.6,
+      "text": "como vamos a trabajar con base de datos maya se cuela en tool listo hacemos clic"
+    },
+    {
+      "id": 240,
+      "start": 1714.6,
+      "end": 1721.88,
+      "text": "nos cerramos esto mientras tanto y ya está ya estamos jugando con bases de datos y 8 de"
+    },
+    {
+      "id": 241,
+      "start": 1721.88,
+      "end": 1729.24,
+      "text": "tu per request hasta ahí tienen que colocar y sacar el screen para enviarme en su tarea"
+    },
+    {
+      "id": 242,
+      "start": 1730.24,
+      "end": 1738.44,
+      "text": "posterior y ya dan clic y vayan guardándolo en su documento van a colocar captura número"
+    },
+    {
+      "id": 243,
+      "start": 1738.44,
+      "end": 1743.12,
+      "text": "2 captura 3 voy a colocar acá captura 2"
+    },
+    {
+      "id": 244,
+      "start": 1749.04,
+      "end": 1751.68,
+      "text": "2 y listo ahora es la captura 3"
+    },
+    {
+      "id": 245,
+      "start": 1757.6,
+      "end": 1763.4,
+      "text": "esto ya una vez que lo tengan hasta ahí vamos a irnos a la captura 4"
+    },
+    {
+      "id": 246,
+      "start": 1763.4,
+      "end": 1771.92,
+      "text": "y a minimizo y hago lo siguiente ahora tengo que analizar qué proceso voy a hacer bueno"
+    },
+    {
+      "id": 247,
+      "start": 1771.92,
+      "end": 1778.4,
+      "text": "este caso tenemos que capturar esto acá luego esto acá luego esto manda lo ha secado ya así"
+    },
+    {
+      "id": 248,
+      "start": 1778.4,
+      "end": 1786.96,
+      "text": "debería estar conectado bueno hasta aquí es un proceso bastante interesante pero vamos a"
+    },
+    {
+      "id": 249,
+      "start": 1786.96,
+      "end": 1792.12,
+      "text": "les enseñar algunas cosas más ustedes quieren trabajar ya voy a ponerles un ejemplo"
+    },
+    {
+      "id": 250,
+      "start": 1793.08,
+      "end": 1799.64,
+      "text": "por ejemplo y ahorita manejo dos hospitales que tienen aproximadamente más de 14 mil"
+    },
+    {
+      "id": 251,
+      "start": 1799.64,
+      "end": 1809.56,
+      "text": "pacientes y doctores durante cinco años por ejemplo es no se podría desear que es un dato"
+    },
+    {
+      "id": 252,
+      "start": 1810.56,
+      "end": 1817.8,
+      "text": "bueno el cantidad de datos es bastante grande pero el proceso que tiene cada uno de sus pacientes"
+    },
+    {
+      "id": 253,
+      "start": 1817.8,
+      "end": 1827.08,
+      "text": "cada uno de sus doctores son extremadamente grandes pónganle que si tenemos 14 mil pacientes"
+    },
+    {
+      "id": 254,
+      "start": 1827.08,
+      "end": 1837.32,
+      "text": "voy a esperar sacar la calculadora y voy a ayudar a esta parte y por ejemplo tengo 14 mil en un total"
+    },
+    {
+      "id": 255,
+      "start": 1837.32,
+      "end": 1844.24,
+      "text": "de 14 mil tanto doctores como tanto pacientes como tanto enfermeros como tanto cualquier tipo de"
+    },
+    {
+      "id": 256,
+      "start": 1844.24,
+      "end": 1851.28,
+      "text": "áreas dentro de un hospital ya estos hospitales del hospital general ya en este caso cada ingreso"
+    },
+    {
+      "id": 257,
+      "start": 1851.28,
+      "end": 1857.8,
+      "text": "que tiene un paciente promedio durante un año se puede albergar más o menos unos 3000 datos"
+    },
+    {
+      "id": 258,
+      "start": 1857.92,
+      "end": 1869.04,
+      "text": "ya además de esos cada proceso y cada respuesta que les genera al sistema son casi 15 mil"
+    },
+    {
+      "id": 259,
+      "start": 1869.04,
+      "end": 1878.08,
+      "text": "respuestas y a partir de eso también se le ejecuta algún tipo de sintomatizaciones por ejemplo un"
+    },
+    {
+      "id": 260,
+      "start": 1878.08,
+      "end": 1883.76,
+      "text": "ejemplo que los voy a dar ahorita yo tengo dos pacientes que tienen cáncer yo generalmente les"
+    },
+    {
+      "id": 261,
+      "start": 1883.76,
+      "end": 1890.56,
+      "text": "aplico algún tipo de resunancia magnética para hacerles algún tipo de configuraciones y a su"
+    },
+    {
+      "id": 262,
+      "start": 1890.56,
+      "end": 1895.72,
+      "text": "destrucción de sus células madre para poder mejorar su procesada de adaptación así que yo les"
+    },
+    {
+      "id": 263,
+      "start": 1895.72,
+      "end": 1903.48,
+      "text": "aplico generalmente algún tipo de RMS para hacer éxito yo generalmente requiero más de un 1 millón"
+    },
+    {
+      "id": 264,
+      "start": 1903.48,
+      "end": 1912.76,
+      "text": "de datos para el servidor así que multipliquen por un millón fíjense cuántos datos yo genero en un año"
+    },
+    {
+      "id": 265,
+      "start": 1914.28,
+      "end": 1924.56,
+      "text": "y mi servidor estos datos no lo puede procesar en el 8 es casi imposible tenemos que si o si"
+    },
+    {
+      "id": 266,
+      "start": 1924.56,
+      "end": 1930.44,
+      "text": "nosotros trabajar con una empresa tercera y es empresa tercera se llama big data"
+    },
+    {
+      "id": 267,
+      "start": 1931.76,
+      "end": 1938.76,
+      "text": "ya o sea el parámetro que lo estoy mostrando se llama big data son datos grandes y no solamente"
+    },
+    {
+      "id": 268,
+      "start": 1938.76,
+      "end": 1944.56,
+      "text": "es esto si ustedes tienen digamos un negocio en la cual tienen un flujo extremadamente grande de"
+    },
+    {
+      "id": 269,
+      "start": 1944.56,
+      "end": 1952.76,
+      "text": "clientes o datos por por año es necesario trabajar con algún tipo de empresa tercera ya un terciario"
+    },
+    {
+      "id": 270,
+      "start": 1952.76,
+      "end": 1958.88,
+      "text": "y que les ofrezca el servidor tanto y como lo van a hacer datos y que los de un vacabin turn"
+    },
+    {
+      "id": 271,
+      "start": 1960.08,
+      "end": 1966.24,
+      "text": "así que para eso yo trabajo con dos y pueden trabajarlo con eso yo trabajé con el chaval así"
+    },
+    {
+      "id": 272,
+      "start": 1969.4,
+      "end": 1974.04,
+      "text": "esto hace eso o también con spark o apache spark le llamamos"
+    },
+    {
+      "id": 273,
+      "start": 1980.0,
+      "end": 1989.28,
+      "text": "ya estos sistemas son gigantescos para mi institución de datos y estos se conectan de manera muy fácil a mi"
+    },
+    {
+      "id": 274,
+      "start": 1989.28,
+      "end": 1994.68,
+      "text": "en ocho ya son los dos"
+    },
+    {
+      "id": 275,
+      "start": 1997.04,
+      "end": 2002.12,
+      "text": "ahí pueden adquirirlo no son tan caras pero si van a trabajar con empresas"
+    },
+    {
+      "id": 276,
+      "start": 2003.4,
+      "end": 2007.2,
+      "text": "normal y para que dice virgis ee"
+    },
+    {
+      "id": 277,
+      "start": 2007.96,
+      "end": 2013.56,
+      "text": "raisins por ejemplo vamos a entrar acá no se porque está tan lento"
+    },
+    {
+      "id": 278,
+      "start": 2013.56,
+      "end": 2019.56,
+      "text": "espero acá miren no está tan car"
+    },
+    {
+      "id": 279,
+      "start": 2022.56,
+      "end": 2026.68,
+      "text": "para una empresa que requiere más de un millón de datos no está tan car"
+    },
+    {
+      "id": 280,
+      "start": 2029.24,
+      "end": 2032.56,
+      "text": "interpresar es así es ya ahora sí"
+    },
+    {
+      "id": 281,
+      "start": 2032.96,
+      "end": 2035.44,
+      "text": "continuamos alguna pregunta de duda está ahí"
+    },
+    {
+      "id": 282,
+      "start": 2039.64,
+      "end": 2046.68,
+      "text": "ya continuamos chicos entonces haremos un negocio ya un"
+    },
+    {
+      "id": 283,
+      "start": 2046.68,
+      "end": 2051.32,
+      "text": "les veo una sugerencia ver qué porque negocio podemos hacer de hoy o de ser de"
+    },
+    {
+      "id": 284,
+      "start": 2052.56,
+      "end": 2057.12,
+      "text": "no sé tengo una no sé me voy a inventar tengo una empresa que vende"
+    },
+    {
+      "id": 285,
+      "start": 2057.6,
+      "end": 2065.04,
+      "text": "a ver componentes agrícolas y ahora hemos eso"
+    },
+    {
+      "id": 286,
+      "start": 2066.12,
+      "end": 2074.88,
+      "text": "debo aquí a mi 1 for submission ya hasta ahí los espero y esto un poquito grande"
+    },
+    {
+      "id": 287,
+      "start": 2074.88,
+      "end": 2082.44,
+      "text": "no ahora sí ya acá ya sabemos hasta porque ya vamos a avanzar en clases así que no va a haber"
+    },
+    {
+      "id": 288,
+      "start": 2082.44,
+      "end": 2086.2,
+      "text": "niña voy a colocar acá e empresa"
+    },
+    {
+      "id": 289,
+      "start": 2089.48,
+      "end": 2091.0,
+      "text": "y de fertilizantes"
+    },
+    {
+      "id": 290,
+      "start": 2094.0,
+      "end": 2095.44,
+      "text": "que puedo colocar y"
+    },
+    {
+      "id": 291,
+      "start": 2096.44,
+      "end": 2101.04,
+      "text": "y así lo vemos y esto es su nombre ya"
+    },
+    {
+      "id": 292,
+      "start": 2102.44,
+      "end": 2106.92,
+      "text": "somos una empresa dedicada"
+    },
+    {
+      "id": 293,
+      "start": 2108.32,
+      "end": 2109.48,
+      "text": "a la venta"
+    },
+    {
+      "id": 294,
+      "start": 2109.48,
+      "end": 2113.56,
+      "text": "de componentes organos"
+    },
+    {
+      "id": 295,
+      "start": 2116.08,
+      "end": 2116.76,
+      "text": "listo"
+    },
+    {
+      "id": 296,
+      "start": 2118.48,
+      "end": 2119.44,
+      "text": "ustedes"
+    },
+    {
+      "id": 297,
+      "start": 2123.2,
+      "end": 2125.6,
+      "text": "está volviendo a las inicios ya ahora sí"
+    },
+    {
+      "id": 298,
+      "start": 2128.0,
+      "end": 2128.92,
+      "text": "hay dios"
+    },
+    {
+      "id": 299,
+      "start": 2132.68,
+      "end": 2134.84,
+      "text": "ya volver a mostrar esta parte"
+    },
+    {
+      "id": 300,
+      "start": 2140.48,
+      "end": 2141.48,
+      "text": "ya ahora sí"
+    },
+    {
+      "id": 301,
+      "start": 2142.48,
+      "end": 2150.04,
+      "text": "entonces su captura número 4 van a colocar el nombre de la empresa o negocio de"
+    },
+    {
+      "id": 302,
+      "start": 2150.04,
+      "end": 2151.72,
+      "text": "su persona o sea de ustedes"
+    },
+    {
+      "id": 303,
+      "start": 2153.24,
+      "end": 2156.12,
+      "text": "ya eso vayan creándose porque esto va a ser parte ya de proyecto"
+    },
+    {
+      "id": 304,
+      "start": 2157.24,
+      "end": 2163.88,
+      "text": "no sé la mía ya saben que es una venta de voy a colocar venta de fertilizantes"
+    },
+    {
+      "id": 305,
+      "start": 2163.88,
+      "end": 2172.84,
+      "text": "y eso tengan en cuenta eso porque en los"
+    },
+    {
+      "id": 306,
+      "start": 2174.2,
+      "end": 2179.32,
+      "text": "escrumes que van a enviar tiene que estar el nombre de su empresa y de qué características tiene su"
+    },
+    {
+      "id": 307,
+      "start": 2179.32,
+      "end": 2191.44,
+      "text": "empresa ya hasta ahí van a hacer lo siguiente van a abrirse esto en mod incognito y van a entrar"
+    },
+    {
+      "id": 308,
+      "start": 2191.44,
+      "end": 2192.44,
+      "text": "en el caso de la empresa"
+    },
+    {
+      "id": 309,
+      "start": 2195.44,
+      "end": 2196.44,
+      "text": "en el caso de la empresa"
+    },
+    {
+      "id": 310,
+      "start": 2198.16,
+      "end": 2200.32,
+      "text": "denle esa esa temática"
+    },
+    {
+      "id": 311,
+      "start": 2203.16,
+      "end": 2205.8,
+      "text": "ya y voy a colocar lo siguiente"
+    },
+    {
+      "id": 312,
+      "start": 2206.96,
+      "end": 2211.92,
+      "text": "dame características básicas"
+    },
+    {
+      "id": 313,
+      "start": 2212.56,
+      "end": 2213.52,
+      "text": "en resumen"
+    },
+    {
+      "id": 314,
+      "start": 2216.2,
+      "end": 2219.12,
+      "text": "de este negocio"
+    },
+    {
+      "id": 315,
+      "start": 2222.44,
+      "end": 2225.52,
+      "text": "venda de fertilizantes"
+    },
+    {
+      "id": 316,
+      "start": 2228.52,
+      "end": 2229.6,
+      "text": "y santos"
+    },
+    {
+      "id": 317,
+      "start": 2230.12,
+      "end": 2230.92,
+      "text": "oria silo"
+    },
+    {
+      "id": 318,
+      "start": 2233.92,
+      "end": 2235.28,
+      "text": "sociedad anónima no sé"
+    },
+    {
+      "id": 319,
+      "start": 2238.28,
+      "end": 2238.92,
+      "text": "y esto"
+    },
+    {
+      "id": 320,
+      "start": 2245.92,
+      "end": 2249.92,
+      "text": "y eso se van a copiar y se van a pegar en el huerto ya"
+    },
+    {
+      "id": 321,
+      "start": 2251.6,
+      "end": 2252.0,
+      "text": "a ver"
+    },
+    {
+      "id": 322,
+      "start": 2254.0,
+      "end": 2258.56,
+      "text": "me escuchan los chicos me van a coger con un cheque porque ahorita me dice mi mi"
+    },
+    {
+      "id": 323,
+      "start": 2258.56,
+      "end": 2260.72,
+      "text": "mi pared de la conexión de raíz"
+    },
+    {
+      "id": 324,
+      "start": 2261.72,
+      "end": 2261.92,
+      "text": "y"
+    },
+    {
+      "id": 325,
+      "start": 2263.52,
+      "end": 2264.04,
+      "text": "acordando"
+    },
+    {
+      "id": 326,
+      "start": 2266.24,
+      "end": 2269.68,
+      "text": "listo gracias chicos no sé por qué estamos así"
+    },
+    {
+      "id": 327,
+      "start": 2272.08,
+      "end": 2276.0,
+      "text": "y ya los bolsos a partir entonces gracias por los ponos chips"
+    },
+    {
+      "id": 328,
+      "start": 2276.92,
+      "end": 2279.72,
+      "text": "y ya voy a los repartidos acá"
+    },
+    {
+      "id": 329,
+      "start": 2281.44,
+      "end": 2283.44,
+      "text": "y"
+    },
+    {
+      "id": 330,
+      "start": 2284.44,
+      "end": 2291.52,
+      "text": "creen ustedes ahorita mismo en la captura número 4 el nombre de una empresa o negocio de ustedes"
+    },
+    {
+      "id": 331,
+      "start": 2293.52,
+      "end": 2298.8,
+      "text": "y ese negocio le van a hacer una pregunta a chat que se los genere"
+    },
+    {
+      "id": 332,
+      "start": 2300.8,
+      "end": 2305.08,
+      "text": "más o menos algún contenido de ese tipo de negocio"
+    },
+    {
+      "id": 333,
+      "start": 2306.08,
+      "end": 2311.32,
+      "text": "y a por ejemplo ver aquí me dice tan ciudad puedo colocar esto"
+    },
+    {
+      "id": 334,
+      "start": 2312.4,
+      "end": 2314.44,
+      "text": "ya eso"
+    },
+    {
+      "id": 335,
+      "start": 2316.44,
+      "end": 2317.32,
+      "text": "listo"
+    },
+    {
+      "id": 336,
+      "start": 2318.84,
+      "end": 2321.88,
+      "text": "eso diganle y eso lo van a pegar acá"
+    },
+    {
+      "id": 337,
+      "start": 2325.52,
+      "end": 2328.56,
+      "text": "ya hasta ahí les voy a esperar a los chicos"
+    },
+    {
+      "id": 338,
+      "start": 2329.52,
+      "end": 2335.8,
+      "text": "necesito su actividad principal o sea toda la información necesaria no tan larga sino"
+    },
+    {
+      "id": 339,
+      "start": 2335.8,
+      "end": 2341.76,
+      "text": "es algo corta pero que resuma algo interesante ahora si es mejor"
+    },
+    {
+      "id": 340,
+      "start": 2343.12,
+      "end": 2351.04,
+      "text": "pueden colocar esto en párrafo no si quieren puede hacerlo en viñetas pero esto puede ser"
+    },
+    {
+      "id": 341,
+      "start": 2351.04,
+      "end": 2354.72,
+      "text": "colocámelo en párrafo"
+    },
+    {
+      "id": 342,
+      "start": 2355.32,
+      "end": 2358.6,
+      "text": "listo"
+    },
+    {
+      "id": 343,
+      "start": 2361.0,
+      "end": 2364.44,
+      "text": "ya porque porque las digo esto porque este va a ser nuestro prompt"
+    },
+    {
+      "id": 344,
+      "start": 2366.48,
+      "end": 2370.4,
+      "text": "ya cuando hagamos ya la conexión nuestra y pi así que esa parte"
+    },
+    {
+      "id": 345,
+      "start": 2371.6,
+      "end": 2375.52,
+      "text": "va ya naciendolo opción 1 pueden hacerlo con viñeta"
+    },
+    {
+      "id": 346,
+      "start": 2376.64,
+      "end": 2382.68,
+      "text": "normalmente una ya entienden más con viñetas que con párrafos pero siempre es bueno ser pueblos"
+    },
+    {
+      "id": 347,
+      "start": 2385.32,
+      "end": 2385.96,
+      "text": "y"
+    },
+    {
+      "id": 348,
+      "start": 2391.6,
+      "end": 2401.08,
+      "text": "listo ya hasta y están listos porque lo que viene va a ser algo extensa"
+    },
+    {
+      "id": 349,
+      "start": 2404.2,
+      "end": 2404.8,
+      "text": "y"
+    },
+    {
+      "id": 350,
+      "start": 2404.96,
+      "end": 2406.04,
+      "text": "y"
+    },
+    {
+      "id": 351,
+      "start": 2407.88,
+      "end": 2408.64,
+      "text": "ok ok ok"
+    },
+    {
+      "id": 352,
+      "start": 2411.2,
+      "end": 2418.92,
+      "text": "díganle dame características básicas en resumen de este negocio dos puntos y van a"
+    },
+    {
+      "id": 353,
+      "start": 2418.92,
+      "end": 2425.72,
+      "text": "colocar el nombre de su empresa nada más y a pero ojo de acá este caso"
+    },
+    {
+      "id": 354,
+      "start": 2427.6,
+      "end": 2434.6,
+      "text": "de acá en mi en ocho en esta varga un punto van a colocar acá miren empresas de fertilizantes"
+    },
+    {
+      "id": 355,
+      "start": 2434.6,
+      "end": 2440.44,
+      "text": "orias y los llama voy a colocarlo entre comillas y pueden para para que les entienda también su"
+    },
+    {
+      "id": 356,
+      "start": 2440.44,
+      "end": 2445.64,
+      "text": "prompt de chat y piti porque va a decir no donde se oye así los somos las empresas dedicadas a la"
+    },
+    {
+      "id": 357,
+      "start": 2445.64,
+      "end": 2449.88,
+      "text": "venta de componentes orgánicos y hasta eso es el principal que van a colocar y luego genera"
+    },
+    {
+      "id": 358,
+      "start": 2449.88,
+      "end": 2457.68,
+      "text": "muy aparte en base a este parámetro un prompt para que les dé una información sumida de su"
+    },
+    {
+      "id": 359,
+      "start": 2457.68,
+      "end": 2466.08,
+      "text": "empresa que se inventa no hay problema ya es un ascito eso estructura en lo bien y que tenga si"
+    },
+    {
+      "id": 360,
+      "start": 2466.08,
+      "end": 2472.16,
+      "text": "pueden chicos en su negocio por ejemplo de jabones que tengan cuantos jabones tienen qué tipo de jabón"
+    },
+    {
+      "id": 361,
+      "start": 2472.16,
+      "end": 2476.72,
+      "text": "y es todo el aspecto y ahora ahorita lo vamos a hacer independientemente pero ya tengan listos aparte"
+    },
+    {
+      "id": 362,
+      "start": 2478.72,
+      "end": 2486.2,
+      "text": "una vez que tengan eso les espero hasta ya para no saltarme mucho y nos quedamos atrás"
+    },
+    {
+      "id": 363,
+      "start": 2488.56,
+      "end": 2497.0,
+      "text": "y ahora sí vamos a añadir algunos elementos y esto tengo"
+    },
+    {
+      "id": 364,
+      "start": 2497.0,
+      "end": 2503.2,
+      "text": "form title form description ahora voy a colocar ad form y lament y lamans y voy a colocar en este"
+    },
+    {
+      "id": 365,
+      "start": 2503.2,
+      "end": 2511.08,
+      "text": "caso nombre completo aquí van a colocar lo que el usuario va a escribir o sea qué peticiones va a"
+    },
+    {
+      "id": 366,
+      "start": 2511.08,
+      "end": 2517.52,
+      "text": "dar a ustedes eso necesito y seguramente nosotros vamos a querer que nos dé el nombre completo"
+    },
+    {
+      "id": 367,
+      "start": 2518.0,
+      "end": 2524.68,
+      "text": "listo voy a colocar lo que este atributo sea de manera obligatoria"
+    },
+    {
+      "id": 368,
+      "start": 2524.68,
+      "end": 2531.44,
+      "text": "reggae file así que ven acá otro necesito su email si o si necesito su email"
+    },
+    {
+      "id": 369,
+      "start": 2533.68,
+      "end": 2539.12,
+      "text": "ya así que van a colocar acá tipo email y también que se ha requerido"
+    },
+    {
+      "id": 370,
+      "start": 2541.04,
+      "end": 2546.92,
+      "text": "que más necesitamos estoy vendiendo uria pues estoy vendiendo componentes orgánicos eso"
+    },
+    {
+      "id": 371,
+      "start": 2546.92,
+      "end": 2554.52,
+      "text": "también tienen que pensar ustedes mínimo chicos cinco datos pero bien específicos y concretos"
+    },
+    {
+      "id": 372,
+      "start": 2554.52,
+      "end": 2559.68,
+      "text": "porque necesariamente es lo que va a pedir el usuario ya necesito por ejemplo su nombre necesito"
+    },
+    {
+      "id": 373,
+      "start": 2559.68,
+      "end": 2566.72,
+      "text": "su email necesito su celular ya celular o whatsapp"
+    },
+    {
+      "id": 374,
+      "start": 2568.92,
+      "end": 2575.48,
+      "text": "ya es el tipo numérico ya saben tipo number también que se ha requerido"
+    },
+    {
+      "id": 375,
+      "start": 2576.92,
+      "end": 2583.76,
+      "text": "que más necesito a ya yo voy a manejar 4 por cuestiones de tiempo ya voy a manejar el mensaje"
+    },
+    {
+      "id": 376,
+      "start": 2583.76,
+      "end": 2590.12,
+      "text": "o sea que quiere colocar el usuario porque ya sabe que cuando venza mi form le dice que somos"
+    },
+    {
+      "id": 377,
+      "start": 2590.12,
+      "end": 2596.28,
+      "text": "un empresario de venta de fertilizantes en este mensaje como va a ser un texto bastante amplio"
+    },
+    {
+      "id": 378,
+      "start": 2596.28,
+      "end": 2602.84,
+      "text": "voy a colocar el tixoria ya listo añada a tributos que también se lo requería bueno valor requerido"
+    },
+    {
+      "id": 379,
+      "start": 2603.84,
+      "end": 2612.2,
+      "text": "listo hasta y cuatro datos y me gusta se hagan cinco cinco cinco y eso van a ser que captura y"
+    },
+    {
+      "id": 380,
+      "start": 2612.2,
+      "end": 2619.4,
+      "text": "me van a base la captura número cinco por si acaso ya es y acá abajo ya saben no es que no"
+    },
+    {
+      "id": 381,
+      "start": 2619.4,
+      "end": 2625.68,
+      "text": "quiere que los aparezca en 8n van a que el que forma es submit aquí directamente ad options ya que"
+    },
+    {
+      "id": 382,
+      "start": 2625.68,
+      "end": 2636.44,
+      "text": "dice apent n8 en attribución hacen clic y lo van a deshabilitar ya hasta y vaya yendo que esté"
+    },
+    {
+      "id": 383,
+      "start": 2636.44,
+      "end": 2646.12,
+      "text": "bien estructurado y esto me van a sacar a escrim ustedes ya hacen clic voy a sacar mi escrim y lo"
+    },
+    {
+      "id": 384,
+      "start": 2646.12,
+      "end": 2652.28,
+      "text": "voy a añadir como captura número cinco con cinco datos al lección captura cinco"
+    },
+    {
+      "id": 385,
+      "start": 2657.44,
+      "end": 2658.36,
+      "text": "listo"
+    },
+    {
+      "id": 386,
+      "start": 2660.8,
+      "end": 2661.72,
+      "text": "hasta y"
+    },
+    {
+      "id": 387,
+      "start": 2664.64,
+      "end": 2671.72,
+      "text": "ahora pueden ejecutar pero les va a salir el error a ver pero a ganar prueba yo voy a ejecutarlo"
+    },
+    {
+      "id": 388,
+      "start": 2672.72,
+      "end": 2681.08,
+      "text": "a no me salió pero mejor si no me salió porque si es que les da error acá van a ser lo siguiente"
+    },
+    {
+      "id": 389,
+      "start": 2681.08,
+      "end": 2688.4,
+      "text": "y voy a cerrar esto si es que les dice error esta parte chicos lo van a eliminar ahí"
+    },
+    {
+      "id": 390,
+      "start": 2689.6,
+      "end": 2695.16,
+      "text": "no lo van a la conexión lo van a eliminar pero van a mantener esto ya y lo se van a ejecutar"
+    },
+    {
+      "id": 391,
+      "start": 2695.16,
+      "end": 2702.44,
+      "text": "ojo si les da error en un principio yo voy a hacerlo así sin conexión todavía eso es igual a"
+    },
+    {
+      "id": 392,
+      "start": 2702.44,
+      "end": 2708.2,
+      "text": "ganar ustedes para luego no tener errores y algo clica cada dos veces y voy a ejecutar"
+    },
+    {
+      "id": 393,
+      "start": 2708.2,
+      "end": 2711.4,
+      "text": "pues tu restop y ves cerrar el otro que tenía"
+    },
+    {
+      "id": 394,
+      "start": 2714.64,
+      "end": 2722.12,
+      "text": "voy a ejecutar ahora sí ya listo pueden colocar ahí su nombre hagan pruebas y eso también van a"
+    },
+    {
+      "id": 395,
+      "start": 2722.12,
+      "end": 2722.88,
+      "text": "sacar como es cream"
+    },
+    {
+      "id": 396,
+      "start": 2728.88,
+      "end": 2736.8,
+      "text": "listo coloquen acá chicos sus correos verdaderos o correos que tengan sus cuentas para hacer"
+    },
+    {
+      "id": 397,
+      "start": 2736.8,
+      "end": 2744.2,
+      "text": "luego pruebas a futuro ya eso no se olvide no se inventan acá para hacer pruebas directas"
+    },
+    {
+      "id": 398,
+      "start": 2745.64,
+      "end": 2749.48,
+      "text": "pueden luego hacerlo de nuevo pero yo me voy a usar tiempo para no estar volviendo no tal"
+    },
+    {
+      "id": 399,
+      "start": 2752.12,
+      "end": 2756.6,
+      "text": "ya aquí si tienen que colocar un contexto de su mensaje que sea de adecuado a lo que es la"
+    },
+    {
+      "id": 400,
+      "start": 2756.6,
+      "end": 2765.96,
+      "text": "empresa por ejemplo no sé voy a como un usuario voy a responder buenas tardes o buenas noches"
+    },
+    {
+      "id": 401,
+      "start": 2767.88,
+      "end": 2773.32,
+      "text": "quisiera saber si tienen mi trato de potases"
+    },
+    {
+      "id": 402,
+      "start": 2775.36,
+      "end": 2777.56,
+      "text": "grado alimentación"
+    },
+    {
+      "id": 403,
+      "start": 2777.68,
+      "end": 2781.24,
+      "text": "y además"
+    },
+    {
+      "id": 404,
+      "start": 2787.24,
+      "end": 2789.08,
+      "text": "son muy a volver a compartir"
+    },
+    {
+      "id": 405,
+      "start": 2792.32,
+      "end": 2801.2,
+      "text": "ya vuelvo a repetir es que no lo escuchó una vez que generen los datos abran ejecutenlo"
+    },
+    {
+      "id": 406,
+      "start": 2801.92,
+      "end": 2807.08,
+      "text": "y coloquen aquí una pregunta que sea adecuada al negocio que ustedes están realizando"
+    },
+    {
+      "id": 407,
+      "start": 2808.8,
+      "end": 2811.28,
+      "text": "y voy a colocar en este caso"
+    },
+    {
+      "id": 408,
+      "start": 2813.84,
+      "end": 2818.0,
+      "text": "buenas noches que ya sabes si tienen un trato de potases o grado alimentación además ha sido"
+    },
+    {
+      "id": 409,
+      "start": 2818.0,
+      "end": 2824.04,
+      "text": "silístico por venta por tonelada"
+    },
+    {
+      "id": 410,
+      "start": 2827.28,
+      "end": 2831.96,
+      "text": "para la ciudad de cocheba"
+    },
+    {
+      "id": 411,
+      "start": 2836.4,
+      "end": 2836.96,
+      "text": "ya"
+    },
+    {
+      "id": 412,
+      "start": 2836.96,
+      "end": 2846.8,
+      "text": "y ya se está cortando de"
+    },
+    {
+      "id": 413,
+      "start": 2850.8,
+      "end": 2854.76,
+      "text": "ya y les repito un poquito"
+    },
+    {
+      "id": 414,
+      "start": 2856.32,
+      "end": 2864.08,
+      "text": "ya han hecho sus cinco consultas en el acá en su one form ahora haganlo correr y vayan llenando"
+    },
+    {
+      "id": 415,
+      "start": 2864.08,
+      "end": 2871.64,
+      "text": "las preguntas en base al negocio que ustedes están manejando ya y luego subanlo"
+    },
+    {
+      "id": 416,
+      "start": 2881.24,
+      "end": 2886.04,
+      "text": "en este caso y por ejemplo me tardó mucho por eso que tarda también ya"
+    },
+    {
+      "id": 417,
+      "start": 2888.04,
+      "end": 2891.2,
+      "text": "así que los voy esperando a usted el símbolo"
+    },
+    {
+      "id": 418,
+      "start": 2895.08,
+      "end": 2903.96,
+      "text": "saben qué es lo malo chicos y eso trimedia pasa muy rápido"
+    },
+    {
+      "id": 419,
+      "start": 2906.56,
+      "end": 2907.12,
+      "text": "ya"
+    },
+    {
+      "id": 420,
+      "start": 2909.36,
+      "end": 2912.36,
+      "text": "es parte de los risper andamien sas de volver"
+    },
+    {
+      "id": 421,
+      "start": 2912.36,
+      "end": 2927.44,
+      "text": "si no les da inmediatamente pueden volver a reiniciar y en este caso tardó mucho porque estoy"
+    },
+    {
+      "id": 422,
+      "start": 2927.44,
+      "end": 2932.72,
+      "text": "viendo si se desconecta no se desconecta lo voy a cerrar y voy a ejecutar"
+    },
+    {
+      "id": 423,
+      "start": 2942.36,
+      "end": 2960.04,
+      "text": "y ya está los hilo esto"
+    },
+    {
+      "id": 424,
+      "start": 2962.52,
+      "end": 2972.24,
+      "text": "y aquí puedo ver que ahí se está guardando mis datos yo hasta acá saque en su sexta"
+    },
+    {
+      "id": 425,
+      "start": 2972.72,
+      "end": 2973.64,
+      "text": "captura"
+    },
+    {
+      "id": 426,
+      "start": 2979.28,
+      "end": 2980.64,
+      "text": "y no agregar a su"
+    },
+    {
+      "id": 427,
+      "start": 2985.64,
+      "end": 3000.4,
+      "text": "ahora sí que una vez que lo tengan acá revita dice pin data ya un pin de era hagan clic ahí"
+    },
+    {
+      "id": 428,
+      "start": 3001.4,
+      "end": 3009.4,
+      "text": "y les tiene que decir que esta parte se va a guardar lo que se formó"
+    },
+    {
+      "id": 429,
+      "start": 3009.4,
+      "end": 3014.88,
+      "text": "misión va a guardarse va a tener estáticamente para hacer mis pruebas posterior y no estar"
+    },
+    {
+      "id": 430,
+      "start": 3014.88,
+      "end": 3020.08,
+      "text": "colocado cada vez datos datos datos esto solamente es para pruebas por su caso no es necesario que lo"
+    },
+    {
+      "id": 431,
+      "start": 3020.08,
+      "end": 3029.24,
+      "text": "hagan siempre ya es hacen clic en aquí en el data en este pincito y luego cierra y si se dan"
+    },
+    {
+      "id": 432,
+      "start": 3029.24,
+      "end": 3037.96,
+      "text": "cuenta acá les va a aparecer esta figurita y los va a parecer un conector cuando el conector"
+    },
+    {
+      "id": 433,
+      "start": 3037.96,
+      "end": 3045.64,
+      "text": "está bien siempre se coloca en verde ya ahora una vez que tengan eso recién lo van a dejar acá"
+    },
+    {
+      "id": 434,
+      "start": 3045.64,
+      "end": 3055.64,
+      "text": "listo ahora sí el edad fields debería de ahora decepcionar esos datos ya debería de"
+    },
+    {
+      "id": 435,
+      "start": 3055.64,
+      "end": 3059.04,
+      "text": "decepcionar sus datos hasta ahí lo tienen verdad"
+    },
+    {
+      "id": 436,
+      "start": 3066.84,
+      "end": 3076.12,
+      "text": "algo doble clic en edit fields y les va a aparecer esto los datos que justamente yo ya había enviado"
+    },
+    {
+      "id": 437,
+      "start": 3077.68,
+      "end": 3083.12,
+      "text": "y esto ya saben hacer porque hemos hecho anterior clase voy a jalarlo"
+    },
+    {
+      "id": 438,
+      "start": 3085.64,
+      "end": 3094.44,
+      "text": "y esta parte siempre es aconsejable colocarlo no en texto agrupado ni en texto y varios letras"
+    },
+    {
+      "id": 439,
+      "start": 3094.44,
+      "end": 3103.16,
+      "text": "o varias palabras manejen solamente una variable nombre ya listo estoy re reescribiendo nada más no"
+    },
+    {
+      "id": 440,
+      "start": 3103.16,
+      "end": 3112.92,
+      "text": "va no va a afectar a mí a mi form submission ya ahora voy a dejar el siguiente listo aquí igual"
+    },
+    {
+      "id": 441,
+      "start": 3112.92,
+      "end": 3120.4,
+      "text": "y mail siempre pues bueno trabajar lo que formato minúsculo ya le ojalos celular"
+    },
+    {
+      "id": 442,
+      "start": 3122.32,
+      "end": 3128.76,
+      "text": "ya y voy a lo escribir y luego voy a jalar el mensaje"
+    },
+    {
+      "id": 443,
+      "start": 3131.16,
+      "end": 3132.0,
+      "text": "y de nuevo"
+    },
+    {
+      "id": 444,
+      "start": 3134.88,
+      "end": 3136.0,
+      "text": "hasta ahí"
+    },
+    {
+      "id": 445,
+      "start": 3137.0,
+      "end": 3144.04,
+      "text": "ya pueden ejecutarlo no hay problema pueden ejecutar ejecutenlo"
+    },
+    {
+      "id": 446,
+      "start": 3145.36,
+      "end": 3152.4,
+      "text": "no sé qué más estoy manejando nada más ejecutar y debería de salirles esta salida"
+    },
+    {
+      "id": 447,
+      "start": 3152.4,
+      "end": 3157.12,
+      "text": "nuevamente la misma salida no podría con mis datos ya filtrados"
+    },
+    {
+      "id": 448,
+      "start": 3158.12,
+      "end": 3167.28,
+      "text": "copio y lo vuelvo a pegar acá en su form eso sería mi captura número 7"
+    },
+    {
+      "id": 449,
+      "start": 3171.16,
+      "end": 3174.52,
+      "text": "captura 7 edit fields"
+    },
+    {
+      "id": 450,
+      "start": 3175.52,
+      "end": 3179.84,
+      "text": "listo"
+    },
+    {
+      "id": 451,
+      "start": 3181.92,
+      "end": 3183.36,
+      "text": "ya hasta y"
+    },
+    {
+      "id": 452,
+      "start": 3185.4,
+      "end": 3189.04,
+      "text": "ya están si no están les voy esperando un poco más"
+    },
+    {
+      "id": 453,
+      "start": 3189.04,
+      "end": 3204.36,
+      "text": "ya no hay dudas preguntas nada no para pros o y"
+    },
+    {
+      "id": 454,
+      "start": 3204.36,
+      "end": 3206.64,
+      "text": "si me está acá"
+    },
+    {
+      "id": 455,
+      "start": 3216.84,
+      "end": 3224.04,
+      "text": "ya gracias gracias blanco porque veces no sé si estoy si está compartiendo sobre"
+    },
+    {
+      "id": 456,
+      "start": 3224.04,
+      "end": 3231.44,
+      "text": "ni más ya una vez que tengan hasta y ahora sí lo que más nos interesa el modelo de y"
+    },
+    {
+      "id": 457,
+      "start": 3231.44,
+      "end": 3241.08,
+      "text": "algo doble clic en la y ahora aquí se dan cuenta de mis inputs ya están enlazados"
+    },
+    {
+      "id": 458,
+      "start": 3241.08,
+      "end": 3249.44,
+      "text": "ya estén las a yo solamente faltan los excepcionales y aquí es donde es un poquito más no complejo"
+    },
+    {
+      "id": 459,
+      "start": 3249.44,
+      "end": 3258.2,
+      "text": "sino es un poquito tiene más pasos en este caso yo tengo ya conexiones de mis opiniones y"
+    },
+    {
+      "id": 460,
+      "start": 3258.2,
+      "end": 3261.56,
+      "text": "adelante los trabajos que he hecho así que yo voy a hacer con ustedes una nueva"
+    },
+    {
+      "id": 461,
+      "start": 3263.16,
+      "end": 3268.2,
+      "text": "vayan a crear un new credential y nos va a pedir una piquí"
+    },
+    {
+      "id": 462,
+      "start": 3269.72,
+      "end": 3277.16,
+      "text": "este apiquí lo tenemos que generar en base a mis procesos así que para esa parte voy a ser lo"
+    },
+    {
+      "id": 463,
+      "start": 3277.16,
+      "end": 3286.12,
+      "text": "siguiente no sé si lo tengo acá creo que lo tengo acá ya ahora va a ir y van a escribir acá"
+    },
+    {
+      "id": 464,
+      "start": 3287.12,
+      "end": 3292.2,
+      "text": "estos he comprado hace dos días espero que tengamos algo de dinero"
+    },
+    {
+      "id": 465,
+      "start": 3293.36,
+      "end": 3296.6,
+      "text": "openia.com ahí ven adentrando esa"
+    },
+    {
+      "id": 466,
+      "start": 3301.8,
+      "end": 3310.24,
+      "text": "dentro de openia.com van a entrar a iniciar sesión ya o en este caso antes de hacer eso antes de"
+    },
+    {
+      "id": 467,
+      "start": 3310.32,
+      "end": 3320.72,
+      "text": "hacer eso como somos desarrolladores voy a irme a la opción desarrolladores hago clic dentro del"
+    },
+    {
+      "id": 468,
+      "start": 3320.72,
+      "end": 3329.28,
+      "text": "modo de desarrollador se van a ir acá dice empezar a crear hago clic y voy a irme a poner de control"
+    },
+    {
+      "id": 469,
+      "start": 3329.28,
+      "end": 3336.4,
+      "text": "de la API a hacer clic ahí y ahora si se pueden logrear con su cuenta de gmail"
+    },
+    {
+      "id": 470,
+      "start": 3338.76,
+      "end": 3345.72,
+      "text": "en mi caso por ejemplo yo tengo ahorita 4 dólares con 98 centavos"
+    },
+    {
+      "id": 471,
+      "start": 3347.52,
+      "end": 3353.28,
+      "text": "y aquí les explico un poquito porque esta parte yo por hoy por el día de hoy y por el día de"
+    },
+    {
+      "id": 472,
+      "start": 3353.28,
+      "end": 3362.04,
+      "text": "mañana les voy a compartir mis créditos para que luego no se gaste todo y hagan lo cada uno de ustedes"
+    },
+    {
+      "id": 473,
+      "start": 3362.04,
+      "end": 3372.4,
+      "text": "como lo puede hacer pagan desde su tarjeta de débito habilitan primero la opción pagos por"
+    },
+    {
+      "id": 474,
+      "start": 3372.4,
+      "end": 3380.36,
+      "text": "internet lo habilitan el mínimo de acá chicos a los que no saben mucho esta parte es 5 dólares"
+    },
+    {
+      "id": 475,
+      "start": 3380.36,
+      "end": 3388.88,
+      "text": "en base a la hora de hoy creo que 50 bolivianos 50 y algo bolivianos ya mínimo acepta eso"
+    },
+    {
+      "id": 476,
+      "start": 3390.08,
+      "end": 3396.04,
+      "text": "se compra en el plan mínimo y créanme que los va a durar buen tiempo buen tiempo buen tiempo"
+    },
+    {
+      "id": 477,
+      "start": 3396.04,
+      "end": 3402.56,
+      "text": "buen tiempo a no sé que lo abusen con sus tokens pero por ejemplo yo he hecho hoy día casi 40"
+    },
+    {
+      "id": 478,
+      "start": 3402.56,
+      "end": 3408.24,
+      "text": "tokens para algunos clientes y miren solamente me ha gastado 0.02 dólares"
+    },
+    {
+      "id": 479,
+      "start": 3410.4,
+      "end": 3417.32,
+      "text": "así que esa parte tratenlo siempre de ver ya yo los yo los recomiendo que se compren no es tan"
+    },
+    {
+      "id": 480,
+      "start": 3417.32,
+      "end": 3424.36,
+      "text": "caro y les va a servir bastante tiempo y para muchas cosas además ya una vez que ustedes adquieran"
+    },
+    {
+      "id": 481,
+      "start": 3424.36,
+      "end": 3431.44,
+      "text": "ese producto al inmediatamente los va a llegar y van a crearse una IPA ya pero antes de acá en la"
+    },
+    {
+      "id": 482,
+      "start": 3431.44,
+      "end": 3442.88,
+      "text": "parte izquierda de su pantalla dice a piquís entro ahí y aquí está por ejemplo la piquí que crea"
+    },
+    {
+      "id": 483,
+      "start": 3442.88,
+      "end": 3448.48,
+      "text": "para ustedes ya pero a ver vamos a ver"
+    },
+    {
+      "id": 484,
+      "start": 3450.36,
+      "end": 3456.84,
+      "text": "un restrictor se puede eliminar o algo ya así que voy les voy a pasar esto voy a creer una"
+    },
+    {
+      "id": 485,
+      "start": 3456.84,
+      "end": 3472.92,
+      "text": "api que nueva y voy a colocar en 8 n no sé clase 21 ya es 21 de mayo hay no hay es 21 de mayo"
+    },
+    {
+      "id": 486,
+      "start": 3472.92,
+      "end": 3478.68,
+      "text": "ya leo aquí en de fallo para el van a colocar de fallo para y así les aparece otro normal ahora"
+    },
+    {
+      "id": 487,
+      "start": 3478.68,
+      "end": 3482.8,
+      "text": "van a colocar permissions y van a crear la cara secreta"
+    },
+    {
+      "id": 488,
+      "start": 3486.4,
+      "end": 3495.88,
+      "text": "esta clave se van a guardar siempre se van a guardar ya y don yo lo voy a copiar en mi"
+    },
+    {
+      "id": 489,
+      "start": 3495.88,
+      "end": 3502.52,
+      "text": "blog de notas yo solo te los voy a pasar ya pero primero creo que hagan los siguientes"
+    },
+    {
+      "id": 490,
+      "start": 3503.24,
+      "end": 3505.92,
+      "text": "hasta lo voy a cerrar no me interesa"
+    },
+    {
+      "id": 491,
+      "start": 3509.16,
+      "end": 3512.44,
+      "text": "ya esto también y vamos a irnos acá"
+    },
+    {
+      "id": 492,
+      "start": 3514.16,
+      "end": 3522.12,
+      "text": "voy a copiar esa clave y directamente voy a colocar esto todo la cambiar nada van a colocar 6"
+    },
+    {
+      "id": 493,
+      "start": 3523.0,
+      "end": 3532.24,
+      "text": "y aquí dice credentials successfully created y está conectado y los cierran y está ahora sí"
+    },
+    {
+      "id": 494,
+      "start": 3532.52,
+      "end": 3535.52,
+      "text": "les pasaré el código al mit"
+    },
+    {
+      "id": 495,
+      "start": 3538.28,
+      "end": 3541.72,
+      "text": "y hasta ya se pasa el código hagan prueba con lo que voy a hacer hoy día"
+    },
+    {
+      "id": 496,
+      "start": 3544.52,
+      "end": 3551.36,
+      "text": "ya se ha pasado eso hagan lo mismo y vayan conectándose les tienen que ser"
+    },
+    {
+      "id": 497,
+      "start": 3551.36,
+      "end": 3552.04,
+      "text": "successfully"
+    },
+    {
+      "id": 498,
+      "start": 3554.56,
+      "end": 3559.12,
+      "text": "hasta ahí les voy a esperar a chico antes de empezar a avanzar y esa parte ahora te vamos a"
+    },
+    {
+      "id": 499,
+      "start": 3559.12,
+      "end": 3560.28,
+      "text": "la captura número 8"
+    },
+    {
+      "id": 500,
+      "start": 3562.64,
+      "end": 3564.64,
+      "text": "y"
+    },
+    {
+      "id": 501,
+      "start": 3568.76,
+      "end": 3573.12,
+      "text": "ya vayan conectándose y esa parte cuando les diga successfully y esa parte de verdad"
+    },
+    {
+      "id": 502,
+      "start": 3573.12,
+      "end": 3578.44,
+      "text": "decirte que me ha parecido ahorita eso alguien que sacó exacto en captura y peguen su"
+    },
+    {
+      "id": 503,
+      "start": 3579.44,
+      "end": 3583.76,
+      "text": "word ya cuando le salga y lo pega en la walt"
+    },
+    {
+      "id": 504,
+      "start": 3585.32,
+      "end": 3587.92,
+      "text": "ya voy a pegar los porcentos ya"
+    },
+    {
+      "id": 505,
+      "start": 3588.92,
+      "end": 3593.64,
+      "text": "y ustedes va a decir y su accesor de mí ya lo ya ya se me ha pasado de los agravio"
+    },
+    {
+      "id": 506,
+      "start": 3594.68,
+      "end": 3600.68,
+      "text": "captura 9 y ya lo tienes chico cosi no va no lo tienes a esperar"
+    },
+    {
+      "id": 507,
+      "start": 3603.92,
+      "end": 3605.76,
+      "text": "y una vez que tengan eso"
+    },
+    {
+      "id": 508,
+      "start": 3607.12,
+      "end": 3608.44,
+      "text": "vamos a lo siguiente"
+    },
+    {
+      "id": 509,
+      "start": 3608.6,
+      "end": 3610.6,
+      "text": "y"
+    },
+    {
+      "id": 510,
+      "start": 3613.6,
+      "end": 3615.44,
+      "text": "vamos a seleccionar algunos puntos"
+    },
+    {
+      "id": 511,
+      "start": 3616.44,
+      "end": 3622.44,
+      "text": "una vez que hemos creado las api quisi demás voy a seleccionar un punto para entrenar"
+    },
+    {
+      "id": 512,
+      "start": 3622.44,
+      "end": 3631.16,
+      "text": "no ahora se vienen aquí a chus en chus y varios modelos de opinía y varios modelos"
+    },
+    {
+      "id": 513,
+      "start": 3631.88,
+      "end": 3638.6,
+      "text": "la que van a elegirse siempre ojo ojo ojo pueden elegir la el chat"
+    },
+    {
+      "id": 514,
+      "start": 3638.6,
+      "end": 3644.24,
+      "text": "o el modelo más avanzado si pero cuando son modelos más avanzados les cago un poco más de"
+    },
+    {
+      "id": 515,
+      "start": 3644.24,
+      "end": 3656.6,
+      "text": "montos monetarios yo les aconsejo que trabajen para n8n con gpt abajo de 4 o 4 ya por ejemplo yo"
+    },
+    {
+      "id": 516,
+      "start": 3656.6,
+      "end": 3664.84,
+      "text": "siempre utilizo la mini o la códix yo dice este caso la gpt 5 mini ya tiene buen nivel no me va"
+    },
+    {
+      "id": 517,
+      "start": 3664.84,
+      "end": 3671.0,
+      "text": "a cobrar mucho o sea quiero que mis tokens me duren en otros polos una vez que hagan eso van a añadir"
+    },
+    {
+      "id": 518,
+      "start": 3671.0,
+      "end": 3673.92,
+      "text": "los roles si se dan cuenta acá dice"
+    },
+    {
+      "id": 519,
+      "start": 3678.08,
+      "end": 3684.44,
+      "text": "chicos pueden avanzar clases unos 15 minutos más fuera del área y así mañana avanzamos 15 minutos"
+    },
+    {
+      "id": 520,
+      "start": 3684.44,
+      "end": 3689.24,
+      "text": "menos les parece porque no nos va a cancelar tiempo y quiero terminar esta parte con ustedes"
+    },
+    {
+      "id": 521,
+      "start": 3689.24,
+      "end": 3701.08,
+      "text": "se puede no hasta 21 y 15 máximo eso me confirman chicos ya exacto gracias rechael gracias a todos"
+    },
+    {
+      "id": 522,
+      "start": 3701.08,
+      "end": 3706.24,
+      "text": "porque si nos vamos a quedar a medias y no voy a poder terminar esta parte y decir sábado les voy a"
+    },
+    {
+      "id": 523,
+      "start": 3706.24,
+      "end": 3713.4,
+      "text": "dejar libre 15 o 18 entonces aquí quiero que tengan en cuenta lo siguiente si se dan cuenta"
+    },
+    {
+      "id": 524,
+      "start": 3713.4,
+      "end": 3718.72,
+      "text": "aquí podemos añadir más mensajes mensajes son la cantidad de recepciones que voy a realizar ya en"
+    },
+    {
+      "id": 525,
+      "start": 3718.72,
+      "end": 3726.44,
+      "text": "este caso voy a mantener tipo texto y aquí quiero que me entiendan si vamos a rol o a rol y en este"
+    },
+    {
+      "id": 526,
+      "start": 3726.44,
+      "end": 3738.08,
+      "text": "caso hay 3 por 3 tipos de roles el usuario el asistente y el sistema el usuario es netamente"
+    },
+    {
+      "id": 527,
+      "start": 3738.08,
+      "end": 3747.6,
+      "text": "quien la persona que está pidiendo no es el producto o sea el cliente el asistente nosotros"
+    },
+    {
+      "id": 528,
+      "start": 3747.6,
+      "end": 3756.08,
+      "text": "nosotros asistentes pero podemos simular respuestas o sea la ia puede ser nuestro asistente y"
+    },
+    {
+      "id": 529,
+      "start": 3756.08,
+      "end": 3763.16,
+      "text": "sistema en este caso es un proceso en el cual nosotros le pre entrenamos a la ía o sea ya la"
+    },
+    {
+      "id": 530,
+      "start": 3763.16,
+      "end": 3769.2,
+      "text": "entrenamos previamente ya algo clica en un sistema siempre van a elegir como primer proceso"
+    },
+    {
+      "id": 531,
+      "start": 3769.2,
+      "end": 3777.0,
+      "text": "sistema ya y aquí dice algo interesante dice coloquen su prompt y este prompt ya lo tienen"
+    },
+    {
+      "id": 532,
+      "start": 3778.6,
+      "end": 3783.52,
+      "text": "su prompt es el que habíamos hecho un word"
+    },
+    {
+      "id": 533,
+      "start": 3785.56,
+      "end": 3791.56,
+      "text": "este de acá en mi caso es una empresa de que yo lo voy a colocar en forma de parra folla"
+    },
+    {
+      "id": 534,
+      "start": 3793.36,
+      "end": 3798.84,
+      "text": "y esto y ese prompt lo van a copiar acá contra el red"
+    },
+    {
+      "id": 535,
+      "start": 3800.28,
+      "end": 3807.12,
+      "text": "si no se ve mucho a cada lado en lado inferior derecho hay una cosita ven una flechita hacen"
+    },
+    {
+      "id": 536,
+      "start": 3807.12,
+      "end": 3813.4,
+      "text": "click ahí y van a poder ver de mejor manera y van a poder estructuralo mejor y en este caso voy a"
+    },
+    {
+      "id": 537,
+      "start": 3813.4,
+      "end": 3820.04,
+      "text": "adjuntar voy adjuntar ojo lo siguiente a ver hasta y lo dejaremos en santo hasta y lo dejaremos"
+    },
+    {
+      "id": 538,
+      "start": 3820.04,
+      "end": 3826.84,
+      "text": "voy a hacerlo pero coloquen el prompt ahí ya una vez que ejecuten eso yo puedo ya ejecutar"
+    },
+    {
+      "id": 539,
+      "start": 3826.84,
+      "end": 3833.16,
+      "text": "por eso es un poquito más interesante pero hasta y ejecutaremos a ver ejecutenlo"
+    },
+    {
+      "id": 540,
+      "start": 3835.32,
+      "end": 3842.88,
+      "text": "van a ejecutar listo va a tardar porque está pensando ahí está pre entrenándose"
+    },
+    {
+      "id": 541,
+      "start": 3842.88,
+      "end": 3857.36,
+      "text": "listo miren ya la otro prompt y así respondería a un cliente laía miren dice perfecto entendí el"
+    },
+    {
+      "id": 542,
+      "start": 3857.36,
+      "end": 3861.72,
+      "text": "giro de la empresa comercialización de uria granulada que necesitas exactamente que prepare"
+    },
+    {
+      "id": 543,
+      "start": 3861.72,
+      "end": 3865.76,
+      "text": "que te ayude la puedo generar varios entregables y todo me da me dice que puedo hacer"
+    },
+    {
+      "id": 544,
+      "start": 3866.4,
+      "end": 3872.52,
+      "text": "mira me decía al alcance geográfico somos tantos tan hombres de empresa eso pueden añadir"
+    },
+    {
+      "id": 545,
+      "start": 3872.52,
+      "end": 3878.88,
+      "text": "ustedes de manera que pueden cocar no manda impresos a lo que le más más estético y más"
+    },
+    {
+      "id": 546,
+      "start": 3878.88,
+      "end": 3883.94,
+      "text": "organizado su prompt y con sus datos personales el nombre de su empresa no se lo que es que"
+    },
+    {
+      "id": 547,
+      "start": 3883.94,
+      "end": 3889.92,
+      "text": "el peru se le tiene que votar esta parte saca el scream porque no está trabajando ahorita con"
+    },
+    {
+      "id": 548,
+      "start": 3890.88,
+      "end": 3892.44,
+      "text": "con el toque en que los he dado"
+    },
+    {
+      "id": 549,
+      "start": 3894.2,
+      "end": 3897.28,
+      "text": "listo eso hacen scream y lo van a llevar acá"
+    },
+    {
+      "id": 550,
+      "start": 3900.76,
+      "end": 3903.44,
+      "text": "y hay captura número 9 listo"
+    },
+    {
+      "id": 551,
+      "start": 3905.76,
+      "end": 3914.08,
+      "text": "una vez que hagan eso van a cerrar un poquito y se se dan cuenta mi flujo ya está corriendo"
+    },
+    {
+      "id": 552,
+      "start": 3914.08,
+      "end": 3922.24,
+      "text": "acá de manera normal legible ya pero ahora me falta enviar el mensaje pero yo no puedo"
+    },
+    {
+      "id": 553,
+      "start": 3922.24,
+      "end": 3928.52,
+      "text": "enviar todavía mensaje si no tengo un usuario requíos de pre entrenándolo no estoy colocando"
+    },
+    {
+      "id": 554,
+      "start": 3928.52,
+      "end": 3935.48,
+      "text": "acá en en este caso sí se me estoy colocando no estoy colocando user ahora voy a venir acá"
+    },
+    {
+      "id": 555,
+      "start": 3935.48,
+      "end": 3946.12,
+      "text": "voy a decir añadir un mensaje hacemos clic en esa parte y voy a añadir en este caso algún"
+    },
+    {
+      "id": 556,
+      "start": 3946.12,
+      "end": 3955.24,
+      "text": "tipo de solicitud pero antes de eso antes antes de eso vamos a añadir un html pero antes antes"
+    },
+    {
+      "id": 557,
+      "start": 3955.24,
+      "end": 3964.48,
+      "text": "antes esta parte ustedes para la parte de gmail hacen doble clic si se dan cuenta ya tienen los"
+    },
+    {
+      "id": 558,
+      "start": 3964.48,
+      "end": 3973.84,
+      "text": "datos capturados porque está ahí está corriendo y está conectado en la opinión ahora acá esta"
+    },
+    {
+      "id": 559,
+      "start": 3973.84,
+      "end": 3980.32,
+      "text": "parte nosotros ya lo hemos hecho anterior clase ya tenemos las credenciales de gmail yo voy a"
+    },
+    {
+      "id": 560,
+      "start": 3980.32,
+      "end": 3985.32,
+      "text": "utilizar la cinca porque con ese está conectado lo que hemos hecho entre el clase voy a colocar el"
+    },
+    {
+      "id": 561,
+      "start": 3985.32,
+      "end": 3991.0,
+      "text": "mensaje normal operación enviar no voy a cambiar nada esta parte porque queremos enviar el correo"
+    },
+    {
+      "id": 562,
+      "start": 3991.0,
+      "end": 3998.28,
+      "text": "a nuestro cliente y aquí donde dice en este caso a qué cuenta va a ir o a qué correo electrónico"
+    },
+    {
+      "id": 563,
+      "start": 3998.28,
+      "end": 4005.44,
+      "text": "van a colocar van a estupen y misarlo van a irse a sus edifices porque se creen que hace filtros y"
+    },
+    {
+      "id": 564,
+      "start": 4005.44,
+      "end": 4013.96,
+      "text": "ahí tenemos que jalar este el email lo jalamos listo ahora en subjects subjects se van a elegir"
+    },
+    {
+      "id": 565,
+      "start": 4013.96,
+      "end": 4023.04,
+      "text": "algunos puntos más ya por ejemplo aquí voy a colocar los mensajes el tipo de mensaje así que"
+    },
+    {
+      "id": 566,
+      "start": 4023.04,
+      "end": 4030.64,
+      "text": "para esta parte ahorita lo vamos a hacer pero aquí dice fíjense html queremos enviar el"
+    },
+    {
+      "id": 567,
+      "start": 4030.64,
+      "end": 4036.48,
+      "text": "mensaje en html y se acuerdan que es que hacemos hecho eso entonces voy a cerrar un cacho esto no"
+    },
+    {
+      "id": 568,
+      "start": 4036.48,
+      "end": 4044.48,
+      "text": "voy a ejecutarlo voy a medir mi mesas model y huirme que brome a mi prompt voy a agrandar el prompt"
+    },
+    {
+      "id": 569,
+      "start": 4045.92,
+      "end": 4056.88,
+      "text": "y voy a decir lo siguiente genera una respuesta como estamos preentrenándolo genera una respuesta"
+    },
+    {
+      "id": 570,
+      "start": 4056.88,
+      "end": 4077.8,
+      "text": "en formato html y css para enviar a un correo para enviar un correo para enviar un correo"
+    },
+    {
+      "id": 571,
+      "start": 4077.88,
+      "end": 4086.72,
+      "text": "listo eso adjunta en la parte de su prompt y cerranlo"
+    },
+    {
+      "id": 572,
+      "start": 4088.52,
+      "end": 4097.2,
+      "text": "porque le vamos a enviar un prompt bastante estético ya ahora vamos a generar el buque que les"
+    },
+    {
+      "id": 573,
+      "start": 4097.2,
+      "end": 4104.88,
+      "text": "había comentado anteriormente voy a hacer ahora esta parte y me voy de nuevo a sentarme el google"
+    },
+    {
+      "id": 574,
+      "start": 4105.6,
+      "end": 4113.72,
+      "text": "y en esta parte donde dice subject hello world vamos a colocar respuesta a la solicitud"
+    },
+    {
+      "id": 575,
+      "start": 4115.76,
+      "end": 4119.88,
+      "text": "porque estamos enviándoles a nuestro cliente a la solicit"
+    },
+    {
+      "id": 576,
+      "start": 4123.32,
+      "end": 4130.96,
+      "text": "y una vez que tengan eso acá abajo donde dice mesas ahora si de donde se dan cuenta acá dice"
+    },
+    {
+      "id": 577,
+      "start": 4130.96,
+      "end": 4137.2,
+      "text": "mesas a model eddie fields este mesas mesas van a sacarlo de acá de mesas a modos a de mi opinión"
+    },
+    {
+      "id": 578,
+      "start": 4137.2,
+      "end": 4148.96,
+      "text": "y bien acá y acá abajo dice texto esto lo jalan listo una vez que lo jalen ya podemos procesar"
+    },
+    {
+      "id": 579,
+      "start": 4151.68,
+      "end": 4156.64,
+      "text": "ya hasta y les espero chips con esto estaremos terminando el proceso"
+    },
+    {
+      "id": 580,
+      "start": 4157.64,
+      "end": 4160.72,
+      "text": "pero hay que hacer pruebas ahora"
+    },
+    {
+      "id": 581,
+      "start": 4161.92,
+      "end": 4166.04,
+      "text": "ya entonces podemos volver a ejecutar ya"
+    },
+    {
+      "id": 582,
+      "start": 4167.76,
+      "end": 4174.16,
+      "text": "ya hasta y espero que lo tengan ahora voy a colocar aquí ejecutar world"
+    },
+    {
+      "id": 583,
+      "start": 4175.16,
+      "end": 4175.76,
+      "text": "ya"
+    },
+    {
+      "id": 584,
+      "start": 4175.76,
+      "end": 4187.16,
+      "text": "ya listo"
+    },
+    {
+      "id": 585,
+      "start": 4190.92,
+      "end": 4199.04,
+      "text": "maya ya listo eso estamos admitiendo desde mi eddie files aquí por ejemplo he creado dos"
+    },
+    {
+      "id": 586,
+      "start": 4199.04,
+      "end": 4206.64,
+      "text": "puntos ya uno es en este caso el tipo el sistema es mi prompt en el prompt tienen que añadirles"
+    },
+    {
+      "id": 587,
+      "start": 4206.64,
+      "end": 4212.92,
+      "text": "había comentado en el uno después de formato html y es este para un correo al cliente después"
+    },
+    {
+      "id": 588,
+      "start": 4212.92,
+      "end": 4220.12,
+      "text": "de prompt que se ha creado ya una vez que hay en hecho eso yo voy a colocar acá cerrar y me voy a"
+    },
+    {
+      "id": 589,
+      "start": 4220.12,
+      "end": 4230.0,
+      "text": "ir a la parte inferior aquí dice en este caso texto rol aquí a bien que me he hecho la pregunta"
+    },
+    {
+      "id": 590,
+      "start": 4230.0,
+      "end": 4234.4,
+      "text": "al compañero porque en este caso aquí me estoy olvidando el prompt que lo voy a decir en este caso"
+    },
+    {
+      "id": 591,
+      "start": 4234.4,
+      "end": 4244.4,
+      "text": "ya el prompt va a ser este este mensaje lo van a hacer acá ahora ya hasta y les voy esperando"
+    },
+    {
+      "id": 592,
+      "start": 4244.56,
+      "end": 4249.04,
+      "text": "para que lo tengan ahí sin problemas"
+    },
+    {
+      "id": 593,
+      "start": 4251.04,
+      "end": 4255.68,
+      "text": "entonces ahí en opinión y hacemos uno con user y otro con"
+    },
+    {
+      "id": 594,
+      "start": 4255.68,
+      "end": 4262.48,
+      "text": "sísteam exactamente el sísteam es necesariamente lo que ustedes le van a dar información de su"
+    },
+    {
+      "id": 595,
+      "start": 4262.48,
+      "end": 4267.4,
+      "text": "empresa de usted o sea cuán es empleados tienen que tipo de servicios que puede poder estar vendiendo"
+    },
+    {
+      "id": 596,
+      "start": 4267.4,
+      "end": 4273.4,
+      "text": "mientras en acá en el user es el prompt que estamos nosotros decepcionando del cliente"
+    },
+    {
+      "id": 597,
+      "start": 4274.84,
+      "end": 4280.92,
+      "text": "ya esto es lo voy a dejar este mensaje lo voy a dejar acá en el prompt del usuario ya ahora pueden"
+    },
+    {
+      "id": 598,
+      "start": 4280.92,
+      "end": 4287.72,
+      "text": "añadir más miren voy a tener acá y puedo decir lo siguiente quiero digamos el nombre que lo"
+    },
+    {
+      "id": 599,
+      "start": 4287.72,
+      "end": 4293.6,
+      "text": "adjunte ahí perdón le echo dos veces voy a jalar entonces no me voy a colocar el nombre dos"
+    },
+    {
+      "id": 600,
+      "start": 4293.6,
+      "end": 4306.24,
+      "text": "puntos quiero jalar digamos el celular y aquí voy a colocar celular y aquí voy a colocar también"
+    },
+    {
+      "id": 601,
+      "start": 4306.24,
+      "end": 4309.56,
+      "text": "no sé el mensaje digamos e-mail y el mensaje"
+    },
+    {
+      "id": 602,
+      "start": 4312.28,
+      "end": 4319.24,
+      "text": "dos puntos y aquí voy a colocar el no sé y me sé que será e-mail el mensaje esto no es el prompt"
+    },
+    {
+      "id": 603,
+      "start": 4319.72,
+      "end": 4327.0,
+      "text": "y en maile y maile listo aquí lo voy a jalar listo ya está es oñadarlo aquí les va a decir"
+    },
+    {
+      "id": 604,
+      "start": 4327.0,
+      "end": 4335.2,
+      "text": "les va a decir mire nombre buenas noches que ya sabéis está auto gestionando y ya aquí me estoy"
+    },
+    {
+      "id": 605,
+      "start": 4335.2,
+      "end": 4343.72,
+      "text": "aquí me estoy equivocando por ejemplo yo porque este sería el nombre no ahora sí nombre mil"
+    },
+    {
+      "id": 606,
+      "start": 4343.72,
+      "end": 4352.44,
+      "text": "tantos listos eso añadir no ahora si vuelven en este caso le van a volver a"
+    },
+    {
+      "id": 607,
+      "start": 4354.36,
+      "end": 4359.28,
+      "text": "volver a este mi caso prom hecho me le dio voy a cerrar lo nomás y vamos a ejecutar"
+    },
+    {
+      "id": 608,
+      "start": 4359.28,
+      "end": 4371.36,
+      "text": "así el user no porque como si todos aquí miren el mensaje a ver acá o si nos podemos añadir"
+    },
+    {
+      "id": 609,
+      "start": 4371.36,
+      "end": 4380.12,
+      "text": "lo siguiente al menos el mensaje más y al mensaje listo gracias esa parte me olvidaba"
+    },
+    {
+      "id": 610,
+      "start": 4380.12,
+      "end": 4386.36,
+      "text": "ya lo sí esos cuatro chicos no es necesario el email porque el mía eso vi que estamos enviándolo"
+    },
+    {
+      "id": 611,
+      "start": 4386.36,
+      "end": 4395.12,
+      "text": "y el pende emborrarlo para ya voy a colocar por hacer pruebas en el listo ahora sí eso lo cierran"
+    },
+    {
+      "id": 612,
+      "start": 4395.28,
+      "end": 4401.68,
+      "text": "y ejecuten ahora mientras tanto antes de ejecutar vayan abriendo su cuenta en este caso yo voy a"
+    },
+    {
+      "id": 613,
+      "start": 4401.68,
+      "end": 4409.4,
+      "text": "abrir mi gmail porque ese correo voy a enviarlo déjame un cachito voy a abrir mi cuenta de gmail"
+    },
+    {
+      "id": 614,
+      "start": 4409.4,
+      "end": 4420.6,
+      "text": "mientras tanto vayan abriendo igual a qué cuenta va a llegarles ya ahora si yo les voy a mostrar"
+    },
+    {
+      "id": 615,
+      "start": 4420.6,
+      "end": 4432.48,
+      "text": "si va a llegar a no y ahorita estoy dice que está ahí está listo ahorita vamos a ver si me"
+    },
+    {
+      "id": 616,
+      "start": 4432.48,
+      "end": 4440.6,
+      "text": "llegue ahora si ejecutan aquí workflow ya se está automoviendo porque el hecho el pin te dan cuenta"
+    },
+    {
+      "id": 617,
+      "start": 4440.6,
+      "end": 4445.24,
+      "text": "ahorita os voy a enseñar que me haga mi proceso y luego os voy a enseñar cómo os ejecutar de manera"
+    },
+    {
+      "id": 618,
+      "start": 4445.96,
+      "end": 4454.96,
+      "text": "ahí está procesando hay que esperar un poco porque ya le dado que el aumento de la HTML y el ccs"
+    },
+    {
+      "id": 619,
+      "start": 4456.12,
+      "end": 4458.56,
+      "text": "y voy a ver acá mientras tanto"
+    },
+    {
+      "id": 620,
+      "start": 4462.12,
+      "end": 4462.76,
+      "text": "ya"
+    },
+    {
+      "id": 621,
+      "start": 4467.4,
+      "end": 4469.32,
+      "text": "ahí está enviando el mensaje"
+    },
+    {
+      "id": 622,
+      "start": 4470.2,
+      "end": 4476.24,
+      "text": "a esta parte algo está mal"
+    },
+    {
+      "id": 623,
+      "start": 4477.92,
+      "end": 4485.24,
+      "text": "ya no le dominio dice que está mal ya sé que voy a hacer más de otra credencial que tengo"
+    },
+    {
+      "id": 624,
+      "start": 4487.0,
+      "end": 4493.04,
+      "text": "otra credencia que existen por esta parte conecten lo bien para evitar problemas"
+    },
+    {
+      "id": 625,
+      "start": 4493.92,
+      "end": 4496.52,
+      "text": "voy a hacerlo así independientemente voy a ejecutar"
+    },
+    {
+      "id": 626,
+      "start": 4497.44,
+      "end": 4506.2,
+      "text": "ahora si se sienta ven por eso dice que actualiza su aporte ahora si voy a irme a mi correo no sé si"
+    },
+    {
+      "id": 627,
+      "start": 4506.2,
+      "end": 4513.52,
+      "text": "me ha llegado también hago clic aquí en mi correo a mostrar perdón por no mostrarles muchas cosas"
+    },
+    {
+      "id": 628,
+      "start": 4513.52,
+      "end": 4520.84,
+      "text": "porque hay cosas ahí en mi correo ahí está como se lo haces y nos vemos agrícolas estimados"
+    },
+    {
+      "id": 629,
+      "start": 4520.84,
+      "end": 4525.6,
+      "text": "señores mil 32 gracias por la consulta y mira miro le ha hecho bonito su mensaje si los recibido"
+    },
+    {
+      "id": 630,
+      "start": 4525.6,
+      "end": 4531.6,
+      "text": "le confío que puedo gestionar tantos que más me dice el alimenticio cantidad requerida tantos"
+    },
+    {
+      "id": 631,
+      "start": 4531.6,
+      "end": 4537.12,
+      "text": "tantos retiro coa volteficaciones de salud y se distrae cotidica y me lo hace incluso una"
+    },
+    {
+      "id": 632,
+      "start": 4537.12,
+      "end": 4542.2,
+      "text": "un botoncito y aquí ustedes tienen que cambiar obviamente no tienen que dar en su prompt tienen"
+    },
+    {
+      "id": 633,
+      "start": 4542.2,
+      "end": 4549.12,
+      "text": "que colocar aquí en su nombre de ustedes su email de contacto de la empresa su teléfono"
+    },
+    {
+      "id": 634,
+      "start": 4549.12,
+      "end": 4557.08,
+      "text": "tienen que añadir ustedes pero en el prompt ya aquí dice si prefiero podemos conectar por"
+    },
+    {
+      "id": 635,
+      "start": 4557.08,
+      "end": 4562.24,
+      "text": "teléfono el número que nos dejó indíquenos la mejor hora para llamarlo bien no interesante"
+    },
+    {
+      "id": 636,
+      "start": 4563.12,
+      "end": 4568.36,
+      "text": "y eso es todo ahora van a ser lo siguiente hacemos doble clic acá"
+    },
+    {
+      "id": 637,
+      "start": 4570.0,
+      "end": 4572.0,
+      "text": "voy a quitar esto"
+    },
+    {
+      "id": 638,
+      "start": 4573.52,
+      "end": 4575.32,
+      "text": "hasta el despreche coste un cachito"
+    },
+    {
+      "id": 639,
+      "start": 4576.28,
+      "end": 4581.56,
+      "text": "justamente me está queriendo empujar mi perrito así que me dejó fuera"
+    },
+    {
+      "id": 640,
+      "start": 4591.56,
+      "end": 4600.24,
+      "text": "listo ahora sí ahora sí chicos ahora sí para una vez que dejan de colocar el pin ya podemos"
+    },
+    {
+      "id": 641,
+      "start": 4600.24,
+      "end": 4607.72,
+      "text": "hacer acá entre ejecutarlo de ejecutarlo de manera con otro correo hay a clic y ahora sí pueden"
+    },
+    {
+      "id": 642,
+      "start": 4607.72,
+      "end": 4612.96,
+      "text": "colocar acá y hasta aquí chicos vayan secando una captura igual pero aquí voy a mandar otro correo"
+    },
+    {
+      "id": 643,
+      "start": 4612.96,
+      "end": 4621.8,
+      "text": "voy a abrir otra cuenta otra cuenta que hemos quedado acá y acá no a la o de esto voy a irme"
+    },
+    {
+      "id": 644,
+      "start": 4621.8,
+      "end": 4624.12,
+      "text": "acá así en cógito"
+    },
+    {
+      "id": 645,
+      "start": 4626.0,
+      "end": 4628.72,
+      "text": "vamos a irnos acá ya que voy a abrir otra cuenta"
+    },
+    {
+      "id": 646,
+      "start": 4631.08,
+      "end": 4632.68,
+      "text": "listo voy a abrir mí"
+    },
+    {
+      "id": 647,
+      "start": 4634.6,
+      "end": 4639.24,
+      "text": "acá y listo vamos a ver esa prueba con otra con otro correo"
+    },
+    {
+      "id": 648,
+      "start": 4641.6,
+      "end": 4645.52,
+      "text": "ya ahora sí haré mucho prueba para ver pero me acuerdo el correo de este"
+    },
+    {
+      "id": 649,
+      "start": 4645.52,
+      "end": 4649.32,
+      "text": "correo"
+    },
+    {
+      "id": 650,
+      "start": 4650.96,
+      "end": 4655.6,
+      "text": "creen se siempre cuentas falsas para hacer pruebas y vengan a desarrollar varios"
+    },
+    {
+      "id": 651,
+      "start": 4655.6,
+      "end": 4662.44,
+      "text": "puntos para hacer pruebas siempre necesarios voy a volver a mi workflow y voy a volver a mi"
+    },
+    {
+      "id": 652,
+      "start": 4664.6,
+      "end": 4669.92,
+      "text": "voy a volver a la iniciaría ejecutamos el workflow de un coche todo"
+    },
+    {
+      "id": 653,
+      "start": 4669.92,
+      "end": 4678.08,
+      "text": "estoy esperando para el evento que esté abriéndose acá así que expiré ya"
+    },
+    {
+      "id": 654,
+      "start": 4681.32,
+      "end": 4685.24,
+      "text": "mientras tanto voy a hacer unos punts se lo voy a cerrar"
+    },
+    {
+      "id": 655,
+      "start": 4688.08,
+      "end": 4694.68,
+      "text": "esta parte también lo voy a cerrar perdonar con los ay por el robo se rompí"
+    },
+    {
+      "id": 656,
+      "start": 4695.12,
+      "end": 4700.8,
+      "text": "y se me dé así que va a tener peores esto"
+    },
+    {
+      "id": 657,
+      "start": 4702.92,
+      "end": 4708.04,
+      "text": "ya va a tener que reiniciar ya pero ya saben cómo se aplica cómo ha trabajado"
+    },
+    {
+      "id": 658,
+      "start": 4708.96,
+      "end": 4712.28,
+      "text": "vamos a trabajar acá ahora lo siguiente voy a volver a actualizarlo"
+    },
+    {
+      "id": 659,
+      "start": 4715.0,
+      "end": 4716.56,
+      "text": "porque lo eso es lo por error"
+    },
+    {
+      "id": 660,
+      "start": 4719.92,
+      "end": 4721.96,
+      "text": "ya ahora se voy a ejecutar una vez más"
+    },
+    {
+      "id": 661,
+      "start": 4724.92,
+      "end": 4728.32,
+      "text": "no se me llamó digamos Juan de las casas"
+    },
+    {
+      "id": 662,
+      "start": 4731.2,
+      "end": 4736.08,
+      "text": "ya voy a colocar el email que me había creado su alarmo y inventar"
+    },
+    {
+      "id": 663,
+      "start": 4738.2,
+      "end": 4743.4,
+      "text": "ya voy a decirle un buenas noches quiero"
+    },
+    {
+      "id": 664,
+      "start": 4748.16,
+      "end": 4750.44,
+      "text": "quiero adquirir uria"
+    },
+    {
+      "id": 665,
+      "start": 4750.44,
+      "end": 4758.48,
+      "text": "para procesos de fertilización"
+    },
+    {
+      "id": 666,
+      "start": 4763.12,
+      "end": 4767.84,
+      "text": "de un de 40 hectáreas"
+    },
+    {
+      "id": 667,
+      "start": 4770.12,
+      "end": 4777.8,
+      "text": "de no sé de maíz tiene de grado al inventicio"
+    },
+    {
+      "id": 668,
+      "start": 4778.64,
+      "end": 4785.2,
+      "text": "para el día de para lo quiero"
+    },
+    {
+      "id": 669,
+      "start": 4787.52,
+      "end": 4796.68,
+      "text": "para el 30 de mayo a primera hora en la ciudad"
+    },
+    {
+      "id": 670,
+      "start": 4797.52,
+      "end": 4798.68,
+      "text": "de Santa Cruz"
+    },
+    {
+      "id": 671,
+      "start": 4800.64,
+      "end": 4802.2,
+      "text": "listo le ejecutan"
+    },
+    {
+      "id": 672,
+      "start": 4806.2,
+      "end": 4814.12,
+      "text": "si los dos horarios ahorita es porque yo les robo por error mi sistema así que si me da errores ni"
+    },
+    {
+      "id": 673,
+      "start": 4816.12,
+      "end": 4819.84,
+      "text": "ya pero ahí pueden pueden generar eso de su parte"
+    },
+    {
+      "id": 674,
+      "start": 4820.68,
+      "end": 4828.48,
+      "text": "pero han visto que funciona no veo ningún problema ustedes vayan haciendo igual testin con lo que les"
+    },
+    {
+      "id": 675,
+      "start": 4828.48,
+      "end": 4831.72,
+      "text": "ha pasado y normal ya"
+    },
+    {
+      "id": 676,
+      "start": 4833.72,
+      "end": 4837.0,
+      "text": "si chico eso es lo lamentable tiene que reiniciar así que"
+    },
+    {
+      "id": 677,
+      "start": 4839.44,
+      "end": 4845.28,
+      "text": "ni modo de felicidad super sino de mismo chico esta parte pero esto se pueden hacer porque ya saben"
+    },
+    {
+      "id": 678,
+      "start": 4845.28,
+      "end": 4853.24,
+      "text": "cómo funcionar y demás ya esta parte que estamos viendo aquí en el post en el chachete"
+    },
+    {
+      "id": 679,
+      "start": 4853.24,
+      "end": 4859.12,
+      "text": "pre-pueblo es todo demás no lo vamos a hacer todavía este clase más tratado de terminar el sábado"
+    },
+    {
+      "id": 680,
+      "start": 4859.12,
+      "end": 4865.24,
+      "text": "pero hasta ahí debería de funcionar ya debería de funcionar de sí o sí"
+    },
+    {
+      "id": 681,
+      "start": 4867.08,
+      "end": 4873.16,
+      "text": "listo entonces sí que está subiendo van pues voy a intentar una vez más porque lo estoy"
+    },
+    {
+      "id": 682,
+      "start": 4873.16,
+      "end": 4881.12,
+      "text": "iniciando en 8 n así que esta parte nos voy a copiar esta cual lo voy a cerrar"
+    },
+    {
+      "id": 683,
+      "start": 4882.96,
+      "end": 4886.92,
+      "text": "y vamos a ejecutar una oventa a ver ahora si rápido escribir"
+    },
+    {
+      "id": 684,
+      "start": 4894.64,
+      "end": 4896.52,
+      "text": "ya necesito"
+    },
+    {
+      "id": 685,
+      "start": 4896.68,
+      "end": 4900.6,
+      "text": "uria 40 tonelos"
+    },
+    {
+      "id": 686,
+      "start": 4902.4,
+      "end": 4904.0,
+      "text": "disto subo ahora si"
+    },
+    {
+      "id": 687,
+      "start": 4905.52,
+      "end": 4909.08,
+      "text": "ya procesando debería de enviarme mi otro corromo"
+    },
+    {
+      "id": 688,
+      "start": 4910.88,
+      "end": 4915.92,
+      "text": "esperamos esperamos espero que no se haya movido algo cuando lo inicio todo"
+    },
+    {
+      "id": 689,
+      "start": 4918.68,
+      "end": 4921.04,
+      "text": "esa parte ya"
+    },
+    {
+      "id": 690,
+      "start": 4921.04,
+      "end": 4932.48,
+      "text": "ya van a ser ustedes unos dos pruebas y como los digo si los chicos vayan adquiriéndose aunque"
+    },
+    {
+      "id": 691,
+      "start": 4932.48,
+      "end": 4938.4,
+      "text": "cinco dólares los va a servir mucho la parte de su api que de opinión y no solamente de opinión"
+    },
+    {
+      "id": 692,
+      "start": 4938.4,
+      "end": 4945.84,
+      "text": "y pues en dengrock o de dipstick y me enviado me voy acá no sé si este correo pero solo"
+    },
+    {
+      "id": 693,
+      "start": 4945.84,
+      "end": 4950.04,
+      "text": "en box ahí está"
+    },
+    {
+      "id": 694,
+      "start": 4951.52,
+      "end": 4957.84,
+      "text": "no voy a agrandar y ahí está mi estimado mil tanto tanto tanto tanto tanto los creado y que dice ver"
+    },
+    {
+      "id": 695,
+      "start": 4957.84,
+      "end": 4963.68,
+      "text": "para poder preparar una contestación formal y con la disponibilidad dirección de entrega se"
+    },
+    {
+      "id": 696,
+      "start": 4963.68,
+      "end": 4970.28,
+      "text": "ha visto desde un dato bien x no ahí está uria 46 por ciento tiene otra sesión listo"
+    },
+    {
+      "id": 697,
+      "start": 4971.28,
+      "end": 4979.28,
+      "text": "y eso es todo chicos espero que les funcione hasta ahí esta captura me tienen que enviar"
+    },
+    {
+      "id": 698,
+      "start": 4979.28,
+      "end": 4986.2,
+      "text": "como su captura número 9 creo que es muy cuero y teneré que sus tres se me captura sus"
+    },
+    {
+      "id": 699,
+      "start": 4986.2,
+      "end": 4991.64,
+      "text": "destructuras no me acuerdo 9 10 capturas para su tarea de esto"
+    },
+    {
+      "id": 700,
+      "start": 4992.64,
+      "end": 5000.32,
+      "text": "10 no importa si lo hacen menos o más las pistas que me presenten que funcionan todos estos puntos"
+    },
+    {
+      "id": 701,
+      "start": 5002.72,
+      "end": 5008.96,
+      "text": "esos chicos bueno voy a detener la grabación y no se van a salir voy a sacar"
+    }
+  ]
+}

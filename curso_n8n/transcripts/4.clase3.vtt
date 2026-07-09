@@ -1,0 +1,5681 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.000
+Ya lo sé, ¿Me empezaremos la clasa?
+
+00:00:19.000 --> 00:00:25.000
+Eh, voy a admitirme, ¿Más personas más?
+
+00:00:25.000 --> 00:00:41.000
+Listo.
+
+00:00:42.000 --> 00:00:43.000
+Ya.
+
+00:00:43.000 --> 00:00:47.000
+Por si acaso voy a compartir otra imagen más,
+
+00:00:47.000 --> 00:00:49.000
+que se lo está viendo en la Internet, así que...
+
+00:00:49.000 --> 00:00:53.000
+Si es que no se me escucha raro, una edad, ya chico,
+
+00:00:53.000 --> 00:00:55.000
+a ver si empezaremos la clasa,
+
+00:00:55.000 --> 00:00:58.000
+y está grabando, sí.
+
+00:00:58.000 --> 00:01:00.000
+Ya.
+
+00:01:00.000 --> 00:01:02.000
+Entonces, volviendo a la temática,
+
+00:01:02.000 --> 00:01:04.000
+eh, ¿Qué nos ves hasta acá?
+
+00:01:04.000 --> 00:01:06.000
+Está.
+
+00:01:06.000 --> 00:01:09.000
+Ya, volvemos a entornar, así es.
+
+00:01:10.000 --> 00:01:12.000
+¿Qué más?
+
+00:01:12.000 --> 00:01:13.000
+Ya.
+
+00:01:13.000 --> 00:01:16.000
+Vengo acá, ya se va en CMD,
+
+00:01:16.000 --> 00:01:18.000
+abrimos el símbolo del sistema.
+
+00:01:18.000 --> 00:01:22.000
+Ya, en este caso pueden instalar con el...
+
+00:01:22.000 --> 00:01:25.000
+Perdón, pueden ingresar a activar en NHN
+
+00:01:25.000 --> 00:01:28.000
+con lo siguiente, NPX, NHN,
+
+00:01:28.000 --> 00:01:30.000
+y listo.
+
+00:01:30.000 --> 00:01:31.000
+Si los voy activando,
+
+00:01:31.000 --> 00:01:34.000
+voy encargándose a parte, por favor.
+
+00:01:34.000 --> 00:01:36.000
+Y una vez que lo tengamos,
+
+00:01:36.000 --> 00:01:40.000
+vamos a avanzar al siguiente proceso de automatización.
+
+00:01:40.000 --> 00:01:42.000
+Anteriormente, vemos que dan uno,
+
+00:01:42.000 --> 00:01:43.000
+así que lo voy a repetir,
+
+00:01:43.000 --> 00:01:44.000
+pero ahora lo vamos a hacer con ustedes.
+
+00:01:44.000 --> 00:01:46.000
+Ustedes van a tener que mirar los registros de asistencia,
+
+00:01:46.000 --> 00:01:49.000
+los registros diferentes, etcétera, etcétera, etcétera,
+
+00:01:49.000 --> 00:01:51.000
+me van a tener que enviar.
+
+00:01:51.000 --> 00:01:55.000
+Pero, también les había comentado que pueden instalarse a Ollama.
+
+00:01:55.000 --> 00:01:57.000
+Ya.
+
+00:01:57.000 --> 00:02:01.000
+Genalmente, Ollama me va a servir en aspectos un poquito más...
+
+00:02:01.000 --> 00:02:03.000
+más interesantes,
+
+00:02:03.000 --> 00:02:06.000
+cuando se analiza de manera local,
+
+00:02:06.000 --> 00:02:07.000
+que es el App Store,
+
+00:02:07.000 --> 00:02:10.000
+igual os voy a enseñar ahorita cómo se lo hace las App Store y demás.
+
+00:02:10.000 --> 00:02:12.000
+Ya, mientras va cargando esto,
+
+00:02:12.000 --> 00:02:14.000
+porque va a tardar bastante.
+
+00:02:14.000 --> 00:02:18.000
+Y también vamos a hacer algunas automatizaciones con IA,
+
+00:02:18.000 --> 00:02:22.000
+para hacerlo de manera mucho más veloz.
+
+00:02:22.000 --> 00:02:24.000
+Así que no hay problema.
+
+00:02:24.000 --> 00:02:26.000
+Ya, ahora sí.
+
+00:02:26.000 --> 00:02:27.000
+Bueno, estoy iniciando y haciendo yo,
+
+00:02:27.000 --> 00:02:29.000
+así que esperamos un ratito,
+
+00:02:29.000 --> 00:02:31.000
+para igual vayan haciéndolo ustedes,
+
+00:02:31.000 --> 00:02:33.000
+para que...
+
+00:02:33.000 --> 00:02:35.000
+luego entremos en producción.
+
+00:02:35.000 --> 00:02:37.000
+Ya.
+
+00:02:37.000 --> 00:02:39.000
+Ya.
+
+00:02:39.000 --> 00:02:41.000
+A ver, vamos a hacer el siguiente.
+
+00:02:41.000 --> 00:02:43.000
+Entonces...
+
+00:02:43.000 --> 00:02:44.000
+A ver, qué me tocaría,
+
+00:02:44.000 --> 00:02:46.000
+videochicoco,
+
+00:02:46.000 --> 00:02:48.000
+si vamos a hacer esto.
+
+00:02:48.000 --> 00:02:50.000
+¿Qué tal, buenos muchachos?
+
+00:02:50.000 --> 00:02:52.000
+Ah, disculpá.
+
+00:02:52.000 --> 00:02:54.000
+Yo aún no he podido hablar bien lo que es Dockers.
+
+00:02:54.000 --> 00:02:56.000
+Me parece un error.
+
+00:02:56.000 --> 00:02:58.000
+Ya vi el video y todo,
+
+00:02:58.000 --> 00:03:00.000
+pero no lo podía instalar.
+
+00:03:00.000 --> 00:03:02.000
+Por favor, no lo puedo elaborar.
+
+00:03:02.000 --> 00:03:04.000
+¿Te parece, después de la clase,
+
+00:03:04.000 --> 00:03:06.000
+un cachito,
+
+00:03:06.000 --> 00:03:08.000
+nos conectamos para hacerlo contigo?
+
+00:03:08.000 --> 00:03:10.000
+Porque ahorita no voy a utilizar Dockers,
+
+00:03:10.000 --> 00:03:12.000
+netamente con Node.js vamos a trabajar.
+
+00:03:12.000 --> 00:03:14.000
+Así que no hay problema todavía.
+
+00:03:14.000 --> 00:03:16.000
+¿Listo?
+
+00:03:16.000 --> 00:03:18.000
+No, entro a Node.js.
+
+00:03:18.000 --> 00:03:20.000
+Entonces...
+
+00:03:20.000 --> 00:03:22.000
+¿Ya lo has instalado?
+
+00:03:22.000 --> 00:03:24.000
+Node.js todavía no.
+
+00:03:24.000 --> 00:03:26.000
+Sí, Node.js.
+
+00:03:26.000 --> 00:03:28.000
+Sí, me parece como un CDM.
+
+00:03:28.000 --> 00:03:30.000
+Exacto.
+
+00:03:30.000 --> 00:03:32.000
+O sea, debería de aparecer...
+
+00:03:32.000 --> 00:03:34.000
+A ver, voy a abrir otro terminal.
+
+00:03:34.000 --> 00:03:36.000
+Y...
+
+00:03:36.000 --> 00:03:38.000
+Node.js.
+
+00:03:38.000 --> 00:03:40.000
+Es escrita, ¿no ves?
+
+00:03:40.000 --> 00:03:42.000
+Si es escrita así, Node.js.
+
+00:03:42.000 --> 00:03:44.000
+Te debería de aparecer esto.
+
+00:03:44.000 --> 00:03:46.000
+Si has instalado bien.
+
+00:03:46.000 --> 00:03:48.000
+Ya.
+
+00:03:48.000 --> 00:03:50.000
+Y una vez que ya has tenido Node.js
+
+00:03:50.000 --> 00:03:52.000
+y te has salido eso,
+
+00:03:52.000 --> 00:03:54.000
+así en Node.js, vas a colocar.
+
+00:03:54.000 --> 00:03:56.000
+Y se va a instalar.
+
+00:03:56.000 --> 00:03:58.000
+Así.
+
+00:03:58.000 --> 00:04:00.000
+Y conoces instalar Node.js
+
+00:04:00.000 --> 00:04:02.000
+directamente de manera global.
+
+00:04:02.000 --> 00:04:04.000
+Dockers lo vamos a manejar luego
+
+00:04:04.000 --> 00:04:06.000
+más que todo para los servidores VPS
+
+00:04:06.000 --> 00:04:08.000
+pero todavía no vas a tratar pero
+
+00:04:08.000 --> 00:04:10.000
+yo los he dicho que me vayan instalando
+
+00:04:10.000 --> 00:04:12.000
+para ganar tiempo, vamos a ver.
+
+00:04:16.000 --> 00:04:18.000
+Entonces no has instalado, no hay diferencia.
+
+00:04:18.000 --> 00:04:20.000
+Ya.
+
+00:04:20.000 --> 00:04:22.000
+Entonces...
+
+00:04:22.000 --> 00:04:24.000
+¿Puedes comparar tu pantalla?
+
+00:04:24.000 --> 00:04:26.000
+Si, la segunda hora va a tener que ir listo.
+
+00:04:26.000 --> 00:04:28.000
+Mientras vas compartiendo...
+
+00:04:28.000 --> 00:04:30.000
+de un ratito.
+
+00:04:32.000 --> 00:04:34.000
+Listo, a ver qué más.
+
+00:04:36.000 --> 00:04:38.000
+Ya.
+
+00:04:38.000 --> 00:04:40.000
+Mientras tanto los demás
+
+00:04:40.000 --> 00:04:42.000
+les había pedido anterior que los sé
+
+00:04:42.000 --> 00:04:44.000
+que vayan instalando en Rock Tunnel.
+
+00:04:44.000 --> 00:04:46.000
+Si no lo han visto tú,
+
+00:04:46.000 --> 00:04:48.000
+había que instalar enlo, por favor,
+
+00:04:48.000 --> 00:04:50.000
+y te vamos a hacer una...
+
+00:04:50.000 --> 00:04:52.000
+Vamos a trabajar en bases.
+
+00:04:52.000 --> 00:04:54.000
+Ya.
+
+00:04:54.000 --> 00:04:56.000
+Ya estoy compartiendo la pantalla.
+
+00:04:56.000 --> 00:04:58.000
+Ya.
+
+00:05:00.000 --> 00:05:02.000
+Me sale exterrore.
+
+00:05:02.000 --> 00:05:04.000
+Consulce a ver apretar.
+
+00:05:04.000 --> 00:05:06.000
+Consulce varias veces.
+
+00:05:06.000 --> 00:05:08.000
+Dentro del...
+
+00:05:08.000 --> 00:05:10.000
+Si.
+
+00:05:10.000 --> 00:05:12.000
+Una vez más, listo.
+
+00:05:12.000 --> 00:05:14.000
+Ahora volve a abrir otro CMD.
+
+00:05:14.000 --> 00:05:16.000
+Ahora volve a abrir otro CMD.
+
+00:05:16.000 --> 00:05:18.000
+Ahora volve a abrir otro CMD.
+
+00:05:18.000 --> 00:05:20.000
+CMD.
+
+00:05:26.000 --> 00:05:28.000
+Listo.
+
+00:05:28.000 --> 00:05:30.000
+Ahora escribí...
+
+00:05:30.000 --> 00:05:32.000
+No de, llambre, espacio llambre.
+
+00:05:32.000 --> 00:05:34.000
+Listo.
+
+00:05:34.000 --> 00:05:36.000
+Ya está, ya lo tienes.
+
+00:05:36.000 --> 00:05:38.000
+Ahora pon NPX
+
+00:05:38.000 --> 00:05:40.000
+Espacio
+
+00:05:40.000 --> 00:05:42.000
+N8N
+
+00:05:42.000 --> 00:05:44.000
+Ah, no, era...
+
+00:05:44.000 --> 00:05:46.000
+N8N... NPX
+
+00:05:46.000 --> 00:05:48.000
+N8N
+
+00:05:48.000 --> 00:05:50.000
+Entra.
+
+00:05:50.000 --> 00:05:52.000
+Ahora sí.
+
+00:05:52.000 --> 00:05:54.000
+Listo, ya está.
+
+00:05:54.000 --> 00:05:56.000
+Entra apretar.
+
+00:05:56.000 --> 00:05:58.000
+Ahora sí, va a instalarte.
+
+00:05:58.000 --> 00:06:00.000
+Resimbas a instalar en 11, 9, 8, 10.
+
+00:06:00.000 --> 00:06:02.000
+Ya iba a estar un buen rato.
+
+00:06:02.000 --> 00:06:04.000
+Y una vez que te...
+
+00:06:04.000 --> 00:06:06.000
+que ya...
+
+00:06:06.000 --> 00:06:08.000
+Puedes dejar de compartir, si no,
+
+00:06:08.000 --> 00:06:10.000
+y ahora te voy a mostrar que te va a aparecer.
+
+00:06:10.000 --> 00:06:12.000
+¿Listo? Una vez que tardes
+
+00:06:12.000 --> 00:06:14.000
+ahí más o menos unos 10, 15,
+
+00:06:14.000 --> 00:06:16.000
+20, muchos, depende de tu internet.
+
+00:06:16.000 --> 00:06:18.000
+Ya sí, no te va a aparecer.
+
+00:06:18.000 --> 00:06:20.000
+No sé por qué, Pancho,
+
+00:06:20.000 --> 00:06:22.000
+si se está grabando, así que no hay problema.
+
+00:06:22.000 --> 00:06:24.000
+Ya.
+
+00:06:24.000 --> 00:06:26.000
+Esto.
+
+00:06:26.000 --> 00:06:28.000
+Te va a aparecer esto.
+
+00:06:28.000 --> 00:06:30.000
+Ya, te va a aparecer esto.
+
+00:06:30.000 --> 00:06:32.000
+Y te va a aparecer este localhost.
+
+00:06:32.000 --> 00:06:34.000
+Esto tienes que copiarlo
+
+00:06:34.000 --> 00:06:36.000
+a una web.
+
+00:06:36.000 --> 00:06:38.000
+O apretar la tecla O.
+
+00:06:38.000 --> 00:06:40.000
+Nada más. Si apreques a la tecla O,
+
+00:06:40.000 --> 00:06:42.000
+automáticamente se va a abrir.
+
+00:06:42.000 --> 00:06:44.000
+Por ejemplo, yo ahorita voy a compartir acá.
+
+00:06:44.000 --> 00:06:46.000
+Por eso estoy abriendo esto, mi navegador y yo.
+
+00:06:46.000 --> 00:06:48.000
+Lo dejo ahí.
+
+00:06:48.000 --> 00:06:50.000
+Aquí voy a apretar la letra O nomás.
+
+00:06:50.000 --> 00:06:52.000
+Y se va a habilitar mi...
+
+00:06:52.000 --> 00:06:54.000
+¿Ven? Se ha habilitado una interfaz.
+
+00:06:54.000 --> 00:06:56.000
+Y a mí ya me voy a votar intornamente,
+
+00:06:56.000 --> 00:06:58.000
+porque ya me lo gué adoranteriormente
+
+00:06:58.000 --> 00:07:00.000
+y normal.
+
+00:07:00.000 --> 00:07:02.000
+Ya. Ahí sí. Ahí...
+
+00:07:02.000 --> 00:07:04.000
+Me lo voy a logre.
+
+00:07:04.000 --> 00:07:06.000
+Ahí me voy a logre un cachito.
+
+00:07:06.000 --> 00:07:08.000
+¿Listo?
+
+00:07:08.000 --> 00:07:10.000
+Y no me acuerdo en mi conocimiento.
+
+00:07:10.000 --> 00:07:12.000
+Yo no tengo cuenta...
+
+00:07:12.000 --> 00:07:14.000
+¿Cómo hago para crearme la cuenta?
+
+00:07:14.000 --> 00:07:16.000
+Ahí me va a aparecer la opción.
+
+00:07:16.000 --> 00:07:18.000
+Sí. Cuando tú...
+
+00:07:18.000 --> 00:07:20.000
+Exacto. Cuando has visto ahorita mi formulario, ¿no?
+
+00:07:20.000 --> 00:07:22.000
+Ahí te va a pedir...
+
+00:07:22.000 --> 00:07:24.000
+No, formulario.
+
+00:07:24.000 --> 00:07:26.000
+Te va a pedir registro.
+
+00:07:26.000 --> 00:07:28.000
+Ahí te registras porque esas registro,
+
+00:07:28.000 --> 00:07:30.000
+netamente es para tu computadora, para tu PC.
+
+00:07:30.000 --> 00:07:32.000
+O sea, no te estás registrando para N8.
+
+00:07:32.000 --> 00:07:34.000
+Y en tus palabras.
+
+00:07:34.000 --> 00:07:36.000
+Y eso te anotas, no te olvidas.
+
+00:07:36.000 --> 00:07:38.000
+Y a luego... normal.
+
+00:07:38.000 --> 00:07:40.000
+¿Listo? No te preocupes.
+
+00:07:40.000 --> 00:07:42.000
+Docker todavía falta.
+
+00:07:42.000 --> 00:07:44.000
+Así que... falta, falta todavía.
+
+00:07:44.000 --> 00:07:46.000
+Netamente es otro tipo de ambiente de trabajo con N8n,
+
+00:07:46.000 --> 00:07:48.000
+pero no incluye que tengamos que trabajar
+
+00:07:48.000 --> 00:07:50.000
+con Node
+
+00:07:50.000 --> 00:07:52.000
+y Docker obligatoriamente.
+
+00:07:52.000 --> 00:07:54.000
+Normalmente se puede trabajar con
+
+00:07:54.000 --> 00:07:56.000
+N8n con Node.
+
+00:07:56.000 --> 00:07:58.000
+¿Ya?
+
+00:07:58.000 --> 00:08:00.000
+¿Listo? Entonces, empezaremos la clase chico-cos.
+
+00:08:00.000 --> 00:08:02.000
+Creemos el workflow de nuevo.
+
+00:08:04.000 --> 00:08:06.000
+Ya.
+
+00:08:06.000 --> 00:08:08.000
+Y terminaremos el más.
+
+00:08:08.000 --> 00:08:10.000
+Y habilitaremos de una vez.
+
+00:08:10.000 --> 00:08:12.000
+En este caso, ¿un worker-surmission
+
+00:08:12.000 --> 00:08:14.000
+o va a ser un scalar?
+
+00:08:14.000 --> 00:08:16.000
+Que podemos re-read.
+
+00:08:16.000 --> 00:08:18.000
+A ver, le voy a ver un cachito.
+
+00:08:18.000 --> 00:08:20.000
+Voy a ver mi... en base a lo que mostro.
+
+00:08:20.000 --> 00:08:22.000
+¿Vamos a worker-surmission mejor?
+
+00:08:22.000 --> 00:08:24.000
+Ya. Ahora, fíjense.
+
+00:08:24.000 --> 00:08:26.000
+Les había pedido lo siguiente.
+
+00:08:26.000 --> 00:08:28.000
+En gorg...
+
+00:08:28.000 --> 00:08:30.000
+Tune.
+
+00:08:30.000 --> 00:08:32.000
+Ya.
+
+00:08:32.000 --> 00:08:34.000
+Esto les había pedido entre las que habían descargándose.
+
+00:08:34.000 --> 00:08:36.000
+Y vayan creando su alicón.
+
+00:08:36.000 --> 00:08:38.000
+Lo guiándose.
+
+00:08:38.000 --> 00:08:40.000
+¿Van a estar por free?
+
+00:08:42.000 --> 00:08:44.000
+Ya.
+
+00:08:44.000 --> 00:08:46.000
+Y van a ingresar con...
+
+00:08:46.000 --> 00:08:48.000
+Google ya.
+
+00:08:48.000 --> 00:08:50.000
+Y listo.
+
+00:08:50.000 --> 00:08:52.000
+En este caso...
+
+00:08:54.000 --> 00:08:56.000
+Por ejemplo, esta es nueva de mí.
+
+00:08:56.000 --> 00:08:58.000
+Estaba trabajando en mi otro...
+
+00:08:58.000 --> 00:09:00.000
+en mi otro cuenta, pero ahora vamos a hacer con ustedes.
+
+00:09:00.000 --> 00:09:02.000
+Listo.
+
+00:09:02.000 --> 00:09:04.000
+Les voy a pedir esto.
+
+00:09:04.000 --> 00:09:06.000
+¿Van a crear un gorg-surmission con la gravedad?
+
+00:09:06.000 --> 00:09:08.000
+Entonces, sí.
+
+00:09:08.000 --> 00:09:10.000
+Agrega en cuenta.
+
+00:09:10.000 --> 00:09:12.000
+Acetan los términos.
+
+00:09:12.000 --> 00:09:14.000
+Crean la cuenta.
+
+00:09:14.000 --> 00:09:16.000
+Y listo.
+
+00:09:16.000 --> 00:09:18.000
+Ahí esperamos un rato.
+
+00:09:18.000 --> 00:09:20.000
+Hasta que se cree.
+
+00:09:20.000 --> 00:09:22.000
+¿Deó?
+
+00:09:24.000 --> 00:09:26.000
+Ya. Aquí, por ejemplo...
+
+00:09:26.000 --> 00:09:28.000
+A ver, les espero hasta ahí.
+
+00:09:28.000 --> 00:09:30.000
+Chicos, para no volar.
+
+00:09:30.000 --> 00:09:32.000
+Entonces, espero hasta ahí.
+
+00:09:32.000 --> 00:09:34.000
+Llegan hasta ahí.
+
+00:09:34.000 --> 00:09:36.000
+Y una vez que lleguen hasta ahí, pues les voy a decir que van a...
+
+00:09:36.000 --> 00:09:38.000
+Cliquearse.
+
+00:09:38.000 --> 00:09:40.000
+Pero no es tan interesante, tan primordial...
+
+00:09:40.000 --> 00:09:42.000
+Esta parte legítima.
+
+00:09:42.000 --> 00:09:44.000
+Solamente es como una encuesta interna que nos hacen rock.
+
+00:09:44.000 --> 00:09:46.000
+Así que no hay problema.
+
+00:09:46.000 --> 00:09:48.000
+Ya.
+
+00:09:48.000 --> 00:09:50.000
+Yo, netamente, lo que nos necesitamos para...
+
+00:09:50.000 --> 00:09:52.000
+En 8N,
+
+00:09:52.000 --> 00:09:54.000
+en Amazon, los APIs de GetWays.
+
+00:09:54.000 --> 00:09:56.000
+Nada más. Quizás testing,
+
+00:09:56.000 --> 00:09:58.000
+pero estos son más para ámbitos de programación.
+
+00:09:58.000 --> 00:10:00.000
+Así que no.
+
+00:10:00.000 --> 00:10:02.000
+Y van a seleccionar un rol que van a hacer en este caso.
+
+00:10:02.000 --> 00:10:04.000
+Por ejemplo...
+
+00:10:04.000 --> 00:10:06.000
+Para que no les moleste.
+
+00:10:06.000 --> 00:10:08.000
+Van a colocar un studio.
+
+00:10:08.000 --> 00:10:10.000
+Hobbits, building for fun.
+
+00:10:10.000 --> 00:10:12.000
+Ya.
+
+00:10:12.000 --> 00:10:14.000
+Y listo.
+
+00:10:14.000 --> 00:10:16.000
+Y vamos a...
+
+00:10:16.000 --> 00:10:18.000
+Skip. Continuar.
+
+00:10:18.000 --> 00:10:20.000
+O Skip pueden colocar después de eso.
+
+00:10:20.000 --> 00:10:22.000
+No hay lío.
+
+00:10:22.000 --> 00:10:24.000
+Skip y lo voy a saltarme el paso.
+
+00:10:24.000 --> 00:10:26.000
+Y listo.
+
+00:10:26.000 --> 00:10:28.000
+Los voy esperando.
+
+00:10:28.000 --> 00:10:30.000
+Ya.
+
+00:10:30.000 --> 00:10:32.000
+Ahora, este interfaz...
+
+00:10:32.000 --> 00:10:34.000
+Por ejemplo,
+
+00:10:34.000 --> 00:10:36.000
+¿Cuándo es utilista y cuándo no?
+
+00:10:36.000 --> 00:10:38.000
+En rock como les había comentado.
+
+00:10:38.000 --> 00:10:40.000
+A ver, voy a volverlos a explicar acá.
+
+00:10:40.000 --> 00:10:42.000
+Es...
+
+00:10:42.000 --> 00:10:44.000
+Bravo.
+
+00:10:44.000 --> 00:10:46.000
+Perdón, ¿Qué interés puso?
+
+00:10:46.000 --> 00:10:48.000
+Ahí abajo de...
+
+00:10:48.000 --> 00:10:50.000
+Skip.
+
+00:10:50.000 --> 00:10:52.000
+Ahí abajo dice Skip. Salta, te hace paso.
+
+00:10:52.000 --> 00:10:54.000
+No hay problema.
+
+00:10:54.000 --> 00:10:56.000
+Y te va para este directamente este interfaz.
+
+00:10:56.000 --> 00:10:58.000
+Solamente una encuesta.
+
+00:10:58.000 --> 00:11:00.000
+Pero ahí ves para que no les moleste.
+
+00:11:00.000 --> 00:11:02.000
+Cuando hago unos puntos, siempre lo coloco a un estudiante.
+
+00:11:02.000 --> 00:11:04.000
+Ya.
+
+00:11:04.000 --> 00:11:06.000
+Bueno, esto no hay que ver.
+
+00:11:06.000 --> 00:11:08.000
+Vamos a hacer algo.
+
+00:11:08.000 --> 00:11:10.000
+Ya.
+
+00:11:10.000 --> 00:11:12.000
+En rock.
+
+00:11:12.000 --> 00:11:14.000
+Ya, ahora sí.
+
+00:11:14.000 --> 00:11:16.000
+Por ejemplo, en rock.
+
+00:11:16.000 --> 00:11:18.000
+Me crea un túnel.
+
+00:11:18.000 --> 00:11:20.000
+Ya saben cómo es un túnel.
+
+00:11:20.000 --> 00:11:22.000
+O sea, si hablamos de manera muy formal
+
+00:11:22.000 --> 00:11:24.000
+de manera lógica,
+
+00:11:24.000 --> 00:11:26.000
+un túnel es como un camino de un punto a otro punto.
+
+00:11:26.000 --> 00:11:28.000
+Pero va a llevar de manera directa.
+
+00:11:28.000 --> 00:11:30.000
+Es lo mismo acá.
+
+00:11:30.000 --> 00:11:32.000
+Solamente en rock va a englobar
+
+00:11:32.000 --> 00:11:34.000
+o va a emascarar
+
+00:11:34.000 --> 00:11:36.000
+lo que es mi...
+
+00:11:36.000 --> 00:11:38.000
+Perdón, esta parte de la mostrar aquí.
+
+00:11:38.000 --> 00:11:40.000
+Va a emascarar mi link, mi URL.
+
+00:11:40.000 --> 00:11:42.000
+Por ejemplo, siempre cuando ustedes trabajen
+
+00:11:42.000 --> 00:11:44.000
+en una interfaz,
+
+00:11:44.000 --> 00:11:46.000
+no solamente en el 8N, sino si se dedican
+
+00:11:46.000 --> 00:11:48.000
+a un ámbito de un poquito más de automátesis,
+
+00:11:48.000 --> 00:11:50.000
+profundizan las cosas,
+
+00:11:50.000 --> 00:11:52.000
+siempre cuando corremos de manera local
+
+00:11:52.000 --> 00:11:54.000
+cualquier aplicación, softwares,
+
+00:11:54.000 --> 00:11:56.000
+siempre van a colocar, siempre trabajamos
+
+00:11:56.000 --> 00:11:58.000
+con localhost.
+
+00:11:58.000 --> 00:12:00.000
+Por ejemplo, el localhost de N8N5678
+
+00:12:00.000 --> 00:12:02.000
+es el puerto.
+
+00:12:02.000 --> 00:12:04.000
+Pero hay otros puertos, puede haber la 1010,
+
+00:12:04.000 --> 00:12:06.000
+puede haber la 888,
+
+00:12:06.000 --> 00:12:08.000
+que es de Samp, de PHP,
+
+00:12:08.000 --> 00:12:10.000
+puede haber otros puertos.
+
+00:12:10.000 --> 00:12:12.000
+¿Qué hace en rock?
+
+00:12:12.000 --> 00:12:14.000
+En global, lo camuflo y lo lleva por un túnel
+
+00:12:14.000 --> 00:12:16.000
+para que puedan ver todos, aunque sea de manera local,
+
+00:12:16.000 --> 00:12:18.000
+todos mis clientes puedan verlo
+
+00:12:18.000 --> 00:12:20.000
+de algún tipo, desde cualquier lugar del mundo.
+
+00:12:20.000 --> 00:12:22.000
+Porque es un túnel que se lo estoy colocando
+
+00:12:22.000 --> 00:12:24.000
+sin que me cobren servicios
+
+00:12:24.000 --> 00:12:26.000
+de externos por si acaso.
+
+00:12:26.000 --> 00:12:28.000
+Eso hace rock.
+
+00:12:28.000 --> 00:12:30.000
+Eso es lo que vamos a hacer hoy día
+
+00:12:30.000 --> 00:12:32.000
+más o menos, y me van a ayudar
+
+00:12:32.000 --> 00:12:34.000
+a analizar tus aspectos.
+
+00:12:34.000 --> 00:12:36.000
+Como ya se entendió,
+
+00:12:36.000 --> 00:12:38.000
+perdón.
+
+00:12:38.000 --> 00:12:40.000
+Consulta entonces rock.
+
+00:12:40.000 --> 00:12:42.000
+Camufla el link
+
+00:12:42.000 --> 00:12:44.000
+que sale de N8N.
+
+00:12:44.000 --> 00:12:46.000
+Exacto.
+
+00:12:46.000 --> 00:12:48.000
+Eso se puede utilizar con CloudFair
+
+00:12:48.000 --> 00:12:50.000
+con el tema de
+
+00:12:50.000 --> 00:12:52.000
+page.dep.
+
+00:12:52.000 --> 00:12:54.000
+Exacto, con CloudFairTunnel,
+
+00:12:54.000 --> 00:12:56.000
+también lo mismo.
+
+00:12:56.000 --> 00:12:58.000
+Eso puede hacer que publique
+
+00:12:58.000 --> 00:13:00.000
+el link de in, porque
+
+00:13:00.000 --> 00:13:02.000
+el link de in cuando hay terminaciones
+
+00:13:02.000 --> 00:13:04.000
+que no sean .com
+
+00:13:04.000 --> 00:13:06.000
+o de esa serie
+
+00:13:06.000 --> 00:13:08.000
+es como que le interpreta
+
+00:13:08.000 --> 00:13:10.000
+como un link peligroso.
+
+00:13:10.000 --> 00:13:12.000
+Exacto.
+
+00:13:12.000 --> 00:13:14.000
+Que te pide tu
+
+00:13:14.000 --> 00:13:16.000
+en la página web.
+
+00:13:16.000 --> 00:13:18.000
+Eso se puede.
+
+00:13:18.000 --> 00:13:20.000
+Ahora obviamente
+
+00:13:20.000 --> 00:13:22.000
+también hay lo que es esto.
+
+00:13:22.000 --> 00:13:24.000
+Versal.
+
+00:13:24.000 --> 00:13:26.000
+Así que
+
+00:13:26.000 --> 00:13:28.000
+podemos englobarlo dentro de Versal.
+
+00:13:28.000 --> 00:13:30.000
+No hay problema.
+
+00:13:30.000 --> 00:13:32.000
+Pero al principio, si nos va a pedir
+
+00:13:32.000 --> 00:13:34.000
+es a estandarización de que
+
+00:13:34.000 --> 00:13:36.000
+si quiero continuar con dicha página.
+
+00:13:36.000 --> 00:13:38.000
+Luego se le hacen los encriptaciones
+
+00:13:38.000 --> 00:13:40.000
+y normal se hace camuflar a todos los sistemas.
+
+00:13:40.000 --> 00:13:42.000
+Ya.
+
+00:13:42.000 --> 00:13:44.000
+Eso es engraph.
+
+00:13:44.000 --> 00:13:46.000
+Si, si no se son con la parte de CloudFair.
+
+00:13:46.000 --> 00:13:48.000
+Y buen punto, buena tu pregunta.
+
+00:13:48.000 --> 00:13:50.000
+Porque justamente hoy día
+
+00:13:50.000 --> 00:13:52.000
+estoy basando con mis alumnos esto.
+
+00:13:52.000 --> 00:13:54.000
+Ellos están creando aplicaciones, por ejemplo.
+
+00:13:54.000 --> 00:13:56.000
+Y están englobando en
+
+00:13:56.000 --> 00:13:58.000
+CloudFair
+
+00:13:58.000 --> 00:14:00.000
+para bloquear
+
+00:14:00.000 --> 00:14:02.000
+o para generar procesos de VREL
+
+00:14:02.000 --> 00:14:04.000
+con imágenes de ICON.
+
+00:14:04.000 --> 00:14:06.000
+Es decir, para ambientes hospitalarios.
+
+00:14:06.000 --> 00:14:08.000
+Y para trabajar con
+
+00:14:08.000 --> 00:14:10.000
+física nuclear, física de partículas
+
+00:14:10.000 --> 00:14:12.000
+o imagino logía
+
+00:14:12.000 --> 00:14:14.000
+para datos de ppts, ppts
+
+00:14:14.000 --> 00:14:16.000
+y pptvs.
+
+00:14:16.000 --> 00:14:18.000
+O sea, otro mundo. Pero sí se engloba.
+
+00:14:18.000 --> 00:14:20.000
+Y eso me sigue porque veces
+
+00:14:20.000 --> 00:14:22.000
+de codificar
+
+00:14:22.000 --> 00:14:24.000
+imágenes es complicado.
+
+00:14:24.000 --> 00:14:26.000
+Así que prefiero trabajarlo con ese tipo de sistemas.
+
+00:14:26.000 --> 00:14:28.000
+Ya.
+
+00:14:28.000 --> 00:14:30.000
+Ahora si continuaremos.
+
+00:14:30.000 --> 00:14:32.000
+Si esto no está ahí, super.
+
+00:14:32.000 --> 00:14:34.000
+Así que esto es para que te voy a borrarme.
+
+00:14:34.000 --> 00:14:36.000
+Y hemos inicializado.
+
+00:14:36.000 --> 00:14:38.000
+Así que acá.
+
+00:14:38.000 --> 00:14:40.000
+Ah, otra cosa más. Vienen acá.
+
+00:14:40.000 --> 00:14:42.000
+Por si acaso. Van a crecer lo mismo.
+
+00:14:42.000 --> 00:14:44.000
+En Glock.
+
+00:14:44.000 --> 00:14:46.000
+For Windows.
+
+00:14:46.000 --> 00:14:48.000
+O para Windows.
+
+00:14:50.000 --> 00:14:52.000
+Ya. Ahí esperamos un cacha.
+
+00:14:52.000 --> 00:14:54.000
+No sé si el internet o se está cortando.
+
+00:14:54.000 --> 00:14:56.000
+Me pueden confirmar los demás.
+
+00:14:56.000 --> 00:14:58.000
+Sozoyos su compañero.
+
+00:14:58.000 --> 00:15:00.000
+¿Van a decir eso?
+
+00:15:00.000 --> 00:15:02.000
+Reporto un rato en la audio anteriormente.
+
+00:15:02.000 --> 00:15:04.000
+Ya.
+
+00:15:04.000 --> 00:15:06.000
+Gracias, chicos.
+
+00:15:06.000 --> 00:15:08.000
+Estoy grabando por suerte.
+
+00:15:08.000 --> 00:15:10.000
+Pero igual.
+
+00:15:10.000 --> 00:15:12.000
+Gracias por la comunicación.
+
+00:15:12.000 --> 00:15:14.000
+Y volvamos a ver.
+
+00:15:14.000 --> 00:15:16.000
+Voy a hablar un poquito más lento.
+
+00:15:16.000 --> 00:15:18.000
+Esta parte.
+
+00:15:18.000 --> 00:15:20.000
+Una vez que ya se han creado la cuenta de
+
+00:15:20.000 --> 00:15:22.000
+en Glock.
+
+00:15:22.000 --> 00:15:24.000
+Van a venir acá.
+
+00:15:24.000 --> 00:15:26.000
+Y van a colocar descargar en Glock para Windows.
+
+00:15:26.000 --> 00:15:28.000
+Por si acaso. Esta parte que estoy haciendo.
+
+00:15:28.000 --> 00:15:30.000
+No se asusten los que no domina.
+
+00:15:30.000 --> 00:15:32.000
+O nunca ha manejado programación.
+
+00:15:32.000 --> 00:15:34.000
+O código.
+
+00:15:34.000 --> 00:15:36.000
+Esta parte es un extra que vamos a avanzar.
+
+00:15:36.000 --> 00:15:38.000
+Pero no entra directamente en lo que van a hacer la foto.
+
+00:15:38.000 --> 00:15:40.000
+Esto ya es un poquito.
+
+00:15:40.000 --> 00:15:42.000
+Para que hagan procesos un poco más
+
+00:15:42.000 --> 00:15:44.000
+complicado.
+
+00:15:44.000 --> 00:15:46.000
+Si quieren adjuntar IaaS.
+
+00:15:46.000 --> 00:15:48.000
+A gente.
+
+00:15:48.000 --> 00:15:50.000
+Si quieren automatizar cosas más complejas.
+
+00:15:50.000 --> 00:15:52.000
+Se puede con esto.
+
+00:15:52.000 --> 00:15:54.000
+Y ahí para que pueda ver cualquier tipo de usuario.
+
+00:15:54.000 --> 00:15:56.000
+Eso estamos avanzando como un paso
+
+00:15:56.000 --> 00:15:58.000
+más para que podamos ver como también funciona.
+
+00:15:58.000 --> 00:16:00.000
+Luego voy a volver de nuevo al temari.
+
+00:16:00.000 --> 00:16:02.000
+Pero sigue siendo HNHN.
+
+00:16:02.000 --> 00:16:04.000
+Y aquí.
+
+00:16:04.000 --> 00:16:06.000
+Miren acá.
+
+00:16:06.000 --> 00:16:08.000
+Van a descargar en Glock para su sistema operativo.
+
+00:16:08.000 --> 00:16:10.000
+Si quieren descar para Mac.
+
+00:16:10.000 --> 00:16:12.000
+Ponen para Mac.
+
+00:16:12.000 --> 00:16:14.000
+Si quieren para Linux. Lo colocan para Linux.
+
+00:16:14.000 --> 00:16:16.000
+No hay problema. Igual les va a detectar en Glock.
+
+00:16:16.000 --> 00:16:18.000
+Ya.
+
+00:16:18.000 --> 00:16:20.000
+Pien acá. Hacen clic.
+
+00:16:20.000 --> 00:16:22.000
+Y solamente chicos.
+
+00:16:22.000 --> 00:16:24.000
+Aquí deben estar.
+
+00:16:24.000 --> 00:16:26.000
+Una vez que están acá en esta ventana.
+
+00:16:26.000 --> 00:16:28.000
+Van a irse acá a descargar.
+
+00:16:28.000 --> 00:16:30.000
+Y aquí les va a detectar directamente
+
+00:16:30.000 --> 00:16:32.000
+el sistema operativo.
+
+00:16:32.000 --> 00:16:34.000
+Y eso lo descargan.
+
+00:16:34.000 --> 00:16:36.000
+Y como les había recordado
+
+00:16:36.000 --> 00:16:38.000
+en la anterior clase.
+
+00:16:38.000 --> 00:16:40.000
+Les había dicho que si tienen A-Bats.
+
+00:16:40.000 --> 00:16:42.000
+O cualquier tipo de antivirus.
+
+00:16:42.000 --> 00:16:44.000
+Apaguen un cachito por unos 10 minutos.
+
+00:16:44.000 --> 00:16:46.000
+En mi caso.
+
+00:16:46.000 --> 00:16:48.000
+Es A-Bats se puede hacer eso.
+
+00:16:48.000 --> 00:16:50.000
+Ya.
+
+00:16:50.000 --> 00:16:52.000
+Así que. Y ya siempre lo que en descargar.
+
+00:16:52.000 --> 00:16:54.000
+Y esa descarga.
+
+00:16:54.000 --> 00:16:56.000
+A ver.
+
+00:16:56.000 --> 00:16:58.000
+Vayan así. No lo van a ejecutar todavía.
+
+00:16:58.000 --> 00:17:00.000
+No lo van a guardar en una carpeta.
+
+00:17:00.000 --> 00:17:02.000
+Muy aparte.
+
+00:17:02.000 --> 00:17:04.000
+Ya.
+
+00:17:04.000 --> 00:17:06.000
+Esa parte les espero chicos.
+
+00:17:06.000 --> 00:17:08.000
+Mientras tanto. Unos.
+
+00:17:08.000 --> 00:17:10.000
+Unos minuticos.
+
+00:17:10.000 --> 00:17:12.000
+Me da bien si lo descargo en descargas.
+
+00:17:12.000 --> 00:17:14.000
+Si.
+
+00:17:14.000 --> 00:17:16.000
+Y luego créate otra carpetita.
+
+00:17:16.000 --> 00:17:18.000
+Donde tengas tus descargas.
+
+00:17:18.000 --> 00:17:20.000
+Y ahí lo hacen.
+
+00:17:20.000 --> 00:17:22.000
+Lo descomprime.
+
+00:17:22.000 --> 00:17:24.000
+Ya.
+
+00:17:24.000 --> 00:17:26.000
+Ya.
+
+00:17:26.000 --> 00:17:28.000
+En este caso.
+
+00:17:28.000 --> 00:17:30.000
+Voy a buscar donde este el mío.
+
+00:17:30.000 --> 00:17:32.000
+No me acuerdo.
+
+00:17:32.000 --> 00:17:34.000
+Enjue una pregunta.
+
+00:17:34.000 --> 00:17:36.000
+La BPN.
+
+00:17:36.000 --> 00:17:38.000
+En el Glock.
+
+00:17:38.000 --> 00:17:40.000
+En que se diferencia?
+
+00:17:40.000 --> 00:17:42.000
+BPN.
+
+00:17:42.000 --> 00:17:44.000
+Y en Glock.
+
+00:17:44.000 --> 00:17:46.000
+BPN es una camufla.
+
+00:17:46.000 --> 00:17:48.000
+Bueno se camufla a través de diferentes tipos de IP.
+
+00:17:48.000 --> 00:17:50.000
+O sea. Estás camuflando la IP.
+
+00:17:50.000 --> 00:17:52.000
+De manera en este caso en línea.
+
+00:17:52.000 --> 00:17:54.000
+Mientras que en Glock.
+
+00:17:54.000 --> 00:17:56.000
+Netamente trabaja de manera local.
+
+00:17:56.000 --> 00:17:58.000
+O sea no necesitas ni IP.
+
+00:17:58.000 --> 00:18:00.000
+Solamente engloba tu link local.
+
+00:18:00.000 --> 00:18:02.000
+Nada más.
+
+00:18:02.000 --> 00:18:04.000
+La BPN es más cura. IP.
+
+00:18:04.000 --> 00:18:06.000
+Ya. La diferencia entre ambos.
+
+00:18:06.000 --> 00:18:08.000
+Es que uno.
+
+00:18:08.000 --> 00:18:10.000
+Obviamente vulneras cualquier tipo de.
+
+00:18:10.000 --> 00:18:12.000
+De.
+
+00:18:12.000 --> 00:18:14.000
+Enchadas, salidas de dato.
+
+00:18:14.000 --> 00:18:16.000
+Con la BPN.
+
+00:18:16.000 --> 00:18:18.000
+Mientras en Glock creas un túnel.
+
+00:18:18.000 --> 00:18:20.000
+Ese túnel.
+
+00:18:20.000 --> 00:18:22.000
+Es una de las más diferentes.
+
+00:18:22.000 --> 00:18:24.000
+Pero se puede lograr la misma.
+
+00:18:24.000 --> 00:18:26.000
+Seguridad con en Glock.
+
+00:18:26.000 --> 00:18:28.000
+Ajunta algunas cosas más.
+
+00:18:28.000 --> 00:18:30.000
+Pero.
+
+00:18:30.000 --> 00:18:32.000
+Les voy a enseñar algunas cosas más.
+
+00:18:32.000 --> 00:18:34.000
+Para esa parte.
+
+00:18:34.000 --> 00:18:36.000
+Atención.
+
+00:18:36.000 --> 00:18:38.000
+Los programadores acá.
+
+00:18:38.000 --> 00:18:40.000
+O la manera que ha avanzado en coleg.
+
+00:18:40.000 --> 00:18:42.000
+O en una materia de universidad.
+
+00:18:42.000 --> 00:18:44.000
+A de vida escuchate.
+
+00:18:44.000 --> 00:18:46.000
+Póscreas actualmente tiene sus propios autenticadores.
+
+00:18:46.000 --> 00:18:48.000
+Y casi lo mismo.
+
+00:18:48.000 --> 00:18:50.000
+No.
+
+00:18:50.000 --> 00:18:52.000
+Pero esto es notemente para producciones.
+
+00:18:52.000 --> 00:18:54.000
+No lo vamos a utilizar tanto.
+
+00:18:54.000 --> 00:18:56.000
+Para los procesos automáticos.
+
+00:18:56.000 --> 00:18:58.000
+Listo.
+
+00:18:58.000 --> 00:19:00.000
+De Moncachito.
+
+00:19:00.000 --> 00:19:02.000
+Voy a buscar.
+
+00:19:02.000 --> 00:19:04.000
+No se dan también en Glock.
+
+00:19:04.000 --> 00:19:06.000
+De Moncachito.
+
+00:19:06.000 --> 00:19:08.000
+Bien.
+
+00:19:08.000 --> 00:19:10.000
+Ustedes.
+
+00:19:10.000 --> 00:19:12.000
+Voy a esperar.
+
+00:19:12.000 --> 00:19:14.000
+Para.
+
+00:19:14.000 --> 00:19:16.000
+Ya debe estar por acá.
+
+00:19:16.000 --> 00:19:18.000
+No.
+
+00:19:18.000 --> 00:19:20.000
+Por las que las tardes.
+
+00:19:20.000 --> 00:19:22.000
+Salgo apenas.
+
+00:19:22.000 --> 00:19:24.000
+De la universidad.
+
+00:19:24.000 --> 00:19:26.000
+Y.
+
+00:19:26.000 --> 00:19:28.000
+Aquí.
+
+00:19:28.000 --> 00:19:30.000
+En mi ciudad.
+
+00:19:30.000 --> 00:19:32.000
+En mi ciudad.
+
+00:19:32.000 --> 00:19:34.000
+Yo le he puesto por el caso acá.
+
+00:19:34.000 --> 00:19:36.000
+En esta mi carpetita.
+
+00:19:36.000 --> 00:19:38.000
+Todo estoy trabajando en una carpeta.
+
+00:19:38.000 --> 00:19:40.000
+Para.
+
+00:19:40.000 --> 00:19:42.000
+Para N8N.
+
+00:19:42.000 --> 00:19:44.000
+Aquí estoy cocaando instaladores.
+
+00:19:44.000 --> 00:19:46.000
+En Glock.
+
+00:19:46.000 --> 00:19:48.000
+Ya.
+
+00:19:48.000 --> 00:19:50.000
+Por ejemplo.
+
+00:19:50.000 --> 00:19:52.000
+Esto lo han descomprimido.
+
+00:19:52.000 --> 00:19:54.000
+Debe ser en Glock.
+
+00:19:54.000 --> 00:19:56.000
+Ahí debe estar.
+
+00:19:56.000 --> 00:19:58.000
+Eso se van a copiar.
+
+00:19:58.000 --> 00:20:00.000
+Control C.
+
+00:20:00.000 --> 00:20:02.000
+Lo van a pegar fuera de eso.
+
+00:20:02.000 --> 00:20:04.000
+Control B.
+
+00:20:04.000 --> 00:20:06.000
+Y ahí lo van a dejar.
+
+00:20:06.000 --> 00:20:08.000
+No lo van a ejecutar.
+
+00:20:08.000 --> 00:20:10.000
+Todo lo ejecuten.
+
+00:20:10.000 --> 00:20:12.000
+O esa parte no tienen que ejecutar.
+
+00:20:12.000 --> 00:20:14.000
+Entonces.
+
+00:20:14.000 --> 00:20:16.000
+Todos los proyectos de N8N.
+
+00:20:16.000 --> 00:20:18.000
+Instaladores.
+
+00:20:18.000 --> 00:20:20.000
+Lo que se han guardado.
+
+00:20:20.000 --> 00:20:22.000
+Estaba en una carpeta solamente.
+
+00:20:22.000 --> 00:20:24.000
+Lo que han descargado de en Glock.
+
+00:20:24.000 --> 00:20:26.000
+Actualmente.
+
+00:20:26.000 --> 00:20:28.000
+Esto lo que se ha descargado.
+
+00:20:28.000 --> 00:20:30.000
+Llevense una carpetita que de instaladores.
+
+00:20:30.000 --> 00:20:32.000
+Dice necesario.
+
+00:20:32.000 --> 00:20:34.000
+O Instalo.
+
+00:20:34.000 --> 00:20:36.000
+Descompriman el archivo.
+
+00:20:36.000 --> 00:20:38.000
+Porque va a estar en RAR.
+
+00:20:38.000 --> 00:20:40.000
+Y esta parte que tiene acá dentro.
+
+00:20:40.000 --> 00:20:42.000
+Esa parte que tiene acá dentro.
+
+00:20:42.000 --> 00:20:44.000
+Y aquí tiene que estar acá fuera.
+
+00:20:44.000 --> 00:20:46.000
+Y esta ruta.
+
+00:20:46.000 --> 00:20:48.000
+Esta ruta no se olviden.
+
+00:20:48.000 --> 00:20:50.000
+Esta ruta copiense.
+
+00:20:50.000 --> 00:20:52.000
+Agarran así.
+
+00:20:52.000 --> 00:20:54.000
+Todas veces clic para que se agarre todo.
+
+00:20:54.000 --> 00:20:56.000
+Y Control C.
+
+00:20:56.000 --> 00:20:58.000
+Lo van a copiar.
+
+00:20:58.000 --> 00:21:00.000
+Eso hagan mientras tanto.
+
+00:21:00.000 --> 00:21:02.000
+Les espero hasta ahí.
+
+00:21:02.000 --> 00:21:04.000
+Para proceder posteriormente.
+
+00:21:04.000 --> 00:21:06.000
+Mientras tanto.
+
+00:21:06.000 --> 00:21:08.000
+Hasta cagan todo eso.
+
+00:21:08.000 --> 00:21:10.000
+Vamos a hacer algunos formularios.
+
+00:21:10.000 --> 00:21:12.000
+Para más o menos.
+
+00:21:12.000 --> 00:21:14.000
+A un tipo de sistemático.
+
+00:21:14.000 --> 00:21:16.000
+Ya.
+
+00:21:16.000 --> 00:21:18.000
+Ya.
+
+00:21:18.000 --> 00:21:20.000
+Ya.
+
+00:21:20.000 --> 00:21:22.000
+Por si acaso.
+
+00:21:22.000 --> 00:21:24.000
+Hagan también esto.
+
+00:21:24.000 --> 00:21:26.000
+Acá al adito de en Glock.
+
+00:21:26.000 --> 00:21:28.000
+Donde están descomprimiendo.
+
+00:21:28.000 --> 00:21:30.000
+Créense un.
+
+00:21:30.000 --> 00:21:32.000
+Aquí coloquen.
+
+00:21:32.000 --> 00:21:34.000
+Nuevo.
+
+00:21:34.000 --> 00:21:36.000
+En este caso.
+
+00:21:36.000 --> 00:21:38.000
+URL.
+
+00:21:38.000 --> 00:21:40.000
+Así coloquen.
+
+00:21:40.000 --> 00:21:42.000
+O cualquier nombre.
+
+00:21:42.000 --> 00:21:44.000
+Solo me digo.
+
+00:21:44.000 --> 00:21:46.000
+O también puedo colocar.
+
+00:21:46.000 --> 00:21:48.000
+En este caso.
+
+00:21:48.000 --> 00:21:50.000
+Token.
+
+00:21:50.000 --> 00:21:52.000
+Token.
+
+00:21:52.000 --> 00:21:54.000
+Para que englobe varios tokens.
+
+00:21:54.000 --> 00:21:56.000
+Hacen doble clic.
+
+00:21:56.000 --> 00:21:58.000
+Y van a.
+
+00:21:58.000 --> 00:22:00.000
+Copiarse lo siguiente.
+
+00:22:00.000 --> 00:22:02.000
+Aquí.
+
+00:22:02.000 --> 00:22:04.000
+Van a hacer lo siguiente.
+
+00:22:04.000 --> 00:22:06.000
+Vienen acá chicos.
+
+00:22:06.000 --> 00:22:08.000
+Acá van a ir.
+
+00:22:08.000 --> 00:22:10.000
+A la cuenta que se han creado.
+
+00:22:10.000 --> 00:22:12.000
+Ya.
+
+00:22:12.000 --> 00:22:14.000
+De en Glock.
+
+00:22:14.000 --> 00:22:16.000
+Acá.
+
+00:22:16.000 --> 00:22:18.000
+No en el descargado. Acá.
+
+00:22:18.000 --> 00:22:20.000
+Y van a irse en este caso.
+
+00:22:20.000 --> 00:22:22.000
+A lo que son.
+
+00:22:22.000 --> 00:22:24.000
+Yurl.
+
+00:22:24.000 --> 00:22:26.000
+Fíjense.
+
+00:22:26.000 --> 00:22:28.000
+Aquí abajo en el tercero.
+
+00:22:28.000 --> 00:22:30.000
+Hacen click.
+
+00:22:30.000 --> 00:22:32.000
+Y esto se van a copiar.
+
+00:22:32.000 --> 00:22:34.000
+Copiar.
+
+00:22:34.000 --> 00:22:36.000
+Lo copian.
+
+00:22:36.000 --> 00:22:38.000
+Y para no olvidarse.
+
+00:22:38.000 --> 00:22:40.000
+Porque a veces da flojer entrar de nuevo a la página.
+
+00:22:40.000 --> 00:22:42.000
+Se pueden guardar ahí.
+
+00:22:42.000 --> 00:22:44.000
+Con Solve.
+
+00:22:44.000 --> 00:22:46.000
+Y listo.
+
+00:22:46.000 --> 00:22:48.000
+Y van a escribir siempre acá.
+
+00:22:48.000 --> 00:22:50.000
+Para que no se olviden.
+
+00:22:50.000 --> 00:22:52.000
+Este es mi token.
+
+00:22:52.000 --> 00:22:54.000
+Token.
+
+00:22:54.000 --> 00:22:56.000
+Para en este caso.
+
+00:22:56.000 --> 00:22:58.000
+En Glock.
+
+00:22:58.000 --> 00:23:00.000
+Listo. Dos puntitos.
+
+00:23:00.000 --> 00:23:02.000
+Listo.
+
+00:23:02.000 --> 00:23:04.000
+Ya.
+
+00:23:04.000 --> 00:23:06.000
+Eso va yendo mientras tanto.
+
+00:23:06.000 --> 00:23:08.000
+Vamos a esperar.
+
+00:23:08.000 --> 00:23:10.000
+Listo. Aquí van a.
+
+00:23:10.000 --> 00:23:12.000
+En este cmd.
+
+00:23:12.000 --> 00:23:14.000
+En este punto.
+
+00:23:14.000 --> 00:23:16.000
+Si anotan todo lo que necesitan a veces.
+
+00:23:16.000 --> 00:23:18.000
+Todos.
+
+00:23:18.000 --> 00:23:20.000
+Anotense siempre en una.
+
+00:23:20.000 --> 00:23:22.000
+En una chivita muy aparte.
+
+00:23:22.000 --> 00:23:24.000
+Siempre traten de ser ordenados ahí.
+
+00:23:24.000 --> 00:23:26.000
+Para que no tengan problemas.
+
+00:23:26.000 --> 00:23:28.000
+A lo largo.
+
+00:23:28.000 --> 00:23:30.000
+También puedo añadir.
+
+00:23:30.000 --> 00:23:32.000
+Contraseña.
+
+00:23:32.000 --> 00:23:34.000
+N8N.
+
+00:23:34.000 --> 00:23:36.000
+Listo.
+
+00:23:36.000 --> 00:23:38.000
+Y voy a guardar.
+
+00:23:38.000 --> 00:23:40.000
+Y la Pepito.
+
+00:23:40.000 --> 00:23:42.000
+Listo. Y ahí también lo coloca.
+
+00:23:42.000 --> 00:23:44.000
+Y así sucesivamente se guardan todo lo que es.
+
+00:23:44.000 --> 00:23:46.000
+Conveniente y necesario.
+
+00:23:46.000 --> 00:23:48.000
+Siempre van a guardarlo.
+
+00:23:48.000 --> 00:23:50.000
+Listo.
+
+00:23:50.000 --> 00:23:52.000
+Ya. Entonces.
+
+00:23:52.000 --> 00:23:54.000
+Una vez que hayan tenido eso.
+
+00:23:54.000 --> 00:23:56.000
+Voy a minimizarlo.
+
+00:23:56.000 --> 00:23:58.000
+Y ahora.
+
+00:23:58.000 --> 00:24:00.000
+Ahora sí.
+
+00:24:00.000 --> 00:24:02.000
+Esto es para ustedes su tarea.
+
+00:24:02.000 --> 00:24:04.000
+Hagan una temática diferente.
+
+00:24:04.000 --> 00:24:06.000
+Bueno, en este caso.
+
+00:24:06.000 --> 00:24:08.000
+Yo voy a seguir con la asistencia.
+
+00:24:08.000 --> 00:24:10.000
+Ustedes pueden colocar un formulario.
+
+00:24:10.000 --> 00:24:12.000
+De inscripción a un curso.
+
+00:24:12.000 --> 00:24:14.000
+Un formulario de participación.
+
+00:24:14.000 --> 00:24:16.000
+Una competencia.
+
+00:24:16.000 --> 00:24:18.000
+O sea, cualquier cosa. Háganlo.
+
+00:24:18.000 --> 00:24:20.000
+Eso me van a adjuntar.
+
+00:24:20.000 --> 00:24:22.000
+En su tercer proyecto de vídeo.
+
+00:24:22.000 --> 00:24:24.000
+Por si el caso no es subido al classroom.
+
+00:24:24.000 --> 00:24:26.000
+Y ahora.
+
+00:24:26.000 --> 00:24:28.000
+Y voy a crear otro más.
+
+00:24:28.000 --> 00:24:30.000
+Y tienen que subir mi data.
+
+00:24:30.000 --> 00:24:32.000
+Hasta ahorita tres clases.
+
+00:24:32.000 --> 00:24:34.000
+Sus capturas de pantalla y demás.
+
+00:24:34.000 --> 00:24:36.000
+Entonces acá en este caso.
+
+00:24:36.000 --> 00:24:38.000
+Voy a irme acá.
+
+00:24:38.000 --> 00:24:40.000
+Y voy a colocar asistencia.
+
+00:24:40.000 --> 00:24:42.000
+De.
+
+00:24:42.000 --> 00:24:44.000
+¿Cómo llegó esa parte?
+
+00:24:44.000 --> 00:24:46.000
+Listo.
+
+00:24:46.000 --> 00:24:48.000
+Una vez que hayan abierto su NCHN.
+
+00:24:48.000 --> 00:24:50.000
+Vien a canal más.
+
+00:24:50.000 --> 00:24:52.000
+Hacen clic.
+
+00:24:52.000 --> 00:24:54.000
+1.
+
+00:24:54.000 --> 00:24:56.000
+4.
+
+00:24:56.000 --> 00:24:58.000
+Listo. Les va a aparecer esto.
+
+00:24:58.000 --> 00:25:00.000
+¿Ya?
+
+00:25:00.000 --> 00:25:02.000
+Esta parte era
+
+00:25:02.000 --> 00:25:04.000
+asistencia.
+
+00:25:04.000 --> 00:25:06.000
+De algunos.
+
+00:25:06.000 --> 00:25:08.000
+Listo.
+
+00:25:10.000 --> 00:25:12.000
+Listo. Ahí ustedes hagan diferente manera.
+
+00:25:12.000 --> 00:25:14.000
+Para no hacer doble trabajo.
+
+00:25:14.000 --> 00:25:16.000
+Hagan otro.
+
+00:25:16.000 --> 00:25:18.000
+Un mínimo.
+
+00:25:18.000 --> 00:25:20.000
+Hagan cinco entradas.
+
+00:25:20.000 --> 00:25:22.000
+5.
+
+00:25:22.000 --> 00:25:24.000
+5 preguntas.
+
+00:25:24.000 --> 00:25:26.000
+En este caso.
+
+00:25:26.000 --> 00:25:28.000
+Clase número 3.
+
+00:25:28.000 --> 00:25:30.000
+Clase.
+
+00:25:30.000 --> 00:25:32.000
+Número 3.
+
+00:25:32.000 --> 00:25:34.000
+Y aquí voy a añadir unos elementos.
+
+00:25:34.000 --> 00:25:36.000
+Ya necesito el nombre.
+
+00:25:36.000 --> 00:25:38.000
+Número completo.
+
+00:25:38.000 --> 00:25:40.000
+El tipo de elementos.
+
+00:25:40.000 --> 00:25:42.000
+Está bien este tipo texto.
+
+00:25:42.000 --> 00:25:44.000
+Voy a añadir otro elemento.
+
+00:25:44.000 --> 00:25:46.000
+Vamos a añadir en este caso.
+
+00:25:46.000 --> 00:25:48.000
+Aperdidos.
+
+00:25:48.000 --> 00:25:50.000
+Casera.
+
+00:25:50.000 --> 00:25:52.000
+Y el texto.
+
+00:25:52.000 --> 00:25:54.000
+Añadiendo atributo.
+
+00:25:54.000 --> 00:25:56.000
+5 añadones.
+
+00:25:56.000 --> 00:25:58.000
+Aquí voy a colocar en este caso.
+
+00:25:58.000 --> 00:26:00.000
+Otro.
+
+00:26:00.000 --> 00:26:02.000
+O voy a colocar ciudad.
+
+00:26:02.000 --> 00:26:04.000
+Listo.
+
+00:26:04.000 --> 00:26:06.000
+Voy a añadir otro.
+
+00:26:06.000 --> 00:26:08.000
+Voy a colocar edad.
+
+00:26:10.000 --> 00:26:12.000
+Aquí voy a colocar.
+
+00:26:12.000 --> 00:26:14.000
+Tipo de textos numérico.
+
+00:26:14.000 --> 00:26:16.000
+Y aquí voy a añadir otro.
+
+00:26:16.000 --> 00:26:18.000
+Voy a añadir en este caso.
+
+00:26:18.000 --> 00:26:20.000
+Password.
+
+00:26:20.000 --> 00:26:22.000
+O contraseña.
+
+00:26:22.000 --> 00:26:24.000
+Y aquí voy a colocar tipo password.
+
+00:26:24.000 --> 00:26:26.000
+Listo.
+
+00:26:26.000 --> 00:26:28.000
+Esos cinco hagan a ustedes.
+
+00:26:28.000 --> 00:26:30.000
+Y en cada uno.
+
+00:26:30.000 --> 00:26:32.000
+Ya saben qué hacer.
+
+00:26:32.000 --> 00:26:34.000
+Añadir atributos.
+
+00:26:34.000 --> 00:26:36.000
+Van a colocar.
+
+00:26:36.000 --> 00:26:38.000
+Recalifile.
+
+00:26:38.000 --> 00:26:40.000
+O sea que sea obligatorio que el usuario.
+
+00:26:40.000 --> 00:26:42.000
+Me hizo en ese campo.
+
+00:26:42.000 --> 00:26:44.000
+Tentaditos.
+
+00:26:44.000 --> 00:26:46.000
+Recalifar.
+
+00:26:46.000 --> 00:26:48.000
+Actíban.
+
+00:26:48.000 --> 00:26:50.000
+Pueden añadir otros atributos.
+
+00:26:50.000 --> 00:26:52.000
+Por ejemplo.
+
+00:26:52.000 --> 00:26:54.000
+Hay algunas personas que no colocan estos.
+
+00:26:54.000 --> 00:26:56.000
+Estaba así y no sabe qué poner.
+
+00:26:56.000 --> 00:26:58.000
+Pueden añadir entonces.
+
+00:26:58.000 --> 00:27:00.000
+Un placeholder.
+
+00:27:00.000 --> 00:27:02.000
+Usted.
+
+00:27:02.000 --> 00:27:04.000
+Tiene que colocar.
+
+00:27:04.000 --> 00:27:06.000
+Su nombre.
+
+00:27:06.000 --> 00:27:08.000
+Específico.
+
+00:27:08.000 --> 00:27:10.000
+Eso pueden hacerlo.
+
+00:27:10.000 --> 00:27:12.000
+Por ejemplo.
+
+00:27:12.000 --> 00:27:14.000
+Cazera.
+
+00:27:14.000 --> 00:27:16.000
+Pueden colocar lo siguiente.
+
+00:27:16.000 --> 00:27:18.000
+Añadir atributos.
+
+00:27:18.000 --> 00:27:20.000
+Voy a colocar un placeholder.
+
+00:27:20.000 --> 00:27:22.000
+Puedo colocar.
+
+00:27:22.000 --> 00:27:24.000
+Añada la casera.
+
+00:27:24.000 --> 00:27:26.000
+Adjunto.
+
+00:27:26.000 --> 00:27:28.000
+Adjunto.
+
+00:27:28.000 --> 00:27:30.000
+Universidad.
+
+00:27:30.000 --> 00:27:32.000
+Universidad.
+
+00:27:32.000 --> 00:27:34.000
+No sé.
+
+00:27:34.000 --> 00:27:36.000
+Y aquí también.
+
+00:27:36.000 --> 00:27:38.000
+Puedo hacer todo esto.
+
+00:27:38.000 --> 00:27:40.000
+Si les gusta.
+
+00:27:40.000 --> 00:27:42.000
+Y también.
+
+00:27:42.000 --> 00:27:44.000
+Y listo.
+
+00:27:44.000 --> 00:27:46.000
+Y esto.
+
+00:27:46.000 --> 00:27:48.000
+Una vez que haga eso.
+
+00:27:48.000 --> 00:27:50.000
+Los cinco.
+
+00:27:50.000 --> 00:27:52.000
+Los cinco.
+
+00:27:52.000 --> 00:27:54.000
+Porque lo que están haciendo.
+
+00:27:54.000 --> 00:27:56.000
+Les voy a pedir.
+
+00:27:56.000 --> 00:27:58.000
+Que me envíen con el túnel.
+
+00:27:58.000 --> 00:28:00.000
+Y los voy a enviar otro.
+
+00:28:00.000 --> 00:28:02.000
+Y va a haber puntos extras.
+
+00:28:02.000 --> 00:28:04.000
+Para ver quién gana.
+
+00:28:04.000 --> 00:28:06.000
+Así que hasta ahí les esperan.
+
+00:28:06.000 --> 00:28:08.000
+Para ver.
+
+00:28:08.000 --> 00:28:10.000
+El primero que llegue a mi formulario.
+
+00:28:10.000 --> 00:28:12.000
+Que los voy a enviar posteriormente.
+
+00:28:12.000 --> 00:28:14.000
+En unos minutos.
+
+00:28:14.000 --> 00:28:16.000
+Cuando pasamos esa parte.
+
+00:28:16.000 --> 00:28:18.000
+Voy a saber.
+
+00:28:18.000 --> 00:28:20.000
+Los tres primers.
+
+00:28:20.000 --> 00:28:22.000
+Ya.
+
+00:28:22.000 --> 00:28:24.000
+Y algunas certificaciones.
+
+00:28:24.000 --> 00:28:26.000
+Más les podemos dar.
+
+00:28:26.000 --> 00:28:28.000
+Más o menos.
+
+00:28:28.000 --> 00:28:30.000
+Listo.
+
+00:28:30.000 --> 00:28:32.000
+Hasta ahí los espero.
+
+00:28:32.000 --> 00:28:34.000
+Chico.
+
+00:28:36.000 --> 00:28:38.000
+Chico.
+
+00:28:38.000 --> 00:28:40.000
+Chico.
+
+00:28:40.000 --> 00:28:42.000
+Chico.
+
+00:28:42.000 --> 00:28:44.000
+Chico.
+
+00:28:44.000 --> 00:28:46.000
+Chico.
+
+00:28:46.000 --> 00:28:48.000
+Chico.
+
+00:28:48.000 --> 00:28:50.000
+Chico.
+
+00:28:50.000 --> 00:28:52.000
+Chico.
+
+00:28:52.000 --> 00:28:54.000
+Chico.
+
+00:28:54.000 --> 00:28:56.000
+Una vez que ya se han creado esos cinco.
+
+00:28:56.000 --> 00:28:58.000
+Man ejecutar.
+
+00:28:58.000 --> 00:29:00.000
+Y van a hacer pruebas.
+
+00:29:00.000 --> 00:29:02.000
+Mientras tanto.
+
+00:29:02.000 --> 00:29:04.000
+Les tenía que salir todo esto.
+
+00:29:04.000 --> 00:29:06.000
+Es algo.
+
+00:29:06.000 --> 00:29:08.000
+Que no influye.
+
+00:29:08.000 --> 00:29:10.000
+Pero ya me está avisando que tengo que colocar ahí.
+
+00:29:10.000 --> 00:29:12.000
+Y no puedo colocar incluso esto.
+
+00:29:12.000 --> 00:29:14.000
+Solamente por playsholors.
+
+00:29:14.000 --> 00:29:16.000
+Ya.
+
+00:29:16.000 --> 00:29:18.000
+Lo voy a hacer.
+
+00:29:18.000 --> 00:29:20.000
+Voy a colocar un stop.
+
+00:29:20.000 --> 00:29:22.000
+Para.
+
+00:29:22.000 --> 00:29:24.000
+Volver a editar.
+
+00:29:24.000 --> 00:29:26.000
+Y acá abajo ya los había comentado.
+
+00:29:26.000 --> 00:29:28.000
+Van a venir a form.
+
+00:29:28.000 --> 00:29:30.000
+Perdón.
+
+00:29:30.000 --> 00:29:32.000
+Apt form elements.
+
+00:29:32.000 --> 00:29:34.000
+Volvamos a repetir.
+
+00:29:34.000 --> 00:29:36.000
+Add option en el último punto.
+
+00:29:36.000 --> 00:29:38.000
+Y van a desactivar esto.
+
+00:29:38.000 --> 00:29:40.000
+Listo.
+
+00:29:40.000 --> 00:29:42.000
+Y luego en ejecutar ya no va a estar la parte de N8N9.
+
+00:29:42.000 --> 00:29:44.000
+Listo.
+
+00:29:44.000 --> 00:29:46.000
+Solamente los va a aparecer esto.
+
+00:29:46.000 --> 00:29:48.000
+Ya.
+
+00:29:48.000 --> 00:29:50.000
+Ya.
+
+00:29:50.000 --> 00:29:52.000
+Hasta ahí espero que lo tengan.
+
+00:29:54.000 --> 00:29:56.000
+Debo darle.
+
+00:29:56.000 --> 00:29:58.000
+Exiquir el step.
+
+00:29:58.000 --> 00:30:00.000
+Exactamente.
+
+00:30:00.000 --> 00:30:02.000
+Y te tiene que aparecer.
+
+00:30:02.000 --> 00:30:04.000
+La formularia que te extrae.
+
+00:30:04.000 --> 00:30:06.000
+Esto.
+
+00:30:06.000 --> 00:30:08.000
+Ya.
+
+00:30:08.000 --> 00:30:10.000
+Esta parte chicos.
+
+00:30:10.000 --> 00:30:12.000
+Vayan llenando.
+
+00:30:12.000 --> 00:30:14.000
+Voy a abrir el word.
+
+00:30:14.000 --> 00:30:16.000
+Abrimos el word.
+
+00:30:16.000 --> 00:30:18.000
+Y van a colocar los siguientes.
+
+00:30:18.000 --> 00:30:20.000
+Clase número 3.
+
+00:30:20.000 --> 00:30:22.000
+Y lo mismo.
+
+00:30:22.000 --> 00:30:24.000
+Lo mismo que han hecho entre ellos.
+
+00:30:24.000 --> 00:30:26.000
+Siempre atén de mandarlo en formato.
+
+00:30:26.000 --> 00:30:28.000
+Legal.
+
+00:30:28.000 --> 00:30:30.000
+O sea.
+
+00:30:30.000 --> 00:30:32.000
+Tabaño oficio.
+
+00:30:32.000 --> 00:30:34.000
+Para que en otras imágenes si no tengan mucho.
+
+00:30:34.000 --> 00:30:36.000
+Y esto lo van a colocar siempre estrecho.
+
+00:30:36.000 --> 00:30:38.000
+Clase número 3.
+
+00:30:40.000 --> 00:30:42.000
+Ya saben que lo que es su nombre.
+
+00:30:42.000 --> 00:30:44.000
+Y listo.
+
+00:30:44.000 --> 00:30:46.000
+Y ahí hagan el primer paso.
+
+00:30:46.000 --> 00:30:48.000
+Saca los screams.
+
+00:30:48.000 --> 00:30:50.000
+Por favor esa parte.
+
+00:30:50.000 --> 00:30:52.000
+Para que vean que están trabajando chicos.
+
+00:30:52.000 --> 00:30:54.000
+Y ahorita.
+
+00:30:54.000 --> 00:30:56.000
+Y van a hacer tunnels.
+
+00:30:56.000 --> 00:30:58.000
+Paso uno.
+
+00:30:58.000 --> 00:31:00.000
+Ya saben.
+
+00:31:00.000 --> 00:31:02.000
+Voy a colocar formularia.
+
+00:31:02.000 --> 00:31:04.000
+Listo.
+
+00:31:04.000 --> 00:31:06.000
+Y ahí peguenlo esa parte.
+
+00:31:06.000 --> 00:31:08.000
+Voy a aceptar a uno de sus compañeros.
+
+00:31:08.000 --> 00:31:10.000
+Listo.
+
+00:31:10.000 --> 00:31:12.000
+Entonces.
+
+00:31:12.000 --> 00:31:14.000
+Donde estuvamos.
+
+00:31:14.000 --> 00:31:16.000
+Esta parte ya saben.
+
+00:31:16.000 --> 00:31:18.000
+Donde estuva mi otro ventanita.
+
+00:31:18.000 --> 00:31:20.000
+Llenen nuestro.
+
+00:31:20.000 --> 00:31:22.000
+Con su propio nombre.
+
+00:31:26.000 --> 00:31:28.000
+Listo.
+
+00:31:28.000 --> 00:31:30.000
+Ya esta.
+
+00:31:30.000 --> 00:31:32.000
+Y eso me van a sacar el scream.
+
+00:31:32.000 --> 00:31:34.000
+Ya nada mas.
+
+00:31:34.000 --> 00:31:36.000
+Listo.
+
+00:31:36.000 --> 00:31:38.000
+Esto lo sacan.
+
+00:31:38.000 --> 00:31:40.000
+Y lo pegan en su huerto.
+
+00:31:40.000 --> 00:31:42.000
+Ya.
+
+00:31:42.000 --> 00:31:44.000
+Listo.
+
+00:31:44.000 --> 00:31:46.000
+Ahora si paso dos vámonos.
+
+00:31:46.000 --> 00:31:48.000
+Y ahora si paso dos vámonos.
+
+00:31:48.000 --> 00:31:50.000
+Y ahora si paso dos vámonos.
+
+00:31:50.000 --> 00:31:52.000
+Y ahora si paso dos vámonos.
+
+00:31:52.000 --> 00:31:54.000
+Y ahora si paso dos vámonos.
+
+00:31:54.000 --> 00:31:56.000
+Y ahora si paso dos.
+
+00:31:56.000 --> 00:31:58.000
+Hasta ahí los espero chicos.
+
+00:31:58.000 --> 00:32:00.000
+Vamos a entrar a la voloutre.
+
+00:32:00.000 --> 00:32:02.000
+Ya.
+
+00:32:02.000 --> 00:32:04.000
+A partir de acá quiero que si o si me sigan.
+
+00:32:04.000 --> 00:32:06.000
+Para no tener problemas.
+
+00:32:06.000 --> 00:32:08.000
+Ya.
+
+00:32:08.000 --> 00:32:10.000
+Ahora.
+
+00:32:10.000 --> 00:32:12.000
+Pueden abrirse.
+
+00:32:12.000 --> 00:32:14.000
+Una.
+
+00:32:14.000 --> 00:32:16.000
+Una terminal nueva.
+
+00:32:16.000 --> 00:32:18.000
+O sea si esta.
+
+00:32:18.000 --> 00:32:20.000
+Ya esta ejecutando.
+
+00:32:20.000 --> 00:32:22.000
+No lo toquen esto.
+
+00:32:22.000 --> 00:32:24.000
+Solamente vengan acá.
+
+00:32:24.000 --> 00:32:26.000
+Y habrán otro.
+
+00:32:26.000 --> 00:32:28.000
+Listo.
+
+00:32:28.000 --> 00:32:30.000
+Se abren otro.
+
+00:32:30.000 --> 00:32:32.000
+Y van a escribir lo siguiente.
+
+00:32:32.000 --> 00:32:34.000
+Si necesitan tiempo me dicen chico.
+
+00:32:34.000 --> 00:32:36.000
+A veces.
+
+00:32:36.000 --> 00:32:38.000
+Hay veces a volar posiblemente.
+
+00:32:38.000 --> 00:32:40.000
+Me van a hacer mas.
+
+00:32:40.000 --> 00:32:42.000
+Si necesitan mas tiempo.
+
+00:32:42.000 --> 00:32:44.000
+Ya.
+
+00:32:44.000 --> 00:32:46.000
+Se abren una ventana nueva.
+
+00:32:46.000 --> 00:32:48.000
+Y van a colocar en rock.
+
+00:32:48.000 --> 00:32:50.000
+Y van a colocar en rock.
+
+00:32:50.000 --> 00:32:52.000
+Con click.
+
+00:32:52.000 --> 00:32:54.000
+At.
+
+00:32:54.000 --> 00:32:56.000
+Y on.
+
+00:32:56.000 --> 00:32:58.000
+Autocon.
+
+00:32:58.000 --> 00:33:00.000
+Listo.
+
+00:33:00.000 --> 00:33:02.000
+Listo.
+
+00:33:02.000 --> 00:33:04.000
+Listo.
+
+00:33:04.000 --> 00:33:06.000
+No lo apretenden todavía.
+
+00:33:06.000 --> 00:33:08.000
+Hasta aquí.
+
+00:33:08.000 --> 00:33:10.000
+Si lo tienen.
+
+00:33:10.000 --> 00:33:12.000
+Y van a avisar.
+
+00:33:12.000 --> 00:33:14.000
+Un segundo por favor.
+
+00:33:14.000 --> 00:33:16.000
+Se abren otros.
+
+00:33:16.000 --> 00:33:18.000
+Y ahí van a.
+
+00:33:18.000 --> 00:33:20.000
+Listo.
+
+00:33:20.000 --> 00:33:22.000
+Listo.
+
+00:33:22.000 --> 00:33:24.000
+Esto va a funcionar.
+
+00:33:24.000 --> 00:33:26.000
+Siempre cuando hayan hecho los pasos anteriores.
+
+00:33:26.000 --> 00:33:28.000
+Es decir.
+
+00:33:28.000 --> 00:33:30.000
+El engrof ya estén en su carpetita.
+
+00:33:30.000 --> 00:33:32.000
+Sin ejecutar solamente que esté ahí.
+
+00:33:32.000 --> 00:33:34.000
+Eso.
+
+00:33:34.000 --> 00:33:36.000
+Ya.
+
+00:33:36.000 --> 00:33:38.000
+Esa partecita. Cuidado que se olviden.
+
+00:33:38.000 --> 00:33:40.000
+Ya.
+
+00:33:40.000 --> 00:33:42.000
+¿Cuál era el código que hay que poner?
+
+00:33:42.000 --> 00:33:44.000
+Ahí está.
+
+00:33:44.000 --> 00:33:46.000
+Listo.
+
+00:33:46.000 --> 00:33:48.000
+Ya.
+
+00:33:48.000 --> 00:33:50.000
+Eso.
+
+00:33:50.000 --> 00:33:52.000
+Pueden hacerlo así.
+
+00:33:52.000 --> 00:33:54.000
+Ahora hay otra forma.
+
+00:33:54.000 --> 00:33:56.000
+Si es que les va a salir error.
+
+00:33:56.000 --> 00:33:58.000
+Van a hacer lo siguiente.
+
+00:33:58.000 --> 00:34:00.000
+Cópianse eso normal.
+
+00:34:00.000 --> 00:34:02.000
+Control C.
+
+00:34:02.000 --> 00:34:04.000
+Y pueden igual guardarse en su.
+
+00:34:04.000 --> 00:34:06.000
+Cmed.
+
+00:34:06.000 --> 00:34:08.000
+Hagan esto.
+
+00:34:08.000 --> 00:34:10.000
+Para que no tengan que quiso hacer unos errores igual.
+
+00:34:10.000 --> 00:34:12.000
+Porque de mí ya está centralizado todo.
+
+00:34:12.000 --> 00:34:14.000
+Pero quizás de verdad.
+
+00:34:14.000 --> 00:34:16.000
+No está centralizado.
+
+00:34:16.000 --> 00:34:18.000
+No está centralizado sus computadoras.
+
+00:34:18.000 --> 00:34:20.000
+Donde se han creado el engrof.
+
+00:34:20.000 --> 00:34:22.000
+O sea.
+
+00:34:22.000 --> 00:34:24.000
+Lo han descomprimido.
+
+00:34:24.000 --> 00:34:26.000
+Hagan clic acá.
+
+00:34:26.000 --> 00:34:28.000
+Acá revita. Hagan clic.
+
+00:34:28.000 --> 00:34:30.000
+Esto.
+
+00:34:30.000 --> 00:34:32.000
+Se control C.
+
+00:34:32.000 --> 00:34:34.000
+Lo van a copiar.
+
+00:34:34.000 --> 00:34:36.000
+Cópienlo.
+
+00:34:36.000 --> 00:34:38.000
+Control C.
+
+00:34:38.000 --> 00:34:40.000
+Minimizamos.
+
+00:34:40.000 --> 00:34:42.000
+Y aquí voy a colocar C de.
+
+00:34:42.000 --> 00:34:44.000
+Y ahora.
+
+00:34:44.000 --> 00:34:46.000
+Y se va a entrar.
+
+00:34:46.000 --> 00:34:48.000
+Y se va a entrar a esa carpeta.
+
+00:34:48.000 --> 00:34:50.000
+O sea.
+
+00:34:50.000 --> 00:34:52.000
+Estoy direccionando.
+
+00:34:52.000 --> 00:34:54.000
+A mi engroc.
+
+00:34:54.000 --> 00:34:56.000
+Porque está ahí guardado mi engroc.
+
+00:34:56.000 --> 00:34:58.000
+Eso.
+
+00:34:58.000 --> 00:35:00.000
+Hagan.
+
+00:35:00.000 --> 00:35:02.000
+Deis recién van a colocar lo que puesto.
+
+00:35:02.000 --> 00:35:04.000
+El engroc.
+
+00:35:04.000 --> 00:35:06.000
+Perdón.
+
+00:35:06.000 --> 00:35:08.000
+Se me está bugando esta cosa.
+
+00:35:08.000 --> 00:35:10.000
+El engroc.
+
+00:35:10.000 --> 00:35:12.000
+No sé lo que hemos hecho engroc.
+
+00:35:12.000 --> 00:35:14.000
+Si.
+
+00:35:14.000 --> 00:35:16.000
+Porque eso nos está olvidando.
+
+00:35:16.000 --> 00:35:18.000
+Capaz no está configurado a ustedes.
+
+00:35:18.000 --> 00:35:20.000
+Máster.
+
+00:35:20.000 --> 00:35:22.000
+Outs.
+
+00:35:22.000 --> 00:35:24.000
+Outs.
+
+00:35:24.000 --> 00:35:26.000
+Listo.
+
+00:35:30.000 --> 00:35:32.000
+Ya.
+
+00:35:32.000 --> 00:35:34.000
+Coloca en espacio.
+
+00:35:34.000 --> 00:35:36.000
+Y ahora van a ir a su engroc.
+
+00:35:36.000 --> 00:35:38.000
+En su.
+
+00:35:38.000 --> 00:35:40.000
+Vloca de noche se estaba pegado esta cosa.
+
+00:35:40.000 --> 00:35:42.000
+No.
+
+00:35:42.000 --> 00:35:44.000
+Pero hay veces.
+
+00:35:44.000 --> 00:35:46.000
+Quizás hay algunos errores.
+
+00:35:46.000 --> 00:35:48.000
+Porque agarran un espacio más.
+
+00:35:48.000 --> 00:35:50.000
+Un espacio menos.
+
+00:35:50.000 --> 00:35:52.000
+Así que esto es para recordarse.
+
+00:35:52.000 --> 00:35:54.000
+Pero si es que no quieren tener problemas.
+
+00:35:54.000 --> 00:35:56.000
+Van a su.
+
+00:35:56.000 --> 00:35:58.000
+Acá.
+
+00:35:58.000 --> 00:36:00.000
+Y copian esto directamente.
+
+00:36:00.000 --> 00:36:02.000
+A su engroc.
+
+00:36:02.000 --> 00:36:04.000
+Copian.
+
+00:36:04.000 --> 00:36:06.000
+Y lo van a pegar acá.
+
+00:36:06.000 --> 00:36:08.000
+Controla.
+
+00:36:08.000 --> 00:36:10.000
+Ya copió control.
+
+00:36:10.000 --> 00:36:12.000
+Listo.
+
+00:36:12.000 --> 00:36:14.000
+Hasta ahí lo tienen.
+
+00:36:18.000 --> 00:36:20.000
+Una vez que tienen la pretan.
+
+00:36:20.000 --> 00:36:22.000
+Entrar.
+
+00:36:22.000 --> 00:36:24.000
+Es más si acceso le he negado.
+
+00:36:24.000 --> 00:36:26.000
+Porque en este caso tienen que activar su.
+
+00:36:26.000 --> 00:36:28.000
+O un cachito chico.
+
+00:36:28.000 --> 00:36:30.000
+Desactivan sus.
+
+00:36:30.000 --> 00:36:32.000
+Abas.
+
+00:36:32.000 --> 00:36:34.000
+Si esto.
+
+00:36:34.000 --> 00:36:36.000
+Unos 10 minutos.
+
+00:36:36.000 --> 00:36:38.000
+Sus.
+
+00:36:38.000 --> 00:36:40.000
+Corta fuego.
+
+00:36:40.000 --> 00:36:42.000
+Para evitar eso.
+
+00:36:42.000 --> 00:36:44.000
+Ya está.
+
+00:36:44.000 --> 00:36:46.000
+Eso lo tiene que apreciar.
+
+00:36:46.000 --> 00:36:48.000
+Cuando han desactivado sus antivir.
+
+00:36:48.000 --> 00:36:50.000
+Si les da esto.
+
+00:36:50.000 --> 00:36:52.000
+Genial.
+
+00:36:52.000 --> 00:36:54.000
+Pero tiene que salirles.
+
+00:36:54.000 --> 00:36:56.000
+A mi configuración.
+
+00:36:56.000 --> 00:36:58.000
+Tansans.
+
+00:36:58.000 --> 00:37:00.000
+Hasta ahí los esperan.
+
+00:37:00.000 --> 00:37:02.000
+El.
+
+00:37:02.000 --> 00:37:04.000
+El.
+
+00:37:04.000 --> 00:37:06.000
+Ya salió.
+
+00:37:06.000 --> 00:37:08.000
+Super.
+
+00:37:08.000 --> 00:37:10.000
+Ahora hay esperamos unos 2 minutos con sus compañeros.
+
+00:37:10.000 --> 00:37:12.000
+Y luego vamos a lo siguiente.
+
+00:37:12.000 --> 00:37:14.000
+Yo.
+
+00:37:14.000 --> 00:37:16.000
+Mientras van haciendo sus compañeros.
+
+00:37:16.000 --> 00:37:18.000
+Por si acaso les voy a pasar esto.
+
+00:37:18.000 --> 00:37:20.000
+Al.
+
+00:37:20.000 --> 00:37:22.000
+Que se llama.
+
+00:37:22.000 --> 00:37:24.000
+Al mit.
+
+00:37:24.000 --> 00:37:26.000
+Al.
+
+00:37:26.000 --> 00:37:28.000
+Al.
+
+00:37:28.000 --> 00:37:30.000
+Al.
+
+00:37:30.000 --> 00:37:32.000
+Al.
+
+00:37:32.000 --> 00:37:34.000
+Una vez que hayan hecho eso.
+
+00:37:34.000 --> 00:37:36.000
+Cuando.
+
+00:37:36.000 --> 00:37:38.000
+Para venir acá.
+
+00:37:38.000 --> 00:37:40.000
+Y fíjense la lógica.
+
+00:37:40.000 --> 00:37:42.000
+Esta lógica tienen que entender.
+
+00:37:42.000 --> 00:37:44.000
+No está trabajando de manera local.
+
+00:37:44.000 --> 00:37:46.000
+No está trabajando en producción.
+
+00:37:46.000 --> 00:37:48.000
+O sea de manera.
+
+00:37:48.000 --> 00:37:50.000
+No está trabajando.
+
+00:37:50.000 --> 00:37:52.000
+Es quiero camuflar esto.
+
+00:37:52.000 --> 00:37:54.000
+Porque esto es para mí mi localhost.
+
+00:37:54.000 --> 00:37:56.000
+Es mi sistema local.
+
+00:37:56.000 --> 00:37:58.000
+Y para mi.
+
+00:37:58.000 --> 00:38:00.000
+Esto voy a camuflar.
+
+00:38:00.000 --> 00:38:02.000
+Como lo voy a hacer.
+
+00:38:02.000 --> 00:38:04.000
+Voy a volver acá.
+
+00:38:04.000 --> 00:38:06.000
+Y voy a colocar en este caso.
+
+00:38:06.000 --> 00:38:08.000
+Lo siguiente.
+
+00:38:08.000 --> 00:38:10.000
+En.
+
+00:38:10.000 --> 00:38:12.000
+Http.
+
+00:38:12.000 --> 00:38:14.000
+5.
+
+00:38:14.000 --> 00:38:16.000
+6.
+
+00:38:16.000 --> 00:38:18.000
+7. 8.
+
+00:38:18.000 --> 00:38:20.000
+Y apretamente.
+
+00:38:20.000 --> 00:38:22.000
+Y las tendría que salir esto.
+
+00:38:22.000 --> 00:38:24.000
+Y hasta.
+
+00:38:24.000 --> 00:38:26.000
+Esto es mi puerto local.
+
+00:38:26.000 --> 00:38:28.000
+Y esto es mi máscara.
+
+00:38:28.000 --> 00:38:30.000
+Este es mi máscara.
+
+00:38:30.000 --> 00:38:32.000
+Ahora.
+
+00:38:32.000 --> 00:38:34.000
+Si yo les paso esta máscara a ustedes.
+
+00:38:34.000 --> 00:38:36.000
+Deberían entrar a mi groca.
+
+00:38:36.000 --> 00:38:38.000
+Digo a mi nchen.
+
+00:38:38.000 --> 00:38:40.000
+Tendrían que entrar.
+
+00:38:40.000 --> 00:38:42.000
+Hasta aquí necesito que todos estén.
+
+00:38:42.000 --> 00:38:44.000
+Porque ustedes me van a enviar ahora sus formularos a mi.
+
+00:38:44.000 --> 00:38:46.000
+Yo voy a rellenar.
+
+00:38:46.000 --> 00:38:48.000
+Y lo que yo rellene.
+
+00:38:48.000 --> 00:38:50.000
+Me tienen que mirar en scream.
+
+00:38:50.000 --> 00:38:52.000
+Y a todos.
+
+00:38:52.000 --> 00:38:54.000
+Y a tu unter a su.
+
+00:38:54.000 --> 00:38:56.000
+A su proyecto.
+
+00:38:56.000 --> 00:38:58.000
+Yo.
+
+00:38:58.000 --> 00:39:00.000
+Alguien estaba entrando.
+
+00:39:00.000 --> 00:39:02.000
+Pero no hay nadie.
+
+00:39:02.000 --> 00:39:04.000
+Ya.
+
+00:39:04.000 --> 00:39:06.000
+Hasta ahí si lo tienen.
+
+00:39:06.000 --> 00:39:08.000
+Eso lo enviamos al chat.
+
+00:39:08.000 --> 00:39:10.000
+Todavía no.
+
+00:39:10.000 --> 00:39:12.000
+Ahorita se explica cómo me van a enviar.
+
+00:39:12.000 --> 00:39:14.000
+Ahora.
+
+00:39:14.000 --> 00:39:16.000
+Esta parte te copiense.
+
+00:39:16.000 --> 00:39:18.000
+Todo esto.
+
+00:39:18.000 --> 00:39:20.000
+Copiense.
+
+00:39:20.000 --> 00:39:22.000
+Y ahora.
+
+00:39:22.000 --> 00:39:24.000
+Controla.
+
+00:39:24.000 --> 00:39:26.000
+Entra.
+
+00:39:26.000 --> 00:39:28.000
+Entra.
+
+00:39:28.000 --> 00:39:30.000
+Ya.
+
+00:39:30.000 --> 00:39:32.000
+Y esto es lo que estaba diciendo su compañero.
+
+00:39:32.000 --> 00:39:34.000
+Porque dice visitar sitio.
+
+00:39:34.000 --> 00:39:36.000
+Esta página puede ser en este caso.
+
+00:39:36.000 --> 00:39:38.000
+Alguna página trucha.
+
+00:39:38.000 --> 00:39:40.000
+Pero si.
+
+00:39:40.000 --> 00:39:42.000
+Voy a colocar visit site.
+
+00:39:42.000 --> 00:39:44.000
+Y esperamos un rato.
+
+00:39:50.000 --> 00:39:52.000
+Ya.
+
+00:39:52.000 --> 00:39:54.000
+Ya.
+
+00:39:54.000 --> 00:39:56.000
+Entonces vuelvas a repetir esa parte.
+
+00:39:56.000 --> 00:39:58.000
+Hasta aquí lo tienen.
+
+00:39:58.000 --> 00:40:00.000
+Por si acaso.
+
+00:40:00.000 --> 00:40:02.000
+Precio como iniciar sesión nuevamente.
+
+00:40:02.000 --> 00:40:04.000
+Si.
+
+00:40:04.000 --> 00:40:06.000
+Puedes iniciar con tu misma sesión.
+
+00:40:06.000 --> 00:40:08.000
+No hay problema.
+
+00:40:08.000 --> 00:40:10.000
+Ya con tu mismo usuario.
+
+00:40:10.000 --> 00:40:12.000
+A ver ente.
+
+00:40:12.000 --> 00:40:14.000
+Y les tenés que aparecer directamente el formulario.
+
+00:40:14.000 --> 00:40:16.000
+A mí me he pensado.
+
+00:40:16.000 --> 00:40:18.000
+Vamos a ver con ustedes.
+
+00:40:18.000 --> 00:40:20.000
+No.
+
+00:40:20.000 --> 00:40:22.000
+No me acuerdo.
+
+00:40:22.000 --> 00:40:24.000
+Entra.
+
+00:40:24.000 --> 00:40:26.000
+Entra.
+
+00:40:26.000 --> 00:40:28.000
+Lo voy a hacer permitir.
+
+00:40:28.000 --> 00:40:30.000
+O voy a aliviar esa parte.
+
+00:40:30.000 --> 00:40:32.000
+No hay problema.
+
+00:40:32.000 --> 00:40:34.000
+Ya.
+
+00:40:34.000 --> 00:40:36.000
+Ya me he votado.
+
+00:40:36.000 --> 00:40:38.000
+Pero esto es porque estoy diciendo con mi mismo usuario.
+
+00:40:38.000 --> 00:40:40.000
+Ahora lo voy a enviar a ustedes.
+
+00:40:40.000 --> 00:40:42.000
+Lo voy a enviar.
+
+00:40:42.000 --> 00:40:44.000
+Entran a mi link.
+
+00:40:44.000 --> 00:40:46.000
+Creo que es siguiente.
+
+00:40:46.000 --> 00:40:48.000
+Y van a apuntar algunos puntos.
+
+00:40:48.000 --> 00:40:50.000
+Ya lo he enviado.
+
+00:40:50.000 --> 00:40:52.000
+Entran ahora al mío.
+
+00:40:52.000 --> 00:40:54.000
+Lo he enviado al chat de mit.
+
+00:40:54.000 --> 00:40:56.000
+Entran ese link.
+
+00:40:56.000 --> 00:40:58.000
+Voy a ejecutar lo mientras tanto.
+
+00:40:58.000 --> 00:41:00.000
+Y vamos a ver ahorita lo siguiente.
+
+00:41:00.000 --> 00:41:02.000
+A ver intenten.
+
+00:41:02.000 --> 00:41:04.000
+Entran ahí.
+
+00:41:04.000 --> 00:41:06.000
+Me van a decir que tal.
+
+00:41:06.000 --> 00:41:08.000
+Porque ahorita voy a ejecutar algunas cosas más.
+
+00:41:08.000 --> 00:41:10.000
+Y me van a seguir.
+
+00:41:10.000 --> 00:41:12.000
+Luego ustedes van a hacer lo mismo conmigo.
+
+00:41:12.000 --> 00:41:14.000
+Ya.
+
+00:41:14.000 --> 00:41:16.000
+Así que hasta ahí les espero.
+
+00:41:16.000 --> 00:41:18.000
+Ya.
+
+00:41:18.000 --> 00:41:20.000
+El mío se quedó carregando.
+
+00:41:20.000 --> 00:41:22.000
+Ya.
+
+00:41:22.000 --> 00:41:24.000
+No aparece nada.
+
+00:41:24.000 --> 00:41:26.000
+Ya hay que esperar un coche.
+
+00:41:26.000 --> 00:41:28.000
+A ver voy a hacer esta parte.
+
+00:41:28.000 --> 00:41:30.000
+Ya.
+
+00:41:30.000 --> 00:41:32.000
+Ya.
+
+00:41:32.000 --> 00:41:34.000
+Ya.
+
+00:41:34.000 --> 00:41:36.000
+Ya.
+
+00:41:36.000 --> 00:41:38.000
+Ya.
+
+00:41:38.000 --> 00:41:40.000
+Ya.
+
+00:41:40.000 --> 00:41:42.000
+Ya.
+
+00:41:42.000 --> 00:41:44.000
+Y applications��도록 moms.
+
+00:41:44.000 --> 00:41:46.000
+coverage ok.
+
+00:41:46.000 --> 00:41:48.000
+Tómalo extensions shifted.
+
+00:41:48.000 --> 00:41:50.000
+El Yong chang jack.
+
+00:41:50.000 --> 00:41:52.000
+Y 10 phosphorus dismantlé.
+
+00:41:52.000 --> 00:41:54.000
+Ya ya ya ya ya ya ya ya.
+
+00:41:54.000 --> 00:41:59.720
+Hay kart
+
+00:42:00.220 --> 00:42:02.220
+Sonjubeta club intervention.
+
+00:42:02.220 --> 00:42:04.220
+Y saliste.
+
+00:42:04.220 --> 00:42:06.220
+la summarize.
+
+00:42:06.220 --> 00:42:08.220
+Geeafter bimba usada de twitter.
+
+00:42:08.220 --> 00:42:10.220
+Este promo daarników que y.
+
+00:42:10.220 --> 00:42:15.220
+y van a pegarlo acá
+
+00:42:15.220 --> 00:42:18.220
+en acá donde estaban haciendo el correr
+
+00:42:18.220 --> 00:42:20.220
+en este caso o lo pueden cambiar también acá
+
+00:42:20.220 --> 00:42:22.220
+lo voy a pegar acá
+
+00:42:22.220 --> 00:42:26.220
+acá lo voy a pegar en vez de esto
+
+00:42:26.220 --> 00:42:29.220
+esta oerele van a copiarse
+
+00:42:29.220 --> 00:42:31.220
+y lo van a abrir acá
+
+00:42:31.220 --> 00:42:33.220
+pero todavía no le ejecuten ahí
+
+00:42:33.220 --> 00:42:36.220
+ahora voy a venir acá a mi
+
+00:42:36.220 --> 00:42:39.220
+engroc
+
+00:42:39.220 --> 00:42:41.220
+copio
+
+00:42:41.220 --> 00:42:44.220
+y voy a pegar adelante de eso
+
+00:42:44.220 --> 00:42:46.220
+adelante de lo que estaba haciendo acá
+
+00:42:46.220 --> 00:42:48.220
+en vez de esto fíjense
+
+00:42:48.220 --> 00:42:50.220
+esto lo elimino
+
+00:42:50.220 --> 00:42:54.220
+el slides con el forno lo dejan y consuelve
+
+00:42:54.220 --> 00:42:56.220
+listo
+
+00:42:56.220 --> 00:42:58.220
+ahora entren la preta
+
+00:42:58.220 --> 00:43:00.220
+y esto lo va a aparecer
+
+00:43:00.220 --> 00:43:02.220
+hasta ahí lleguen a ver
+
+00:43:02.220 --> 00:43:04.220
+tienen que aparecerles esto
+
+00:43:09.220 --> 00:43:14.220
+cerca de todo
+
+00:43:27.220 --> 00:43:34.220
+esta parte es el caso por si
+
+00:43:34.220 --> 00:43:38.220
+bueno chicos
+
+00:43:38.220 --> 00:43:40.220
+world.
+
+00:43:41.220 --> 00:43:43.220
+Estoy yo estaría cumpliendo.
+
+00:43:43.220 --> 00:43:45.220
+¿Le sacamos la screen a eso?
+
+00:43:45.220 --> 00:43:47.220
+Sí, y lo coloco en acá.
+
+00:43:47.220 --> 00:43:48.220
+Ok.
+
+00:43:48.220 --> 00:43:49.220
+¿Listo?
+
+00:43:49.220 --> 00:43:50.220
+¿Eso para qué?
+
+00:43:50.220 --> 00:43:51.220
+Pero no entiendo.
+
+00:43:51.220 --> 00:43:52.220
+Ahorita lo voy a hacer.
+
+00:43:52.220 --> 00:43:56.220
+Algunos que lleguen acá, ven en su workflow y ejecutan.
+
+00:43:58.220 --> 00:44:01.220
+Ya, y ahora, esto lo actualizan.
+
+00:44:03.220 --> 00:44:04.220
+¿Y miren?
+
+00:44:04.220 --> 00:44:06.220
+Ya los aparece esto.
+
+00:44:07.220 --> 00:44:09.220
+Ahora sí, coloquen ahí.
+
+00:44:10.220 --> 00:44:12.220
+Ahora sí, esto los voy a pasar.
+
+00:44:15.220 --> 00:44:17.220
+Y pueden echarse ahí.
+
+00:44:17.220 --> 00:44:19.220
+Ahí pueden enviarme esas partes.
+
+00:44:19.220 --> 00:44:21.220
+Estoy enviando ahora sí eso.
+
+00:44:21.220 --> 00:44:22.220
+A ver, entren.
+
+00:44:23.220 --> 00:44:26.220
+O actualice en el workflow que estaban haciendo y listo.
+
+00:44:26.220 --> 00:44:30.220
+Aquí va a aparecer el primer nombre de ustedes.
+
+00:44:31.220 --> 00:44:35.220
+A ver, el primero que me envíe tiene punts extras.
+
+00:44:35.220 --> 00:44:39.220
+El primero que llene el form que les va a aparecer.
+
+00:44:39.220 --> 00:44:44.220
+Perdón, me quedé donde había que sacar screenshot a la pantalla en blanco después.
+
+00:44:44.220 --> 00:44:48.220
+¿Qué hay que hacer? Ejecutar en el workflow.
+
+00:44:48.220 --> 00:44:51.220
+Sí, esto te va a aparecer. Exacto. Ejecuten esto.
+
+00:44:51.220 --> 00:44:53.220
+Y vuelven a actualizar esto.
+
+00:44:53.220 --> 00:44:56.220
+Y los tienen que aparecer este formulario.
+
+00:45:00.220 --> 00:45:04.220
+Y ahora en la primera prueba tendrían que, en su propia tabla,
+
+00:45:04.220 --> 00:45:08.220
+tendrían que ver el primero que he enviado es Eduardo Rivera Coimbra.
+
+00:45:08.220 --> 00:45:10.220
+Listo, y ahí es el primer punto.
+
+00:45:10.220 --> 00:45:12.220
+Segundo nombre, necesito alguien más que envíe.
+
+00:45:12.220 --> 00:45:15.220
+No entiendo dónde entro.
+
+00:45:15.220 --> 00:45:17.220
+¿A ese link que estén conmigo?
+
+00:45:17.220 --> 00:45:20.220
+Sí, a ese link, entren y para que me envíe en su...
+
+00:45:21.220 --> 00:45:24.220
+Ya, Eduardo Rivera Coimbra, sigue siendo el primero.
+
+00:45:24.220 --> 00:45:26.220
+Alguien más. Tres voy a recibir.
+
+00:45:26.220 --> 00:45:28.220
+No, a mí no me aparece.
+
+00:45:28.220 --> 00:45:30.220
+Me vuelvo a aparecer lo mismo.
+
+00:45:30.220 --> 00:45:32.220
+Actualiza el form.
+
+00:45:36.220 --> 00:45:39.220
+Sí, apareciendo form, trigger, isn't listening yet.
+
+00:45:39.220 --> 00:45:43.220
+Ya, esta parte entonces voy a ejecutar de nuevo.
+
+00:45:43.220 --> 00:45:46.220
+Listo, a ver.
+
+00:45:46.220 --> 00:45:49.220
+Ahora se envíe en la...
+
+00:45:49.220 --> 00:45:51.220
+Actualiza en de nuevo.
+
+00:45:58.220 --> 00:46:03.220
+Tarjet valeria.
+
+00:46:12.220 --> 00:46:15.220
+Ya esta.
+
+00:46:16.220 --> 00:46:20.220
+Valerialism, Val vaccine.
+
+00:46:22.220 --> 00:46:24.220
+Uno más, necesito chicos.
+
+00:46:24.220 --> 00:46:31.180
+el mío se quedó cargando, ya lo mandé. A ver, ahorita vamos a ver. Ah, debe estar.
+
+00:46:31.180 --> 00:46:35.380
+Se está cargando. Voy a actualizar, me he hecho quitar, listo.
+
+00:46:37.380 --> 00:46:44.580
+Ya. Javier, eres? No, Freddy, Antonio. Ya te voy a conocer a Freddy,
+
+00:46:44.580 --> 00:46:48.900
+ahí ves así es, no te preocupes. El mío se quedó cargando, lo voy a enviar a una imagen.
+
+00:46:49.660 --> 00:46:54.260
+Super, entonces esa parte chico cos, ahora ustedes envíenme, el primero que me envíe,
+
+00:46:54.260 --> 00:46:59.660
+yo voy a llenar su formular. Envíeme, pero en base a lo que se han creado ustedes, por si caso.
+
+00:47:01.820 --> 00:47:10.860
+Y ahora envíeme igual, envíeme al mismo mit, me sugiré de mit para que yo, y eso me van a juntar como,
+
+00:47:12.140 --> 00:47:16.580
+lo van a juntar como un escrim en su propio documento, para que los considere esa parte más.
+
+00:47:17.300 --> 00:47:20.420
+Viste, pero voy a entrar, bien enviado Eduardo Rivera.
+
+00:47:22.220 --> 00:47:24.700
+Voy a cerrar esto, no me interesa esto.
+
+00:47:27.220 --> 00:47:33.460
+Ya, voy a visitar su sitio, a ver qué me está preguntando. Actualizó lo porfa Eduardo,
+
+00:47:34.660 --> 00:47:37.580
+para que yo lo actualice y me aparezca tu formular.
+
+00:47:37.740 --> 00:47:57.160
+Gracias, sociια cr
+
+00:48:00.320 --> 00:48:00.820
+wirtschaft.
+
+00:48:00.820 --> 00:48:02.820
+Ya listo, ya está.
+
+00:48:02.820 --> 00:48:04.820
+¿Eso adjuntarlo a tu documento?
+
+00:48:04.820 --> 00:48:06.820
+Y listo.
+
+00:48:06.820 --> 00:48:08.820
+Alguien más necesito dos que me envíen.
+
+00:48:08.820 --> 00:48:10.820
+Ya me envíe a Antonio Díaz.
+
+00:48:10.820 --> 00:48:12.820
+Uno más que me envíe a Chicox.
+
+00:48:12.820 --> 00:48:14.820
+Los tres primeros igual.
+
+00:48:14.820 --> 00:48:16.820
+Ahora sí, actualízalo por favor, Antonio.
+
+00:48:16.820 --> 00:48:18.820
+¿Para qué?
+
+00:48:18.820 --> 00:48:20.820
+Tengo que darle a ejecutar.
+
+00:48:20.820 --> 00:48:22.820
+Exacto, ejecutarlo.
+
+00:48:22.820 --> 00:48:24.820
+Y yo voy a actualizar acá.
+
+00:48:26.820 --> 00:48:28.820
+¿Esto?
+
+00:48:28.820 --> 00:48:30.820
+Me voy a ejecutar y me apareció el formulario a mí de nuevo.
+
+00:48:30.820 --> 00:48:32.820
+Si te va a aparecer, será el formulario
+
+00:48:32.820 --> 00:48:34.820
+y ahí esperá un cachito.
+
+00:48:34.820 --> 00:48:36.820
+¿Es de tuya en 90 años Díaz?
+
+00:48:36.820 --> 00:48:38.820
+Sí.
+
+00:48:38.820 --> 00:48:40.820
+Ah, ya. Algo pasó.
+
+00:48:40.820 --> 00:48:42.820
+No me caro. Pero está bien hasta ahí.
+
+00:48:42.820 --> 00:48:44.820
+A ver.
+
+00:48:44.820 --> 00:48:46.820
+Algo de nuevo.
+
+00:48:46.820 --> 00:48:48.820
+¿Esa regalo está?
+
+00:48:48.820 --> 00:48:50.820
+Y de nuevo coloca tu...
+
+00:48:50.820 --> 00:48:52.820
+Y ahorita voy a actualizar también.
+
+00:48:52.820 --> 00:48:54.820
+Deme un cachito y chico.
+
+00:48:54.820 --> 00:48:56.820
+Ya leí esto y lo voy a actualizar.
+
+00:48:56.820 --> 00:48:58.820
+Ahora sí, lo voy a actualizar.
+
+00:48:58.820 --> 00:49:00.820
+Si algo está pasando con Antonio,
+
+00:49:00.820 --> 00:49:02.820
+voy a revisar el más ratito.
+
+00:49:02.820 --> 00:49:04.820
+Ya, déjame un cachito chico, Cos.
+
+00:49:06.820 --> 00:49:08.820
+Déjame un cachito, déjame un cachito.
+
+00:49:08.820 --> 00:49:10.820
+Alguien más que me pueda enviar mientras tanto,
+
+00:49:10.820 --> 00:49:12.820
+ahorita vamos a revisar tu casa.
+
+00:49:12.820 --> 00:49:14.820
+Oh, quizás no...
+
+00:49:14.820 --> 00:49:16.820
+Quisais una copia bien tu variable.
+
+00:49:16.820 --> 00:49:18.820
+Ah, ya sé por qué.
+
+00:49:18.820 --> 00:49:20.820
+Fíjate, lo que estás colocando es
+
+00:49:20.820 --> 00:49:22.820
+HTTP Localhost 5678.
+
+00:49:22.820 --> 00:49:24.820
+No has cambiado con tu...
+
+00:49:24.820 --> 00:49:26.820
+túnel.
+
+00:49:26.820 --> 00:49:28.820
+A ver, te voy a explicar.
+
+00:49:28.820 --> 00:49:30.820
+Esa parte.
+
+00:49:30.820 --> 00:49:32.820
+Donde estaba aquí.
+
+00:49:34.820 --> 00:49:36.820
+En tu N8N, por si acaso,
+
+00:49:36.820 --> 00:49:38.820
+en acá, donde estás corriendo tu en rock.
+
+00:49:38.820 --> 00:49:40.820
+Esta parte.
+
+00:49:40.820 --> 00:49:42.820
+Copialo a ver.
+
+00:49:42.820 --> 00:49:44.820
+Copialo.
+
+00:49:44.820 --> 00:49:46.820
+A ver, te vas a tu N8N
+
+00:49:46.820 --> 00:49:48.820
+y acá...
+
+00:49:48.820 --> 00:49:50.820
+Obviamente, a ver, tú ves que paso a paso.
+
+00:49:50.820 --> 00:49:52.820
+Esto...
+
+00:49:52.820 --> 00:49:54.820
+copiate.
+
+00:49:54.820 --> 00:49:56.820
+Se copia automáticamente.
+
+00:49:56.820 --> 00:49:58.820
+Y aquí lo vas a colocar.
+
+00:49:58.820 --> 00:50:00.820
+Control B.
+
+00:50:00.820 --> 00:50:02.820
+No ejecutes todavía.
+
+00:50:02.820 --> 00:50:04.820
+Entra de nuevo tu CMD.
+
+00:50:04.820 --> 00:50:06.820
+Copiate, estito.
+
+00:50:06.820 --> 00:50:08.820
+Ya, copiate.
+
+00:50:08.820 --> 00:50:10.820
+Y ahora,
+
+00:50:10.820 --> 00:50:12.820
+donde estás abriendo esto,
+
+00:50:12.820 --> 00:50:14.820
+todavía no lo ejecutes, desde acá, elimina.
+
+00:50:14.820 --> 00:50:16.820
+Desde T, hacia atrás.
+
+00:50:16.820 --> 00:50:18.820
+Todo esto elimina.
+
+00:50:18.820 --> 00:50:20.820
+Hasta ahí.
+
+00:50:20.820 --> 00:50:22.820
+Ya, vuelvas a repetir.
+
+00:50:22.820 --> 00:50:24.820
+Perdón, desde F1, F1, perdón.
+
+00:50:24.820 --> 00:50:26.820
+Desde ahí, hasta ahí.
+
+00:50:26.820 --> 00:50:28.820
+Y ahí, pegalo.
+
+00:50:28.820 --> 00:50:30.820
+Hasta ahí lo has eliminado,
+
+00:50:30.820 --> 00:50:32.820
+antes del F1, con el Slice,
+
+00:50:32.820 --> 00:50:34.820
+no pegas
+
+00:50:34.820 --> 00:50:36.820
+y lo ejecutes.
+
+00:50:36.820 --> 00:50:38.820
+Una vez que lo ejecutes,
+
+00:50:38.820 --> 00:50:40.820
+eso enviame ahora, sí a mí.
+
+00:50:40.820 --> 00:50:42.820
+Enviame ahora en tu...
+
+00:50:42.820 --> 00:50:44.820
+En el Meet.
+
+00:50:44.820 --> 00:50:46.820
+Perdón, es que no tengo dos pantallas,
+
+00:50:46.820 --> 00:50:48.820
+no lo dejo, te preocupes.
+
+00:50:48.820 --> 00:50:50.820
+Ya, ahí,
+
+00:50:50.820 --> 00:50:52.820
+eso está ahí en el buscador.
+
+00:50:52.820 --> 00:50:54.820
+Es el link que edité,
+
+00:50:54.820 --> 00:50:56.820
+se lo paso por acá.
+
+00:50:56.820 --> 00:50:58.820
+Exactamente, y ahí voy a entrar y ahí es lo mismo que estábamos haciendo.
+
+00:51:02.820 --> 00:51:04.820
+La historia me ha enviado, mientras tanto,
+
+00:51:04.820 --> 00:51:06.820
+Javier
+
+00:51:06.820 --> 00:51:08.820
+Vidal Urquiza.
+
+00:51:08.820 --> 00:51:10.820
+Ya, ya lo envío.
+
+00:51:10.820 --> 00:51:12.820
+Ya, listo. A ver, voy a entrar en el medio de Javier
+
+00:51:12.820 --> 00:51:14.820
+y ahorita dentro del tuyo.
+
+00:51:14.820 --> 00:51:16.820
+Listo, voy a visitar su sitio.
+
+00:51:16.820 --> 00:51:18.820
+Listo, ahora sí, Javier,
+
+00:51:18.820 --> 00:51:20.820
+voy a utilizar los apartes,
+
+00:51:20.820 --> 00:51:22.820
+ejecutarlo y ahora voy
+
+00:51:22.820 --> 00:51:24.820
+en tu formularia.
+
+00:51:24.820 --> 00:51:26.820
+Listo, qué hecho el postulación tercera.
+
+00:51:26.820 --> 00:51:28.820
+Nómenme, don.
+
+00:51:30.820 --> 00:51:32.820
+El 28, cuánto me de ti,
+
+00:51:32.820 --> 00:51:34.820
+me gusta la ciencia.
+
+00:51:36.820 --> 00:51:38.820
+Sí, tengo errores, perdón,
+
+00:51:38.820 --> 00:51:40.820
+la servición, la...
+
+00:51:40.820 --> 00:51:42.820
+la chupisaca, el chancimiento.
+
+00:51:42.820 --> 00:51:44.820
+2000.
+
+00:51:44.820 --> 00:51:46.820
+Listo.
+
+00:51:46.820 --> 00:51:48.820
+Listo, ya está.
+
+00:51:48.820 --> 00:51:50.820
+Listo, eso saca el screamy y lo colocas en tu formularia.
+
+00:51:50.820 --> 00:51:52.820
+Ahora sí, vamos a entrar de antena
+
+00:51:52.820 --> 00:51:54.820
+días y por último voy en su de Javier.
+
+00:51:54.820 --> 00:51:56.820
+Los demás no hay problema, chicos.
+
+00:51:56.820 --> 00:51:58.820
+Vayan adjuntando eso su formularia igual.
+
+00:51:58.820 --> 00:52:00.820
+Y listo.
+
+00:52:00.820 --> 00:52:02.820
+Ya, nada más.
+
+00:52:02.820 --> 00:52:04.820
+Ya, igual ejecutarlo.
+
+00:52:04.820 --> 00:52:06.820
+António.
+
+00:52:06.820 --> 00:52:08.820
+Y en segundo, por la...
+
+00:52:08.820 --> 00:52:10.820
+Y listo.
+
+00:52:12.820 --> 00:52:14.820
+Listo, listo, resistentes.
+
+00:52:14.820 --> 00:52:16.820
+Ya te he hecho.
+
+00:52:16.820 --> 00:52:18.820
+Listo, gracias.
+
+00:52:18.820 --> 00:52:20.820
+Un momento, un momento, un momento,
+
+00:52:20.820 --> 00:52:22.820
+profesor, mírame, espacios.
+
+00:52:22.820 --> 00:52:24.820
+Corre.
+
+00:52:28.820 --> 00:52:30.820
+Mientras aquí.
+
+00:52:30.820 --> 00:52:32.820
+Sí, sí.
+
+00:52:34.820 --> 00:52:36.820
+Listo, ya está.
+
+00:52:36.820 --> 00:52:38.820
+Listo.
+
+00:52:38.820 --> 00:52:40.820
+Por último de Javier
+
+00:52:40.820 --> 00:52:42.820
+y ahí terminamos esa parte.
+
+00:52:42.820 --> 00:52:44.820
+Luego vamos a proceder a otro ejercicio.
+
+00:52:44.820 --> 00:52:46.820
+Esto me hace ayudar, ¿eh?
+
+00:52:46.820 --> 00:52:48.820
+Los demás vean lo haciendo.
+
+00:52:48.820 --> 00:52:50.820
+Ahora sí, ahora sí, ¿ya lo actualizan, por favor?
+
+00:52:50.820 --> 00:52:52.820
+No sé qué, me está aliento.
+
+00:52:56.820 --> 00:52:58.820
+Neutron.
+
+00:52:58.820 --> 00:53:00.820
+¡Oops!
+
+00:53:00.820 --> 00:53:02.820
+No pudo encontrar eso, el R440.
+
+00:53:02.820 --> 00:53:04.820
+Algo no es copiado bien de tu...
+
+00:53:06.820 --> 00:53:08.820
+A ver, oye, estoy mal, no me voy.
+
+00:53:10.820 --> 00:53:12.820
+Listo.
+
+00:53:12.820 --> 00:53:14.820
+De nuevo.
+
+00:53:20.820 --> 00:53:22.820
+Quiso hacerlo de...
+
+00:53:22.820 --> 00:53:24.820
+No te preocupes.
+
+00:53:24.820 --> 00:53:26.820
+Listo, Gadi, gracias.
+
+00:53:28.820 --> 00:53:30.820
+Ah, sí.
+
+00:53:32.820 --> 00:53:34.820
+Listo, Gadi.
+
+00:53:36.820 --> 00:53:38.820
+Sabes qué se actualiza un poco,
+
+00:53:38.820 --> 00:53:40.820
+mientras tanto...
+
+00:53:40.820 --> 00:53:42.820
+Debo un retito.
+
+00:53:44.820 --> 00:53:46.820
+Ya, súper, bien, bien, Gadi.
+
+00:53:50.820 --> 00:53:52.820
+Debo un coche de chico, ¿cómo se me están molestando?
+
+00:54:00.820 --> 00:54:02.820
+Y ahora sí.
+
+00:54:08.820 --> 00:54:10.820
+Listo, ya está eso, adjunté nuestros documentos,
+
+00:54:10.820 --> 00:54:12.820
+ahora haremos otro ejercicio.
+
+00:54:12.820 --> 00:54:14.820
+¿Listo?
+
+00:54:20.820 --> 00:54:22.820
+Ya me escuchan bien, a ver qué pasa, no es mi interés,
+
+00:54:22.820 --> 00:54:24.820
+está morta y no me están escuchando.
+
+00:54:24.820 --> 00:54:26.820
+Ya.
+
+00:54:26.820 --> 00:54:28.820
+Y a mí me se va actualizando eso.
+
+00:54:28.820 --> 00:54:30.820
+Ahora sí, vamos a hacer otra parte.
+
+00:54:30.820 --> 00:54:32.820
+Ya saben cómo utilizar en GROC
+
+00:54:32.820 --> 00:54:34.820
+para coger de esos persistemitas.
+
+00:54:34.820 --> 00:54:36.820
+Y vamos a proceder lo siguiente.
+
+00:54:36.820 --> 00:54:38.820
+Lo celoremos todo, ya no vamos a utilizarlo.
+
+00:54:38.820 --> 00:54:40.820
+Esta parte, igual, cierranlo.
+
+00:54:40.820 --> 00:54:42.820
+Luego les voy a compartir
+
+00:54:42.820 --> 00:54:44.820
+otro sistema más.
+
+00:54:44.820 --> 00:54:46.820
+Y esto manténganlo.
+
+00:54:46.820 --> 00:54:48.820
+Ya.
+
+00:54:48.820 --> 00:54:50.820
+Continuaremos chico.
+
+00:54:52.820 --> 00:54:54.820
+Ya, lo vamos a borrar, esto.
+
+00:54:54.820 --> 00:54:56.820
+Inje, entonces,
+
+00:54:56.820 --> 00:54:58.820
+GROC lo utilizamos solamente
+
+00:54:58.820 --> 00:55:00.820
+para compartir ya
+
+00:55:00.820 --> 00:55:02.820
+el resultado de N8N.
+
+00:55:02.820 --> 00:55:04.820
+Así.
+
+00:55:04.820 --> 00:55:06.820
+En principio, sí.
+
+00:55:06.820 --> 00:55:08.820
+Es como ya se fuera producción.
+
+00:55:08.820 --> 00:55:10.820
+Pero a futuro lo vamos a utilizar
+
+00:55:10.820 --> 00:55:12.820
+ya no solamente como si fuera
+
+00:55:12.820 --> 00:55:14.820
+o compartir eso, sino ya lo vamos a utilizar
+
+00:55:14.820 --> 00:55:16.820
+como producción.
+
+00:55:16.820 --> 00:55:18.820
+Es decir, para que ya vaya a sus usuarios,
+
+00:55:18.820 --> 00:55:20.820
+sus clientes, sin pagar nada
+
+00:55:20.820 --> 00:55:22.820
+a un servidor external.
+
+00:55:22.820 --> 00:55:24.820
+¿Listo?
+
+00:55:24.820 --> 00:55:26.820
+Nada más.
+
+00:55:26.820 --> 00:55:28.820
+Y vamos a dar unas cositas
+
+00:55:28.820 --> 00:55:30.820
+más interesantes con eso.
+
+00:55:30.820 --> 00:55:32.820
+Ahora, por ejemplo, esta parte
+
+00:55:32.820 --> 00:55:34.820
+de NGROC también se puede utilizar,
+
+00:55:34.820 --> 00:55:36.820
+no solamente con...
+
+00:55:36.820 --> 00:55:38.820
+Les explico un aspecto interesante.
+
+00:55:38.820 --> 00:55:40.820
+Por ejemplo, idea Misalomno, estaban haciendo
+
+00:55:40.820 --> 00:55:42.820
+una aplicación, pero netamente
+
+00:55:42.820 --> 00:55:44.820
+para la parte de fisioterapia.
+
+00:55:44.820 --> 00:55:46.820
+Ya.
+
+00:55:46.820 --> 00:55:48.820
+Ahora, ¿qué es lo bueno de esto?
+
+00:55:48.820 --> 00:55:50.820
+Esto quiero que me entendan, porque quizás
+
+00:55:50.820 --> 00:55:52.820
+ustedes también tienen un negocio,
+
+00:55:52.820 --> 00:55:54.820
+no tanto de lo que sea en el ámbito empresarial,
+
+00:55:54.820 --> 00:55:56.820
+sino en el ámbito tecnológico,
+
+00:55:56.820 --> 00:55:58.820
+donde quieren hacer con hardware.
+
+00:55:58.820 --> 00:56:00.820
+Pues doy una idea.
+
+00:56:00.820 --> 00:56:02.820
+¿Qué es lo bueno de esto?
+
+00:56:02.820 --> 00:56:04.820
+La idea es que lo mejora
+
+00:56:04.820 --> 00:56:06.820
+cuando el cliente tiene una tasa de fisioterapia,
+
+00:56:06.820 --> 00:56:08.820
+es decir, por ejemplo,
+
+00:56:08.820 --> 00:56:10.820
+sabemos que un paciente,
+
+00:56:10.820 --> 00:56:12.820
+cuando tiene artróxis, artritis,
+
+00:56:12.820 --> 00:56:14.820
+o ha sufrido alguna lumbanje,
+
+00:56:14.820 --> 00:56:16.820
+o ha sufrido de una caída,
+
+00:56:16.820 --> 00:56:18.820
+saben que el progreso para mejorar
+
+00:56:18.820 --> 00:56:20.820
+el movimiento
+
+00:56:20.820 --> 00:56:22.820
+y totalmente mejorar
+
+00:56:22.820 --> 00:56:24.820
+el trazo y el ángulo de formación
+
+00:56:24.820 --> 00:56:26.820
+que se le dice en el ámbito fisiológico,
+
+00:56:26.820 --> 00:56:28.820
+fisioterapiótico, perdón.
+
+00:56:28.820 --> 00:56:30.820
+¿Por qué?
+
+00:56:30.820 --> 00:56:32.820
+¿No vas a estar con tu regleta ahí
+
+00:56:32.820 --> 00:56:34.820
+trabajando, midiendo,
+
+00:56:34.820 --> 00:56:36.820
+o sea, obviamente tienen los propios
+
+00:56:36.820 --> 00:56:38.820
+aparatos, herramientas, los fisioterapios,
+
+00:56:38.820 --> 00:56:40.820
+pero en nuestro caso,
+
+00:56:40.820 --> 00:56:42.820
+¿cómo podemos automatizar eso?
+
+00:56:42.820 --> 00:56:44.820
+Yo lo hago con media pipe,
+
+00:56:44.820 --> 00:56:46.820
+o con visión artificial,
+
+00:56:46.820 --> 00:56:48.820
+puedo generar el ángulo entre esos dos parámetros
+
+00:56:48.820 --> 00:56:50.820
+de los pónales, que es el perón
+
+00:56:50.820 --> 00:56:52.820
+y el húmero,
+
+00:56:52.820 --> 00:56:54.820
+y en base a eso,
+
+00:56:54.820 --> 00:56:56.820
+esas imágenes,
+
+00:56:56.820 --> 00:56:58.820
+que son un sofá, es bien pesado de procesarlos.
+
+00:56:58.820 --> 00:57:00.820
+¿Qué hago?
+
+00:57:00.820 --> 00:57:02.820
+N8N, lo procesa de manera mucho más fácil.
+
+00:57:02.820 --> 00:57:04.820
+Le añado un agente de IA,
+
+00:57:04.820 --> 00:57:06.820
+analiza cuál es el mejoramiento
+
+00:57:06.820 --> 00:57:08.820
+y me vota un reporte a mi aplicación.
+
+00:57:08.820 --> 00:57:10.820
+Y listo, y hemos mejorado eso, automatizado todo.
+
+00:57:10.820 --> 00:57:12.820
+¿Qué pasó, Wiener?
+
+00:57:16.820 --> 00:57:18.820
+Wiener quería hablar, creo.
+
+00:57:18.820 --> 00:57:20.820
+Eso, nos hace aplica en altos ámbitos.
+
+00:57:20.820 --> 00:57:22.820
+Le engoro, porque le engoro
+
+00:57:22.820 --> 00:57:24.820
+que también puedo trabajar con...
+
+00:57:24.820 --> 00:57:26.820
+¿Cómo es tu profesor? Buenas noches.
+
+00:57:26.820 --> 00:57:28.820
+¿Qué tal, cómo estás? Wiener.
+
+00:57:28.820 --> 00:57:30.820
+Estamos en el momento todo,
+
+00:57:30.820 --> 00:57:32.820
+pero quería pedirle
+
+00:57:32.820 --> 00:57:34.820
+una solicitud para que pueda
+
+00:57:34.820 --> 00:57:36.820
+faltarme a clase hoy.
+
+00:57:36.820 --> 00:57:38.820
+Bueno, me anuncio un poco tarde.
+
+00:57:38.820 --> 00:57:40.820
+Lo que pasa es que actualmente estoy de viaje.
+
+00:57:40.820 --> 00:57:42.820
+Ya.
+
+00:57:42.820 --> 00:57:44.820
+Estoy por aquí, por la par,
+
+00:57:44.820 --> 00:57:46.820
+con los trabajos que tenía que entregar.
+
+00:57:46.820 --> 00:57:48.820
+Y por eso también,
+
+00:57:48.820 --> 00:57:50.820
+es que tarde, por favor,
+
+00:57:50.820 --> 00:57:52.820
+no te pico.
+
+00:57:52.820 --> 00:57:54.820
+Y bueno, le comento que sí,
+
+00:57:54.820 --> 00:57:56.820
+estaba avanzando viendo los videos,
+
+00:57:56.820 --> 00:57:58.820
+las clases, grabadas.
+
+00:57:58.820 --> 00:58:00.820
+Entonces, bueno,
+
+00:58:00.820 --> 00:58:02.820
+voy a ir subiendo mis tareas, profesor.
+
+00:58:02.820 --> 00:58:04.820
+Mejor enviame a mi inbox
+
+00:58:04.820 --> 00:58:06.820
+tu nombre completo
+
+00:58:06.820 --> 00:58:08.820
+y con él su normal.
+
+00:58:08.820 --> 00:58:10.820
+Ya te voy a hacer que guarda aquí, screen de pantalla.
+
+00:58:10.820 --> 00:58:12.820
+¿Visto?
+
+00:58:12.820 --> 00:58:14.820
+Claro, profesor.
+
+00:58:14.820 --> 00:58:16.820
+¿Te correo, no?
+
+00:58:16.820 --> 00:58:18.820
+Sí, sí. A mi inbox
+
+00:58:18.820 --> 00:58:20.820
+no me mandame tu nombre completo
+
+00:58:20.820 --> 00:58:22.820
+pero aquí te voy a dir igual en la parte
+
+00:58:22.820 --> 00:58:24.820
+para mandar a la embajada y todo lo que me piden.
+
+00:58:24.820 --> 00:58:26.820
+¿Listo? Por ejemplo, ahorita ya estoy sacando el screen.
+
+00:58:26.820 --> 00:58:28.820
+Lo que se entrecorta, la señal.
+
+00:58:28.820 --> 00:58:30.820
+Ya.
+
+00:58:30.820 --> 00:58:32.820
+Bueno, profesor, yo le escribo.
+
+00:58:32.820 --> 00:58:34.820
+Listo, listo. Cuarjas, cuarjas.
+
+00:58:34.820 --> 00:58:36.820
+Listo, listo. No te preocupes.
+
+00:58:36.820 --> 00:58:38.820
+Ya.
+
+00:58:38.820 --> 00:58:40.820
+Listo, chacho.
+
+00:58:40.820 --> 00:58:42.820
+Chacho, chacho, chacho.
+
+00:58:42.820 --> 00:58:44.820
+Ahora sí.
+
+00:58:44.820 --> 00:58:46.820
+Mientras que lo pasé, chicos.
+
+00:58:46.820 --> 00:58:48.820
+Listo, chacho, chacho.
+
+00:58:48.820 --> 00:58:50.820
+Chacho, chacho, chacho.
+
+00:58:50.820 --> 00:58:52.820
+Se me lentió, creo, de un cachito.
+
+00:58:52.820 --> 00:58:54.820
+Se me lentió esta cosa.
+
+00:58:54.820 --> 00:58:56.820
+Se me lentió esta cosa.
+
+00:58:56.820 --> 00:58:58.820
+Se me lentió esta cosa.
+
+00:58:58.820 --> 00:59:00.820
+Me escuchan, chicos, por si acaso.
+
+00:59:00.820 --> 00:59:02.820
+Me escuchan, chicos, por si acaso.
+
+00:59:02.820 --> 00:59:04.820
+No, no, ¿verdad?
+
+00:59:04.820 --> 00:59:06.820
+¿O sí?
+
+00:59:06.820 --> 00:59:08.820
+Ahora sí.
+
+00:59:08.820 --> 00:59:10.820
+Hola, hola, hola.
+
+00:59:10.820 --> 00:59:12.820
+Hola, hola, hola.
+
+00:59:12.820 --> 00:59:14.820
+Hola, hola, hola.
+
+00:59:14.820 --> 00:59:16.820
+¿Me escuchan?
+
+00:59:16.820 --> 00:59:18.820
+Ahora sí.
+
+00:59:18.820 --> 00:59:20.820
+Ya, gracias.
+
+00:59:20.820 --> 00:59:22.820
+Ya, volviendo entonces al tema,
+
+00:59:22.820 --> 00:59:24.820
+esa parte...
+
+00:59:24.820 --> 00:59:26.820
+¿De quién es el chachón que lo hicieron?
+
+00:59:26.820 --> 00:59:28.820
+Acabo de entrar.
+
+00:59:28.820 --> 00:59:30.820
+Ah, ya.
+
+00:59:30.820 --> 00:59:32.820
+Perdón, chicos.
+
+00:59:32.820 --> 00:59:34.820
+Se me bobea todo el sistema.
+
+00:59:34.820 --> 00:59:36.820
+Ahora sí.
+
+00:59:36.820 --> 00:59:38.820
+Ahora sí.
+
+00:59:38.820 --> 00:59:40.820
+Ya, perdón, chicos.
+
+00:59:40.820 --> 00:59:42.820
+Me bobea todo el sistema.
+
+00:59:42.820 --> 00:59:44.820
+Ya, perdón, chicos.
+
+00:59:44.820 --> 00:59:46.820
+Ahora sí.
+
+00:59:46.820 --> 00:59:48.820
+Ya, comenzaremos con la otra parte.
+
+00:59:48.820 --> 00:59:50.820
+Ya.
+
+00:59:50.820 --> 00:59:52.820
+Ay, perdón, no sé si le voy a aceptar.
+
+00:59:52.820 --> 00:59:54.820
+Ya.
+
+00:59:54.820 --> 00:59:56.820
+Vámonos ahora igual acá.
+
+00:59:56.820 --> 00:59:58.820
+Vórenlo eso.
+
+00:59:58.820 --> 01:00:00.820
+O guárdenlo, depende de ustedes.
+
+01:00:00.820 --> 01:00:02.820
+Mejor yo lo diga que lo guárden para que vayan a juntar todas las clases.
+
+01:00:02.820 --> 01:00:04.820
+Y ahora he borrado.
+
+01:00:04.820 --> 01:00:06.820
+Voy a colocar más.
+
+01:00:06.820 --> 01:00:08.820
+Ahora vamos a irnos a lo que son
+
+01:00:08.820 --> 01:00:10.820
+algunos eventos más, ¿sí?
+
+01:00:10.820 --> 01:00:12.820
+Vayan de nuevo a
+
+01:00:12.820 --> 01:00:14.820
+una de sus emisiones.
+
+01:00:14.820 --> 01:00:16.820
+Cierren esta parte.
+
+01:00:16.820 --> 01:00:18.820
+Ya.
+
+01:00:18.820 --> 01:00:20.820
+Y acá vamos a conectarnos
+
+01:00:20.820 --> 01:00:22.820
+con Google Sheet.
+
+01:00:22.820 --> 01:00:24.820
+Ya.
+
+01:00:24.820 --> 01:00:26.820
+Bien, acá más.
+
+01:00:26.820 --> 01:00:28.820
+Y si se dan cuenta, chico-cobos,
+
+01:00:28.820 --> 01:00:30.820
+ya no les aparecen los triggers.
+
+01:00:30.820 --> 01:00:32.820
+Pero si quieren volverlo a ver, acá abajo está.
+
+01:00:32.820 --> 01:00:34.820
+This is another trigger.
+
+01:00:34.820 --> 01:00:36.820
+Ahí entra igual si lo aparecer.
+
+01:00:36.820 --> 01:00:38.820
+Pero fíjense, ahora ya no me apareces.
+
+01:00:38.820 --> 01:00:40.820
+Me aparecen las clases.
+
+01:00:40.820 --> 01:00:42.820
+Ahora ya no me aparecen.
+
+01:00:42.820 --> 01:00:44.820
+Me aparecen otras temáticas,
+
+01:00:44.820 --> 01:00:46.820
+otros aspectos. Me dicen IAS
+
+01:00:46.820 --> 01:00:48.820
+o agentes.
+
+01:00:48.820 --> 01:00:50.820
+Acciones en mi aplicación.
+
+01:00:50.820 --> 01:00:52.820
+Data transformation.
+
+01:00:52.820 --> 01:00:54.820
+Y me aparece flows y cores.
+
+01:00:54.820 --> 01:00:56.820
+Ya.
+
+01:00:56.820 --> 01:00:58.820
+Y también me aparece German reviews.
+
+01:00:58.820 --> 01:01:00.820
+Así que yo me voy a ir a, en este caso,
+
+01:01:00.820 --> 01:01:02.820
+voy a escribirme acá. Voy a colocar.
+
+01:01:02.820 --> 01:01:04.820
+Google.
+
+01:01:04.820 --> 01:01:06.820
+Ay, perdón.
+
+01:01:06.820 --> 01:01:08.820
+Google, así.
+
+01:01:08.820 --> 01:01:10.820
+Y los tiene que aparecer Google Sheets.
+
+01:01:10.820 --> 01:01:12.820
+Ya.
+
+01:01:12.820 --> 01:01:14.820
+Esa Google Sheet, ustedes,
+
+01:01:14.820 --> 01:01:16.820
+vayan crequeándolo.
+
+01:01:16.820 --> 01:01:18.820
+Y ahora.
+
+01:01:18.820 --> 01:01:20.820
+Este Google Sheet, obviamente,
+
+01:01:20.820 --> 01:01:22.820
+necesitamos una API.
+
+01:01:22.820 --> 01:01:24.820
+Pero vamos a elegir algunos. Por ejemplo,
+
+01:01:24.820 --> 01:01:26.820
+si yo quiero tomar la asistencia de ustedes de hoy día,
+
+01:01:26.820 --> 01:01:28.820
+puedo colocar uno,
+
+01:01:28.820 --> 01:01:30.820
+que es esto, ¿no? porque dice
+
+01:01:30.820 --> 01:01:32.820
+abrir y modificar en cada línea
+
+01:01:32.820 --> 01:01:34.820
+de la Sheet, de la Excel, digamos.
+
+01:01:34.820 --> 01:01:36.820
+Algo clica ahí.
+
+01:01:36.820 --> 01:01:38.820
+Y los va a crear.
+
+01:01:38.820 --> 01:01:40.820
+Esto.
+
+01:01:40.820 --> 01:01:42.820
+Ya.
+
+01:01:42.820 --> 01:01:44.820
+Y si hacemos clic acá.
+
+01:01:44.820 --> 01:01:46.820
+En Gmail Account.
+
+01:01:46.820 --> 01:01:48.820
+Dice que necesito y una credencial.
+
+01:01:48.820 --> 01:01:50.820
+Una API.
+
+01:01:50.820 --> 01:01:52.820
+O sea, una API para acceder
+
+01:01:52.820 --> 01:01:54.820
+a la API misma de Google.
+
+01:01:54.820 --> 01:01:56.820
+Y que me ofrezca esos datos.
+
+01:01:56.820 --> 01:01:58.820
+Ya.
+
+01:01:58.820 --> 01:02:00.820
+Voy a hacer clic acá.
+
+01:02:00.820 --> 01:02:02.820
+Ya, déjame un caliente, chicos. Voy a
+
+01:02:02.820 --> 01:02:04.820
+abritar a alguien más.
+
+01:02:04.820 --> 01:02:06.820
+Y eso.
+
+01:02:06.820 --> 01:02:08.820
+Ya.
+
+01:02:08.820 --> 01:02:10.820
+Podemos crear una nueva credencial.
+
+01:02:10.820 --> 01:02:12.820
+Si hacen clic aquí.
+
+01:02:12.820 --> 01:02:14.820
+Fíjense.
+
+01:02:14.820 --> 01:02:16.820
+Ahí me dice cómo tengo que crear,
+
+01:02:16.820 --> 01:02:18.820
+porque tengo que crear y demás.
+
+01:02:18.820 --> 01:02:20.820
+Pero en este caso.
+
+01:02:20.820 --> 01:02:22.820
+Si no se nada, si no sé qué hacer.
+
+01:02:22.820 --> 01:02:24.820
+O sea, no tengo idea qué es lo que tengo que hacer acá.
+
+01:02:24.820 --> 01:02:26.820
+Pueden irse a OpenDocs.
+
+01:02:26.820 --> 01:02:28.820
+Si hacen clic en OpenDocs.
+
+01:02:28.820 --> 01:02:30.820
+Les va a llevar a todo lo que
+
+01:02:30.820 --> 01:02:32.820
+cómo trabaja en E8.
+
+01:02:32.820 --> 01:02:34.820
+Para diferentes apps.
+
+01:02:34.820 --> 01:02:36.820
+O APIs.
+
+01:02:36.820 --> 01:02:38.820
+Y aquí me dice.
+
+01:02:38.820 --> 01:02:40.820
+Perdón.
+
+01:02:40.820 --> 01:02:42.820
+Y aquí me dice, por ejemplo, con qué.
+
+01:02:42.820 --> 01:02:44.820
+Fíjense acá.
+
+01:02:44.820 --> 01:02:46.820
+En E8N Cloud User.
+
+01:02:46.820 --> 01:02:48.820
+Can just manage.
+
+01:02:48.820 --> 01:02:50.820
+A o 2 o 2.0.
+
+01:02:50.820 --> 01:02:52.820
+No se lo que es.
+
+01:02:52.820 --> 01:02:54.820
+En el OT.
+
+01:02:54.820 --> 01:02:56.820
+Pero en este caso, fíjense. Si nosotros somos
+
+01:02:56.820 --> 01:02:58.820
+usuarios de E8N.
+
+01:02:58.820 --> 01:03:00.820
+O sea, si compramos parte de los
+
+01:03:00.820 --> 01:03:02.820
+E8N, tengo acceso directamente a todo esto.
+
+01:03:02.820 --> 01:03:04.820
+De manera.
+
+01:03:04.820 --> 01:03:06.820
+Direct.
+
+01:03:06.820 --> 01:03:08.820
+O sea, no tengo que estar creándome.
+
+01:03:08.820 --> 01:03:10.820
+Ape.
+
+01:03:10.820 --> 01:03:12.820
+No.
+
+01:03:12.820 --> 01:03:14.820
+Así que esto me da si es que soy yo.
+
+01:03:14.820 --> 01:03:16.820
+Usuario de E8N.
+
+01:03:16.820 --> 01:03:18.820
+Como no somos usuarios, tenemos que crearnos.
+
+01:03:18.820 --> 01:03:20.820
+Ahora, las nuevas restricciones de Google.
+
+01:03:20.820 --> 01:03:22.820
+Algunas veces solamente
+
+01:03:22.820 --> 01:03:24.820
+podemos crear ya máximo 20 apps.
+
+01:03:24.820 --> 01:03:26.820
+Ya no podemos crear más de 20 apps.
+
+01:03:26.820 --> 01:03:28.820
+Ya.
+
+01:03:28.820 --> 01:03:30.820
+Pero si en algunos puntos solamente te deja 5.
+
+01:03:30.820 --> 01:03:32.820
+Bueno, mucho hay que ver cómo vamos a trabajar.
+
+01:03:32.820 --> 01:03:34.820
+Pero esta parte si nos va a permitir.
+
+01:03:34.820 --> 01:03:36.820
+No hay problema en ese aspecto.
+
+01:03:36.820 --> 01:03:38.820
+Y aquí les va a aparecer todo.
+
+01:03:38.820 --> 01:03:40.820
+O sea, si quieren interiorizarse
+
+01:03:40.820 --> 01:03:42.820
+más en E8N, trabajar con otras agentes,
+
+01:03:42.820 --> 01:03:44.820
+trabajar con la API,
+
+01:03:44.820 --> 01:03:46.820
+son un poco más complejas.
+
+01:03:46.820 --> 01:03:48.820
+Yo les aconsejo que
+
+01:03:48.820 --> 01:03:50.820
+vayan leyendo todo esta
+
+01:03:50.820 --> 01:03:52.820
+documentación que tiene en E8N.
+
+01:03:52.820 --> 01:03:54.820
+Todito, leánselo.
+
+01:03:54.820 --> 01:03:56.820
+Vayan viendo que tiene.
+
+01:03:56.820 --> 01:03:58.820
+Esto se quieren un poquito
+
+01:03:58.820 --> 01:04:00.820
+a tu punto de armar más cosas.
+
+01:04:00.820 --> 01:04:02.820
+Y por ejemplo acá dice
+
+01:04:02.820 --> 01:04:04.820
+Enable APIs.
+
+01:04:04.820 --> 01:04:06.820
+Aquí también dice Google Perspective.
+
+01:04:06.820 --> 01:04:08.820
+Como puedo crear.
+
+01:04:08.820 --> 01:04:10.820
+Que haría como...
+
+01:04:10.820 --> 01:04:12.820
+No puedo llegar hasta ahí.
+
+01:04:12.820 --> 01:04:14.820
+¿Cómo llegar hasta ahí?
+
+01:04:14.820 --> 01:04:16.820
+No hay problema.
+
+01:04:16.820 --> 01:04:18.820
+Volvamos a compartirles esa parte.
+
+01:04:18.820 --> 01:04:20.820
+En Close.
+
+01:04:20.820 --> 01:04:22.820
+Esta parte por ejemplo.
+
+01:04:22.820 --> 01:04:24.820
+Mira.
+
+01:04:24.820 --> 01:04:26.820
+Vayan a la submissions.
+
+01:04:26.820 --> 01:04:28.820
+Solamente volvamos a sacar.
+
+01:04:28.820 --> 01:04:30.820
+Vien a más.
+
+01:04:30.820 --> 01:04:32.820
+Van a colocar Google Sheets.
+
+01:04:32.820 --> 01:04:34.820
+Aquí desaparece.
+
+01:04:34.820 --> 01:04:36.820
+Ahí hay Google Sheets.
+
+01:04:36.820 --> 01:04:38.820
+Vien a colocar. Quiero que mi tabla
+
+01:04:38.820 --> 01:04:40.820
+se actualice a cada fila.
+
+01:04:40.820 --> 01:04:42.820
+Y que ustedes coloquen sus nombres.
+
+01:04:42.820 --> 01:04:44.820
+Y ahí es su asistencia de ahí.
+
+01:04:44.820 --> 01:04:46.820
+Hago clic en App and Row in Sheets.
+
+01:04:46.820 --> 01:04:48.820
+Vien acá.
+
+01:04:48.820 --> 01:04:50.820
+Y eso va a aparecer esto.
+
+01:04:50.820 --> 01:04:52.820
+Y en la primera parte
+
+01:04:52.820 --> 01:04:54.820
+Me voy a colocar la nueva credencia.
+
+01:04:54.820 --> 01:04:56.820
+Porque no puedo acceder de manera directa
+
+01:04:56.820 --> 01:04:58.820
+a lo que es el entorno de Google.
+
+01:04:58.820 --> 01:05:00.820
+Porque tengo que pagarlo.
+
+01:05:00.820 --> 01:05:02.820
+Tengo que hacer un API.
+
+01:05:02.820 --> 01:05:04.820
+Y tengo que trabajar mediante una transferencia.
+
+01:05:04.820 --> 01:05:06.820
+¿Qué hago?
+
+01:05:06.820 --> 01:05:08.820
+Apreto acá.
+
+01:05:08.820 --> 01:05:10.820
+Y voy a colocar, crear nueva credencia.
+
+01:05:10.820 --> 01:05:12.820
+O puedo seguir con esto.
+
+01:05:12.820 --> 01:05:14.820
+Vamos a crear nueva credencia por ejemplo.
+
+01:05:14.820 --> 01:05:16.820
+Me va a aparecer todo esto.
+
+01:05:16.820 --> 01:05:18.820
+Como yo no sé qué colocar.
+
+01:05:18.820 --> 01:05:20.820
+Ni sé qué estamos haciendo ahí.
+
+01:05:20.820 --> 01:05:30.100
+a ver si puedes compartir pantalla supra voy a dejar de compartir ahora si puedes compartir pantalla
+
+01:05:40.900 --> 01:05:47.420
+la parece así sin credenciales a ver volvelo a cerrar eso
+
+01:05:50.820 --> 01:06:01.500
+es ahí x colocado allá unilo esa parte ese item que ves ahí no
+
+01:06:01.500 --> 01:06:11.540
+ese más que estás viendo ahí del del one for submission eso jalalo haz clic y jalalo
+
+01:06:11.540 --> 01:06:17.940
+hasta la otra en la se al otro al otro ahí el listo o sea apretar dos veces el up and rolling
+
+01:06:17.940 --> 01:06:23.380
+shit ya ahora coloca en setup credential
+
+01:06:25.780 --> 01:06:31.260
+ya ahora de ahí dice arriba dice read our dogs esos click
+
+01:06:33.100 --> 01:06:35.060
+listo ya estamos ahí
+
+01:06:37.060 --> 01:06:44.140
+ahora si listo vas a dejar de compartir la pregunta listo tu modelo está medio raro igual
+
+01:06:44.140 --> 01:06:48.020
+para eso ya ahora si continuamos
+
+01:06:50.140 --> 01:06:55.380
+y una vez que lo tengan hasta y chico cosas más en lo siguiente ya vamos a seguir de nuevo
+
+01:06:55.380 --> 01:07:03.380
+doble dos veces click vamos a ir acá crear nuevo credencial estoy habiendo esto y aquí
+
+01:07:03.380 --> 01:07:11.100
+me dice todo no ahora voy a irme acá al primerito dice google cloud hagan clic ahí y os voy a llevar
+
+01:07:11.100 --> 01:07:19.860
+a otra página y aquí van a colocar ya de estar for free listo hagan clic ahí
+
+01:07:22.420 --> 01:07:24.660
+y nos va a aparecer el google cloud console
+
+01:07:30.940 --> 01:07:33.580
+ya ahí pueden agregar y continuar
+
+01:07:41.220 --> 01:07:44.500
+y hay que esperar un ratito tal que es algo tedioso
+
+01:07:47.060 --> 01:07:53.180
+y listo ya hasta ahí vayan llegando un aquí añaden algunas cosas
+
+01:07:53.180 --> 01:07:59.940
+a tu solamente contiene nuevo no vas a poner directamente estar frío vas a comenzar
+
+01:08:02.220 --> 01:08:06.500
+ya por ejemplo el mío ya igual estoy haciendo costes de cero porque me ha hecho cuenta y esto
+
+01:08:06.500 --> 01:08:06.660
+hecho
+
+01:08:11.340 --> 01:08:13.740
+estará y bailando sus direcciones
+
+01:08:17.740 --> 01:08:22.340
+no tendrá no engañar bueno si quieren engañar de la ubicación pueden engañar
+
+01:08:22.340 --> 01:08:27.740
+pero no tendrá que colocar calles ficticias o calles que no son de su
+
+01:08:30.900 --> 01:08:34.420
+porque es diferente no entiendo tu pregunta más o menos rica
+
+01:08:34.420 --> 01:08:45.140
+ah ya mucho tiene que ver a ver si quizás con un descargado la nuestra versión
+
+01:08:46.140 --> 01:08:48.180
+pero no hay problema igual o funcionales
+
+01:08:51.180 --> 01:08:55.940
+y a esta parte por ejemplo interés tanto no lo hagan aquí creo que en cáncer
+
+01:08:56.940 --> 01:09:01.220
+y esto vamos a lo siguiente hay déjenlo ahorita vamos a banearlo es
+
+01:09:02.220 --> 01:09:08.100
+pero yo ya le di ya llené los datos y te va a parecer esto no de pago y todo
+
+01:09:08.100 --> 01:09:14.100
+demás si no lo hagan todavía esa parte coloquen hasta ahí llegan mientras tanto
+
+01:09:15.380 --> 01:09:19.540
+ya ahora van a ir acá vamos a ir hasta abajo
+
+01:09:23.820 --> 01:09:25.020
+acá abajo hay un link
+
+01:09:25.020 --> 01:09:29.820
+aquí
+
+01:09:29.820 --> 01:09:37.460
+va a sacar bajito en el punto número cinco dice google clock console y vari ya y voy a hacer
+
+01:09:38.340 --> 01:09:39.300
+y ahí entran
+
+01:09:43.300 --> 01:09:50.500
+ya vuelvo a repetir en el punto número cinco dice en el bot de abajo de eso dice configure
+
+01:09:50.500 --> 01:09:55.740
+a un concept screen hagan clic acá y les va a votar acá
+
+01:09:57.500 --> 01:10:01.060
+y aquí les tiene que aparecer este interface hasta y en chico
+
+01:10:07.260 --> 01:10:10.580
+pero ya estoy en el library y luego donde le daba click
+
+01:10:12.260 --> 01:10:17.540
+aquí dice google cloud console la vez hayas le click directamente y te va a ver y tal una nueva
+
+01:10:18.340 --> 01:10:20.180
+página
+
+01:10:22.180 --> 01:10:24.260
+hasta aquí tienen que llegar si o si
+
+01:10:27.180 --> 01:10:32.860
+ahora si nos damos cuenta acá miren hay varias apps por ejemplo para que me entiendan que es una
+
+01:10:32.860 --> 01:10:41.380
+app una app por ejemplo hay uno que se llama eskine learn que es donde son generalmente
+
+01:10:41.380 --> 01:10:47.500
+los todos los médicos suben sus datos procesados sus investigaciones pero como yo no soy
+
+01:10:47.500 --> 01:10:52.940
+netamente de ese campo pero yo recuerdo los datos que él ha hecho porque no son un dato
+
+01:10:52.940 --> 01:10:58.140
+los miliones de datos que hago a no podido descartar tantos datos miliones de datos mi
+
+01:10:58.140 --> 01:11:04.100
+computadora se bogearía o ya no el caso de la memoria o quizás ese tipo de estudios científicos
+
+01:11:04.100 --> 01:11:09.260
+que han hecho otras personas o empresas yo necesito obtener esos datos pero yo no quiero que mi
+
+01:11:09.260 --> 01:11:14.340
+computadora sea un servidor porque se va a llenar de datos y ni va a funcionar como servidor que
+
+01:11:14.340 --> 01:11:22.740
+hago mediando una api es tipo una url o una puertita donde yo puedo ingresar a su casa obtener la
+
+01:11:22.740 --> 01:11:29.060
+información que yo quiero copiarlo o en este caso imitarlo y lo mismo yo voy a obtener porque
+
+01:11:29.060 --> 01:11:35.540
+me estoy basando en su servidor o sea si yo ha visto de pokemon go pokemon por ejemplo hace años
+
+01:11:35.700 --> 01:11:43.340
+al pokemon también ahorita es una api si quiero ver yo por ejemplo que en este que pokemon son de
+
+01:11:43.340 --> 01:11:52.820
+agua ya consulto la api de la página de pokemon y me va a decir a escolar o no se me hace a esto
+
+01:11:52.820 --> 01:11:57.340
+es un pokemon de agua entonces yo estoy obteniendo los datos pero no en mi servidor sino es en otro
+
+01:11:57.340 --> 01:12:03.820
+servidor solamente yo accedo a su información mediante la epi en google hace lo mismo google
+
+01:12:04.420 --> 01:12:12.860
+vende todo lo que ya ha creado pero con apis ahorita lo más interesante lo que yo les recomendaría
+
+01:12:12.860 --> 01:12:19.780
+así a forma legal es que se pueden comprar apis de google porque no es tan caro vale 3 dólares
+
+01:12:19.780 --> 01:12:26.380
+un dólar hasta máximo vale 7 dólares donde pueden obtener un millón de tokens para una api
+
+01:12:26.380 --> 01:12:32.980
+y se puede hacer eso es barato pero ahorita en principio vamos a trabajar sin nada de comprar
+
+01:12:32.980 --> 01:12:38.220
+sin nada de dinero así que esa parte igual va a funcionar pero si quieren a extender su aplicación
+
+01:12:38.220 --> 01:12:43.300
+extender su automatización yo les recomiendo que haga eso por ejemplo en algunos sistemas que yo
+
+01:12:43.300 --> 01:12:48.340
+trabajo con algunos clientes lamentablemente los clientes tienen un presupuesto o sea no quieren
+
+01:12:48.340 --> 01:12:54.660
+aumentar ni un peso más ni un peso ni 50 centavos ni una décima pero yo le hago el presupuesto
+
+01:12:54.660 --> 01:13:00.180
+digamos necesita si o si api porque cuando ingresan un usuario ustedes en una página despiden a
+
+01:13:00.180 --> 01:13:05.500
+ingresar por gmail y eso por ejemplo una api porque google me está diciendo me está dando
+
+01:13:05.500 --> 01:13:10.660
+la autenticación de que yo pueda acceder de manera legal a su sistema y es la única forma para que
+
+01:13:10.660 --> 01:13:17.220
+yo pueda también controlar quiénes son mis usuarios es una por otra se dan cuenta pero si no creo eso
+
+01:13:17.220 --> 01:13:23.020
+pues quién se aportará a mi sistema pues son pasos que me genera una api pues que las apis
+
+01:13:23.020 --> 01:13:30.020
+son importantes interesantes ya que miren hay montón de apis puede haber públicas de analítica de
+
+01:13:30.020 --> 01:13:36.500
+data de machine learning de mapas hay de todo por eso sean un poquito curiosos y vayan investigando
+
+01:13:36.500 --> 01:13:44.140
+y además estas apis nosotros la siguiente clase más o menos ya vamos a utilizar cuál que y qué
+
+01:13:44.140 --> 01:13:50.700
+qué cuáles son los gratuitos cual se puede máximo podemos crear esto con 20 apis hay también
+
+01:13:50.700 --> 01:13:56.780
+la verdad tengo una aquí los lo parece una acá en sus cables shortcuts no no voy a tratar bien
+
+01:13:57.020 --> 01:14:02.220
+esta parte todavía no lo hagan chicos dejen así si lo lo iguales las siguientes
+
+01:14:02.220 --> 01:14:09.380
+volverá a ver que explica cómo van a ser lo paso a paso ya tarea para ustedes me van a llegar hasta
+
+01:14:09.380 --> 01:14:17.220
+acá me van a sacar escribe hasta esta parte en su world y eso lo van a subir hasta una un día
+
+01:14:17.220 --> 01:14:25.060
+antes de la clase del siguiente jueves ya eso me adjunta y me van a ahorita lo voy a crear pero
+
+01:14:25.060 --> 01:14:31.540
+y los recomendaciones para ustedes tarea para la siguiente semana vayan viendo qué apis hay que
+
+01:14:31.540 --> 01:14:39.100
+les llama la atención porque a futuro en sus proyectos eso que se van a utilizar ya eso es
+
+01:14:39.100 --> 01:14:45.380
+ocho cocos y hasta aquí llegamos a la idea de ocho cocos mil disculpas por el retraso de hoy
+
+01:14:45.380 --> 01:14:49.700
+también como le sabía comentó anterior que la serie de las cosas de la negocio 6 en punto 6 y
+
+01:14:49.700 --> 01:14:58.380
+es dificulta llegar a clases a mi domicilio así que siempre veré unos detrás a los a los que podamos
+
+01:14:58.380 --> 01:15:02.660
+retrasar lo que se hace media hora pero va a estar mucho dependiendo ustedes pero mientras tanto
+
+01:15:02.660 --> 01:15:10.940
+voy a trazar siempre 10 minutos a lo mucho ya no se salgan por favor voy a sacar screams de pantalla
+
+01:15:11.940 --> 01:15:20.380
+para sus asistencia si demás ya de mencachito chicos por favor y ahorita voy a llamar listo
+
+01:15:20.380 --> 01:15:29.300
+igual posible que luego me ayude con instalación de lo que faltaba listo listo ahorita no se
+
+01:15:29.300 --> 01:15:36.100
+quedó esta parte lo termino y ahorita listó de mencachito chicos y voy a sacar los crimps
+
+01:15:37.100 --> 01:15:40.340
+si no les va a dejar instalar
+
+01:15:42.140 --> 01:15:48.740
+ay perdón aguanten aguanten aguanten todos han llenado por ese caso el formulario que les
+
+01:15:48.740 --> 01:15:56.500
+ha enviado la vez que ha no hay nada así que está habilitado y los que faltan llenan
+
+01:15:56.500 --> 01:16:01.500
+hasta hoy hasta más de media noche porque eso tiene que enviar y va de enbajada si no es
+
+01:16:01.500 --> 01:16:10.660
+si el formulario que mandó ayer no más si hay exacto donde les pide su nombre su apellido
+
+01:16:10.660 --> 01:16:17.940
+no todo es eso es un chico listo de su llenando por favor para que yo enví esta noche la enbajada
+
+01:16:17.940 --> 01:16:29.500
+y quizás alguien no haya nadie no está va a ser bien complicado luego no son el formulario de
+
+01:16:29.500 --> 01:16:36.300
+crecer mi adoyer de para asistencia o de esos registros que tienen que lo veas enviar sin
+
+01:16:36.300 --> 01:16:43.260
+nos ahorita para que no tenga si exacto el viernes en la vida pero veas enviar ahorita para que no se
+
+01:16:44.660 --> 01:16:50.300
+no tengan problemas listo para hacer los recuerdos de mencachito no se salgan todavía sigo sacando
+
+01:16:50.300 --> 01:16:58.620
+asistencia chico cos listo su compañero dice mientras estoy sacando escribete podemos
+
+01:16:58.860 --> 01:17:05.820
+empezar a siete en punto si hay alguna opresión yo mantengo sigo seis y medio no hay problema pero
+
+01:17:05.820 --> 01:17:12.820
+si quieren todos las siete empezar los sábados ojo solo sábados supe pueden levantar ahorita
+
+01:17:12.820 --> 01:17:17.380
+mismo la mano quienes desean ojo voy a aceptar siempre cuando haya unanimidad
+
+01:17:18.540 --> 01:17:25.500
+si no hay unanimidad no vamos a mantener seis y media uno todos si pueden votar siete en
+
+01:17:25.500 --> 01:17:31.620
+punto empezaremos siguiente sábado para darles más tiempo y a mí también darme tiempo para llegar
+
+01:17:32.900 --> 01:17:40.500
+ya ya tienen dos minutos un minuto más para levantar toda la mano por uno que no levante vamos
+
+01:17:40.500 --> 01:17:41.740
+a ir pasando seis y media
+
+01:17:44.860 --> 01:17:53.500
+ya nadie no está levantando por eso ya haremos digamos votación de mayoría ahora que estamos
+
+01:17:53.500 --> 01:18:02.420
+once de 22 o quiénes no están de acuerdo capaz tienen alguna clase luego o algo y no no puedo
+
+01:18:02.420 --> 01:18:12.060
+parajudicarles tampoco así que no habría problema ya voy a mandar una encuesta en el whatsapp y hay
+
+01:18:12.060 --> 01:18:17.740
+botán dale para que no tenga para que todos también puedan participar y si hay unanimidad pues
+
+01:18:17.740 --> 01:18:22.940
+normalmente tenemos que no este chocos hasta ahí avanzamos el día de hoy se cuidan que
+
+01:18:22.940 --> 01:18:29.100
+les vaya bien el resto de jornada chau chau chau se queda el persona que le queda que ayudara
+

@@ -1,0 +1,885 @@
+{
+  "name": "ResearchFlow - Investigacion profunda",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "researchflow",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "*"
+        }
+      },
+      "id": "rf-0001",
+      "name": "Webhook - Nueva investigacion",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "notes": "Recibe solicitudes de la landing (Vercel) o del flujo de ideas WhatsApp. CORS abierto; restringir allowedOrigins al dominio de Vercel en produccion.",
+      "webhookId": "researchflow"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "nombre",
+              "name": "nombre",
+              "value": "={{ $json.body?.nombre || $json.nombre || 'Investigador' }}",
+              "type": "string"
+            },
+            {
+              "id": "email",
+              "name": "email",
+              "value": "={{ $json.body?.email || $json.email || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "whatsapp",
+              "name": "whatsapp",
+              "value": "={{ $json.body?.whatsapp || $json.whatsapp || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "tema",
+              "name": "tema",
+              "value": "={{ $json.body?.tema || $json.tema || 'Tema sin titulo' }}",
+              "type": "string"
+            },
+            {
+              "id": "pregunta",
+              "name": "pregunta",
+              "value": "={{ ($json.body?.pregunta || $json.pregunta || '').trim() }}",
+              "type": "string"
+            },
+            {
+              "id": "url_fuente",
+              "name": "url_fuente",
+              "value": "={{ $json.body?.url_fuente || $json.url_fuente || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "texto_fuente",
+              "name": "texto_fuente",
+              "value": "={{ $json.body?.texto_fuente || $json.texto_fuente || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "tipo_entregable",
+              "name": "tipo_entregable",
+              "value": "={{ $json.body?.tipo_entregable || $json.tipo_entregable || 'articulo' }}",
+              "type": "string"
+            },
+            {
+              "id": "prioridad",
+              "name": "prioridad",
+              "value": "={{ $json.body?.prioridad || $json.prioridad || 'media' }}",
+              "type": "string"
+            },
+            {
+              "id": "canal_origen",
+              "name": "canal_origen",
+              "value": "={{ $json.body?.origen || $json.origen || 'landing_page' }}",
+              "type": "string"
+            },
+            {
+              "id": "modo",
+              "name": "modo",
+              "value": "={{ ($json.body?.pregunta || $json.pregunta || '').trim() ? 'investigar' : 'generar_preguntas' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "rf-0002",
+      "name": "Normalizar solicitud",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "=INSERT INTO research_requests (nombre, email, whatsapp, tema, pregunta, url_fuente, texto_fuente, tipo_entregable, prioridad, canal_origen, modo, estado) VALUES ('{{ $json.nombre.replaceAll(\"'\", \"''\") }}', '{{ $json.email.replaceAll(\"'\", \"''\") }}', '{{ $json.whatsapp.replaceAll(\"'\", \"''\") }}', '{{ $json.tema.replaceAll(\"'\", \"''\") }}', '{{ $json.pregunta.replaceAll(\"'\", \"''\") }}', '{{ $json.url_fuente.replaceAll(\"'\", \"''\") }}', '{{ $json.texto_fuente.replaceAll(\"'\", \"''\") }}', '{{ $json.tipo_entregable.replaceAll(\"'\", \"''\") }}', '{{ $json.prioridad.replaceAll(\"'\", \"''\") }}', '{{ $json.canal_origen.replaceAll(\"'\", \"''\") }}', '{{ $json.modo }}', 'recibido') RETURNING id AS request_id;",
+        "options": {}
+      },
+      "id": "rf-0003",
+      "name": "Postgres - Registrar solicitud",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        440,
+        0
+      ],
+      "notes": "Asignar credencial Postgres (base researchflow). Ejecutar database_schema_postgres.sql antes de activar.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT value AS playbook FROM app_settings WHERE key='playbook_investigacion';",
+        "options": {}
+      },
+      "id": "rf-0004",
+      "name": "Postgres - Cargar playbook",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        660,
+        0
+      ],
+      "notes": "Carga la metodologia editable. Si falla o no existe, los prompts usan un playbook minimo embebido.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cond-modo",
+              "leftValue": "={{ $('Normalizar solicitud').first().json.modo }}",
+              "rightValue": "investigar",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "rf-0005",
+      "name": "IF - Con pregunta",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        880,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, modo: 'investigacion', estado: 'en_proceso', request_id: $('Postgres - Registrar solicitud').first().json.request_id || null, mensaje: 'Investigacion iniciada. El articulo con graficos y fuentes llegara a tu correo en unos minutos.' } }}",
+        "options": {}
+      },
+      "id": "rf-0006",
+      "name": "Responder en proceso",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        -140
+      ],
+      "notes": "Responde de inmediato a la landing; la investigacion sigue corriendo y entrega por Gmail/WhatsApp."
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst req = $('Normalizar solicitud').first().json;\nlet playbook = '';\ntry { playbook = $('Postgres - Cargar playbook').first().json.playbook || ''; } catch (e) { playbook = ''; }\nif (!playbook) {\n  playbook = 'Metodologia minima: parte de Wikipedia (intro, referencias, pagina de discusion), descubre el vocabulario tecnico, prioriza fuentes primarias y medios de investigacion original (Reuters, AP, BBC, The Economist), usa Our World in Data para estadisticas, aplica los 5 porques, separa hechos/hipotesis/opiniones y nunca inventes cifras ni fuentes.';\n}\nconst fuente = req.url_fuente || (req.texto_fuente ? 'Texto aportado: ' + req.texto_fuente.slice(0, 1500) : 'ninguna');\nconst prompt_base = [\n  'Eres ResearchFlow, asistente de investigacion profunda. Fase 1 de 3: BASE DEL TEMA.',\n  '',\n  'Metodologia preferida del usuario (adaptala al tipo de tema; no es camisa de fuerza):',\n  playbook,\n  '',\n  'Tarea de esta fase (usa busqueda web):',\n  '1. Establece la verdad basica del tema (estilo introduccion de Wikipedia) citando fuentes.',\n  '2. Lista el vocabulario tecnico clave del tema en espanol e ingles.',\n  '3. Identifica las controversias o debates reales alrededor del tema.',\n  '4. Lista entre 5 y 10 hechos base, cada uno con su fuente.',\n  '5. Sugiere que angulos merecen profundizarse en la siguiente fase.',\n  'No inventes cifras ni fuentes. Si el tema es local o nicho, busca prensa local seria y datos oficiales del pais.',\n  '',\n  'Tema: ' + req.tema,\n  'Pregunta central: ' + req.pregunta,\n  'Fuente inicial aportada por el usuario: ' + fuente\n].join('\\n');\nreturn [{ json: { ...req, playbook, prompt_base } }];\n"
+      },
+      "id": "rf-0007",
+      "name": "Preparar fase base",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1320,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_base }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.3 } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0008",
+      "name": "Gemini - Fase base con busqueda",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        -140
+      ],
+      "notes": "Fase 1: base del tema con Google Search grounding.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst prev = $('Preparar fase base').first().json;\nconst resp = $input.first().json || {};\nconst base_texto = extractText(resp) || 'La fase base no devolvio texto (API sin configurar o error). Trabaja con conocimiento general y marca todo como requiere_verificacion.';\nconst citas_base = extractCitas(resp);\nconst prompt_profundizar = [\n  'Eres ResearchFlow. Fase 2 de 3: PROFUNDIZACION. Ya tienes la base del tema; ahora busca el PORQUE y los DATOS.',\n  '',\n  'Tarea de esta fase (usa busqueda web):',\n  '1. Aplica los 5 porques a la pregunta central: encadena causas hasta la causa estructural.',\n  '2. Busca DATOS NUMERICOS concretos y recientes (estadisticas, series temporales, comparaciones) SIEMPRE con su fuente. Prioriza Our World in Data, organismos oficiales y datos primarios.',\n  '3. Contrasta al menos dos fuentes de calidad distinta y anota que tan confiables son (incentivo del medio).',\n  '4. Registra hipotesis y opiniones encontradas, separadas de los hechos.',\n  '5. Si encuentras cifras que se contradicen entre fuentes, reportalo.',\n  'No inventes cifras. Cada numero que reportes debe tener URL de fuente.',\n  '',\n  'Tema: ' + prev.tema,\n  'Pregunta central: ' + prev.pregunta,\n  '',\n  'HALLAZGOS DE LA FASE BASE:',\n  base_texto\n].join('\\n');\nreturn [{ json: { ...prev, base_texto, citas_base, prompt_profundizar } }];\n"
+      },
+      "id": "rf-0009",
+      "name": "Preparar profundizacion",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1760,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_profundizar }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.3 } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0010",
+      "name": "Gemini - Profundizar con busqueda",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1980,
+        -140
+      ],
+      "notes": "Fase 2: 5 porques y datos numericos con fuente, con Google Search grounding.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst prev = $('Preparar profundizacion').first().json;\nconst resp = $input.first().json || {};\nconst prof_texto = extractText(resp) || 'La fase de profundizacion no devolvio texto.';\nconst citas_prof = extractCitas(resp);\nconst vistas = new Set();\nconst citas_total = [];\nfor (const c of arr(prev.citas_base).concat(citas_prof)) {\n  if (c && c.url && !vistas.has(c.url)) { vistas.add(c.url); citas_total.push(c); }\n}\nconst prompt_sintesis = [\n  'Eres ResearchFlow. Fase 3 de 3: SINTESIS. No busques en la web: trabaja SOLO con los hallazgos de las fases anteriores.',\n  'Reglas duras: no inventes cifras ni fuentes; toda afirmacion factual lleva fuente_url tomada de las citas disponibles o de los hallazgos; hipotesis y opiniones van separadas de los hechos; si no hay cifras confiables con fuente, \"datasets\" debe ser [].',\n  '',\n  'Tema: ' + prev.tema,\n  'Pregunta central: ' + prev.pregunta,\n  'Tipo de entregable: ' + (prev.tipo_entregable || 'articulo'),\n  '',\n  'HALLAZGOS FASE BASE:',\n  prev.base_texto || '',\n  '',\n  'HALLAZGOS FASE PROFUNDIZACION:',\n  prof_texto,\n  '',\n  'CITAS WEB DISPONIBLES (usa estas URLs como fuente_url):',\n  citas_total.length ? citas_total.map(c => '- ' + c.titulo + ' :: ' + c.url).join('\\n') : '- (sin citas web; marca las afirmaciones como requiere_verificacion)',\n  '',\n  'Devuelve SOLO un objeto JSON valido con exactamente esta forma:',\n  '{',\n  '  \"resumen\": \"3 a 5 frases\",',\n  '  \"respuesta_corta\": \"respuesta directa a la pregunta central en 1 o 2 frases\",',\n  '  \"hechos\": [{\"afirmacion\": \"...\", \"fuente_url\": \"...\"}],',\n  '  \"hipotesis\": [\"...\"],',\n  '  \"opiniones\": [\"...\"],',\n  '  \"cinco_porques\": [\"por que 1: ...\", \"por que 2: ...\"],',\n  '  \"datasets\": [{\"titulo\": \"...\", \"descripcion\": \"...\", \"tipo_grafico\": \"barras|pastel|lineas\", \"fuente_principal\": \"url\", \"datos\": [{\"etiqueta\": \"...\", \"valor\": 0, \"unidad\": \"...\", \"periodo\": \"...\", \"fuente_url\": \"...\"}]}],',\n  '  \"articulo_markdown\": \"articulo en markdown con secciones: la pregunta y por que importa; respuesta corta; los hechos; el porque; lo que no se sabe; conclusiones\",',\n  '  \"preguntas_abiertas\": [\"...\"],',\n  '  \"fuentes\": [{\"titulo\": \"...\", \"url\": \"...\", \"tipo\": \"primaria|medio_investigacion|analisis|otro\", \"confianza\": \"alta|media|baja\"}]',\n  '}'\n].join('\\n');\nreturn [{ json: { ...prev, prof_texto, citas_total, prompt_sintesis } }];\n"
+      },
+      "id": "rf-0011",
+      "name": "Preparar sintesis",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2200,
+        -140
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_sintesis }] }], generationConfig: { temperature: 0.2, responseMimeType: 'application/json' } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0012",
+      "name": "Gemini - Sintesis estructurada",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2420,
+        -140
+      ],
+      "notes": "Fase 3: sintesis en JSON estricto (sin busqueda; responseMimeType application/json).",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst prev = $('Preparar sintesis').first().json;\nconst resp = $input.first().json || {};\nconst raw = extractText(resp);\nlet r = parseJsonText(raw);\nconst esFallback = !r;\nif (!r) r = {};\nconst citas = arr(prev.citas_total);\nconst resumen = r.resumen || ('No se pudo completar la sintesis automatica para \"' + prev.tema + '\". Revisa la API de Gemini. Se guardaron los hallazgos parciales.');\nconst respuesta_corta = r.respuesta_corta || 'Sin respuesta automatica; requiere revision manual.';\nconst hechos = arr(r.hechos).map(h => typeof h === 'string' ? { afirmacion: h, fuente_url: '' } : { afirmacion: String(h.afirmacion || ''), fuente_url: String(h.fuente_url || '') }).filter(h => h.afirmacion);\nconst hipotesis = arr(r.hipotesis).map(String);\nconst opiniones = arr(r.opiniones).map(String);\nconst porques = arr(r.cinco_porques).map(String);\nconst preguntasAbiertas = arr(r.preguntas_abiertas).map(String);\nlet fuentes = arr(r.fuentes).map(f => ({ titulo: String(f.titulo || f.url || ''), url: String(f.url || ''), tipo: String(f.tipo || 'otro'), confianza: String(f.confianza || 'media') })).filter(f => f.url);\nif (!fuentes.length) fuentes = citas.map(c => ({ titulo: c.titulo, url: c.url, tipo: 'web', confianza: 'media' }));\n\nconst paleta = ['#2563eb', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6', '#14b8a6', '#f43f5e', '#84cc16'];\nconst graficos = [];\nconst datasetsValidos = [];\nfor (const ds of arr(r.datasets)) {\n  const puntos = arr(ds.datos).filter(p => p && p.etiqueta != null && isFinite(Number(p.valor)) && p.fuente_url);\n  if (puntos.length < 2) continue;\n  const tipo = ['lineas', 'pastel', 'barras'].indexOf(ds.tipo_grafico) >= 0 ? ds.tipo_grafico : 'barras';\n  const chartType = tipo === 'lineas' ? 'line' : (tipo === 'pastel' ? 'pie' : 'bar');\n  const labels = puntos.map(p => String(p.etiqueta).slice(0, 40));\n  const values = puntos.map(p => Number(p.valor));\n  const cfg = {\n    type: chartType,\n    data: { labels: labels, datasets: [{ label: String(ds.titulo || prev.tema).slice(0, 80), data: values, backgroundColor: chartType === 'bar' ? paleta[0] : paleta.slice(0, values.length) }] },\n    options: { plugins: { title: { display: true, text: String(ds.titulo || '').slice(0, 90) }, legend: { display: chartType !== 'bar' } } }\n  };\n  const url = 'https://quickchart.io/chart?w=620&h=360&bkg=white&c=' + encodeURIComponent(JSON.stringify(cfg));\n  graficos.push({ titulo: String(ds.titulo || ''), tipo: tipo, url: url, fuente: String(ds.fuente_principal || puntos[0].fuente_url) });\n  datasetsValidos.push({ titulo: String(ds.titulo || ''), descripcion: String(ds.descripcion || ''), tipo_grafico: tipo, fuente_principal: String(ds.fuente_principal || puntos[0].fuente_url), datos: puntos, quickchart_url: url });\n}\n\nconst md = [];\nmd.push('# ' + prev.tema);\nmd.push('');\nmd.push('**Pregunta central:** ' + prev.pregunta);\nmd.push('');\nmd.push('**Respuesta corta:** ' + respuesta_corta);\nmd.push('');\nmd.push('## Resumen');\nmd.push(resumen);\nmd.push('');\nmd.push('## Hechos verificados');\nif (hechos.length) { for (const h of hechos) md.push('- ' + h.afirmacion + (h.fuente_url ? ' [fuente: ' + h.fuente_url + ']' : ' [requiere_verificacion]')); }\nelse { md.push('- Sin hechos verificados suficientes en esta ejecucion.'); }\nmd.push('');\nif (porques.length) { md.push('## El porque (5 porques)'); for (const p of porques) md.push('- ' + p); md.push(''); }\nif (hipotesis.length) { md.push('## Hipotesis (requieren verificacion)'); for (const h of hipotesis) md.push('- ' + h); md.push(''); }\nif (opiniones.length) { md.push('## Opiniones registradas'); for (const o of opiniones) md.push('- ' + o); md.push(''); }\nmd.push('## Graficos');\nif (graficos.length) { for (const g of graficos) md.push('- ' + (g.titulo || g.tipo) + ': ' + g.url + ' (fuente: ' + g.fuente + ')'); }\nelse { md.push('- No se encontraron cifras confiables con fuente para graficar; se omite el grafico por regla de calidad.'); }\nmd.push('');\nif (preguntasAbiertas.length) { md.push('## Preguntas abiertas para futuras investigaciones'); for (const q of preguntasAbiertas) md.push('- ' + q); md.push(''); }\nmd.push('## Fuentes');\nif (fuentes.length) { for (const f of fuentes) md.push('- [' + f.tipo + ', confianza ' + f.confianza + '] ' + f.titulo + ' - ' + f.url); }\nelse { md.push('- Sin fuentes registradas; el contenido queda marcado como requiere_verificacion.'); }\nconst informe_markdown = md.join('\\n');\n\nfunction escHtml(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }\nconst articuloBase = r.articulo_markdown || informe_markdown;\nconst articulo_html = escHtml(articuloBase)\n  .replace(/^### (.*)$/gm, '<h3>$1</h3>')\n  .replace(/^## (.*)$/gm, '<h2>$1</h2>')\n  .replace(/^# (.*)$/gm, '<h1>$1</h1>')\n  .replace(/\\*\\*([^*]+)\\*\\*/g, '<strong>$1</strong>')\n  .replace(/^- (.*)$/gm, '<li>$1</li>')\n  .replace(/\\n{2,}/g, '<br><br>');\nconst chartsHtml = graficos.map(g => '<div style=\"margin:16px 0\"><img src=\"' + g.url + '\" alt=\"' + escHtml(g.titulo) + '\" style=\"max-width:100%;border-radius:8px\"><br><small>Fuente: ' + escHtml(g.fuente) + '</small></div>').join('');\nconst fuentesHtml = fuentes.map(f => '<li><a href=\"' + f.url + '\">' + escHtml(f.titulo) + '</a> (' + f.tipo + ', confianza ' + f.confianza + ')</li>').join('');\nconst email_html = '<div style=\"font-family:Segoe UI,Arial,sans-serif;max-width:680px;margin:auto;color:#111\">'\n  + '<p style=\"background:#eef2ff;padding:8px 12px;border-radius:8px\">ResearchFlow completo tu investigacion. Estado: ' + (esFallback ? 'parcial (revisar API de Gemini)' : 'ok') + '</p>'\n  + articulo_html\n  + (chartsHtml ? '<h2>Graficos</h2>' + chartsHtml : '')\n  + '<h2>Fuentes</h2><ul>' + fuentesHtml + '</ul>'\n  + '<p><small>Generado por ResearchFlow (n8n + Gemini con Google Search grounding). Los hechos citan fuente; lo no citado esta marcado como requiere verificacion.</small></p></div>';\nconst whatsapp_text = ('ResearchFlow: lista tu investigacion sobre \"' + prev.tema + '\". ' + respuesta_corta + ' El articulo completo' + (graficos.length ? ' con ' + graficos.length + ' grafico(s)' : '') + ' llego a tu correo.').slice(0, 900);\n\nlet reqId = 0;\ntry { reqId = Number($('Postgres - Registrar solicitud').first().json.request_id || 0); } catch (e) { reqId = 0; }\nconst stmts = [];\nif (reqId > 0) {\n  for (const f of fuentes.slice(0, 15)) stmts.push(\"INSERT INTO research_sources (request_id, titulo, url, tipo, calidad, confianza) VALUES (\" + reqId + \", '\" + esc(f.titulo).slice(0, 200) + \"', '\" + esc(f.url) + \"', '\" + esc(f.tipo) + \"', 'evaluada', '\" + esc(f.confianza) + \"');\");\n  for (const h of hechos.slice(0, 20)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hecho', '\" + esc(h.afirmacion).slice(0, 1500) + \"', '\" + (h.fuente_url ? esc(h.fuente_url) : 'requiere_verificacion') + \"', 'alta');\");\n  for (const h of hipotesis.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hipotesis', '\" + esc(h).slice(0, 1500) + \"', 'requiere_verificacion', 'media');\");\n  for (const o of opiniones.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'opinion', '\" + esc(o).slice(0, 1500) + \"', 'atribuida', 'baja');\");\n  for (const d of datasetsValidos) stmts.push(\"INSERT INTO research_datasets (request_id, titulo, descripcion, datos_json, fuente_principal, tipo_grafico, quickchart_url, estado) VALUES (\" + reqId + \", '\" + esc(d.titulo).slice(0, 200) + \"', '\" + esc(d.descripcion).slice(0, 500) + \"', '\" + esc(JSON.stringify(d.datos)) + \"', '\" + esc(d.fuente_principal) + \"', '\" + d.tipo_grafico + \"', '\" + esc(d.quickchart_url) + \"', 'graficado');\");\n  stmts.push(\"INSERT INTO research_artifacts (request_id, tipo, titulo, contenido, estado) VALUES (\" + reqId + \", 'articulo', '\" + esc(prev.tema).slice(0, 200) + \"', '\" + esc(articuloBase).slice(0, 100000) + \"', 'enviado');\");\n}\nconst sql_evidencia = stmts.length ? stmts.join(' ') : 'SELECT 1;';\nconst estado_final = esFallback ? 'completado_fallback' : (citas.length ? 'completado_con_busqueda' : 'completado');\nconst sql_actualizar = reqId > 0\n  ? \"UPDATE research_requests SET estado='\" + estado_final + \"', resumen='\" + esc(resumen).slice(0, 2000) + \"', informe_markdown='\" + esc(informe_markdown) + \"', updated_at=NOW() WHERE id=\" + reqId + \";\"\n  : 'SELECT 1;';\nconst sheet_rows = [];\nfor (const d of datasetsValidos) for (const p of d.datos) sheet_rows.push({ request_id: reqId, tema: prev.tema, dataset: d.titulo, etiqueta: String(p.etiqueta), valor: Number(p.valor), unidad: String(p.unidad || ''), periodo: String(p.periodo || ''), fuente_url: String(p.fuente_url) });\nreturn [{ json: { ...prev, request_id: reqId, estado_final, resumen, respuesta_corta, hechos, hipotesis, opiniones, cinco_porques: porques, preguntas_abiertas: preguntasAbiertas, fuentes, graficos, datasets: datasetsValidos, informe_markdown, email_html, whatsapp_text, sql_evidencia, sql_actualizar, sheet_rows } }];\n"
+      },
+      "id": "rf-0013",
+      "name": "Procesar resultado",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2640,
+        -140
+      ],
+      "notes": "Parsea el JSON, valida datasets (solo cifras con fuente), construye URLs QuickChart, articulo HTML, SQL y filas para Sheets."
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "={{ $json.sql_evidencia }}",
+        "options": {}
+      },
+      "id": "rf-0014",
+      "name": "Postgres - Guardar evidencia",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        2860,
+        -140
+      ],
+      "notes": "Inserta fuentes, hechos/hipotesis/opiniones, datasets y el articulo como artifact.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $('Procesar resultado').first().json.email }}",
+        "subject": "={{ 'ResearchFlow - Investigacion: ' + $('Procesar resultado').first().json.tema }}",
+        "emailType": "html",
+        "message": "={{ $('Procesar resultado').first().json.email_html }}",
+        "options": {}
+      },
+      "id": "rf-0015",
+      "name": "Gmail - Enviar articulo",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3080,
+        -140
+      ],
+      "notes": "Asignar credencial Gmail OAuth2.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://evolution:8080/message/sendText/researchflow",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "apikey",
+              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { number: $('Procesar resultado').first().json.whatsapp, text: $('Procesar resultado').first().json.whatsapp_text } }}",
+        "options": {}
+      },
+      "id": "rf-0016",
+      "name": "Evolution API - Aviso WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3300,
+        -140
+      ],
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "={{ $('Procesar resultado').first().json.sql_actualizar }}",
+        "options": {}
+      },
+      "id": "rf-0017",
+      "name": "Postgres - Actualizar resultado",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        3520,
+        -140
+      ],
+      "notes": "Marca la solicitud como completada y guarda resumen e informe.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst res = $('Procesar resultado').first().json;\nconst rows = res.sheet_rows || [];\nreturn rows.map(r => ({ json: r }));\n"
+      },
+      "id": "rf-0018",
+      "name": "Preparar filas Sheets",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3740,
+        -140
+      ],
+      "notes": "Una fila por punto de dato; si no hubo datasets, no se agrega nada."
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "REPLACE_WITH_GOOGLE_SHEET_ID",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "datasets",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "rf-0019",
+      "name": "Google Sheets - Registrar datos",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        3960,
+        -140
+      ],
+      "notes": "Asignar credencial Google Sheets OAuth2 y reemplazar el ID del documento. Hoja: datasets.",
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst req = $('Normalizar solicitud').first().json;\nlet playbook = '';\ntry { playbook = $('Postgres - Cargar playbook').first().json.playbook || ''; } catch (e) { playbook = ''; }\nconst prompt_preguntas = [\n  'Eres ResearchFlow, asistente de investigacion. El usuario dio un TEMA sin pregunta central.',\n  'Genera entre 3 y 5 preguntas de investigacion sobre el tema.',\n  'Criterios: especificas, comprobables con evidencia, interesantes para compartir; mezcla angulos (datos, causas, mitos, impacto, futuro).',\n  playbook ? 'Metodologia del usuario (referencia):\\n' + playbook : '',\n  '',\n  'Tema: ' + req.tema,\n  (req.url_fuente || req.texto_fuente) ? 'Contexto aportado: ' + (req.url_fuente || '') + ' ' + (req.texto_fuente || '').slice(0, 500) : '',\n  '',\n  'Devuelve SOLO JSON valido con esta forma exacta:',\n  '{\"tema_refinado\": \"...\", \"preguntas\": [{\"pregunta\": \"...\", \"por_que_interesa\": \"...\", \"angulo\": \"datos|causas|mitos|impacto|futuro\"}]}'\n].filter(Boolean).join('\\n');\nreturn [{ json: { ...req, prompt_preguntas } }];\n"
+      },
+      "id": "rf-0020",
+      "name": "Preparar peticion de preguntas",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        260
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_preguntas }] }], generationConfig: { temperature: 0.2, responseMimeType: 'application/json' } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0021",
+      "name": "Gemini - Generar preguntas",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        260
+      ],
+      "notes": "Genera 3-5 preguntas investigables en JSON.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst req = $('Preparar peticion de preguntas').first().json;\nconst resp = $input.first().json || {};\nlet r = parseJsonText(extractText(resp));\nif (!r || !Array.isArray(r.preguntas) || !r.preguntas.length) {\n  r = { tema_refinado: req.tema, preguntas: [\n    { pregunta: 'Que dice la evidencia mas reciente sobre ' + req.tema + '?', por_que_interesa: 'Establece la base factual del tema', angulo: 'datos' },\n    { pregunta: 'Por que ocurre o crece ' + req.tema + '?', por_que_interesa: 'Busca las causas estructurales (5 porques)', angulo: 'causas' },\n    { pregunta: 'Que mitos circulan sobre ' + req.tema + ' y que dice la evidencia?', por_que_interesa: 'Separa hechos de opiniones', angulo: 'mitos' }\n  ] };\n}\nconst preguntas = arr(r.preguntas).map(p => ({\n  pregunta: String(p.pregunta || p || ''),\n  por_que_interesa: String(p.por_que_interesa || ''),\n  angulo: String(p.angulo || 'datos')\n})).filter(p => p.pregunta);\nlet reqId = 0;\ntry { reqId = Number($('Postgres - Registrar solicitud').first().json.request_id || 0); } catch (e) { reqId = 0; }\nconst lineas = preguntas.map((p, i) => (i + 1) + '. ' + p.pregunta + (p.por_que_interesa ? ' (' + p.por_que_interesa + ')' : ''));\nconst texto_preguntas = 'Preguntas propuestas para \"' + req.tema + '\":\\n' + lineas.join('\\n');\nconst email_html = '<div style=\"font-family:Segoe UI,Arial,sans-serif;max-width:640px;margin:auto\">'\n  + '<h2>ResearchFlow: preguntas propuestas</h2><p><strong>Tema:</strong> ' + req.tema + '</p><ol>'\n  + preguntas.map(p => '<li><strong>' + p.pregunta + '</strong>' + (p.por_que_interesa ? '<br><em>' + p.por_que_interesa + '</em>' : '') + '</li>').join('')\n  + '</ol><p>Para lanzar la investigacion completa, vuelve a la landing con la pregunta elegida, o responde por WhatsApp con \"investigar N\" si la idea quedo en tu backlog.</p></div>';\nconst sqlIdea = \"INSERT INTO research_ideas (origen, idea_original, tema_refinado, preguntas_sugeridas, estado\" + (reqId ? \", request_id\" : \"\") + \") VALUES ('landing', '\" + esc(req.tema).slice(0, 1000) + \"', '\" + esc(r.tema_refinado || req.tema).slice(0, 200) + \"', '\" + esc(JSON.stringify(preguntas)) + \"', 'refinada'\" + (reqId ? \", \" + reqId : \"\") + \");\";\nconst sqlEstado = reqId ? \" UPDATE research_requests SET estado='preguntas_generadas', resumen='\" + esc(texto_preguntas).slice(0, 1500) + \"', updated_at=NOW() WHERE id=\" + reqId + \";\" : '';\nreturn [{ json: { ...req, request_id: reqId, preguntas, tema_refinado: r.tema_refinado || req.tema, texto_preguntas, email_html, sql_idea: sqlIdea + sqlEstado } }];\n"
+      },
+      "id": "rf-0022",
+      "name": "Procesar preguntas",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        260
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "={{ $json.sql_idea }}",
+        "options": {}
+      },
+      "id": "rf-0023",
+      "name": "Postgres - Guardar idea",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        1760,
+        260
+      ],
+      "notes": "Guarda el tema y las preguntas propuestas en el backlog research_ideas.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $('Procesar preguntas').first().json.email }}",
+        "subject": "={{ 'ResearchFlow - Preguntas propuestas: ' + $('Procesar preguntas').first().json.tema }}",
+        "emailType": "html",
+        "message": "={{ $('Procesar preguntas').first().json.email_html }}",
+        "options": {}
+      },
+      "id": "rf-0024",
+      "name": "Gmail - Enviar preguntas",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1980,
+        260
+      ],
+      "notes": "Asignar credencial Gmail OAuth2.",
+      "continueOnFail": true,
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, modo: 'preguntas_generadas', tema: $('Procesar preguntas').first().json.tema, tema_refinado: $('Procesar preguntas').first().json.tema_refinado, preguntas: $('Procesar preguntas').first().json.preguntas, request_id: $('Procesar preguntas').first().json.request_id } }}",
+        "options": {}
+      },
+      "id": "rf-0025",
+      "name": "Responder preguntas",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        2200,
+        260
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook - Nueva investigacion": {
+      "main": [
+        [
+          {
+            "node": "Normalizar solicitud",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalizar solicitud": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Registrar solicitud",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Registrar solicitud": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Cargar playbook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Cargar playbook": {
+      "main": [
+        [
+          {
+            "node": "IF - Con pregunta",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF - Con pregunta": {
+      "main": [
+        [
+          {
+            "node": "Responder en proceso",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preparar peticion de preguntas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Responder en proceso": {
+      "main": [
+        [
+          {
+            "node": "Preparar fase base",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar fase base": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Fase base con busqueda",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Fase base con busqueda": {
+      "main": [
+        [
+          {
+            "node": "Preparar profundizacion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar profundizacion": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Profundizar con busqueda",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Profundizar con busqueda": {
+      "main": [
+        [
+          {
+            "node": "Preparar sintesis",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar sintesis": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Sintesis estructurada",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Sintesis estructurada": {
+      "main": [
+        [
+          {
+            "node": "Procesar resultado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Procesar resultado": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Guardar evidencia",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Guardar evidencia": {
+      "main": [
+        [
+          {
+            "node": "Gmail - Enviar articulo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail - Enviar articulo": {
+      "main": [
+        [
+          {
+            "node": "Evolution API - Aviso WhatsApp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Evolution API - Aviso WhatsApp": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Actualizar resultado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Actualizar resultado": {
+      "main": [
+        [
+          {
+            "node": "Preparar filas Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar filas Sheets": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets - Registrar datos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar peticion de preguntas": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Generar preguntas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Generar preguntas": {
+      "main": [
+        [
+          {
+            "node": "Procesar preguntas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Procesar preguntas": {
+      "main": [
+        [
+          {
+            "node": "Postgres - Guardar idea",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres - Guardar idea": {
+      "main": [
+        [
+          {
+            "node": "Gmail - Enviar preguntas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail - Enviar preguntas": {
+      "main": [
+        [
+          {
+            "node": "Responder preguntas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "active": false,
+  "versionId": "researchflow-investigacion-v2",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "id": "researchflow-investigacion",
+  "tags": []
+}

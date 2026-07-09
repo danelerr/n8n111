@@ -1,0 +1,22 @@
+# Credenciales y entorno reales (las plantillas .env.example SI se versionan)
+.env
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Intermedios de LaTeX (el PDF final si se versiona)
+output/pdf/*.aux
+output/pdf/*.log
+output/pdf/*.out
+output/pdf/*.toc
+output/pdf/*.tex
+
+# Dependencias
+node_modules/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

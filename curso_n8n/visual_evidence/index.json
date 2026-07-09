@@ -1,0 +1,217 @@
+[
+  {
+    "video": "2.clase1.mp4",
+    "duration_seconds": 4890.432,
+    "frames": [
+      "frames\\2.clase1\\2.clase1__00-01-00.jpg",
+      "frames\\2.clase1\\2.clase1__00-10-00.jpg",
+      "frames\\2.clase1\\2.clase1__00-20-00.jpg",
+      "frames\\2.clase1\\2.clase1__00-30-00.jpg",
+      "frames\\2.clase1\\2.clase1__00-40-00.jpg",
+      "frames\\2.clase1\\2.clase1__00-50-00.jpg",
+      "frames\\2.clase1\\2.clase1__01-00-00.jpg",
+      "frames\\2.clase1\\2.clase1__01-10-00.jpg",
+      "frames\\2.clase1\\2.clase1__01-20-00.jpg",
+      "frames\\2.clase1\\2.clase1__01-20-30.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\2.clase1.jpg"
+  },
+  {
+    "video": "3.clase2.mp4",
+    "duration_seconds": 4866.8,
+    "frames": [
+      "frames\\3.clase2\\3.clase2__00-01-00.jpg",
+      "frames\\3.clase2\\3.clase2__00-10-00.jpg",
+      "frames\\3.clase2\\3.clase2__00-20-00.jpg",
+      "frames\\3.clase2\\3.clase2__00-30-00.jpg",
+      "frames\\3.clase2\\3.clase2__00-40-00.jpg",
+      "frames\\3.clase2\\3.clase2__00-50-00.jpg",
+      "frames\\3.clase2\\3.clase2__01-00-00.jpg",
+      "frames\\3.clase2\\3.clase2__01-10-00.jpg",
+      "frames\\3.clase2\\3.clase2__01-20-00.jpg",
+      "frames\\3.clase2\\3.clase2__01-20-07.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\3.clase2.jpg"
+  },
+  {
+    "video": "4.clase3.mp4",
+    "duration_seconds": 4711.488,
+    "frames": [
+      "frames\\4.clase3\\4.clase3__00-01-00.jpg",
+      "frames\\4.clase3\\4.clase3__00-10-00.jpg",
+      "frames\\4.clase3\\4.clase3__00-20-00.jpg",
+      "frames\\4.clase3\\4.clase3__00-30-00.jpg",
+      "frames\\4.clase3\\4.clase3__00-40-00.jpg",
+      "frames\\4.clase3\\4.clase3__00-50-00.jpg",
+      "frames\\4.clase3\\4.clase3__01-00-00.jpg",
+      "frames\\4.clase3\\4.clase3__01-10-00.jpg",
+      "frames\\4.clase3\\4.clase3__01-17-31.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\4.clase3.jpg"
+  },
+  {
+    "video": "4.clase4.mp4",
+    "duration_seconds": 607.991,
+    "frames": [
+      "frames\\4.clase4\\4.clase4__00-01-00.jpg",
+      "frames\\4.clase4\\4.clase4__00-02-00.jpg",
+      "frames\\4.clase4\\4.clase4__00-04-00.jpg",
+      "frames\\4.clase4\\4.clase4__00-06-00.jpg",
+      "frames\\4.clase4\\4.clase4__00-08-00.jpg",
+      "frames\\4.clase4\\4.clase4__00-09-08.jpg",
+      "frames\\4.clase4\\4.clase4__00-10-00.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\4.clase4.jpg"
+  },
+  {
+    "video": "5.clase5.mp4",
+    "duration_seconds": 4032.8,
+    "frames": [
+      "frames\\5.clase5\\5.clase5__00-01-00.jpg",
+      "frames\\5.clase5\\5.clase5__00-10-00.jpg",
+      "frames\\5.clase5\\5.clase5__00-20-00.jpg",
+      "frames\\5.clase5\\5.clase5__00-30-00.jpg",
+      "frames\\5.clase5\\5.clase5__00-40-00.jpg",
+      "frames\\5.clase5\\5.clase5__00-50-00.jpg",
+      "frames\\5.clase5\\5.clase5__01-00-00.jpg",
+      "frames\\5.clase5\\5.clase5__01-06-13.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\5.clase5.jpg"
+  },
+  {
+    "video": "7.clase6.mp4",
+    "duration_seconds": 5009.16,
+    "frames": [
+      "frames\\7.clase6\\7.clase6__00-01-00.jpg",
+      "frames\\7.clase6\\7.clase6__00-10-00.jpg",
+      "frames\\7.clase6\\7.clase6__00-20-00.jpg",
+      "frames\\7.clase6\\7.clase6__00-30-00.jpg",
+      "frames\\7.clase6\\7.clase6__00-40-00.jpg",
+      "frames\\7.clase6\\7.clase6__00-50-00.jpg",
+      "frames\\7.clase6\\7.clase6__01-00-00.jpg",
+      "frames\\7.clase6\\7.clase6__01-10-00.jpg",
+      "frames\\7.clase6\\7.clase6__01-20-00.jpg",
+      "frames\\7.clase6\\7.clase6__01-22-29.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\7.clase6.jpg"
+  },
+  {
+    "video": "7.clase7.mp4",
+    "duration_seconds": 722.698,
+    "frames": [
+      "frames\\7.clase7\\7.clase7__00-01-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-02-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-04-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-06-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-08-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-10-00.jpg",
+      "frames\\7.clase7\\7.clase7__00-11-03.jpg",
+      "frames\\7.clase7\\7.clase7__00-12-00.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\7.clase7.jpg"
+  },
+  {
+    "video": "8.clase8.mp4",
+    "duration_seconds": 3393.856,
+    "frames": [
+      "frames\\8.clase8\\8.clase8__00-01-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-10-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-20-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-30-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-40-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-50-00.jpg",
+      "frames\\8.clase8\\8.clase8__00-55-34.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\8.clase8.jpg"
+  },
+  {
+    "video": "10.clase9.mp4",
+    "duration_seconds": 3804.181,
+    "frames": [
+      "frames\\10.clase9\\10.clase9__00-01-00.jpg",
+      "frames\\10.clase9\\10.clase9__00-10-00.jpg",
+      "frames\\10.clase9\\10.clase9__00-20-00.jpg",
+      "frames\\10.clase9\\10.clase9__00-30-00.jpg",
+      "frames\\10.clase9\\10.clase9__00-40-00.jpg",
+      "frames\\10.clase9\\10.clase9__00-50-00.jpg",
+      "frames\\10.clase9\\10.clase9__01-00-00.jpg",
+      "frames\\10.clase9\\10.clase9__01-02-24.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\10.clase9.jpg"
+  },
+  {
+    "video": "11.clase10.mp4",
+    "duration_seconds": 4656.981,
+    "frames": [
+      "frames\\11.clase10\\11.clase10__00-01-00.jpg",
+      "frames\\11.clase10\\11.clase10__00-10-00.jpg",
+      "frames\\11.clase10\\11.clase10__00-20-00.jpg",
+      "frames\\11.clase10\\11.clase10__00-30-00.jpg",
+      "frames\\11.clase10\\11.clase10__00-40-00.jpg",
+      "frames\\11.clase10\\11.clase10__00-50-00.jpg",
+      "frames\\11.clase10\\11.clase10__01-00-00.jpg",
+      "frames\\11.clase10\\11.clase10__01-10-00.jpg",
+      "frames\\11.clase10\\11.clase10__01-16-37.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\11.clase10.jpg"
+  },
+  {
+    "video": "12.CLASE12.mp4",
+    "duration_seconds": 3607.701,
+    "frames": [
+      "frames\\12.CLASE12\\12.CLASE12__00-01-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-10-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-20-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-30-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-40-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-50-00.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__00-59-08.jpg",
+      "frames\\12.CLASE12\\12.CLASE12__01-00-00.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\12.CLASE12.jpg"
+  },
+  {
+    "video": "13clase14.mp4",
+    "duration_seconds": 3248.768,
+    "frames": [
+      "frames\\13clase14\\13clase14__00-01-00.jpg",
+      "frames\\13clase14\\13clase14__00-10-00.jpg",
+      "frames\\13clase14\\13clase14__00-20-00.jpg",
+      "frames\\13clase14\\13clase14__00-30-00.jpg",
+      "frames\\13clase14\\13clase14__00-40-00.jpg",
+      "frames\\13clase14\\13clase14__00-50-00.jpg",
+      "frames\\13clase14\\13clase14__00-53-09.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\13clase14.jpg"
+  },
+  {
+    "video": "14.clase15.mp4",
+    "duration_seconds": 3033.173,
+    "frames": [
+      "frames\\14.clase15\\14.clase15__00-01-00.jpg",
+      "frames\\14.clase15\\14.clase15__00-10-00.jpg",
+      "frames\\14.clase15\\14.clase15__00-20-00.jpg",
+      "frames\\14.clase15\\14.clase15__00-30-00.jpg",
+      "frames\\14.clase15\\14.clase15__00-40-00.jpg",
+      "frames\\14.clase15\\14.clase15__00-49-33.jpg",
+      "frames\\14.clase15\\14.clase15__00-50-00.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\14.clase15.jpg"
+  },
+  {
+    "video": "15.clase 16.mp4",
+    "duration_seconds": 4643.44,
+    "frames": [
+      "frames\\15.clase 16\\15.clase 16__00-01-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__00-10-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__00-20-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__00-30-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__00-40-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__00-50-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__01-00-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__01-10-00.jpg",
+      "frames\\15.clase 16\\15.clase 16__01-16-23.jpg"
+    ],
+    "contact_sheet": "contact_sheets\\15.clase 16.jpg"
+  }
+]

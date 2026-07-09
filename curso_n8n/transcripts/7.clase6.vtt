@@ -1,0 +1,2108 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.040
+bueno en este caso para empezar la clase estoy haciendo correo directamente lo que es n8n con
+
+00:00:07.040 --> 00:00:15.120
+npx n8n y voy a apretar la tecla o para que me habite otra instancia de mi local hostia
+
+00:00:15.120 --> 00:00:21.120
+así que voy a esperar hasta un cacho y listo ya me está habilitando a mí y ya me habilitan
+
+00:00:21.120 --> 00:00:31.120
+yo así que en base yo hoy día vamos a conocer o vamos a aplicar otro workflow y ese workflow va a
+
+00:00:31.120 --> 00:00:36.520
+ser algo más interesante así que aplicamos otro workflow y aquí lo voy a colocar en este
+
+00:00:36.520 --> 00:00:42.960
+caso en acá la parte de arriba voy a colocar clase número 6 y vamos a engrasar con open
+
+00:00:42.960 --> 00:00:47.800
+y ahí y vamos a hacer nuestro primer sistema de negocio o sea o peña y
+
+00:00:49.840 --> 00:00:55.420
+listo hacemos clic ahí y ahora voy a empezar a realizar lo siguiente bueno dentro de los
+
+00:00:55.420 --> 00:01:01.320
+procesos de lo que es n8n si nos vamos acá anterior que le debíamos hecho algunas cosas no a ver
+
+00:01:01.320 --> 00:01:06.840
+voy a ir a anterior clase de moca chito voy a irme a clases de envío con el electrónico esto
+
+00:01:06.840 --> 00:01:14.240
+ya esto ya les funciona debería de funcionar les y a que también les ha enviado el vídeo
+
+00:01:14.240 --> 00:01:20.440
+y bueno la última que lo que hicimos tal cual debería de estar ahí porque porque a partir de
+
+00:01:20.440 --> 00:01:26.240
+esto yo voy a hacer los demás softwares y a los demás a pis así que esta parte sí o si tiene
+
+00:01:26.240 --> 00:01:33.320
+que colar ya ahora voy a hacer en base a esto pero voy a ejecutar un nuevo ya voy a creer
+
+00:01:33.320 --> 00:01:41.160
+o peña y voy a hacer lo siguiente antes a ver dónde está así yo arrancamos y vamos a entender
+
+00:01:41.160 --> 00:01:50.120
+un poquito que es un webhook yo si vamos acá y aquí está aquí dice on webhook call algo clic
+
+00:01:50.120 --> 00:01:56.920
+pero que me dice round of flow on resume http requests ya en este caso cuando les había
+
+00:01:56.920 --> 00:02:02.400
+comentado en principios de clases o en principios de todo este curso les había hecho que si dominan
+
+00:02:02.400 --> 00:02:10.440
+https le pues pueden enlace con cualquier cosa nueva y además existe dos tipos de http el http y el
+
+00:02:10.440 --> 00:02:16.000
+https uno es de seguridad encryptada y otros sin seguridad encryptada cuando cuando ustedes han
+
+00:02:16.000 --> 00:02:22.640
+ingresado a páginas webs y les dice seguro que quiere continuar entonces ahí es donde
+
+00:02:22.640 --> 00:02:29.600
+generalmente nosotros aplicamos http no más pero en este caso cuando es una http ese y cuando tienen
+
+00:02:29.600 --> 00:02:35.520
+ssh o sea algunos sistemas de certificaciones internas para autenticación ya no me pide ese
+
+00:02:35.520 --> 00:02:41.640
+tipo de enlaces que si o si me que si o si me dicen no ve no si o si tienes que estás seguro está
+
+00:02:41.640 --> 00:02:47.120
+seguro y me bota dos veces hasta tres veces incluso me de lanza armas o checks rojos para
+
+00:02:47.120 --> 00:02:52.320
+vulnerabilidades y eso hay que evitarlo y cuando nosotros creamos un webcov interno de inercho
+
+00:02:52.320 --> 00:02:56.480
+en e hay que evitar esos puntos porque a larga puede generar unos problemas con nuestros propios
+
+00:02:56.480 --> 00:03:06.560
+clientes y así que hacemos que hay dentro de web y este web es como un oído va escuchando
+
+00:03:06.560 --> 00:03:12.800
+por eso que dice lisa en fortes event o sea vamos a escuchar para cada evento que vamos a probar
+
+00:03:12.800 --> 00:03:20.160
+ya en ese caso nosotros tenemos que analizar qué es lo que voy a hacer cómo lo voy a generar ahora
+
+00:03:20.160 --> 00:03:27.040
+también esta parte es interesante http métodos son métodos del http pues en gret post delete
+
+00:03:27.040 --> 00:03:34.200
+update hay montón en aquí por ejemplo estamos viendo unos cuantos el get el delete el hit el patch
+
+00:03:34.200 --> 00:03:40.680
+el post del put ahora en este caso hay un programa que trabajamos bueno los desarrolladores más
+
+00:03:40.680 --> 00:03:47.440
+lo trabajamos en wearable wearable o postman pero sé que nosotros la mayoría no sabe mucho de que
+
+00:03:47.440 --> 00:03:51.760
+estoy hablando como desarrollador pero esto lo utilizamos casi siempre para hacer conexiones con
+
+00:03:51.760 --> 00:03:58.600
+apis y para hacer consultas y realmente el sistema está enviando o recibiendo datos ya entonces nosotros
+
+00:03:58.600 --> 00:04:04.440
+vamos a empezar primero con el get ahora cuando hablamos de que vamos a decepcionar algún tipo
+
+00:04:04.440 --> 00:04:12.000
+de url ya en este caso voy a copiarme esto este orl que están viendo acá copiense a por si acaso
+
+00:04:12.360 --> 00:04:18.960
+antes de empezar la clase bueno según el comunicado interno que me dijeron si o si tienen
+
+00:04:18.960 --> 00:04:25.520
+que cumplir algunos puntos ya no se las tareas si o si pido que se olviden y se vayan acumulando
+
+00:04:25.520 --> 00:04:35.160
+así que igual voy a hacer con ustedes mientras tanto vayan se abriendo esto y vamos a colocar
+
+00:04:35.160 --> 00:04:45.520
+acá en este caso clase número 6 ya saben su nombre y van a colocar todo este aspecto y directamente
+
+00:04:45.520 --> 00:04:56.640
+acabamos de conectar web hooks directamente perdón perdón perdón por así web hooks listo
+
+00:04:57.640 --> 00:05:05.840
+ya en este caso voy a empezar a hacer lo siguiente ya voy a centrar esto y la altura uno
+
+00:05:07.640 --> 00:05:14.440
+vamos a copiar los estitos ya voy a venir acá y voy a hacer lo siguiente esta parte hasta aquí
+
+00:05:14.440 --> 00:05:20.800
+espero que lo tengan así que voy a copiarme esto y voy a pegar en mi bot
+
+00:05:20.800 --> 00:05:28.840
+listo entonces esta parte lo primero que vamos a hacer nosotros es copiar la hora y vamos a copiar
+
+00:05:30.320 --> 00:05:37.840
+la url es a huéreles de test o se va a hacer un test en primero para ver algo clic se copia
+
+00:05:37.840 --> 00:05:43.760
+automáticamente ahora voy a hacer lo siguiente voy a escuchar el evento ya voy a ser lisa
+
+00:05:43.760 --> 00:05:51.080
+y voy a abrirme otro navegador otro navegador que no sea mi cuenta de este pueden igual
+
+00:05:51.080 --> 00:05:55.120
+manejar con su propia cuenta no hay problema pero mejor si es de otro para ver si realmente
+
+00:05:55.120 --> 00:06:01.280
+funciona y está escuchando y me voy a abrir otra cuenta a ver de mi cuchito de google o de opera
+
+00:06:01.280 --> 00:06:06.720
+lo que ustedes están manejando pero otro usuario yo estoy abriendo otro usuario yo voy a copiar
+
+00:06:07.720 --> 00:06:14.840
+y fíjense dice aquí mensaje workflow was a start en ese aspecto dice que por hoy está inicializado
+
+00:06:14.840 --> 00:06:21.840
+o así de inicializar ya y aquí si nos damos cuenta puedo observar cómo me da la respuesta
+
+00:06:21.840 --> 00:06:29.280
+es mi get así funcionan los gets ya ahora qué es lo bueno de esto y a explicarles un poquito
+
+00:06:29.280 --> 00:06:36.960
+interesante de esto no porque con esto yo puedo bañar sistemas porque al momento de que no se
+
+00:06:36.960 --> 00:06:44.080
+se han visto cuando había una un mes creo que hace dos meses otros meses atrás estaban enviando
+
+00:06:44.080 --> 00:06:49.880
+de la cárcel de palma sol y la cárcel de san pedra un montón de webhooks para robarles sus
+
+00:06:49.880 --> 00:06:57.640
+inscripciones y poderles bañar los los correos internos y también las cuentas de bancunio más
+
+00:06:57.640 --> 00:07:03.720
+que todo para robarles algún tipo de montos monetarios se ha hecho con esto porque en el
+
+00:07:03.720 --> 00:07:10.320
+chanel lo pueden hacer quien sea y contar que tú entres a la url te van en todo y aquí yo ya tengo
+
+00:07:10.320 --> 00:07:18.720
+digamos mis datos mis ubicaciones y donde desde qué equipo estoy más o menos entrando en 8n ya y
+
+00:07:18.720 --> 00:07:26.680
+ahorita vamos a ser un ejemplo pero aquí tienen más que todo aquí dice params queries bodies y eso
+
+00:07:26.720 --> 00:07:31.920
+voy a ver ahorita cómo lo vamos a trabajar por ejemplo si ahora vuelvo a actualizar acá
+
+00:07:32.960 --> 00:07:39.120
+si lo actualizo miren ya no me dicen no me dicen que es me dicen un error 400 4 6 que no existe
+
+00:07:39.120 --> 00:07:47.080
+porque porque obviamente mi lisa y hasta un webhook y hasta parado ya entonces si vuelvo a
+
+00:07:47.080 --> 00:07:56.360
+clicar esto y vuelvo a actualizar esto debería de decir de nuevo a estar ya ahí está listo pero
+
+00:07:56.360 --> 00:08:02.800
+aquí de nuevo se ha apagado nueve entonces esa partecita vamos a dar siguiente manera ahora para
+
+00:08:02.800 --> 00:08:09.240
+que nosotros podamos entenderlo y saber qué es un query un query más que todo es un tipo de
+
+00:08:09.240 --> 00:08:15.480
+bueno en informática se lo conoce como una pregunta una consulta más o menos y aquí le
+
+00:08:15.480 --> 00:08:24.360
+vamos a hacer esto ya acá mismo al finalizar su código van a colocar bueno el símbolo de
+
+00:08:24.360 --> 00:08:31.640
+interrogación y cuando se habilita la query van a colocar su nombre igual van a colocar mil
+
+00:08:31.640 --> 00:08:41.840
+ton tantos tan si ya listo ahora sí ya entonces voy a volver a habilitar esto el local host internal
+
+00:08:41.840 --> 00:08:49.080
+lisa y ahora va a estar escuchando ahora si nosotros vamos nos vamos a la plataforma y lo actualizo
+
+00:08:50.200 --> 00:08:52.520
+ya está ahora voy a hacer lo siguiente
+
+00:08:53.920 --> 00:08:57.920
+esta parte está medio que raro y te lo voy a modificar estos cierran la mejor
+
+00:08:57.920 --> 00:09:04.240
+yo copié en ese de nuevo y van a ser lo siguiente ahora si sucede en acá de nuevo voy a hacerlo
+
+00:09:04.640 --> 00:09:12.220
+listo voy a escucharlo por si acaso y vamos a hacer un símbolo escucho y ahora si van a
+
+00:09:12.220 --> 00:09:21.320
+colocar eso sino de interrogación y en este caso voy a colocar nombre nombre mil ya
+
+00:09:24.040 --> 00:09:30.840
+ya está entonces una vez que lo tengan hasta ahí si no se dan cuenta en la parte de acá dice
+
+00:09:30.960 --> 00:09:36.560
+query nombre mil tan ese aspecto también va a ir a copiar y pegarlo
+
+00:09:39.200 --> 00:09:43.680
+ya ahí vayan colocando su nombre de ustedes ya vayan haciendo el nombre de ustedes
+
+00:09:46.120 --> 00:09:51.720
+ahora en la prueba es las voy dando un poquito de tiempo y en más eso voy a hacer darles una
+
+00:09:52.840 --> 00:09:59.000
+un ejercicio que todos vamos a trabajar ya otros voy a pasar la lista por n8 en lo que
+
+00:09:59.080 --> 00:10:01.760
+tocando anterior clase para tener lista de hoy
+
+00:10:03.200 --> 00:10:10.320
+listo ya mientras tanto les explico algunos aspectos técnicos más dentro de no china ya
+
+00:10:10.320 --> 00:10:18.280
+esta parte donde dice el pat el pat pueden ustedes modelarlo pueden en este caso diseñarlo en
+
+00:10:18.280 --> 00:10:23.720
+base a lo que ustedes quieran cada pat puede representar una función interna de un hueco
+
+00:10:23.720 --> 00:10:29.520
+que se que significa eso un ejemplo cuando ustedes van al banco o cuando se han hecho una
+
+00:10:29.520 --> 00:10:37.880
+transacción ya se dan cuenta que les se han hecho no transición de bnb por ejemplo porque a lo
+
+00:10:37.880 --> 00:10:45.440
+que sé y a lo que tengo en bancos no me da un hueco en bnb si me da si ustedes hacen una transacción
+
+00:10:45.440 --> 00:10:54.120
+en bnb con no sé con ya pe con mero etcétera en la parte superior de su celular les sale un mensaje
+
+00:10:54.120 --> 00:10:59.720
+que la transacción ha sido validada o usted ha recibido el monto de 800 bolvianos no sé con
+
+00:10:59.720 --> 00:11:07.840
+ejemplo x entonces ese tipo de web hook está parametrizado por un determinado pat y cada pat
+
+00:11:07.840 --> 00:11:14.800
+tiene un de una determinada tarea el mismo web puede tener varios pat con ese con ese mismo web
+
+00:11:14.800 --> 00:11:22.920
+hook pueden lanzarnos transacciones a la vez pueden lanzarnos en este caso pagos si estoy pagando
+
+00:11:22.920 --> 00:11:32.160
+por cuera una a una empresa le pago y me va danza web hook alertas alarmas jueguitos no sé por
+
+00:11:32.160 --> 00:11:38.560
+ejemplo duolingo se dan cuenta duolingo es bastante interesante porque en duolingo cuando ustedes por
+
+00:11:38.560 --> 00:11:44.240
+ejemplo a mí en mi caso ahorita me dice ya no tienes protector milton me dice entonces porque
+
+00:11:44.240 --> 00:11:49.360
+ayer ya no jugaba olvidado así que ya tendría que jugar en ese web hook están viendo en su pantalla
+
+00:11:49.360 --> 00:11:57.960
+de duolingo los que los tiene manejando o lingo así trabaja con pat sin términos ya y todos supuestamente
+
+00:11:57.960 --> 00:12:05.480
+con web hook un montón de cosas y entonces hay uno que se ya si entonces web hook es más
+
+00:12:05.480 --> 00:12:12.560
+como una notificación exacto y una notificación pero que está enlazado toda la red y es interesante
+
+00:12:12.720 --> 00:12:20.600
+con ozo marahá ahorita ya otro caso interesante web de web hook es cuando ustedes por ejemplo a ver
+
+00:12:20.600 --> 00:12:27.160
+si se dan cuenta hay transacciones de algunos bancos por ejemplo el banco visa y veces me tarda
+
+00:12:27.160 --> 00:12:33.880
+30 segundos en darme una notificación eso es porque porque generalmente los web hook que
+
+00:12:33.880 --> 00:12:40.480
+ellos tienen son estáticas y la mayoría de los bancos actuales tienen web hooks dinámicos y
+
+00:12:40.480 --> 00:12:45.720
+los referimientos que significa que el tiempo es mucho menor incluso les podría comentar que
+
+00:12:45.720 --> 00:12:52.320
+web hooks que pueden tardar años como quien generalmente los servidores de amazon web service
+
+00:12:52.320 --> 00:12:58.800
+o ebbs generalmente tardan un año su web hook en automatizar y en actualizar todos sus servidores
+
+00:12:58.800 --> 00:13:05.960
+cerrando anualmente la gestión eso es eso ya se puede incluso automatizar ya así que no
+
+00:13:05.960 --> 00:13:10.640
+solamente es de en hecho en un web hook es de cualquier tipo de frameworks que ustedes pueden
+
+00:13:10.640 --> 00:13:16.960
+trabajar pero en hecho en ella lo tiene internamente configurado y es lo más y es lo mejor y lo más
+
+00:13:16.960 --> 00:13:21.520
+fácil porque lo tenemos a la mano y podemos manipularlo fácilmente sin estar codificando ya
+
+00:13:21.520 --> 00:13:29.840
+eso ahora si trabajando aleatoriamente paralelamente voy a abrir metrón cmed y hagan ya saben que
+
+00:13:29.840 --> 00:13:36.800
+se vamos a abrir telenguac para hacer lo siguiente de ahí también lo voy a buscarme una carpetita
+
+00:13:36.800 --> 00:13:44.880
+ya saben cómo se trabaja esto ahí te estoy mi carpetita de instaladores acá ya voy a minimizar
+
+00:13:44.880 --> 00:13:50.800
+un poco ya saben a esta parte voy a repetir una vez más control se bien acá van a acercarse de
+
+00:13:50.800 --> 00:13:57.560
+listo ahora para habilitar esto ya les había comentado que ustedes tienen que estén grabado
+
+00:13:57.560 --> 00:14:05.120
+o guardado su token del del en grac para no estar cada rato yendo la página y volviendo a copiar
+
+00:14:05.120 --> 00:14:13.640
+ya en mi caso ya saben en este caso van a colocar en rock directamente con fic y espacio ad
+
+00:14:14.240 --> 00:14:23.120
+llanto que autóquen yo listo y lo voy a copiar mi mi código
+
+00:14:25.840 --> 00:14:32.120
+esto lo copia y lo veo y hasta ah y me dice si me dice eso de negado ya te deshabe
+
+00:14:32.120 --> 00:14:38.000
+no escuchado ahorita no se ha escuchado pero también ha dicho mi abaz que tengo que tener
+
+00:14:38.000 --> 00:14:44.760
+cuidado así que lo voy a desactivar 10 minutitos listo ya lo se desactivado y voy a probar de nuevo
+
+00:14:46.400 --> 00:14:51.040
+y hasta ahora si ya no va a decir y les va a decir a otro site no es lo que me interesa
+
+00:14:51.840 --> 00:14:58.480
+ya esperamos un poco y lo más olvidado aquí en el mío ahora si ya dice entonces como ya me dice
+
+00:14:58.480 --> 00:15:03.640
+autóquen site de configuración ahora de siempre aplicar en en grac
+
+00:15:05.800 --> 00:15:17.480
+y el puerto de esto es 5678 5678 listo y hasta entonces ahora si hasta ahí espero que lo tengan
+
+00:15:20.640 --> 00:15:28.440
+ahora si vamos a lo siguiente esta misma url que estoy ahorita colocándolo voy a copiarme
+
+00:15:28.480 --> 00:15:34.680
+voy a abrir un blog de notas del cachito un blog de notas
+
+00:15:37.080 --> 00:15:43.000
+voy a abrir un nuevo blog de notas y voy a pegar esto ya ahí voy a pegar mientras tanto también
+
+00:15:43.000 --> 00:15:49.560
+voy a pegarme lo que es mi mi túnel yo me pido copio esto y lo voy a pegar acá
+
+00:15:50.200 --> 00:15:58.920
+ya está esto para no olvidarme luego ya entonces ya saben de esta parte lo van a eliminar hasta
+
+00:15:58.920 --> 00:16:03.600
+acá donde dice webhook para no eliminar hasta y lo van a dejar y esta parte lo van a eliminar
+
+00:16:03.600 --> 00:16:09.400
+pero para no equivocarnos voy a hacer aquí aquí abajo y aquí voy a hacer ese proceso todo esto lo
+
+00:16:09.400 --> 00:16:18.520
+copio luego esta parte lo elimino y ahí lo voy a pegar listo y aquí un espacio de esto que estoy
+
+00:16:18.520 --> 00:16:26.440
+haciendo acá los voy a pasar ustedes aquí y los voy a pasar y ustedes me van a inviar ahora
+
+00:16:27.440 --> 00:16:33.120
+los tres primeros que me envíen o los cinco primarios van a tener puntos extreme así que
+
+00:16:33.120 --> 00:16:41.400
+vamos a lo siguiente voy a abrir mi mi que se llama mi lista de mi cachito ya pero si
+
+00:16:41.800 --> 00:16:46.760
+estoy pasando a la mensajería de mit
+
+00:16:48.480 --> 00:16:50.280
+en un cachito voy a abrir
+
+00:16:51.960 --> 00:16:56.280
+aceptar a los compañeros ya ya les he pasado
+
+00:16:58.480 --> 00:17:03.000
+todavía van a colocar su nombre ya saben que tienen que hacer al último colocar una
+
+00:17:03.000 --> 00:17:09.320
+sin la interrogación nombre igual y su nombre van a colocar ya y ahora sí voy a hacer clica
+
+00:17:09.320 --> 00:17:15.200
+acá en lisent y así me va a admitir y vamos a ver desde donde me está escribiendo listo ahora
+
+00:17:15.200 --> 00:17:21.320
+sí el primer que listo ya está su nombre en este caso es ángel y aquí tengo sus datos internos
+
+00:17:23.120 --> 00:17:26.280
+ya ahorita con esto lo podemos vaner incluso
+
+00:17:28.000 --> 00:17:34.880
+pero no siguiente ahora sí otro ya ha llegado otro pero no ha hecho la consulta
+
+00:17:35.880 --> 00:17:40.800
+tiene que colocar nombre igual por suerte hay cuatro vacantes más
+
+00:17:42.000 --> 00:17:47.880
+ya tendrá que colocar su nombre y apellido más juntito para que les pueda
+
+00:17:49.640 --> 00:17:55.640
+admitir y a eduardo y aduardo que eso más lo envían para por favor listo ya está otro
+
+00:17:57.240 --> 00:18:02.360
+no tiene nada tienen que modificar acá el que enviado disto otra vuelta
+
+00:18:03.360 --> 00:18:08.080
+y en mi llegado otro no tiene nada todo bien tiene que colocar por ese caso un
+
+00:18:08.080 --> 00:18:14.600
+asigno de interrogación nombre igual y su nombre con su apellido junto y a otro
+
+00:18:17.920 --> 00:18:24.200
+ya está bien gati el día vamos voy a copiarlo y voy a pegarlo de un coche esto
+
+00:18:24.920 --> 00:18:31.680
+y lo que denotas y luego les voy a notar en la lista el primarito el otro me ha oído su
+
+00:18:31.680 --> 00:18:36.720
+apelido pero lo que nos con un apellido más por esto siguiente
+
+00:18:38.720 --> 00:18:45.920
+ya en este caso está el duelo de veracolombra listo dos ya tengo dos necesito tres más
+
+00:18:45.920 --> 00:18:57.760
+listo quien es el tercero no tiene nombre no puesto siguiente tampoco porque el cuarista
+
+00:18:57.760 --> 00:19:09.160
+vacío siguiente ahora si quien es es maría susana mencha listo es el tercero queda dos más
+
+00:19:09.320 --> 00:19:16.520
+listo ya aquí no me llegó nada todavía
+
+00:19:18.120 --> 00:19:22.560
+ahora si tampoco me ha enviado el nombre
+
+00:19:24.440 --> 00:19:26.480
+vamos chicos vamos vamos
+
+00:19:28.960 --> 00:19:35.040
+y ahora si quien es es ángel charca listo último
+
+00:19:39.160 --> 00:19:41.320
+listo el último ahora si
+
+00:19:48.520 --> 00:19:54.240
+y todavía último último último no me ha enviado nombre
+
+00:19:56.720 --> 00:19:58.840
+next next next
+
+00:20:01.040 --> 00:20:07.040
+quien es el otro persona vamos vamos chicos tampoco no me ha enviado el nombre
+
+00:20:10.160 --> 00:20:14.320
+ya último último último último
+
+00:20:16.480 --> 00:20:21.640
+tampoco no me ha enviado el nombre por su caso los que acaban de entrar y están haciendo pruebas
+
+00:20:22.600 --> 00:20:30.600
+tienen que aquí adjuntar así siglos de interrogación van a colocar nombre igual y se van a coca su
+
+00:20:30.600 --> 00:20:35.920
+nombre su nombre de ustedes eso eso van a juntar último
+
+00:20:36.280 --> 00:20:40.720
+tampoco vamos chicos
+
+00:20:48.600 --> 00:20:56.200
+vamos vamos vamos últimos quedamos en cuatro ya f para todos ya no hay nada no
+
+00:20:57.960 --> 00:21:04.640
+nadie está haciendo un get alguien más y hasta contar cinco uno dos
+
+00:21:05.920 --> 00:21:17.360
+tres cuatro y cinco hay llegado pero no ha puesto nombre listo ahí quedamos entonces con los cuatro
+
+00:21:17.360 --> 00:21:25.280
+que bien está enviando ahora si procederemos a la siguiente fase ya entonces este web es
+
+00:21:25.280 --> 00:21:32.040
+bastante interesante ya y no solamente interesante en procesar antes antes antes antes me van a
+
+00:21:32.040 --> 00:21:38.400
+sacar el scream de su documento de esa parte con su nombre en acá les tiene que votar por
+
+00:21:38.400 --> 00:21:44.440
+ese caso acá tal cual no ves lo están haciendo y directamente a ganas ya no vamos ahora si
+
+00:21:44.440 --> 00:21:52.000
+continuaremos una vez que hemos ejecutado eso ahora vamos a añadir algunos algunos aspectos más
+
+00:21:52.880 --> 00:21:57.480
+para que me entiendan de esta parte también
+
+00:21:59.320 --> 00:22:03.200
+el web es la inversión a la vida van a entender por qué
+
+00:22:04.360 --> 00:22:10.400
+vamos de nuevo acá ahora vamos a utilizar el método post hacemos click en post
+
+00:22:11.120 --> 00:22:17.960
+ya no voy a dejar ahí y vamos a de ejemplo ahora con un sistema un poquito más complejo
+
+00:22:18.360 --> 00:22:24.400
+y lo que habíamos trabajado anteriormente así que voy a minimizar esto voy a venirme acá
+
+00:22:25.280 --> 00:22:31.480
+y dentro de acá voy a escribir lo que es el el one for submission aquí estaba no voy a coca
+
+00:22:31.480 --> 00:22:39.240
+un ad another trigger y aquí está el submission reform submission aquí está hacemos click ahí
+
+00:22:40.560 --> 00:22:46.800
+voy a cerrar mi sustento y lo voy a acomodar acá ahí vengo ahí vengo ahí
+
+00:22:47.240 --> 00:22:53.560
+voy a abrir el tarot ro ahora vamos a escribir el edith files para que capture mis datos
+
+00:22:53.560 --> 00:22:58.040
+aquí está edit fills set ya hacemos click ahí
+
+00:23:00.160 --> 00:23:06.120
+y eso vamos a hacer esta cosa ya esta parte lo voy a quitar ahora si
+
+00:23:08.320 --> 00:23:15.240
+nosotros qué vamos a hacer con esto un web hook necesariamente va a capturar datos ya pero el
+
+00:23:15.240 --> 00:23:21.920
+edith fills también lo hace solamente que el edith fills si es un filtro ya el web hook es el que
+
+00:23:21.920 --> 00:23:28.240
+va a admitir vas a excepcionar datos o va a enviar datos una de dos ya y el for submission
+
+00:23:28.240 --> 00:23:33.400
+también va a capturar datos a estos dos trabajan casi de la misma manera pero esto ya es un poquito
+
+00:23:33.400 --> 00:23:40.760
+más anticuado les diría ya porque en vez del for submission yo puedo colocar una HTML
+
+00:23:41.760 --> 00:23:48.440
+y puedo crearme mi propia interfaz y en vez de estos empresarios y conectarlo a mi web hook y listo
+
+00:23:48.440 --> 00:23:57.080
+estaría yo admitiendo datos desde una interfaz propia ya entonces vamos a conectarlo directamente a
+
+00:23:57.080 --> 00:24:07.080
+OpenEye no sé qué vengo acá y vamos a escribir OpenEye aquí está ahora el OpenEye que yo
+
+00:24:07.080 --> 00:24:16.880
+necesito vamos a hacer el primer trabajo yo quiero generalmente hacer un aspecto más técnico para ello
+
+00:24:16.880 --> 00:24:24.760
+yo voy a analizar qué proceso voy a hacer ya me echáis clasificar no lo sé entonces para eso
+
+00:24:24.760 --> 00:24:30.960
+ahorita lo vamos a añadir y vamos a entender qué vamos a trabajar en sacado el delete no me sirve
+
+00:24:30.960 --> 00:24:38.200
+mientras tanto el update hay montón de aspectos que pueden colocar yo puedo colocar en este caso
+
+00:24:38.200 --> 00:24:44.880
+en meso y modo ya puedo generar un mensaje voy a crearme esto mientras tanto clic
+
+00:24:46.960 --> 00:24:55.480
+hago clic y lo voy a cerrar ya así les va a aparecer estas cositas vayan eliminándolo todavía
+
+00:24:55.480 --> 00:25:01.800
+no lo vamos a conectar ahorita lo vamos a conectar después del proceso ya entonces una vez que
+
+00:25:01.800 --> 00:25:08.840
+generamos ese aspecto ya voy a poder generar un proceso un poquito más complejo entenderamos primero
+
+00:25:10.440 --> 00:25:17.920
+quiero que un proceso captura datos queremos filtrarlo y esa filtración quiero llevarlo
+
+00:25:17.920 --> 00:25:25.160
+modelo de ella que en este caso vaya recibiendo y vaya respondiendo en base a las preguntas que
+
+00:25:25.160 --> 00:25:30.880
+estás realizando el usuario o el cliente que tengamos en spar eso yo quiero enviarle directamente
+
+00:25:30.880 --> 00:25:37.560
+su correo así que aquí voy a podemos colocar un gmail y dentro del gmail voy a colocar en este
+
+00:25:37.560 --> 00:25:45.640
+caso y send me ya porque vamos a enviarle un mensaje al usuario hacemos clic aquí lo voy a
+
+00:25:45.640 --> 00:25:53.360
+volver a cerrar y lo voy a dejar en esto está bien conectado no hay problema una vez que tenemos
+
+00:25:53.360 --> 00:26:01.760
+eso ya podemos ahora exceder también a bases de datos ya ahora si la mayoría no sabe que es una base
+
+00:26:01.760 --> 00:26:09.160
+de datos una base de datos netamente alberga variables esas variables albergan ya datos que
+
+00:26:09.160 --> 00:26:14.440
+ya están normalizados para que un determinado cliente pueda introducir así si se ahorita
+
+00:26:14.440 --> 00:26:21.240
+mi one force mission estoy decepcionando nombre ciudad y celular en la base de datos tendría que
+
+00:26:21.240 --> 00:26:25.320
+tener esos tres parámetros también para que los datos que esté ingresando el usuario se pueda
+
+00:26:25.320 --> 00:26:31.280
+grabar en los también es la misma cantidad de datos que está resabcionando ahora hay dos
+
+00:26:31.280 --> 00:26:37.280
+tipos de base de datos hay ese cuele y no se cuele las bases de datos se cuelen ya están en este caso
+
+00:26:37.280 --> 00:26:43.640
+fragmentadas y ya tiene una estructura mientras la base de datos con no hace cuelé trabajan de manera
+
+00:26:43.640 --> 00:26:50.640
+informato y son y son de manera desordenada pero tienen orden de acuerdo al al acuery que
+
+00:26:50.640 --> 00:26:56.000
+nosotros le vamos a dar ya en este caso y voy a trabajar como estamos iniciando siempre es bueno
+
+00:26:56.000 --> 00:27:03.200
+empezar a trabajar con cosas más estructuradas por lo cual voy a trabajar lentamente con base de
+
+00:27:03.200 --> 00:27:11.760
+datos ese cueles ya entonces para esa parte quiero lo siguiente ahora vamos a hacer un poco
+
+00:27:11.760 --> 00:27:18.720
+vuelvo a repetir este proceso nos excepcionamos datos capturamos los datos lo filtramos y lo
+
+00:27:18.720 --> 00:27:28.160
+encryptamos y va a ir a mi modelo de ia y hasta ia va a analizar en base aquí quizás uno va a
+
+00:27:28.160 --> 00:27:34.800
+enviar a mis bases de datos o dos bases va a tomar la base de datos como si fuera su fuente ya de
+
+00:27:34.800 --> 00:27:41.960
+información o sea podemos trabajar de dos maneras para ello hago clic acá en el símbolo de más y
+
+00:27:41.960 --> 00:27:50.000
+voy a ir a lo siguiente ya en este caso si se va a dar cuenta hay un montón de cositas pero en este
+
+00:27:50.000 --> 00:27:57.200
+caso yo voy a buscar algo específico ya voy a buscar el http request tool hago clic para que
+
+00:27:57.200 --> 00:28:04.920
+más sirves ya les había comentado para retornar procesar enviar datos o sea es y conectarme con
+
+00:28:04.920 --> 00:28:09.320
+cualquier tipo de software hardware así que cuando es algo clic lo voy a hacer al esto y se va a
+
+00:28:09.320 --> 00:28:16.640
+auto completar acá ya hasta ahí no estoy tiempo chicos estoy volando me dicen ya para
+
+00:28:18.400 --> 00:28:20.040
+para detenerme un poquito
+
+00:28:21.800 --> 00:28:28.320
+ya seguiremos entonces de nuevo voy a venir acá y hago clic acá y voy a escribir en este caso
+
+00:28:28.320 --> 00:28:34.600
+como vamos a trabajar con base de datos maya se cuela en tool listo hacemos clic
+
+00:28:34.600 --> 00:28:41.880
+nos cerramos esto mientras tanto y ya está ya estamos jugando con bases de datos y 8 de
+
+00:28:41.880 --> 00:28:49.240
+tu per request hasta ahí tienen que colocar y sacar el screen para enviarme en su tarea
+
+00:28:50.240 --> 00:28:58.440
+posterior y ya dan clic y vayan guardándolo en su documento van a colocar captura número
+
+00:28:58.440 --> 00:29:03.120
+2 captura 3 voy a colocar acá captura 2
+
+00:29:09.040 --> 00:29:11.680
+2 y listo ahora es la captura 3
+
+00:29:17.600 --> 00:29:23.400
+esto ya una vez que lo tengan hasta ahí vamos a irnos a la captura 4
+
+00:29:23.400 --> 00:29:31.920
+y a minimizo y hago lo siguiente ahora tengo que analizar qué proceso voy a hacer bueno
+
+00:29:31.920 --> 00:29:38.400
+este caso tenemos que capturar esto acá luego esto acá luego esto manda lo ha secado ya así
+
+00:29:38.400 --> 00:29:46.960
+debería estar conectado bueno hasta aquí es un proceso bastante interesante pero vamos a
+
+00:29:46.960 --> 00:29:52.120
+les enseñar algunas cosas más ustedes quieren trabajar ya voy a ponerles un ejemplo
+
+00:29:53.080 --> 00:29:59.640
+por ejemplo y ahorita manejo dos hospitales que tienen aproximadamente más de 14 mil
+
+00:29:59.640 --> 00:30:09.560
+pacientes y doctores durante cinco años por ejemplo es no se podría desear que es un dato
+
+00:30:10.560 --> 00:30:17.800
+bueno el cantidad de datos es bastante grande pero el proceso que tiene cada uno de sus pacientes
+
+00:30:17.800 --> 00:30:27.080
+cada uno de sus doctores son extremadamente grandes pónganle que si tenemos 14 mil pacientes
+
+00:30:27.080 --> 00:30:37.320
+voy a esperar sacar la calculadora y voy a ayudar a esta parte y por ejemplo tengo 14 mil en un total
+
+00:30:37.320 --> 00:30:44.240
+de 14 mil tanto doctores como tanto pacientes como tanto enfermeros como tanto cualquier tipo de
+
+00:30:44.240 --> 00:30:51.280
+áreas dentro de un hospital ya estos hospitales del hospital general ya en este caso cada ingreso
+
+00:30:51.280 --> 00:30:57.800
+que tiene un paciente promedio durante un año se puede albergar más o menos unos 3000 datos
+
+00:30:57.920 --> 00:31:09.040
+ya además de esos cada proceso y cada respuesta que les genera al sistema son casi 15 mil
+
+00:31:09.040 --> 00:31:18.080
+respuestas y a partir de eso también se le ejecuta algún tipo de sintomatizaciones por ejemplo un
+
+00:31:18.080 --> 00:31:23.760
+ejemplo que los voy a dar ahorita yo tengo dos pacientes que tienen cáncer yo generalmente les
+
+00:31:23.760 --> 00:31:30.560
+aplico algún tipo de resunancia magnética para hacerles algún tipo de configuraciones y a su
+
+00:31:30.560 --> 00:31:35.720
+destrucción de sus células madre para poder mejorar su procesada de adaptación así que yo les
+
+00:31:35.720 --> 00:31:43.480
+aplico generalmente algún tipo de RMS para hacer éxito yo generalmente requiero más de un 1 millón
+
+00:31:43.480 --> 00:31:52.760
+de datos para el servidor así que multipliquen por un millón fíjense cuántos datos yo genero en un año
+
+00:31:54.280 --> 00:32:04.560
+y mi servidor estos datos no lo puede procesar en el 8 es casi imposible tenemos que si o si
+
+00:32:04.560 --> 00:32:10.440
+nosotros trabajar con una empresa tercera y es empresa tercera se llama big data
+
+00:32:11.760 --> 00:32:18.760
+ya o sea el parámetro que lo estoy mostrando se llama big data son datos grandes y no solamente
+
+00:32:18.760 --> 00:32:24.560
+es esto si ustedes tienen digamos un negocio en la cual tienen un flujo extremadamente grande de
+
+00:32:24.560 --> 00:32:32.760
+clientes o datos por por año es necesario trabajar con algún tipo de empresa tercera ya un terciario
+
+00:32:32.760 --> 00:32:38.880
+y que les ofrezca el servidor tanto y como lo van a hacer datos y que los de un vacabin turn
+
+00:32:40.080 --> 00:32:46.240
+así que para eso yo trabajo con dos y pueden trabajarlo con eso yo trabajé con el chaval así
+
+00:32:49.400 --> 00:32:54.040
+esto hace eso o también con spark o apache spark le llamamos
+
+00:33:00.000 --> 00:33:09.280
+ya estos sistemas son gigantescos para mi institución de datos y estos se conectan de manera muy fácil a mi
+
+00:33:09.280 --> 00:33:14.680
+en ocho ya son los dos
+
+00:33:17.040 --> 00:33:22.120
+ahí pueden adquirirlo no son tan caras pero si van a trabajar con empresas
+
+00:33:23.400 --> 00:33:27.200
+normal y para que dice virgis ee
+
+00:33:27.960 --> 00:33:33.560
+raisins por ejemplo vamos a entrar acá no se porque está tan lento
+
+00:33:33.560 --> 00:33:39.560
+espero acá miren no está tan car
+
+00:33:42.560 --> 00:33:46.680
+para una empresa que requiere más de un millón de datos no está tan car
+
+00:33:49.240 --> 00:33:52.560
+interpresar es así es ya ahora sí
+
+00:33:52.960 --> 00:33:55.440
+continuamos alguna pregunta de duda está ahí
+
+00:33:59.640 --> 00:34:06.680
+ya continuamos chicos entonces haremos un negocio ya un
+
+00:34:06.680 --> 00:34:11.320
+les veo una sugerencia ver qué porque negocio podemos hacer de hoy o de ser de
+
+00:34:12.560 --> 00:34:17.120
+no sé tengo una no sé me voy a inventar tengo una empresa que vende
+
+00:34:17.600 --> 00:34:25.040
+a ver componentes agrícolas y ahora hemos eso
+
+00:34:26.120 --> 00:34:34.880
+debo aquí a mi 1 for submission ya hasta ahí los espero y esto un poquito grande
+
+00:34:34.880 --> 00:34:42.440
+no ahora sí ya acá ya sabemos hasta porque ya vamos a avanzar en clases así que no va a haber
+
+00:34:42.440 --> 00:34:46.200
+niña voy a colocar acá e empresa
+
+00:34:49.480 --> 00:34:51.000
+y de fertilizantes
+
+00:34:54.000 --> 00:34:55.440
+que puedo colocar y
+
+00:34:56.440 --> 00:35:01.040
+y así lo vemos y esto es su nombre ya
+
+00:35:02.440 --> 00:35:06.920
+somos una empresa dedicada
+
+00:35:08.320 --> 00:35:09.480
+a la venta
+
+00:35:09.480 --> 00:35:13.560
+de componentes organos
+
+00:35:16.080 --> 00:35:16.760
+listo
+
+00:35:18.480 --> 00:35:19.440
+ustedes
+
+00:35:23.200 --> 00:35:25.600
+está volviendo a las inicios ya ahora sí
+
+00:35:28.000 --> 00:35:28.920
+hay dios
+
+00:35:32.680 --> 00:35:34.840
+ya volver a mostrar esta parte
+
+00:35:40.480 --> 00:35:41.480
+ya ahora sí
+
+00:35:42.480 --> 00:35:50.040
+entonces su captura número 4 van a colocar el nombre de la empresa o negocio de
+
+00:35:50.040 --> 00:35:51.720
+su persona o sea de ustedes
+
+00:35:53.240 --> 00:35:56.120
+ya eso vayan creándose porque esto va a ser parte ya de proyecto
+
+00:35:57.240 --> 00:36:03.880
+no sé la mía ya saben que es una venta de voy a colocar venta de fertilizantes
+
+00:36:03.880 --> 00:36:12.840
+y eso tengan en cuenta eso porque en los
+
+00:36:14.200 --> 00:36:19.320
+escrumes que van a enviar tiene que estar el nombre de su empresa y de qué características tiene su
+
+00:36:19.320 --> 00:36:31.440
+empresa ya hasta ahí van a hacer lo siguiente van a abrirse esto en mod incognito y van a entrar
+
+00:36:31.440 --> 00:36:32.440
+en el caso de la empresa
+
+00:36:35.440 --> 00:36:36.440
+en el caso de la empresa
+
+00:36:38.160 --> 00:36:40.320
+denle esa esa temática
+
+00:36:43.160 --> 00:36:45.800
+ya y voy a colocar lo siguiente
+
+00:36:46.960 --> 00:36:51.920
+dame características básicas
+
+00:36:52.560 --> 00:36:53.520
+en resumen
+
+00:36:56.200 --> 00:36:59.120
+de este negocio
+
+00:37:02.440 --> 00:37:05.520
+venda de fertilizantes
+
+00:37:08.520 --> 00:37:09.600
+y santos
+
+00:37:10.120 --> 00:37:10.920
+oria silo
+
+00:37:13.920 --> 00:37:15.280
+sociedad anónima no sé
+
+00:37:18.280 --> 00:37:18.920
+y esto
+
+00:37:25.920 --> 00:37:29.920
+y eso se van a copiar y se van a pegar en el huerto ya
+
+00:37:31.600 --> 00:37:32.000
+a ver
+
+00:37:34.000 --> 00:37:38.560
+me escuchan los chicos me van a coger con un cheque porque ahorita me dice mi mi
+
+00:37:38.560 --> 00:37:40.720
+mi pared de la conexión de raíz
+
+00:37:41.720 --> 00:37:41.920
+y
+
+00:37:43.520 --> 00:37:44.040
+acordando
+
+00:37:46.240 --> 00:37:49.680
+listo gracias chicos no sé por qué estamos así
+
+00:37:52.080 --> 00:37:56.000
+y ya los bolsos a partir entonces gracias por los ponos chips
+
+00:37:56.920 --> 00:37:59.720
+y ya voy a los repartidos acá
+
+00:38:01.440 --> 00:38:03.440
+y
+
+00:38:04.440 --> 00:38:11.520
+creen ustedes ahorita mismo en la captura número 4 el nombre de una empresa o negocio de ustedes
+
+00:38:13.520 --> 00:38:18.800
+y ese negocio le van a hacer una pregunta a chat que se los genere
+
+00:38:20.800 --> 00:38:25.080
+más o menos algún contenido de ese tipo de negocio
+
+00:38:26.080 --> 00:38:31.320
+y a por ejemplo ver aquí me dice tan ciudad puedo colocar esto
+
+00:38:32.400 --> 00:38:34.440
+ya eso
+
+00:38:36.440 --> 00:38:37.320
+listo
+
+00:38:38.840 --> 00:38:41.880
+eso diganle y eso lo van a pegar acá
+
+00:38:45.520 --> 00:38:48.560
+ya hasta ahí les voy a esperar a los chicos
+
+00:38:49.520 --> 00:38:55.800
+necesito su actividad principal o sea toda la información necesaria no tan larga sino
+
+00:38:55.800 --> 00:39:01.760
+es algo corta pero que resuma algo interesante ahora si es mejor
+
+00:39:03.120 --> 00:39:11.040
+pueden colocar esto en párrafo no si quieren puede hacerlo en viñetas pero esto puede ser
+
+00:39:11.040 --> 00:39:14.720
+colocámelo en párrafo
+
+00:39:15.320 --> 00:39:18.600
+listo
+
+00:39:21.000 --> 00:39:24.440
+ya porque porque las digo esto porque este va a ser nuestro prompt
+
+00:39:26.480 --> 00:39:30.400
+ya cuando hagamos ya la conexión nuestra y pi así que esa parte
+
+00:39:31.600 --> 00:39:35.520
+va ya naciendolo opción 1 pueden hacerlo con viñeta
+
+00:39:36.640 --> 00:39:42.680
+normalmente una ya entienden más con viñetas que con párrafos pero siempre es bueno ser pueblos
+
+00:39:45.320 --> 00:39:45.960
+y
+
+00:39:51.600 --> 00:40:01.080
+listo ya hasta y están listos porque lo que viene va a ser algo extensa
+
+00:40:04.200 --> 00:40:04.800
+y
+
+00:40:04.960 --> 00:40:06.040
+y
+
+00:40:07.880 --> 00:40:08.640
+ok ok ok
+
+00:40:11.200 --> 00:40:18.920
+díganle dame características básicas en resumen de este negocio dos puntos y van a
+
+00:40:18.920 --> 00:40:25.720
+colocar el nombre de su empresa nada más y a pero ojo de acá este caso
+
+00:40:27.600 --> 00:40:34.600
+de acá en mi en ocho en esta varga un punto van a colocar acá miren empresas de fertilizantes
+
+00:40:34.600 --> 00:40:40.440
+orias y los llama voy a colocarlo entre comillas y pueden para para que les entienda también su
+
+00:40:40.440 --> 00:40:45.640
+prompt de chat y piti porque va a decir no donde se oye así los somos las empresas dedicadas a la
+
+00:40:45.640 --> 00:40:49.880
+venta de componentes orgánicos y hasta eso es el principal que van a colocar y luego genera
+
+00:40:49.880 --> 00:40:57.680
+muy aparte en base a este parámetro un prompt para que les dé una información sumida de su
+
+00:40:57.680 --> 00:41:06.080
+empresa que se inventa no hay problema ya es un ascito eso estructura en lo bien y que tenga si
+
+00:41:06.080 --> 00:41:12.160
+pueden chicos en su negocio por ejemplo de jabones que tengan cuantos jabones tienen qué tipo de jabón
+
+00:41:12.160 --> 00:41:16.720
+y es todo el aspecto y ahora ahorita lo vamos a hacer independientemente pero ya tengan listos aparte
+
+00:41:18.720 --> 00:41:26.200
+una vez que tengan eso les espero hasta ya para no saltarme mucho y nos quedamos atrás
+
+00:41:28.560 --> 00:41:37.000
+y ahora sí vamos a añadir algunos elementos y esto tengo
+
+00:41:37.000 --> 00:41:43.200
+form title form description ahora voy a colocar ad form y lament y lamans y voy a colocar en este
+
+00:41:43.200 --> 00:41:51.080
+caso nombre completo aquí van a colocar lo que el usuario va a escribir o sea qué peticiones va a
+
+00:41:51.080 --> 00:41:57.520
+dar a ustedes eso necesito y seguramente nosotros vamos a querer que nos dé el nombre completo
+
+00:41:58.000 --> 00:42:04.680
+listo voy a colocar lo que este atributo sea de manera obligatoria
+
+00:42:04.680 --> 00:42:11.440
+reggae file así que ven acá otro necesito su email si o si necesito su email
+
+00:42:13.680 --> 00:42:19.120
+ya así que van a colocar acá tipo email y también que se ha requerido
+
+00:42:21.040 --> 00:42:26.920
+que más necesitamos estoy vendiendo uria pues estoy vendiendo componentes orgánicos eso
+
+00:42:26.920 --> 00:42:34.520
+también tienen que pensar ustedes mínimo chicos cinco datos pero bien específicos y concretos
+
+00:42:34.520 --> 00:42:39.680
+porque necesariamente es lo que va a pedir el usuario ya necesito por ejemplo su nombre necesito
+
+00:42:39.680 --> 00:42:46.720
+su email necesito su celular ya celular o whatsapp
+
+00:42:48.920 --> 00:42:55.480
+ya es el tipo numérico ya saben tipo number también que se ha requerido
+
+00:42:56.920 --> 00:43:03.760
+que más necesito a ya yo voy a manejar 4 por cuestiones de tiempo ya voy a manejar el mensaje
+
+00:43:03.760 --> 00:43:10.120
+o sea que quiere colocar el usuario porque ya sabe que cuando venza mi form le dice que somos
+
+00:43:10.120 --> 00:43:16.280
+un empresario de venta de fertilizantes en este mensaje como va a ser un texto bastante amplio
+
+00:43:16.280 --> 00:43:22.840
+voy a colocar el tixoria ya listo añada a tributos que también se lo requería bueno valor requerido
+
+00:43:23.840 --> 00:43:32.200
+listo hasta y cuatro datos y me gusta se hagan cinco cinco cinco y eso van a ser que captura y
+
+00:43:32.200 --> 00:43:39.400
+me van a base la captura número cinco por si acaso ya es y acá abajo ya saben no es que no
+
+00:43:39.400 --> 00:43:45.680
+quiere que los aparezca en 8n van a que el que forma es submit aquí directamente ad options ya que
+
+00:43:45.680 --> 00:43:56.440
+dice apent n8 en attribución hacen clic y lo van a deshabilitar ya hasta y vaya yendo que esté
+
+00:43:56.440 --> 00:44:06.120
+bien estructurado y esto me van a sacar a escrim ustedes ya hacen clic voy a sacar mi escrim y lo
+
+00:44:06.120 --> 00:44:12.280
+voy a añadir como captura número cinco con cinco datos al lección captura cinco
+
+00:44:17.440 --> 00:44:18.360
+listo
+
+00:44:20.800 --> 00:44:21.720
+hasta y
+
+00:44:24.640 --> 00:44:31.720
+ahora pueden ejecutar pero les va a salir el error a ver pero a ganar prueba yo voy a ejecutarlo
+
+00:44:32.720 --> 00:44:41.080
+a no me salió pero mejor si no me salió porque si es que les da error acá van a ser lo siguiente
+
+00:44:41.080 --> 00:44:48.400
+y voy a cerrar esto si es que les dice error esta parte chicos lo van a eliminar ahí
+
+00:44:49.600 --> 00:44:55.160
+no lo van a la conexión lo van a eliminar pero van a mantener esto ya y lo se van a ejecutar
+
+00:44:55.160 --> 00:45:02.440
+ojo si les da error en un principio yo voy a hacerlo así sin conexión todavía eso es igual a
+
+00:45:02.440 --> 00:45:08.200
+ganar ustedes para luego no tener errores y algo clica cada dos veces y voy a ejecutar
+
+00:45:08.200 --> 00:45:11.400
+pues tu restop y ves cerrar el otro que tenía
+
+00:45:14.640 --> 00:45:22.120
+voy a ejecutar ahora sí ya listo pueden colocar ahí su nombre hagan pruebas y eso también van a
+
+00:45:22.120 --> 00:45:22.880
+sacar como es cream
+
+00:45:28.880 --> 00:45:36.800
+listo coloquen acá chicos sus correos verdaderos o correos que tengan sus cuentas para hacer
+
+00:45:36.800 --> 00:45:44.200
+luego pruebas a futuro ya eso no se olvide no se inventan acá para hacer pruebas directas
+
+00:45:45.640 --> 00:45:49.480
+pueden luego hacerlo de nuevo pero yo me voy a usar tiempo para no estar volviendo no tal
+
+00:45:52.120 --> 00:45:56.600
+ya aquí si tienen que colocar un contexto de su mensaje que sea de adecuado a lo que es la
+
+00:45:56.600 --> 00:46:05.960
+empresa por ejemplo no sé voy a como un usuario voy a responder buenas tardes o buenas noches
+
+00:46:07.880 --> 00:46:13.320
+quisiera saber si tienen mi trato de potases
+
+00:46:15.360 --> 00:46:17.560
+grado alimentación
+
+00:46:17.680 --> 00:46:21.240
+y además
+
+00:46:27.240 --> 00:46:29.080
+son muy a volver a compartir
+
+00:46:32.320 --> 00:46:41.200
+ya vuelvo a repetir es que no lo escuchó una vez que generen los datos abran ejecutenlo
+
+00:46:41.920 --> 00:46:47.080
+y coloquen aquí una pregunta que sea adecuada al negocio que ustedes están realizando
+
+00:46:48.800 --> 00:46:51.280
+y voy a colocar en este caso
+
+00:46:53.840 --> 00:46:58.000
+buenas noches que ya sabes si tienen un trato de potases o grado alimentación además ha sido
+
+00:46:58.000 --> 00:47:04.040
+silístico por venta por tonelada
+
+00:47:07.280 --> 00:47:11.960
+para la ciudad de cocheba
+
+00:47:16.400 --> 00:47:16.960
+ya
+
+00:47:16.960 --> 00:47:26.800
+y ya se está cortando de
+
+00:47:30.800 --> 00:47:34.760
+ya y les repito un poquito
+
+00:47:36.320 --> 00:47:44.080
+ya han hecho sus cinco consultas en el acá en su one form ahora haganlo correr y vayan llenando
+
+00:47:44.080 --> 00:47:51.640
+las preguntas en base al negocio que ustedes están manejando ya y luego subanlo
+
+00:48:01.240 --> 00:48:06.040
+en este caso y por ejemplo me tardó mucho por eso que tarda también ya
+
+00:48:08.040 --> 00:48:11.200
+así que los voy esperando a usted el símbolo
+
+00:48:15.080 --> 00:48:23.960
+saben qué es lo malo chicos y eso trimedia pasa muy rápido
+
+00:48:26.560 --> 00:48:27.120
+ya
+
+00:48:29.360 --> 00:48:32.360
+es parte de los risper andamien sas de volver
+
+00:48:32.360 --> 00:48:47.440
+si no les da inmediatamente pueden volver a reiniciar y en este caso tardó mucho porque estoy
+
+00:48:47.440 --> 00:48:52.720
+viendo si se desconecta no se desconecta lo voy a cerrar y voy a ejecutar
+
+00:49:02.360 --> 00:49:20.040
+y ya está los hilo esto
+
+00:49:22.520 --> 00:49:32.240
+y aquí puedo ver que ahí se está guardando mis datos yo hasta acá saque en su sexta
+
+00:49:32.720 --> 00:49:33.640
+captura
+
+00:49:39.280 --> 00:49:40.640
+y no agregar a su
+
+00:49:45.640 --> 00:50:00.400
+ahora sí que una vez que lo tengan acá revita dice pin data ya un pin de era hagan clic ahí
+
+00:50:01.400 --> 00:50:09.400
+y les tiene que decir que esta parte se va a guardar lo que se formó
+
+00:50:09.400 --> 00:50:14.880
+misión va a guardarse va a tener estáticamente para hacer mis pruebas posterior y no estar
+
+00:50:14.880 --> 00:50:20.080
+colocado cada vez datos datos datos esto solamente es para pruebas por su caso no es necesario que lo
+
+00:50:20.080 --> 00:50:29.240
+hagan siempre ya es hacen clic en aquí en el data en este pincito y luego cierra y si se dan
+
+00:50:29.240 --> 00:50:37.960
+cuenta acá les va a aparecer esta figurita y los va a parecer un conector cuando el conector
+
+00:50:37.960 --> 00:50:45.640
+está bien siempre se coloca en verde ya ahora una vez que tengan eso recién lo van a dejar acá
+
+00:50:45.640 --> 00:50:55.640
+listo ahora sí el edad fields debería de ahora decepcionar esos datos ya debería de
+
+00:50:55.640 --> 00:50:59.040
+decepcionar sus datos hasta ahí lo tienen verdad
+
+00:51:06.840 --> 00:51:16.120
+algo doble clic en edit fields y les va a aparecer esto los datos que justamente yo ya había enviado
+
+00:51:17.680 --> 00:51:23.120
+y esto ya saben hacer porque hemos hecho anterior clase voy a jalarlo
+
+00:51:25.640 --> 00:51:34.440
+y esta parte siempre es aconsejable colocarlo no en texto agrupado ni en texto y varios letras
+
+00:51:34.440 --> 00:51:43.160
+o varias palabras manejen solamente una variable nombre ya listo estoy re reescribiendo nada más no
+
+00:51:43.160 --> 00:51:52.920
+va no va a afectar a mí a mi form submission ya ahora voy a dejar el siguiente listo aquí igual
+
+00:51:52.920 --> 00:52:00.400
+y mail siempre pues bueno trabajar lo que formato minúsculo ya le ojalos celular
+
+00:52:02.320 --> 00:52:08.760
+ya y voy a lo escribir y luego voy a jalar el mensaje
+
+00:52:11.160 --> 00:52:12.000
+y de nuevo
+
+00:52:14.880 --> 00:52:16.000
+hasta ahí
+
+00:52:17.000 --> 00:52:24.040
+ya pueden ejecutarlo no hay problema pueden ejecutar ejecutenlo
+
+00:52:25.360 --> 00:52:32.400
+no sé qué más estoy manejando nada más ejecutar y debería de salirles esta salida
+
+00:52:32.400 --> 00:52:37.120
+nuevamente la misma salida no podría con mis datos ya filtrados
+
+00:52:38.120 --> 00:52:47.280
+copio y lo vuelvo a pegar acá en su form eso sería mi captura número 7
+
+00:52:51.160 --> 00:52:54.520
+captura 7 edit fields
+
+00:52:55.520 --> 00:52:59.840
+listo
+
+00:53:01.920 --> 00:53:03.360
+ya hasta y
+
+00:53:05.400 --> 00:53:09.040
+ya están si no están les voy esperando un poco más
+
+00:53:09.040 --> 00:53:24.360
+ya no hay dudas preguntas nada no para pros o y
+
+00:53:24.360 --> 00:53:26.640
+si me está acá
+
+00:53:36.840 --> 00:53:44.040
+ya gracias gracias blanco porque veces no sé si estoy si está compartiendo sobre
+
+00:53:44.040 --> 00:53:51.440
+ni más ya una vez que tengan hasta y ahora sí lo que más nos interesa el modelo de y
+
+00:53:51.440 --> 00:54:01.080
+algo doble clic en la y ahora aquí se dan cuenta de mis inputs ya están enlazados
+
+00:54:01.080 --> 00:54:09.440
+ya estén las a yo solamente faltan los excepcionales y aquí es donde es un poquito más no complejo
+
+00:54:09.440 --> 00:54:18.200
+sino es un poquito tiene más pasos en este caso yo tengo ya conexiones de mis opiniones y
+
+00:54:18.200 --> 00:54:21.560
+adelante los trabajos que he hecho así que yo voy a hacer con ustedes una nueva
+
+00:54:23.160 --> 00:54:28.200
+vayan a crear un new credential y nos va a pedir una piquí
+
+00:54:29.720 --> 00:54:37.160
+este apiquí lo tenemos que generar en base a mis procesos así que para esa parte voy a ser lo
+
+00:54:37.160 --> 00:54:46.120
+siguiente no sé si lo tengo acá creo que lo tengo acá ya ahora va a ir y van a escribir acá
+
+00:54:47.120 --> 00:54:52.200
+estos he comprado hace dos días espero que tengamos algo de dinero
+
+00:54:53.360 --> 00:54:56.600
+openia.com ahí ven adentrando esa
+
+00:55:01.800 --> 00:55:10.240
+dentro de openia.com van a entrar a iniciar sesión ya o en este caso antes de hacer eso antes de
+
+00:55:10.320 --> 00:55:20.720
+hacer eso como somos desarrolladores voy a irme a la opción desarrolladores hago clic dentro del
+
+00:55:20.720 --> 00:55:29.280
+modo de desarrollador se van a ir acá dice empezar a crear hago clic y voy a irme a poner de control
+
+00:55:29.280 --> 00:55:36.400
+de la API a hacer clic ahí y ahora si se pueden logrear con su cuenta de gmail
+
+00:55:38.760 --> 00:55:45.720
+en mi caso por ejemplo yo tengo ahorita 4 dólares con 98 centavos
+
+00:55:47.520 --> 00:55:53.280
+y aquí les explico un poquito porque esta parte yo por hoy por el día de hoy y por el día de
+
+00:55:53.280 --> 00:56:02.040
+mañana les voy a compartir mis créditos para que luego no se gaste todo y hagan lo cada uno de ustedes
+
+00:56:02.040 --> 00:56:12.400
+como lo puede hacer pagan desde su tarjeta de débito habilitan primero la opción pagos por
+
+00:56:12.400 --> 00:56:20.360
+internet lo habilitan el mínimo de acá chicos a los que no saben mucho esta parte es 5 dólares
+
+00:56:20.360 --> 00:56:28.880
+en base a la hora de hoy creo que 50 bolivianos 50 y algo bolivianos ya mínimo acepta eso
+
+00:56:30.080 --> 00:56:36.040
+se compra en el plan mínimo y créanme que los va a durar buen tiempo buen tiempo buen tiempo
+
+00:56:36.040 --> 00:56:42.560
+buen tiempo a no sé que lo abusen con sus tokens pero por ejemplo yo he hecho hoy día casi 40
+
+00:56:42.560 --> 00:56:48.240
+tokens para algunos clientes y miren solamente me ha gastado 0.02 dólares
+
+00:56:50.400 --> 00:56:57.320
+así que esa parte tratenlo siempre de ver ya yo los yo los recomiendo que se compren no es tan
+
+00:56:57.320 --> 00:57:04.360
+caro y les va a servir bastante tiempo y para muchas cosas además ya una vez que ustedes adquieran
+
+00:57:04.360 --> 00:57:11.440
+ese producto al inmediatamente los va a llegar y van a crearse una IPA ya pero antes de acá en la
+
+00:57:11.440 --> 00:57:22.880
+parte izquierda de su pantalla dice a piquís entro ahí y aquí está por ejemplo la piquí que crea
+
+00:57:22.880 --> 00:57:28.480
+para ustedes ya pero a ver vamos a ver
+
+00:57:30.360 --> 00:57:36.840
+un restrictor se puede eliminar o algo ya así que voy les voy a pasar esto voy a creer una
+
+00:57:36.840 --> 00:57:52.920
+api que nueva y voy a colocar en 8 n no sé clase 21 ya es 21 de mayo hay no hay es 21 de mayo
+
+00:57:52.920 --> 00:57:58.680
+ya leo aquí en de fallo para el van a colocar de fallo para y así les aparece otro normal ahora
+
+00:57:58.680 --> 00:58:02.800
+van a colocar permissions y van a crear la cara secreta
+
+00:58:06.400 --> 00:58:15.880
+esta clave se van a guardar siempre se van a guardar ya y don yo lo voy a copiar en mi
+
+00:58:15.880 --> 00:58:22.520
+blog de notas yo solo te los voy a pasar ya pero primero creo que hagan los siguientes
+
+00:58:23.240 --> 00:58:25.920
+hasta lo voy a cerrar no me interesa
+
+00:58:29.160 --> 00:58:32.440
+ya esto también y vamos a irnos acá
+
+00:58:34.160 --> 00:58:42.120
+voy a copiar esa clave y directamente voy a colocar esto todo la cambiar nada van a colocar 6
+
+00:58:43.000 --> 00:58:52.240
+y aquí dice credentials successfully created y está conectado y los cierran y está ahora sí
+
+00:58:52.520 --> 00:58:55.520
+les pasaré el código al mit
+
+00:58:58.280 --> 00:59:01.720
+y hasta ya se pasa el código hagan prueba con lo que voy a hacer hoy día
+
+00:59:04.520 --> 00:59:11.360
+ya se ha pasado eso hagan lo mismo y vayan conectándose les tienen que ser
+
+00:59:11.360 --> 00:59:12.040
+successfully
+
+00:59:14.560 --> 00:59:19.120
+hasta ahí les voy a esperar a chico antes de empezar a avanzar y esa parte ahora te vamos a
+
+00:59:19.120 --> 00:59:20.280
+la captura número 8
+
+00:59:22.640 --> 00:59:24.640
+y
+
+00:59:28.760 --> 00:59:33.120
+ya vayan conectándose y esa parte cuando les diga successfully y esa parte de verdad
+
+00:59:33.120 --> 00:59:38.440
+decirte que me ha parecido ahorita eso alguien que sacó exacto en captura y peguen su
+
+00:59:39.440 --> 00:59:43.760
+word ya cuando le salga y lo pega en la walt
+
+00:59:45.320 --> 00:59:47.920
+ya voy a pegar los porcentos ya
+
+00:59:48.920 --> 00:59:53.640
+y ustedes va a decir y su accesor de mí ya lo ya ya se me ha pasado de los agravio
+
+00:59:54.680 --> 01:00:00.680
+captura 9 y ya lo tienes chico cosi no va no lo tienes a esperar
+
+01:00:03.920 --> 01:00:05.760
+y una vez que tengan eso
+
+01:00:07.120 --> 01:00:08.440
+vamos a lo siguiente
+
+01:00:08.600 --> 01:00:10.600
+y
+
+01:00:13.600 --> 01:00:15.440
+vamos a seleccionar algunos puntos
+
+01:00:16.440 --> 01:00:22.440
+una vez que hemos creado las api quisi demás voy a seleccionar un punto para entrenar
+
+01:00:22.440 --> 01:00:31.160
+no ahora se vienen aquí a chus en chus y varios modelos de opinía y varios modelos
+
+01:00:31.880 --> 01:00:38.600
+la que van a elegirse siempre ojo ojo ojo pueden elegir la el chat
+
+01:00:38.600 --> 01:00:44.240
+o el modelo más avanzado si pero cuando son modelos más avanzados les cago un poco más de
+
+01:00:44.240 --> 01:00:56.600
+montos monetarios yo les aconsejo que trabajen para n8n con gpt abajo de 4 o 4 ya por ejemplo yo
+
+01:00:56.600 --> 01:01:04.840
+siempre utilizo la mini o la códix yo dice este caso la gpt 5 mini ya tiene buen nivel no me va
+
+01:01:04.840 --> 01:01:11.000
+a cobrar mucho o sea quiero que mis tokens me duren en otros polos una vez que hagan eso van a añadir
+
+01:01:11.000 --> 01:01:13.920
+los roles si se dan cuenta acá dice
+
+01:01:18.080 --> 01:01:24.440
+chicos pueden avanzar clases unos 15 minutos más fuera del área y así mañana avanzamos 15 minutos
+
+01:01:24.440 --> 01:01:29.240
+menos les parece porque no nos va a cancelar tiempo y quiero terminar esta parte con ustedes
+
+01:01:29.240 --> 01:01:41.080
+se puede no hasta 21 y 15 máximo eso me confirman chicos ya exacto gracias rechael gracias a todos
+
+01:01:41.080 --> 01:01:46.240
+porque si nos vamos a quedar a medias y no voy a poder terminar esta parte y decir sábado les voy a
+
+01:01:46.240 --> 01:01:53.400
+dejar libre 15 o 18 entonces aquí quiero que tengan en cuenta lo siguiente si se dan cuenta
+
+01:01:53.400 --> 01:01:58.720
+aquí podemos añadir más mensajes mensajes son la cantidad de recepciones que voy a realizar ya en
+
+01:01:58.720 --> 01:02:06.440
+este caso voy a mantener tipo texto y aquí quiero que me entiendan si vamos a rol o a rol y en este
+
+01:02:06.440 --> 01:02:18.080
+caso hay 3 por 3 tipos de roles el usuario el asistente y el sistema el usuario es netamente
+
+01:02:18.080 --> 01:02:27.600
+quien la persona que está pidiendo no es el producto o sea el cliente el asistente nosotros
+
+01:02:27.600 --> 01:02:36.080
+nosotros asistentes pero podemos simular respuestas o sea la ia puede ser nuestro asistente y
+
+01:02:36.080 --> 01:02:43.160
+sistema en este caso es un proceso en el cual nosotros le pre entrenamos a la ía o sea ya la
+
+01:02:43.160 --> 01:02:49.200
+entrenamos previamente ya algo clica en un sistema siempre van a elegir como primer proceso
+
+01:02:49.200 --> 01:02:57.000
+sistema ya y aquí dice algo interesante dice coloquen su prompt y este prompt ya lo tienen
+
+01:02:58.600 --> 01:03:03.520
+su prompt es el que habíamos hecho un word
+
+01:03:05.560 --> 01:03:11.560
+este de acá en mi caso es una empresa de que yo lo voy a colocar en forma de parra folla
+
+01:03:13.360 --> 01:03:18.840
+y esto y ese prompt lo van a copiar acá contra el red
+
+01:03:20.280 --> 01:03:27.120
+si no se ve mucho a cada lado en lado inferior derecho hay una cosita ven una flechita hacen
+
+01:03:27.120 --> 01:03:33.400
+click ahí y van a poder ver de mejor manera y van a poder estructuralo mejor y en este caso voy a
+
+01:03:33.400 --> 01:03:40.040
+adjuntar voy adjuntar ojo lo siguiente a ver hasta y lo dejaremos en santo hasta y lo dejaremos
+
+01:03:40.040 --> 01:03:46.840
+voy a hacerlo pero coloquen el prompt ahí ya una vez que ejecuten eso yo puedo ya ejecutar
+
+01:03:46.840 --> 01:03:53.160
+por eso es un poquito más interesante pero hasta y ejecutaremos a ver ejecutenlo
+
+01:03:55.320 --> 01:04:02.880
+van a ejecutar listo va a tardar porque está pensando ahí está pre entrenándose
+
+01:04:02.880 --> 01:04:17.360
+listo miren ya la otro prompt y así respondería a un cliente laía miren dice perfecto entendí el
+
+01:04:17.360 --> 01:04:21.720
+giro de la empresa comercialización de uria granulada que necesitas exactamente que prepare
+
+01:04:21.720 --> 01:04:25.760
+que te ayude la puedo generar varios entregables y todo me da me dice que puedo hacer
+
+01:04:26.400 --> 01:04:32.520
+mira me decía al alcance geográfico somos tantos tan hombres de empresa eso pueden añadir
+
+01:04:32.520 --> 01:04:38.880
+ustedes de manera que pueden cocar no manda impresos a lo que le más más estético y más
+
+01:04:38.880 --> 01:04:43.940
+organizado su prompt y con sus datos personales el nombre de su empresa no se lo que es que
+
+01:04:43.940 --> 01:04:49.920
+el peru se le tiene que votar esta parte saca el scream porque no está trabajando ahorita con
+
+01:04:50.880 --> 01:04:52.440
+con el toque en que los he dado
+
+01:04:54.200 --> 01:04:57.280
+listo eso hacen scream y lo van a llevar acá
+
+01:05:00.760 --> 01:05:03.440
+y hay captura número 9 listo
+
+01:05:05.760 --> 01:05:14.080
+una vez que hagan eso van a cerrar un poquito y se se dan cuenta mi flujo ya está corriendo
+
+01:05:14.080 --> 01:05:22.240
+acá de manera normal legible ya pero ahora me falta enviar el mensaje pero yo no puedo
+
+01:05:22.240 --> 01:05:28.520
+enviar todavía mensaje si no tengo un usuario requíos de pre entrenándolo no estoy colocando
+
+01:05:28.520 --> 01:05:35.480
+acá en en este caso sí se me estoy colocando no estoy colocando user ahora voy a venir acá
+
+01:05:35.480 --> 01:05:46.120
+voy a decir añadir un mensaje hacemos clic en esa parte y voy a añadir en este caso algún
+
+01:05:46.120 --> 01:05:55.240
+tipo de solicitud pero antes de eso antes antes de eso vamos a añadir un html pero antes antes
+
+01:05:55.240 --> 01:06:04.480
+antes esta parte ustedes para la parte de gmail hacen doble clic si se dan cuenta ya tienen los
+
+01:06:04.480 --> 01:06:13.840
+datos capturados porque está ahí está corriendo y está conectado en la opinión ahora acá esta
+
+01:06:13.840 --> 01:06:20.320
+parte nosotros ya lo hemos hecho anterior clase ya tenemos las credenciales de gmail yo voy a
+
+01:06:20.320 --> 01:06:25.320
+utilizar la cinca porque con ese está conectado lo que hemos hecho entre el clase voy a colocar el
+
+01:06:25.320 --> 01:06:31.000
+mensaje normal operación enviar no voy a cambiar nada esta parte porque queremos enviar el correo
+
+01:06:31.000 --> 01:06:38.280
+a nuestro cliente y aquí donde dice en este caso a qué cuenta va a ir o a qué correo electrónico
+
+01:06:38.280 --> 01:06:45.440
+van a colocar van a estupen y misarlo van a irse a sus edifices porque se creen que hace filtros y
+
+01:06:45.440 --> 01:06:53.960
+ahí tenemos que jalar este el email lo jalamos listo ahora en subjects subjects se van a elegir
+
+01:06:53.960 --> 01:07:03.040
+algunos puntos más ya por ejemplo aquí voy a colocar los mensajes el tipo de mensaje así que
+
+01:07:03.040 --> 01:07:10.640
+para esta parte ahorita lo vamos a hacer pero aquí dice fíjense html queremos enviar el
+
+01:07:10.640 --> 01:07:16.480
+mensaje en html y se acuerdan que es que hacemos hecho eso entonces voy a cerrar un cacho esto no
+
+01:07:16.480 --> 01:07:24.480
+voy a ejecutarlo voy a medir mi mesas model y huirme que brome a mi prompt voy a agrandar el prompt
+
+01:07:25.920 --> 01:07:36.880
+y voy a decir lo siguiente genera una respuesta como estamos preentrenándolo genera una respuesta
+
+01:07:36.880 --> 01:07:57.800
+en formato html y css para enviar a un correo para enviar un correo para enviar un correo
+
+01:07:57.880 --> 01:08:06.720
+listo eso adjunta en la parte de su prompt y cerranlo
+
+01:08:08.520 --> 01:08:17.200
+porque le vamos a enviar un prompt bastante estético ya ahora vamos a generar el buque que les
+
+01:08:17.200 --> 01:08:24.880
+había comentado anteriormente voy a hacer ahora esta parte y me voy de nuevo a sentarme el google
+
+01:08:25.600 --> 01:08:33.720
+y en esta parte donde dice subject hello world vamos a colocar respuesta a la solicitud
+
+01:08:35.760 --> 01:08:39.880
+porque estamos enviándoles a nuestro cliente a la solicit
+
+01:08:43.320 --> 01:08:50.960
+y una vez que tengan eso acá abajo donde dice mesas ahora si de donde se dan cuenta acá dice
+
+01:08:50.960 --> 01:08:57.200
+mesas a model eddie fields este mesas mesas van a sacarlo de acá de mesas a modos a de mi opinión
+
+01:08:57.200 --> 01:09:08.960
+y bien acá y acá abajo dice texto esto lo jalan listo una vez que lo jalen ya podemos procesar
+
+01:09:11.680 --> 01:09:16.640
+ya hasta y les espero chips con esto estaremos terminando el proceso
+
+01:09:17.640 --> 01:09:20.720
+pero hay que hacer pruebas ahora
+
+01:09:21.920 --> 01:09:26.040
+ya entonces podemos volver a ejecutar ya
+
+01:09:27.760 --> 01:09:34.160
+ya hasta y espero que lo tengan ahora voy a colocar aquí ejecutar world
+
+01:09:35.160 --> 01:09:35.760
+ya
+
+01:09:35.760 --> 01:09:47.160
+ya listo
+
+01:09:50.920 --> 01:09:59.040
+maya ya listo eso estamos admitiendo desde mi eddie files aquí por ejemplo he creado dos
+
+01:09:59.040 --> 01:10:06.640
+puntos ya uno es en este caso el tipo el sistema es mi prompt en el prompt tienen que añadirles
+
+01:10:06.640 --> 01:10:12.920
+había comentado en el uno después de formato html y es este para un correo al cliente después
+
+01:10:12.920 --> 01:10:20.120
+de prompt que se ha creado ya una vez que hay en hecho eso yo voy a colocar acá cerrar y me voy a
+
+01:10:20.120 --> 01:10:30.000
+ir a la parte inferior aquí dice en este caso texto rol aquí a bien que me he hecho la pregunta
+
+01:10:30.000 --> 01:10:34.400
+al compañero porque en este caso aquí me estoy olvidando el prompt que lo voy a decir en este caso
+
+01:10:34.400 --> 01:10:44.400
+ya el prompt va a ser este este mensaje lo van a hacer acá ahora ya hasta y les voy esperando
+
+01:10:44.560 --> 01:10:49.040
+para que lo tengan ahí sin problemas
+
+01:10:51.040 --> 01:10:55.680
+entonces ahí en opinión y hacemos uno con user y otro con
+
+01:10:55.680 --> 01:11:02.480
+sísteam exactamente el sísteam es necesariamente lo que ustedes le van a dar información de su
+
+01:11:02.480 --> 01:11:07.400
+empresa de usted o sea cuán es empleados tienen que tipo de servicios que puede poder estar vendiendo
+
+01:11:07.400 --> 01:11:13.400
+mientras en acá en el user es el prompt que estamos nosotros decepcionando del cliente
+
+01:11:14.840 --> 01:11:20.920
+ya esto es lo voy a dejar este mensaje lo voy a dejar acá en el prompt del usuario ya ahora pueden
+
+01:11:20.920 --> 01:11:27.720
+añadir más miren voy a tener acá y puedo decir lo siguiente quiero digamos el nombre que lo
+
+01:11:27.720 --> 01:11:33.600
+adjunte ahí perdón le echo dos veces voy a jalar entonces no me voy a colocar el nombre dos
+
+01:11:33.600 --> 01:11:46.240
+puntos quiero jalar digamos el celular y aquí voy a colocar celular y aquí voy a colocar también
+
+01:11:46.240 --> 01:11:49.560
+no sé el mensaje digamos e-mail y el mensaje
+
+01:11:52.280 --> 01:11:59.240
+dos puntos y aquí voy a colocar el no sé y me sé que será e-mail el mensaje esto no es el prompt
+
+01:11:59.720 --> 01:12:07.000
+y en maile y maile listo aquí lo voy a jalar listo ya está es oñadarlo aquí les va a decir
+
+01:12:07.000 --> 01:12:15.200
+les va a decir mire nombre buenas noches que ya sabéis está auto gestionando y ya aquí me estoy
+
+01:12:15.200 --> 01:12:23.720
+aquí me estoy equivocando por ejemplo yo porque este sería el nombre no ahora sí nombre mil
+
+01:12:23.720 --> 01:12:32.440
+tantos listos eso añadir no ahora si vuelven en este caso le van a volver a
+
+01:12:34.360 --> 01:12:39.280
+volver a este mi caso prom hecho me le dio voy a cerrar lo nomás y vamos a ejecutar
+
+01:12:39.280 --> 01:12:51.360
+así el user no porque como si todos aquí miren el mensaje a ver acá o si nos podemos añadir
+
+01:12:51.360 --> 01:13:00.120
+lo siguiente al menos el mensaje más y al mensaje listo gracias esa parte me olvidaba
+
+01:13:00.120 --> 01:13:06.360
+ya lo sí esos cuatro chicos no es necesario el email porque el mía eso vi que estamos enviándolo
+
+01:13:06.360 --> 01:13:15.120
+y el pende emborrarlo para ya voy a colocar por hacer pruebas en el listo ahora sí eso lo cierran
+
+01:13:15.280 --> 01:13:21.680
+y ejecuten ahora mientras tanto antes de ejecutar vayan abriendo su cuenta en este caso yo voy a
+
+01:13:21.680 --> 01:13:29.400
+abrir mi gmail porque ese correo voy a enviarlo déjame un cachito voy a abrir mi cuenta de gmail
+
+01:13:29.400 --> 01:13:40.600
+mientras tanto vayan abriendo igual a qué cuenta va a llegarles ya ahora si yo les voy a mostrar
+
+01:13:40.600 --> 01:13:52.480
+si va a llegar a no y ahorita estoy dice que está ahí está listo ahorita vamos a ver si me
+
+01:13:52.480 --> 01:14:00.600
+llegue ahora si ejecutan aquí workflow ya se está automoviendo porque el hecho el pin te dan cuenta
+
+01:14:00.600 --> 01:14:05.240
+ahorita os voy a enseñar que me haga mi proceso y luego os voy a enseñar cómo os ejecutar de manera
+
+01:14:05.960 --> 01:14:14.960
+ahí está procesando hay que esperar un poco porque ya le dado que el aumento de la HTML y el ccs
+
+01:14:16.120 --> 01:14:18.560
+y voy a ver acá mientras tanto
+
+01:14:22.120 --> 01:14:22.760
+ya
+
+01:14:27.400 --> 01:14:29.320
+ahí está enviando el mensaje
+
+01:14:30.200 --> 01:14:36.240
+a esta parte algo está mal
+
+01:14:37.920 --> 01:14:45.240
+ya no le dominio dice que está mal ya sé que voy a hacer más de otra credencial que tengo
+
+01:14:47.000 --> 01:14:53.040
+otra credencia que existen por esta parte conecten lo bien para evitar problemas
+
+01:14:53.920 --> 01:14:56.520
+voy a hacerlo así independientemente voy a ejecutar
+
+01:14:57.440 --> 01:15:06.200
+ahora si se sienta ven por eso dice que actualiza su aporte ahora si voy a irme a mi correo no sé si
+
+01:15:06.200 --> 01:15:13.520
+me ha llegado también hago clic aquí en mi correo a mostrar perdón por no mostrarles muchas cosas
+
+01:15:13.520 --> 01:15:20.840
+porque hay cosas ahí en mi correo ahí está como se lo haces y nos vemos agrícolas estimados
+
+01:15:20.840 --> 01:15:25.600
+señores mil 32 gracias por la consulta y mira miro le ha hecho bonito su mensaje si los recibido
+
+01:15:25.600 --> 01:15:31.600
+le confío que puedo gestionar tantos que más me dice el alimenticio cantidad requerida tantos
+
+01:15:31.600 --> 01:15:37.120
+tantos retiro coa volteficaciones de salud y se distrae cotidica y me lo hace incluso una
+
+01:15:37.120 --> 01:15:42.200
+un botoncito y aquí ustedes tienen que cambiar obviamente no tienen que dar en su prompt tienen
+
+01:15:42.200 --> 01:15:49.120
+que colocar aquí en su nombre de ustedes su email de contacto de la empresa su teléfono
+
+01:15:49.120 --> 01:15:57.080
+tienen que añadir ustedes pero en el prompt ya aquí dice si prefiero podemos conectar por
+
+01:15:57.080 --> 01:16:02.240
+teléfono el número que nos dejó indíquenos la mejor hora para llamarlo bien no interesante
+
+01:16:03.120 --> 01:16:08.360
+y eso es todo ahora van a ser lo siguiente hacemos doble clic acá
+
+01:16:10.000 --> 01:16:12.000
+voy a quitar esto
+
+01:16:13.520 --> 01:16:15.320
+hasta el despreche coste un cachito
+
+01:16:16.280 --> 01:16:21.560
+justamente me está queriendo empujar mi perrito así que me dejó fuera
+
+01:16:31.560 --> 01:16:40.240
+listo ahora sí ahora sí chicos ahora sí para una vez que dejan de colocar el pin ya podemos
+
+01:16:40.240 --> 01:16:47.720
+hacer acá entre ejecutarlo de ejecutarlo de manera con otro correo hay a clic y ahora sí pueden
+
+01:16:47.720 --> 01:16:52.960
+colocar acá y hasta aquí chicos vayan secando una captura igual pero aquí voy a mandar otro correo
+
+01:16:52.960 --> 01:17:01.800
+voy a abrir otra cuenta otra cuenta que hemos quedado acá y acá no a la o de esto voy a irme
+
+01:17:01.800 --> 01:17:04.120
+acá así en cógito
+
+01:17:06.000 --> 01:17:08.720
+vamos a irnos acá ya que voy a abrir otra cuenta
+
+01:17:11.080 --> 01:17:12.680
+listo voy a abrir mí
+
+01:17:14.600 --> 01:17:19.240
+acá y listo vamos a ver esa prueba con otra con otro correo
+
+01:17:21.600 --> 01:17:25.520
+ya ahora sí haré mucho prueba para ver pero me acuerdo el correo de este
+
+01:17:25.520 --> 01:17:29.320
+correo
+
+01:17:30.960 --> 01:17:35.600
+creen se siempre cuentas falsas para hacer pruebas y vengan a desarrollar varios
+
+01:17:35.600 --> 01:17:42.440
+puntos para hacer pruebas siempre necesarios voy a volver a mi workflow y voy a volver a mi
+
+01:17:44.600 --> 01:17:49.920
+voy a volver a la iniciaría ejecutamos el workflow de un coche todo
+
+01:17:49.920 --> 01:17:58.080
+estoy esperando para el evento que esté abriéndose acá así que expiré ya
+
+01:18:01.320 --> 01:18:05.240
+mientras tanto voy a hacer unos punts se lo voy a cerrar
+
+01:18:08.080 --> 01:18:14.680
+esta parte también lo voy a cerrar perdonar con los ay por el robo se rompí
+
+01:18:15.120 --> 01:18:20.800
+y se me dé así que va a tener peores esto
+
+01:18:22.920 --> 01:18:28.040
+ya va a tener que reiniciar ya pero ya saben cómo se aplica cómo ha trabajado
+
+01:18:28.960 --> 01:18:32.280
+vamos a trabajar acá ahora lo siguiente voy a volver a actualizarlo
+
+01:18:35.000 --> 01:18:36.560
+porque lo eso es lo por error
+
+01:18:39.920 --> 01:18:41.960
+ya ahora se voy a ejecutar una vez más
+
+01:18:44.920 --> 01:18:48.320
+no se me llamó digamos Juan de las casas
+
+01:18:51.200 --> 01:18:56.080
+ya voy a colocar el email que me había creado su alarmo y inventar
+
+01:18:58.200 --> 01:19:03.400
+ya voy a decirle un buenas noches quiero
+
+01:19:08.160 --> 01:19:10.440
+quiero adquirir uria
+
+01:19:10.440 --> 01:19:18.480
+para procesos de fertilización
+
+01:19:23.120 --> 01:19:27.840
+de un de 40 hectáreas
+
+01:19:30.120 --> 01:19:37.800
+de no sé de maíz tiene de grado al inventicio
+
+01:19:38.640 --> 01:19:45.200
+para el día de para lo quiero
+
+01:19:47.520 --> 01:19:56.680
+para el 30 de mayo a primera hora en la ciudad
+
+01:19:57.520 --> 01:19:58.680
+de Santa Cruz
+
+01:20:00.640 --> 01:20:02.200
+listo le ejecutan
+
+01:20:06.200 --> 01:20:14.120
+si los dos horarios ahorita es porque yo les robo por error mi sistema así que si me da errores ni
+
+01:20:16.120 --> 01:20:19.840
+ya pero ahí pueden pueden generar eso de su parte
+
+01:20:20.680 --> 01:20:28.480
+pero han visto que funciona no veo ningún problema ustedes vayan haciendo igual testin con lo que les
+
+01:20:28.480 --> 01:20:31.720
+ha pasado y normal ya
+
+01:20:33.720 --> 01:20:37.000
+si chico eso es lo lamentable tiene que reiniciar así que
+
+01:20:39.440 --> 01:20:45.280
+ni modo de felicidad super sino de mismo chico esta parte pero esto se pueden hacer porque ya saben
+
+01:20:45.280 --> 01:20:53.240
+cómo funcionar y demás ya esta parte que estamos viendo aquí en el post en el chachete
+
+01:20:53.240 --> 01:20:59.120
+pre-pueblo es todo demás no lo vamos a hacer todavía este clase más tratado de terminar el sábado
+
+01:20:59.120 --> 01:21:05.240
+pero hasta ahí debería de funcionar ya debería de funcionar de sí o sí
+
+01:21:07.080 --> 01:21:13.160
+listo entonces sí que está subiendo van pues voy a intentar una vez más porque lo estoy
+
+01:21:13.160 --> 01:21:21.120
+iniciando en 8 n así que esta parte nos voy a copiar esta cual lo voy a cerrar
+
+01:21:22.960 --> 01:21:26.920
+y vamos a ejecutar una oventa a ver ahora si rápido escribir
+
+01:21:34.640 --> 01:21:36.520
+ya necesito
+
+01:21:36.680 --> 01:21:40.600
+uria 40 tonelos
+
+01:21:42.400 --> 01:21:44.000
+disto subo ahora si
+
+01:21:45.520 --> 01:21:49.080
+ya procesando debería de enviarme mi otro corromo
+
+01:21:50.880 --> 01:21:55.920
+esperamos esperamos espero que no se haya movido algo cuando lo inicio todo
+
+01:21:58.680 --> 01:22:01.040
+esa parte ya
+
+01:22:01.040 --> 01:22:12.480
+ya van a ser ustedes unos dos pruebas y como los digo si los chicos vayan adquiriéndose aunque
+
+01:22:12.480 --> 01:22:18.400
+cinco dólares los va a servir mucho la parte de su api que de opinión y no solamente de opinión
+
+01:22:18.400 --> 01:22:25.840
+y pues en dengrock o de dipstick y me enviado me voy acá no sé si este correo pero solo
+
+01:22:25.840 --> 01:22:30.040
+en box ahí está
+
+01:22:31.520 --> 01:22:37.840
+no voy a agrandar y ahí está mi estimado mil tanto tanto tanto tanto tanto los creado y que dice ver
+
+01:22:37.840 --> 01:22:43.680
+para poder preparar una contestación formal y con la disponibilidad dirección de entrega se
+
+01:22:43.680 --> 01:22:50.280
+ha visto desde un dato bien x no ahí está uria 46 por ciento tiene otra sesión listo
+
+01:22:51.280 --> 01:22:59.280
+y eso es todo chicos espero que les funcione hasta ahí esta captura me tienen que enviar
+
+01:22:59.280 --> 01:23:06.200
+como su captura número 9 creo que es muy cuero y teneré que sus tres se me captura sus
+
+01:23:06.200 --> 01:23:11.640
+destructuras no me acuerdo 9 10 capturas para su tarea de esto
+
+01:23:12.640 --> 01:23:20.320
+10 no importa si lo hacen menos o más las pistas que me presenten que funcionan todos estos puntos
+
+01:23:22.720 --> 01:23:28.960
+esos chicos bueno voy a detener la grabación y no se van a salir voy a sacar
+

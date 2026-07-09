@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ResearchFlow - Asistente de investigacion</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="panel form-panel" aria-labelledby="page-title">
+        <div class="brand-row">
+          <div class="brand-mark">RF</div>
+          <div>
+            <p class="eyebrow">ResearchFlow n8n</p>
+            <h1 id="page-title">Nueva investigacion</h1>
+          </div>
+        </div>
+
+        <form id="researchForm">
+          <div class="grid two">
+            <label>
+              Nombre
+              <input name="nombre" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+          </div>
+
+          <div class="grid two">
+            <label>
+              WhatsApp (opcional)
+              <input name="whatsapp" type="tel" autocomplete="tel" placeholder="59170000000" />
+            </label>
+            <label>
+              Prioridad
+              <select name="prioridad">
+                <option value="media">Media</option>
+                <option value="alta">Alta</option>
+                <option value="baja">Baja</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Tema
+            <input name="tema" type="text" placeholder="Ej. Adopcion de criptomonedas en Bolivia" required />
+          </label>
+
+          <label>
+            Pregunta central (opcional)
+            <textarea name="pregunta" rows="3" placeholder="Que quieres responder con esta investigacion?"></textarea>
+            <small class="field-hint">Dejala vacia y ResearchFlow te propondra 3-5 preguntas interesantes sobre el tema.</small>
+          </label>
+
+          <label>
+            URL de fuente inicial (opcional)
+            <input name="url_fuente" type="url" placeholder="https://..." />
+          </label>
+
+          <label>
+            Texto o notas de la fuente (opcional)
+            <textarea name="texto_fuente" rows="3" placeholder="Pega un fragmento, resumen o notas si no tienes URL."></textarea>
+          </label>
+
+          <div class="grid two">
+            <label>
+              Entregable
+              <select name="tipo_entregable">
+                <option value="articulo">Articulo</option>
+                <option value="informe breve">Informe breve</option>
+                <option value="guion">Guion</option>
+                <option value="presentacion">Presentacion</option>
+              </select>
+            </label>
+            <input name="origen" type="hidden" value="landing_page" />
+          </div>
+
+          <button type="submit" id="submitBtn">Enviar a ResearchFlow</button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+
+        <section id="resultado" class="resultado" hidden aria-live="polite"></section>
+      </section>
+
+      <aside class="panel info-panel" aria-label="Como funciona">
+        <h2>Como funciona</h2>
+        <ol class="steps">
+          <li><span>1</span>El webhook de n8n recibe tu solicitud</li>
+          <li><span>2</span>Sin pregunta: la IA propone preguntas investigables</li>
+          <li><span>3</span>Con pregunta: investigacion profunda con busqueda web (2 fases + sintesis)</li>
+          <li><span>4</span>Datos con fuente -&gt; graficos QuickChart + Google Sheets</li>
+          <li><span>5</span>Articulo con graficos por Gmail y aviso por WhatsApp</li>
+        </ol>
+        <div class="note">
+          <strong>Reglas de calidad:</strong>
+          <p>Nunca se inventan cifras ni fuentes. Todo hecho cita su fuente; lo no verificado se marca como requiere verificacion. Sin cifras confiables no hay grafico.</p>
+        </div>
+        <div class="note">
+          <strong>Tip:</strong>
+          <p>Tambien puedes mandar ideas vagas al WhatsApp de ResearchFlow: las refina contigo, las guarda en tu backlog y lanzas con "investigar N".</p>
+        </div>
+      </aside>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

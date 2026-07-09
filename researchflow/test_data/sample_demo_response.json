@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "modo": "investigacion_demo",
+  "nota": "DEMO: investigacion simulada sin credenciales. El grafico QuickChart SI es real y se genera en vivo. En produccion los datos provienen de Gemini con Google Search grounding.",
+  "tema": "Adopcion de criptomonedas en Bolivia",
+  "pregunta": "Se usan realmente las criptomonedas en Bolivia o solo se especula?",
+  "respuesta_corta": "Respuesta corta de demostracion para: Se usan realmente las criptomonedas en Bolivia o solo se especula?",
+  "resumen": "Resumen de demostracion. El flujo de produccion realiza 2 fases de busqueda con grounding y una sintesis JSON con hechos, datasets con fuente y articulo.",
+  "hechos": [
+    {
+      "afirmacion": "DEMO: hecho de ejemplo 1 (en produccion saldria de la busqueda con fuentes reales).",
+      "fuente_url": "https://ejemplo.demo/fuente-1"
+    },
+    {
+      "afirmacion": "DEMO: hecho de ejemplo 2 con dato numerico y su fuente.",
+      "fuente_url": "https://ejemplo.demo/fuente-2"
+    }
+  ],
+  "grafico_url": "https://quickchart.io/chart?w=620&h=360&bkg=white&c=%7B%22type%22%3A%22line%22%2C%22data%22%3A%7B%22labels%22%3A%5B%222021%22%2C%222022%22%2C%222023%22%2C%222024%22%2C%222025%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Indice%20demo%22%2C%22data%22%3A%5B18%2C24%2C31%2C47%2C58%5D%7D%5D%7D%7D",
+  "informe_markdown": "# Tema de demostracion...\n(ver respuesta real del workflow demo)"
+}

@@ -1,0 +1,83 @@
+{
+  "project": "ResearchFlow n8n v2",
+  "goal": "Asistente de investigacion: captura ideas, genera preguntas, investiga a fondo con busqueda web, produce articulos con graficos reales y entrega multicanal.",
+  "workflows": [
+    {
+      "name": "Investigacion profunda",
+      "file": "n8n_workflow_research_production.json",
+      "trigger": "Webhook POST /webhook/researchflow (landing Vercel o flujo WhatsApp)",
+      "ramas": {
+        "sin_pregunta": [
+          "Normalizar solicitud",
+          "Postgres - Registrar solicitud (RETURNING id)",
+          "Postgres - Cargar playbook (app_settings)",
+          "Gemini - Generar preguntas (JSON)",
+          "Postgres - Guardar idea (backlog research_ideas)",
+          "Gmail - Enviar preguntas",
+          "Responder preguntas a la landing"
+        ],
+        "con_pregunta": [
+          "Responder en proceso (respuesta inmediata a la landing)",
+          "Gemini - Fase base con Google Search grounding",
+          "Gemini - Profundizacion con grounding (5 porques + datos con fuente)",
+          "Gemini - Sintesis estructurada (JSON estricto, sin busqueda)",
+          "Procesar resultado (QuickChart solo con cifras con fuente)",
+          "Postgres - Guardar fuentes/evidencia/datasets/articulo",
+          "Gmail - Articulo HTML con graficos",
+          "Evolution API - Aviso WhatsApp",
+          "Postgres - Actualizar estado",
+          "Google Sheets - Fila por punto de dato (hoja datasets)"
+        ]
+      },
+      "integrations": ["Postgres", "Gemini API + Google Search grounding", "QuickChart", "Gmail", "Google Sheets", "Evolution API"]
+    },
+    {
+      "name": "Ideas por WhatsApp",
+      "file": "n8n_workflow_ideas_whatsapp.json",
+      "trigger": "Webhook POST /webhook/researchflow-whatsapp (Evolution API, messages.upsert)",
+      "comandos": {
+        "investigar N": "Obtiene la idea N, lanza la investigacion via HTTP al webhook principal y marca en_cola",
+        "ideas": "Lista las ultimas 10 ideas del backlog",
+        "otro mensaje": "AI Agent (Gemini + memoria por numero) refina la idea, propone preguntas numeradas y guarda en research_ideas"
+      },
+      "integrations": ["Evolution API", "AI Agent con Gemini", "Postgres"]
+    },
+    {
+      "name": "Digest semanal",
+      "file": "n8n_workflow_weekly_digest.json",
+      "trigger": "Schedule Trigger (lunes 8am)",
+      "nodes": ["Postgres - Ideas pendientes", "Gemini - Redactar digest", "Gmail - Enviar digest", "Evolution - Aviso WhatsApp"],
+      "integrations": ["Postgres", "Gemini API", "Gmail", "Evolution API"]
+    },
+    {
+      "name": "Demo sin credenciales",
+      "file": "n8n_workflow_demo_import.json",
+      "trigger": "Webhook POST /webhook/researchflow-demo",
+      "nodes": ["Normalizar", "IF con pregunta", "Investigacion simulada / Preguntas simuladas", "Responder (incluye grafico QuickChart REAL)"],
+      "integrations": ["QuickChart (unico servicio externo; no requiere key)"]
+    }
+  ],
+  "data_entities": [
+    "research_requests (solicitudes, estado, informe)",
+    "research_sources (fuentes con calidad y confianza)",
+    "research_evidence (hechos/hipotesis/opiniones con soporte)",
+    "research_datasets (cifras con fuente por punto + URL QuickChart)",
+    "research_artifacts (articulos generados)",
+    "research_ideas (backlog: idea -> refinada -> en_cola -> investigada)",
+    "app_settings (playbook de investigacion editable)"
+  ],
+  "quality_rules": [
+    "Nunca inventar cifras, citas ni fuentes.",
+    "Todo hecho cita fuente o se marca requiere_verificacion.",
+    "Hechos, hipotesis y opiniones siempre separados.",
+    "Sin cifras confiables con fuente NO se genera grafico.",
+    "Propaganda nunca cuenta como evidencia.",
+    "El playbook es guia adaptable por tipo de tema, no camisa de fuerza."
+  ],
+  "infra": {
+    "runtime": "Droplet DigitalOcean + docker-compose (Caddy, n8n, Postgres 16, Redis, Evolution API v2.2)",
+    "landing": "Vercel (proxy /api/investigar via vercel.json)",
+    "dominio": "DuckDNS (n8n.DOMAIN, evo.DOMAIN)",
+    "guia": "deploy/deploy_digitalocean.md"
+  }
+}

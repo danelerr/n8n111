@@ -1,0 +1,3608 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.280
+Ya, como ya sabéis, han enviado las listas.
+
+00:00:07.280 --> 00:00:12.320
+Esas son las fechas oficiales directamente con
+
+00:00:16.160 --> 00:00:19.200
+los días que van a dissertar en base a eso.
+
+00:00:20.240 --> 00:00:23.160
+Y los demás pues que ya no estaban,
+
+00:00:23.640 --> 00:00:26.440
+ya no se tomó en cuenta los que ya no han existido clases.
+
+00:00:27.400 --> 00:00:31.400
+Pero en este caso, hoy voy a hacer la última clase,
+
+00:00:31.400 --> 00:00:38.680
+vamos a tratar de terminar algunos puntos más y tener casi todo terminado.
+
+00:00:38.680 --> 00:00:43.320
+Ya va a haber un módulo 2, ahí es demasiado, un poquito más avanzado.
+
+00:00:43.320 --> 00:00:48.800
+Ahí tenemos cosas más interesantes, pero voy a hacer la parte más interesante también.
+
+00:00:48.800 --> 00:00:52.000
+Así que empezaremos con la parte de,
+
+00:00:52.960 --> 00:00:57.320
+abrimos de una vez tanto Docker como tanto un 8n.
+
+00:00:59.400 --> 00:01:01.360
+Ya vamos a empezar.
+
+00:01:04.120 --> 00:01:07.400
+Ya, la parte que voy a hacer es un poquito más autónomo,
+
+00:01:07.400 --> 00:01:11.960
+así que si le quieren ustedes aplicar esos proyectos, será interesante.
+
+00:01:11.960 --> 00:01:14.880
+Ya, pero voy a abrir Docker más.
+
+00:01:15.680 --> 00:01:17.120
+Y listo.
+
+00:01:17.120 --> 00:01:18.120
+Ahora sí.
+
+00:01:19.120 --> 00:01:21.800
+Mientras vamos abriendo todo este aspecto,
+
+00:01:22.800 --> 00:01:26.000
+voy a comentarles que generalmente
+
+00:01:27.000 --> 00:01:34.880
+vayan abriendo su Google Console para habilitar unos puntos que voy a trabajar.
+
+00:01:35.880 --> 00:01:37.880
+Bueno, y lo voy a habilitar con ustedes.
+
+00:01:37.880 --> 00:01:39.480
+Listo.
+
+00:01:41.480 --> 00:01:43.080
+Ahí ven a colocar Cloud.
+
+00:01:43.080 --> 00:01:45.080
+Ahí ven a colocar Cloud.
+
+00:01:46.480 --> 00:01:47.680
+Bonsoir.
+
+00:01:47.680 --> 00:01:48.680
+Listo.
+
+00:01:50.080 --> 00:01:52.080
+Perdón.
+
+00:01:52.080 --> 00:01:54.080
+Vamos a hacer mejor acá.
+
+00:01:55.880 --> 00:01:58.480
+Google Cloud.
+
+00:01:58.480 --> 00:01:59.480
+Listo.
+
+00:02:00.480 --> 00:02:03.480
+Vamos a Google Cloud directamente ahí.
+
+00:02:04.480 --> 00:02:09.280
+Con la página que han trabajado netamente para sus permisos y credenciales,
+
+00:02:09.280 --> 00:02:10.880
+con esa misma tienen que trabajar.
+
+00:02:11.880 --> 00:02:13.880
+Dentro a Consola.
+
+00:02:13.880 --> 00:02:17.880
+Y dentro de Consola, voy a irme a lo siguiente.
+
+00:02:17.880 --> 00:02:21.880
+Creo que ya lo tengo habilitado, pero vos lo con ustedes de cero.
+
+00:02:23.880 --> 00:02:25.880
+Mientras habilitándose mi 8n.
+
+00:02:25.880 --> 00:02:27.880
+Bueno, ya se habilitó, creo.
+
+00:02:27.880 --> 00:02:29.880
+Así que, podemos esperar a ver.
+
+00:02:29.880 --> 00:02:34.880
+A no estar, está todavía cargando el mío.
+
+00:02:36.880 --> 00:02:37.880
+Listo.
+
+00:02:38.880 --> 00:02:40.880
+Es el que habíamos trabajado con ustedes.
+
+00:02:41.880 --> 00:02:43.880
+Entonces, se van a venir acá.
+
+00:02:44.880 --> 00:02:46.880
+Van a irse a ApiService.
+
+00:02:46.880 --> 00:02:48.880
+Se van a ir a Biblioteca.
+
+00:02:51.880 --> 00:02:52.880
+Ya.
+
+00:02:53.880 --> 00:02:56.880
+Mientras tanto, sigue prendiéndose.
+
+00:02:56.880 --> 00:02:57.880
+Ya.
+
+00:02:57.880 --> 00:03:04.880
+En acá, van a colocar, en este caso, Google Calendar.
+
+00:03:04.880 --> 00:03:05.880
+Ya.
+
+00:03:06.880 --> 00:03:07.880
+Lo buscan.
+
+00:03:08.880 --> 00:03:11.880
+Aquí está Google Calendar API.
+
+00:03:11.880 --> 00:03:14.880
+Y ahí es el que es Calendar Using Caldap.
+
+00:03:14.880 --> 00:03:15.880
+Ya.
+
+00:03:15.880 --> 00:03:16.880
+Ambos sirven.
+
+00:03:16.880 --> 00:03:18.880
+El primer te lo van a habilitar.
+
+00:03:18.880 --> 00:03:19.880
+Ya.
+
+00:03:19.880 --> 00:03:20.880
+A Google Calendar API.
+
+00:03:21.880 --> 00:03:22.880
+Paz en clic.
+
+00:03:24.880 --> 00:03:27.880
+Y directamente lo habilitan.
+
+00:03:27.880 --> 00:03:29.880
+Aquí va a estar lo que ustedes habilitar.
+
+00:03:29.880 --> 00:03:30.880
+Ya.
+
+00:03:30.880 --> 00:03:31.880
+De mí ya.
+
+00:03:31.880 --> 00:03:32.880
+Ya se habilita por eso me dicen mini charmes.
+
+00:03:32.880 --> 00:03:33.880
+Ya.
+
+00:03:33.880 --> 00:03:38.880
+Una vez que tengan eso, aprovecharemos para irnos a
+
+00:03:38.880 --> 00:03:39.880
+Credenciales.
+
+00:03:41.880 --> 00:03:44.880
+ApiService, Credenciales.
+
+00:03:45.880 --> 00:03:47.880
+Esto partida sabemos, así que no hay problema.
+
+00:03:49.880 --> 00:03:52.880
+Y si es que se han olvidado, como les había comentado,
+
+00:03:52.880 --> 00:03:59.880
+ni que notarse si o si su ID y su clave secreta en un blog de
+
+00:03:59.880 --> 00:04:01.880
+notas, les había comentado, no es?
+
+00:04:01.880 --> 00:04:02.880
+El mío lo borró.
+
+00:04:02.880 --> 00:04:05.880
+Así que voy a volver a habilitar.
+
+00:04:05.880 --> 00:04:08.880
+Creo que lo tengo, pero por ese caso.
+
+00:04:08.880 --> 00:04:09.880
+Ya.
+
+00:04:11.880 --> 00:04:12.880
+¿Qué dice aquí?
+
+00:04:12.880 --> 00:04:13.880
+Docker failed.
+
+00:04:13.880 --> 00:04:14.880
+¿Qué digo?
+
+00:04:14.880 --> 00:04:15.880
+¿Qué hago?
+
+00:04:15.880 --> 00:04:16.880
+Esto es un video de coquiticia.
+
+00:04:18.880 --> 00:04:19.880
+A ver.
+
+00:04:19.880 --> 00:04:22.880
+Esto demora un ratito.
+
+00:04:23.880 --> 00:04:26.880
+Voy a tratar de habilitar a mí, Docker.
+
+00:04:27.880 --> 00:04:30.880
+Siempre pasa esto, así que un terribulo no se ha pasado.
+
+00:04:31.880 --> 00:04:35.880
+Así que prefiero abrirlo desde el sistema de un ratito.
+
+00:04:37.880 --> 00:04:40.880
+Voy a evitar Docker mientras tanto voy a eliminar Docker.
+
+00:04:40.880 --> 00:04:41.880
+Ya.
+
+00:04:42.880 --> 00:04:44.880
+Pero no más, si no, se va a tratar de eliminar.
+
+00:04:44.880 --> 00:04:45.880
+Ya, listo.
+
+00:04:46.880 --> 00:04:50.880
+Entonces acá se viene en la parte inferior y esta partecita
+
+00:04:50.880 --> 00:04:55.880
+se tiene que acordar tanto su clave secreta como su cuenta,
+
+00:04:55.880 --> 00:04:57.880
+ya como su ID de cliente.
+
+00:04:57.880 --> 00:05:00.880
+Si se han olvidado y tienen aquí dos generados,
+
+00:05:00.880 --> 00:05:03.880
+no las va a querer un tercero, así que eliminenlo no más.
+
+00:05:04.880 --> 00:05:08.880
+Ya es lo más aconsejable que se les puede administrar.
+
+00:05:09.880 --> 00:05:12.880
+Ya, esperamos que mi Docker abra de nuevo.
+
+00:05:12.880 --> 00:05:13.880
+Ya, listo.
+
+00:05:13.880 --> 00:05:16.880
+Eso copiense en un blog de notas y voy a abrir un blog de notas.
+
+00:05:18.880 --> 00:05:19.880
+Internamente lo voy a copiar.
+
+00:05:19.880 --> 00:05:21.880
+Ya, les doy a saber a ustedes.
+
+00:05:22.880 --> 00:05:23.880
+No hay problema.
+
+00:05:24.880 --> 00:05:28.880
+Esto está corriendo recién, así que vamos a estimar un sponsor.
+
+00:05:29.880 --> 00:05:30.880
+Bueno, yo ya lo tengo.
+
+00:05:31.880 --> 00:05:36.880
+Ya, les voy a pasar un documento más ahorita para que tengan todo en cuenta.
+
+00:05:36.880 --> 00:05:41.880
+Pero en este caso ya tengo mi secret e mi ID, ya,
+
+00:05:41.880 --> 00:05:44.880
+del que acabo de mostrarles de Google Cloud Console.
+
+00:05:46.880 --> 00:05:49.880
+Bueno, que se actualiza y empezamos.
+
+00:05:49.880 --> 00:05:53.880
+O sea, mientras tanto, ojalá que estuviese actualizando.
+
+00:05:54.880 --> 00:05:56.880
+Seguro hasta cargando mi Docker.
+
+00:05:58.880 --> 00:06:01.880
+Ahora, mientras va habilitándose y demás,
+
+00:06:01.880 --> 00:06:05.880
+lo más aconsejable es que si van a trabajar lo de manera local,
+
+00:06:06.880 --> 00:06:09.880
+así lo colocan en una computadora de escritorio.
+
+00:06:10.880 --> 00:06:16.880
+Y así ya lo dejan prendido y normal va a estar funcionando todo el día 24-7,
+
+00:06:16.880 --> 00:06:17.880
+si es posible.
+
+00:06:18.880 --> 00:06:20.880
+Ya, pero si van a trabajar en un entorno,
+
+00:06:20.880 --> 00:06:25.880
+obviamente, de compra, ya no hay problema de estar ensalviendo,
+
+00:06:25.880 --> 00:06:30.880
+apagando porque ya funciona 24-7 de los 365 días del año.
+
+00:06:30.880 --> 00:06:32.880
+Así que, eso vean lo.
+
+00:06:32.880 --> 00:06:35.880
+Pero yo, en este caso, bueno, en lo personal,
+
+00:06:35.880 --> 00:06:38.880
+yo siempre trabajo local para no gastar dinero.
+
+00:06:38.880 --> 00:06:42.880
+Y normal me funciona siempre cuando le adapto a una computadora,
+
+00:06:42.880 --> 00:06:43.880
+PC, de escritoria.
+
+00:06:43.880 --> 00:06:44.880
+Ahí está.
+
+00:06:45.880 --> 00:06:50.880
+Ya, no se recomienda lo en laptops, porque las laptops se reinician, etc.
+
+00:06:50.880 --> 00:06:52.880
+Hay un montón de problemas en el autopsismo.
+
+00:06:53.880 --> 00:06:54.880
+Ya hago doble clic.
+
+00:06:55.880 --> 00:06:56.880
+Ya hay que esperar un rato.
+
+00:06:56.880 --> 00:06:59.880
+Ya vamos a esperar un rato para que se actualiza
+
+00:07:01.880 --> 00:07:04.880
+y que vaya habilitándose mi Docker.
+
+00:07:04.880 --> 00:07:06.880
+Ya, sigue está activándose.
+
+00:07:07.880 --> 00:07:11.880
+Ya, entonces ya debes traiguar mi NACHON, así que ya está mi NACHON,
+
+00:07:11.880 --> 00:07:14.880
+así que apretó la tecla O y habilitamos.
+
+00:07:16.880 --> 00:07:18.880
+Ya, ahora este rato también lo voy a actualizar.
+
+00:07:20.880 --> 00:07:21.880
+Y listo.
+
+00:07:21.880 --> 00:07:25.880
+Si no les quiere dar, por eso no es porque,
+
+00:07:25.880 --> 00:07:30.880
+a veces, hay que secos y ya hay que esperar acá de unos 10 minutos,
+
+00:07:30.880 --> 00:07:31.880
+es posible.
+
+00:07:31.880 --> 00:07:36.880
+No es necesario forzarlo, digamos.
+
+00:07:36.880 --> 00:07:39.880
+En caso extremo que no fuese de los 10 minutos,
+
+00:07:39.880 --> 00:07:42.880
+o sea, ahí sí, hay que entrar a lo que voy a hacer, digamos.
+
+00:07:42.880 --> 00:07:44.880
+Ya voy a venir acá.
+
+00:07:45.880 --> 00:07:47.880
+Y dentro de acá dice,
+
+00:07:47.880 --> 00:07:48.880
+View Details.
+
+00:07:48.880 --> 00:07:50.880
+Ahí se entra.
+
+00:07:50.880 --> 00:07:51.880
+Ahí está Corri.
+
+00:07:51.880 --> 00:07:53.880
+Esto va a estar cargándose.
+
+00:07:55.880 --> 00:07:57.880
+Y hay que esperar ahí.
+
+00:07:57.880 --> 00:07:59.880
+Ahí está cargándose automáticamente.
+
+00:07:59.880 --> 00:08:01.880
+Ya, y voy a volver a actualizar.
+
+00:08:02.880 --> 00:08:04.880
+Ya, si no actualiza de nuevo,
+
+00:08:04.880 --> 00:08:06.880
+pueden forzarlo también, no hay problema.
+
+00:08:07.880 --> 00:08:10.880
+En mi caso, yo lo forzo de esta manera, digamos.
+
+00:08:11.880 --> 00:08:12.880
+Vengo acá.
+
+00:08:14.880 --> 00:08:17.880
+Le hago el doble clic derecho y dos veces clic izquierdo
+
+00:08:17.880 --> 00:08:19.880
+y le hago el abrir de nuevo.
+
+00:08:19.880 --> 00:08:20.880
+Ya.
+
+00:08:20.880 --> 00:08:22.880
+Y hay que esperar un rato.
+
+00:08:22.880 --> 00:08:23.880
+Ya, listo.
+
+00:08:23.880 --> 00:08:25.880
+Pero, mientras tanto, me he hecho una vuelta.
+
+00:08:25.880 --> 00:08:28.880
+Está trabajando hasta que se vaya actualizando.
+
+00:08:29.880 --> 00:08:33.880
+Ya, entraremos de una vez en el último trabajo, chicos.
+
+00:08:33.880 --> 00:08:34.880
+Ya.
+
+00:08:37.880 --> 00:08:38.880
+Listo.
+
+00:08:38.880 --> 00:08:39.880
+Ahí no me acuerdo.
+
+00:08:39.880 --> 00:08:40.880
+Con el canso.
+
+00:08:44.880 --> 00:08:45.880
+¿Qué era eso?
+
+00:08:47.880 --> 00:08:48.880
+Ya.
+
+00:08:51.880 --> 00:08:52.880
+Ya, listo.
+
+00:08:52.880 --> 00:08:55.880
+Ya se activó el bar mitócara, así que empezaremos.
+
+00:08:55.880 --> 00:08:58.880
+Ya, voy a crear un nuevo workflow.
+
+00:09:01.880 --> 00:09:04.880
+Ya, de la siguiente manera van a presentar sus trabajos.
+
+00:09:05.880 --> 00:09:07.880
+Especificando algunos nodos.
+
+00:09:07.880 --> 00:09:09.880
+Ya, ahorita voy a explicar cómo te lo tengo.
+
+00:09:20.880 --> 00:09:22.880
+Ya, ahora sí.
+
+00:09:23.880 --> 00:09:24.880
+Empezaremos.
+
+00:09:25.880 --> 00:09:28.880
+Vamos a hacerlo tanto en producción como tanto en semántica.
+
+00:09:28.880 --> 00:09:30.880
+Ya, así que de modo reto.
+
+00:09:31.880 --> 00:09:34.880
+Directamente venimos a la parte suma.
+
+00:09:34.880 --> 00:09:38.880
+Y voy a empezar a trabajar como webhooks, por webhooks.
+
+00:09:40.880 --> 00:09:41.880
+Ya.
+
+00:09:42.880 --> 00:09:46.880
+Vengo acá y directamente voy a hacer lo siguiente.
+
+00:09:46.880 --> 00:09:48.880
+Ya, vamos a la primera prueba.
+
+00:09:49.880 --> 00:09:51.880
+Y van a hacer lo siguiente también.
+
+00:09:51.880 --> 00:09:54.880
+Dentro de acá, ya saben, vayan entrando hacia manager.
+
+00:09:56.880 --> 00:09:59.880
+Y ya tiene que estar en la estadía de su número.
+
+00:10:00.880 --> 00:10:01.880
+Ya.
+
+00:10:01.880 --> 00:10:04.880
+En este caso, ahí no me acuerdo esta parte.
+
+00:10:05.880 --> 00:10:06.880
+Ya pique globar.
+
+00:10:07.880 --> 00:10:09.880
+Ya, vamos a hacer lo siguiente.
+
+00:10:09.880 --> 00:10:11.880
+Entonces, voy a abrir con mi otra cuenta.
+
+00:10:14.880 --> 00:10:18.880
+De un ratito para no estar volviendo.
+
+00:10:18.880 --> 00:10:20.880
+Acordame las cuentas.
+
+00:10:20.880 --> 00:10:23.880
+Localhost777.
+
+00:10:25.880 --> 00:10:28.880
+Listo, voy a abrir por la otra faceta.
+
+00:10:28.880 --> 00:10:29.880
+Ya.
+
+00:10:30.880 --> 00:10:31.880
+Y ya.
+
+00:10:31.880 --> 00:10:32.880
+Ahora te lo sumo.
+
+00:10:32.880 --> 00:10:33.880
+Ya, listo.
+
+00:10:33.880 --> 00:10:37.880
+Esto lo voy a hacer lo que estoy abriendo otro navegador.
+
+00:10:37.880 --> 00:10:38.880
+Así que.
+
+00:10:39.880 --> 00:10:40.880
+Ya está.
+
+00:10:40.880 --> 00:10:41.880
+Ahí está el mío.
+
+00:10:41.880 --> 00:10:42.880
+Ya.
+
+00:10:42.880 --> 00:10:44.880
+Con mi cuenta y no hay nada más.
+
+00:10:44.880 --> 00:10:46.880
+Ahora sí, empezaremos.
+
+00:10:47.880 --> 00:10:49.880
+Lo primero que voy a hacer es sintonizar el sistema.
+
+00:10:49.880 --> 00:10:53.880
+Ya, así que para sintonizar esta parte directamente voy a generar posil.
+
+00:10:53.880 --> 00:10:54.880
+URL.
+
+00:10:54.880 --> 00:10:55.880
+URL.
+
+00:10:55.880 --> 00:10:58.880
+A o clic directamente esto.
+
+00:10:58.880 --> 00:11:01.880
+Pueden colocar en producción o URL.
+
+00:11:01.880 --> 00:11:06.880
+Cuando ya terminen el proyecto de sintonización y esto automáticamente ya escucha.
+
+00:11:06.880 --> 00:11:08.880
+Entonces, no hay que estar haciendo.
+
+00:11:08.880 --> 00:11:11.880
+Lícen por Ted Sivenos haciendo.
+
+00:11:11.880 --> 00:11:16.880
+Haciendo cada rato apretando el botón de escuchar y no.
+
+00:11:16.880 --> 00:11:20.880
+Esto es de manera automática y es de manera manual.
+
+00:11:20.880 --> 00:11:21.880
+Puedo llamar test.
+
+00:11:21.880 --> 00:11:23.880
+Voy a colocar método post.
+
+00:11:24.880 --> 00:11:25.880
+Y listo.
+
+00:11:25.880 --> 00:11:26.880
+Ya.
+
+00:11:27.880 --> 00:11:32.880
+Una vez que tenga tengamos eso y hay que trabajar con algún tipo de test.
+
+00:11:32.880 --> 00:11:34.880
+Para la parte de test.
+
+00:11:35.880 --> 00:11:37.880
+Voy a trabajar de esta manera.
+
+00:11:38.880 --> 00:11:39.880
+Ya, listo.
+
+00:11:40.880 --> 00:11:42.880
+Me voy a copiar esta parte.
+
+00:11:43.880 --> 00:11:44.880
+Este local host.
+
+00:11:46.880 --> 00:11:47.880
+Ya me voy a copiar.
+
+00:11:47.880 --> 00:11:51.880
+Voy a irme directamente a mi evolución.
+
+00:11:51.880 --> 00:11:52.880
+Entro.
+
+00:11:54.880 --> 00:11:56.880
+Voy a irme a eventos.
+
+00:11:56.880 --> 00:11:58.880
+Voy a irme a webhooks.
+
+00:11:58.880 --> 00:12:00.880
+Y dentro de mi webhook.
+
+00:12:00.880 --> 00:12:02.880
+Voy a tratar de trabajar con esto.
+
+00:12:02.880 --> 00:12:05.880
+Ya voy a copiarlo acá todo.
+
+00:12:06.880 --> 00:12:07.880
+Controle.
+
+00:12:08.880 --> 00:12:10.880
+Y aquí ya sabía comentado.
+
+00:12:10.880 --> 00:12:11.880
+No sé que no sabía.
+
+00:12:11.880 --> 00:12:13.880
+Mente docker que estoy manejando.
+
+00:12:13.880 --> 00:12:15.880
+Así que hay que generarle un aspecto interno.
+
+00:12:15.880 --> 00:12:18.880
+Para eso lo sabía comentar que yo se ve host.
+
+00:12:19.880 --> 00:12:21.880
+En este caso punto docker.
+
+00:12:22.880 --> 00:12:23.880
+Punto interno.
+
+00:12:24.880 --> 00:12:25.880
+Ya.
+
+00:12:25.880 --> 00:12:27.880
+Dos puntos, tantos tantos.
+
+00:12:27.880 --> 00:12:29.880
+Con eso se va a escuchar.
+
+00:12:29.880 --> 00:12:31.880
+Ahora esto tienen que habilitarlo.
+
+00:12:31.880 --> 00:12:33.880
+Ustedes ya que no está habilitado.
+
+00:12:33.880 --> 00:12:36.880
+Y tienen que habilitar en este caso el.
+
+00:12:36.880 --> 00:12:37.880
+Message.
+
+00:12:37.880 --> 00:12:39.880
+Observe para recibir y enviar mensajes.
+
+00:12:39.880 --> 00:12:41.880
+Y luego lo guardan.
+
+00:12:41.880 --> 00:12:42.880
+Ya.
+
+00:12:42.880 --> 00:12:44.880
+Como ya está escuchando.
+
+00:12:44.880 --> 00:12:46.880
+Con mi evolución API.
+
+00:12:46.880 --> 00:12:49.880
+Directamente esto ya puede escuchar.
+
+00:12:49.880 --> 00:12:50.880
+Ahora.
+
+00:12:50.880 --> 00:12:52.880
+Cuando yo lo integro a mi.
+
+00:12:52.880 --> 00:12:54.880
+Internal.
+
+00:12:54.880 --> 00:12:55.880
+O sea.
+
+00:12:55.880 --> 00:12:57.880
+A lo que les acabo de mostrar.
+
+00:12:57.880 --> 00:12:59.880
+Ya está trabajando con mi número interno.
+
+00:12:59.880 --> 00:13:00.880
+O sea.
+
+00:13:00.880 --> 00:13:03.880
+Ya está trabajando con tal cual lo he programado.
+
+00:13:03.880 --> 00:13:04.880
+El.
+
+00:13:04.880 --> 00:13:05.880
+Evolución API.
+
+00:13:05.880 --> 00:13:06.880
+Así que.
+
+00:13:06.880 --> 00:13:07.880
+Voy a enviarme un mensaje.
+
+00:13:07.880 --> 00:13:08.880
+Ya de morroto.
+
+00:13:08.880 --> 00:13:10.880
+Voy a enviarme un mensaje desde mi otro.
+
+00:13:10.880 --> 00:13:11.880
+Número.
+
+00:13:11.880 --> 00:13:13.880
+Eso tiene que hacer ustedes igual.
+
+00:13:13.880 --> 00:13:15.880
+Mandarse mensajes.
+
+00:13:15.880 --> 00:13:16.880
+Entonces.
+
+00:13:16.880 --> 00:13:18.880
+Voy a venir acá.
+
+00:13:18.880 --> 00:13:19.880
+Iguales.
+
+00:13:19.880 --> 00:13:21.880
+Pueden enviarme mensajes ahorita.
+
+00:13:21.880 --> 00:13:23.880
+El número que estoy trabajando acá.
+
+00:13:23.880 --> 00:13:24.880
+Es mi.
+
+00:13:24.880 --> 00:13:25.880
+Este.
+
+00:13:25.880 --> 00:13:26.880
+766.
+
+00:13:26.880 --> 00:13:27.880
+58749.
+
+00:13:27.880 --> 00:13:28.880
+Esa es de mi empresa.
+
+00:13:28.880 --> 00:13:30.880
+Y ahí pueden ahorita escribir.
+
+00:13:30.880 --> 00:13:31.880
+Y se va a escuchar.
+
+00:13:31.880 --> 00:13:32.880
+Y van a capturar sus datos.
+
+00:13:32.880 --> 00:13:33.880
+Pero.
+
+00:13:33.880 --> 00:13:34.880
+Lo voy a trabajar.
+
+00:13:34.880 --> 00:13:35.880
+Yo.
+
+00:13:35.880 --> 00:13:36.880
+A ver de más ratito.
+
+00:13:36.880 --> 00:13:38.880
+Lo voy a mandar desde otro número.
+
+00:13:38.880 --> 00:13:40.880
+Ya puedo trabajar de manera así.
+
+00:13:40.880 --> 00:13:41.880
+Listo.
+
+00:13:41.880 --> 00:13:42.880
+Los ahorramos.
+
+00:13:42.880 --> 00:13:44.880
+Y puedo escuchar.
+
+00:13:44.880 --> 00:13:46.880
+Voy a escribirle.
+
+00:13:46.880 --> 00:13:48.880
+Lo voy a decir hola.
+
+00:13:48.880 --> 00:13:49.880
+Listo.
+
+00:13:49.880 --> 00:13:51.880
+Allí me capturaron los datos.
+
+00:13:51.880 --> 00:13:52.880
+Ya.
+
+00:13:52.880 --> 00:13:54.880
+Es mi webhook función.
+
+00:13:54.880 --> 00:13:55.880
+Ahí está.
+
+00:13:55.880 --> 00:13:56.880
+A dónde.
+
+00:13:56.880 --> 00:13:58.880
+Fíjense de dónde estoy escribiendo.
+
+00:13:58.880 --> 00:13:59.880
+Yo.
+
+00:13:59.880 --> 00:14:00.880
+Yo.
+
+00:14:00.880 --> 00:14:01.880
+Yo.
+
+00:14:01.880 --> 00:14:02.880
+Yo.
+
+00:14:02.880 --> 00:14:03.880
+Yo.
+
+00:14:03.880 --> 00:14:04.880
+Yo.
+
+00:14:04.880 --> 00:14:06.880
+Fíjense de dónde estoy escribiendo.
+
+00:14:06.880 --> 00:14:08.880
+Desde mi número personal.
+
+00:14:08.880 --> 00:14:10.880
+Ahí me está capturando.
+
+00:14:10.880 --> 00:14:11.880
+Los.
+
+00:14:11.880 --> 00:14:12.880
+Los.
+
+00:14:12.880 --> 00:14:13.880
+Los.
+
+00:14:13.880 --> 00:14:14.880
+Los.
+
+00:14:14.880 --> 00:14:15.880
+Los.
+
+00:14:15.880 --> 00:14:16.880
+Los.
+
+00:14:16.880 --> 00:14:17.880
+Los.
+
+00:14:17.880 --> 00:14:18.880
+Los.
+
+00:14:18.880 --> 00:14:19.880
+Los.
+
+00:14:19.880 --> 00:14:20.880
+Los.
+
+00:14:20.880 --> 00:14:21.880
+Los.
+
+00:14:21.880 --> 00:14:22.880
+Los.
+
+00:14:22.880 --> 00:14:23.880
+Los.
+
+00:14:23.880 --> 00:14:24.880
+Los.
+
+00:14:24.880 --> 00:14:25.880
+Los.
+
+00:14:25.880 --> 00:14:26.880
+Los.
+
+00:14:26.880 --> 00:14:27.880
+Los.
+
+00:14:27.880 --> 00:14:28.880
+Los.
+
+00:14:28.880 --> 00:14:29.880
+Los.
+
+00:14:29.880 --> 00:14:30.880
+Los.
+
+00:14:30.880 --> 00:14:31.880
+Los.
+
+00:14:31.880 --> 00:14:32.880
+Los.
+
+00:14:33.880 --> 00:14:39.880
+Una vez que tenemos eso ya podemos trabajar con ya con métodos un poquito más complejos.
+
+00:14:39.880 --> 00:14:42.880
+Para hacerlo algo más interesante y más estructurado.
+
+00:14:42.880 --> 00:14:49.880
+Lo más aconsejable es que cuando ustedes trabajen ya con cosas un poquito más específicas y grandes.
+
+00:14:49.880 --> 00:14:52.880
+Y empiecen a utilizar los stickers.
+
+00:14:52.880 --> 00:14:56.880
+Los stickers generalmente lo llevan ahí.
+
+00:14:56.880 --> 00:14:57.880
+Lo ven ahí.
+
+00:14:57.880 --> 00:14:58.880
+Ahí.
+
+00:14:58.880 --> 00:14:59.880
+Ya.
+
+00:14:59.880 --> 00:15:01.880
+Y aquí van a hacer el doble clic.
+
+00:15:01.880 --> 00:15:02.880
+Y lo van a borrar esto.
+
+00:15:02.880 --> 00:15:04.880
+No interés esto.
+
+00:15:04.880 --> 00:15:10.880
+Ahí van a colocar mensajes entrantes.
+
+00:15:10.880 --> 00:15:13.880
+Mensajes entrantes.
+
+00:15:13.880 --> 00:15:15.880
+Listo.
+
+00:15:15.880 --> 00:15:16.880
+Ya está.
+
+00:15:16.880 --> 00:15:17.880
+Ahí lo acomoda bonito.
+
+00:15:17.880 --> 00:15:19.880
+Y ahí pueden darle descripciones de qué está haciendo.
+
+00:15:19.880 --> 00:15:23.880
+Porque hay veces cuando ya son sistemas bien gigantes.
+
+00:15:23.880 --> 00:15:27.880
+Ya no le sabrán de qué nodo está haciendo tal nodo.
+
+00:15:27.880 --> 00:15:28.880
+Ya entonces.
+
+00:15:28.880 --> 00:15:32.880
+Una vez que ya está en mi web publico designado.
+
+00:15:32.880 --> 00:15:37.880
+Puedo trabajar ya con lo que son mis edit files.
+
+00:15:37.880 --> 00:15:39.880
+Para capturar y demás.
+
+00:15:39.880 --> 00:15:42.880
+Entonces vengo a edit files.
+
+00:15:42.880 --> 00:15:43.880
+Saco.
+
+00:15:43.880 --> 00:15:48.880
+Y lo voy a conectar directamente acá.
+
+00:15:48.880 --> 00:15:49.880
+Ya.
+
+00:15:49.880 --> 00:15:50.880
+Y aquí igual.
+
+00:15:50.880 --> 00:15:55.880
+Van a colocar su sticker y van a colocarlo acá.
+
+00:15:55.880 --> 00:15:57.880
+Otro trabajan en formato blanco.
+
+00:15:57.880 --> 00:15:59.880
+Esto se ve más elegante, pero.
+
+00:15:59.880 --> 00:16:01.880
+Y lo trabajo así.
+
+00:16:01.880 --> 00:16:02.880
+Voy a colocarlo así.
+
+00:16:02.880 --> 00:16:04.880
+Y aquí doble clic y va lo mismo.
+
+00:16:04.880 --> 00:16:06.880
+Van a colocar en este caso.
+
+00:16:06.880 --> 00:16:10.880
+Lo que es captura de datos.
+
+00:16:10.880 --> 00:16:13.880
+Captura.
+
+00:16:13.880 --> 00:16:15.880
+De datos.
+
+00:16:15.880 --> 00:16:16.880
+Del cliente.
+
+00:16:16.880 --> 00:16:18.880
+Listo.
+
+00:16:18.880 --> 00:16:19.880
+Ya está.
+
+00:16:19.880 --> 00:16:20.880
+Ya.
+
+00:16:20.880 --> 00:16:22.880
+Una vez que tengamos eso.
+
+00:16:22.880 --> 00:16:25.880
+Tenemos que procesar los datos.
+
+00:16:25.880 --> 00:16:28.880
+O sea que quiero que captura y demás.
+
+00:16:28.880 --> 00:16:31.880
+Así que hago doble clic.
+
+00:16:31.880 --> 00:16:35.880
+Y siempre van a trabajar de manera manual.
+
+00:16:35.880 --> 00:16:36.880
+El mapeo.
+
+00:16:36.880 --> 00:16:38.880
+A no ser que quieran hacerlo automáticamente.
+
+00:16:38.880 --> 00:16:40.880
+Solo les voy a enseñar luego.
+
+00:16:40.880 --> 00:16:42.880
+Ya lo que yo necesito.
+
+00:16:42.880 --> 00:16:46.880
+Siempre es atrapar el dato de la instancia.
+
+00:16:46.880 --> 00:16:47.880
+Ya.
+
+00:16:47.880 --> 00:16:49.880
+De la instancia.
+
+00:16:49.880 --> 00:16:50.880
+Esta es la instancia.
+
+00:16:50.880 --> 00:16:51.880
+Ya.
+
+00:16:51.880 --> 00:16:52.880
+Es decir.
+
+00:16:52.880 --> 00:16:55.880
+Con qué número estoy trabajando.
+
+00:16:55.880 --> 00:16:58.880
+O sea con qué número de cuenta institucional.
+
+00:16:58.880 --> 00:17:00.880
+O de whatsapp.
+
+00:17:00.880 --> 00:17:01.880
+O de sus personales.
+
+00:17:01.880 --> 00:17:02.880
+Mejor de whatsapp.
+
+00:17:02.880 --> 00:17:03.880
+Entonces.
+
+00:17:03.880 --> 00:17:05.880
+Van a ver que cuando yo.
+
+00:17:05.880 --> 00:17:06.880
+Halo instancia.
+
+00:17:06.880 --> 00:17:08.880
+Debería de aparecer aquí.
+
+00:17:08.880 --> 00:17:09.880
+Mi empresa dos.
+
+00:17:09.880 --> 00:17:11.880
+Y eso está con la cual estás registrado.
+
+00:17:11.880 --> 00:17:12.880
+Mi.
+
+00:17:12.880 --> 00:17:14.880
+Mi volución API.
+
+00:17:14.880 --> 00:17:15.880
+Ya.
+
+00:17:15.880 --> 00:17:16.880
+El otro.
+
+00:17:16.880 --> 00:17:19.880
+Es que voy a tratar de trabajar con el server.
+
+00:17:19.880 --> 00:17:21.880
+Ya con el server.
+
+00:17:21.880 --> 00:17:22.880
+Es decir.
+
+00:17:22.880 --> 00:17:24.880
+Para que detecte cuál es la.
+
+00:17:24.880 --> 00:17:26.880
+Aplicación interna.
+
+00:17:26.880 --> 00:17:27.880
+Ya.
+
+00:17:27.880 --> 00:17:28.880
+Ok.
+
+00:17:28.880 --> 00:17:29.880
+Aquí dice server.
+
+00:17:29.880 --> 00:17:30.880
+URL.
+
+00:17:30.880 --> 00:17:31.880
+Ya.
+
+00:17:31.880 --> 00:17:32.880
+Con el local.
+
+00:17:32.880 --> 00:17:33.880
+Jajajajajaja.
+
+00:17:33.880 --> 00:17:36.880
+Hay lo calo y listo.
+
+00:17:36.880 --> 00:17:38.880
+Ahora esta parte.
+
+00:17:38.880 --> 00:17:40.880
+Yo les recomiendo que.
+
+00:17:40.880 --> 00:17:42.880
+Siempre lo borren esto.
+
+00:17:42.880 --> 00:17:43.880
+El body.
+
+00:17:43.880 --> 00:17:45.880
+Y solamente coloquen.
+
+00:17:45.880 --> 00:17:46.880
+A instancia.
+
+00:17:46.880 --> 00:17:47.880
+Server.
+
+00:17:47.880 --> 00:17:48.880
+El body.
+
+00:17:48.880 --> 00:17:49.880
+En otras palabras.
+
+00:17:49.880 --> 00:17:51.880
+Ahora voy a trabajar con el.
+
+00:17:51.880 --> 00:17:52.880
+Aplicar.
+
+00:17:52.880 --> 00:17:53.880
+El Aplicar.
+
+00:17:53.880 --> 00:17:55.880
+Me va a degenerar un proceso mucho más.
+
+00:17:55.880 --> 00:17:56.880
+Verídico.
+
+00:17:56.880 --> 00:17:57.880
+Y que no.
+
+00:17:57.880 --> 00:17:58.880
+Obviamente no.
+
+00:17:58.880 --> 00:17:59.880
+No.
+
+00:17:59.880 --> 00:18:00.880
+No es problema.
+
+00:18:00.880 --> 00:18:01.880
+O mensajes con otros usuarios.
+
+00:18:01.880 --> 00:18:02.880
+O su maneja.
+
+00:18:02.880 --> 00:18:03.880
+Aplicar.
+
+00:18:03.880 --> 00:18:04.880
+Igual acá.
+
+00:18:04.880 --> 00:18:06.880
+Lo colocan y lo borran.
+
+00:18:06.880 --> 00:18:07.880
+Solamente lo dejan como.
+
+00:18:07.880 --> 00:18:08.880
+Aplicar.
+
+00:18:08.880 --> 00:18:09.880
+Una vez que ganes.
+
+00:18:09.880 --> 00:18:10.880
+O.
+
+00:18:10.880 --> 00:18:11.880
+Ahí.
+
+00:18:11.880 --> 00:18:12.880
+Podemos trabajar con más.
+
+00:18:12.880 --> 00:18:13.880
+Formas.
+
+00:18:13.880 --> 00:18:14.880
+Incluso.
+
+00:18:14.880 --> 00:18:15.880
+A ver.
+
+00:18:15.880 --> 00:18:16.880
+Voy a trabajar con el.
+
+00:18:16.880 --> 00:18:17.880
+Remote.
+
+00:18:17.880 --> 00:18:18.880
+A mi.
+
+00:18:18.880 --> 00:18:19.880
+Remote.
+
+00:18:19.880 --> 00:18:20.880
+Hay.
+
+00:18:20.880 --> 00:18:21.880
+J.
+
+00:18:21.880 --> 00:18:22.880
+Y.
+
+00:18:22.880 --> 00:18:23.880
+Aquí está.
+
+00:18:23.880 --> 00:18:24.880
+Esto por ejemplo.
+
+00:18:24.880 --> 00:18:25.880
+Va a capturar.
+
+00:18:25.880 --> 00:18:27.880
+Quién me está escribiendo.
+
+00:18:27.880 --> 00:18:28.880
+Hago clic.
+
+00:18:28.880 --> 00:18:29.880
+Lo jaló acá.
+
+00:18:29.880 --> 00:18:30.880
+Aquí lo mismo.
+
+00:18:30.880 --> 00:18:31.880
+Pueden mantenerlo.
+
+00:18:31.880 --> 00:18:32.880
+Esto.
+
+00:18:32.880 --> 00:18:33.880
+Del nombre.
+
+00:18:33.880 --> 00:18:34.880
+Pero yo lo veo muy.
+
+00:18:34.880 --> 00:18:35.880
+Feo.
+
+00:18:35.880 --> 00:18:36.880
+Pero.
+
+00:18:36.880 --> 00:18:37.880
+Lo voy a colocar en el número.
+
+00:18:37.880 --> 00:18:38.880
+Porque estoy capturando el número.
+
+00:18:38.880 --> 00:18:39.880
+Luego.
+
+00:18:39.880 --> 00:18:40.880
+Quiero capturar el nombre.
+
+00:18:40.880 --> 00:18:41.880
+También.
+
+00:18:41.880 --> 00:18:42.880
+Lo voy a colocar en el número.
+
+00:18:42.880 --> 00:18:43.880
+Lo voy a colocar en el número.
+
+00:18:43.880 --> 00:18:44.880
+Luego.
+
+00:18:44.880 --> 00:18:45.880
+Quiero capturar el nombre.
+
+00:18:45.880 --> 00:18:46.880
+También.
+
+00:18:46.880 --> 00:18:47.880
+De quién me está escribiendo.
+
+00:18:47.880 --> 00:18:48.880
+Así que para esa parte.
+
+00:18:48.880 --> 00:18:49.880
+Voy a irme directamente.
+
+00:18:49.880 --> 00:18:50.880
+Ah.
+
+00:18:50.880 --> 00:18:51.880
+Lo que es.
+
+00:18:51.880 --> 00:18:52.880
+El.
+
+00:18:52.880 --> 00:18:53.880
+Push.
+
+00:18:53.880 --> 00:18:54.880
+Name.
+
+00:18:54.880 --> 00:18:55.880
+Ya.
+
+00:18:55.880 --> 00:18:57.880
+Algo más.
+
+00:18:57.880 --> 00:18:58.880
+Podemos sacar.
+
+00:18:58.880 --> 00:18:59.880
+Antes de eso.
+
+00:18:59.880 --> 00:19:00.880
+A ver.
+
+00:19:00.880 --> 00:19:01.880
+A ver.
+
+00:19:01.880 --> 00:19:02.880
+Qué más podemos.
+
+00:19:02.880 --> 00:19:03.880
+Todos estos son necesarios.
+
+00:19:03.880 --> 00:19:04.880
+Pero.
+
+00:19:04.880 --> 00:19:05.880
+En la mayoría de los casos.
+
+00:19:05.880 --> 00:19:06.880
+No es tan.
+
+00:19:06.880 --> 00:19:07.880
+Medio.
+
+00:19:07.880 --> 00:19:08.880
+No.
+
+00:19:08.880 --> 00:19:09.880
+No.
+
+00:19:09.880 --> 00:19:10.880
+No.
+
+00:19:10.880 --> 00:19:11.880
+No.
+
+00:19:12.880 --> 00:19:13.880
+Medio.
+
+00:19:13.880 --> 00:19:14.880
+Que tan.
+
+00:19:14.880 --> 00:19:15.880
+Urgente hacerlo.
+
+00:19:15.880 --> 00:19:16.880
+Pero.
+
+00:19:16.880 --> 00:19:17.880
+Depende de qué aplicaciones.
+
+00:19:17.880 --> 00:19:18.880
+Quieran capturar sus datos.
+
+00:19:18.880 --> 00:19:19.880
+Del cliente.
+
+00:19:19.880 --> 00:19:20.880
+Ya.
+
+00:19:20.880 --> 00:19:21.880
+Aquí está.
+
+00:19:21.880 --> 00:19:22.880
+Push.
+
+00:19:22.880 --> 00:19:23.880
+Name.
+
+00:19:23.880 --> 00:19:24.880
+Igual.
+
+00:19:24.880 --> 00:19:25.880
+Lo mantienen.
+
+00:19:25.880 --> 00:19:26.880
+O lo colocan como.
+
+00:19:26.880 --> 00:19:27.880
+Nombre nomás.
+
+00:19:27.880 --> 00:19:28.880
+Y luego.
+
+00:19:28.880 --> 00:19:29.880
+En este caso.
+
+00:19:29.880 --> 00:19:30.880
+El mensaje.
+
+00:19:30.880 --> 00:19:31.880
+A ver.
+
+00:19:31.880 --> 00:19:32.880
+Donde está mi mensaje.
+
+00:19:32.880 --> 00:19:33.880
+Y de usted.
+
+00:19:33.880 --> 00:19:34.880
+Ya.
+
+00:19:34.880 --> 00:19:35.880
+Hay dice.
+
+00:19:35.880 --> 00:19:36.880
+Hola.
+
+00:19:36.880 --> 00:19:37.880
+Aquí dice.
+
+00:19:37.880 --> 00:19:38.880
+Conversación.
+
+00:19:38.880 --> 00:19:39.880
+Ya.
+
+00:19:39.880 --> 00:19:40.880
+Eso lo.
+
+00:19:40.880 --> 00:19:41.880
+Jalan.
+
+00:19:41.880 --> 00:19:42.880
+Listo.
+
+00:19:42.880 --> 00:19:45.880
+Aquí pueden colocar en vez de conversación.
+
+00:19:45.880 --> 00:19:46.880
+Mientras.
+
+00:19:46.880 --> 00:19:47.880
+Listo.
+
+00:19:47.880 --> 00:19:48.880
+Qué más podemos sacar.
+
+00:19:48.880 --> 00:19:49.880
+Bueno, mucho.
+
+00:19:49.880 --> 00:19:51.880
+Tiene que ver qué cosas que se quieren capturar.
+
+00:19:51.880 --> 00:19:52.880
+Lo más.
+
+00:19:52.880 --> 00:19:53.880
+Un aplicativo yo necesito.
+
+00:19:53.880 --> 00:19:54.880
+Lo ejecuto directamente.
+
+00:19:54.880 --> 00:19:56.880
+Y debería de capturar todos los datos que estamos ahorita trabajando.
+
+00:19:56.880 --> 00:19:57.880
+Nada más.
+
+00:19:57.880 --> 00:19:59.880
+Pasaremos al siguiente sistema.
+
+00:19:59.880 --> 00:20:00.880
+Y.
+
+00:20:00.880 --> 00:20:01.880
+No.
+
+00:20:01.880 --> 00:20:02.880
+No.
+
+00:20:02.880 --> 00:20:03.880
+No.
+
+00:20:03.880 --> 00:20:04.880
+No.
+
+00:20:04.880 --> 00:20:05.880
+No.
+
+00:20:05.880 --> 00:20:06.880
+No.
+
+00:20:06.880 --> 00:20:07.880
+No.
+
+00:20:07.880 --> 00:20:08.880
+No.
+
+00:20:08.880 --> 00:20:10.880
+Se va a hacer que mas nos pasara.
+
+00:20:10.880 --> 00:20:11.880
+No.
+
+00:20:11.880 --> 00:20:12.880
+No.
+
+00:20:12.880 --> 00:20:13.880
+No.
+
+00:20:13.880 --> 00:20:14.880
+Es.
+
+00:20:14.880 --> 00:20:15.880
+Más.
+
+00:20:15.880 --> 00:20:16.880
+Al siguiente sistema.
+
+00:20:16.880 --> 00:20:17.880
+Una vez que tengan eso.
+
+00:20:17.880 --> 00:20:18.880
+Vamos.
+
+00:20:18.880 --> 00:20:19.880
+Entrarnos a nuestro agente.
+
+00:20:19.880 --> 00:20:20.880
+A nos hi.
+
+00:20:20.880 --> 00:20:21.880
+Y.
+
+00:20:21.880 --> 00:20:22.880
+Agents.
+
+00:20:22.880 --> 00:20:23.880
+Y.
+
+00:20:23.880 --> 00:20:24.880
+Agents.
+
+00:20:24.880 --> 00:20:25.880
+Listo.
+
+00:20:25.880 --> 00:20:26.880
+Esta.
+
+00:20:26.880 --> 00:20:27.880
+Parte.
+
+00:20:27.880 --> 00:20:28.880
+Lo mismo.
+
+00:20:28.880 --> 00:20:29.880
+Lo mismo.
+
+00:20:29.880 --> 00:20:30.880
+Tiene que trabajar.
+
+00:20:30.880 --> 00:20:31.880
+Venimos.
+
+00:20:31.880 --> 00:20:32.880
+Acá.
+
+00:20:32.880 --> 00:20:33.880
+Generó el systemita.
+
+00:20:33.880 --> 00:20:34.880
+Mis.
+
+00:20:34.880 --> 00:20:35.880
+Estickers.
+
+00:20:35.880 --> 00:20:36.880
+Y automáticamente.
+
+00:20:36.880 --> 00:20:52.240
+vamos a colocar directamente analítica de datos y procesos.
+
+00:20:52.240 --> 00:20:53.920
+Hacemos clic.
+
+00:20:53.920 --> 00:20:55.640
+Y ya está.
+
+00:20:55.640 --> 00:20:58.760
+Me da disculpas si tengo horrores ortográficos.
+
+00:20:58.760 --> 00:21:02.640
+La cuestión es que quiero terminar de una vez y no se vamos
+
+00:21:02.640 --> 00:21:06.160
+a traser horriblemente porque es tan largo.
+
+00:21:06.160 --> 00:21:11.480
+Pero contar que las funcione normal va a funcionar todo.
+
+00:21:11.480 --> 00:21:14.920
+Una vez que generan ahí, aquí es un poquito medio
+
+00:21:14.920 --> 00:21:17.880
+complicado ya de darles los prompts.
+
+00:21:17.880 --> 00:21:20.280
+Ya los voy a pasar con prompts.
+
+00:21:20.280 --> 00:21:24.720
+Ya hecho, el prompt tiene casi 15 páginas.
+
+00:21:24.720 --> 00:21:27.680
+Pero ustedes lo pueden modernizar,
+
+00:21:27.680 --> 00:21:34.000
+lo pueden reducir en base al proyecto que ustedes quieran.
+
+00:21:34.080 --> 00:21:39.880
+Bueno, en este caso voy a elegir mi modelo y ir con el
+
+00:21:39.880 --> 00:21:42.520
+típico que utilizamos.
+
+00:21:42.520 --> 00:21:44.280
+Listo.
+
+00:21:44.280 --> 00:21:45.440
+Ya está.
+
+00:21:45.440 --> 00:21:48.120
+Listo, ya tenemos ahí.
+
+00:21:48.120 --> 00:21:51.400
+Luego le voy a añadir una memoria simple para que se
+
+00:21:51.400 --> 00:21:58.240
+acuerde con qué usuario está trabajando y una simple memoria.
+
+00:21:58.240 --> 00:22:01.080
+Listo.
+
+00:22:01.080 --> 00:22:03.800
+Ahora sí, una vez que hayamos hecho eso,
+
+00:22:03.880 --> 00:22:07.480
+ya podemos trabajar un poquito con la memoria para que no
+
+00:22:07.480 --> 00:22:10.560
+pierden contexto con el cliente.
+
+00:22:10.560 --> 00:22:11.680
+Porque siempre es bueno.
+
+00:22:11.680 --> 00:22:15.680
+Así que hago lo doble que memoria.
+
+00:22:15.680 --> 00:22:22.320
+Van a colocar acá define below dentro de la simple memory.
+
+00:22:22.320 --> 00:22:25.480
+Y en acá vamos a hacer lo siguiente.
+
+00:22:25.480 --> 00:22:29.520
+A ver, voy a irme a mi.
+
+00:22:29.520 --> 00:22:31.360
+La quita aunque jalar.
+
+00:22:31.360 --> 00:22:35.000
+O sea, para que se acuerde con quién está hablando,
+
+00:22:35.000 --> 00:22:39.600
+cómo la key no puede cambiar.
+
+00:22:39.600 --> 00:22:42.600
+Así que normal es.
+
+00:22:42.600 --> 00:22:44.640
+Ya esto.
+
+00:22:44.640 --> 00:22:47.440
+Podemos utilizar el remote.
+
+00:22:47.440 --> 00:22:49.840
+JID o el remote.
+
+00:22:49.840 --> 00:22:52.840
+Ya esto es muy independiente de cuámo quieran trabajar.
+
+00:22:52.840 --> 00:22:57.680
+Pero yo voy a trabajar con este ID.
+
+00:22:57.680 --> 00:22:58.800
+Con este ID es mejor.
+
+00:22:58.800 --> 00:23:02.680
+Porque estos pueden tener conversa.
+
+00:23:02.680 --> 00:23:05.520
+Obviamente es el mismo número, pero las conversaciones pueden
+
+00:23:05.520 --> 00:23:06.480
+ser solapadas.
+
+00:23:06.480 --> 00:23:09.360
+Así que prefieres trabajar con el ID para que se acuerde
+
+00:23:09.360 --> 00:23:13.200
+incluso en diferentes fechas.
+
+00:23:13.200 --> 00:23:16.880
+Una vez que tengan eso, van a hacer lo siguiente.
+
+00:23:16.880 --> 00:23:20.560
+Generalmente el contexto, o sea, la conversación para que se
+
+00:23:20.560 --> 00:23:22.720
+memorice, se lo puede.
+
+00:23:22.720 --> 00:23:25.080
+Aquí dice, how many pass interaction the model.
+
+00:23:25.080 --> 00:23:26.120
+Si eso es lo que anda.
+
+00:23:26.120 --> 00:23:30.080
+Pueden, máximo, y los recomiendo que trabajen con 12.
+
+00:23:30.080 --> 00:23:34.600
+Porque imagínense con su cliente, ustedes, no creo que la
+
+00:23:34.600 --> 00:23:36.560
+IA hable más de 12 conversaciones.
+
+00:23:36.560 --> 00:23:39.440
+O sea, 24 conversaciones y desigualtos.
+
+00:23:39.440 --> 00:23:40.840
+Sería algo ilógico.
+
+00:23:40.840 --> 00:23:42.240
+No hay mucho de eso.
+
+00:23:42.240 --> 00:23:43.040
+No sé qué sea algo.
+
+00:23:43.040 --> 00:23:49.080
+Un negocio muy, muy, muy específico.
+
+00:23:49.080 --> 00:23:50.800
+Pero ahí entraría la persona.
+
+00:23:50.800 --> 00:23:54.600
+Si quiere algo más específico y ya se ha hecho una transacción o
+
+00:23:54.600 --> 00:23:58.160
+la venta y ya se ha hecho realmente ideal o idónea,
+
+00:23:58.160 --> 00:23:59.720
+ahí sí se puede meter.
+
+00:23:59.720 --> 00:24:02.160
+Y los recomiendo 10, 12, máximo.
+
+00:24:02.160 --> 00:24:05.680
+Yo lo voy a dejar con 6.
+
+00:24:05.680 --> 00:24:07.560
+Entonces, lo cierro.
+
+00:24:07.560 --> 00:24:08.000
+Ya está.
+
+00:24:08.000 --> 00:24:10.600
+Y esta es su memoria guardada.
+
+00:24:10.600 --> 00:24:15.320
+Ahora voy a irme directamente a asignar algunas herramientas.
+
+00:24:15.320 --> 00:24:17.320
+Para las herramientas, obviamente,
+
+00:24:17.320 --> 00:24:20.400
+yo quiero que me envíe una respuesta al WhatsApp y,
+
+00:24:20.400 --> 00:24:23.120
+obviamente, a los diferentes tipos de webbooks que puedo
+
+00:24:23.120 --> 00:24:24.360
+crearme.
+
+00:24:24.360 --> 00:24:28.640
+Entonces, voy a trabajar con un HTTP requests para que me
+
+00:24:28.640 --> 00:24:31.320
+envíe al sistema.
+
+00:24:31.320 --> 00:24:33.360
+Lo cierro y aquí voy a jalar esto.
+
+00:24:36.360 --> 00:24:39.360
+Listo.
+
+00:24:39.360 --> 00:24:40.080
+Demórito.
+
+00:24:40.080 --> 00:24:47.120
+Ahora sí, voy a jalar otro y lo voy a otro sticker.
+
+00:24:47.120 --> 00:24:49.480
+Y mientras más crees que su sistema,
+
+00:24:49.480 --> 00:24:53.720
+más stickers recomendable que tenga.
+
+00:24:53.760 --> 00:24:54.240
+¿Pero qué?
+
+00:24:54.240 --> 00:24:57.320
+Porque a veces puede haber un montón de nodos que quizás
+
+00:24:57.320 --> 00:25:00.000
+ustedes estaban a majar más de 20 webcocks.
+
+00:25:00.000 --> 00:25:02.840
+Ahí va a ser el problema de no saber qué está haciendo tal
+
+00:25:02.840 --> 00:25:03.960
+cosa.
+
+00:25:03.960 --> 00:25:10.880
+Voy a colocar respuesta al cliente de WhatsApp.
+
+00:25:14.440 --> 00:25:16.840
+Listo.
+
+00:25:16.840 --> 00:25:18.280
+Ya está.
+
+00:25:18.280 --> 00:25:22.960
+Una vez que tengamos eso, hay configurar el HTTP.
+
+00:25:23.040 --> 00:25:24.920
+Configuramos el HTTP.
+
+00:25:24.920 --> 00:25:27.200
+Hago doble clic.
+
+00:25:27.200 --> 00:25:32.000
+Y aquí generalmente hay que colocar el URL.
+
+00:25:32.000 --> 00:25:37.760
+La URL podemos sacar lo de lo que es el test message.
+
+00:25:37.760 --> 00:25:41.400
+Lo voy a hacer con ustedes esta parte.
+
+00:25:41.400 --> 00:25:50.400
+A ver, voy a pasarles esto para no perder tiempo.
+
+00:25:50.400 --> 00:25:52.400
+No, voy a entrar este mietro.
+
+00:25:55.720 --> 00:25:59.200
+Ya, si no se, si por eso es del cino lo pierdan,
+
+00:25:59.200 --> 00:26:00.880
+no sé qué les voy a pasar.
+
+00:26:00.880 --> 00:26:02.840
+Puedo venir acá desde documentaciones.
+
+00:26:05.680 --> 00:26:10.120
+En documentaciones se van directamente a,
+
+00:26:10.120 --> 00:26:12.880
+donde está esta casa, más abajo está.
+
+00:26:12.880 --> 00:26:19.600
+Aquí dice, Evolution API, Evolution Go, esto, esto.
+
+00:26:19.760 --> 00:26:22.640
+¿Qué es esto?
+
+00:26:22.640 --> 00:26:25.400
+Deferencia de API dice.
+
+00:26:25.400 --> 00:26:27.840
+Aquí dice, más abajo me voy a ir.
+
+00:26:30.880 --> 00:26:34.640
+O acá, donde está.
+
+00:26:34.640 --> 00:26:39.440
+Ya, opción listo, aplicación, aquí está.
+
+00:26:39.440 --> 00:26:44.720
+Y me voy a ir a autenticación.
+
+00:26:44.720 --> 00:26:46.920
+¿Dónde estaba la otra evolución?
+
+00:26:47.040 --> 00:26:49.040
+Sí, vamos a seguirnos.
+
+00:26:49.040 --> 00:26:50.040
+Ya.
+
+00:26:53.040 --> 00:26:55.120
+Es lo malo que a veces actualiza y ya no sé
+
+00:26:55.120 --> 00:26:56.400
+sabe dónde está.
+
+00:26:56.400 --> 00:27:01.320
+Pero para que no sufran todo eso,
+
+00:27:01.320 --> 00:27:04.440
+os voy a pasar esto.
+
+00:27:04.440 --> 00:27:06.000
+Ya está.
+
+00:27:06.000 --> 00:27:09.880
+No estoy enviando al grupo, perdón, a la mensajería de MIT.
+
+00:27:12.920 --> 00:27:14.240
+Y ahí, listo.
+
+00:27:17.520 --> 00:27:18.360
+Yo lo estoy enviando.
+
+00:27:18.360 --> 00:27:19.480
+Ya se guarden, ¿sí?
+
+00:27:19.480 --> 00:27:23.320
+¿Por qué a veces actualiza y se va a costar en contra?
+
+00:27:23.320 --> 00:27:23.880
+Pero está.
+
+00:27:23.880 --> 00:27:26.640
+Si yo no sé tarde, le encuentro hasta 10 minutos cada vez
+
+00:27:26.640 --> 00:27:28.560
+que se actualiza el sistema.
+
+00:27:28.560 --> 00:27:34.600
+Ya, cuando les pasa, el URL se van a ir directamente a,
+
+00:27:34.600 --> 00:27:37.120
+aquí, Dicente Smash.
+
+00:27:37.120 --> 00:27:39.600
+Y todo esto lo que hemos hecho en varias clases,
+
+00:27:39.600 --> 00:27:42.280
+tenemos que copiarlo y adaptarlo.
+
+00:27:42.280 --> 00:27:45.200
+Pero aquí es un poquito diferente.
+
+00:27:45.240 --> 00:27:50.760
+Pero hay que, esa es la base fundamental que nos va a dar.
+
+00:27:50.760 --> 00:27:51.800
+Ya.
+
+00:27:51.800 --> 00:27:54.920
+Una vez que tengan eso, vamos a hacer lo siguiente.
+
+00:27:54.920 --> 00:27:58.880
+A ver, vamos a hacer esto.
+
+00:27:58.880 --> 00:28:01.240
+Generalmente, la URL que voy a manejar,
+
+00:28:01.240 --> 00:28:04.680
+haremos un bitito, a ver si.
+
+00:28:04.680 --> 00:28:06.280
+Ya, de nuevo, método POST.
+
+00:28:08.880 --> 00:28:11.240
+Y aquí, si no saben qué colocar, aquí dice,
+
+00:28:11.240 --> 00:28:12.600
+Parametro Requirements.
+
+00:28:12.600 --> 00:28:15.400
+Ahí hacen click y les va a bilitar 90.
+
+00:28:15.400 --> 00:28:18.880
+Sabe tardar, pero si no les abre,
+
+00:28:18.880 --> 00:28:21.760
+vamos a hacer un texto plano.
+
+00:28:21.760 --> 00:28:25.000
+Así que pesa parte, vamos a encontrar acá.
+
+00:28:25.000 --> 00:28:30.000
+A ver, voy a jalar, en este caso, mi server.
+
+00:28:30.000 --> 00:28:32.680
+Y mis edit fields, donde está server.
+
+00:28:32.680 --> 00:28:34.840
+Ah, voy a jalar.
+
+00:28:34.840 --> 00:28:36.040
+Ya, eso lo van a jalar.
+
+00:28:36.040 --> 00:28:39.200
+El servidor que estamos manejando.
+
+00:28:39.200 --> 00:28:40.040
+Así lo vas a aparecer.
+
+00:28:40.040 --> 00:28:42.400
+Edit fields.
+
+00:28:42.400 --> 00:28:44.400
+Ahora, fíjense lo que voy a hacer.
+
+00:28:44.400 --> 00:28:47.920
+Voy a irme de nuevo a mi Evolution API.
+
+00:28:47.920 --> 00:28:49.760
+No me interesa ya mucho esto.
+
+00:28:49.760 --> 00:28:51.040
+No me interesa esta parte.
+
+00:28:51.040 --> 00:28:53.400
+Ya me interesa esto.
+
+00:28:53.400 --> 00:28:54.440
+Esta parte.
+
+00:28:54.440 --> 00:28:57.680
+Aquí hay otros más, si se dan cuenta.
+
+00:28:57.680 --> 00:29:01.800
+Hay otros aspectos técnicos que ya se le puede referenciar.
+
+00:29:01.800 --> 00:29:09.400
+Pero si copio esto, se copia automáticamente.
+
+00:29:09.400 --> 00:29:11.360
+Lo pueden llevar a un blog de notas.
+
+00:29:11.480 --> 00:29:15.000
+Voy a mostrar un blog de notas.
+
+00:29:15.000 --> 00:29:17.480
+Voy a abrir uno nuevo.
+
+00:29:17.480 --> 00:29:21.360
+Ahí lo pueden copiar lo que se han pegado.
+
+00:29:21.360 --> 00:29:26.200
+Ya, fíjense, todo esto es mi servidor.
+
+00:29:26.200 --> 00:29:28.240
+Todo es mi servidor ahorita, o sea, esta cosa.
+
+00:29:32.840 --> 00:29:33.760
+Ya, esta cosa.
+
+00:29:33.760 --> 00:29:36.440
+Todo esto es mi servidor, porque es mi servidor URL.
+
+00:29:36.440 --> 00:29:39.520
+Solo me la estoy jalando para que se actualice automáticamente.
+
+00:29:39.520 --> 00:29:40.720
+Ahora, ¿qué viene?
+
+00:29:40.800 --> 00:29:45.600
+Si nos damos cuenta acá, ahí voy a colocarlo.
+
+00:29:45.600 --> 00:29:46.840
+Ya, voy a hacerlo así mejor.
+
+00:29:52.880 --> 00:29:54.120
+Esto lo voy a minimizar.
+
+00:29:54.120 --> 00:29:55.320
+Ya, ahí está.
+
+00:29:55.320 --> 00:29:57.000
+Miren.
+
+00:29:57.000 --> 00:30:04.400
+Servidor, luego voy a cocar el Message, Send Text, y Slash,
+
+00:30:04.400 --> 00:30:06.520
+Insertar en Instances.
+
+00:30:06.520 --> 00:30:09.760
+La Instance, el nombre de la Instance, y que Instalar.
+
+00:30:09.760 --> 00:30:12.600
+Ya, en esta parte si te voy a copiar.
+
+00:30:15.480 --> 00:30:17.600
+Copio y lo voy a pegar.
+
+00:30:20.040 --> 00:30:25.280
+Ya, esta Instancia es mi Jason.
+
+00:30:25.280 --> 00:30:26.640
+Ya, Jason Instance.
+
+00:30:26.640 --> 00:30:29.800
+A ver, ¿cuál era mi Instancia anteriormente?
+
+00:30:29.800 --> 00:30:32.680
+Aquí está, empresa 2, ¿no?
+
+00:30:32.680 --> 00:30:34.880
+Entonces, eso lo voy a borrar esta cierta parte.
+
+00:30:35.680 --> 00:30:36.560
+¿Listo?
+
+00:30:36.560 --> 00:30:39.760
+Y ahí lo voy a dejar la Instance.
+
+00:30:39.760 --> 00:30:41.320
+¿Listo?
+
+00:30:41.320 --> 00:30:44.760
+Entonces, eso es lo que yo necesito.
+
+00:30:44.760 --> 00:30:45.280
+Ya.
+
+00:30:45.280 --> 00:30:47.600
+Aquí debería de aparecerme Verde, ¿no?
+
+00:30:47.600 --> 00:30:49.960
+Para que ver si está habilitándose.
+
+00:30:49.960 --> 00:30:52.280
+Pero en algunos aspectos no va a aparecer,
+
+00:30:52.280 --> 00:30:54.320
+porque no estoy ejecutándolo todavía.
+
+00:30:54.320 --> 00:30:56.840
+No está generándome la respuesta de IA.
+
+00:30:56.840 --> 00:30:58.560
+Ya.
+
+00:30:58.560 --> 00:31:03.560
+Ahora, vamos a enviar los cabezas, las gidas o las coches.
+
+00:31:04.000 --> 00:31:06.320
+Los gidas o los cabezas.
+
+00:31:06.320 --> 00:31:10.160
+Send gidas, voy a colocar.
+
+00:31:10.160 --> 00:31:13.640
+Y aquí en using, voy a ponerle más facilidad,
+
+00:31:13.640 --> 00:31:17.480
+pero vamos a hacer lo normal, lo más.
+
+00:31:17.480 --> 00:31:24.200
+Ahora, dentro de los gidas, sí o sí, voy a volver acá.
+
+00:31:24.200 --> 00:31:27.640
+Aquí tengo dos cabezas.
+
+00:31:27.640 --> 00:31:30.840
+Content drive, esto tal cual se lo copia.
+
+00:31:30.920 --> 00:31:33.320
+Y la api-key.
+
+00:31:33.320 --> 00:31:35.480
+Ya, aquí es un poquito diferente a lo que hemos hecho
+
+00:31:35.480 --> 00:31:36.760
+en anterior clase.
+
+00:31:36.760 --> 00:31:38.400
+Pero lo voy a copiar.
+
+00:31:38.400 --> 00:31:41.400
+Lo voy a pegar acá donde estoy, esa cosa.
+
+00:31:41.400 --> 00:31:43.400
+OK.
+
+00:31:43.400 --> 00:31:44.800
+Ya, pego.
+
+00:31:44.800 --> 00:31:48.040
+Y también voy a pegar el otro, ¿no?
+
+00:31:48.040 --> 00:31:51.280
+Esta parte, Application Gease.
+
+00:31:51.280 --> 00:31:53.600
+¿Ya?
+
+00:31:53.600 --> 00:31:54.280
+Ya está.
+
+00:31:56.960 --> 00:31:59.680
+Ya, otro header voy a hacer.
+
+00:31:59.720 --> 00:32:01.920
+Vengo acá, otro.
+
+00:32:01.920 --> 00:32:05.400
+Lo mismo, api-key.
+
+00:32:05.400 --> 00:32:07.320
+Hago click y lo voy a generar acá.
+
+00:32:11.520 --> 00:32:13.960
+Ahora está api-key, ya lo tengo.
+
+00:32:13.960 --> 00:32:15.800
+Está acá.
+
+00:32:15.800 --> 00:32:18.480
+Esto tendría que jalarlo.
+
+00:32:18.480 --> 00:32:20.160
+Ya está.
+
+00:32:20.160 --> 00:32:21.960
+Ya tengo mi api-key.
+
+00:32:21.960 --> 00:32:25.520
+Ahora, vamos a añadir el body.
+
+00:32:25.520 --> 00:32:29.280
+Send body, abelito.
+
+00:32:29.280 --> 00:32:32.040
+Y acá vamos a dejarlo así.
+
+00:32:32.040 --> 00:32:34.080
+Y ahí son using field below.
+
+00:32:34.080 --> 00:32:38.320
+Y aquí vamos a colocar lo que necesito, el number.
+
+00:32:38.320 --> 00:32:40.360
+El número.
+
+00:32:40.360 --> 00:32:41.640
+Perdón, perdón, perdón.
+
+00:32:41.640 --> 00:32:43.640
+No hay mayúscula.
+
+00:32:43.640 --> 00:32:46.120
+Estamos casi, casi.
+
+00:32:46.120 --> 00:32:48.600
+Tiene que ser casi los mismos parámetros que han creado
+
+00:32:48.600 --> 00:32:50.360
+anteriormente.
+
+00:32:50.360 --> 00:32:52.280
+Number, lo mismo.
+
+00:32:52.280 --> 00:32:54.960
+Aquí está, number, lojar.
+
+00:32:54.960 --> 00:32:55.720
+Ya.
+
+00:32:55.720 --> 00:32:58.000
+¿Qué más necesito?
+
+00:32:58.000 --> 00:32:59.840
+Necesito el texto o el mensaje.
+
+00:32:59.840 --> 00:33:01.000
+Voy a colocar texto.
+
+00:33:05.440 --> 00:33:08.560
+Y aquí voy a colocar el mensaje.
+
+00:33:08.560 --> 00:33:09.880
+Puedo colocar mensaje.
+
+00:33:09.880 --> 00:33:15.480
+Esperaremos prueba con un hola primero, ya que me responda.
+
+00:33:15.480 --> 00:33:18.880
+Una vez que hagamos eso, ya podemos ejecutarlo.
+
+00:33:18.880 --> 00:33:19.800
+Ya.
+
+00:33:19.800 --> 00:33:21.440
+¿Qué más haber?
+
+00:33:21.440 --> 00:33:26.360
+Adoption, Lovers, Watch this, and the Lord Christ.
+
+00:33:26.400 --> 00:33:30.800
+Podemos añadir una respuesta, pero todavía no.
+
+00:33:30.800 --> 00:33:34.240
+Ojo, ahí ya podemos colocar un montón de cosas, pero todavía
+
+00:33:34.240 --> 00:33:35.400
+no.
+
+00:33:35.400 --> 00:33:36.480
+Hasta ahí.
+
+00:33:36.480 --> 00:33:40.800
+Esto debería de estar normal.
+
+00:33:40.800 --> 00:33:42.240
+Ya.
+
+00:33:42.240 --> 00:33:46.440
+A partir de acá voy a empezar a trabajar con mis agentes.
+
+00:33:46.440 --> 00:33:50.480
+Dentro de mis agentes, ya voy a tratar de trabajar acá.
+
+00:33:50.480 --> 00:33:51.240
+Hago doble click.
+
+00:33:51.680 --> 00:33:54.240
+Aquí dice, conector, checker note.
+
+00:33:54.240 --> 00:33:56.920
+Van a colocar y call define below.
+
+00:33:56.920 --> 00:33:59.920
+Y aquí no van a colocar el prompt.
+
+00:33:59.920 --> 00:34:01.720
+Sé que dice prompt user message.
+
+00:34:01.720 --> 00:34:06.120
+Esto es justamente el mensaje de su cliente.
+
+00:34:06.120 --> 00:34:10.480
+Y aquí van a colocar de su mensaje, ojalá no más.
+
+00:34:10.480 --> 00:34:13.960
+Ya, ya hice un punto message.
+
+00:34:13.960 --> 00:34:17.680
+Ahora, ¿qué más enable feedback model?
+
+00:34:17.680 --> 00:34:18.160
+Opción.
+
+00:34:19.160 --> 00:34:20.280
+Vamos a dar opción.
+
+00:34:20.280 --> 00:34:25.160
+Ya, vamos a añadir en opciones para colocar
+
+00:34:25.160 --> 00:34:26.920
+System Message.
+
+00:34:26.920 --> 00:34:28.240
+Ya.
+
+00:34:28.240 --> 00:34:31.160
+Y aquí es donde sí o sí tienen que dar el prompt.
+
+00:34:31.160 --> 00:34:33.760
+Ese es el prompt que necesitamos.
+
+00:34:33.760 --> 00:34:37.480
+Ahora, en este caso, por ejemplo,
+
+00:34:37.480 --> 00:34:41.480
+yo quiero que todo lo que me envía el cliente,
+
+00:34:41.480 --> 00:34:44.800
+digamos que no sé, quiero hacer una cita con un doctor,
+
+00:34:44.800 --> 00:34:45.560
+ya.
+
+00:34:45.560 --> 00:34:50.840
+O quiero hacer una cita para no se vender un terreno o demás.
+
+00:34:50.840 --> 00:34:54.520
+Entonces, sí o sí se tiene que, en este caso,
+
+00:34:54.520 --> 00:34:58.440
+la empresa darme una agenda.
+
+00:34:58.440 --> 00:35:01.480
+Por ejemplo, a ver, ¿dónde hay afluencia bastante de empresas
+
+00:35:01.480 --> 00:35:03.840
+que necesiten algo de calendarios?
+
+00:35:03.840 --> 00:35:09.360
+Obviamente, hay en industrias que son venta de terrenos,
+
+00:35:09.360 --> 00:35:16.800
+doctores, medicinas, bancos, incluso para ir al hospital.
+
+00:35:16.800 --> 00:35:17.800
+O sea, se filas, ¿no?
+
+00:35:17.800 --> 00:35:22.920
+Entre lo más aconsejable es que un sistema, sí o sí,
+
+00:35:22.920 --> 00:35:27.640
+les dé hora, la fecha correspondiente.
+
+00:35:27.640 --> 00:35:29.320
+Incluso para un paciente, ¿no?
+
+00:35:29.320 --> 00:35:33.840
+El paciente no debería de chocar con otro paciente para,
+
+00:35:33.840 --> 00:35:35.880
+porque obviamente son un turno.
+
+00:35:35.880 --> 00:35:43.160
+Y a veces las especialidades en medicinas son escasas en algunos
+
+00:35:43.160 --> 00:35:46.280
+hospitales de primer, segundo nivel.
+
+00:35:46.280 --> 00:35:48.400
+Ya entonces, aquí ese prompt, yo lo voy a hacer.
+
+00:35:48.400 --> 00:35:52.560
+Ya los tenías, yo tengo un prompt, se van a copiar.
+
+00:35:52.560 --> 00:35:53.880
+Os voy a mostrar mi prompt.
+
+00:35:56.320 --> 00:35:56.800
+Ahí está.
+
+00:36:00.440 --> 00:36:02.720
+Este es mi prompt.
+
+00:36:02.720 --> 00:36:08.200
+Ya dice, eres un asistente especializado únicamente en
+
+00:36:08.200 --> 00:36:11.920
+gestión de citas de Google Calendar mediante mensajes
+
+00:36:11.920 --> 00:36:14.320
+recibidos desde WhatsApp.
+
+00:36:14.320 --> 00:36:15.240
+Aquí está.
+
+00:36:15.240 --> 00:36:19.000
+Fecha y hora actuar y le doy no.
+
+00:36:19.000 --> 00:36:22.960
+Aquí por si acaso, cuando ustedes se hagan sus prompts,
+
+00:36:22.960 --> 00:36:24.440
+siempre añadan esto.
+
+00:36:24.440 --> 00:36:27.560
+Bien, estoy añadiendo JavaScript.
+
+00:36:27.560 --> 00:36:28.600
+¿Por qué JavaScript?
+
+00:36:28.600 --> 00:36:31.880
+Porque lo interpreto de mejor manera y actualiza los datos
+
+00:36:31.880 --> 00:36:33.880
+de manera directa.
+
+00:36:33.880 --> 00:36:35.680
+Mira, ¿qué otro?
+
+00:36:35.680 --> 00:36:36.280
+Otro.
+
+00:36:36.280 --> 00:36:37.560
+Aquí va a haber otros más.
+
+00:36:37.560 --> 00:36:40.680
+Bueno, 8, 3 o 4, que voy por ahí.
+
+00:36:40.680 --> 00:36:41.560
+Ya.
+
+00:36:41.560 --> 00:36:43.560
+Entonces, ¿qué implica el prompt?
+
+00:36:43.560 --> 00:36:45.280
+Fíjense.
+
+00:36:45.280 --> 00:36:47.040
+Son horaria.
+
+00:36:47.040 --> 00:36:49.040
+¿Vos ustedes pueden cocar Santa Cruz?
+
+00:36:49.040 --> 00:36:53.760
+UTC no sé, menos 5, porque somos 4, si ya no me acuerdo.
+
+00:36:53.760 --> 00:36:55.640
+Varié por minutos, pero.
+
+00:36:55.640 --> 00:36:58.840
+Luego, fíjese, no debes responder preguntas fuera de la
+
+00:36:58.840 --> 00:37:00.200
+gestión de citas.
+
+00:37:00.280 --> 00:37:02.440
+Si el usuario realiza consultas generales respondo
+
+00:37:02.440 --> 00:37:05.440
+únicamente, solo puedo ir a la gestión y consultar.
+
+00:37:05.440 --> 00:37:08.160
+Estamos creando citas y eliminación de citas.
+
+00:37:08.160 --> 00:37:08.920
+¿Qué acciones?
+
+00:37:08.920 --> 00:37:10.600
+Cree cita, consultar cita.
+
+00:37:10.600 --> 00:37:12.400
+O sea, el cliente puede hacer esto.
+
+00:37:12.400 --> 00:37:15.240
+Crear una cita, consultar una cita, reprogramar una cita o
+
+00:37:15.240 --> 00:37:16.800
+eliminar una cita.
+
+00:37:16.800 --> 00:37:20.040
+Incluso para cada uno de estos puntos, ustedes pueden darle
+
+00:37:20.040 --> 00:37:21.320
+la fecha.
+
+00:37:21.320 --> 00:37:27.840
+Porque imagínense, yo tengo cita con el doctor Mañan y lo voy
+
+00:37:27.880 --> 00:37:30.840
+a cancelar faltando media hora.
+
+00:37:30.840 --> 00:37:33.960
+El sistema debería de denegarme, ¿no?
+
+00:37:33.960 --> 00:37:36.440
+Para evitar, porque a última hora,
+
+00:37:36.440 --> 00:37:40.040
+eliminar todo no es obviamente lógico.
+
+00:37:40.040 --> 00:37:43.440
+Y todos esos puntos, los puntos más detallados debería de
+
+00:37:43.440 --> 00:37:44.040
+estar.
+
+00:37:44.040 --> 00:37:47.600
+Por eso es que si os es necesario, trabaja con un plan
+
+00:37:47.600 --> 00:37:51.080
+bastante ideal, adecuado.
+
+00:37:51.080 --> 00:37:53.720
+Ya aquí está, ¿cómo se creó una cita?
+
+00:37:53.720 --> 00:37:55.960
+¿Cómo se reprograma?
+
+00:37:55.960 --> 00:38:00.040
+Todo lo estoy dando al sistema, a mi IA para canalizar y
+
+00:38:00.040 --> 00:38:01.920
+hablar de lo demás.
+
+00:38:01.920 --> 00:38:04.600
+Incluso le doy los días.
+
+00:38:04.600 --> 00:38:07.440
+Hoy, o en fin, interpreta correctamente las expresiones
+
+00:38:07.440 --> 00:38:10.960
+como hoy, mañana, pasado, el lunes, próximo lunes.
+
+00:38:10.960 --> 00:38:15.160
+Y esto también es un coloquio que se utiliza bastante en
+
+00:38:15.160 --> 00:38:18.680
+diferentes regiones, no solamente de Bolivia, ¿no?
+
+00:38:18.680 --> 00:38:21.760
+Sino del mundo, porque quizás nosotros, en vez de decir
+
+00:38:21.760 --> 00:38:24.680
+próximo mes, hay otra persona que lo dice de manera diferente.
+
+00:38:24.680 --> 00:38:28.720
+Y a veces la IA puede interpretar muy erroneamente.
+
+00:38:28.720 --> 00:38:32.200
+Y esa parte, sí o sí hay que tratar de colocar todo este
+
+00:38:32.200 --> 00:38:33.120
+pronto.
+
+00:38:33.120 --> 00:38:34.280
+Este pronto se está pasando.
+
+00:38:34.280 --> 00:38:40.520
+Lo voy a juntar al caso al clasio.
+
+00:38:40.520 --> 00:38:43.040
+Pero eso voy a pasar ahorita para que se quieran se pruebas y
+
+00:38:43.040 --> 00:38:45.680
+me están siguiendo.
+
+00:38:45.680 --> 00:38:49.160
+Lo cual lo dudo, pero espero que se.
+
+00:38:49.160 --> 00:38:52.880
+Pero si no, y los envío al pronto.
+
+00:38:52.960 --> 00:38:57.600
+En más de ese pronto, ustedes pueden cambiar a ventas,
+
+00:38:57.600 --> 00:39:01.400
+cambiar a otras cosas y listo.
+
+00:39:01.400 --> 00:39:03.280
+Entonces, ese pronto voy a colocar acá.
+
+00:39:05.960 --> 00:39:07.280
+Listo.
+
+00:39:07.280 --> 00:39:10.760
+Una vez que lo colocan ahí, voy a hacer lo siguiente.
+
+00:39:10.760 --> 00:39:12.320
+Vamos a elegir el modelo.
+
+00:39:12.320 --> 00:39:14.120
+Ya, ¿a qué más puedo elegir?
+
+00:39:14.120 --> 00:39:14.600
+¿Por qué?
+
+00:39:14.600 --> 00:39:15.080
+¿Por qué?
+
+00:39:15.080 --> 00:39:16.120
+¿Por formato?
+
+00:39:16.120 --> 00:39:18.200
+¿Option?
+
+00:39:18.200 --> 00:39:19.720
+Bueno, aquí fíjense.
+
+00:39:19.720 --> 00:39:22.720
+Podemos colocar máximas iteraciones.
+
+00:39:22.720 --> 00:39:25.720
+Retornar, algunas rapes, bien.
+
+00:39:25.720 --> 00:39:26.200
+Está bien.
+
+00:39:26.200 --> 00:39:29.160
+Y pueden aumentar un montón de cosas.
+
+00:39:29.160 --> 00:39:30.760
+Ya.
+
+00:39:30.760 --> 00:39:33.840
+Ahora sí, lo voy a asegurar.
+
+00:39:33.840 --> 00:39:37.680
+Vamos a elegirnos un modelo previo.
+
+00:39:37.680 --> 00:39:41.760
+No sé si esta cuenta su credencia la tienen que activarlo.
+
+00:39:41.760 --> 00:39:45.960
+Luego, bueno, yo voy a elegir YEPT5 mini, así que no hay
+
+00:39:45.960 --> 00:39:46.600
+problema.
+
+00:39:46.720 --> 00:39:53.680
+O sea que este me genera gastos de que vamos a elegir el 8.
+
+00:39:53.680 --> 00:39:55.240
+Oh, 4 mini.
+
+00:39:55.240 --> 00:39:58.360
+Oh, dónde está la suba.
+
+00:39:58.360 --> 00:39:59.120
+Donde está?
+
+00:39:59.120 --> 00:40:02.560
+Donde está YEPT5, YEPT9, ¿no?
+
+00:40:02.560 --> 00:40:03.600
+El 4 mini.
+
+00:40:03.600 --> 00:40:04.680
+Oye, ¿por qué no se va a consumir?
+
+00:40:04.680 --> 00:40:06.040
+Bueno, son de datos.
+
+00:40:06.040 --> 00:40:08.160
+Tóquenos, gasten los últimos.
+
+00:40:08.160 --> 00:40:11.440
+Quiero recomiendo que cuando trabajen con un sistema,
+
+00:40:11.440 --> 00:40:14.160
+lo más adecuado, lo más ansioso que su sistema sea.
+
+00:40:14.160 --> 00:40:19.160
+El último, contar que responda y sea rápido, me lío.
+
+00:40:19.160 --> 00:40:23.760
+Ya, ¿qué más podemos añadir?
+
+00:40:23.760 --> 00:40:24.400
+Nada más.
+
+00:40:24.400 --> 00:40:27.840
+Vamos a hacer el cheat de pericoes.
+
+00:40:27.840 --> 00:40:29.960
+Listo.
+
+00:40:29.960 --> 00:40:33.960
+Ya, ahora, dentro de esto, generalmente,
+
+00:40:33.960 --> 00:40:35.360
+ya podemos trabajar.
+
+00:40:35.360 --> 00:40:38.240
+A ver, haré un ejemplo.
+
+00:40:38.240 --> 00:40:40.520
+Ahora, ¿qué proceso?
+
+00:40:40.600 --> 00:40:43.680
+Voy a de nuevo mandar mi, no sé si este está activado,
+
+00:40:43.680 --> 00:40:46.240
+enviado o activado.
+
+00:40:46.240 --> 00:40:47.320
+Si ahora más activado.
+
+00:40:47.320 --> 00:40:51.680
+A ver, si yo mando ahorita, debería de capturar menos datos.
+
+00:40:51.680 --> 00:40:52.760
+Ya.
+
+00:40:52.760 --> 00:40:55.240
+Pero ahorita no me vas a responder todavía la IA,
+
+00:40:55.240 --> 00:40:57.360
+porque solamente quiero que funcione.
+
+00:40:57.360 --> 00:40:58.840
+A ver, dame un ratito.
+
+00:40:58.840 --> 00:41:01.960
+Voy a activar.
+
+00:41:01.960 --> 00:41:05.120
+Voy a mandarme un mensajito.
+
+00:41:05.120 --> 00:41:06.760
+Pero un rato.
+
+00:41:06.760 --> 00:41:07.240
+Esto.
+
+00:41:11.080 --> 00:41:14.680
+Ahora, si voy a enviarme un hola y me tiene que responder un
+
+00:41:14.680 --> 00:41:17.480
+hola.
+
+00:41:17.480 --> 00:41:18.240
+Listo.
+
+00:41:18.240 --> 00:41:20.000
+Y escucha.
+
+00:41:20.000 --> 00:41:21.000
+Está procesando.
+
+00:41:24.080 --> 00:41:27.360
+Esperemos un rato.
+
+00:41:27.360 --> 00:41:28.880
+Y ya me envió.
+
+00:41:28.880 --> 00:41:30.480
+Ya, y me dice hola.
+
+00:41:30.480 --> 00:41:33.520
+Bueno, se va a mostrar para que me crean.
+
+00:41:41.080 --> 00:41:42.080
+Ya.
+
+00:41:48.600 --> 00:41:53.160
+Agua, y cuivi, ¿음?
+
+00:41:53.160 --> 00:41:53.840
+Buek costo.
+
+00:41:58.200 --> 00:42:00.800
+Ahora cominking, ¿persilias?
+
+00:42:00.800 --> 00:42:03.720
+I go compte a su amigo o a su Teraz verdad lo uní,
+
+00:42:03.720 --> 00:42:07.280
+¿xx86?
+
+00:42:07.280 --> 00:42:17.120
+por ejemplo ya me he escrituado dice hola 817 pero eso me ha respondido pero por qué me
+
+00:42:17.120 --> 00:42:23.520
+ha respondido hola porque no le generó todavía el aspecto técnico del mensaje si vuelvo de
+
+00:42:23.520 --> 00:42:33.840
+nuevo mi http donde dice hola debería estar ahora si el mensaje vos hola y le voy a jalar
+
+00:42:33.840 --> 00:42:43.960
+lo put esto ahora sé si lo vuelvo a ejecutar debería de activarse voy a volver a ejecutar
+
+00:42:45.520 --> 00:42:50.480
+voy a vendarle hola quiero una cita
+
+00:42:53.160 --> 00:43:01.080
+ya está procesando ahí está pensando y lo hace más rápido y ahora lo voy a volver a mostrar
+
+00:43:01.080 --> 00:43:04.600
+fíjense qué me dice
+
+00:43:06.600 --> 00:43:15.120
+para qué día deseas agendarme y ya me están ducits listo en ya funciona pero ahora quiero
+
+00:43:15.120 --> 00:43:21.640
+ver esto que lo haga de manera de mi google calendar que lo trabaje mis mensajes que
+
+00:43:21.640 --> 00:43:28.480
+lo trabajen correos que me lo guarden pdf o sea ya se puede hacer un montón de cosas no
+
+00:43:28.800 --> 00:43:34.240
+para eso ya está lo que son tools ya entonces los tools
+
+00:43:35.800 --> 00:43:40.800
+al principio de la clase y hemos activado mi google calendar voy a irme directamente
+
+00:43:40.800 --> 00:43:49.040
+a ello ya así que voy a entrarme acá donde está bueno estoy ahí no voy a venir acá voy a irme
+
+00:43:49.040 --> 00:43:54.240
+acá y voy a irme directamente a calendar
+
+00:43:59.480 --> 00:44:05.920
+ya en mi calendario voy a colocar voy a ignorar estos
+
+00:44:07.920 --> 00:44:18.800
+voy a colocar un nuevo calendario crear calendario voy a decir no sé cita médica
+
+00:44:24.320 --> 00:44:25.640
+y lo crean
+
+00:44:29.200 --> 00:44:32.000
+y esto ya se creó
+
+00:44:32.680 --> 00:44:39.360
+aquí está cita médica vuelven hacia atrás y aquí debería de aparecer la cita médica ya estoy
+
+00:44:39.360 --> 00:44:47.680
+previsando este los demás para que no los desconozca y pueden colocarse en los listos venimos acá
+
+00:44:47.680 --> 00:44:55.520
+ahora y ahora puedo elegir esa parte ya hago clic y vamos a irnos a calendar
+
+00:44:57.480 --> 00:45:00.240
+hay dice google calendar tool ya hago clic
+
+00:45:02.600 --> 00:45:06.720
+voy a borrar este un rato y aquí me trabaja con otro ticket
+
+00:45:09.840 --> 00:45:16.720
+siempre trabajé muy aparte cada proceso lo voy a borrar y voy a colocar
+
+00:45:17.760 --> 00:45:19.440
+administración de citas
+
+00:45:23.120 --> 00:45:25.520
+listo vengo ahí y lo voy a dejar hasta ahí
+
+00:45:27.520 --> 00:45:32.960
+no solamente puede haber un calendario puede haber un montón de calendarios pero ahorita
+
+00:45:32.960 --> 00:45:40.400
+vamos a ver bastante lo que quiero en este caso es identificar mi proceso a o click
+
+00:45:41.120 --> 00:45:47.920
+aquí dice google calendar count ahí está yo ya tengo esto ustedes pueden crear una nueva credencial
+
+00:45:48.880 --> 00:45:54.880
+ya digamos que lo voy a borrar esto para hacerlo con ustedes voy a borrarlo bueno se lo abritó así
+
+00:45:56.000 --> 00:46:00.640
+ya saben el que ahorita hemos hecho en principio de la clase este es su
+
+00:46:01.760 --> 00:46:08.320
+idea de su clócons y este es el secreto y la se ve hecho que es lo que hemos hecho acá
+
+00:46:10.880 --> 00:46:19.280
+el secreto y mi ad eso nomás lo copian y lo colocan ok ok y listo los activar ya ya hemos
+
+00:46:19.280 --> 00:46:28.480
+hecho varios los mentales con calendar ya eligen ese y aquí ya podemos empezar a analizar algunos
+
+00:46:28.480 --> 00:46:37.760
+puntos esos puntos me van a salir para muchas cosas set automáticos manualmente vamos a colocar
+
+00:46:37.920 --> 00:46:43.200
+primero ya descripción dice creating un evento en google calendar
+
+00:46:46.240 --> 00:46:49.120
+aquí vamos a colocar lo siguiente usar
+
+00:46:51.360 --> 00:46:54.720
+le vamos a hacer iphone usar
+
+00:46:59.040 --> 00:47:00.960
+porque no quieres esto no hay eso porque
+
+00:47:03.440 --> 00:47:03.920
+usar
+
+00:47:04.480 --> 00:47:08.880
+esta herramienta
+
+00:47:14.160 --> 00:47:14.720
+cuando
+
+00:47:16.800 --> 00:47:19.920
+el usuario o cliente
+
+00:47:20.400 --> 00:47:21.920
+de
+
+00:47:23.680 --> 00:47:26.000
+crear una cita
+
+00:47:28.000 --> 00:47:33.760
+listo resource evento operación crear ahora vamos a seleccionar
+
+00:47:35.440 --> 00:47:39.200
+ahí debería de aparecer fíjense acá cita médica dice me ha parecido
+
+00:47:40.400 --> 00:47:49.600
+hago click ya trabaja automáticamente ya ya podemos ahorita hacerlo de manera automática
+
+00:47:50.480 --> 00:47:52.560
+ahora fijense acá
+
+00:47:54.400 --> 00:48:02.320
+está esta hora que pasa acá y este es interesante porque automáticamente quiero que la y ya lo
+
+00:48:02.320 --> 00:48:09.520
+haga ya no quiero ya estar recepcionando fechas haciendo cada punto o sea da flojera en los polars
+
+00:48:09.520 --> 00:48:17.760
+ya entonces vamos a utilizar algunas cabezas voy a venir acá a fails y vamos a colocar en
+
+00:48:17.760 --> 00:48:24.640
+este caso algunas descripciones a ver que podamos utilizar el caixa
+
+00:48:26.400 --> 00:48:34.320
+summary sería un summary un resumen y en este caso net more defined this
+
+00:48:35.680 --> 00:48:43.760
+podemos adhesen algunas cosas más a esto automáticamente ya lo hace
+
+00:48:44.720 --> 00:48:48.720
+un resumen más que todo nada de todo lo que ha pasado luego necesito digamos
+
+00:48:50.640 --> 00:48:56.720
+un lugar o sea que lo guarden vas a lugar que lo está enviando y listo estamos click
+
+00:48:57.440 --> 00:48:58.960
+y automáticamente lo hace
+
+00:49:00.560 --> 00:49:06.880
+que más necesito las descripciones descripciones o sea que descripción está utilizando el cliente
+
+00:49:06.960 --> 00:49:15.520
+lo va a guardar la ida así que automáticamente lo guardamos ya el esto ya entonces lo podemos
+
+00:49:15.520 --> 00:49:19.920
+y ejecutar incluso a ver vamos a ver
+
+00:49:22.480 --> 00:49:23.760
+voy a volver a ejecutar
+
+00:49:25.680 --> 00:49:29.680
+vamos a volver a ejecutar la mostrador voy a volver a mandar mi
+
+00:49:30.640 --> 00:49:34.640
+otro mensaje de mi celular
+
+00:49:36.640 --> 00:49:38.240
+voy a de nuevo ejecutar wolf low
+
+00:49:40.000 --> 00:49:50.320
+quiero agendar una cita para el martes de la semana siguiente
+
+00:49:52.160 --> 00:49:57.360
+se puede a horas no sé 4 pm
+
+00:49:57.920 --> 00:50:00.240
+listo le mando
+
+00:50:02.960 --> 00:50:03.520
+ya está
+
+00:50:06.720 --> 00:50:07.840
+la procesando
+
+00:50:10.160 --> 00:50:16.400
+listo ya me ha generado ahora me está preguntando ahorita me dice podrías confirmar si te refieres
+
+00:50:16.400 --> 00:50:23.280
+al martes 4 de julio además qué título deseas para la cita y le voy a decir eh voy a escuchar de nuevo
+
+00:50:24.240 --> 00:50:26.080
+en sí por favor
+
+00:50:29.600 --> 00:50:31.920
+ponle ponle
+
+00:50:33.120 --> 00:50:34.080
+de título
+
+00:50:35.440 --> 00:50:39.040
+revisión médica craneal
+
+00:50:41.280 --> 00:50:43.920
+esto y el enviado está procesando
+
+00:50:45.280 --> 00:50:52.560
+genera y sí ya me está preguntando para qué qué día de esa endocita para la revisión que le voy a
+
+00:50:52.560 --> 00:50:53.520
+cocar martes
+
+00:50:57.360 --> 00:51:01.280
+le voy a enviar de nuevo a ver si martes está acordando por si acaso
+
+00:51:02.560 --> 00:51:07.680
+eso está acordando qué días ya ya y ahí lo va a guardar dios
+
+00:51:09.600 --> 00:51:13.920
+a qué hora ahora me dice que todos eso tiene su prompte está bastante
+
+00:51:15.520 --> 00:51:16.320
+interesante
+
+00:51:17.280 --> 00:51:20.400
+el nuevo escuchar 16 pm
+
+00:51:23.680 --> 00:51:24.720
+ya listo
+
+00:51:27.680 --> 00:51:29.200
+listo ya está
+
+00:51:31.200 --> 00:51:33.520
+a ver perdón me escrité escriptoma
+
+00:51:36.880 --> 00:51:41.440
+ya y se acuerda se está acordando porque aquí están viendo mis ejecuciónes lo de las salidas
+
+00:51:42.000 --> 00:51:42.400
+ahí está
+
+00:51:43.440 --> 00:51:44.480
+están viendo nada
+
+00:51:47.280 --> 00:51:52.720
+sí le voy a decir y ahí van a por eso ya pueden contabilizar cuántos mensajes están utilizando
+
+00:51:54.560 --> 00:51:56.080
+ya van a ver mi respuesta
+
+00:51:58.160 --> 00:52:03.360
+ya ahí está pero vamos a ver acá ustedes ya tienen que trabajar la parte de programs y demás
+
+00:52:05.040 --> 00:52:07.600
+ya ya van a actualizar y se va a actualizar
+
+00:52:10.480 --> 00:52:13.760
+ya por aquí lo está sino está hay que mejorar prompt
+
+00:52:14.320 --> 00:52:16.320
+el coato
+
+00:52:17.120 --> 00:52:18.320
+ah cierto
+
+00:52:19.600 --> 00:52:22.800
+preguntenle cosas obvias ya porque martes yo le dije que
+
+00:52:23.920 --> 00:52:25.840
+martes 4 pero el 4 sábado
+
+00:52:26.400 --> 00:52:31.200
+ya es eso pero no solamente esos chicos miren aquel que vamos a hacer
+
+00:52:33.280 --> 00:52:36.400
+aparte de la google calendar pueden añadir y lo siguiente
+
+00:52:38.480 --> 00:52:43.120
+ya por ejemplo esto puede ser aquí tienen que especificar igual
+
+00:52:44.720 --> 00:52:46.800
+guardar citas eso me olvide
+
+00:52:48.080 --> 00:52:49.120
+guardar citas
+
+00:52:51.440 --> 00:52:53.360
+ya listo ahora otro
+
+00:52:55.040 --> 00:53:00.240
+pueden hacer lo siguiente igual aquí pueden añadir otro otro calendario
+
+00:53:02.000 --> 00:53:03.440
+pero con qué objetivo
+
+00:53:05.040 --> 00:53:09.200
+con el mismo objetivo de que eso algunas fechas no pueden sobreponerse
+
+00:53:10.560 --> 00:53:13.440
+no pueden sobreponerse entonces aquí podrían colocar
+
+00:53:14.240 --> 00:53:14.720
+eh
+
+00:53:16.560 --> 00:53:19.120
+eliminación de cites eliminar cita
+
+00:53:19.920 --> 00:53:24.320
+o sea que tengo sus susperios siendo acuenta cuando estaba preguntándole cuando estaba hablando con la lla
+
+00:53:24.720 --> 00:53:29.520
+me estaba diciendo si quiero crear eliminar todo solo me hago para eso me de hecho no
+
+00:53:30.240 --> 00:53:31.200
+en eso estoy haciendo
+
+00:53:32.640 --> 00:53:38.160
+aquí pueden crear más de sus ya y aquí igual pueden trabajar de la misma manera
+
+00:53:38.480 --> 00:53:44.000
+hacer el calendario automáticamente manual descripción e
+
+00:53:45.840 --> 00:53:52.960
+utilizar esto si el usuario quiere eliminar cita
+
+00:53:54.480 --> 00:54:00.320
+evento lo dejamos ahí seleccionamos la misma cita médica
+
+00:54:01.120 --> 00:54:08.080
+lo atuntamos atuntamos y listo ya ahí pueden ejecutar pueden añadir descripciones y automáticamente
+
+00:54:08.400 --> 00:54:08.720
+igual
+
+00:54:09.840 --> 00:54:10.400
+demás
+
+00:54:13.360 --> 00:54:17.840
+ya listo una una vez que hacemos eso
+
+00:54:19.760 --> 00:54:28.480
+ahora no solamente puede haber un un usuario puede haber dos esto por ejemplo puede ser
+
+00:54:28.560 --> 00:54:39.200
+netamente para el la persona el cliente o usuario pero el médico debería tener otro webhook
+
+00:54:40.800 --> 00:54:42.080
+ya ocho webhook
+
+00:54:45.040 --> 00:54:50.640
+entonces de webhook ya puede ser ya para doctor muy aparta acá
+
+00:54:52.000 --> 00:54:55.040
+pero si no quieren hacer esto y hacer muchos webhooks
+
+00:54:55.920 --> 00:55:01.760
+pueden también trabajar con lo siguiente pueden venir acá y pueden colocar la la variante if
+
+00:55:04.320 --> 00:55:07.600
+if pues el if en avance bueno la medida ustedes
+
+00:55:08.960 --> 00:55:15.120
+en cole en cole cuando avanzamos informatic se ven en el if no es si tal cosa está
+
+00:55:15.120 --> 00:55:20.640
+se cumple si no no solamente es una condición hay pueden utilizar valores es decir
+
+00:55:20.960 --> 00:55:28.560
+puede no utilizar qué voy a tener qué entrada si si tal usuario escribe tal cosa haya si el número
+
+00:55:28.560 --> 00:55:32.800
+de tal persona es igual al número de tal persona pero vamos a lo probar
+
+00:55:34.800 --> 00:55:35.360
+webhook
+
+00:55:38.240 --> 00:55:41.840
+otro webhook digamos de acá lo voy a dejar acá
+
+00:55:42.960 --> 00:55:49.520
+digamos nos aquí estoy seleccionando un número ya y aquí voy a colocar no sé vamos a colocar
+
+00:55:49.520 --> 00:55:57.040
+el método webhook y lo mismo con ese mismo estamos trabajando solamente aquí tendría que
+
+00:55:57.760 --> 00:56:04.560
+aquí tendría que trabajar con el mismo orl del de la evolución api no
+
+00:56:05.760 --> 00:56:10.720
+sería con otro número pues no es bueno esto trabajarlo así siempre esto sería necesario
+
+00:56:10.720 --> 00:56:16.560
+ponerlo acá pero se puede hacerlo siempre se manejan solamente no lo van a dejar aquí
+
+00:56:16.560 --> 00:56:27.200
+pueden comparar no si el valor 1 70008 612 si es igual al valor 2 70005 5500 digamos
+
+00:56:27.760 --> 00:56:36.480
+vamos a dar de condición antes y a otro valor si es igual si es igual tu tanto tal tal número
+
+00:56:36.480 --> 00:56:41.520
+haya que me diga es verdad y me lleve otro campo y si no me llevo otro campo si es que
+
+00:56:41.600 --> 00:56:44.880
+me genera dos despuestas no y entonces lo pueden duplicar nomás
+
+00:56:46.400 --> 00:56:49.760
+y en base voy a originar más procesos no porque estoy yo sería así
+
+00:56:50.800 --> 00:56:55.440
+copio esto todo esto van a ser tanto lío y esto pegamos
+
+00:56:57.760 --> 00:57:06.000
+y aquí atendrían dos webhooks para un proceso y para otro proceso con este y ya nada más
+
+00:57:06.480 --> 00:57:13.040
+bueno en el módulo 2 si es que va a haber módulo 2 y vamos a hacer bps bps y es más en
+
+00:57:13.040 --> 00:57:14.640
+adentro pero antes de terminar la clase
+
+00:57:16.640 --> 00:57:19.760
+aquí van a ser una vez que hagan esto ya vienen acá
+
+00:57:22.080 --> 00:57:31.920
+vayan a producción se copian esto y lo van a volver a cambiar a mi evolución api acá
+
+00:57:32.880 --> 00:57:33.920
+acá
+
+00:57:35.200 --> 00:57:37.600
+a webhooks y le da nuevo acá
+
+00:57:39.600 --> 00:57:47.360
+y colocando que reintelgar tanto listo ya está con eso ustedes que van a lograr
+
+00:57:48.160 --> 00:57:52.240
+quién estén haciendo cada vez ejecutar ejecutar ejecutar automáticamente dispara siempre
+
+00:57:52.800 --> 00:57:57.600
+una vez que hagan eso o bien hasta que lo apague en su cómpulo cierran su bóker o cierran su
+
+00:57:58.080 --> 00:58:02.960
+cómpulo o sea este consuelo si lo cierran esto bien mente chao pero una vez que hagan eso
+
+00:58:03.600 --> 00:58:13.920
+aquí colocan publicar publican y le van a dar por ejemplo empresa médica no se inventan
+
+00:58:14.720 --> 00:58:16.800
+lo publican con eso
+
+00:58:19.440 --> 00:58:22.880
+ya trabajan y aquí van a colocar aquí no es necesario
+
+00:58:23.680 --> 00:58:29.840
+colocar nada y ya está y ya está trabajando de manera automática suene chon
+
+00:58:30.800 --> 00:58:34.800
+ya sin este solamente en sus computadores deberían de prender esto
+
+00:58:36.160 --> 00:58:42.480
+deberían de prender su docker minimizarlo y dejarlo prendido todo el día en los de
+
+00:58:42.480 --> 00:58:47.600
+escritoria y con eso automáticamente todos sus temas vas a solito sin estar comprando de la
+
+00:58:47.920 --> 00:58:54.800
+novedad más siempre es listo chicos ha sido un gusto vamos a quedar ahora para sus
+
+00:58:57.760 --> 00:58:58.480
+los esos
+
+00:59:00.720 --> 00:59:06.480
+es siete participantes van a defender el nueve ya saben se ve comentado y habíamos quedado en
+
+00:59:06.480 --> 00:59:11.120
+que este sábado no vamos a pasar para que vean a basar en sus proyectos y
+
+00:59:11.120 --> 00:59:19.840
+el 11 empezarían otro 7 y por último los que quedan el 16 de julio
+
+00:59:20.960 --> 00:59:29.520
+ya ahora para terminar más rápido si desean podemos hacerlo seguido es decir
+
+00:59:30.480 --> 00:59:37.360
+9 10 11 yo voy a estar creo que en vacaciones de mi trabajo unas unas semanas las siguientes
+
+00:59:37.600 --> 00:59:42.320
+semanas y que podemos aprovechar el ya terminar las clases y no alargamos hasta el 16
+
+00:59:42.880 --> 00:59:47.760
+no podemos terminarle mismo nueve toditos yo me quedo aunque tres horas con ustedes pero de una vez lo
+
+00:59:47.760 --> 00:59:55.600
+por el término ese día si desean y mejoras esa libran y están libres y ya no estén que
+
+00:59:55.600 --> 01:00:03.120
+así por ojo no tienen que existir todos solamente las personas que están listas ya los demás
+
+01:00:03.120 --> 01:00:09.360
+tienen libros igual pero depende ustedes ahora si voy a sacar asistencias
+
+01:00:11.200 --> 01:00:16.480
+vemos rato voy a enviar un formulario al whatsapp
+
+01:00:18.880 --> 01:00:25.680
+para ver qué opciones están eligiendo ya vemos los chicos voy a sacar asistencias
+
+01:00:26.640 --> 01:00:27.440
+y
+
+01:00:32.240 --> 01:00:33.440
+no me acuerdo
+
+01:00:36.960 --> 01:00:38.880
+ahora si tenemos ratito chicos
+
+01:00:41.680 --> 01:00:46.240
+ya que nos terminamos ahorita voy a llamar el listo igual pero se crea un cachoso ustedes
+
+01:00:48.240 --> 01:00:52.560
+mil discursos por no responderle a algunas personas a estas teoritas con semana de
+
+01:00:52.560 --> 01:00:58.960
+masacres igual y el examen es y no puedo ir a responder a casi nadie esta semana y así voy a
+
+01:00:58.960 --> 01:01:06.480
+estar hasta el siguiente lunes porque sigo tomando exámenes y también me están tomando examen así
+
+01:01:06.480 --> 01:01:14.240
+que está medio raro eso pero justo estoy en semana de masacres chicos mil disculpas
+
+01:01:15.520 --> 01:01:20.960
+si no les respondo espero que me entiendan ya les digo a los veis responder aunque en la noche o en
+
+01:01:21.040 --> 01:01:22.800
+madrugada en cuanto pueda
+
+01:01:25.520 --> 01:01:31.840
+tenemos ratito mas es que ultima tiempo fácil voy a empezar a dejar de compartir
+
+01:01:34.400 --> 01:01:37.600
+ya hoy día somos 14 ya en su idea voy a ver mas eliminados
+
+01:01:39.280 --> 01:01:45.120
+deben estar viendo creo portugano no se que esto jugando que todos estaban con eso
+
+01:01:46.080 --> 01:01:51.200
+y ya no es va a haber pon sexo para ustedes ahora si
+
+01:01:52.160 --> 01:01:55.280
+mal el malista de ratito voy a dejar de probar
+

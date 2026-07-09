@@ -1,0 +1,3984 @@
+1
+00:00:00,000 --> 00:00:08,680
+Rico, listo. Listo, empezaremos la clase entonces. Me van a dar un...
+
+2
+00:00:08,680 --> 00:00:14,920
+que seman un pequeño momento, justamente, seguramente, de ambiente, de al escuchar un montón de ruidos,
+
+3
+00:00:14,920 --> 00:00:20,200
+así que si es que no se me escucha, porfa, me dicen, ya, pero voy a tratar de hacer claro.
+
+4
+00:00:20,200 --> 00:00:27,200
+El micrófono un poco más fuerte, justo, las máquinas están metiendo ruidos, así que era necesario, ya.
+
+5
+00:00:27,360 --> 00:00:32,880
+Eso, chicos, así que empezaremos la clase de hoy. Demócrita y voy a hacer el compartir.
+
+6
+00:00:34,640 --> 00:00:45,320
+Lo siguiente. Ya, antes de eso, les voy a mandar un formulario, por favor, dentro del cual al grupo lo voy a enviar inmediatamente.
+
+7
+00:00:46,160 --> 00:00:56,320
+Tratencíos y de llenarlo hasta el finalizar la clase para que yo envíe sus datos y demás a Embajada y de los asistentes también, ya.
+
+8
+00:00:56,800 --> 00:00:59,760
+Así que lo estoy enviando inmediatamente al grupo.
+
+9
+00:01:00,360 --> 00:01:05,480
+Solamente, por si acaso, traten de colocarlo todo en mayúsculas, ya.
+
+10
+00:01:06,040 --> 00:01:10,640
+Y, traten de colocar su nombre completo, ya que eso va a entrar a...
+
+11
+00:01:11,640 --> 00:01:17,040
+a cualquier certificación o control que les haga a Embajada o de programa mismo.
+
+12
+00:01:17,040 --> 00:01:21,960
+Así que esa parte, por favor, llenarlo con todo mayúsculas.
+
+13
+00:01:22,000 --> 00:01:27,960
+Ya solamente ese apellido completo, nombre, correo y su número de células, nada más.
+
+14
+00:01:27,960 --> 00:01:28,520
+¿Visto?
+
+15
+00:01:29,080 --> 00:01:32,440
+Esa parte, les voy a enviar ahorita mismo al grupo.
+
+16
+00:01:34,440 --> 00:01:36,480
+Para que puedan enlazar.
+
+17
+00:01:36,480 --> 00:01:37,360
+¿Listo?
+
+18
+00:01:39,880 --> 00:01:46,960
+Vayan en este caso mientras esperamos a sus compañeros respondiendo.
+
+19
+00:01:46,960 --> 00:01:51,360
+Por favor, llenarlo para que al finalizar la clase por ahí, de mismo les dé a mi asistencia.
+
+20
+00:01:52,440 --> 00:01:58,520
+Y, saque los screens de pantalla que me están pidiendo urgentemente de todos ustedes.
+
+21
+00:01:58,520 --> 00:02:00,160
+¿Listo? Así que aquí voy a colocar.
+
+22
+00:02:00,880 --> 00:02:01,480
+¿Listo?
+
+23
+00:02:03,160 --> 00:02:05,640
+Ya, eso vayan llenando hasta el finalizar la clase.
+
+24
+00:02:06,280 --> 00:02:08,600
+Lo empezaremos con la clase Chivocos.
+
+25
+00:02:09,600 --> 00:02:11,720
+Para lo cual, voy a abrir un navegador.
+
+26
+00:02:11,720 --> 00:02:12,880
+De un ratito.
+
+27
+00:02:12,880 --> 00:02:15,200
+Mmm, ya.
+
+28
+00:02:16,800 --> 00:02:17,520
+¿Listo?
+
+29
+00:02:17,520 --> 00:02:21,040
+Vayan, vayan llenando los que acaban de ingresar, por favor.
+
+30
+00:02:22,080 --> 00:02:24,520
+El formular y cuanto hayan llenado.
+
+31
+00:02:24,520 --> 00:02:26,480
+Miren hasta ahorita, pero vayan llenando.
+
+32
+00:02:27,480 --> 00:02:29,920
+Esperamos dos minutos más para empezar.
+
+33
+00:02:29,920 --> 00:02:33,680
+¿Listo? Porque falta no, pero son 14, falta todavía.
+
+34
+00:02:35,160 --> 00:02:37,600
+Y ya están dos, así que normal.
+
+35
+00:02:38,800 --> 00:02:39,320
+¿Ya?
+
+36
+00:02:39,960 --> 00:02:40,720
+Empezaremos.
+
+37
+00:02:40,720 --> 00:02:42,680
+Eh, voy a minimizar esto.
+
+38
+00:02:44,880 --> 00:02:45,600
+¿Listo?
+
+39
+00:02:46,160 --> 00:02:48,320
+Ya está, vamos a asegurar un poco.
+
+40
+00:02:49,400 --> 00:02:50,920
+Ahora empezaremos con sí.
+
+41
+00:02:52,960 --> 00:02:53,960
+Ya, empezaremos.
+
+42
+00:02:53,960 --> 00:02:57,280
+Vamos directamente a nuestro símbolo del sistema.
+
+43
+00:02:58,280 --> 00:02:59,600
+Ya, o CMD.
+
+44
+00:03:00,360 --> 00:03:07,320
+Hace un clic y inmediatamente, como ya tenía la tarea de haber instalado hasta el día de hoy.
+
+45
+00:03:07,960 --> 00:03:10,120
+Así que no se preocupen esa parte.
+
+46
+00:03:10,120 --> 00:03:10,720
+¿Cómo está?
+
+47
+00:03:10,720 --> 00:03:12,720
+Ya, empezaremos entonces.
+
+48
+00:03:14,720 --> 00:03:15,360
+¿Qué tal?
+
+49
+00:03:16,520 --> 00:03:17,720
+Me siento.
+
+50
+00:03:18,720 --> 00:03:20,320
+Solo terebironica.
+
+51
+00:03:20,320 --> 00:03:22,320
+Listo, y silenciado.
+
+52
+00:03:22,320 --> 00:03:24,320
+Ahora sí, continuaremos.
+
+53
+00:03:24,320 --> 00:03:30,320
+Entonces, para esta parte directamente, lo mismo chicocos, abran su documento Word.
+
+54
+00:03:31,720 --> 00:03:37,720
+Ya, lo mismo, van a colocar en este caso la misma disposición para el cual les alcance.
+
+55
+00:03:38,720 --> 00:03:41,320
+No sé si soy yo, se escucha muy bajo.
+
+56
+00:03:41,320 --> 00:03:43,320
+Hola, hola, no escuché?
+
+57
+00:03:43,320 --> 00:03:44,320
+Se escucha bien, ¿no?
+
+58
+00:03:46,320 --> 00:03:48,320
+Poco bajo, se escucha muy bajo.
+
+59
+00:03:48,320 --> 00:03:55,320
+Ya, a ver, voy a tratar de incrementar mi volumen.
+
+60
+00:03:55,320 --> 00:03:56,320
+Listo.
+
+61
+00:04:00,320 --> 00:04:07,320
+Listo, los damas me pueden confirmar, igual que si es problema mío, problema de su compañero,
+
+62
+00:04:07,320 --> 00:04:10,320
+si se escucha bastante lenta.
+
+63
+00:04:11,320 --> 00:04:12,320
+Listo, listo.
+
+64
+00:04:12,320 --> 00:04:19,320
+Si mi discurpo, se escucha en una empresa que está soldando y está en un lío, pero...
+
+65
+00:04:19,320 --> 00:04:22,320
+Voy a tratar de acercarme lo más que pueda.
+
+66
+00:04:22,320 --> 00:04:25,320
+Ya, deben escucharte, voy a acomodarme para que se escuche mejor.
+
+67
+00:04:30,320 --> 00:04:31,320
+Ya, ahora sí.
+
+68
+00:04:31,320 --> 00:04:35,320
+Lo mismo, chicos, voy a tratar de hablar fuerte para que me escuchen.
+
+69
+00:04:35,320 --> 00:04:36,320
+Hagan un stretch igual.
+
+70
+00:04:36,320 --> 00:04:38,320
+Clásico número dos.
+
+71
+00:04:39,320 --> 00:04:42,320
+Coloca en su nombre.
+
+72
+00:04:44,320 --> 00:04:45,320
+Tantos, tantos, tantos, tantos.
+
+73
+00:04:45,320 --> 00:04:49,320
+Y me van a hacer todo lo que les voy a indicar, porque día van a ser la primera tarea que no han hecho en eso,
+
+74
+00:04:49,320 --> 00:04:52,320
+pero que alcanzemos todo, pero lo esperemos que sí.
+
+75
+00:04:52,320 --> 00:04:58,320
+Y dentro de ahí, ya saben, coloque en clase número dos, nombre y voy a hacer lo siguiente, ya.
+
+76
+00:04:58,320 --> 00:05:01,320
+Aquí voy a colocar en este caso, diagramas.
+
+77
+00:05:04,320 --> 00:05:05,320
+Y workflows.
+
+78
+00:05:08,320 --> 00:05:09,320
+Listo.
+
+79
+00:05:09,320 --> 00:05:13,320
+Y eso lo concentrean y luego, inmediatamente, colocamos paso uno.
+
+80
+00:05:13,320 --> 00:05:14,320
+Ya.
+
+81
+00:05:14,320 --> 00:05:15,320
+Nada más.
+
+82
+00:05:15,320 --> 00:05:20,320
+Voy a avanzar de aquí algo de teoría para que me entiendan un poquito que es lo que voy a hablar.
+
+83
+00:05:20,320 --> 00:05:23,320
+Y posteriormente, vamos a empezar a diseñar ya.
+
+84
+00:05:23,320 --> 00:05:28,320
+Así que paso número uno, lo que vamos a hacer todos es abrir nuestro CMD
+
+85
+00:05:28,320 --> 00:05:32,320
+y verificar lo que son los siguientes diagramas, ¿no?
+
+86
+00:05:32,320 --> 00:05:34,320
+En este caso, voy a hacer...
+
+87
+00:05:34,320 --> 00:05:37,320
+Ya saben, en Note, voy a escribir lo minúsculo.
+
+88
+00:05:37,320 --> 00:05:40,320
+Y ahora, diómbra.
+
+89
+00:05:40,320 --> 00:05:41,320
+Ya.
+
+90
+00:05:41,320 --> 00:05:42,320
+Listo.
+
+91
+00:05:42,320 --> 00:05:46,320
+Una vez que tenga ahí instalado el Note, no es necesario colocar la parte Docker.
+
+92
+00:05:46,320 --> 00:05:50,320
+Todavía no vamos a empezar con Docker, pero si pueden instalarlo, si generalmente,
+
+93
+00:05:50,320 --> 00:05:53,320
+voy a instalar antes a las siguientes, sub siguientes clases,
+
+94
+00:05:53,320 --> 00:05:55,320
+no voy a avanzar todavía eso.
+
+95
+00:05:55,320 --> 00:05:57,320
+Hoy te voy a explicar algunos aspectos más de esto, ya.
+
+96
+00:05:57,320 --> 00:06:01,320
+Ahora, vamos a instalar directamente N8N.
+
+97
+00:06:01,320 --> 00:06:03,320
+Y ahora, voy a instalarla.
+
+98
+00:06:03,320 --> 00:06:08,320
+Pero la forma más común para instalarlo con Note es la siguiente,
+
+99
+00:06:08,320 --> 00:06:12,320
+NPX, para colocar N8N.
+
+100
+00:06:12,320 --> 00:06:13,320
+Listo.
+
+101
+00:06:13,320 --> 00:06:15,320
+Y apretan Enter.
+
+102
+00:06:15,320 --> 00:06:19,320
+Una vez que apretan Enter, les va a salir un montón de warnings.
+
+103
+00:06:19,320 --> 00:06:20,320
+Ya.
+
+104
+00:06:20,320 --> 00:06:25,320
+No van a ignorarlo porque esos warnings generalmente son porque a veces algunos archivos
+
+105
+00:06:25,320 --> 00:06:29,320
+o algunos segmentos dentro de N8N ya se han quedado depreven...
+
+106
+00:06:29,320 --> 00:06:33,320
+Digo, así ya no se aporta actualiza por la parte de la empresa, no es nuestra culpa,
+
+107
+00:06:33,320 --> 00:06:36,320
+es netamente de la empresa de N8N.
+
+108
+00:06:36,320 --> 00:06:41,320
+Así que hagan click y vamos a esperar porque esto va a tardar bastante.
+
+109
+00:06:41,320 --> 00:06:44,320
+Póngalo unos 10 minutos a 15 minutos.
+
+110
+00:06:44,320 --> 00:06:48,320
+Mientras yo voy a estar trabajando algo de teoría para que me entiendan.
+
+111
+00:06:48,320 --> 00:06:49,320
+Ya.
+
+112
+00:06:49,320 --> 00:06:50,320
+Pero así tarda.
+
+113
+00:06:50,320 --> 00:06:52,320
+Les va a parecer un montón de warnings, por si acaso.
+
+114
+00:06:52,320 --> 00:06:57,320
+Así que no se asusten, solamente esperaremos hasta que haga.
+
+115
+00:06:57,320 --> 00:07:00,320
+Por ejemplo, en el mío ya tengo N8N.
+
+116
+00:07:00,320 --> 00:07:04,320
+Como ya tengo por su meditación, estamos inicializando el proceso.
+
+117
+00:07:04,320 --> 00:07:07,320
+Cuando ustedes ya lo tengan, les va a decir lo mismo.
+
+118
+00:07:07,320 --> 00:07:08,320
+Ya.
+
+119
+00:07:08,320 --> 00:07:10,320
+Fíjense ahí, ya me he inicializado.
+
+120
+00:07:10,320 --> 00:07:16,320
+Y fíjense lo que me tiene que aparecer al último cuando ustedes se instalen toda la parte de N8N.
+
+121
+00:07:16,320 --> 00:07:19,320
+Deme un cachito, voy a admitirlo algunos más.
+
+122
+00:07:21,320 --> 00:07:22,320
+Ya.
+
+123
+00:07:22,320 --> 00:07:23,320
+Listo.
+
+124
+00:07:23,320 --> 00:07:26,320
+Ahí estoy instalando lo que son las licencias.
+
+125
+00:07:26,320 --> 00:07:28,320
+Demás tenemos ratito.
+
+126
+00:07:38,320 --> 00:07:39,320
+Listo.
+
+127
+00:07:39,320 --> 00:07:40,320
+Ahora sí.
+
+128
+00:07:40,320 --> 00:07:47,320
+Cuando ustedes han instalado de manera correcta, generalmente N8N trabaja en el loging.
+
+129
+00:07:47,320 --> 00:07:50,320
+En este caso en el link que se llama localhost.
+
+130
+00:07:50,320 --> 00:07:55,320
+Para todo lo que trabajemos dentro de nuestra de nuestra PC, o sea nuestra casa que es la PC,
+
+131
+00:07:55,320 --> 00:07:58,320
+siempre va a llamar, va a llamarse un localhost.
+
+132
+00:07:58,320 --> 00:07:59,320
+Ya.
+
+133
+00:07:59,320 --> 00:08:06,320
+Así que en ese aspecto, N8N corre en este link localhost 5678.
+
+134
+00:08:06,320 --> 00:08:13,320
+O si nos puede impresionar la letra o y les va a habilitar una una interfaz.
+
+135
+00:08:13,320 --> 00:08:14,320
+Ya.
+
+136
+00:08:14,320 --> 00:08:15,320
+A ver, apretan.
+
+137
+00:08:15,320 --> 00:08:17,320
+No se va a aparecer nada todavía.
+
+138
+00:08:17,320 --> 00:08:19,320
+A mí me va a aparecer seguramente.
+
+139
+00:08:19,320 --> 00:08:20,320
+Ya me está apareciendo.
+
+140
+00:08:20,320 --> 00:08:22,320
+Ahí está cargando.
+
+141
+00:08:24,320 --> 00:08:25,320
+Listo.
+
+142
+00:08:25,320 --> 00:08:27,320
+Por ejemplo, ya me voy a salir.
+
+143
+00:08:28,320 --> 00:08:29,320
+Ya.
+
+144
+00:08:29,320 --> 00:08:30,320
+Esto los tiene que aparecer.
+
+145
+00:08:30,320 --> 00:08:32,320
+Ya tienen que registrar sus tons.
+
+146
+00:08:32,320 --> 00:08:33,320
+Ya.
+
+147
+00:08:33,320 --> 00:08:34,320
+Así que hasta ahí les espero.
+
+148
+00:08:34,320 --> 00:08:36,320
+Veme un ratito.
+
+149
+00:08:48,320 --> 00:08:49,320
+Ya.
+
+150
+00:08:49,320 --> 00:08:55,320
+Seguramente les va a tardar bastante porque al principio siempre es así porque tardan
+
+151
+00:08:55,320 --> 00:09:01,320
+en instalarse todos los patrones, todas las licencias internas para lo que es la instalación
+
+152
+00:09:01,320 --> 00:09:02,320
+interna en su PC.
+
+153
+00:09:02,320 --> 00:09:05,320
+Así que en ese aspecto hay que esperar.
+
+154
+00:09:05,320 --> 00:09:06,320
+Listo.
+
+155
+00:09:06,320 --> 00:09:11,320
+Así que mientras tanto, si tienen algún problema, no se sustentan.
+
+156
+00:09:11,320 --> 00:09:13,320
+Siempre va a aparecer por warnings, por warnings.
+
+157
+00:09:13,320 --> 00:09:16,320
+Así que no, no, no se sustentan ese aspecto.
+
+158
+00:09:17,320 --> 00:09:22,320
+Una vez que generamos esa parte, voy a minimizar esto.
+
+159
+00:09:22,320 --> 00:09:27,320
+Voy a avanzar alito de teoría para que me entienda más o menos cómo voy a trabajar.
+
+160
+00:09:27,320 --> 00:09:28,320
+Se los voy a hacer.
+
+161
+00:09:28,320 --> 00:09:34,320
+Se los estoy haciendo aparte de una guía para que no tengan problemas al momento de empezar
+
+162
+00:09:34,320 --> 00:09:37,320
+al proceso de olvidarse algunos puntos.
+
+163
+00:09:37,320 --> 00:09:38,320
+Se los voy a hacer una guía.
+
+164
+00:09:38,320 --> 00:09:43,320
+Pero igual el video va a estar muy aparte en YouTube para que lo tengan de manera muy clara.
+
+165
+00:09:43,320 --> 00:09:44,320
+Listo.
+
+166
+00:09:44,320 --> 00:09:47,320
+Así que empezaremos directamente con algunos aspectos.
+
+167
+00:09:47,320 --> 00:09:50,320
+Voy a admitir a alguien más de Moncacho.
+
+168
+00:09:50,320 --> 00:09:52,320
+Ya.
+
+169
+00:09:52,320 --> 00:09:58,320
+Entonces me van a juntar en la parte de su Word, esta parte.
+
+170
+00:09:58,320 --> 00:09:59,320
+Ya.
+
+171
+00:09:59,320 --> 00:10:04,320
+Que hayan ya creado todo esto y estén instalando el N8N.
+
+172
+00:10:04,320 --> 00:10:06,320
+Nada más.
+
+173
+00:10:06,320 --> 00:10:10,320
+Si es que les saliera error, me dicen mejor si no sale error.
+
+174
+00:10:10,320 --> 00:10:14,320
+Entonces si tenemos mayor cantidad de probabilidades de ser instalaciones.
+
+175
+00:10:14,320 --> 00:10:16,320
+No creo que les decían instalar la primera vez en Nout.
+
+176
+00:10:16,320 --> 00:10:20,320
+Cuando instalan varios Noutes hay que elegir la versión de Nout.
+
+177
+00:10:20,320 --> 00:10:25,320
+Pero como solamente la mayoría hemos instalado un Nout, así que no hay problema.
+
+178
+00:10:25,320 --> 00:10:29,320
+Ya una vez que hacemos eso voy a explicarles un cachito lo siguiente.
+
+179
+00:10:29,320 --> 00:10:31,320
+Excalidrado.
+
+180
+00:10:36,320 --> 00:10:39,320
+Ya les voy a explicar algunos aspectos.
+
+181
+00:10:41,320 --> 00:10:43,320
+Ya de mi cachito.
+
+182
+00:10:46,320 --> 00:10:47,320
+Ahora sí.
+
+183
+00:10:47,320 --> 00:10:51,320
+Voy a venirnos acá y les voy a explicar algunos puntos que vamos a tratar con esto.
+
+184
+00:10:51,320 --> 00:10:53,320
+A ver.
+
+185
+00:10:53,320 --> 00:10:55,320
+Lo siguiente.
+
+186
+00:10:56,320 --> 00:10:59,320
+Generalmente voy a trabajar con lo siguiente.
+
+187
+00:10:59,320 --> 00:11:01,320
+Voy a hacerlo así.
+
+188
+00:11:02,320 --> 00:11:04,320
+Y vamos a hacerlo lo siguiente.
+
+189
+00:11:04,320 --> 00:11:05,320
+Chicos.
+
+190
+00:11:05,320 --> 00:11:06,320
+Tata.
+
+191
+00:11:09,320 --> 00:11:17,320
+Ya me van a entender qué es lo que voy a generarme y cuáles son los procesos de autenticación y los procesos de manejo de, en este caso, N8N.
+
+192
+00:11:17,320 --> 00:11:18,320
+¿Listo?
+
+193
+00:11:18,320 --> 00:11:21,320
+Dentro de acá voy a colocar N8N.
+
+194
+00:11:21,320 --> 00:11:23,320
+N8N por si acaso.
+
+195
+00:11:23,320 --> 00:11:25,320
+Cuando trabajamos de manera...
+
+196
+00:11:25,320 --> 00:11:28,320
+Hay varias formas de trabajar N8N.
+
+197
+00:11:28,320 --> 00:11:31,320
+No solamente la que estamos utilizando, la forma local.
+
+198
+00:11:31,320 --> 00:11:33,320
+Hay N tipos.
+
+199
+00:11:33,320 --> 00:11:38,320
+Ya, dentro de los cuales, de mi cachito, voy a silenciar a algunas personas.
+
+200
+00:11:46,320 --> 00:11:47,320
+¿Listo?
+
+201
+00:11:47,320 --> 00:11:50,320
+Dentro de N8N, podemos trabajar de varias maneras.
+
+202
+00:11:50,320 --> 00:11:53,320
+No es de forma local la que estamos haciendo ahorita.
+
+203
+00:11:53,320 --> 00:11:55,320
+Así que de manera local,
+
+204
+00:11:55,320 --> 00:11:57,320
+estamos trabajando con Note.
+
+205
+00:11:57,320 --> 00:11:58,320
+Ya.
+
+206
+00:11:58,320 --> 00:12:00,320
+Esto es de manera local para mí.
+
+207
+00:12:00,320 --> 00:12:09,320
+Así que lo voy a adjuntar con un trazo para que se entienda qué les voy a explicar hoy día y qué más o menos vamos a trabajar en ese sentido.
+
+208
+00:12:09,320 --> 00:12:10,320
+Ya.
+
+209
+00:12:10,320 --> 00:12:12,320
+Así que de mancachito.
+
+210
+00:12:12,320 --> 00:12:13,320
+¿Listo?
+
+211
+00:12:13,320 --> 00:12:16,320
+Generalmente pasa lo siguiente.
+
+212
+00:12:16,320 --> 00:12:19,320
+A veces voy a copiar este pegar también.
+
+213
+00:12:19,320 --> 00:12:21,320
+De mancachito.
+
+214
+00:12:21,320 --> 00:12:22,320
+Ya.
+
+215
+00:12:22,320 --> 00:12:23,320
+Esto lo voy a acomodar.
+
+216
+00:12:23,320 --> 00:12:26,320
+Ya que la clase nos va a devorar con hora y media.
+
+217
+00:12:27,320 --> 00:12:30,320
+Así que vamos a tratar de avanzar.
+
+218
+00:12:30,320 --> 00:12:39,320
+Va a haber una clase o un mit o unos videos si es que tuvieran algún punto de errores durante la clase o demás.
+
+219
+00:12:39,320 --> 00:12:42,320
+Para que en este caso les pueda ayudar.
+
+220
+00:12:42,320 --> 00:12:46,320
+Porque en ese caso hay veces hay computadoras que son muy independientes de cada uno.
+
+221
+00:12:46,320 --> 00:12:52,320
+O sea, tienen diferente tipo de configuración en casos muy extremos ojo les digo.
+
+222
+00:12:52,320 --> 00:12:59,320
+Pero para ese tipo de caso sí o sí voy a tratar de hacer otro mit o directamente me pueden escribir a Limbox.
+
+223
+00:12:59,320 --> 00:13:02,320
+Ahí me responde la, siempre responde la noche por ese caso.
+
+224
+00:13:02,320 --> 00:13:03,320
+Listo.
+
+225
+00:13:03,320 --> 00:13:05,320
+Y otra forma por ese caso es Docker.
+
+226
+00:13:05,320 --> 00:13:06,320
+Ya.
+
+227
+00:13:06,320 --> 00:13:08,320
+Y vamos a bajar de manera local con note.
+
+228
+00:13:08,320 --> 00:13:11,320
+Esto netamente va a trabajar dentro de la PC.
+
+229
+00:13:11,320 --> 00:13:14,320
+Dentro de la PC.
+
+230
+00:13:17,320 --> 00:13:18,320
+Ya.
+
+231
+00:13:18,320 --> 00:13:20,320
+Lo que es la parte del Docker.
+
+232
+00:13:20,320 --> 00:13:22,320
+También trabajamos dentro de la PC.
+
+233
+00:13:22,320 --> 00:13:27,320
+Pero no solamente trabaja en nuestra PC como un contenedor.
+
+234
+00:13:27,320 --> 00:13:33,320
+Obviamente para esta parte nosotros tenemos que instalarnos lo que es Docker Desktop.
+
+235
+00:13:33,320 --> 00:13:38,320
+Ya vamos a instalar Docker Desktop.
+
+236
+00:13:38,320 --> 00:13:39,320
+Esto.
+
+237
+00:13:39,320 --> 00:13:40,320
+Visto.
+
+238
+00:13:40,320 --> 00:13:43,320
+Y esto para que me va a servir a futuro.
+
+239
+00:13:43,320 --> 00:13:51,320
+No solamente les comento que me sirve para contenerlo a un ánimo determinado versión de mi N8N.
+
+240
+00:13:51,320 --> 00:13:59,320
+Sino que aparte de trabajar de manera local en una PC, también nosotros podemos trabajar en producción.
+
+241
+00:13:59,320 --> 00:14:01,320
+Y donde se trabaja producción?
+
+242
+00:14:01,320 --> 00:14:03,320
+Pues en la nube.
+
+243
+00:14:03,320 --> 00:14:04,320
+Ya.
+
+244
+00:14:04,320 --> 00:14:06,320
+En la nube lo vamos a trabajar.
+
+245
+00:14:06,320 --> 00:14:13,320
+Entonces, pero estos dos ámbitos que les estoy mostrando tanto como es note como tantos Docker.
+
+246
+00:14:13,320 --> 00:14:27,320
+No sirven antes de empezar con la parte de producción o sea antes de comprarnos un servidor directamente de N8N o quizás de un servidor externo como AWS o también Hostinger.
+
+247
+00:14:27,320 --> 00:14:28,320
+También vende.
+
+248
+00:14:28,320 --> 00:14:31,320
+Hay otros que les voy a comentar que le voy a contar a vos.
+
+249
+00:14:31,320 --> 00:14:32,320
+También ahí es.
+
+250
+00:14:32,320 --> 00:14:40,320
+Y van a ver que los costos que me ofrecen son de diferente característica y diferentes tipos de peticiones.
+
+251
+00:14:40,320 --> 00:14:43,320
+Ahorita os voy a mostrar cómo vamos a trabajar acá.
+
+252
+00:14:43,320 --> 00:14:49,320
+Y luego obviamente tenemos cuando ya adquirimos un servidor.
+
+253
+00:14:49,320 --> 00:14:52,320
+Este servidor es para mi el VPS.
+
+254
+00:14:52,320 --> 00:14:53,320
+Ya.
+
+255
+00:14:53,320 --> 00:15:00,320
+Yo les recomiendo si ya son programadores o ya desarrollan sistemas más avanzados.
+
+256
+00:15:00,320 --> 00:15:10,320
+Pues trabajar directamente con VPS sería adecuado para empresas que ya son gigantes y necesitan netamente una seguridad informática bastante avanzada.
+
+257
+00:15:10,320 --> 00:15:14,320
+Entonces así pues normal se trabaja con VPS.
+
+258
+00:15:14,320 --> 00:15:18,320
+Ya esto obviamente también es un tipo de producción.
+
+259
+00:15:18,320 --> 00:15:21,320
+O sea cuando yo digo producción ya está trabajando en la nube.
+
+260
+00:15:21,320 --> 00:15:23,320
+Ya puede ver el usuario.
+
+261
+00:15:23,320 --> 00:15:27,320
+Ya tiene interacción con el cliente, con nuestros proyectos, etcétera.
+
+262
+00:15:27,320 --> 00:15:30,320
+Eso significa cuando ya hablo de producción.
+
+263
+00:15:30,320 --> 00:15:31,320
+Ya.
+
+264
+00:15:31,320 --> 00:15:35,320
+Ya esta parte por si acaso a veces es complicadito.
+
+265
+00:15:35,320 --> 00:15:37,320
+¿Por qué razones?
+
+266
+00:15:37,320 --> 00:15:43,320
+Porque cuando trabajo con VPS generalmente se lo extiende en ambiente Linux.
+
+267
+00:15:43,320 --> 00:15:49,320
+Seguramente los que estamos así de cero digamos en la clase les voy a explicar un poquito de esto.
+
+268
+00:15:49,320 --> 00:15:52,320
+Generalmente se han escuchado ahí Windows.
+
+269
+00:15:52,320 --> 00:15:56,320
+Ahí en este caso tenemos operativos Windows, Mac y Linux.
+
+270
+00:15:56,320 --> 00:15:57,320
+Ya.
+
+271
+00:15:57,320 --> 00:15:58,320
+Ya hay un cuarto más.
+
+272
+00:15:58,320 --> 00:16:01,320
+Pero en este caso los tres más conocidos.
+
+273
+00:16:01,320 --> 00:16:11,320
+Y obviamente este tipo de servidores para tener una calidad de información y que no puedan banearnos, hackearnos, etcétera.
+
+274
+00:16:11,320 --> 00:16:16,320
+Siempre es de la manera mucho más eficiente extenderla por Linux.
+
+275
+00:16:16,320 --> 00:16:17,320
+Ya.
+
+276
+00:16:17,320 --> 00:16:21,320
+Y esto se hace con generalmente con todas las VPS, no solamente con la N8N.
+
+277
+00:16:21,320 --> 00:16:30,320
+Hay lo que es un AutoMatch en Proyection, lo que es con la ARABEL y también se hace para los que dominan esa parte de programación.
+
+278
+00:16:30,320 --> 00:16:36,320
+Pero esta parte sí o sí es necesario que nos compremos un dominio.
+
+279
+00:16:36,320 --> 00:16:38,320
+¿A qué me refiero dominio?
+
+280
+00:16:38,320 --> 00:16:41,320
+Dominio me refiero cuando hay estas cositas.
+
+281
+00:16:41,320 --> 00:16:55,320
+El punto com digamos no sé se llama mi tienda epito punto como manualidades punto o erigido punto net no sé el nombre que ustedes siempre entran a una determinada web o sistema.
+
+282
+00:16:55,320 --> 00:16:56,320
+Siempre les da eso.
+
+283
+00:16:56,320 --> 00:16:58,320
+Eso para mí es un dominio.
+
+284
+00:16:58,320 --> 00:17:01,320
+Ahora parte de que nosotros tenemos que comparar un dominio.
+
+285
+00:17:01,320 --> 00:17:11,320
+La parte más compleja por eso es que es todo más dedicado a empresas un poquito más serias y que necesiten una alta resolución en su sistema de.
+
+286
+00:17:11,320 --> 00:17:17,320
+Testin así que en esa parte es mejor para ellos y obviamente un servidor.
+
+287
+00:17:17,320 --> 00:17:20,320
+VPS eso es necesario.
+
+288
+00:17:20,320 --> 00:17:23,320
+Ahora vámonos al cuarto.
+
+289
+00:17:23,320 --> 00:17:26,320
+Ahora ustedes pueden trabajar sin hacer esto.
+
+290
+00:17:26,320 --> 00:17:27,320
+Este es una.
+
+291
+00:17:27,320 --> 00:17:31,320
+Esto es un dolor de cabeza para no complicarse la vida.
+
+292
+00:17:31,320 --> 00:17:42,320
+Lo más fácil directamente decirle a n 8 n vendeme lo que tú tu ofreces y generalmente lo que es las casas n 8 n.
+
+293
+00:17:42,320 --> 00:17:44,320
+Punto cloud.
+
+294
+00:17:44,320 --> 00:17:46,320
+Eso es a que les va a vender.
+
+295
+00:17:46,320 --> 00:17:51,320
+O sea, es la versión original de n n 8 m la que estamos descargando ahí me ofrece.
+
+296
+00:17:51,320 --> 00:17:52,320
+Ya.
+
+297
+00:17:52,320 --> 00:17:55,320
+Y hay otro en este caso que va a ser el siguiente.
+
+298
+00:17:55,320 --> 00:18:01,320
+Entonces explicar algunas características de cada uno de manera un poco más global.
+
+299
+00:18:01,320 --> 00:18:08,320
+Ya dentro de acá por ejemplo y ahí lo que son servidores externos.
+
+300
+00:18:08,320 --> 00:18:12,320
+También se lo llama de terceros.
+
+301
+00:18:12,320 --> 00:18:20,320
+Uno de los más conocidos en este caso puede ser a bw s puede ser a sure puede ser en este caso host inga.
+
+302
+00:18:20,320 --> 00:18:26,320
+Pero hay montón de empresas que me ofrecen servicios externos o de terceros.
+
+303
+00:18:26,320 --> 00:18:36,320
+Ya que me refiero con eso juegan como un intermediario con n 8 n y me ofrece bastante calidad al momento de procesar y o sea lo vuelve bastante fácil.
+
+304
+00:18:36,320 --> 00:18:38,320
+O sea con un click ya tienen su proceso.
+
+305
+00:18:38,320 --> 00:18:48,320
+Pero siempre lo más adecuado y lo más elo cuente siempre se empieza por este o por este para no tener problemas a la larga.
+
+306
+00:18:48,320 --> 00:18:54,320
+Y luego no que no nos entendamos o que cuando ya tengamos una en producción obviamente es más fácil.
+
+307
+00:18:54,320 --> 00:18:57,320
+Pero siempre es bueno ya trabajar sin pagar mientras tanto.
+
+308
+00:18:57,320 --> 00:18:58,320
+Ya.
+
+309
+00:18:58,320 --> 00:19:07,320
+Entonces viendo eso esta parte por ejemplo se los voy a notar acá a n 8 n punto cloud.
+
+310
+00:19:07,320 --> 00:19:13,320
+También se le conoce como en enterprise enterprise ahorita os explicar por qué.
+
+311
+00:19:14,320 --> 00:19:23,320
+Les explico ahora de manera general haciendo un resumen rápidamente mientras que haya ya de estar en este caso terminando sin instalación.
+
+312
+00:19:23,320 --> 00:19:29,320
+Así que os voy a dar unos supongo cinco minutos más para ver si los está corriendo.
+
+313
+00:19:29,320 --> 00:19:33,320
+Ya déme un ratito chico que cosa está ahí.
+
+314
+00:19:33,320 --> 00:19:35,320
+Ya entonces explico rápidamente.
+
+315
+00:19:35,320 --> 00:19:41,320
+Vamos a hacer un resumen de manera mucho más detallada porque esto pasa de parte también de su evaluación.
+
+316
+00:19:41,320 --> 00:19:48,320
+Cuando ya presenta en sus proyectos así que siempre es necesario saber lo que hace porque hace como lo hace.
+
+317
+00:19:48,320 --> 00:19:49,320
+Ya.
+
+318
+00:19:50,320 --> 00:19:51,320
+Bueno, os repartíos.
+
+319
+00:19:51,320 --> 00:19:56,320
+Note me ejecuta n 8 n directamente con no gs.
+
+320
+00:19:56,320 --> 00:19:59,320
+Dentamente en nuestra computadora.
+
+321
+00:19:59,320 --> 00:20:07,320
+Para qué lo utilizamos para aprender a hacer pruebas, crear automatizaciones básicas y de desarrollo local y avanzado.
+
+322
+00:20:07,320 --> 00:20:08,320
+O sea se puede hacer.
+
+323
+00:20:08,320 --> 00:20:13,320
+Cuales son las ventajas que obviamente es fácil de instalar hemos visto que solamente hemos estado en la Ud.
+
+324
+00:20:13,320 --> 00:20:14,320
+Y listo.
+
+325
+00:20:14,320 --> 00:20:16,320
+Pero que es lo malo.
+
+326
+00:20:16,320 --> 00:20:19,320
+Hay veces se detiene si apagamos la pese por ese caso.
+
+327
+00:20:19,320 --> 00:20:20,320
+Ya.
+
+328
+00:20:20,320 --> 00:20:24,320
+Porque siempre hay que inicializarlo antes de iniciar un proyecto.
+
+329
+00:20:24,320 --> 00:20:25,320
+Ya.
+
+330
+00:20:25,320 --> 00:20:28,320
+Esto es netamente para estudios para estudiantes.
+
+331
+00:20:28,320 --> 00:20:34,320
+En este caso nuestros propios emprendimientos, nuestros propios negocios para eso me sirve más que todo.
+
+332
+00:20:34,320 --> 00:20:35,320
+Docker es lo mismo casi.
+
+333
+00:20:35,320 --> 00:20:40,320
+Solamente que dentro de Docker nos exige un poquito más a la con puedes decir.
+
+334
+00:20:40,320 --> 00:20:42,320
+No se exige un ram.
+
+335
+00:20:42,320 --> 00:20:45,320
+Nos exige un poquito en nuestras características internas.
+
+336
+00:20:45,320 --> 00:20:46,320
+Y eso.
+
+337
+00:20:47,320 --> 00:20:50,320
+Además me ofrece un desarrollo más limpio y obviamente es portable.
+
+338
+00:20:50,320 --> 00:20:52,320
+Eso es lo bueno de Docker.
+
+339
+00:20:52,320 --> 00:20:54,320
+Por eso vamos a ver también el módulo.
+
+340
+00:20:54,320 --> 00:21:00,320
+Ahora esta parte de servidores VPS también se instala Docker les comento pero de una nube.
+
+341
+00:21:00,320 --> 00:21:04,320
+O sea cuando adquirimos pagamos lo instalamos también Docker ahí.
+
+342
+00:21:04,320 --> 00:21:07,320
+Y podemos tener el sistema funcionando 24 7.
+
+343
+00:21:07,320 --> 00:21:08,320
+Ya.
+
+344
+00:21:08,320 --> 00:21:15,320
+Lo bueno es que de esto las ventajas son producción real, accesor remoto es escalable y además son compatibles con diferentes dominios y SSL.
+
+345
+00:21:15,320 --> 00:21:17,320
+O sea protección externa.
+
+346
+00:21:17,320 --> 00:21:18,320
+Ya.
+
+347
+00:21:18,320 --> 00:21:21,320
+Lo malo tiene un costo mensual.
+
+348
+00:21:21,320 --> 00:21:28,320
+Además requiere Linux y algunas algunas conocimientos en redes para que lo puedan hacer con VPS.
+
+349
+00:21:28,320 --> 00:21:29,320
+Ya.
+
+350
+00:21:29,320 --> 00:21:30,320
+Dónde se lo utiliza.
+
+351
+00:21:30,320 --> 00:21:32,320
+Eso también quiero que lo entiendan.
+
+352
+00:21:33,320 --> 00:21:44,320
+Generalmente cuando adquirimos VPS se los utilicen empresas industriales en empresas que tienen grande cantidad de usuarios y además para bots.
+
+353
+00:21:44,320 --> 00:21:48,320
+O sea si ya le podemos aumentar automatizaciones industriales incluso.
+
+354
+00:21:48,320 --> 00:21:49,320
+Ya.
+
+355
+00:21:49,320 --> 00:21:52,320
+Ahora lo que es el siguiente n8n cloud.
+
+356
+00:21:53,320 --> 00:21:55,320
+Es mucho más así porque.
+
+357
+00:21:55,320 --> 00:21:58,320
+No también te tiene el servicio oficial de n8n.
+
+358
+00:21:58,320 --> 00:22:02,320
+Además usamos n8n sin instalar nada en su sistema.
+
+359
+00:22:02,320 --> 00:22:05,320
+Y en este caso de Moncayito.
+
+360
+00:22:05,320 --> 00:22:08,320
+Las actualizaciones ya van por defecto.
+
+361
+00:22:08,320 --> 00:22:12,320
+O sea no tienen que estar actualizando son automáticos y además tiene seguridad integrada.
+
+362
+00:22:12,320 --> 00:22:18,320
+Lo malo que también es de pago y tiene menor control técnico más que todo.
+
+363
+00:22:18,320 --> 00:22:21,320
+Ahora el último servidor es externos o de terceros.
+
+364
+00:22:21,320 --> 00:22:25,320
+Aquí si se instala n8n pero en la nube.
+
+365
+00:22:25,320 --> 00:22:32,320
+Ya sea con a bwc o amazon web service google cloud o microsoft azure que son los tres más comunes.
+
+366
+00:22:32,320 --> 00:22:41,320
+Aquí se se lo hace una arquitectura más que todo empresarial o escalable o sea si quieres agrandar sigue tu sistema para automatizar lo puedes hacer no hay problema.
+
+367
+00:22:41,320 --> 00:22:44,320
+Y además son muy potentes estos servidores porque tiene.
+
+368
+00:22:44,320 --> 00:22:48,320
+Arta disponibilidad en una integración más o menos empresarial.
+
+369
+00:22:48,320 --> 00:22:55,320
+Lo malo que a veces puede ser más costoso que el mismo n8n pero ahorita os voy a mostrar algunos que pueden trabajar ustedes.
+
+370
+00:22:55,320 --> 00:23:00,320
+Uno muy aparte de estos voy a admitir a alguien más de Moncayito.
+
+371
+00:23:00,320 --> 00:23:03,320
+A ver a ver quién está acá.
+
+372
+00:23:03,320 --> 00:23:06,320
+Ya uno más interesante.
+
+373
+00:23:06,320 --> 00:23:11,320
+Y lo podemos trabajar y van a ver que funciona bastante bien.
+
+374
+00:23:11,320 --> 00:23:16,320
+Vamos a trabajar con un sistema un poquito más interesante se llama.
+
+375
+00:23:16,320 --> 00:23:18,320
+Cloud for Tunel.
+
+376
+00:23:18,320 --> 00:23:22,320
+Qué es el Cloud for Tunel así que aquí los voy a colocar.
+
+377
+00:23:22,320 --> 00:23:26,320
+Ya vamos a venir acá perdón perdón perdón.
+
+378
+00:23:26,320 --> 00:23:30,320
+Listo aquí voy a enserrarme estos dos.
+
+379
+00:23:30,320 --> 00:23:34,320
+Voy a pintarlo de otro colorcito.
+
+380
+00:23:34,320 --> 00:23:38,320
+Ya y voy a hacer lo siguiente.
+
+381
+00:23:38,320 --> 00:23:42,320
+Dentro de acá por ejemplo papá saló siguiente.
+
+382
+00:23:42,320 --> 00:23:47,320
+Hay uno que se llama les vuelvo a repetir se llama.
+
+383
+00:23:47,320 --> 00:23:49,320
+Cloud.
+
+384
+00:23:49,320 --> 00:23:51,320
+Flurn.
+
+385
+00:23:51,320 --> 00:23:53,320
+Tunel.
+
+386
+00:23:53,320 --> 00:23:54,320
+Ya.
+
+387
+00:23:54,320 --> 00:24:00,320
+Cloud for Tunel en este caso me sirve se los voy a notar por acá.
+
+388
+00:24:00,320 --> 00:24:03,320
+Ya voy a cambiar de colorcito.
+
+389
+00:24:03,320 --> 00:24:05,320
+Me sirve.
+
+390
+00:24:09,320 --> 00:24:12,320
+Ay perdón perdón perdón me sirve.
+
+391
+00:24:12,320 --> 00:24:21,320
+Para que una app o sea una aplicación un software cualquier cosa o sistema sobre todo sistema.
+
+392
+00:24:21,320 --> 00:24:24,320
+Que.
+
+393
+00:24:24,320 --> 00:24:27,320
+Que esté nuestra computadora.
+
+394
+00:24:27,320 --> 00:24:33,320
+Ya en este caso.
+
+395
+00:24:33,320 --> 00:24:36,320
+Puede ser visto.
+
+396
+00:24:37,320 --> 00:24:40,320
+Desde internet.
+
+397
+00:24:40,320 --> 00:24:42,320
+Ya.
+
+398
+00:24:42,320 --> 00:24:44,320
+Mediante una.
+
+399
+00:24:44,320 --> 00:24:45,320
+UR.
+
+400
+00:24:45,320 --> 00:24:51,320
+Y ahorita vamos a la prueba es como funciona y van a ver cómo los voy a tomar video asistencia con eso.
+
+401
+00:24:51,320 --> 00:24:52,320
+Ya.
+
+402
+00:24:52,320 --> 00:24:54,320
+A qué me refiero con esto.
+
+403
+00:24:54,320 --> 00:24:56,320
+Este sistema.
+
+404
+00:24:56,320 --> 00:25:02,320
+Es como un reemplazo a lo siguiente voy a venir acá voy a venirme acá.
+
+405
+00:25:02,320 --> 00:25:04,320
+Voy a pintar el estituidad.
+
+406
+00:25:04,320 --> 00:25:06,320
+Es como una.
+
+407
+00:25:08,320 --> 00:25:10,320
+Opción a este.
+
+408
+00:25:10,320 --> 00:25:11,320
+Ya.
+
+409
+00:25:11,320 --> 00:25:13,320
+Es como una opción.
+
+410
+00:25:13,320 --> 00:25:15,320
+Así lo voy a llevar.
+
+411
+00:25:15,320 --> 00:25:17,320
+Misto.
+
+412
+00:25:17,320 --> 00:25:19,320
+Porque.
+
+413
+00:25:19,320 --> 00:25:21,320
+Es fácil de manipular.
+
+414
+00:25:21,320 --> 00:25:24,320
+No te cobra dinero.
+
+415
+00:25:24,320 --> 00:25:30,320
+Y además mi computadora puede funcionar normalmente dentro de mi computadora local.
+
+416
+00:25:30,320 --> 00:25:33,320
+O sea dentro de mi red porque no estoy conectada nada.
+
+417
+00:25:33,320 --> 00:25:35,320
+Le envío un túnel.
+
+418
+00:25:35,320 --> 00:25:42,320
+Ese túnel lo encripto o le mando unas se llama en este caso una sub capa.
+
+419
+00:25:42,320 --> 00:25:48,320
+Lo envío a mis usuarios o lo puedo camuflar a un usuario.
+
+420
+00:25:48,320 --> 00:25:53,320
+Y eso se puede ver sin que yo pague ningún tipo de dinero en un dominio externo.
+
+421
+00:25:53,320 --> 00:25:55,320
+Se puede hacer con.
+
+422
+00:25:55,320 --> 00:25:58,320
+Por ejemplo no sé.
+
+423
+00:25:58,320 --> 00:26:04,320
+Si trabajamos ahorita por ejemplo si estamos viendo acá en el enero 8 en aquí está instalándose.
+
+424
+00:26:04,320 --> 00:26:07,320
+Si nos damos cuenta este su URL.
+
+425
+00:26:07,320 --> 00:26:13,320
+Esto trabaja en mi PC o sea de manera local no va a funcionar en otro lugar más solamente en mi PC y para mi PC.
+
+426
+00:26:13,320 --> 00:26:17,320
+Ya cuando yo le aplico CloudFront.
+
+427
+00:26:17,320 --> 00:26:27,320
+Esto lo puedo camuflar y en vez de que diga 5678 le puedo decir mi negocio.com o no.
+
+428
+00:26:27,320 --> 00:26:37,320
+No sé empresas de calzados perlita.com o sea le puedo camuflar y eso le envío a mi cliente.
+
+429
+00:26:37,320 --> 00:26:44,320
+Y el normal puede pedir mis pedidos sin que yo tenga que pagar tengo que tengo tengo que pagar dominios.
+
+430
+00:26:44,320 --> 00:26:50,320
+Lo malo que mi PC si es que estoy haciendo algún tipo de escalabilidad o toma de datos.
+
+431
+00:26:50,320 --> 00:26:55,320
+Por ejemplo si el usuario tiene que subir videos y no sé un montón de archivos pesados.
+
+432
+00:26:55,320 --> 00:26:58,320
+No es conveniente porque mi computadora va a sufrir.
+
+433
+00:26:58,320 --> 00:27:02,320
+Ya porque necesitamos mayor cantidad de memoria pero no hay problema.
+
+434
+00:27:02,320 --> 00:27:10,320
+Creo que la mayoría solamente requiere datos, parámetros, quizás cueres, quizás pagos bancarios, etc.
+
+435
+00:27:10,320 --> 00:27:12,320
+Así se puede hacer con esto.
+
+436
+00:27:12,320 --> 00:27:16,320
+Ya por ejemplo nosotros trabajamos ahorita para el Banco Unión.
+
+437
+00:27:16,320 --> 00:27:22,320
+Yo hago sus sistemas de enlazado para que replaciones a otros países así que normal se puede hacer con eso.
+
+438
+00:27:22,320 --> 00:27:24,320
+Ya otro.
+
+439
+00:27:24,320 --> 00:27:27,320
+En base a eso ya podemos trabajar con Crawford.
+
+440
+00:27:27,320 --> 00:27:31,320
+Y hay otro que los voy a hoy día hacer pruebas si es que lo quieren.
+
+441
+00:27:31,320 --> 00:27:40,320
+Obviamente no es el objetivo de la materia en señales quizás sistemas de encriptación avanzada porque si es que va a haber un módulo 2
+
+442
+00:27:40,320 --> 00:27:45,320
+ahí si los podría dar un poquito más de contexto porque va a ser un poquito complicado.
+
+443
+00:27:45,320 --> 00:27:48,320
+En Charmarmonte programas hay aquí esta clase.
+
+444
+00:27:48,320 --> 00:27:55,320
+No es una clase de automatización, pero si quieren les enseño no hay problema con otro que les puedo hacer mucho más corto.
+
+445
+00:27:55,320 --> 00:28:02,320
+Entonces eso es para mí un resumen netamente de lo que es N8n y de lo que vamos a ver.
+
+446
+00:28:02,320 --> 00:28:05,320
+Ya ahora sí.
+
+447
+00:28:05,320 --> 00:28:10,320
+Espero que ya de todos esté instalado.
+
+448
+00:28:10,320 --> 00:28:14,320
+Pueden hacer lo siguiente.
+
+449
+00:28:14,320 --> 00:28:23,320
+Si quieren ahí control se o pueden apretar la letra o les había comentado y se va a abrir lo que es su sistema.
+
+450
+00:28:23,320 --> 00:28:31,320
+O sea esto tal cual si es que no hayan registrado nada no tienen usuarios va a pedir registro.
+
+451
+00:28:31,320 --> 00:28:39,320
+Hay coloquen en e-mail que se que tienen y coloquen un password que no se puedan olvidar a no ten se.
+
+452
+00:28:39,320 --> 00:28:46,320
+Y luego van a estar cambiándolos y que ahorita se cómo se cambia los usuarios por una interfaz y no hay problema.
+
+453
+00:28:46,320 --> 00:28:51,320
+Pero hasta ahí les espero una vez que lleguen acá igual.
+
+454
+00:28:51,320 --> 00:28:57,320
+Sacan su capturita que diga con este local host ahí.
+
+455
+00:28:57,320 --> 00:29:02,320
+Y lo van a adjuntar a su documento.
+
+456
+00:29:02,320 --> 00:29:06,320
+Ya paso dos van a colocar.
+
+457
+00:29:06,320 --> 00:29:10,320
+Compilando van a desecompilar.
+
+458
+00:29:10,320 --> 00:29:13,320
+Y listo.
+
+459
+00:29:13,320 --> 00:29:18,320
+Para que no les sea muy feo porque esta imagen se hizo muy grande.
+
+460
+00:29:18,320 --> 00:29:26,320
+Después de minimizarlo y tratan de enviarme en tamaño legal y a tamaño oficio.
+
+461
+00:29:26,320 --> 00:29:30,320
+Para que les vaya alcanzando acá.
+
+462
+00:29:30,320 --> 00:29:33,320
+Más ordenado su proyecto.
+
+463
+00:29:33,320 --> 00:29:37,320
+Ya vamos a irnos al paso tres.
+
+464
+00:29:37,320 --> 00:29:42,320
+Hasta ahí les espero si necesitan un poquito más de tiempo para que no les pisa.
+
+465
+00:29:42,320 --> 00:29:49,320
+Mientras tanto de un minutito creo que mi máquina se va a buguear.
+
+466
+00:29:49,320 --> 00:29:53,320
+Hasta ahí los chicos que os vayan adjunto a eso.
+
+467
+00:29:53,320 --> 00:29:58,320
+Mientras tanto voy a declarar igual la parte de clasroom para que vayan inicializando.
+
+468
+00:29:58,320 --> 00:30:01,320
+No se preocupen, va de ese montón de warnings.
+
+469
+00:30:01,320 --> 00:30:05,320
+Una vez que han colocado y se ha instalado.
+
+470
+00:30:05,320 --> 00:30:07,320
+Pueden abrir o te aterminan.
+
+471
+00:30:07,320 --> 00:30:10,320
+Vienen acá, pueden colocar.
+
+472
+00:30:10,320 --> 00:30:13,320
+En este caso pueden cerrarlo.
+
+473
+00:30:13,320 --> 00:30:16,320
+Si les ha dejado ahí bien instalado.
+
+474
+00:30:16,320 --> 00:30:19,320
+O sea los cierran y lo vuelven a abrir.
+
+475
+00:30:19,320 --> 00:30:22,320
+Otro entorno.
+
+476
+00:30:22,320 --> 00:30:26,320
+Para que se acabe acá para empezar con n8n.
+
+477
+00:30:26,320 --> 00:30:29,320
+O sea para activarlo para ponerlo en marcha.
+
+478
+00:30:29,320 --> 00:30:32,320
+Solamente coloquen n8n.
+
+479
+00:30:32,320 --> 00:30:34,320
+Así de minúscula.
+
+480
+00:30:34,320 --> 00:30:36,320
+N8n.
+
+481
+00:30:36,320 --> 00:30:38,320
+Otra forma es la que les he dicho.
+
+482
+00:30:38,320 --> 00:30:43,320
+Si no les funciona ese pueden colocar npmn8n.
+
+483
+00:30:43,320 --> 00:30:49,320
+Si no les funciona colocan n8n start.
+
+484
+00:30:49,320 --> 00:30:52,320
+Cualquiera de los tres les va a dar.
+
+485
+00:30:55,320 --> 00:30:58,320
+Listo.
+
+486
+00:30:58,320 --> 00:31:00,320
+Hasta hoy les espero chicos.
+
+487
+00:31:00,320 --> 00:31:01,320
+Yo lo voy a cerrar.
+
+488
+00:31:01,320 --> 00:31:04,320
+Con ustedes voy a iniciar.
+
+489
+00:31:04,320 --> 00:31:08,320
+Lo voy a volver a cerrar esto.
+
+490
+00:31:08,320 --> 00:31:10,320
+Voy a abrir de nuevo.
+
+491
+00:31:10,320 --> 00:31:14,320
+Voy a cerrar lo mi antiguo comando.
+
+492
+00:31:14,320 --> 00:31:15,320
+Y aquí.
+
+493
+00:31:15,320 --> 00:31:16,320
+A ver, coloquen n8n start.
+
+494
+00:31:16,320 --> 00:31:18,320
+Si no les funciona ya saben los demás.
+
+495
+00:31:18,320 --> 00:31:21,320
+No me reconozca a mi por ejemplo.
+
+496
+00:31:21,320 --> 00:31:25,320
+Si colocan n8n tampoco.
+
+497
+00:31:25,320 --> 00:31:27,320
+Pero ya saben que hacer.
+
+498
+00:31:27,320 --> 00:31:32,320
+npmn8n.
+
+499
+00:31:32,320 --> 00:31:34,320
+Con eso funciona de mi.
+
+500
+00:31:34,320 --> 00:31:36,320
+De otros puede funcionar con otro.
+
+501
+00:31:36,320 --> 00:31:38,320
+De mi hasta por ejemplo corriendo.
+
+502
+00:31:38,320 --> 00:31:41,320
+Así que en esa parte podemos hacer eso.
+
+503
+00:31:41,320 --> 00:31:42,320
+Nada más.
+
+504
+00:31:42,320 --> 00:31:44,320
+Listo.
+
+505
+00:31:44,320 --> 00:31:48,320
+Yo los espero chicos mientras voy a estar.
+
+506
+00:31:48,320 --> 00:31:51,320
+Copiándose los todito acá.
+
+507
+00:32:07,320 --> 00:32:09,320
+Si no les funciona.
+
+508
+00:32:09,320 --> 00:32:12,320
+Si no te funciona tampoco van a colocar npmn8n.
+
+509
+00:32:12,320 --> 00:32:14,320
+Es otra cuarta forma.
+
+510
+00:32:14,320 --> 00:32:15,320
+¿Qué pasó?
+
+511
+00:32:15,320 --> 00:32:17,320
+Es Ricardo.
+
+512
+00:32:17,320 --> 00:32:23,320
+¿Más o menos 430 en la aplicación de n8n?
+
+513
+00:32:23,320 --> 00:32:30,320
+Más o menos te diría unos 85 a 100 ms.
+
+514
+00:32:30,320 --> 00:32:32,320
+No es tan pesada.
+
+515
+00:32:32,320 --> 00:32:34,320
+No, no es pesadamente tarde en instalarse.
+
+516
+00:32:34,320 --> 00:32:36,320
+Ese es el punto.
+
+517
+00:32:36,320 --> 00:32:37,320
+Ya.
+
+518
+00:32:37,320 --> 00:32:38,320
+Así que normal.
+
+519
+00:32:38,320 --> 00:32:42,320
+Yo sigo aquí en el cmd.
+
+520
+00:32:42,320 --> 00:32:44,320
+Y creo que sigue todavía.
+
+521
+00:32:44,320 --> 00:32:46,320
+No te preocupes.
+
+522
+00:32:46,320 --> 00:32:47,320
+Se tiene que votar.
+
+523
+00:32:47,320 --> 00:32:48,320
+No son eso.
+
+524
+00:32:48,320 --> 00:32:49,320
+Si les vota.
+
+525
+00:32:49,320 --> 00:32:50,320
+Normal.
+
+526
+00:32:50,320 --> 00:32:51,320
+Normal.
+
+527
+00:32:51,320 --> 00:32:52,320
+Vayan esperando.
+
+528
+00:32:52,320 --> 00:32:53,320
+Siempre tarde al principio.
+
+529
+00:32:53,320 --> 00:32:54,320
+Es un lío.
+
+530
+00:32:54,320 --> 00:32:55,320
+Así que no se preocupen.
+
+531
+00:32:55,320 --> 00:32:56,320
+Ya.
+
+532
+00:32:56,320 --> 00:32:57,320
+Listo.
+
+533
+00:32:57,320 --> 00:32:59,320
+Por si acaso esto también.
+
+534
+00:32:59,320 --> 00:33:02,320
+Si tiene una computadora menos de 4 de RAM.
+
+535
+00:33:02,320 --> 00:33:03,320
+Igual funciona.
+
+536
+00:33:03,320 --> 00:33:05,320
+Solamente va a ser obviamente más lento.
+
+537
+00:33:05,320 --> 00:33:08,320
+Mientras sus RAM sea 16.
+
+538
+00:33:08,320 --> 00:33:10,320
+Eso detecta el n8n.
+
+539
+00:33:10,320 --> 00:33:11,320
+Y va a ser más veloz.
+
+540
+00:33:11,320 --> 00:33:12,320
+Pero eso depende mucho.
+
+541
+00:33:12,320 --> 00:33:13,320
+Ya.
+
+542
+00:33:13,320 --> 00:33:14,320
+Así que los espero.
+
+543
+00:33:14,320 --> 00:33:16,320
+Los doy unos 5 minutitos.
+
+544
+00:33:16,320 --> 00:33:19,320
+Así que empezamos luego con la otra fase.
+
+545
+00:33:19,320 --> 00:33:20,320
+Ya.
+
+546
+00:33:20,320 --> 00:33:21,320
+Listo.
+
+547
+00:33:21,320 --> 00:33:25,320
+Y ahorita os voy a decir qué van a instalarse para hacer un VPS.
+
+548
+00:33:25,320 --> 00:33:27,320
+Si es que quieren aprender zapartas.
+
+549
+00:33:27,320 --> 00:33:28,320
+Interesante.
+
+550
+00:33:28,320 --> 00:33:31,320
+Incluso sirve para hackear sistemas de sus propios compañeros.
+
+551
+00:33:31,320 --> 00:33:33,320
+Yo hackeo por ejemplo WhatsApp con eso.
+
+552
+00:33:33,320 --> 00:33:35,320
+Para sistemas de.
+
+553
+00:33:35,320 --> 00:33:38,320
+De que hay personas que veces hacen no sé.
+
+554
+00:33:38,320 --> 00:33:41,320
+Marañas para robar digamos de las cárceles.
+
+555
+00:33:41,320 --> 00:33:43,320
+Nosotros les valeamos y les.
+
+556
+00:33:43,320 --> 00:33:46,320
+Les generamos un boot para que se destruyan todos.
+
+557
+00:33:46,320 --> 00:33:49,320
+Solar es alternos con eso.
+
+558
+00:33:49,320 --> 00:33:50,320
+Si.
+
+559
+00:33:53,320 --> 00:33:55,320
+Cuál es tu consulta.
+
+560
+00:33:59,320 --> 00:34:00,320
+Hola.
+
+561
+00:34:00,320 --> 00:34:01,320
+Cuál es tu consulta.
+
+562
+00:34:01,320 --> 00:34:03,320
+Puede hablar más.
+
+563
+00:34:04,320 --> 00:34:06,320
+O me bogeo yo.
+
+564
+00:34:10,320 --> 00:34:11,320
+Sin más.
+
+565
+00:34:11,320 --> 00:34:12,320
+Escuchemos.
+
+566
+00:34:12,320 --> 00:34:13,320
+Y listo.
+
+567
+00:34:14,320 --> 00:34:15,320
+No.
+
+568
+00:34:15,320 --> 00:34:16,320
+Ya.
+
+569
+00:34:31,320 --> 00:34:32,320
+Ya.
+
+570
+00:34:32,320 --> 00:34:33,320
+Ahora sí.
+
+571
+00:34:33,320 --> 00:34:35,320
+Mi disculpas estoy medio que.
+
+572
+00:34:35,320 --> 00:34:37,320
+Mi sistema está medio bogeado.
+
+573
+00:34:37,320 --> 00:34:38,320
+Yo.
+
+574
+00:34:38,320 --> 00:34:39,320
+Yo.
+
+575
+00:34:39,320 --> 00:34:40,320
+Yo.
+
+576
+00:34:40,320 --> 00:34:41,320
+Yo.
+
+577
+00:34:41,320 --> 00:34:42,320
+Yo.
+
+578
+00:34:42,320 --> 00:34:43,320
+Yo.
+
+579
+00:34:43,320 --> 00:34:44,320
+Yo.
+
+580
+00:34:44,320 --> 00:34:45,320
+Yo.
+
+581
+00:34:45,320 --> 00:34:46,320
+Yo.
+
+582
+00:34:46,320 --> 00:34:47,320
+Yo.
+
+583
+00:34:47,320 --> 00:34:48,320
+Yo.
+
+584
+00:34:48,320 --> 00:34:49,320
+Yo.
+
+585
+00:34:49,320 --> 00:34:50,320
+Yo.
+
+586
+00:34:50,320 --> 00:34:51,320
+Yo.
+
+587
+00:34:51,320 --> 00:34:52,320
+Yo.
+
+588
+00:34:52,320 --> 00:34:53,320
+Yo.
+
+589
+00:34:53,320 --> 00:34:54,320
+Yo.
+
+590
+00:34:54,320 --> 00:34:55,320
+Yo.
+
+591
+00:34:55,320 --> 00:34:56,320
+Yo.
+
+592
+00:34:56,320 --> 00:34:57,320
+Yo.
+
+593
+00:34:57,320 --> 00:34:58,320
+Yo.
+
+594
+00:34:58,320 --> 00:34:59,320
+Yo.
+
+595
+00:34:59,320 --> 00:35:00,320
+Yo.
+
+596
+00:35:00,320 --> 00:35:02,320
+Dina.
+
+597
+00:35:30,320 --> 00:35:31,320
+Yo.
+
+598
+00:35:31,320 --> 00:35:32,320
+Yo.
+
+599
+00:35:32,320 --> 00:35:33,320
+Yo.
+
+600
+00:35:33,320 --> 00:35:34,320
+Yo.
+
+601
+00:35:34,320 --> 00:35:35,320
+Yo.
+
+602
+00:35:35,320 --> 00:35:36,320
+Yo.
+
+603
+00:35:36,320 --> 00:35:37,320
+Yo.
+
+604
+00:35:37,320 --> 00:35:38,320
+Yo.
+
+605
+00:35:38,320 --> 00:35:39,320
+Yo.
+
+606
+00:35:39,320 --> 00:35:40,320
+Yo.
+
+607
+00:35:40,320 --> 00:35:41,320
+Yo.
+
+608
+00:35:41,320 --> 00:35:42,320
+Yo.
+
+609
+00:35:42,320 --> 00:35:43,320
+Yo.
+
+610
+00:35:43,320 --> 00:35:44,320
+Yo.
+
+611
+00:35:44,320 --> 00:35:45,320
+Yo.
+
+612
+00:35:45,320 --> 00:35:46,320
+Yo.
+
+613
+00:35:46,320 --> 00:35:47,320
+Yo.
+
+614
+00:35:49,320 --> 00:35:50,320
+Yo.
+
+615
+00:35:50,320 --> 00:35:51,320
+Yo.
+
+616
+00:35:51,320 --> 00:35:52,320
+Yo.
+
+617
+00:35:52,320 --> 00:35:53,320
+Yo.
+
+618
+00:35:53,320 --> 00:36:15,680
+Hola, hola, hola, ahora sí. Ya, ¿me escuchan, no? Eh, soy, soy, estoy ahorita con un montón
+
+619
+00:36:15,680 --> 00:36:21,880
+de micrófonos y se me buguean los micrófonos. Ya, sí, normal, volvete a crear tu nueva
+
+620
+00:36:21,880 --> 00:36:27,120
+cuenta. Ya que esto es de manera local, o sea, no te va a detectar en el 8 en la parte
+
+621
+00:36:27,120 --> 00:36:33,200
+del internet y cualquier tipo de flujos que manejas fuera de tu PC. Así que normal, creense
+
+622
+00:36:33,200 --> 00:36:37,520
+de nuevo, si es que les pides. Ya, pero igual, anotense y no se olviden el usuario ni el
+
+623
+00:36:37,520 --> 00:36:49,600
+contraseño. Ya, ingresen y ahorita empezamos con la segunda parte. Visto. ¿Se me escuchan,
+
+624
+00:36:49,600 --> 00:36:55,720
+no chico? Cosa creo que sí. Por favor, te voy a cambiar de micro y estoy un lío acá.
+
+625
+00:36:55,720 --> 00:37:01,960
+Ya, no sé qué me voy a hacer. No escucho. ¿Mildisculpa? Sí. Hace ratos, te lo escuchaba
+
+626
+00:37:01,960 --> 00:37:07,640
+mal, cuando estaba hablando sobre el VPS, podría repetir lo que había dicho antes. Super,
+
+627
+00:37:07,640 --> 00:37:13,400
+super, super. Ya. Para, a modo de que les voy a dejar dando un poquito más de tiempo,
+
+628
+00:37:13,560 --> 00:37:20,720
+ya. Así que, vuelvas a repetir. Lo que son estos dos entornos tanto Note y Docker, lo trabajamos
+
+629
+00:37:20,720 --> 00:37:26,640
+de manera local. Ya, obviamente con Note es mucho más fácil hacer una proceso de no 8n para
+
+630
+00:37:26,640 --> 00:37:31,440
+aprender cómo funciona, hacer mis workflows, automatizarlo para mi negocio, etcétera. A no,
+
+631
+00:37:31,440 --> 00:37:37,880
+a no, a no un nivel mucho, muy magno como una empresa, digamos estatal o privada. Ya,
+
+632
+00:37:38,160 --> 00:37:43,480
+Docker también se trabaja de manera local, pero lo bueno de Docker, si cuando aprendemos
+
+633
+00:37:43,480 --> 00:37:48,800
+a manejar Docker, ya podemos manejar de manera mucho más sencilla y mucho más fácil, lo que es
+
+634
+00:37:48,800 --> 00:37:56,240
+VPS. VPS es más dedicado a ambientes donde las empresas requieren una mayor calidad de información,
+
+635
+00:37:56,240 --> 00:38:02,280
+mayor versatilidad y además seguridad informática. Esto generalmente lo hacen las empresas
+
+636
+00:38:02,280 --> 00:38:07,720
+industriales o las empresas de orden agrario, de orden que manejan flujos económicos de
+
+637
+00:38:07,720 --> 00:38:13,880
+dinero bastante fuertes se lo hace. Por ejemplo, la cualquier banco maneja VPS y sus VPS pueden
+
+638
+00:38:13,880 --> 00:38:20,840
+generarse contenedores para hacer, por ejemplo, si yo un cliente mando mi cuere, ya de pago para
+
+639
+00:38:20,840 --> 00:38:27,520
+una pasarela de pago, llega al banco, el banco me notifica, me manda un cheque y me manda lo que es
+
+640
+00:38:27,520 --> 00:38:34,360
+un mensajito que ven ustedes, que me dice, ay, tu tu abono ha sido correcto, etcétera. Para esas
+
+641
+00:38:34,360 --> 00:38:39,840
+cositas me sirven VPS y no solamente en este campo, en varios campos como el IoT para programaciones
+
+642
+00:38:39,840 --> 00:38:46,160
+avanzadas, me sirven. Lo malo que es, hay veces en el instalo bajo el entorno Linux, ya sea de manera
+
+643
+00:38:46,160 --> 00:38:53,160
+local o de manera en la nube, ya también se llama producción. En esa parte, por eso un poquito
+
+644
+00:38:53,160 --> 00:39:01,840
+complicado esto, ¿ya? ¿Qué hago yo? Generalmente lo más fácil es comprar una, bueno, un servidor
+
+645
+00:39:01,840 --> 00:39:07,240
+netamente de n8n, quiero, tiene todo, o sea, con un cliente ya estás automatizando todo y obviamente
+
+646
+00:39:07,240 --> 00:39:14,040
+servidores externos, que es otra parte, otro punto también de cómo puede funcionar n8n, ya esa parte.
+
+647
+00:39:14,040 --> 00:39:22,040
+Ahora, dentro de los VPSes, hay bastantes tipos de aplicaciones, por ejemplo, si ahorita estoy en mi
+
+648
+00:39:22,040 --> 00:39:27,920
+computadora, ¿ya? Estamos haciendo un estuentorno local. Si quiero que mi entorno local se automatice
+
+649
+00:39:27,920 --> 00:39:34,520
+y lo pueda ver otro usuario, otro cliente, puedo crearme yo un CloudFortunnel. CloudFortunnel
+
+650
+00:39:34,520 --> 00:39:42,840
+crea un túnel, ese túnel, aunque yo no haya comprado un dominio, un servidor, esto lo trabaja de manera
+
+651
+00:39:42,840 --> 00:39:50,400
+gratuita y lo gamufla o le hace una máscara. Si mi ahorita fíjense acá, cuando ya he activado en
+
+652
+00:39:50,400 --> 00:39:56,680
+este caso, me he hecho en acuando ya, he instalado, me bota lo que es el localhost 5678, esto es para
+
+653
+00:39:56,680 --> 00:40:06,000
+mí mí, lojin o mí. En este caso, mi entorno del lugar para acceder, ¿ya? Es mi localhost. Esto
+
+654
+00:40:06,000 --> 00:40:11,640
+yo lo voy a, en vez de esto, lo voy a camuflar y voy a hacer que se llame pepito.com o ventadecarsados.com.
+
+655
+00:40:11,640 --> 00:40:16,800
+Eso lo voy a enviar a mi cliente y por eso enlaces va a echar, pero no va a conocer cómo estoy
+
+656
+00:40:16,800 --> 00:40:23,160
+trabajando yo. Eso se hace con CloudFortunnel, o sea, es un creador de VPSes, en este caso para
+
+657
+00:40:23,160 --> 00:40:29,600
+sistemas locales, no hay problema. Que es lo malo, a veces puede ser peligroso si es que manejo
+
+658
+00:40:29,600 --> 00:40:34,760
+flujos de dinero o flujos que realmente son importantes, no solamente dinero. ¿Ya? Por eso...
+
+659
+00:40:37,160 --> 00:40:44,240
+CloudFortunnel, la idea de que yo soy un seguro, pero que pueda hackear un link,
+
+660
+00:40:44,240 --> 00:40:52,720
+yo comparto posto de.patre. Exacto, se, se puede hackear. Por eso es que quizás para entornos
+
+661
+00:40:52,720 --> 00:40:57,200
+mucho más básicos o sencillos de automatizar, no hay problema, pero si son cosas un poquito
+
+662
+00:40:57,200 --> 00:41:01,680
+importantes, no es bueno. Si eso sería contratar un servicio en la Noda.
+
+663
+00:41:04,080 --> 00:41:09,920
+Ya, eso. Ahora voy a hacer un ejemplo de eso. Con eso voy a tratar de ensargar a sus computadoras
+
+664
+00:41:09,920 --> 00:41:16,920
+hoy día y desde ahí vamos a ver qué tan... si le dan permiso, pero voy a tratar de enviar
+
+665
+00:41:16,920 --> 00:41:24,920
+si no es algún tipo de mensajes hoy. Ya, así que empezaremos. Ya, ahora chicos, antes que nos
+
+666
+00:41:24,920 --> 00:41:34,200
+pise el tiempo, porque ya enviamos 45 minutos y empezaremos con la segunda fase. Ya, una vez
+
+667
+00:41:34,200 --> 00:41:41,960
+que hayan hecho esto, pueden copiar esto, Ctrl C, Ctrl B y directamente pueden enlaces acá.
+
+668
+00:41:42,960 --> 00:41:49,880
+Ya y les va a aparecer lo que se lo yo. Ahí se registran y normal. Ya, en mi caso ya lo tengo
+
+669
+00:41:49,880 --> 00:41:56,320
+registrado. Así que voy a loguearme. Si es que me acuerdo mi control señal.
+
+670
+00:41:56,320 --> 00:42:03,440
+Visto. Ya no me acuerdo de esta cuenta. Ah, voy a recordarme un fechito.
+
+671
+00:42:03,440 --> 00:42:15,760
+Listo, ya está. Les debería aparecer esto. Ya. Entonces, este es el entorno de N8N.
+
+672
+00:42:15,760 --> 00:42:23,720
+Si. Alguien quiere hablar creo. Cuando me te logro me aparece el problema si tengo readouts.
+
+673
+00:42:23,720 --> 00:42:34,120
+Ya verificas si tu contraseña y usted está bien o si no, a veces ocurre lo que tú me dices
+
+674
+00:42:34,120 --> 00:42:40,000
+cuando no se inicia esto. O sea, esto lo tienes que cerrar y volver a abrir cuando ya hayas
+
+675
+00:42:40,000 --> 00:42:45,440
+instalado nuevamente y decían abrilo esto. No directamente te voy a generar problemas. Ya.
+
+676
+00:42:45,440 --> 00:42:52,880
+A ver, intenta eso. Si no te da, me dices para que compartas pantalla. Ya. Mientras tanto.
+
+677
+00:42:53,280 --> 00:42:59,960
+A los que acaban de entrar, si son problemas muy complejos y nos demore toda una clase,
+
+678
+00:42:59,960 --> 00:43:06,680
+voy a tratarme de conectar nuevamente un mit fuera de la clase. Lo solucionamos,
+
+679
+00:43:06,680 --> 00:43:11,920
+ya semos todo eso. Por su caso, para que no se pierdan, como se está grabando la clase,
+
+680
+00:43:11,920 --> 00:43:17,960
+aparte te voy a pasar una guía. Esa guía tiene todo paso, paso, paso para que no se pierdan,
+
+681
+00:43:17,960 --> 00:43:23,080
+pero igual va a estar otros videos más. Así que no se preocupen. Siempre voy a tratar pendientes
+
+682
+00:43:23,080 --> 00:43:28,960
+y nos escriben directamente a Limboxes que no pueden o tienen algún problema. ¿Listo? No hay problema.
+
+683
+00:43:29,960 --> 00:43:36,360
+Este es el entorno de N8n. Pueden ir a settings y aquí pueden ver un montón de cosas. Hay N8n,
+
+684
+00:43:36,360 --> 00:43:42,360
+APIs, iLogin, hay un montón de cosas. Pueden cambiar incluso sus usuarios personales. Aquí,
+
+685
+00:43:42,360 --> 00:43:48,800
+por ejemplo, si entran acá, pueden cambiar en este caso sus passwords. Ya si es que se han olvidado,
+
+686
+00:43:48,800 --> 00:43:53,960
+o si es que están poniendo cualquier tipo de passwords, pueden cambiarlo ahí. Ya, pero esta
+
+687
+00:43:53,960 --> 00:44:01,800
+interfaz no me interesa mucho porque no vamos a trabajarlo todavía. ¿Qué pasó, Bayman?
+
+688
+00:44:02,800 --> 00:44:09,760
+Bueno, quería hacer una consulta a los usuarios que comentó hace rato. Era sobre, específicamente,
+
+689
+00:44:09,760 --> 00:44:18,880
+ya que ahorita está en un local post, en N8n. Es más seguro manejarlo desde el local post. No tiene
+
+690
+00:44:18,880 --> 00:44:28,400
+menos posibilidades de lo que está diciendo. Y lo que comentó Bermas, además de los trucos,
+
+691
+00:44:28,400 --> 00:44:38,720
+si les acudes que vayamos a evitar tenerla en la nube, ¿no? Y consultarle, ¿tendríamos que
+
+692
+00:44:38,720 --> 00:44:44,340
+tener servidores específicos? ¿Te puede decir como tener computadores específicos para manejar
+
+693
+00:44:44,340 --> 00:44:51,400
+todo el sistema de nuestra tema? No, no, porque incluso con una máquina que es de memoria,
+
+694
+00:44:51,400 --> 00:44:59,840
+no sé, 4 de RAM, por lo que, normal trabaja. O sea, solamente son más lentas. La parte de que
+
+695
+00:44:59,840 --> 00:45:05,480
+me exija más cosas, tener más cosas, mucho va a depender de qué quieres hacerlo. Por ejemplo,
+
+696
+00:45:05,480 --> 00:45:12,160
+7, 8n le quieres colocar agentes de ella. ¿Sabes que te va a consumir un montón de memoria, GPUs,
+
+697
+00:45:12,160 --> 00:45:18,200
+etcétera? Ahí sí sería una computadora mínimo de 16 gigas. Pero servidores, servidores, no,
+
+698
+00:45:18,200 --> 00:45:23,160
+porque tú mismo el computador lleva a ser un servidor y ya te actúa como servidor ahorita.
+
+699
+00:45:23,160 --> 00:45:31,960
+Pero si vas a ser, no sé, autométese tu negocio o generar clientes, sobre cuál son tus
+
+700
+00:45:31,960 --> 00:45:37,800
+estadísticas de cliente promocional por tu sistema normal, soporta, no hay problemas.
+
+701
+00:45:37,800 --> 00:45:45,600
+Solamente que mientras más bajo sea tu, el GPU, la RAM de tu compu, obviamente va a demorar un
+
+702
+00:45:45,600 --> 00:45:50,480
+poquito más, pero igual va a funcionar. Porque la parte de encryptación, seguridad,
+
+703
+00:45:50,480 --> 00:45:56,200
+todo eso se lo coloca más que todo en la parte de los links. No se lo coloca dentro de la compu o
+
+704
+00:45:56,200 --> 00:46:01,760
+dentro de tu mismo servidor interno. Así que de ese aspecto no te preocupes. Ahora, de manera local,
+
+705
+00:46:01,760 --> 00:46:07,280
+sí es un poco más seguro, pero también hay que tener un conocimiento de criptografía para evitar
+
+706
+00:46:07,280 --> 00:46:14,240
+cosas un poco más complejas. Ahora, lo bueno de la Nube, si adquirimos de las empresas que les comenté,
+
+707
+00:46:14,240 --> 00:46:20,160
+y ahorita les voy a mostrar unas tres más que son bastante asequibles hablando en temas de dinero,
+
+708
+00:46:20,160 --> 00:46:25,760
+van a ver que sí ofrece bastante seguridad. Porque ellos incluso te ofrecen, si es que te
+
+709
+00:46:25,760 --> 00:46:30,960
+banean, te van a desestablecer, incluso te dan indemnización. Así que de esa parte,
+
+710
+00:46:30,960 --> 00:46:36,840
+ambos casos son buenos. Solamente algunos tienen ventajas y desventajas, depende mucho del sistema
+
+711
+00:46:37,000 --> 00:46:38,840
+que queremos revisar. Ok.
+
+712
+00:46:38,840 --> 00:46:40,840
+Listo, Vime. ¿Qué más?
+
+713
+00:46:40,840 --> 00:46:41,840
+Oresín.
+
+714
+00:46:41,840 --> 00:46:46,080
+Sobre esa cometerna, lo último que voy a preguntar, la verdad me gustó mucho lo que nos
+
+715
+00:46:46,080 --> 00:46:50,280
+explica ahorita en la posibilidad, porque era el tema del tigerma, la teoría, el tema del
+
+716
+00:46:50,280 --> 00:46:57,040
+informecer, todo el no-how que vamos a tener de la empresa, el confluto. Así que va a ser importante.
+
+717
+00:46:57,040 --> 00:47:02,680
+Y quería hacer una pregunta, si conoce específicamente en Bolivia. No sé si las empresas que me
+
+718
+00:47:02,680 --> 00:47:08,680
+nombró eran exteriores o las que nombró, porque específicamente Bolivia también para saber
+
+719
+00:47:08,680 --> 00:47:15,880
+dónde está nuestra información, dónde está nuestra, nuestro flujo y todo eso. Porque lo que pasa es
+
+720
+00:47:15,880 --> 00:47:22,920
+que, te comento Milton, había un programa de cooperación internacional. Lo voy a contar así
+
+721
+00:47:22,920 --> 00:47:29,000
+con uno pequeño. Lo que nos comentaron era que había un programa de cooperación internacional,
+
+722
+00:47:29,000 --> 00:47:37,520
+que no sabían, o sea que los servidores y la nube de toda la actividad que se hizo en la
+
+723
+00:47:37,520 --> 00:47:42,200
+cooperación internacional para ayudar a las personas, todo la información estaba en otro lugar.
+
+724
+00:47:42,200 --> 00:47:48,640
+Y apenas si fue la cooperación internacional, todo eso se lo llevó la, pero todo lo que había
+
+725
+00:47:48,640 --> 00:47:55,600
+trabajado se quedó sin nada. Así que quería saber, yo, yo, en lo personal quisiera eso,
+
+726
+00:47:56,320 --> 00:48:02,560
+tener servidor específico y saber dónde está el servidor para cuidar todo eso.
+
+727
+00:48:02,560 --> 00:48:08,160
+Listo. Bueno, te explico ahora ese detallamento un poquito para el conocimiento general, digamos.
+
+728
+00:48:09,440 --> 00:48:16,560
+Bueno, los servidores o datacenters que manejan un montón de cosas o flujos de combinaciones,
+
+729
+00:48:16,560 --> 00:48:24,080
+la mayoría se encuentra en tres países claros, Argentina, Brasil y Colombia. Ya son esos tres
+
+730
+00:48:24,080 --> 00:48:29,960
+países que tienen datacenters en nivel Mac, no tanto de Google, tanto de web service de Tesla,
+
+731
+00:48:29,960 --> 00:48:37,800
+de lo más neurolinx, etcétera. Tienen ahí. Ahora, lamentablemente, Bolivia, en ese aspecto,
+
+732
+00:48:37,800 --> 00:48:45,080
+si está retrasado, no tenemos datacenters, así de gran escala. Una de las mayores potencias
+
+733
+00:48:45,080 --> 00:48:51,880
+que tenemos como país es que desayunamos software y lo vendemos a Estados Unidos. O sea, por ejemplo,
+
+734
+00:48:51,880 --> 00:48:59,120
+el software que hacen los cochabambinos es la de la empresa Alpharn. Alpharn se llama. El software
+
+735
+00:48:59,120 --> 00:49:05,140
+está trabajando ahorita con el MIT. El MIT y parte de IBM. Ellos les respaldan y hacen sus
+
+736
+00:49:05,140 --> 00:49:15,040
+softwares. Pero y además tienen un servidor más o menos de tres terabytes, más o menos por orden
+
+737
+00:49:15,040 --> 00:49:22,360
+de clips que tienen. Cuchabamba. Ya si van a su... Está por tiki pay ahorita esa empresa. Si van a
+
+738
+00:49:22,360 --> 00:49:28,640
+visitar Super, les voy a tratar de enviar ubicaciones exactas si es que me dicen que les pase, pero
+
+739
+00:49:28,640 --> 00:49:35,920
+ahí está. Todos los flujos de dato, lamentablemente, se centralizan a Estados Unidos y se centralizan en
+
+740
+00:49:35,920 --> 00:49:42,240
+Europa. Las mentirías y les digo que se centraliza el servidor de la nube y todos los flujos. Son
+
+741
+00:49:42,240 --> 00:49:47,920
+hallazos centrales. Tienen obviamente sus subcentrales en Latinoamérica, en cualquier parte del mundo
+
+742
+00:49:47,920 --> 00:49:54,960
+lo tienen. Pero a esa escala solamente la tiene los países desarrollados. En Sudamérica, Brasil,
+
+743
+00:49:54,960 --> 00:50:02,480
+Perú y Argentina tienen las tres grandes. Porque en Perú, por ejemplo, la Changai, donde ya va a
+
+744
+00:50:02,480 --> 00:50:07,320
+estar el puerto de la NASA, ahí va a estar trabajando en datacente. Y ahora, si se han dado cuenta,
+
+745
+00:50:07,400 --> 00:50:13,840
+van a instalar aquí dos datacentes en la paz. Ya y también se va a tener... Ahora, al momento de irse
+
+746
+00:50:13,840 --> 00:50:22,560
+a una cooperación, sí, una cooperación es cuando tienen un limitante de tiempo. O sea, si la cooperación
+
+747
+00:50:22,560 --> 00:50:28,720
+termina, todos se lo llevan. Por eso se llama cooperación. Co-O, o sea, trabajo de ambos. Es
+
+748
+00:50:28,720 --> 00:50:36,120
+cooperativo. Si uno se va, pues, si es de él, pues se lo llevan. Y la única forma de que nosotros
+
+749
+00:50:36,120 --> 00:50:41,600
+desarrollemos tecnología avanzada es que sí o sí generemos no solamente software, sino hardware
+
+750
+00:50:41,600 --> 00:50:47,480
+y que tengamos las infraestructuras necesarias que necesitastas. Por ejemplo, si o si un datacente
+
+751
+00:50:47,480 --> 00:50:52,960
+y un servidor así de gran potencia, tiene que trabajar en lugares donde es frío. Sí o sí,
+
+752
+00:50:52,960 --> 00:50:57,240
+porque hay un montón de probabilidades que ocurren un montón de... No se ha escuchado,
+
+753
+00:50:57,240 --> 00:51:02,840
+¿no? Ya lo que estaba hace unos meses, un bon que se va a acabar el agua, que necesitamos que
+
+754
+00:51:02,840 --> 00:51:06,920
+cualquier servidor necesita agua y un datacente necesita... Sí, es verdad, porque para refrigar
+
+755
+00:51:06,920 --> 00:51:12,840
+a esos sistemas, sí se necesita eso. No es mentir, no es tanto, tanto mentira lo que han dicho. No sé,
+
+756
+00:51:12,840 --> 00:51:19,160
+sí es verdad. Ahorita los bancos de acá trabajan con los datacentres de Argentina. Ahí se envían
+
+757
+00:51:19,160 --> 00:51:24,400
+los datos. Y de Argentina se los envía por fibra óptica y por Océano, a Estados Unidos y
+
+758
+00:51:24,400 --> 00:51:33,160
+veían desde los sataníteles también. O sea, es un mundo la ingeniería de redes. ¿Listo? Eso. Pero
+
+759
+00:51:33,160 --> 00:51:37,280
+sí se... Sí, lamentablemente todas las entradas están ahí. Por ejemplo, ahorita les voy a mostrar
+
+760
+00:51:37,280 --> 00:51:45,720
+de Hostinger. Hostinger, la mayor lo conoce, pero Hostinger con N8N, por ejemplo. Me ofrece ya
+
+761
+00:51:45,720 --> 00:51:53,360
+un sistema autolojado. Es el que es más barato, se podría decir. Mira, ahorita está con el 69%
+
+762
+00:51:53,360 --> 00:52:01,960
+de descuantos y... Da, ahorita les voy a mostrar varias publicidades para que no sea unitaria.
+
+763
+00:52:03,960 --> 00:52:11,480
+¡Ay, Hostinger! Lo pueden comprar. O pueden comprar también Contabo. Pero Contabo es bastante...
+
+764
+00:52:11,480 --> 00:52:20,760
+¿Vas barato? Mira. Ya. Ahí está. Ay, Dios, aquí está. Contabo.
+
+765
+00:52:25,200 --> 00:52:33,080
+Listo. A ver si entramos a Contabo. Por ejemplo, esto para mí es un servidor de terceros. Si se dan
+
+766
+00:52:33,080 --> 00:52:43,280
+cuenta, está ahorita 4.50. 3.60 en el N8N mensual. O sea, es barato. Es baratísimo. Porque si entramos a
+
+767
+00:52:43,280 --> 00:52:56,280
+N8N Cloud, si entramos a N8N Cloud... Es exacto. A ver, voy a... ¿Escucho muy bajito o es mi impresión?
+
+768
+00:52:56,280 --> 00:53:07,280
+A ver. Listo. Ah, ya. Listo, listo. Entonces, por ejemplo, acá, por ejemplo, si van a pricing,
+
+769
+00:53:07,280 --> 00:53:17,200
+van a ver que es un poco más caro la N8N. Mira, 20 dólares en el N8N. Eso trabaja con NCloud. Pero
+
+770
+00:53:17,200 --> 00:53:23,880
+fíjense, ahorita vamos a hablar de workflows. Workflows se llama en tener lugar de trabajo. Es decir,
+
+771
+00:53:23,880 --> 00:53:30,640
+cuántas conexiones puedo realizar de manera macnasa se llama un workflow. Por ejemplo,
+
+772
+00:53:30,640 --> 00:53:39,200
+aquí a 20 dólares me ofrece, miren, 50 AIs workflow with credits. Si trabajamos con las 50
+
+773
+00:53:39,200 --> 00:53:45,720
+dólares, miren, sube 150. Y va a diferentes tipos de escalas, pero obviamente es más car. Mira,
+
+774
+00:53:45,720 --> 00:53:52,360
+800 dólares mensuales, esto la pagan las empresas grandes. Pero fíjense, pero este monto comparado
+
+775
+00:53:52,360 --> 00:53:59,640
+con este. Prefiero comprarme este, ¿no? Una vez que aquí aprendan lo básico, lo necesario,
+
+776
+00:53:59,640 --> 00:54:06,520
+un poco lo intermedio, ya pueden empezar con este. Porque si ofrece buena adaptabilidad,
+
+777
+00:54:06,520 --> 00:54:14,160
+tiene seguridad, la mayoría lo hace acá. Trabaja con esto. Incluso les puedo comentar que nosotros
+
+778
+00:54:14,160 --> 00:54:21,400
+trabajamos con para nuestros clientes con el N8N se los hacemos. Y esto hacen ellos. Se los
+
+779
+00:54:21,400 --> 00:54:28,160
+compramos y pagan montos un momento bajos para hacerlos. Pero si quieren una versión un poquito
+
+780
+00:54:28,160 --> 00:54:34,120
+más estándar, mayor cantidad de APIs, porque a veces las APIs hay que pagarlas. Mientras que cuando
+
+781
+00:54:34,120 --> 00:54:40,200
+la compran de acá, de N8N y directo, tiene ventajas. Por ejemplo, si nos vamos a docs y vamos a
+
+782
+00:54:40,200 --> 00:54:47,400
+documentation, vamos a irnos acá. Van a ver qué ventajas me da y qué desventajas puede darme
+
+783
+00:54:47,400 --> 00:55:00,320
+también. Ya voy a irme. ¿Me han detectado un malware? Por ejemplo, así integraciones me
+
+784
+00:55:00,320 --> 00:55:08,400
+interesa a mí. Voy a trabajar con diferentes que esto, creencia, creencia. Esto es la parábita
+
+785
+00:55:08,400 --> 00:55:19,520
+clave. Miren, HTTP. Sé que la mayoría no es del ámbito de programación, pero si entienden lo que es
+
+786
+00:55:19,520 --> 00:55:29,760
+un HTTP, hacen lo que quieran. Ese es el punto. Y no solamente incluso en la sala con cosas
+
+787
+00:55:29,760 --> 00:55:38,120
+automatizadas normales o naturales o comunes. Esto lo pueden enlazar con su Alexa. Lo pueden enlazar
+
+788
+00:55:38,120 --> 00:55:45,320
+con visión artificial, con cámaras. A eso mundo cuando empezamos a nacer HTTPS, MQTT,
+
+789
+00:55:45,320 --> 00:55:51,640
+STCPIPS, M-MOD, RTU, MOD, BOS, STCPIPE, hay un montón de protocolos que ellos trabajan
+
+790
+00:55:51,640 --> 00:55:57,920
+en el hardware y software. Si queremos automatizar ya con visiones artificiales, automáticos,
+
+791
+00:55:57,920 --> 00:56:05,480
+electrónicas, etcétera, etcétera, se hace con eso. Y eso es lo bueno, porque esto me ofrece a 20
+
+792
+00:56:05,480 --> 00:56:12,360
+dobles de los aspectos. Por ejemplo, el teleflico de la PAS trabaja con esto para generar sus flujos
+
+793
+00:56:12,360 --> 00:56:19,560
+directos. Ya, eso. Ahora sí, vámonos a... Ya, una vez que ya lo tienen, si no hay más preguntas,
+
+794
+00:56:19,560 --> 00:56:31,480
+continuamos. Ya, voy a continuar. Ya, una vez que hemos venido acá, vámonos a irnos directamente
+
+795
+00:56:31,480 --> 00:56:39,160
+acá. Ya, empezaremos con la primera práctica. Una vez que ya han tenido esto, pueden echarse
+
+796
+00:56:39,160 --> 00:56:49,560
+Great Warflow. Y les va a parecer estar esta interfaz. Ya, esta interfaz no tengan miedo. O
+
+797
+00:56:49,560 --> 00:56:57,120
+sea, no esperen a que tengamos sido así la clase. Vayan averiguando. Vayan viendo para que
+
+798
+00:56:57,120 --> 00:57:03,960
+sirve cada botoncito. Vayan en este caso, quemándolo, destruyendo, combinando, cualquier cosa. Porque
+
+799
+00:57:03,960 --> 00:57:10,160
+es la única forma de aprender. No va a pasar nada. Ya. Así que pueden ver cómo funciona esto,
+
+800
+00:57:10,160 --> 00:57:17,280
+si es esto, cómo funciona esto, para que me sirve esto, acercarse, venir, ver qué son templates,
+
+801
+00:57:17,280 --> 00:57:23,640
+insights, etcétera, etcétera. Siempre sean curiosos. Ya, démenme un momento, un minutito,
+
+802
+00:57:23,640 --> 00:57:38,040
+chicos. Déjenme un pechito, por favor. Ya, ahora sí, saliremos. Mil disculpas, mil disculpas. Tengo
+
+803
+00:57:38,040 --> 00:57:46,240
+perritos y sentan como locos. Así que, sorry, sorry. Ya, ahora sí. Ya, empezaremos con la primera
+
+804
+00:57:46,240 --> 00:57:54,880
+práctica. Aquí atrás, si van a la parte derecha superior, hay un más. Ya, si hacemos click ahí,
+
+805
+00:57:54,880 --> 00:58:01,320
+hay bastantes opciones que les voy a explicar uno a uno cómo funciona. Y luego les voy a explicar
+
+806
+00:58:01,320 --> 00:58:08,800
+cómo vamos a hacerlo de manera legal. Ya. Lo voy a borrar esto. Lo voy a ensar acá. Y vamos a entender
+
+807
+00:58:08,800 --> 00:58:13,880
+para qué sirve, por qué lo hago, cuándo se trabaja, cuándo no, etcétera, etcétera. Ya.
+
+808
+00:58:13,880 --> 00:58:22,520
+Generalmente, todo acá son triggers. Los triggers son actuadores. Un actuador, ¿qué entendemos por
+
+809
+00:58:22,520 --> 00:58:29,360
+un actuador? Es un motor. O lo que hace o lo que realiza. En base a qué? En base a una petición.
+
+810
+00:58:30,360 --> 00:58:37,960
+Estos términos quizás se van a ser desentendidos, pero yo lo digo get y post. El get es cuando
+
+811
+00:58:37,960 --> 00:58:45,480
+quiero enviar una información y el post es cuando yo recibo una información. Ya, o cuando recibo una
+
+812
+00:58:45,480 --> 00:58:52,840
+respuesta. Eso, get y post. Eso, eso, memorizarse. Ya. Un trigger, entonces, para mí es una ejecución
+
+813
+00:58:52,840 --> 00:59:00,320
+del flujo de manera manual. Eso para esto me sirve. Pero para qué me sirve esto? Ejecuta el sistema
+
+814
+00:59:00,320 --> 00:59:07,440
+manualmente. O sea, mediante un click, mediante una botonía. Eso es el trigger. Ya. En este caso,
+
+815
+00:59:07,440 --> 00:59:14,240
+por ejemplo, para probar si un bot o para depurar errores, puedo utilizar un trigger. Ya. El otro,
+
+816
+00:59:14,240 --> 00:59:22,040
+one up events. En este caso, esto me sirve para activar generalmente flujos cuando algo
+
+817
+00:59:22,040 --> 00:59:27,040
+ocurre en otra aplicación, en una app, por ejemplo, en Telegram. Si hay algún click, me tiene que
+
+818
+00:59:27,040 --> 00:59:33,000
+enviar en 8N y en el ancho, me tienen que procesar. Para eso me sirve esto. Ya. También se lleva,
+
+819
+00:59:33,000 --> 00:59:39,520
+por ejemplo, otro ejemplo, digamos, por WhatsApp o Telegram. Cuando me llegue un mensaje, este sistema
+
+820
+00:59:39,520 --> 00:59:46,560
+lo puede guardar en un Google Sheets o me puede enviar un mensaje a mi Gmail. Pónganle. Puede
+
+821
+00:59:46,560 --> 00:59:52,680
+poder trabajar de esa manera. El one is car. En este caso, ejecuta automáticamente por tiempo. Y
+
+822
+00:59:52,680 --> 00:59:59,480
+esto es bien importante. El one is car. Porque este me dice, por ejemplo, no sé, yo he tenido
+
+823
+00:59:59,480 --> 01:00:07,840
+ventas desde las seis de la mañana, las 8 de la mañana hasta las 6 de la tarde. Ya. Y quiero yo que
+
+824
+01:00:07,840 --> 01:00:14,200
+cada vez que termine el día o las ventas, póngales a las 9 de la noche, quiero que me envíe un mensaje
+
+825
+01:00:14,200 --> 01:00:22,360
+de todo el ingreso, todo el ingreso que he tenido o cuántos clientes he tenido. En este, este trigger
+
+826
+01:00:22,360 --> 01:00:28,480
+se encarga de decirme y acordarme. Eso es como un alarma que ya está programado para el día,
+
+827
+01:00:28,480 --> 01:00:35,320
+hora, fecha o si quieren cada día. Eso es el, el scar. Ya ahora el siguiente. El web hook.
+
+828
+01:00:35,920 --> 01:00:43,840
+Esto es uno de los más mortales. Les diría porque el web es. Es el trinco más utilizado,
+
+829
+01:00:43,840 --> 01:00:51,600
+porque no solamente trabajamos con sistematizaciones automáticas. Aquí ya se puede hacer virtualizaciones
+
+830
+01:00:51,600 --> 01:00:57,000
+y visión artificial y control de cámaras, control de servidores, control de lo que ustedes
+
+831
+01:00:57,000 --> 01:01:05,280
+quieran absolutamente. Por eso ahí está la palabra HTTP. Ya. A PIS. Tuán de sea. Incluso había un
+
+832
+01:01:05,280 --> 01:01:13,000
+cliente que se le hemos hecho un sistema de N8N para verificar la posición satelital más que
+
+833
+01:01:13,000 --> 01:01:20,400
+todo de sus drones. Es decir, en Argentina, por ejemplo, hay la mayor cantidad de sembradíos de
+
+834
+01:01:20,400 --> 01:01:26,080
+maíz que tienen ellos lo hacen con drones y los drones si o si tienen que salir a las 8 de la
+
+835
+01:01:26,080 --> 01:01:33,920
+mañana regar y volver a las 9 y 30 y estos web us lo hacen lo controlan hace el proceso de
+
+836
+01:01:33,920 --> 01:01:41,800
+estandarización con QG es y QG es lo manda un sistema satelital satelital ejecuta los rangos
+
+837
+01:01:41,800 --> 01:01:48,240
+y parámetros de eje cartesiano QG en la posición global lo envía a mi web hook y eso me da
+
+838
+01:01:48,240 --> 01:01:54,720
+los datos estadísticos, los datos de posesión y cuánto tiempo y cuánto autonomía tenía el
+
+839
+01:01:54,720 --> 01:01:59,480
+drone, etcétera, etcétera, etcétera, etcétera, o sea, en mundo dejado al otro, otro ambiente con
+
+840
+01:01:59,480 --> 01:02:07,760
+N8N y con web hooks. Ya. Luego están los form submissions. En este caso, para mí me sé para
+
+841
+01:02:07,760 --> 01:02:12,960
+ejecutar en este caso flujos cuando alguien quiere llegar a un plenar un formulario, por ejemplo,
+
+842
+01:02:12,960 --> 01:02:19,320
+eso es lo que vamos a ver bien. Ya. Por ahí les voy a llamar lo que es la parte de. Esas asistencias.
+
+843
+01:02:19,320 --> 01:02:26,760
+Por si caso antes de olvidarme recordarles que tienen que anotar su nombre a estrofinalizar
+
+844
+01:02:26,760 --> 01:02:35,040
+de la clase para que yo tenga la lista correspondiente de todos sus apellidos y demás para que yo envía
+
+845
+01:02:35,040 --> 01:02:39,800
+la embajada así que no se olviden de anotar sus nombres en el formulario antes de que termine
+
+846
+01:02:39,800 --> 01:02:44,560
+la clase. Eso por favor chicos, no se olviden. Ya seguiremos.
+
+847
+01:02:44,560 --> 01:02:51,880
+Está en el grupo de WhatsApp. Le enviado ahorita al último, o no le enviado,
+
+848
+01:02:51,880 --> 01:03:04,360
+le enviado a otro grupo a ver de un gusto. Ah, sí, está ahí. Antes que me digan que hay
+
+849
+01:03:04,360 --> 01:03:14,840
+el form. Listo. Ya. Me invito a los chicos. Ahorita los voy a hablar. Pues no quiero entrar
+
+850
+01:03:14,840 --> 01:03:21,080
+en mi WhatsApp. Un montón de gente. Ah, me está molestando. Ah, sí. Listo, listo, listo, listo.
+
+851
+01:03:21,080 --> 01:03:34,280
+De mancachito. Algún estaba. Ya, entonces, haremos lo siguiente. Ya. Os voy a explicar más,
+
+852
+01:03:34,280 --> 01:03:40,800
+pero quisiera avanzar un poquito porque si nos vamos a trazar y es ocho y treinta y veinte
+
+853
+01:03:40,800 --> 01:03:48,280
+meses vamos a terminar la clase. Ya, el último. Si nos vamos acá, por ejemplo, eh, hagamos
+
+854
+01:03:48,280 --> 01:03:56,040
+click acá en el primerito. Hagan click en aquí pueden entrar. Trigger manual. Ahí
+
+855
+01:03:56,040 --> 01:04:01,360
+coloquenlo acá. Hagan click nomás y listo. Les va a aparecer eso. Ya. Hasta ahí hemos
+
+856
+01:04:01,360 --> 01:04:09,720
+amado los espero. Ahora, esto por ejemplo, eh, vamos a trabajar con una guía. Mmm. Ya,
+
+857
+01:04:09,720 --> 01:04:16,520
+hagamos lo siguiente. Hagamos doble click. Ya, esto es para mí un trigger. ¿Cómo funciona
+
+858
+01:04:16,520 --> 01:04:22,440
+un trigger? ¿Cómo dice que ejecutar? Hagan click y listo. Ya se ha ejecutado. Se se dan
+
+859
+01:04:22,440 --> 01:04:28,080
+cuenta. Pues manual, o sea, con un click y funciona, pero obviamente va a depender mucho
+
+860
+01:04:28,080 --> 01:04:34,700
+que click. Tiene que hacer que o que. Ya. Pero vamos a entrar ahora a otro. Para eliminar
+
+861
+01:04:34,700 --> 01:04:43,480
+esto. Aquí está una basura, ¿Ven? Hagan click y listo. Vuelvan acá, vuelvan al símbolo
+
+862
+01:04:43,480 --> 01:04:50,760
+de más y vamos a hacer otro. Ya. One for submission haremos. Este de acá. One for
+
+863
+01:04:50,760 --> 01:05:00,480
+submission, hagan click. Les va a aparecer esto. Si lo cierran, les aparece esto. Ya.
+
+864
+01:05:00,480 --> 01:05:05,800
+Si quieren volver a abrir la pantalla que hemos visto el rato, hacen doble click y les va
+
+865
+01:05:05,800 --> 01:05:10,280
+a aparecer eso. Ya. Ahora, ¿Qué quiero que me entiendan? Y esto va a ser parte de su
+
+866
+01:05:10,280 --> 01:05:21,160
+tarea de hoy. Por si acaso. Así que trataremos de trabajarlo. Ya. Fíjense. Vuelvo a clicker.
+
+867
+01:05:21,160 --> 01:05:27,080
+Voy a repetir. Voy a borrar esto. Una vez más. Voy a repetir rápidamente. Vengo a más.
+
+868
+01:05:27,080 --> 01:05:36,080
+Vengo a este. O one for submission. A este. Perdón. Hacen click. Les va a aparecer esto.
+
+869
+01:05:36,080 --> 01:05:41,760
+Hay dos maneras de verlo. Dice que uno es de manera test. O sea, hay que testearlo como
+
+870
+01:05:41,760 --> 01:05:49,240
+está funcionando. Y otros mediante producción. Ya. Yo voy a manejar mediante tests. Y este
+
+871
+01:05:49,240 --> 01:05:54,840
+test, si nos damos cuenta si hago click acá. Fíjenos, no cambia mucho la URL que me bota.
+
+872
+01:05:54,840 --> 01:05:58,920
+¿Ven? No cambia mucho. Casi sigue siendo lo mismo. Solamente al último cambian unas
+
+873
+01:05:58,920 --> 01:06:05,960
+cositas. Pero vamos a primero testearlo. Ya. Ahora. No voy a colocar autenticación.
+
+874
+01:06:05,960 --> 01:06:11,680
+Todavía. Porque no quiero generar algún tipo de cosas que ahorita no estamos avanzando.
+
+875
+01:06:11,680 --> 01:06:17,000
+Así que lo voy a dejar como no. Ahora vamos a colocar fromTarget. En este caso. En el
+
+876
+01:06:17,000 --> 01:06:29,240
+from. Puedo colocar formulario de asistencia. Asistencia. Ya. Y dentro de acá. Yo puedo
+
+877
+01:06:29,240 --> 01:06:41,440
+trabajar en este caso describiendo. ¿Qué hace esto? Ya. Voy a colocar formulario. De asistencia.
+
+878
+01:06:41,440 --> 01:06:55,640
+De los estudiantes. De la embajada. Embajada. Visto. Ya está. Luego aquí puedo añadir
+
+879
+01:06:55,640 --> 01:07:01,760
+froms. Pero todavía no lo voy a hacer esto. Fíjense. Aquí lo voy a ejecutar. Y me va a
+
+880
+01:07:01,760 --> 01:07:09,280
+parecer esto. ¿Ven? Y ahora. Fíjense. Lo voy a minimizar un poquito para que se vea.
+
+881
+01:07:09,280 --> 01:07:17,440
+Ya. Ahí está mi formulario. Miren acá. Y aquí tengan en cuenta los siguientes chicos.
+
+882
+01:07:17,960 --> 01:07:27,800
+Mis get y mis post. Oh. La entrada y la salida. Los inputs o los outputs. Aquí en el lado izquierdo
+
+883
+01:07:27,800 --> 01:07:34,720
+siempre son los inputs. En el lado derecho siempre son los outputs. Si hago click submit.
+
+884
+01:07:34,720 --> 01:07:42,840
+Viren. Se registra. Alguien se ha registrado en esta fecha a esta hora, me dice. ¿Se dan cuenta?
+
+885
+01:07:43,240 --> 01:07:51,040
+Que hasta. Ya hemos creado nuestro primer hola mundo en n8n. Que es subir un sistema form.
+
+886
+01:07:51,040 --> 01:07:57,880
+Voy a cerrarlo. Voy a venir ahora. Voy a añadir algunos elementos. Por ejemplo,
+
+887
+01:07:57,880 --> 01:08:05,280
+voy a decir que añadir un elemento. Añadimos ahí un label. Por ejemplo, voy a decir como me pide.
+
+888
+01:08:05,280 --> 01:08:08,360
+What's your name? En este caso voy a colocar nombre completo.
+
+889
+01:08:11,440 --> 01:08:18,600
+Listo. ¿Qué tipo de texto es nombre? ¿Qué tipo de variable? Texto, ¿no? Texto voy a colocar.
+
+890
+01:08:18,600 --> 01:08:25,120
+Listo. Ahora. ¿Puedo colocarlo acá lo siguiente? Si se han dado cuenta con ustedes crean un formulario
+
+891
+01:08:25,120 --> 01:08:31,600
+en Google. Tienen que colocar ahí veces valores que sí o sí el cliente lo anote. No veo. O sea,
+
+892
+01:08:31,600 --> 01:08:37,080
+si tienen que notar. Porque hay unos que no envían su correo o se olvidan su apellido. Y si no colocamos
+
+893
+01:08:37,080 --> 01:08:43,600
+esa variable de que estamos obligándole a que el cliente coloque sus datos de nada vencerlo,
+
+894
+01:08:43,600 --> 01:08:49,640
+porque voy a perder clientes. ¿Qué hago? Entonces, vamos a añadir atributos. Y aquí dice. Valor
+
+895
+01:08:49,640 --> 01:08:56,760
+requerido. Hacemos click y vamos a clicar esto. Y ya está. Son atributos que hay que añadir.
+
+896
+01:08:56,960 --> 01:09:05,800
+Otro, por ejemplo, voy a dar otro elemento. Voy a añadir en este caso. A ver, vamos a colocar
+
+897
+01:09:05,800 --> 01:09:12,560
+profesión. No sé, me estoy inventando. Y vamos a colocar años. ¿Cuántos años tienes?
+
+898
+01:09:14,880 --> 01:09:22,400
+Listo. Venimos acá tipo numérico. Vamos a ver tipo nombre van a colocar. Y también que se ha
+
+899
+01:09:22,480 --> 01:09:36,280
+requerido. Listo. Añadimos otro. Podemos colocar ahí, por ejemplo, sexo. Masculino o femenino, digamos.
+
+900
+01:09:36,280 --> 01:09:41,960
+Ya. Ah, mejor podemos también colocar algún tipo de... Ah, esto colocamos. Un textarea que me
+
+901
+01:09:41,960 --> 01:09:53,840
+cuente, digamos. Cuéntame acerca de ti. Cuéntame de ti. Vamos a colocarlo. Ya. Aquí, si estamos
+
+902
+01:09:53,840 --> 01:09:59,400
+nosotros realizando quizás un... Ya se me fue la palabra ahorita. Para con su tarjenta, digamos.
+
+903
+01:09:59,400 --> 01:10:05,080
+Ya. Que me cuente, porque si me convence con sus palabras, este emocionado por un proyecto,
+
+904
+01:10:05,080 --> 01:10:11,800
+obviamente hay veces, aunque yo no le ve a la cara a un postulante, yo sé mediante su manera de
+
+905
+01:10:11,800 --> 01:10:16,360
+expresarse y hacer en voz o texto, sé que le gusta una persona. Por eso, así, generalmente,
+
+906
+01:10:16,360 --> 01:10:22,680
+nosotros evaluamos. Digamos que sea un requerimiento obligatorio. Listo. Eso también me olvida
+
+907
+01:10:22,680 --> 01:10:27,800
+obligatorio. Y por último, vamos a añadir otro que sea no sé, contraseño.
+
+908
+01:10:31,800 --> 01:10:40,200
+Y que sea tipo password. Ya. Aquí, este tipo password. Listo. Y listo. Hasta ahí. Ahora,
+
+909
+01:10:40,520 --> 01:10:49,160
+voy a ejecutarlo y debería de aparecer todos esos parámetros que ustedes han colocado. A ver,
+
+910
+01:10:49,160 --> 01:10:57,480
+yo voy a llamarme, voy a contratarme yo mismo, digamos. 28, cuéntame de ti. Soy apasionado
+
+911
+01:10:59,600 --> 01:11:06,920
+por... No, me encanta las ciencias espaciales.
+
+912
+01:11:10,440 --> 01:11:15,960
+Ustedes vayan colocando algo diferente y a su tienden que juntar a su word por
+
+913
+01:11:15,960 --> 01:11:23,080
+se caso. Y mi contraseño es 1, 2, 3, 4, 5, 6, 7, 8, 7. Listo. Lo subo y fíjense,
+
+914
+01:11:24,520 --> 01:11:32,600
+ya se me está actualizando esto con todo lo que lo estoy anotando. Listo. Entonces,
+
+915
+01:11:33,160 --> 01:11:39,640
+eso quiero que me hagan ahorita. Con esa opción. Ahora, por ejemplo, si vuelvo a ejecutarlo,
+
+916
+01:11:39,640 --> 01:11:45,080
+miren, van a ver. Me aparece acá abajo en N8N. Yo no quiero que aparezca porque el usuario
+
+917
+01:11:45,080 --> 01:11:51,560
+me hace que la ponen en N8N. No debes programarlo así. Pero puedo eliminarlo eso.
+
+918
+01:11:52,440 --> 01:11:58,760
+Puedo colocar aquí stop listening y aquí coloco adoption. Puedo colocar app n8 attribution.
+
+919
+01:11:59,400 --> 01:12:04,680
+Aquí, o cliquen esto y vuelvo a correrlo y ya no les va a aparecer eso. Miren.
+
+920
+01:12:05,160 --> 01:12:16,920
+Listo. Hasta ahí. Esto me sacan scream de esta cosa. Es un formulario. Y me van a sacar
+
+921
+01:12:16,920 --> 01:12:21,960
+el scream de la salida, del output que han hecho funcionar. Ya, así que aquí lo voy a añadir.
+
+922
+01:12:21,960 --> 01:12:32,920
+Mi primer workflow. Listo. Ahí lo añaden esto. Lo van a hacer bonito, pequeñito, no tan grande.
+
+923
+01:12:33,640 --> 01:12:41,000
+Y aquí también su salida. Yo su salida de acá. O sea, los cierro esto, stop listening y esto lo
+
+924
+01:12:41,000 --> 01:12:49,400
+pueden moverse y desear. Si no se ve muy bien, un poquito lo mueven. Ya ahí lo pueden sacar
+
+925
+01:12:49,400 --> 01:12:58,040
+o un scream de pantalla. Y esto me lo tienen que enviar si o si. Ya, hace un word.
+
+926
+01:13:02,680 --> 01:13:08,440
+Ya. Hasta ahí los espero chicos. Les doy dos, tres minutitos para que vayan haciendo.
+
+927
+01:13:09,640 --> 01:13:16,920
+Porque ahora vamos a hacer un VPS y van a ver qué diferencia con el VPS que voy a crearme.
+
+928
+01:13:20,360 --> 01:13:25,720
+Ya. Así ahí los espero. Les doy cinco minutitos mientras tanto.
+
+929
+01:13:30,440 --> 01:13:35,240
+Hola, hola, hola. Me escuchan chicos por si acaso. Se me ha perdido la conexión creo.
+
+930
+01:13:35,240 --> 01:13:43,240
+Se la escucha. Gracias, gracias. Gracias, gracias chicos. Porque en mi computadora me
+
+931
+01:13:43,240 --> 01:13:47,720
+estaba diciendo que perdí la conexión de red intentando extraversel. A ver.
+
+932
+01:13:50,360 --> 01:13:58,520
+Y esto, esto. Ya, les voy esperando ahí. Así que vayan adjuntando eso y lo van a enviar
+
+933
+01:13:58,520 --> 01:14:04,640
+hasta. Habíamos quedado, ¿no? Quería que se les enviar ahorita, pero habíamos quedado que lo van
+
+934
+01:14:04,640 --> 01:14:11,640
+a enviar hasta la una clase antes de la siguiente clase. Pero ya nos queda sábado así que normal.
+
+935
+01:14:12,360 --> 01:14:19,880
+Ya. Entonces, eso ya creo que no vamos a alcanzar más porque es 46. Voy a ver un cacho.
+
+936
+01:14:19,880 --> 01:14:27,080
+Quienes ya han llenado la la parte y tengo que sacar las asistencias también a lo que me dijeron.
+
+937
+01:14:27,080 --> 01:14:31,880
+Así que déjenme un cachito chico. ¿Cuáles voy a sacar? Asistencias ya.
+
+938
+01:14:32,600 --> 01:14:44,520
+21 menos 2 veces el mío son 19. Oye, entonces. Por si acaso vayan terminando de llenar lo que es el
+
+939
+01:14:44,520 --> 01:14:51,640
+form y tienen que haber 19 personas hoy día. Ya. Ya no os voy a pedir más llenar el formular y por
+
+940
+01:14:51,640 --> 01:14:59,160
+si acaso. Solamente es por hoy nomás. Ya. Así que a ver, de mancachito voy a ver esa parte.
+
+941
+01:15:00,120 --> 01:15:08,840
+Os voy a dar una tabra ahí, pero creo que con una clase extra en YouTube les voy a dar la tabra.
+
+942
+01:15:11,640 --> 01:15:14,840
+Ya. A ver. Vamos a generarme acá.
+
+943
+01:15:17,160 --> 01:15:22,360
+Mientras tanto, dentro de mi board voy a pegar sus asistencias.
+
+944
+01:15:22,920 --> 01:15:27,960
+De Anilse Lopez. Luego está.
+
+945
+01:15:31,960 --> 01:15:36,520
+Por si acaso va a haber clases donde los voy a sorprender con lista. Hoy día no. Ya.
+
+946
+01:15:36,520 --> 01:15:43,720
+Para ver si está o no está. Porque como no os estoy pidiendo activar sus cámaras porque
+
+947
+01:15:43,720 --> 01:15:48,600
+se les va a la guiar algunas cosas. Así que normal. Ya. Pero va a haber siempre una clase.
+
+948
+01:15:48,840 --> 01:15:54,440
+No os voy a sorprender. Así que. Yo tendré que tomarlo en cuenta. Ya. Justamente está nos dice
+
+949
+01:15:54,440 --> 01:16:00,680
+no. Ya. Super bien. Haremos lo siguiente. Creo que nos quedó unos 10 minutos. Así que vamos a
+
+950
+01:16:00,680 --> 01:16:07,240
+pasarles un sostenimiento. Ya. Vean van a descargarse para la siguiente clase. Ojo. Esto no está denso
+
+951
+01:16:07,400 --> 01:16:16,600
+programa. Pero sería bonito que aprendan. Ya. Así que vayan. Se habrán una nueva
+
+952
+01:16:18,040 --> 01:16:25,000
+pantalita y escriban en grog.com.
+
+953
+01:16:27,960 --> 01:16:34,360
+Ya. Ahí ingresan y les va a llevar esta parte.
+
+954
+01:16:35,320 --> 01:16:38,680
+Una vez que ingresen ahí van a ser lo siguiente.
+
+955
+01:16:42,360 --> 01:16:52,840
+Van a empezar. Ya. Se van a enlazar con su cuenta de Jimmy. La mía ya está enlazada. Pero me voy a
+
+956
+01:16:52,840 --> 01:16:59,400
+salir. Ya. Me voy a salir. Ya. Esto. Vayan haciendo hasta ahí.
+
+957
+01:17:00,360 --> 01:17:06,120
+A ustedes les va a pedir que si se entren por su correo electrónico.
+
+958
+01:17:07,400 --> 01:17:13,240
+Ya. Pero ahí les va a botar. Aquí tienen que clickearlo y listo. Una vez que estén dentro.
+
+959
+01:17:14,760 --> 01:17:24,120
+Super. Ahí lo dejan. Ahora voy a hacer lo siguiente. Van a escribir lo mismo en rock.
+
+960
+01:17:24,440 --> 01:17:32,120
+Descarga para windows o para el sistema operativo que ustedes están
+
+961
+01:17:33,240 --> 01:17:33,720
+trabajando.
+
+962
+01:17:35,800 --> 01:17:39,000
+Les voy a botar esta página. Les voy a pasar el link por.
+
+963
+01:17:41,960 --> 01:17:46,920
+Por. Ya. Ya. Ya los he mandado. Enlaz. Entren ahí.
+
+964
+01:17:47,640 --> 01:17:54,520
+Luego van a elegir acá. Y entonces van a elegir aquí les va a detectar.
+
+965
+01:17:54,520 --> 01:17:59,320
+Depende de su sistema interno de diferentes chips. Ya. Aquí por ejemplo ahí era.
+
+966
+01:17:59,880 --> 01:18:06,840
+Me de la M. Me detecta. Lo descarga y se lo descargará. Ya.
+
+967
+01:18:08,120 --> 01:18:14,120
+Por si acaso antes de antes de meter la pataca. Desactivan su antivirus aunque unos 10
+
+968
+01:18:14,200 --> 01:18:20,600
+minutos y a vas o 20 mil desactivan aunque un cachito para hacer esto. Porque si les detecta
+
+969
+01:18:20,600 --> 01:18:30,360
+nunca más les va a permitir por si acaso. Pero no desactivan antes. Ya. Esa parte siempre
+
+970
+01:18:30,520 --> 01:18:31,080
+se.
+
+971
+01:18:33,640 --> 01:18:38,920
+Y si jamás en la vida van a por. Ya pero descarguen y listo.
+
+972
+01:18:43,320 --> 01:18:52,520
+Ya. Ahí vamos a quedar chicos. Déeme un cachito. Algo más me pide la embajada que les avise.
+
+973
+01:18:53,240 --> 01:18:58,680
+A ver qué me está pidiendo para que les consulte. Son 19.
+
+974
+01:19:01,960 --> 01:19:05,640
+Listo. Déeme un cachito. Voy a sacar asistencias y.
+
+975
+01:19:07,240 --> 01:19:09,560
+Y eso que asistencias. No. Qué me piden más.
+
+976
+01:19:13,160 --> 01:19:13,640
+Ya.
+
+977
+01:19:15,480 --> 01:19:19,640
+Ya sé qué me pide. Déeme un cachito más y luego vamos a terminar la clase. Ya. Ya no sé.
+
+978
+01:19:20,120 --> 01:19:22,040
+En qué página estoy.
+
+979
+01:19:26,440 --> 01:19:28,200
+De me un cachito de un cachito.
+
+980
+01:19:32,680 --> 01:19:33,560
+A ver. Dios.
+
+981
+01:19:36,360 --> 01:19:37,000
+Listo.
+
+982
+01:19:39,880 --> 01:19:45,080
+Para la siguiente clase, por favor, eso instalado. No lo tienen que ejecutarlo por si acaso.
+
+983
+01:19:45,880 --> 01:19:52,200
+Solamente descarguenlo y descomprímelo. Nada más. No. No les voy a pedir otras cosas más.
+
+984
+01:19:53,480 --> 01:19:59,560
+Porque va a ser un lío. No lo no lo ejecuten nada más. Y lo han ejecutado de si ensalan.
+
+985
+01:20:01,080 --> 01:20:02,440
+No tienen que ejecutar eso.
+
+986
+01:20:04,680 --> 01:20:09,400
+Ya. Eso por si acaso es extra. No. No. No. No es el objetivo de la materia. Pero.
+
+987
+01:20:10,200 --> 01:20:13,800
+Es necesario que aprendan cómo funcionar un VPS. Así es que desean eso.
+
+988
+01:20:15,320 --> 01:20:20,120
+Ya. Luego chicos hasta ahí quedamos. Nos vemos el día sábado. Ah, por si acaso.
+
+989
+01:20:20,920 --> 01:20:27,000
+Esto también comentarles aprovechando. Lamentablemente. A veces yo tuve que la
+
+990
+01:20:27,000 --> 01:20:34,120
+es en la universidad hasta las seis seis y media. Así que si es que me atraso chicos,
+
+991
+01:20:34,120 --> 01:20:42,280
+aunque 10 minutos o 15 minutos. Voy a tratar de volar ya. Porque a veces no encuentro vehículos
+
+992
+01:20:42,520 --> 01:20:48,120
+y se me dificulta llegar a la oficina para darles clases. Así que si es que me atraso,
+
+993
+01:20:48,120 --> 01:20:52,600
+si es que me atraso los sábados netamente. Solamente sábados. Aunque 10 minutos.
+
+994
+01:20:52,600 --> 01:20:57,320
+15 o si llego a normal. Tolerancia. Igual os voy a recompensar 10 minutos más.
+
+995
+01:20:58,360 --> 01:21:03,160
+Listo chicos. Ahí quedamos con la clase de hoy. Que tengan un buen resto de jornada. Nos vemos la
+
+996
+01:21:03,160 --> 01:21:06,680
+siguiente clase. Chau chau. Ya se consisten.
+

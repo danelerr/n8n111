@@ -89,7 +89,9 @@
 
 ## 4. Pendientes manuales (no automatizables desde el repositorio)
 
-- [ ] Reemplazar credenciales y placeholders reales al importar: `REPLACE_WITH_GEMINI_API_KEY`, `REPLACE_WITH_EVOLUTION_API_KEY`, `REPLACE_WITH_GOOGLE_SHEET_ID`, `REPLACE_WITH_OWNER_NAME`, `REPLACE_WITH_OWNER_EMAIL`, `REPLACE_WITH_OWNER_WHATSAPP` y `REPLACE_WITH_N8N_DOMAIN` en `vercel.json`.
+- [ ] Completar `deploy/.env` (config sensible centralizada): `GEMINI_API_KEY`, `EVOLUTION_API_KEY`, `GOOGLE_SHEET_ID`, `OWNER_NAME`, `OWNER_EMAIL`, `OWNER_WHATSAPP`. Los workflows la leen via `{{ $env.* }}`; no hay que editar nodos.
+- [ ] Crear credenciales nativas en n8n (no van en `.env`): Postgres, Gmail OAuth2, Google Sheets OAuth2, Google Gemini (AI Agent).
+- [ ] Reemplazar `REPLACE_WITH_N8N_DOMAIN` en `landing_page/vercel.json` (unico placeholder fuera de n8n).
 - [ ] Ejecutar el despliegue de `deploy/deploy_digitalocean.md` (droplet, docker, esquema, credenciales n8n, QR de Evolution, Sheets, Vercel).
 - [ ] Correr `plan_pruebas.md` sobre el sistema real y tomar las capturas de `anexos_evidencias.md`.
 - [ ] Volver a regenerar el PDF (`scripts/generate_report_pdf.py`) SOLO despues de insertar las capturas en el informe (la version v2 sin capturas ya esta generada).

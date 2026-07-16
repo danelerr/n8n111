@@ -19,6 +19,19 @@ services:
     depends_on:
       - n8n
       - evolution
+      - simulador
+
+  simulador:
+    image: python:3.12
+    restart: unless-stopped
+    volumes:
+      - ../simulador_whatsapp.py:/app/simulador_whatsapp.py:ro
+    working_dir: /app
+    command: python3 simulador_whatsapp.py
+    expose:
+      - "8777"
+    ports:
+      - "8777:8777"   # acceso directo por IP (http://IP:8777) ademas del dominio
 
   postgres:
     image: postgres:16
@@ -59,6 +72,17 @@ services:
       - DB_POSTGRESDB_USER=postgres
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
       - N8N_PROXY_HOPS=1
+      # Permitir que los workflows lean variables de entorno via {{ $env.X }}
+      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
+      # Config de ResearchFlow inyectada a los workflows (evita placeholders inline)
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - EVOLUTION_API_KEY=${EVOLUTION_API_KEY}
+      - GOOGLE_SHEET_ID=${GOOGLE_SHEET_ID}
+      - OWNER_NAME=${OWNER_NAME}
+      - OWNER_EMAIL=${OWNER_EMAIL}
+      - OWNER_WHATSAPP=${OWNER_WHATSAPP}
+      # URL publica del webhook del flujo de investigacion (usada por el flujo de WhatsApp)
+      - RESEARCH_WEBHOOK_URL=https://n8n.${DOMAIN}/webhook/researchflow
     volumes:
       - n8n_data:/home/node/.n8n
     depends_on:
@@ -66,7 +90,7 @@ services:
         condition: service_healthy
 
   evolution:
-    image: atendai/evolution-api:v2.2.0
+    image: evoapicloud/evolution-api:v2.2.3
     restart: unless-stopped
     environment:
       - SERVER_URL=https://evo.${DOMAIN}
@@ -78,6 +102,9 @@ services:
       - CACHE_REDIS_URI=redis://redis:6379/6
       - CACHE_REDIS_PREFIX_KEY=evolution
       - CONFIG_SESSION_PHONE_CLIENT=ResearchFlow
+      # Version de WhatsApp Web vigente (evita "Timed Out" de Baileys al generar el QR).
+      # Si vuelve a fallar el QR en el futuro, actualizar a la version actual de WA Web.
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1042918102
       - LOG_LEVEL=ERROR
     volumes:
       - evolution_instances:/evolution/instances

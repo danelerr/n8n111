@@ -237,7 +237,7 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },
@@ -302,7 +302,7 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },
@@ -390,7 +390,7 @@
     },
     {
       "parameters": {
-        "jsCode": "\nconst ctx = $('Extraer idea').first().json;\nconst idea = $input.first().json || {};\nlet pregunta = '';\ntry {\n  const lista = JSON.parse(idea.preguntas_sugeridas || '[]');\n  if (lista.length) {\n    const p0 = lista[0];\n    pregunta = String(typeof p0 === 'object' ? (p0.pregunta || '') : p0).replace(/^\\s*\\d+[\\).\\-]\\s*/, '');\n  }\n} catch (e) { pregunta = ''; }\nconst payload = {\n  nombre: 'REPLACE_WITH_OWNER_NAME',\n  email: 'REPLACE_WITH_OWNER_EMAIL',\n  whatsapp: ctx.numero,\n  tema: String(idea.tema_refinado || idea.idea_original || '').slice(0, 200),\n  pregunta,\n  tipo_entregable: 'articulo',\n  prioridad: 'media',\n  origen: 'whatsapp_backlog'\n};\nreturn [{ json: { idea_id: ctx.idea_id, numero: ctx.numero, payload } }];\n"
+        "jsCode": "\nconst ctx = $('Extraer idea').first().json;\nconst idea = $input.first().json || {};\nlet pregunta = '';\ntry {\n  const lista = JSON.parse(idea.preguntas_sugeridas || '[]');\n  if (lista.length) {\n    const p0 = lista[0];\n    pregunta = String(typeof p0 === 'object' ? (p0.pregunta || '') : p0).replace(/^\\s*\\d+[\\).\\-]\\s*/, '');\n  }\n} catch (e) { pregunta = ''; }\nconst payload = {\n  nombre: $env.OWNER_NAME,\n  email: $env.OWNER_EMAIL,\n  whatsapp: ctx.numero,\n  tema: String(idea.tema_refinado || idea.idea_original || '').slice(0, 200),\n  pregunta,\n  tipo_entregable: 'articulo',\n  prioridad: 'media',\n  origen: 'whatsapp_backlog'\n};\nreturn [{ json: { idea_id: ctx.idea_id, numero: ctx.numero, payload } }];\n"
       },
       "id": "rf-0044",
       "name": "Preparar lanzamiento",
@@ -400,12 +400,12 @@
         1540,
         -280
       ],
-      "notes": "Reemplazar REPLACE_WITH_OWNER_NAME y REPLACE_WITH_OWNER_EMAIL con los datos del propietario."
+      "notes": "Nombre y correo del propietario se leen de las variables de entorno OWNER_NAME y OWNER_EMAIL (definidas en .env)."
     },
     {
       "parameters": {
         "method": "POST",
-        "url": "http://localhost:5678/webhook/researchflow",
+        "url": "={{ $env.RESEARCH_WEBHOOK_URL }}",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ $json.payload }}",
@@ -456,7 +456,7 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },
@@ -490,7 +490,7 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },

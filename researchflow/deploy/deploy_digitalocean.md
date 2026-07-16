@@ -5,10 +5,15 @@ Guia paso a paso para levantar el stack completo (n8n + Postgres + Redis + Evolu
 ## 0. Requisitos previos
 
 - Cuenta DigitalOcean con creditos.
-- Subdominio DuckDNS gratis (https://www.duckdns.org) o dominio propio.
+- Un dominio. Sirve uno gratis (`.tech` del pack de estudiante, o un subdominio DuckDNS).
+  Con dominio real solo creas 2 registros A; Caddy emite el HTTPS solo (Let's Encrypt).
+  En esta guia el ejemplo es `camba.tech`.
 - API key de Gemini (https://aistudio.google.com > Get API key).
-- Proyecto de Google Cloud con OAuth para Gmail y Sheets (visto en clases 3-5).
+- Proyecto de Google Cloud con OAuth para Gmail y Sheets (ver seccion 4b).
 - Numero de WhatsApp secundario para Evolution API.
+
+> No necesitas comprar ni instalar ningun certificado SSL/TLS: Caddy lo genera
+> automaticamente. La clave SSH solo se usa para entrar al droplet (seccion 1).
 
 ## 1. Crear el droplet
 
@@ -26,12 +31,30 @@ cambios sin tocar produccion (mismos pasos, dominio distinto).
 
 ## 2. Apuntar el dominio
 
-Con DuckDNS:
-1. Crear el subdominio, ej. `researchflow.duckdns.org`, apuntando a la IP del droplet.
-2. DuckDNS resuelve tambien los sub-subdominios (`n8n.researchflow.duckdns.org`,
-   `evo.researchflow.duckdns.org`) hacia la misma IP: es lo que usa el Caddyfile.
+Con dominio propio (recomendado, ej. `camba.tech`):
 
-Con dominio propio: crear registros A para `n8n.midominio.com` y `evo.midominio.com`.
+1. En el panel DNS del dominio, crear **dos registros A** apuntando a la IP del droplet:
+
+   | Tipo | Host | Valor |
+   | --- | --- | --- |
+   | A | `n8n` | IP del droplet |
+   | A | `evo` | IP del droplet |
+
+2. Esperar la propagacion y verificar (desde tu PC):
+
+   ```bash
+   dig +short n8n.camba.tech    # debe devolver la IP del droplet
+   dig +short evo.camba.tech    # debe devolver la IP del droplet
+   ```
+
+   Hasta que ambos resuelvan, Caddy no podra emitir los certificados HTTPS.
+
+En `.env` se pone `DOMAIN=camba.tech` (sin `n8n.`/`evo.`; Caddy agrega esos prefijos).
+
+Alternativa gratis con DuckDNS: crear `tuproyecto.duckdns.org` apuntando al droplet y
+usar `DOMAIN=tuproyecto.duckdns.org`. Verifica primero con `dig` que los sub-subdominios
+`n8n.tuproyecto.duckdns.org` y `evo.tuproyecto.duckdns.org` resuelvan; si no, usa un
+dominio real.
 
 ## 3. Instalar Docker en el droplet
 
@@ -53,18 +76,53 @@ En el droplet:
 ```bash
 cd /opt/researchflow/deploy
 cp .env.example .env
-nano .env        # completar DOMAIN, POSTGRES_PASSWORD, N8N_ENCRYPTION_KEY, EVOLUTION_API_KEY
+nano .env        # completar TODO: DOMAIN, POSTGRES_PASSWORD, N8N_ENCRYPTION_KEY,
+                 # EVOLUTION_API_KEY, GEMINI_API_KEY, GOOGLE_SHEET_ID,
+                 # OWNER_NAME, OWNER_EMAIL, OWNER_WHATSAPP
                  # generar clave: openssl rand -hex 24
 chmod +x init-databases.sh
 docker compose up -d
 docker compose ps    # todo debe quedar en running/healthy
 ```
 
+> Los workflows leen estos valores desde las variables de entorno del contenedor
+> n8n (`{{ $env.GEMINI_API_KEY }}`, `{{ $env.OWNER_EMAIL }}`, etc.). Ya **no** hay
+> que reemplazar placeholders `REPLACE_WITH_*` nodo por nodo: basta con completar el
+> `.env`. Si editas el `.env` despues, aplica los cambios con `docker compose up -d`.
+
 Cargar el esquema de la aplicacion:
 
 ```bash
 docker compose exec -T postgres psql -U postgres -d researchflow < /opt/researchflow/database_schema_postgres.sql
 ```
+
+## 4b. Configurar Google OAuth (Gmail + Sheets)
+
+Este es el paso mas laborioso. Sin el, no funcionan el envio por correo ni el registro
+en Sheets. Se hace una sola vez en https://console.cloud.google.com.
+
+1. **Crear/elegir un proyecto** (menu superior > selector de proyecto > New Project).
+2. **Habilitar las APIs**: menu > APIs & Services > Library. Buscar y habilitar:
+   - **Gmail API**
+   - **Google Sheets API**
+   - (opcional pero comun) **Google Drive API**
+3. **Pantalla de consentimiento** (APIs & Services > OAuth consent screen):
+   - User Type: **External**. Completar nombre de app, correo de soporte y de contacto.
+   - En **Test users**, agregar tu propio correo (el mismo que usaras en Gmail/Sheets).
+     Mientras la app este en modo "Testing", solo los test users pueden autorizar; no
+     hace falta publicar ni pasar verificacion de Google.
+4. **Crear las credenciales OAuth** (APIs & Services > Credentials > Create Credentials
+   > OAuth client ID):
+   - Application type: **Web application**.
+   - En **Authorized redirect URIs**, pegar la URI que te muestra n8n al crear la
+     credencial (formato `https://n8n.camba.tech/rest/oauth2-credential/callback`).
+     La misma URI sirve para Gmail y para Sheets.
+   - Guardar y copiar **Client ID** y **Client Secret**.
+5. Esos Client ID/Secret se pegan en las credenciales de n8n (seccion 5). Al darle
+   "Sign in with Google" en n8n, autoriza con tu cuenta (la que agregaste como test user).
+
+> Requisito para el redirect: el dominio ya debe resolver y tener HTTPS (secciones 2 y 4).
+> Por eso este paso va despues de levantar el stack.
 
 ## 5. Configurar n8n
 
@@ -74,15 +132,19 @@ docker compose exec -T postgres psql -U postgres -d researchflow < /opt/research
    - `n8n_workflow_ideas_whatsapp.json`
    - `n8n_workflow_weekly_digest.json`
    - `n8n_workflow_demo_import.json` (opcional en produccion)
-3. Crear credenciales y asignarlas a los nodos:
+3. Crear credenciales nativas y asignarlas a los nodos (esto no se puede inyectar
+   por `.env` porque n8n las guarda cifradas en su propio almacen):
    - **Postgres**: host `postgres`, puerto 5432, base `researchflow`, usuario `postgres`, password del `.env`.
-   - **Gmail OAuth2**: credenciales del proyecto Google Cloud (redirect URI que indica n8n).
-   - **Google Sheets OAuth2**: mismo proyecto; crear un spreadsheet con una hoja llamada `datasets` y reemplazar `REPLACE_WITH_GOOGLE_SHEET_ID` en el nodo.
-   - **Gemini**: en los nodos HTTP "Gemini - ...", reemplazar `REPLACE_WITH_GEMINI_API_KEY` (o crear una credencial Header Auth y usarla).
-   - **Google Gemini (PaLM) API** para el AI Agent del flujo WhatsApp: misma API key.
-   - **Evolution**: en los nodos "Evolution ...", reemplazar `REPLACE_WITH_EVOLUTION_API_KEY` con el valor del `.env`.
-   - Reemplazar `REPLACE_WITH_OWNER_NAME`, `REPLACE_WITH_OWNER_EMAIL` y `REPLACE_WITH_OWNER_WHATSAPP` en los nodos indicados.
-4. Activar los workflows (toggle Active).
+   - **Gmail OAuth2**: pegar el Client ID/Secret de la seccion 4b; darle "Sign in with Google" y autorizar. Copiar la redirect URI que muestra n8n hacia Google Cloud si aun no la agregaste.
+   - **Google Sheets OAuth2**: mismo Client ID/Secret. Crear un spreadsheet con una hoja llamada `datasets`; su ID ya se toma de `GOOGLE_SHEET_ID` del `.env` (no hay que tocar el nodo).
+   - **Google Gemini (PaLM) API** para el AI Agent del flujo WhatsApp: usar `GEMINI_API_KEY`.
+
+   Las claves de Gemini (nodos HTTP), Evolution, el ID del spreadsheet y los datos del
+   propietario (`OWNER_*`) **ya se leen del `.env`** via `{{ $env.* }}`. No hay que
+   reemplazar nada en los nodos.
+4. Activar los workflows (toggle Active). El flujo de investigacion (`/webhook/researchflow`)
+   debe quedar Active antes de usar `investigar N` por WhatsApp, porque el flujo de WhatsApp
+   lo llama por su URL publica (`RESEARCH_WEBHOOK_URL`).
 
 ## 6. Conectar WhatsApp (Evolution API)
 

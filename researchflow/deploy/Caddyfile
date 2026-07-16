@@ -9,3 +9,7 @@ n8n.{$DOMAIN} {
 evo.{$DOMAIN} {
 	reverse_proxy evolution:8080
 }
+
+chat.{$DOMAIN} {
+	reverse_proxy simulador:8777
+}

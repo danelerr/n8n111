@@ -59,7 +59,7 @@ Landing (Vercel) / WhatsApp (Evolution)
 
 ## Configuracion minima (resumen)
 
-Credenciales a crear en n8n tras importar: Postgres, Gmail OAuth2, Google Sheets OAuth2, Google Gemini (para el AI Agent). Placeholders a reemplazar en nodos: `REPLACE_WITH_GEMINI_API_KEY`, `REPLACE_WITH_EVOLUTION_API_KEY`, `REPLACE_WITH_GOOGLE_SHEET_ID`, `REPLACE_WITH_OWNER_NAME/EMAIL/WHATSAPP`. Detalle completo en `manual_tecnico.md`.
+La configuracion sensible se centraliza en `deploy/.env`: `GEMINI_API_KEY`, `EVOLUTION_API_KEY`, `GOOGLE_SHEET_ID`, `OWNER_NAME/EMAIL/WHATSAPP`. Los workflows la leen via `{{ $env.* }}`, asi que **no hay que editar placeholders nodo por nodo**. Solo quedan por crear en n8n las credenciales nativas (que n8n guarda cifradas): Postgres, Gmail OAuth2, Google Sheets OAuth2 y Google Gemini (para el AI Agent). El unico placeholder manual fuera de n8n es `REPLACE_WITH_N8N_DOMAIN` en `landing_page/vercel.json`. Detalle completo en `manual_tecnico.md` y `deploy/deploy_digitalocean.md`.
 
 ## Metodologia de investigacion
 

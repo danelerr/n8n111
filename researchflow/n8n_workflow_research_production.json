@@ -211,7 +211,7 @@
           "parameters": [
             {
               "name": "x-goog-api-key",
-              "value": "REPLACE_WITH_GEMINI_API_KEY"
+              "value": "={{ $env.GEMINI_API_KEY }}"
             },
             {
               "name": "Content-Type",
@@ -260,7 +260,7 @@
           "parameters": [
             {
               "name": "x-goog-api-key",
-              "value": "REPLACE_WITH_GEMINI_API_KEY"
+              "value": "={{ $env.GEMINI_API_KEY }}"
             },
             {
               "name": "Content-Type",
@@ -309,7 +309,7 @@
           "parameters": [
             {
               "name": "x-goog-api-key",
-              "value": "REPLACE_WITH_GEMINI_API_KEY"
+              "value": "={{ $env.GEMINI_API_KEY }}"
             },
             {
               "name": "Content-Type",
@@ -403,7 +403,7 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },
@@ -461,7 +461,7 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "REPLACE_WITH_GOOGLE_SHEET_ID",
+          "value": "={{ $env.GOOGLE_SHEET_ID }}",
           "mode": "id"
         },
         "sheetName": {
@@ -487,7 +487,7 @@
         3960,
         -140
       ],
-      "notes": "Asignar credencial Google Sheets OAuth2 y reemplazar el ID del documento. Hoja: datasets.",
+      "notes": "Asignar credencial Google Sheets OAuth2. El ID del documento se lee de la variable de entorno GOOGLE_SHEET_ID (.env). Hoja: datasets.",
       "continueOnFail": true
     },
     {
@@ -512,7 +512,7 @@
           "parameters": [
             {
               "name": "x-goog-api-key",
-              "value": "REPLACE_WITH_GEMINI_API_KEY"
+              "value": "={{ $env.GEMINI_API_KEY }}"
             },
             {
               "name": "Content-Type",

@@ -43,7 +43,7 @@ La guia completa paso a paso esta en `deploy/deploy_digitalocean.md`. Resumen de
 4. Copiar `deploy/.env.example` a `.env` y completar `DOMAIN`, `POSTGRES_PASSWORD`, `N8N_ENCRYPTION_KEY`, `EVOLUTION_API_KEY`.
 5. `docker compose up -d` y verificar con `docker compose ps`.
 6. Cargar el esquema: `docker compose exec -T postgres psql -U postgres -d researchflow < /opt/researchflow/database_schema_postgres.sql`.
-7. Configurar n8n (cuenta, credenciales, importar los 4 workflows, reemplazar placeholders, activar).
+7. Configurar n8n (cuenta, credenciales nativas, importar los 4 workflows, activar). La config sensible ya viene del `.env`.
 8. Conectar WhatsApp en Evolution Manager (instancia `researchflow`, QR, webhook).
 9. Publicar la landing en Vercel con el dominio en `vercel.json`.
 10. Verificacion end-to-end (seccion 8 de la guia de deploy y `plan_pruebas.md`).
@@ -84,16 +84,28 @@ Notas:
 
 ## 6. Mapa de placeholders y credenciales
 
-### 6.1 Placeholders REPLACE_WITH_* (editar tras importar)
+### 6.1 Configuracion via variables de entorno (`.env`)
+
+Estos valores se completan **una sola vez** en `deploy/.env` y n8n los inyecta a los
+workflows como `{{ $env.* }}`. No hay que editar los nodos tras importar.
+
+| Variable (`.env`) | Se usa en | Valor a poner |
+| --- | --- | --- |
+| `GEMINI_API_KEY` | Nodos HTTP "Gemini - ..." (investigacion x4, digest x1) | API key de AI Studio |
+| `EVOLUTION_API_KEY` | Nodos HTTP "Evolution ..." (investigacion, WhatsApp x4, digest) y servicio Evolution | Clave global de Evolution API |
+| `GOOGLE_SHEET_ID` | Nodo "Google Sheets - Registrar datos" | ID del spreadsheet (de su URL); debe tener una hoja `datasets` |
+| `OWNER_NAME` | Nodo "Preparar lanzamiento" (workflow WhatsApp) | Nombre del propietario |
+| `OWNER_EMAIL` | Nodo "Preparar lanzamiento" (WhatsApp) y "Gmail - Enviar digest" (digest) | Correo del propietario |
+| `OWNER_WHATSAPP` | Nodo "Evolution - Aviso digest" (digest) | Numero WhatsApp del propietario con codigo de pais (sin +) |
+| `RESEARCH_WEBHOOK_URL` | Nodo "Lanzar investigacion" (WhatsApp) | Se deriva sola de `DOMAIN`: `https://n8n.DOMAIN/webhook/researchflow` |
+
+Requisito: n8n debe correr con `N8N_BLOCK_ENV_ACCESS_IN_NODE=false` (ya viene asi en el
+`docker-compose.yml`) para que los nodos puedan leer `$env`.
+
+Unico placeholder manual restante (fuera de n8n):
 
 | Placeholder | Donde esta | Valor a poner |
 | --- | --- | --- |
-| `REPLACE_WITH_GEMINI_API_KEY` | Nodos HTTP "Gemini - ..." (investigacion x4, digest x1) | API key de AI Studio |
-| `REPLACE_WITH_EVOLUTION_API_KEY` | Nodos HTTP "Evolution ..." (investigacion, WhatsApp x4, digest) | `EVOLUTION_API_KEY` del `.env` del droplet |
-| `REPLACE_WITH_GOOGLE_SHEET_ID` | Nodo "Google Sheets - Registrar datos" | ID del spreadsheet (de su URL); debe tener una hoja `datasets` |
-| `REPLACE_WITH_OWNER_NAME` | Nodo "Preparar lanzamiento" (workflow WhatsApp) | Nombre del propietario |
-| `REPLACE_WITH_OWNER_EMAIL` | Nodo "Preparar lanzamiento" (WhatsApp) y "Gmail - Enviar digest" (digest) | Correo del propietario |
-| `REPLACE_WITH_OWNER_WHATSAPP` | Nodo "Evolution - Aviso digest" (digest) | Numero WhatsApp del propietario con codigo de pais |
 | `REPLACE_WITH_N8N_DOMAIN` | `landing_page/vercel.json` (rewrites `/api/investigar` y `/api/demo`) | `n8n.TU-DOMINIO` |
 
 ### 6.2 Credenciales de n8n (menu Credentials)
@@ -105,7 +117,7 @@ Notas:
 | Google Sheets OAuth2 | "Google Sheets - Registrar datos" | Mismo proyecto Google Cloud |
 | Google Gemini (PaLM) API | "Google Gemini Chat Model" (AI Agent del flujo WhatsApp) | La misma API key de AI Studio |
 
-Los nodos HTTP de Gemini y Evolution usan la key inline (placeholders de la tabla anterior); opcionalmente se puede migrar a credenciales Header Auth de n8n.
+Los nodos HTTP de Gemini y Evolution leen la key desde variables de entorno (`{{ $env.GEMINI_API_KEY }}`, `{{ $env.EVOLUTION_API_KEY }}`), asi que no quedan claves dentro de los JSON versionados. Opcionalmente se puede migrar a credenciales Header Auth de n8n.
 
 ## 7. Mantenimiento
 
@@ -146,13 +158,13 @@ Descargar los .sql a la PC con `scp`. Ademas, tomar **snapshot del droplet** des
 | Sintoma | Causa probable | Solucion |
 | --- | --- | --- |
 | Webhook devuelve 404 | Workflow inactivo, o se usa la URL de test sin "Listen" activo | Activar el toggle del workflow y usar la Production URL (`/webhook/...`, no `/webhook-test/...`) |
-| Gemini responde 400 | Body o modelo invalido, o key mal pegada | Revisar el nodo en Executions; verificar que el placeholder fue reemplazado completo |
+| Gemini responde 400/401 | Body o modelo invalido, o `GEMINI_API_KEY` vacia/incorrecta | Revisar el nodo en Executions; verificar `GEMINI_API_KEY` en `.env` y que n8n se relanzo con `docker compose up -d` |
 | Gemini responde 403/429 | API key invalida, facturacion no habilitada o cuota | Verificar la key en AI Studio y el estado de la cuenta de facturacion Pagado 1 |
 | Evolution no envia mensajes | Instancia desconectada de WhatsApp | Abrir `https://evo.DOMINIO/manager`, re-escanear el QR con el telefono |
 | WhatsApp no dispara el workflow | Webhook de la instancia mal configurado | En Evolution Manager apuntar a `https://n8n.DOMINIO/webhook/researchflow-whatsapp` con evento `MESSAGES_UPSERT` |
 | Correo no llega | Credencial Gmail expirada, o filtrado a spam | Reconectar la credencial Gmail OAuth2 en n8n; revisar spam del destinatario |
 | Landing da error de red | Dominio mal puesto en `vercel.json` o droplet caido | Verificar rewrite y `docker compose ps` |
-| Sheets falla | ID de documento incorrecto, falta hoja `datasets`, o permisos | Revisar `REPLACE_WITH_GOOGLE_SHEET_ID` y que la cuenta OAuth tenga acceso al spreadsheet |
+| Sheets falla | ID de documento incorrecto, falta hoja `datasets`, o permisos | Revisar `GOOGLE_SHEET_ID` en `.env` y que la cuenta OAuth tenga acceso al spreadsheet |
 | Articulo sin playbook personalizado | Registro `playbook_investigacion` ausente en `app_settings` | Reinsertar el registro (esta en `database_schema_postgres.sql`); mientras tanto opera el fallback embebido |
 | HTTPS no levanta | DNS aun no propaga o puertos 80/443 cerrados | Esperar propagacion DuckDNS; revisar firewall del droplet |
 

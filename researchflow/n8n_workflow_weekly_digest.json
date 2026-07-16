@@ -65,7 +65,7 @@
           "parameters": [
             {
               "name": "x-goog-api-key",
-              "value": "REPLACE_WITH_GEMINI_API_KEY"
+              "value": "={{ $env.GEMINI_API_KEY }}"
             },
             {
               "name": "Content-Type",
@@ -109,7 +109,7 @@
       "parameters": {
         "resource": "message",
         "operation": "send",
-        "sendTo": "REPLACE_WITH_OWNER_EMAIL",
+        "sendTo": "={{ $env.OWNER_EMAIL }}",
         "subject": "ResearchFlow - Digest semanal de ideas",
         "emailType": "html",
         "message": "={{ $json.email_html }}",
@@ -140,13 +140,13 @@
             },
             {
               "name": "apikey",
-              "value": "REPLACE_WITH_EVOLUTION_API_KEY"
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
             }
           ]
         },
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={{ { number: 'REPLACE_WITH_OWNER_WHATSAPP', text: $('Preparar envio').first().json.whatsapp_text } }}",
+        "jsonBody": "={{ { number: $env.OWNER_WHATSAPP, text: $('Preparar envio').first().json.whatsapp_text } }}",
         "options": {}
       },
       "id": "rf-0055",

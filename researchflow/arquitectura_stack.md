@@ -34,7 +34,8 @@ Orquestacion
   n8n self-hosted en droplet DigitalOcean (Docker)
 
 Inteligencia
-  Gemini API (Flash) + Google Search grounding (3 fases: base, profundizacion, sintesis JSON)
+  Gemini API (Flash) + Google Search grounding (4 fases: base, profundizacion, sintesis JSON
+  y verificacion adversarial que audita hechos/cifras y asigna un puntaje de confianza 0-100)
   El playbook dirige el grounding hacia fuentes prioritarias (Wikipedia como punto
   de partida, Our World in Data para estadisticas, medios de investigacion original)
   Metodologia: playbook_investigacion.md, inyectada desde app_settings (guia adaptable)

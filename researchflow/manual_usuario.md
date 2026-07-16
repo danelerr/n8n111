@@ -41,9 +41,9 @@ Siguiente paso: elige la pregunta que mas te interese, pegala en el campo "Pregu
 Si llenas la pregunta central, el sistema lanza la investigacion profunda:
 
 1. La landing responde de inmediato "investigacion en curso" con un numero de solicitud (ej. #12). Puedes cerrar la pagina: el resto llega por correo.
-2. En segundo plano corren tres fases de investigacion con IA y busqueda en Google: base del tema, profundizacion (los 5 porques y datos numericos con fuente) y sintesis.
+2. En segundo plano corren cuatro fases con IA y busqueda en Google: base del tema, profundizacion (los 5 porques y datos numericos con fuente), sintesis, y una **verificacion adversarial** que vuelve a comprobar hechos y cifras y asigna un puntaje de confianza (0-100).
 3. Al terminar recibes:
-   - **Correo** con el articulo completo en HTML: respuesta corta, hechos con fuentes, analisis, graficos (si hubo cifras confiables) y preguntas abiertas.
+   - **Correo** con el articulo completo en HTML: un **badge de confianza** (alto/medio/bajo con puntaje), respuesta corta, hechos con fuentes, analisis, graficos (si hubo cifras confiables), la seccion de verificacion (senales de alerta y limitaciones) y preguntas abiertas.
    - **Aviso por WhatsApp** (solo si diste tu numero) indicando que el articulo ya esta en tu correo.
 
 Tiempo esperado: entre 2 y 10 minutos segun el tema. Si despues de 15 minutos no llega nada, ver la seccion de preguntas frecuentes.

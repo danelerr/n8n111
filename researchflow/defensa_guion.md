@@ -11,7 +11,7 @@ Alineado a la rubrica: problema, solucion tecnica, demo funcional, integraciones
 Mostrar el diagrama / los workflows en n8n mientras se explica:
 
 - "Todo corre en un droplet de DigitalOcean con Docker: Caddy con HTTPS, n8n, Postgres, Redis y Evolution API para WhatsApp. La landing esta en Vercel y llega a n8n por un proxy sin CORS."
-- "Son 4 workflows: **Investigacion profunda** (webhook desde la landing: registra en Postgres, carga la metodologia desde la base, y corre 3 fases con Gemini 2.5 Flash usando Google Search grounding: base del tema, profundizacion con los 5 porques y datos numericos con fuente, y sintesis en JSON estricto; despues genera graficos con QuickChart, guarda evidencia en 4 tablas, envia el articulo por Gmail, avisa por WhatsApp y registra los datos en Google Sheets). **Ideas por WhatsApp** (un agente conversacional con memoria que refina ideas vagas y comandos `ideas` e `investigar N`). **Digest semanal** (cada lunes resume el backlog). Y un **Demo sin credenciales** como plan B."
+- "Son 4 workflows: **Investigacion profunda** (webhook desde la landing: registra en Postgres, carga la metodologia desde la base, y corre 4 fases con Gemini 2.5 Flash usando Google Search grounding: base del tema, profundizacion con los 5 porques y datos numericos con fuente, sintesis en JSON estricto, y una **verificacion adversarial** que vuelve a auditar hechos y cifras y le pone un puntaje de confianza al informe; despues genera graficos con QuickChart, guarda evidencia en 5 tablas, envia el articulo por Gmail con su badge de confianza, avisa por WhatsApp y registra los datos en Google Sheets). **Ideas por WhatsApp** (un agente conversacional con memoria que refina ideas vagas y comandos `ideas` e `investigar N`). **Digest semanal** (cada lunes resume el backlog). Y un **Demo sin credenciales** como plan B."
 - "Integraciones externas: Gemini API con grounding, Postgres, Gmail, Google Sheets, Evolution API/WhatsApp y QuickChart. Mas que las tres exigidas."
 
 ## Minuto 3-7: Demo en vivo (4 min)
@@ -27,6 +27,7 @@ Preparacion previa: landing abierta, WhatsApp Web con el chat del bot, pestana d
 
 - "**Playbook editable en base de datos**: mi metodologia de investigacion vive en la tabla `app_settings`. Con un UPDATE cambio como investiga el sistema, sin tocar los workflows. Es configuracion, no codigo."
 - "**Reglas anti-alucinacion**: el prompt exige clasificar cada afirmacion como hecho con fuente, hipotesis que requiere verificacion, u opinion atribuida. Y solo se grafican cifras reales con fuente pegada al dato: si no hay cifras confiables, no hay grafico, y el articulo lo dice. Prefiero un informe honesto a uno bonito."
+- "**Verificacion adversarial (auto-critica)**: no me quedo con lo que el modelo escribio. Una cuarta fase actua de revisor hostil: vuelve a buscar en la web para comprobar los hechos y cifras clave, detecta contradicciones, y le pone al informe un puntaje de confianza de 0 a 100 que viaja con cada entregable. Asi el usuario sabe cuanto fiarse antes de leerlo." (Mostrar el badge de confianza en el correo o en la landing con el demo.)
 - "**Backlog conversacional**: las ideas no se pierden; se refinan por WhatsApp, se acumulan y un digest semanal me las recuerda."
 
 ## Minuto 8-9: Economia y ROI (1 min)

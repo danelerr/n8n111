@@ -48,15 +48,16 @@ La guia completa paso a paso esta en `deploy/deploy_digitalocean.md`. Resumen de
 9. Publicar la landing en Vercel con el dominio en `vercel.json`.
 10. Verificacion end-to-end (seccion 8 de la guia de deploy y `plan_pruebas.md`).
 
-## 4. Base de datos (7 tablas)
+## 4. Base de datos (8 tablas)
 
 Esquema en `database_schema_postgres.sql`, base `researchflow`:
 
 | Tabla | Contenido | Campos clave |
 | --- | --- | --- |
-| `research_requests` | Solicitud principal de investigacion | `id`, `tema`, `pregunta`, `estado` (nuevo/en_proceso/completado/error), `resumen`, `informe_markdown`, `error_detalle` |
+| `research_requests` | Solicitud principal de investigacion | `id`, `tema`, `pregunta`, `estado` (nuevo/en_proceso/completado/error), `resumen`, `informe_markdown`, `puntaje_calidad`, `nivel_confianza`, `veredicto`, `error_detalle` |
 | `research_sources` | Fuentes consultadas por investigacion | `request_id`, `titulo`, `url`, `tipo`, `calidad`, `confianza` |
 | `research_evidence` | Afirmaciones clasificadas | `request_id`, `tipo` (hecho/hipotesis/opinion), `afirmacion`, `soporte` (con_fuente/requiere_verificacion), `confianza` |
+| `research_verifications` | Auditoria adversarial (Fase 4) por investigacion | `request_id`, `puntaje_calidad` (0-100), `nivel_confianza`, `veredicto`, `senales_alerta`, `contradicciones`, `limitaciones`, `hechos_auditados` |
 | `research_artifacts` | Entregables generados (articulo) | `request_id`, `tipo`, `titulo`, `contenido`, `estado` |
 | `research_ideas` | Backlog de ideas (WhatsApp o web) | `idea_original`, `tema_refinado`, `preguntas_sugeridas`, `estado` (idea/refinada/en_cola/investigada/descartada), `request_id` |
 | `research_datasets` | Datos numericos con fuente por punto | `request_id`, `datos_json`, `fuente_principal`, `tipo_grafico`, `quickchart_url` |
@@ -67,7 +68,7 @@ Cada punto de `datos_json` sigue el formato:
 
 ## 5. Playbook editable en app_settings
 
-La metodologia de investigacion NO esta cableada en los workflows: el nodo "Postgres - Cargar playbook" lee el registro `playbook_investigacion` de `app_settings` y lo inyecta en los prompts de las tres fases Gemini. Para cambiar el estilo de investigacion basta un UPDATE, sin tocar ni reimportar workflows:
+La metodologia de investigacion NO esta cableada en los workflows: el nodo "Postgres - Cargar playbook" lee el registro `playbook_investigacion` de `app_settings` y lo inyecta en los prompts de las cuatro fases Gemini (base, profundizacion, sintesis y verificacion adversarial). Para cambiar el estilo de investigacion basta un UPDATE, sin tocar ni reimportar workflows:
 
 ```sql
 UPDATE app_settings
@@ -106,7 +107,15 @@ Unico placeholder manual restante (fuera de n8n):
 
 | Placeholder | Donde esta | Valor a poner |
 | --- | --- | --- |
+| `REPLACE_WITH_GEMINI_API_KEY` | Nodos HTTP "Gemini - ..." (investigacion x5: base, profundizar, sintesis, verificacion, preguntas; digest x1) | API key de AI Studio |
+| `REPLACE_WITH_EVOLUTION_API_KEY` | Nodos HTTP "Evolution ..." (investigacion, WhatsApp x4, digest) | `EVOLUTION_API_KEY` del `.env` del droplet |
+| `REPLACE_WITH_GOOGLE_SHEET_ID` | Nodo "Google Sheets - Registrar datos" | ID del spreadsheet (de su URL); debe tener una hoja `datasets` |
+| `REPLACE_WITH_OWNER_NAME` | Nodo "Preparar lanzamiento" (workflow WhatsApp) | Nombre del propietario |
+| `REPLACE_WITH_OWNER_EMAIL` | Nodo "Preparar lanzamiento" (WhatsApp) y "Gmail - Enviar digest" (digest) | Correo del propietario |
+| `REPLACE_WITH_OWNER_WHATSAPP` | Nodo "Evolution - Aviso digest" (digest) | Numero WhatsApp del propietario con codigo de pais |
 | `REPLACE_WITH_N8N_DOMAIN` | `landing_page/vercel.json` (rewrites `/api/investigar` y `/api/demo`) | `n8n.TU-DOMINIO` |
+
+> Auto-llamado del flujo de ideas: el nodo "HTTP - Lanzar investigacion" (workflow WhatsApp) ya NO usa `localhost` cableado. Toma la base del webhook de la variable de entorno `RF_WEBHOOK_BASE` (definida en `docker-compose.yml`, por defecto `http://localhost:5678` que sirve para la auto-llamada dentro del mismo contenedor). En produccion detras de Caddy puedes fijar `RF_WEBHOOK_BASE=https://n8n.TU-DOMINIO` en el `.env` sin editar el workflow. Requiere `N8N_BLOCK_ENV_ACCESS_IN_NODE=false` (ya incluido en el compose).
 
 ### 6.2 Credenciales de n8n (menu Credentials)
 

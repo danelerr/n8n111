@@ -36,10 +36,22 @@ function renderPreguntas(data) {
   resultado.hidden = false;
 }
 
+function renderConfianza(data) {
+  const puntaje = data.puntaje_calidad;
+  const nivel = String(data.nivel_confianza || "").toLowerCase();
+  if (puntaje == null && !nivel) return "";
+  const cls = nivel === "alto" ? "alto" : nivel === "bajo" ? "bajo" : "medio";
+  const etiqueta = `Confianza ${nivel ? nivel.toUpperCase() : "MEDIA"}${puntaje != null ? ` · ${escapeHtml(puntaje)}/100` : ""}`;
+  return `<div class="confianza confianza-${cls}"><span class="confianza-badge">${etiqueta}</span>${
+    data.veredicto ? `<span class="confianza-veredicto">${escapeHtml(data.veredicto)}</span>` : ""
+  }</div>`;
+}
+
 function renderInvestigacion(data) {
   if (data.informe_markdown || data.grafico_url) {
     resultado.innerHTML = `
       <h2>Resultado</h2>
+      ${renderConfianza(data)}
       ${data.respuesta_corta ? `<p><strong>${escapeHtml(data.respuesta_corta)}</strong></p>` : ""}
       ${data.resumen ? `<p>${escapeHtml(data.resumen)}</p>` : ""}
       ${data.grafico_url ? `<img class="resultado-grafico" src="${encodeURI(data.grafico_url)}" alt="Grafico generado" />` : ""}
@@ -50,7 +62,7 @@ function renderInvestigacion(data) {
       <h2>Investigacion en curso</h2>
       <p>${escapeHtml(data.mensaje || "Tu investigacion esta en proceso.")}</p>
       ${data.request_id ? `<p>Numero de solicitud: <strong>#${escapeHtml(data.request_id)}</strong></p>` : ""}
-      <p class="resultado-nota">El articulo con graficos y fuentes llegara a tu correo${form.elements.whatsapp.value ? " y un aviso a tu WhatsApp" : ""}.</p>`;
+      <p class="resultado-nota">Pasa por 4 fases (base, profundizacion, sintesis y verificacion adversarial). El articulo con graficos, fuentes y su <strong>puntaje de confianza</strong> llegara a tu correo${form.elements.whatsapp.value ? " y un aviso a tu WhatsApp" : ""}.</p>`;
   }
   resultado.hidden = false;
 }

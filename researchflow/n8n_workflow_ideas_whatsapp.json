@@ -405,7 +405,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "={{ $env.RESEARCH_WEBHOOK_URL }}",
+        "url": "={{ ($env.RF_WEBHOOK_BASE || 'http://localhost:5678') + '/webhook/researchflow' }}",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ $json.payload }}",
@@ -421,9 +421,12 @@
         1760,
         -280
       ],
-      "notes": "Llama al workflow de investigacion (mismo n8n). Si n8n corre detras de Caddy, tambien sirve la URL publica https://DOMINIO/webhook/researchflow.",
+      "notes": "Llama al workflow de investigacion (mismo n8n). La base se toma de la variable de entorno RF_WEBHOOK_BASE (definida en docker-compose); si no existe, usa http://localhost:5678 (valido para la auto-llamada dentro del mismo contenedor). En produccion detras de Caddy, poner RF_WEBHOOK_BASE=https://n8n.TU_DOMINIO.",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "parameters": {

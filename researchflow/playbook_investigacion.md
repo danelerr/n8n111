@@ -93,6 +93,24 @@ evidencia, no por equilibrio artificial.
 - Cierra con 2 o 3 preguntas abiertas interesantes que la investigacion destapo
   (alimentan el backlog de ideas futuras).
 
+## Fase 6 - Verificacion adversarial (auto-critica)
+
+Antes de dar por buena la investigacion, revisala como lo haria un editor hostil y
+esceptico. El objetivo NO es reescribir, sino medir cuanto se puede confiar en el informe.
+
+1. **Re-comprueba lo importante**: vuelve a buscar en la web las cifras y hechos clave.
+   Si una cifra no se confirma en una fuente confiable, marcala como dudosa.
+2. **Clasifica cada hecho** en: verificado (fuente solida lo respalda), dudoso (fuente
+   debil o no confirmada), sin_fuente (no hay URL que lo sostenga) o
+   reclasificar_hipotesis (en realidad es interpretacion o prediccion, no hecho).
+3. **Busca contradicciones internas**: dos afirmaciones o cifras que no pueden ser
+   ambas ciertas. Reportalas.
+4. **Levanta banderas rojas**: sobre-afirmacion, fuentes con incentivo no declarado,
+   numeros redondos sospechosos, saltos logicos.
+5. **Asigna un puntaje de confianza (0-100)** y un nivel (alto/medio/bajo) con un
+   veredicto honesto en 1-2 frases. Un informe que reconoce lo que no sabe puede tener
+   buen puntaje; uno que sobre-afirma sin fuente, no. Ese puntaje viaja con el entregable.
+
 ## Adaptacion por tipo de tema
 
 | Tipo de tema | Fases que pesan mas | Ajustes |
@@ -110,3 +128,4 @@ evidencia, no por equilibrio artificial.
 3. No presentar hipotesis ni opiniones como hechos.
 4. No usar propaganda como evidencia.
 5. Si la evidencia es insuficiente, decirlo con claridad en el informe.
+6. Toda investigacion pasa por la verificacion adversarial y publica su puntaje de confianza.

@@ -21,7 +21,7 @@
 
 | Archivo | Workflow |
 | --- | --- |
-| `n8n_workflow_research_production.json` | Investigacion profunda: webhook `/webhook/researchflow`, 3 fases Gemini 2.5 Flash con grounding, QuickChart, Postgres, Gmail, WhatsApp, Sheets |
+| `n8n_workflow_research_production.json` | Investigacion profunda: webhook `/webhook/researchflow`, 4 fases Gemini 2.5 Flash con grounding (base, profundizacion, sintesis y verificacion adversarial con puntaje de confianza), QuickChart, Postgres, Gmail, WhatsApp, Sheets |
 | `n8n_workflow_ideas_whatsapp.json` | Ideas por WhatsApp: agente con memoria + comandos `ideas` / `investigar N` (webhook `/webhook/researchflow-whatsapp`) |
 | `n8n_workflow_weekly_digest.json` | Digest semanal del backlog (Schedule lunes 8am) |
 | `n8n_workflow_demo_import.json` | Demo sin credenciales (webhook `/webhook/researchflow-demo`), plan B de defensa |
@@ -31,7 +31,7 @@
 
 | Archivo | Que es |
 | --- | --- |
-| `database_schema_postgres.sql` | Esquema de produccion: 7 tablas + playbook en `app_settings` + semilla |
+| `database_schema_postgres.sql` | Esquema de produccion: 8 tablas (incluye `research_verifications`) + playbook en `app_settings` + semilla |
 | `deploy/deploy_digitalocean.md` | Guia paso a paso del despliegue completo |
 | `deploy/docker-compose.yml` | Stack: Caddy + Postgres 16 + Redis + n8n + Evolution API v2.2 |
 | `deploy/Caddyfile` | Proxy HTTPS para `n8n.DOMINIO` y `evo.DOMINIO` |
@@ -59,11 +59,12 @@
 | Archivo | Que es |
 | --- | --- |
 | `manual_usuario.md` | Uso del sistema: landing, WhatsApp, digest, lectura del articulo, FAQ |
-| `manual_tecnico.md` | Instalacion, 7 tablas, playbook editable, placeholders, mantenimiento, troubleshooting |
+| `manual_tecnico.md` | Instalacion, 8 tablas, playbook editable, placeholders, mantenimiento, troubleshooting |
 | `plan_pruebas.md` | Casos PU-01..PU-10 y PI-01..PI-05 con evidencia a capturar |
 | `defensa_guion.md` | Guion de defensa de ~10 minutos con demo y plan B |
 | `checklist_defensa.md` | Checklist operativo dia antes / hora antes |
 | `anexos_evidencias.md` | Anexos del paquete y checklist de capturas pendientes |
+| `CAMBIOS_v3.md` | Registro del cambio v2 -> v3 (verificacion adversarial + puntaje de confianza) y guia para aplicarlo sin crear un workflow nuevo |
 | `README.md` | Punto de entrada del repositorio |
 
 ### Datos de prueba y scripts

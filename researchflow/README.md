@@ -7,11 +7,11 @@ Asistente de investigacion automatizado. Proyecto final del curso **Automatizaci
 Le das un tema ("adopcion de cripto en Bolivia") o una pregunta concreta:
 
 - **Sin pregunta**: genera 3-5 preguntas investigables e interesantes, las guarda en tu backlog y te las envia por correo.
-- **Con pregunta**: ejecuta una investigacion profunda en internet en 3 fases (base del tema, profundizacion con 5 porques y datos, sintesis), guiada por tu metodologia personal (playbook editable en la base de datos). Entrega un **articulo con hechos citados, graficos estadisticos reales (QuickChart) y fuentes evaluadas** por Gmail, aviso por WhatsApp, datos a Google Sheets y trazabilidad completa en Postgres.
+- **Con pregunta**: ejecuta una investigacion profunda en internet en 4 fases (base del tema, profundizacion con 5 porques y datos, sintesis, y **verificacion adversarial** que audita hechos y cifras), guiada por tu metodologia personal (playbook editable en la base de datos). Entrega un **articulo con hechos citados, graficos estadisticos reales (QuickChart), fuentes evaluadas y un puntaje de confianza (0-100)** por Gmail, aviso por WhatsApp, datos a Google Sheets y trazabilidad completa en Postgres.
 - **Por WhatsApp**: le mandas ideas vagas cuando se te ocurren; un agente con memoria las refina contigo, las guarda en el backlog, y con "investigar N" lanzas la investigacion completa.
 - **Digest semanal**: cada lunes resume tu backlog y recomienda que investigar.
 
-Reglas de calidad innegociables: nunca inventa cifras ni fuentes; todo hecho cita fuente o queda marcado como requiere verificacion; **sin cifras confiables no hay grafico**.
+Reglas de calidad innegociables: nunca inventa cifras ni fuentes; todo hecho cita fuente o queda marcado como requiere verificacion; **sin cifras confiables no hay grafico**; **cada informe se autoaudita** (verificacion adversarial) y publica su puntaje de confianza.
 
 ## Los 4 workflows
 
@@ -32,16 +32,17 @@ Landing (Vercel) / WhatsApp (Evolution)
        -> Gemini fase base (Google Search grounding)
        -> Gemini profundizacion (grounding: 5 porques + datos con fuente)
        -> Gemini sintesis (JSON estricto)
-       -> QuickChart (graficos) + Postgres (evidencia/datasets/articulo)
-       -> Gmail (articulo HTML con graficos) + WhatsApp (aviso)
+       -> Gemini verificacion adversarial (grounding: audita hechos/cifras -> puntaje de confianza)
+       -> QuickChart (graficos) + Postgres (evidencia/datasets/verificacion/articulo)
+       -> Gmail (articulo HTML con badge de confianza + graficos) + WhatsApp (aviso)
        -> Google Sheets (datasets, fila por dato)
 ```
 
 ## Stack
 
 - **n8n** self-hosted en droplet DigitalOcean (Docker) - `deploy/`
-- **Gemini 2.5 Flash** con Google Search grounding (API key de AI Studio)
-- **Postgres 16** (7 tablas, ver `database_schema_postgres.sql`)
+- **Gemini 2.5 Flash** con Google Search grounding (API key de AI Studio), 4 fases incluida verificacion adversarial
+- **Postgres 16** (8 tablas, ver `database_schema_postgres.sql`)
 - **QuickChart** (graficos PNG gratis, sin API key)
 - **Gmail + Google Sheets** (OAuth Google Cloud)
 - **Evolution API v2** (WhatsApp) + **Redis**
@@ -50,12 +51,13 @@ Landing (Vercel) / WhatsApp (Evolution)
 
 ## Por donde empezar
 
-1. `INDICE_ENTREGA.md` - que entregar y en que orden.
-2. `deploy/deploy_digitalocean.md` - levantar el stack completo en el droplet.
-3. `manual_tecnico.md` - credenciales, placeholders `REPLACE_WITH_*` y mantenimiento.
-4. `manual_usuario.md` - como se usa (landing, WhatsApp, digest).
-5. `plan_pruebas.md` - pruebas unitarias e integrales.
-6. `informe_final.md` - informe oficial de 19 secciones (PDF en `output/pdf/`).
+1. `CAMBIOS_v3.md` - que cambio en la v3 (verificacion adversarial + puntaje de confianza) y como aplicarlo (no hay workflow nuevo).
+2. `INDICE_ENTREGA.md` - que entregar y en que orden.
+3. `deploy/deploy_digitalocean.md` - levantar el stack completo en el droplet.
+4. `manual_tecnico.md` - credenciales, placeholders `REPLACE_WITH_*` y mantenimiento.
+5. `manual_usuario.md` - como se usa (landing, WhatsApp, digest).
+6. `plan_pruebas.md` - pruebas unitarias e integrales.
+7. `informe_final.md` - informe oficial de 19 secciones (PDF en `output/pdf/`).
 
 ## Configuracion minima (resumen)
 
@@ -63,4 +65,4 @@ La configuracion sensible se centraliza en `deploy/.env`: `GEMINI_API_KEY`, `EVO
 
 ## Metodologia de investigacion
 
-El comportamiento del asistente sigue `playbook_investigacion.md` (Wikipedia como punto de partida, vocabulario tecnico, jerarquia de fuentes por incentivos, Our World in Data, 5 porques, hechos/hipotesis/opiniones separados). Se inyecta desde la tabla `app_settings`: **editar el registro cambia el estilo de investigacion sin tocar los workflows**.
+El comportamiento del asistente sigue `playbook_investigacion.md` (Wikipedia como punto de partida, vocabulario tecnico, jerarquia de fuentes por incentivos, Our World in Data, 5 porques, hechos/hipotesis/opiniones separados, y una verificacion adversarial final que asigna el puntaje de confianza). Se inyecta desde la tabla `app_settings`: **editar el registro cambia el estilo de investigacion sin tocar los workflows**.

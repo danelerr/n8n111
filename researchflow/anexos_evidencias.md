@@ -6,11 +6,11 @@ Este documento lista (1) los anexos que componen el paquete de entrega y (2) el 
 
 | Anexo | Archivo(s) | Descripcion |
 | --- | --- | --- |
-| A1. Workflow investigacion | `n8n_workflow_research_production.json` | Investigacion profunda: webhook, 3 fases Gemini con grounding, QuickChart, Postgres, Gmail, WhatsApp, Sheets |
+| A1. Workflow investigacion | `n8n_workflow_research_production.json` | Investigacion profunda: webhook, 4 fases Gemini con grounding (base, profundizacion, sintesis y verificacion adversarial con puntaje de confianza), QuickChart, Postgres, Gmail, WhatsApp, Sheets |
 | A2. Workflow ideas WhatsApp | `n8n_workflow_ideas_whatsapp.json` | Agente conversacional con memoria + comandos `ideas` / `investigar N` |
 | A3. Workflow digest | `n8n_workflow_weekly_digest.json` | Digest semanal del backlog (lunes 8am) |
 | A4. Workflow demo | `n8n_workflow_demo_import.json` | Demo sin credenciales para landing y plan B de defensa |
-| A5. Esquema de base | `database_schema_postgres.sql` | 7 tablas + playbook inicial en `app_settings` + datos semilla |
+| A5. Esquema de base | `database_schema_postgres.sql` | 8 tablas (incluye `research_verifications`) + playbook inicial en `app_settings` + datos semilla |
 | A6. Infraestructura | `deploy/docker-compose.yml`, `deploy/Caddyfile`, `deploy/.env.example`, `deploy/init-databases.sh`, `deploy/deploy_digitalocean.md` | Stack Docker completo y guia de despliegue en DigitalOcean |
 | A7. Landing page | `landing_page/index.html`, `styles.css`, `script.js`, `vercel.json` | Formulario, render de resultados y proxy Vercel sin CORS |
 | A8. Metodologia | `playbook_investigacion.md` | Version larga del playbook (la condensada vive en `app_settings`) |

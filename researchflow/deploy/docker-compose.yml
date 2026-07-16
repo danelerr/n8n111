@@ -83,6 +83,12 @@ services:
       - OWNER_WHATSAPP=${OWNER_WHATSAPP}
       # URL publica del webhook del flujo de investigacion (usada por el flujo de WhatsApp)
       - RESEARCH_WEBHOOK_URL=https://n8n.${DOMAIN}/webhook/researchflow
+      # Permite que las expresiones lean $env (usado por el workflow de ideas para auto-llamarse).
+      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
+      # Base del webhook que usa "Ideas por WhatsApp" para lanzar la investigacion.
+      # Dentro del mismo contenedor localhost:5678 sirve; en produccion detras de Caddy
+      # puedes ponerlo en https://n8n.${DOMAIN} sin tocar el workflow.
+      - RF_WEBHOOK_BASE=${RF_WEBHOOK_BASE:-http://localhost:5678}
     volumes:
       - n8n_data:/home/node/.n8n
     depends_on:

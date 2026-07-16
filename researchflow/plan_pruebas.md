@@ -89,18 +89,25 @@ Invoke-RestMethod -Method Post -Uri "https://n8n.TU-DOMINIO/webhook/researchflow
 - **Resultado esperado:** la rama "IF - Idea encontrada" va por el lado negativo; llega respuesta "Evolution - Idea no encontrada" sugiriendo usar `ideas`; no se lanza ninguna investigacion ni se toca `research_requests`.
 - **Evidencia:** captura del chat con la respuesta y de la ejecucion mostrando la rama negativa.
 
+### PU-11 - Verificacion adversarial y puntaje de confianza
+
+- **Objetivo:** validar la Fase 4 del workflow de investigacion (nodos "Preparar verificacion" y "Gemini - Verificacion") y el puntaje de confianza.
+- **Pasos:** 1) Ejecutar una investigacion con pregunta sobre un tema con datos publicos (ej. el payload de `test_data/sample_request.json`). 2) Revisar la salida de "Gemini - Verificacion" y de "Procesar resultado". 3) `SELECT puntaje_calidad, nivel_confianza, veredicto FROM research_requests ORDER BY id DESC LIMIT 1;` y `SELECT * FROM research_verifications ORDER BY id DESC LIMIT 1;`.
+- **Resultado esperado:** el nodo de verificacion devuelve un JSON con `puntaje_calidad` (0-100), `nivel_confianza` (alto/medio/bajo) y `veredicto`; el correo muestra el badge de confianza y la seccion "Verificacion y confianza"; `research_requests` guarda `puntaje_calidad`/`nivel_confianza`/`veredicto` y existe una fila en `research_verifications`. Si la verificacion falla (API), el puntaje cae a una estimacion por cobertura de fuentes y la ejecucion NO se cuelga (continueOnFail + fallback).
+- **Evidencia:** captura del output de "Gemini - Verificacion", del correo con el badge, y de los dos SELECT.
+
 ## 3. Pruebas integrales (PI)
 
 ### PI-01 - Flujo completo con pregunta
 
-- **Objetivo:** validar la cadena entera: landing -> webhook -> 3 fases Gemini con grounding -> QuickChart -> Postgres -> Gmail -> WhatsApp -> Sheets.
+- **Objetivo:** validar la cadena entera: landing -> webhook -> 4 fases Gemini con grounding (base, profundizacion, sintesis y verificacion adversarial) -> QuickChart -> Postgres -> Gmail -> WhatsApp -> Sheets.
 - **Pasos:** 1) Desde la landing en Vercel, enviar el formulario completo con pregunta central y numero de WhatsApp. 2) Confirmar respuesta inmediata "en curso" con `request_id`. 3) Esperar 2-10 minutos. 4) Revisar correo, WhatsApp, Sheets y Postgres.
 - **Resultado esperado:**
-  - Correo con el articulo HTML: respuesta corta, hechos con fuentes, analisis, grafico(s) QuickChart incrustados y preguntas abiertas.
-  - Aviso de WhatsApp con referencia al articulo.
+  - Correo con el articulo HTML: **badge de confianza** (nivel + puntaje 0-100), respuesta corta, hechos con fuentes, analisis, grafico(s) QuickChart incrustados, seccion de verificacion (senales de alerta y limitaciones) y preguntas abiertas.
+  - Aviso de WhatsApp con referencia al articulo e incluyendo el puntaje de confianza.
   - Filas nuevas en la hoja `datasets` del spreadsheet (una por punto de dato, con fuente).
-  - Registros ligados al `request_id` en las 4 tablas de evidencia: `research_sources`, `research_evidence`, `research_datasets`, `research_artifacts`; y la fila de `research_requests` con estado completado, resumen e informe.
-- **Evidencia:** capturas del correo con grafico, del chat de WhatsApp, de la hoja `datasets`, de un SELECT por tabla filtrando por `request_id`, y de la ejecucion verde completa en n8n.
+  - Registros ligados al `request_id` en las 5 tablas de evidencia: `research_sources`, `research_evidence`, `research_datasets`, `research_verifications`, `research_artifacts`; y la fila de `research_requests` con estado completado, resumen, informe y `puntaje_calidad`/`nivel_confianza`/`veredicto`.
+- **Evidencia:** capturas del correo con badge de confianza y grafico, del chat de WhatsApp, de la hoja `datasets`, de un SELECT por tabla filtrando por `request_id` (incluida `research_verifications`), y de la ejecucion verde completa en n8n.
 
 ### PI-02 - Flujo sin pregunta desde la landing
 

@@ -21,7 +21,7 @@ Documentacion oficial usada para disenar e implementar el proyecto, con el uso q
 
 ## Gemini API (Google AI)
 
-- Documentacion general: https://ai.google.dev/gemini-api/docs -- llamadas generateContent con Gemini 2.5 Flash en las 3 fases de investigacion, generacion de preguntas y digest.
+- Documentacion general: https://ai.google.dev/gemini-api/docs -- llamadas generateContent con Gemini 2.5 Flash en las 4 fases de investigacion (base, profundizacion, sintesis y verificacion adversarial), generacion de preguntas y digest.
 - Grounding with Google Search: https://ai.google.dev/gemini-api/docs/google-search -- busqueda web real y citable en las fases base y profundizacion.
 - Structured output (JSON): https://ai.google.dev/gemini-api/docs/structured-output -- fase de sintesis con `responseMimeType: application/json` (JSON estricto sin busqueda).
 - Pricing: https://ai.google.dev/gemini-api/docs/pricing -- estimacion de costo por investigacion (centavos con Flash) y franja gratuita de grounding del tier pagado.

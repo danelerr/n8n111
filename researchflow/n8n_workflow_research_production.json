@@ -236,7 +236,10 @@
       ],
       "notes": "Fase 1: base del tema con Google Search grounding.",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "parameters": {
@@ -285,7 +288,10 @@
       ],
       "notes": "Fase 2: 5 porques y datos numericos con fuente, con Google Search grounding.",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "parameters": {
@@ -334,21 +340,77 @@
       ],
       "notes": "Fase 3: sintesis en JSON estricto (sin busqueda; responseMimeType application/json).",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "parameters": {
-        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\nconst prev = $('Preparar sintesis').first().json;\nconst resp = $input.first().json || {};\nconst raw = extractText(resp);\nlet r = parseJsonText(raw);\nconst esFallback = !r;\nif (!r) r = {};\nconst citas = arr(prev.citas_total);\nconst resumen = r.resumen || ('No se pudo completar la sintesis automatica para \"' + prev.tema + '\". Revisa la API de Gemini. Se guardaron los hallazgos parciales.');\nconst respuesta_corta = r.respuesta_corta || 'Sin respuesta automatica; requiere revision manual.';\nconst hechos = arr(r.hechos).map(h => typeof h === 'string' ? { afirmacion: h, fuente_url: '' } : { afirmacion: String(h.afirmacion || ''), fuente_url: String(h.fuente_url || '') }).filter(h => h.afirmacion);\nconst hipotesis = arr(r.hipotesis).map(String);\nconst opiniones = arr(r.opiniones).map(String);\nconst porques = arr(r.cinco_porques).map(String);\nconst preguntasAbiertas = arr(r.preguntas_abiertas).map(String);\nlet fuentes = arr(r.fuentes).map(f => ({ titulo: String(f.titulo || f.url || ''), url: String(f.url || ''), tipo: String(f.tipo || 'otro'), confianza: String(f.confianza || 'media') })).filter(f => f.url);\nif (!fuentes.length) fuentes = citas.map(c => ({ titulo: c.titulo, url: c.url, tipo: 'web', confianza: 'media' }));\n\nconst paleta = ['#2563eb', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6', '#14b8a6', '#f43f5e', '#84cc16'];\nconst graficos = [];\nconst datasetsValidos = [];\nfor (const ds of arr(r.datasets)) {\n  const puntos = arr(ds.datos).filter(p => p && p.etiqueta != null && isFinite(Number(p.valor)) && p.fuente_url);\n  if (puntos.length < 2) continue;\n  const tipo = ['lineas', 'pastel', 'barras'].indexOf(ds.tipo_grafico) >= 0 ? ds.tipo_grafico : 'barras';\n  const chartType = tipo === 'lineas' ? 'line' : (tipo === 'pastel' ? 'pie' : 'bar');\n  const labels = puntos.map(p => String(p.etiqueta).slice(0, 40));\n  const values = puntos.map(p => Number(p.valor));\n  const cfg = {\n    type: chartType,\n    data: { labels: labels, datasets: [{ label: String(ds.titulo || prev.tema).slice(0, 80), data: values, backgroundColor: chartType === 'bar' ? paleta[0] : paleta.slice(0, values.length) }] },\n    options: { plugins: { title: { display: true, text: String(ds.titulo || '').slice(0, 90) }, legend: { display: chartType !== 'bar' } } }\n  };\n  const url = 'https://quickchart.io/chart?w=620&h=360&bkg=white&c=' + encodeURIComponent(JSON.stringify(cfg));\n  graficos.push({ titulo: String(ds.titulo || ''), tipo: tipo, url: url, fuente: String(ds.fuente_principal || puntos[0].fuente_url) });\n  datasetsValidos.push({ titulo: String(ds.titulo || ''), descripcion: String(ds.descripcion || ''), tipo_grafico: tipo, fuente_principal: String(ds.fuente_principal || puntos[0].fuente_url), datos: puntos, quickchart_url: url });\n}\n\nconst md = [];\nmd.push('# ' + prev.tema);\nmd.push('');\nmd.push('**Pregunta central:** ' + prev.pregunta);\nmd.push('');\nmd.push('**Respuesta corta:** ' + respuesta_corta);\nmd.push('');\nmd.push('## Resumen');\nmd.push(resumen);\nmd.push('');\nmd.push('## Hechos verificados');\nif (hechos.length) { for (const h of hechos) md.push('- ' + h.afirmacion + (h.fuente_url ? ' [fuente: ' + h.fuente_url + ']' : ' [requiere_verificacion]')); }\nelse { md.push('- Sin hechos verificados suficientes en esta ejecucion.'); }\nmd.push('');\nif (porques.length) { md.push('## El porque (5 porques)'); for (const p of porques) md.push('- ' + p); md.push(''); }\nif (hipotesis.length) { md.push('## Hipotesis (requieren verificacion)'); for (const h of hipotesis) md.push('- ' + h); md.push(''); }\nif (opiniones.length) { md.push('## Opiniones registradas'); for (const o of opiniones) md.push('- ' + o); md.push(''); }\nmd.push('## Graficos');\nif (graficos.length) { for (const g of graficos) md.push('- ' + (g.titulo || g.tipo) + ': ' + g.url + ' (fuente: ' + g.fuente + ')'); }\nelse { md.push('- No se encontraron cifras confiables con fuente para graficar; se omite el grafico por regla de calidad.'); }\nmd.push('');\nif (preguntasAbiertas.length) { md.push('## Preguntas abiertas para futuras investigaciones'); for (const q of preguntasAbiertas) md.push('- ' + q); md.push(''); }\nmd.push('## Fuentes');\nif (fuentes.length) { for (const f of fuentes) md.push('- [' + f.tipo + ', confianza ' + f.confianza + '] ' + f.titulo + ' - ' + f.url); }\nelse { md.push('- Sin fuentes registradas; el contenido queda marcado como requiere_verificacion.'); }\nconst informe_markdown = md.join('\\n');\n\nfunction escHtml(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }\nconst articuloBase = r.articulo_markdown || informe_markdown;\nconst articulo_html = escHtml(articuloBase)\n  .replace(/^### (.*)$/gm, '<h3>$1</h3>')\n  .replace(/^## (.*)$/gm, '<h2>$1</h2>')\n  .replace(/^# (.*)$/gm, '<h1>$1</h1>')\n  .replace(/\\*\\*([^*]+)\\*\\*/g, '<strong>$1</strong>')\n  .replace(/^- (.*)$/gm, '<li>$1</li>')\n  .replace(/\\n{2,}/g, '<br><br>');\nconst chartsHtml = graficos.map(g => '<div style=\"margin:16px 0\"><img src=\"' + g.url + '\" alt=\"' + escHtml(g.titulo) + '\" style=\"max-width:100%;border-radius:8px\"><br><small>Fuente: ' + escHtml(g.fuente) + '</small></div>').join('');\nconst fuentesHtml = fuentes.map(f => '<li><a href=\"' + f.url + '\">' + escHtml(f.titulo) + '</a> (' + f.tipo + ', confianza ' + f.confianza + ')</li>').join('');\nconst email_html = '<div style=\"font-family:Segoe UI,Arial,sans-serif;max-width:680px;margin:auto;color:#111\">'\n  + '<p style=\"background:#eef2ff;padding:8px 12px;border-radius:8px\">ResearchFlow completo tu investigacion. Estado: ' + (esFallback ? 'parcial (revisar API de Gemini)' : 'ok') + '</p>'\n  + articulo_html\n  + (chartsHtml ? '<h2>Graficos</h2>' + chartsHtml : '')\n  + '<h2>Fuentes</h2><ul>' + fuentesHtml + '</ul>'\n  + '<p><small>Generado por ResearchFlow (n8n + Gemini con Google Search grounding). Los hechos citan fuente; lo no citado esta marcado como requiere verificacion.</small></p></div>';\nconst whatsapp_text = ('ResearchFlow: lista tu investigacion sobre \"' + prev.tema + '\". ' + respuesta_corta + ' El articulo completo' + (graficos.length ? ' con ' + graficos.length + ' grafico(s)' : '') + ' llego a tu correo.').slice(0, 900);\n\nlet reqId = 0;\ntry { reqId = Number($('Postgres - Registrar solicitud').first().json.request_id || 0); } catch (e) { reqId = 0; }\nconst stmts = [];\nif (reqId > 0) {\n  for (const f of fuentes.slice(0, 15)) stmts.push(\"INSERT INTO research_sources (request_id, titulo, url, tipo, calidad, confianza) VALUES (\" + reqId + \", '\" + esc(f.titulo).slice(0, 200) + \"', '\" + esc(f.url) + \"', '\" + esc(f.tipo) + \"', 'evaluada', '\" + esc(f.confianza) + \"');\");\n  for (const h of hechos.slice(0, 20)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hecho', '\" + esc(h.afirmacion).slice(0, 1500) + \"', '\" + (h.fuente_url ? esc(h.fuente_url) : 'requiere_verificacion') + \"', 'alta');\");\n  for (const h of hipotesis.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hipotesis', '\" + esc(h).slice(0, 1500) + \"', 'requiere_verificacion', 'media');\");\n  for (const o of opiniones.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'opinion', '\" + esc(o).slice(0, 1500) + \"', 'atribuida', 'baja');\");\n  for (const d of datasetsValidos) stmts.push(\"INSERT INTO research_datasets (request_id, titulo, descripcion, datos_json, fuente_principal, tipo_grafico, quickchart_url, estado) VALUES (\" + reqId + \", '\" + esc(d.titulo).slice(0, 200) + \"', '\" + esc(d.descripcion).slice(0, 500) + \"', '\" + esc(JSON.stringify(d.datos)) + \"', '\" + esc(d.fuente_principal) + \"', '\" + d.tipo_grafico + \"', '\" + esc(d.quickchart_url) + \"', 'graficado');\");\n  stmts.push(\"INSERT INTO research_artifacts (request_id, tipo, titulo, contenido, estado) VALUES (\" + reqId + \", 'articulo', '\" + esc(prev.tema).slice(0, 200) + \"', '\" + esc(articuloBase).slice(0, 100000) + \"', 'enviado');\");\n}\nconst sql_evidencia = stmts.length ? stmts.join(' ') : 'SELECT 1;';\nconst estado_final = esFallback ? 'completado_fallback' : (citas.length ? 'completado_con_busqueda' : 'completado');\nconst sql_actualizar = reqId > 0\n  ? \"UPDATE research_requests SET estado='\" + estado_final + \"', resumen='\" + esc(resumen).slice(0, 2000) + \"', informe_markdown='\" + esc(informe_markdown) + \"', updated_at=NOW() WHERE id=\" + reqId + \";\"\n  : 'SELECT 1;';\nconst sheet_rows = [];\nfor (const d of datasetsValidos) for (const p of d.datos) sheet_rows.push({ request_id: reqId, tema: prev.tema, dataset: d.titulo, etiqueta: String(p.etiqueta), valor: Number(p.valor), unidad: String(p.unidad || ''), periodo: String(p.periodo || ''), fuente_url: String(p.fuente_url) });\nreturn [{ json: { ...prev, request_id: reqId, estado_final, resumen, respuesta_corta, hechos, hipotesis, opiniones, cinco_porques: porques, preguntas_abiertas: preguntasAbiertas, fuentes, graficos, datasets: datasetsValidos, informe_markdown, email_html, whatsapp_text, sql_evidencia, sql_actualizar, sheet_rows } }];\n"
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\n\n// Fase 4 de 4: preparar la auditoria adversarial del informe sintetizado.\n// Toma la salida de la sintesis, la parsea, y arma un prompt que pide a Gemini\n// DUDAR del informe y comprobar cifras y hechos con busqueda web.\nconst prev = $('Preparar sintesis').first().json;\nconst resp = $input.first().json || {};\nconst sintesis_raw = extractText(resp);\nconst s = parseJsonText(sintesis_raw) || {};\n\nconst hechos = arr(s.hechos)\n  .map(h => typeof h === 'string' ? { afirmacion: h, fuente_url: '' } : { afirmacion: String(h.afirmacion || ''), fuente_url: String(h.fuente_url || '') })\n  .filter(h => h.afirmacion);\nconst datasets = arr(s.datasets);\nconst citas = arr(prev.citas_total);\n\nconst listaHechos = hechos.length\n  ? hechos.map((h, i) => (i + 1) + '. ' + h.afirmacion + ' [fuente declarada: ' + (h.fuente_url || 'NINGUNA') + ']').join('\\n')\n  : '(el informe no declaro hechos verificables)';\nconst listaDatos = datasets.length\n  ? datasets.map(d => '- ' + String(d.titulo || 'dataset') + ': ' + arr(d.datos).map(p => String(p.etiqueta) + '=' + p.valor + (p.unidad ? ' ' + p.unidad : '') + ' [' + (p.fuente_url || 'sin fuente') + ']').join('; ')).join('\\n')\n  : '(el informe no incluyo cifras para graficar)';\nconst listaCitas = citas.length\n  ? citas.map(c => '- ' + c.titulo + ' :: ' + c.url).join('\\n')\n  : '(no se recogieron citas web en las fases previas)';\n\nconst prompt_verificacion = [\n  'Eres ResearchFlow, AUDITOR de calidad e integridad de investigacion. Fase 4 de 4: VERIFICACION ADVERSARIAL.',\n  'Tu papel NO es escribir el informe, sino DUDAR de el como lo haria un revisor experto y hostil:',\n  'buscas cifras sin fuente, numeros que no cuadran, afirmaciones presentadas como HECHO que en realidad son hipotesis u opiniones,',\n  'fuentes debiles o sesgadas presentadas como solidas, y contradicciones internas.',\n  '',\n  'Instrucciones:',\n  '1. Usa busqueda web para intentar CONFIRMAR los hechos y cifras mas importantes. Si no puedes confirmar una cifra en una fuente confiable, marcala como dudosa.',\n  '2. Revisa que la fuente declarada de cada hecho exista entre las citas disponibles o sea una URL plausible; si un hecho no tiene fuente, es \"sin_fuente\".',\n  '3. Si un \"hecho\" en realidad es una interpretacion o prediccion, marcalo \"reclasificar_hipotesis\".',\n  '4. Detecta contradicciones internas (dos afirmaciones o cifras que no pueden ser ambas ciertas).',\n  '5. Se estricto pero justo: un informe honesto que reconoce lo que no sabe puede tener buen puntaje aunque tenga pocos datos.',\n  '',\n  'Pregunta central: ' + (prev.pregunta || '(sin pregunta)'),\n  'Tema: ' + (prev.tema || ''),\n  '',\n  'HECHOS AFIRMADOS EN EL INFORME:',\n  listaHechos,\n  '',\n  'CIFRAS GRAFICADAS:',\n  listaDatos,\n  '',\n  'CITAS WEB DISPONIBLES (fuentes reales recogidas en las fases anteriores):',\n  listaCitas,\n  '',\n  'Devuelve SOLO un objeto JSON valido con exactamente esta forma:',\n  '{',\n  '  \"puntaje_calidad\": <entero 0-100; 0 = sin evidencia real, 100 = todo verificado con fuentes primarias>,',\n  '  \"nivel_confianza\": \"alto|medio|bajo\",',\n  '  \"veredicto\": \"1 o 2 frases: se puede confiar en este informe y por que\",',\n  '  \"hechos_auditados\": [{\"afirmacion\": \"copia breve del hecho\", \"estado\": \"verificado|dudoso|sin_fuente|reclasificar_hipotesis\", \"nota\": \"por que\"}],',\n  '  \"contradicciones\": [\"descripcion de cada contradiccion interna, o vacio si no hay\"],',\n  '  \"senales_alerta\": [\"banderas rojas: cifras sospechosas, fuentes debiles, sesgo no declarado, sobre-afirmacion\"],',\n  '  \"limitaciones\": [\"que no se pudo verificar o que le falta a esta investigacion\"],',\n  '  \"recomendaciones\": [\"que fuente o busqueda fortaleceria esta investigacion\"]',\n  '}'\n].join('\\n');\n\nreturn [{ json: { ...prev, sintesis_raw, prompt_verificacion } }];\n"
       },
-      "id": "rf-0013",
-      "name": "Procesar resultado",
+      "id": "rf-0026",
+      "name": "Preparar verificacion",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         2640,
         -140
       ],
-      "notes": "Parsea el JSON, valida datasets (solo cifras con fuente), construye URLs QuickChart, articulo HTML, SQL y filas para Sheets."
+      "notes": "Fase 4 de 4: arma el prompt de auditoria adversarial sobre la sintesis (hechos, cifras y citas)."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-goog-api-key",
+              "value": "REPLACE_WITH_GEMINI_API_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { contents: [{ role: 'user', parts: [{ text: $json.prompt_verificacion }] }], tools: [{ google_search: {} }], generationConfig: { temperature: 0.1 } } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "rf-0027",
+      "name": "Gemini - Verificacion",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2860,
+        -140
+      ],
+      "notes": "Fase 4: auditoria adversarial con Google Search grounding. Comprueba cifras/hechos, detecta contradicciones y asigna puntaje de confianza.",
+      "continueOnFail": true,
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "jsCode": "\nfunction extractText(r) {\n  const parts = r?.candidates?.[0]?.content?.parts || [];\n  return parts.map(p => p.text || '').join('\\n').trim();\n}\nfunction extractCitas(r) {\n  const out = [];\n  const seen = new Set();\n  const chunks = r?.candidates?.[0]?.groundingMetadata?.groundingChunks || [];\n  for (const ch of chunks) {\n    const web = ch.web || {};\n    if (web.uri && !seen.has(web.uri)) { seen.add(web.uri); out.push({ titulo: web.title || web.uri, url: web.uri }); }\n  }\n  return out;\n}\nfunction parseJsonText(text) {\n  if (!text) return null;\n  let t = String(text).trim().replace(/^```json\\s*/i, '').replace(/^```\\s*/i, '').replace(/```\\s*$/i, '').trim();\n  try { return JSON.parse(t); } catch (e) {\n    const m = t.match(/\\{[\\s\\S]*\\}/);\n    if (m) { try { return JSON.parse(m[0]); } catch (e2) { return null; } }\n    return null;\n  }\n}\nconst esc = (v) => String(v == null ? '' : v).replace(/'/g, \"''\");\nconst arr = (v) => Array.isArray(v) ? v : [];\nfunction escHtml(t) { return String(t == null ? '' : t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }\n\n// Renderizador markdown -> HTML robusto: agrupa listas en <ul>, respeta encabezados,\n// convierte enlaces markdown y URLs sueltas, y envuelve el texto en parrafos.\nfunction mdToHtml(md) {\n  const lines = String(md == null ? '' : md).split(/\\r?\\n/);\n  const inline = (t) => escHtml(t)\n    .replace(/\\*\\*([^*]+)\\*\\*/g, '<strong>$1</strong>')\n    .replace(/\\[([^\\]]+)\\]\\((https?:\\/\\/[^)\\s]+)\\)/g, '<a href=\"$2\" target=\"_blank\" rel=\"noopener\">$1</a>')\n    .replace(/(^|[^\"'>=(])((?:https?:\\/\\/)[^\\s<)]+)/g, '$1<a href=\"$2\" target=\"_blank\" rel=\"noopener\">$2</a>');\n  let html = '';\n  let inList = false;\n  const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };\n  for (const raw of lines) {\n    const line = raw.replace(/\\s+$/, '');\n    if (/^\\s*[-*]\\s+/.test(line)) {\n      if (!inList) { html += '<ul style=\"margin:8px 0 8px 18px;padding:0\">'; inList = true; }\n      html += '<li style=\"margin:4px 0\">' + inline(line.replace(/^\\s*[-*]\\s+/, '')) + '</li>';\n      continue;\n    }\n    closeList();\n    if (/^###\\s+/.test(line)) { html += '<h3 style=\"margin:18px 0 6px\">' + inline(line.replace(/^###\\s+/, '')) + '</h3>'; continue; }\n    if (/^##\\s+/.test(line)) { html += '<h2 style=\"margin:22px 0 8px;border-bottom:1px solid #e5e7eb;padding-bottom:4px\">' + inline(line.replace(/^##\\s+/, '')) + '</h2>'; continue; }\n    if (/^#\\s+/.test(line)) { html += '<h1 style=\"margin:8px 0 12px\">' + inline(line.replace(/^#\\s+/, '')) + '</h1>'; continue; }\n    if (line.trim() === '') { continue; }\n    html += '<p style=\"margin:8px 0;line-height:1.55\">' + inline(line) + '</p>';\n  }\n  closeList();\n  return html;\n}\n\n// -------- Entradas --------\n// prev viene de \"Preparar verificacion\" (que ya arrastra todo lo de \"Preparar sintesis\" + sintesis_raw).\nconst prev = $('Preparar verificacion').first().json;\nconst resp_ver = $input.first().json || {};\n\n// Sintesis (fase 3): se parsea desde el texto crudo pasado por Preparar verificacion.\nlet r = parseJsonText(prev.sintesis_raw);\nconst esFallback = !r;\nif (!r) r = {};\n\n// Verificacion (fase 4): auditoria adversarial.\nconst ver = parseJsonText(extractText(resp_ver)) || {};\nconst verDisponible = !!(ver && (ver.veredicto || isFinite(Number(ver.puntaje_calidad)) || arr(ver.hechos_auditados).length));\n\nconst citas = arr(prev.citas_total);\nconst resumen = r.resumen || ('No se pudo completar la sintesis automatica para \"' + prev.tema + '\". Revisa la API de Gemini. Se guardaron los hallazgos parciales.');\nconst respuesta_corta = r.respuesta_corta || 'Sin respuesta automatica; requiere revision manual.';\nconst hechos = arr(r.hechos).map(h => typeof h === 'string' ? { afirmacion: h, fuente_url: '' } : { afirmacion: String(h.afirmacion || ''), fuente_url: String(h.fuente_url || '') }).filter(h => h.afirmacion);\nconst hipotesis = arr(r.hipotesis).map(String);\nconst opiniones = arr(r.opiniones).map(String);\nconst porques = arr(r.cinco_porques).map(String);\nconst preguntasAbiertas = arr(r.preguntas_abiertas).map(String);\nlet fuentes = arr(r.fuentes).map(f => ({ titulo: String(f.titulo || f.url || ''), url: String(f.url || ''), tipo: String(f.tipo || 'otro'), confianza: String(f.confianza || 'media') })).filter(f => f.url);\nif (!fuentes.length) fuentes = citas.map(c => ({ titulo: c.titulo, url: c.url, tipo: 'web', confianza: 'media' }));\n\n// -------- Datasets + graficos (solo cifras con fuente) --------\nconst paleta = ['#2563eb', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6', '#14b8a6', '#f43f5e', '#84cc16'];\nconst graficos = [];\nconst datasetsValidos = [];\nfor (const ds of arr(r.datasets)) {\n  const puntos = arr(ds.datos).filter(p => p && p.etiqueta != null && isFinite(Number(p.valor)) && p.fuente_url);\n  if (puntos.length < 2) continue;\n  const tipo = ['lineas', 'pastel', 'barras'].indexOf(ds.tipo_grafico) >= 0 ? ds.tipo_grafico : 'barras';\n  const chartType = tipo === 'lineas' ? 'line' : (tipo === 'pastel' ? 'pie' : 'bar');\n  const labels = puntos.map(p => String(p.etiqueta).slice(0, 40));\n  const values = puntos.map(p => Number(p.valor));\n  const cfg = {\n    type: chartType,\n    data: { labels: labels, datasets: [{ label: String(ds.titulo || prev.tema).slice(0, 80), data: values, backgroundColor: chartType === 'bar' ? paleta[0] : paleta.slice(0, values.length) }] },\n    options: { plugins: { title: { display: true, text: String(ds.titulo || '').slice(0, 90) }, legend: { display: chartType !== 'bar' } } }\n  };\n  const url = 'https://quickchart.io/chart?w=620&h=360&bkg=white&c=' + encodeURIComponent(JSON.stringify(cfg));\n  graficos.push({ titulo: String(ds.titulo || ''), tipo: tipo, url: url, fuente: String(ds.fuente_principal || puntos[0].fuente_url) });\n  datasetsValidos.push({ titulo: String(ds.titulo || ''), descripcion: String(ds.descripcion || ''), tipo_grafico: tipo, fuente_principal: String(ds.fuente_principal || puntos[0].fuente_url), datos: puntos, quickchart_url: url });\n}\n\n// -------- Puntaje de confianza (de la fase 4, con fallback heuristico) --------\nconst hechosConFuente = hechos.filter(h => h.fuente_url).length;\nlet puntaje = Number(ver.puntaje_calidad);\nif (!isFinite(puntaje)) {\n  puntaje = 35 + citas.length * 4 + hechosConFuente * 4 + datasetsValidos.length * 5 - (esFallback ? 30 : 0);\n}\npuntaje = Math.round(Math.max(0, Math.min(100, puntaje)));\nlet nivel = String(ver.nivel_confianza || '').toLowerCase();\nif (['alto', 'medio', 'bajo'].indexOf(nivel) < 0) nivel = puntaje >= 70 ? 'alto' : (puntaje >= 45 ? 'medio' : 'bajo');\nconst veredicto = String(ver.veredicto || (verDisponible ? '' : 'Verificacion automatica no disponible en esta ejecucion; el puntaje es una estimacion por cobertura de fuentes.')).trim()\n  || ('Confianza ' + nivel + ' segun la cobertura de fuentes y datos con fuente.');\nconst senalesAlerta = arr(ver.senales_alerta).map(String).filter(Boolean);\nconst contradicciones = arr(ver.contradicciones).map(String).filter(Boolean);\nconst limitaciones = arr(ver.limitaciones).map(String).filter(Boolean);\nconst recomendaciones = arr(ver.recomendaciones).map(String).filter(Boolean);\nconst hechosAuditados = arr(ver.hechos_auditados).map(h => ({\n  afirmacion: String((h && h.afirmacion) || ''),\n  estado: String((h && h.estado) || 'sin_revisar'),\n  nota: String((h && h.nota) || '')\n})).filter(h => h.afirmacion);\nconst colorNivel = nivel === 'alto' ? '#10b981' : (nivel === 'medio' ? '#f59e0b' : '#ef4444');\nconst etiquetaNivel = 'Confianza ' + nivel.toUpperCase() + ' - ' + puntaje + '/100';\n\n// -------- Informe markdown --------\nconst md = [];\nmd.push('# ' + prev.tema);\nmd.push('');\nmd.push('**Pregunta central:** ' + prev.pregunta);\nmd.push('');\nmd.push('**Confianza de la investigacion:** ' + puntaje + '/100 (' + nivel + '). ' + veredicto);\nmd.push('');\nmd.push('**Respuesta corta:** ' + respuesta_corta);\nmd.push('');\nmd.push('## Resumen');\nmd.push(resumen);\nmd.push('');\nmd.push('## Hechos verificados');\nif (hechos.length) { for (const h of hechos) md.push('- ' + h.afirmacion + (h.fuente_url ? ' [fuente: ' + h.fuente_url + ']' : ' [requiere_verificacion]')); }\nelse { md.push('- Sin hechos verificados suficientes en esta ejecucion.'); }\nmd.push('');\nif (porques.length) { md.push('## El porque (5 porques)'); for (const p of porques) md.push('- ' + p); md.push(''); }\nif (hipotesis.length) { md.push('## Hipotesis (requieren verificacion)'); for (const h of hipotesis) md.push('- ' + h); md.push(''); }\nif (opiniones.length) { md.push('## Opiniones registradas'); for (const o of opiniones) md.push('- ' + o); md.push(''); }\nmd.push('## Graficos');\nif (graficos.length) { for (const g of graficos) md.push('- ' + (g.titulo || g.tipo) + ': ' + g.url + ' (fuente: ' + g.fuente + ')'); }\nelse { md.push('- No se encontraron cifras confiables con fuente para graficar; se omite el grafico por regla de calidad.'); }\nmd.push('');\nmd.push('## Verificacion y confianza (auditoria adversarial)');\nmd.push('- Puntaje de confianza: ' + puntaje + '/100 (' + nivel + ').');\nmd.push('- Veredicto: ' + veredicto);\nif (contradicciones.length) { md.push('- Contradicciones detectadas:'); for (const c of contradicciones) md.push('  - ' + c); }\nif (senalesAlerta.length) { md.push('- Senales de alerta:'); for (const s of senalesAlerta) md.push('  - ' + s); }\nif (limitaciones.length) { md.push('- Limitaciones:'); for (const l of limitaciones) md.push('  - ' + l); }\nif (recomendaciones.length) { md.push('- Como fortalecerla:'); for (const rec of recomendaciones) md.push('  - ' + rec); }\nif (!verDisponible) md.push('- Nota: la auditoria automatica no se pudo ejecutar; el puntaje es una estimacion por cobertura de fuentes.');\nmd.push('');\nif (preguntasAbiertas.length) { md.push('## Preguntas abiertas para futuras investigaciones'); for (const q of preguntasAbiertas) md.push('- ' + q); md.push(''); }\nmd.push('## Fuentes');\nif (fuentes.length) { for (const f of fuentes) md.push('- [' + f.tipo + ', confianza ' + f.confianza + '] ' + f.titulo + ' - ' + f.url); }\nelse { md.push('- Sin fuentes registradas; el contenido queda marcado como requiere_verificacion.'); }\nconst informe_markdown = md.join('\\n');\n\n// -------- Email HTML profesional --------\nconst articuloBase = r.articulo_markdown || informe_markdown;\nconst articulo_html = mdToHtml(articuloBase);\nconst chartsHtml = graficos.map(g => '<div style=\"margin:16px 0\"><img src=\"' + g.url + '\" alt=\"' + escHtml(g.titulo) + '\" style=\"max-width:100%;border-radius:8px;border:1px solid #e5e7eb\"><br><small style=\"color:#6b7280\">Fuente: ' + escHtml(g.fuente) + '</small></div>').join('');\nconst fuentesHtml = fuentes.map(f => '<li style=\"margin:4px 0\"><a href=\"' + escHtml(f.url) + '\" target=\"_blank\" rel=\"noopener\">' + escHtml(f.titulo) + '</a> <span style=\"color:#6b7280\">(' + escHtml(f.tipo) + ', confianza ' + escHtml(f.confianza) + ')</span></li>').join('');\nconst chip = (t, bg, fg) => '<span style=\"display:inline-block;background:' + bg + ';color:' + fg + ';padding:2px 8px;border-radius:999px;font-size:12px;margin:2px 4px 2px 0\">' + escHtml(t) + '</span>';\nconst listaVerHtml = (titulo, items, color) => items.length\n  ? '<p style=\"margin:10px 0 4px;font-weight:600;color:' + color + '\">' + escHtml(titulo) + '</p><ul style=\"margin:0 0 8px 18px;padding:0\">' + items.map(i => '<li style=\"margin:3px 0\">' + escHtml(i) + '</li>').join('') + '</ul>'\n  : '';\nconst verificacionHtml = '<div style=\"margin:18px 0;padding:14px 16px;border:1px solid #e5e7eb;border-left:4px solid ' + colorNivel + ';border-radius:8px;background:#fafafa\">'\n  + '<div style=\"display:flex;align-items:center;gap:10px;flex-wrap:wrap\">'\n  + '<span style=\"display:inline-block;background:' + colorNivel + ';color:#fff;padding:4px 12px;border-radius:999px;font-weight:700;font-size:13px\">' + escHtml(etiquetaNivel) + '</span>'\n  + '<span style=\"color:#374151\">' + escHtml(veredicto) + '</span></div>'\n  + listaVerHtml('Contradicciones detectadas', contradicciones, '#b91c1c')\n  + listaVerHtml('Senales de alerta', senalesAlerta, '#b45309')\n  + listaVerHtml('Limitaciones', limitaciones, '#6b7280')\n  + listaVerHtml('Como fortalecer esta investigacion', recomendaciones, '#1d4ed8')\n  + (verDisponible ? '' : '<p style=\"margin:8px 0 0;color:#6b7280;font-size:12px\">La auditoria automatica no se pudo ejecutar; el puntaje es una estimacion por cobertura de fuentes.</p>')\n  + '</div>';\nconst email_html = '<div style=\"font-family:Segoe UI,Arial,sans-serif;max-width:700px;margin:auto;color:#111827\">'\n  + '<div style=\"background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:18px 20px;border-radius:12px 12px 0 0\">'\n  + '<div style=\"font-size:13px;opacity:.85;letter-spacing:.5px\">RESEARCHFLOW</div>'\n  + '<div style=\"font-size:20px;font-weight:700;margin-top:2px\">' + escHtml(prev.tema) + '</div>'\n  + '<div style=\"margin-top:8px\">' + chip(etiquetaNivel, 'rgba(255,255,255,.2)', '#fff') + chip(graficos.length + ' grafico(s)', 'rgba(255,255,255,.2)', '#fff') + chip(fuentes.length + ' fuente(s)', 'rgba(255,255,255,.2)', '#fff') + '</div>'\n  + '</div>'\n  + '<div style=\"border:1px solid #e5e7eb;border-top:none;border-radius:0 0 12px 12px;padding:20px\">'\n  + (esFallback ? '<p style=\"background:#fef3c7;color:#92400e;padding:8px 12px;border-radius:8px;margin-top:0\">Investigacion parcial: revisa la API de Gemini. Se entregan los hallazgos disponibles.</p>' : '')\n  + '<p style=\"background:#eef2ff;padding:10px 12px;border-radius:8px;margin-top:0\"><strong>Respuesta corta:</strong> ' + escHtml(respuesta_corta) + '</p>'\n  + verificacionHtml\n  + articulo_html\n  + (chartsHtml ? '<h2 style=\"margin:22px 0 8px;border-bottom:1px solid #e5e7eb;padding-bottom:4px\">Graficos</h2>' + chartsHtml : '')\n  + '<h2 style=\"margin:22px 0 8px;border-bottom:1px solid #e5e7eb;padding-bottom:4px\">Fuentes</h2><ul style=\"margin:8px 0 0 18px;padding:0\">' + fuentesHtml + '</ul>'\n  + '<p style=\"margin-top:18px\"><small style=\"color:#6b7280\">Generado por ResearchFlow (n8n + Gemini con Google Search grounding, 4 fases: base, profundizacion, sintesis y verificacion adversarial). Los hechos citan fuente; lo no citado esta marcado como requiere verificacion.</small></p>'\n  + '</div></div>';\nconst whatsapp_text = ('ResearchFlow: lista tu investigacion sobre \"' + prev.tema + '\". Confianza ' + puntaje + '/100 (' + nivel + '). ' + respuesta_corta + ' El articulo completo' + (graficos.length ? ' con ' + graficos.length + ' grafico(s)' : '') + ' llego a tu correo.').slice(0, 900);\n\n// -------- SQL de evidencia --------\nlet reqId = 0;\ntry { reqId = Number($('Postgres - Registrar solicitud').first().json.request_id || 0); } catch (e) { reqId = 0; }\nconst stmts = [];\nif (reqId > 0) {\n  for (const f of fuentes.slice(0, 15)) stmts.push(\"INSERT INTO research_sources (request_id, titulo, url, tipo, calidad, confianza) VALUES (\" + reqId + \", '\" + esc(f.titulo).slice(0, 200) + \"', '\" + esc(f.url) + \"', '\" + esc(f.tipo) + \"', 'evaluada', '\" + esc(f.confianza) + \"');\");\n  for (const h of hechos.slice(0, 20)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hecho', '\" + esc(h.afirmacion).slice(0, 1500) + \"', '\" + (h.fuente_url ? esc(h.fuente_url) : 'requiere_verificacion') + \"', 'alta');\");\n  for (const h of hipotesis.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'hipotesis', '\" + esc(h).slice(0, 1500) + \"', 'requiere_verificacion', 'media');\");\n  for (const o of opiniones.slice(0, 10)) stmts.push(\"INSERT INTO research_evidence (request_id, tipo, afirmacion, soporte, confianza) VALUES (\" + reqId + \", 'opinion', '\" + esc(o).slice(0, 1500) + \"', 'atribuida', 'baja');\");\n  for (const d of datasetsValidos) stmts.push(\"INSERT INTO research_datasets (request_id, titulo, descripcion, datos_json, fuente_principal, tipo_grafico, quickchart_url, estado) VALUES (\" + reqId + \", '\" + esc(d.titulo).slice(0, 200) + \"', '\" + esc(d.descripcion).slice(0, 500) + \"', '\" + esc(JSON.stringify(d.datos)) + \"', '\" + esc(d.fuente_principal) + \"', '\" + d.tipo_grafico + \"', '\" + esc(d.quickchart_url) + \"', 'graficado');\");\n  stmts.push(\"INSERT INTO research_verifications (request_id, puntaje_calidad, nivel_confianza, veredicto, senales_alerta, contradicciones, limitaciones, hechos_auditados) VALUES (\" + reqId + \", \" + puntaje + \", '\" + esc(nivel) + \"', '\" + esc(veredicto).slice(0, 2000) + \"', '\" + esc(JSON.stringify(senalesAlerta)) + \"', '\" + esc(JSON.stringify(contradicciones)) + \"', '\" + esc(JSON.stringify(limitaciones)) + \"', '\" + esc(JSON.stringify(hechosAuditados)) + \"');\");\n  stmts.push(\"INSERT INTO research_artifacts (request_id, tipo, titulo, contenido, estado) VALUES (\" + reqId + \", 'articulo', '\" + esc(prev.tema).slice(0, 200) + \"', '\" + esc(articuloBase).slice(0, 100000) + \"', 'enviado');\");\n}\nconst sql_evidencia = stmts.length ? stmts.join(' ') : 'SELECT 1;';\nconst estado_final = esFallback ? 'completado_fallback' : (citas.length ? 'completado_con_busqueda' : 'completado');\nconst sql_actualizar = reqId > 0\n  ? \"UPDATE research_requests SET estado='\" + estado_final + \"', resumen='\" + esc(resumen).slice(0, 2000) + \"', informe_markdown='\" + esc(informe_markdown) + \"', puntaje_calidad=\" + puntaje + \", nivel_confianza='\" + esc(nivel) + \"', veredicto='\" + esc(veredicto).slice(0, 2000) + \"', updated_at=NOW() WHERE id=\" + reqId + \";\"\n  : 'SELECT 1;';\nconst sheet_rows = [];\nfor (const d of datasetsValidos) for (const p of d.datos) sheet_rows.push({ request_id: reqId, tema: prev.tema, dataset: d.titulo, etiqueta: String(p.etiqueta), valor: Number(p.valor), unidad: String(p.unidad || ''), periodo: String(p.periodo || ''), fuente_url: String(p.fuente_url) });\n\nreturn [{ json: { ...prev, request_id: reqId, estado_final, puntaje_calidad: puntaje, nivel_confianza: nivel, veredicto, resumen, respuesta_corta, hechos, hipotesis, opiniones, cinco_porques: porques, preguntas_abiertas: preguntasAbiertas, fuentes, graficos, datasets: datasetsValidos, senales_alerta: senalesAlerta, contradicciones, limitaciones, recomendaciones, hechos_auditados: hechosAuditados, informe_markdown, email_html, whatsapp_text, sql_evidencia, sql_actualizar, sheet_rows } }];\n"
+      },
+      "id": "rf-0013",
+      "name": "Procesar resultado",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3080,
+        -140
+      ],
+      "notes": "Fase 4 integrada: parsea sintesis y verificacion, calcula el puntaje de confianza, valida datasets (solo cifras con fuente), construye articulo HTML profesional con badge de confianza, SQL y filas para Sheets."
     },
     {
       "parameters": {
@@ -361,7 +423,7 @@
       "type": "n8n-nodes-base.postgres",
       "typeVersion": 2.5,
       "position": [
-        2860,
+        3300,
         -140
       ],
       "notes": "Inserta fuentes, hechos/hipotesis/opiniones, datasets y el articulo como artifact.",
@@ -383,7 +445,7 @@
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.1,
       "position": [
-        3080,
+        3520,
         -140
       ],
       "notes": "Asignar credencial Gmail OAuth2.",
@@ -417,7 +479,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        3300,
+        3740,
         -140
       ],
       "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
@@ -435,7 +497,7 @@
       "type": "n8n-nodes-base.postgres",
       "typeVersion": 2.5,
       "position": [
-        3520,
+        3960,
         -140
       ],
       "notes": "Marca la solicitud como completada y guarda resumen e informe.",
@@ -451,7 +513,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        3740,
+        4180,
         -140
       ],
       "notes": "Una fila por punto de dato; si no hubo datasets, no se agrega nada."
@@ -484,7 +546,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        3960,
+        4400,
         -140
       ],
       "notes": "Asignar credencial Google Sheets OAuth2. El ID del documento se lee de la variable de entorno GOOGLE_SHEET_ID (.env). Hoja: datasets.",
@@ -537,7 +599,10 @@
       ],
       "notes": "Genera 3-5 preguntas investigables en JSON.",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
     },
     {
       "parameters": {
@@ -741,7 +806,7 @@
       "main": [
         [
           {
-            "node": "Procesar resultado",
+            "node": "Preparar verificacion",
             "type": "main",
             "index": 0
           }
@@ -868,6 +933,28 @@
           }
         ]
       ]
+    },
+    "Preparar verificacion": {
+      "main": [
+        [
+          {
+            "node": "Gemini - Verificacion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini - Verificacion": {
+      "main": [
+        [
+          {
+            "node": "Procesar resultado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "pinData": {},
@@ -876,7 +963,7 @@
   },
   "staticData": null,
   "active": false,
-  "versionId": "researchflow-investigacion-v2",
+  "versionId": "researchflow-investigacion-v3-verificacion",
   "meta": {
     "templateCredsSetupCompleted": false
   },

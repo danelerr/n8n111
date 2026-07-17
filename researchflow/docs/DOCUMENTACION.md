@@ -39,7 +39,7 @@ Servicios definidos en `deploy/docker-compose.yml`:
 | Simulador | Interfaz de chat que usa el mismo flujo conversacional |
 
 La interfaz vive en `chat/`, usa `slot-text` para estados y etiquetas animadas, y se
-compila como archivos estaticos que sirve `simulador_whatsapp.py`:
+compila como archivos estaticos que sirve `chat/simulador_whatsapp.py`:
 
 ```bash
 cd chat
@@ -54,11 +54,10 @@ Workflows versionados:
 
 | Archivo | Funcion | Disparo |
 | --- | --- | --- |
-| `n8n_workflow_research_production.json` | Investigacion V3 con verificacion adversarial y generacion de preguntas | `POST /webhook/researchflow` |
-| `n8n_workflow_ideas_whatsapp.json` | Captura, refinado y lanzamiento de ideas | `POST /webhook/researchflow-whatsapp` |
-| `n8n_workflow_weekly_digest.json` | Resumen semanal del backlog | Lunes 08:00 |
-| `n8n_workflow_demo_import.json` | Demostracion sin credenciales externas | `POST /webhook/researchflow-demo` |
-| `n8n_workflow_research_v3_candidate.json` | Artefacto reproducible de staging; archivado en n8n | No publicado |
+| `workflows/n8n_workflow_research_production.json` | Investigacion V3 con verificacion adversarial y generacion de preguntas | `POST /webhook/researchflow` |
+| `workflows/n8n_workflow_ideas_whatsapp.json` | Captura, refinado y lanzamiento de ideas | `POST /webhook/researchflow-whatsapp` |
+| `workflows/n8n_workflow_weekly_digest.json` | Resumen semanal del backlog | Lunes 08:00 |
+| `workflows/n8n_workflow_demo_import.json` | Demostracion sin credenciales externas | `POST /webhook/researchflow-demo` |
 
 ## 3. Uso
 
@@ -110,7 +109,7 @@ Las claves no deben copiarse a los JSON ni a esta documentacion.
 
 ## 5. Datos y metodologia
 
-`database_schema_postgres.sql` crea siete tablas:
+`deploy/database_schema_postgres.sql` crea siete tablas:
 
 - `research_requests`: solicitud y estado general.
 - `research_sources`: fuentes encontradas.
@@ -168,7 +167,7 @@ un maximo de 10 000 registros, lo que ocurra primero.
 Cargar o restaurar el esquema de la aplicacion:
 
 ```bash
-docker compose exec -T postgres psql -U postgres -d researchflow < /opt/researchflow/database_schema_postgres.sql
+docker compose exec -T postgres psql -U postgres -d researchflow < /opt/researchflow/deploy/database_schema_postgres.sql
 ```
 
 Backups:
@@ -193,16 +192,13 @@ Antes de desplegar un cambio:
 7. Ejecutar manualmente el digest.
 8. Confirmar correo, registros Postgres, filas de Sheets y aviso por WhatsApp.
 
-Validacion especifica del candidato V3:
+Validacion de empaquetado y sintaxis:
 
 ```bash
-node scripts/build_v3_candidate.mjs
-node scripts/validate_v3.mjs
+node scripts/validate_package.mjs
 ```
 
-El validador ejecuta los nodos Code relevantes con fixtures locales; no llama Gemini,
-no escribe en Postgres y no envia correo ni WhatsApp. Las entregas externas permanecen
-deshabilitadas dentro del JSON candidato.
+El validador comprueba que todos los archivos JSON (workflows y configuraciones) sean validos, verifica las conexiones de n8n entre nodos y valida la sintaxis de los bloques JavaScript embebidos en el codigo de los workflows.
 
 Datos de prueba disponibles en `test_data/`.
 
@@ -217,11 +213,11 @@ Datos de prueba disponibles en `test_data/`.
 | Sheets falla | `GOOGLE_SHEET_ID`, hoja `datasets` y permisos OAuth |
 | Landing no conecta | Rewrite de Vercel, DNS y estado de n8n |
 | HTTPS falla | DNS, puertos 80/443 y logs de Caddy |
-| Falta el playbook | Reaplicar la semilla de `database_schema_postgres.sql` |
+| Falta el playbook | Reaplicar la semilla de `deploy/database_schema_postgres.sql` |
 
 ## 9. Propuesta v3
 
-`CAMBIOS_v3.md` documenta el desarrollo y el registro de despliegue. Ya se completaron
+`docs/CAMBIOS_v3.md` documenta el desarrollo y el registro de despliegue. Ya se completaron
 el backup, la migracion idempotente, la importacion aislada, la prueba del fallback y
 la promocion sobre el workflow estable. La clave de Gemini fue rotada y sincronizada con
 el entorno y la credencial interna de n8n. La prueba real termino en

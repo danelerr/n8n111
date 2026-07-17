@@ -23,22 +23,21 @@ Regla central: ninguna cifra se grafica sin fuente y ninguna afirmacion dudosa s
 
 | Recurso | Contenido |
 | --- | --- |
-| `DOCUMENTACION.md` | Uso, arquitectura, configuracion, operacion, metodologia y pruebas |
-| `CAMBIOS_v3.md` | Diseño y estado del candidato de verificacion adversarial V3 |
-| `deploy/` | Docker Compose, Caddy, entorno y acceso al servidor |
-| `chat/` | Interfaz responsive y build frontend con `slot-text` |
+| `docs/DOCUMENTACION.md` | Uso, arquitectura, configuracion, operacion, metodologia y pruebas |
+| `docs/CAMBIOS_v3.md` | Diseño y estado del candidato de verificacion adversarial V3 |
+| `deploy/` | Docker Compose, Caddy, entorno, esquema de base de datos y acceso al servidor |
+| `chat/` | Interfaz responsive, build frontend con `slot-text` y `simulador_whatsapp.py` |
 | `landing_page/` | Interfaz web publicada en Vercel |
-| `n8n_workflow_*.json` | Cuatro workflows estables; investigacion profunda ya usa V3 |
-| `database_schema_postgres.sql` | Tablas y playbook activo |
-| `simulador_whatsapp.py` | Chat web conectado al flujo conversacional |
+| `workflows/` | Cuatro workflows estables de n8n; investigacion profunda ya usa V3 |
+| `deploy/database_schema_postgres.sql` | Tablas y playbook activo |
 | `test_data/` | Payloads de prueba |
 | `output/pdf/informe_researchflow.pdf` | Informe final canonico |
 
 ## Punto de partida
 
-1. Leer `DOCUMENTACION.md`.
+1. Leer `docs/DOCUMENTACION.md`.
 2. Consultar `deploy/SERVER_ACCESS.md` para operar produccion.
-3. Consultar `CAMBIOS_v3.md` para el estado de produccion y las rotaciones pendientes
+3. Consultar `docs/CAMBIOS_v3.md` para el estado de produccion y las rotaciones pendientes
    de Gemini y Evolution.
 
 Los secretos permanecen exclusivamente en `deploy/.env` y en las credenciales cifradas de n8n.

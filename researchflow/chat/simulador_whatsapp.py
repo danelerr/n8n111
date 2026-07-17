@@ -21,7 +21,7 @@ import urllib.request
 
 
 BASE_DIR = Path(__file__).resolve().parent
-STATIC_DIR = BASE_DIR / "chat" / "dist"
+STATIC_DIR = BASE_DIR / "dist"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"

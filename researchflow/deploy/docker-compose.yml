@@ -32,7 +32,7 @@ services:
       - RESEARCH_WEBHOOK_URL=https://n8n.${DOMAIN}/webhook/researchflow
       - PORT=8777
     volumes:
-      - ../simulador_whatsapp.py:/app/simulador_whatsapp.py:ro
+      - ../chat/simulador_whatsapp.py:/app/simulador_whatsapp.py:ro
       - ../chat/dist:/app/chat/dist:ro
     working_dir: /app
     command: python3 simulador_whatsapp.py

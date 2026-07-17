@@ -1,0 +1,452 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-noquoting]{babel}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+\usepackage[hidelinks,colorlinks=true,linkcolor=azulref,urlcolor=azulref,citecolor=azulref]{hyperref}
+
+\definecolor{azulref}{RGB}{20,80,150}
+\definecolor{grisclaro}{RGB}{240,243,247}
+\definecolor{grismedio}{RGB}{120,120,120}
+\definecolor{verdeok}{RGB}{20,120,60}
+
+\captionsetup{font=small,labelfont={bf,color=azulref}}
+
+\lstdefinestyle{caja}{
+  basicstyle=\ttfamily\footnotesize,
+  backgroundcolor=\color{grisclaro},
+  frame=single, rulecolor=\color{grismedio},
+  breaklines=true, columns=fullflexible, keepspaces=true,
+  showstringspaces=false, xleftmargin=4pt, xrightmargin=4pt,
+  aboveskip=8pt, belowskip=8pt
+}
+\lstset{style=caja}
+
+\titleformat{\section}{\Large\bfseries\color{azulref}}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{16pt}{8pt}
+\titlecontents{section}
+  [0em]
+  {\bfseries\color{azulref}\addvspace{0.35em}}
+  {\contentslabel{2.8em}}
+  {\hspace*{-2.8em}}
+  {\titlerule*[0.7pc]{.}\contentspage}
+\titlecontents{subsection}
+  [2.0em]
+  {}
+  {\contentslabel{3.2em}}
+  {\hspace*{-3.2em}}
+  {\titlerule*[0.7pc]{.}\contentspage}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small ResearchFlow n8n}
+\lhead{\small Proyecto final --- Daniel Cueto}
+\rfoot{\small\thepage}
+\lfoot{\small\color{grismedio} camba.tech}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\newcommand{\code}[1]{\texttt{\small #1}}
+
+\begin{document}
+
+%============ PORTADA (formato oficial) ============
+\begin{titlepage}
+\centering
+\vspace*{1.2cm}
+{\large\bfseries PROYECTO FINAL}\\[0.4cm]
+{\LARGE\bfseries AUTOMATIZACIÓN DE PROCESOS DE\\ NEGOCIO MEDIANTE n8n}\\[1.6cm]
+
+\rule{0.82\textwidth}{1pt}\\[0.5cm]
+{\Huge\bfseries\color{azulref} ResearchFlow}\\[0.35cm]
+{\large Asistente de investigación automatizado y verificable con n8n}\\[0.3cm]
+{\normalsize\color{verdeok}\bfseries Sistema desplegado y verificado en producción}\\[0.15cm]
+{\small\color{grismedio}\url{https://n8n.camba.tech} $\cdot$ \url{https://chat.camba.tech}}\\[0.5cm]
+\rule{0.82\textwidth}{1pt}\\[2.2cm]
+
+\begin{tabular}{rl}
+\textbf{Estudiante:} & Daniel Cueto Torrico\\[0.25cm]
+\textbf{Programa:} & Automatización de Negocios con n8n\\[0.25cm]
+\textbf{Institución:} & Embajada de los Estados Unidos\\[0.25cm]
+\textbf{Docente:} & Ph.D. Milton Cayo Blanco\\[0.25cm]
+\end{tabular}
+
+\vspace{2cm}
+{\normalsize 9 de julio de 2026}
+\vfill
+{\small\color{grismedio} n8n $\cdot$ PostgreSQL 16 $\cdot$ Gemini 2.5 Flash $\cdot$ Evolution API $\cdot$ QuickChart $\cdot$ Caddy $\cdot$ DigitalOcean}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+%============ 1 ============
+\section{Resumen Ejecutivo}
+\textbf{Problema:} investigar un tema a fondo de forma manual (buscar fuentes, filtrar su calidad, extraer datos, construir gráficos y redactar un artículo) toma entre 4 y 6 horas por tema, y es propenso a sesgos, cifras sin respaldo y fuentes dudosas.
+
+\textbf{Sector objetivo:} creador de contenido / analista independiente que produce artículos y análisis basados en investigación.
+
+\textbf{Solución propuesta:} ResearchFlow, un asistente construido sobre n8n con \textbf{cuatro workflows}: (1) \emph{Investigación profunda} (webhook $\rightarrow$ Postgres $\rightarrow$ playbook editable $\rightarrow$ Gemini 2.5 Flash en 3 fases con \emph{Google Search grounding} $\rightarrow$ artículo HTML con gráficos por Gmail); (2) \emph{Ideas por WhatsApp} (AI Agent con memoria vía Evolution API); (3) \emph{Digest semanal}; y (4) \emph{Demo sin credenciales}.
+
+\textbf{Herramientas:} n8n, PostgreSQL 16, Gemini 2.5 Flash + grounding, QuickChart, Gmail, Google Sheets, Evolution API (WhatsApp), Caddy (HTTPS) y Docker sobre un droplet de DigitalOcean con dominio propio \code{camba.tech}.
+
+\textbf{Beneficios y resultados:} una investigación pasa de 4--6 horas a $\sim$10 minutos de ejecución más una revisión breve, con costo marginal de centavos. Por reglas duras del playbook nunca se inventan cifras ni fuentes. \textbf{El sistema fue desplegado y verificado end-to-end en producción}, con entrega real de artículos por correo (Sección~\ref{sec:deploy}).
+
+%============ 2 ============
+\section{Introducción}
+La transformación digital permite convertir procesos repetitivos en flujos automatizados y medibles. El trabajo de investigación para contenido y análisis sigue siendo mayormente manual: se recibe una idea, se abren decenas de pestañas, se evalúan fuentes a ojo, se transcriben cifras a una hoja de cálculo y se redacta. Al agregar IA generativa sin proceso aparece un riesgo nuevo: respuestas fluidas que mezclan hechos comprobados con inferencias y cifras inventadas.
+
+\textbf{Situación actual del negocio:} el analista invierte 4--6 h por tema, pierde ideas en canales dispersos y no tiene un archivo histórico reutilizable. \textbf{Necesidad de automatización:} industrializar la investigación con control de calidad y trazabilidad. \textbf{Importancia de la transformación digital:} pasar de un proceso artesanal a uno medible y escalable. \textbf{Justificación de n8n:} orquesta webhooks, IA, base de datos, APIs y notificaciones en flujos versionables y self-hosted, ideal para este proceso intelectual.
+
+%============ 3 ============
+\section{Requisitos Mínimos del Proyecto}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{L{5.3cm} L{9.7cm}}
+\toprule
+\textbf{Requisito obligatorio} & \textbf{Cómo se cumple en ResearchFlow}\\
+\midrule \endhead
+Un Trigger & Tres: Webhook \code{/webhook/researchflow}, Webhook \code{/webhook/researchflow-whatsapp} (Evolution) y Schedule Trigger (digest, lunes 8am).\\
+Al menos tres integraciones externas & Seis: Gemini API (con grounding), Gmail, Google Sheets, Evolution API, QuickChart y PostgreSQL.\\
+Base de datos o Google Sheets & Ambos: Postgres 16 (7 tablas) y Google Sheets (hoja \code{datasets}).\\
+Proceso automatizado de comunicación & Artículo HTML por Gmail, avisos y conversación por WhatsApp, digest semanal.\\
+Evidencias funcionales & Workflows desplegados y activos, ejecuciones verdes, artículo entregado por correo, registros en Postgres (Anexos).\\
+Análisis económico & ROI y costos reales (Secciones~\ref{sec:roi} y~\ref{sec:econ}).\\
+Documentación técnica & Informe, manual técnico, manual de usuario, esquema SQL y guía de despliegue.\\
+\bottomrule
+\end{longtable}
+
+%============ 4 ============
+\section{Planteamiento del Problema}
+\textbf{Procesos manuales existentes:} búsqueda de fuentes, evaluación de calidad a ojo, extracción de cifras, armado de gráficos y redacción. \textbf{Tiempo invertido:} 4 a 6 horas por tema. \textbf{Errores frecuentes:} cifras sin fuente asociada, sesgo de selección de fuentes, mezcla de hechos con opiniones. \textbf{Costos asociados:} horas de trabajo del analista y riesgo reputacional por publicar datos indefendibles. \textbf{Impacto en la productividad:} solo 1--2 investigaciones por semana; las ideas llegan por canales dispersos y se pierden; no existe base histórica reutilizable. \textbf{Oportunidades de mejora:} automatizar captura, investigación metódica con IA, registro trazable y comunicación, con reglas de calidad estrictas que la IA debe cumplir.
+
+%============ 5 ============
+\section{Objetivos}
+\subsection{Objetivo General}
+Implementar con n8n un asistente de investigación automatizado que transforme un tema o pregunta en un artículo verificable con gráficos, reduciendo el tiempo de 4--6 horas a minutos, con trazabilidad completa de fuentes y comunicación automática por Gmail y WhatsApp.
+
+\subsection{Objetivos Específicos}
+\begin{itemize}[leftmargin=1.4em]
+\item Analizar el proceso manual y codificar la metodología del usuario en un \emph{playbook} editable en base de datos.
+\item Diseñar el flujo automatizado: 4 workflows en n8n.
+\item Implementar la solución: Gemini en 3 fases con grounding, Postgres, Sheets, QuickChart, Gmail y WhatsApp.
+\item Realizar pruebas unitarias e integrales.
+\item Evaluar las mejoras obtenidas y desplegar en producción (droplet con HTTPS).
+\end{itemize}
+
+%============ 6 ============
+\section{Marco Teórico}
+\textbf{Automatización de procesos:} uso de tecnología para ejecutar tareas repetitivas con mínima intervención humana. ResearchFlow automatiza un proceso intelectual completo. \textbf{Transformación digital:} rediseño de procesos con herramientas digitales; la investigación pasa de artesanal a industrializada. \textbf{BPM:} el proceso ``investigar un tema'' se modeló en fases explícitas (playbook) y sus estados viven en la base de datos. \textbf{Integración de aplicaciones:} n8n conecta landing web, Postgres, Gemini, QuickChart, Gmail, Sheets y WhatsApp. \textbf{APIs REST:} el proyecto consume \code{generateContent} de Gemini, \code{sendText} de Evolution y QuickChart por URL. \textbf{Webhooks:} endpoints HTTP que reciben eventos y disparan workflows. \textbf{IA aplicada a negocios y grounding:} el grounding con Google Search ancla las respuestas de Gemini en resultados web reales y citables; combinado con reglas duras (no inventar cifras ni fuentes) la IA se vuelve auditable. \textbf{Plataforma n8n:} automatización visual self-hosted que conecta triggers, nodos de transformación, bases de datos, APIs y nodos de IA en flujos versionables en JSON.
+
+%============ 7 ============
+\section{Análisis del Negocio}
+\subsection{Descripción del Negocio}
+\textbf{Nombre/perfil:} analista de contenido independiente. \textbf{Sector económico:} creación de contenido, análisis e investigación aplicada. \textbf{Productos o servicios:} artículos con datos y gráficos, informes breves, backlog de temas. \textbf{Clientes objetivo:} el propio analista (asistente personal), extensible a equipos de contenido, consultores y estudiantes. \textbf{Problemas identificados:} tiempo alto por tema, riesgo por fuentes dudosas, pérdida de ideas y ausencia de archivo histórico.
+
+\subsection{Proceso Seleccionado}
+Investigación completa de un tema, desde la captura de la idea hasta la entrega del artículo verificable. Una persona envía un tema (y opcionalmente una pregunta) por la landing o WhatsApp. Sin pregunta: el sistema propone 3--5 preguntas investigables y las guarda como ideas. Con pregunta: responde ``en proceso'' y ejecuta la investigación en 3 fases con búsqueda web real, clasifica afirmaciones (hecho/hipótesis/opinión), extrae datasets con fuente, genera gráficos, guarda todo en Postgres y Sheets, y entrega el artículo por Gmail con aviso por WhatsApp.
+
+%============ 8 ============
+\section{Estudio de Viabilidad}
+\subsection{Viabilidad Técnica}
+Todos los nodos usados (Webhook, Set, Code, IF, Postgres, HTTP Request, Gmail, Google Sheets, Schedule Trigger, AI Agent con modelo Gemini y memoria) son estándar de n8n. El stack (Caddy, n8n, Postgres 16, Redis, Evolution API) corre con Docker Compose sobre un droplet de DigitalOcean. \textbf{La viabilidad técnica quedó confirmada: el sistema está desplegado y operativo en producción.}
+
+\subsection{Viabilidad Económica}
+Droplet cubierto por créditos de DigitalOcean; régimen posterior de 4~GB a \$24/mes. Gemini 2.5 Flash cuesta centavos por investigación. QuickChart, Vercel, Evolution API (open source) y las APIs de Google Workspace: \$0. Dominio \code{camba.tech}: $\sim$\$30/año. No hay licencias de software.
+
+\subsection{Viabilidad Operativa}
+El usuario solo llena un formulario o escribe por chat; el sistema hace el resto. La metodología es editable sin tocar los flujos (registro \code{playbook\_investigacion} en \code{app\_settings}). La supervisión humana se conserva: revisión del artículo antes de publicar y elementos marcados \code{requiere\_verificacion} explícitos.
+
+%============ 9 ============
+\section{Diseño de la Solución}
+\subsection{Arquitectura General}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[font=\small,
+  box/.style={rounded corners, draw=azulref, fill=grisclaro, minimum width=3.6cm, minimum height=1.0cm, align=center, thick, font=\footnotesize},
+  big/.style={rounded corners, draw=azulref, fill=azulref, text=white, minimum width=8.2cm, minimum height=1.1cm, align=center, thick},
+  arr/.style={-{Stealth[length=2.2mm]}, thick, draw=azulref}]
+  \node[box] (landing) {Landing web\\(Vercel)};
+  \node[box, right=1.4cm of landing] (wa) {WhatsApp / Simulador\\de chat};
+  \node[big, below=1.2cm of landing, xshift=2.5cm] (n8n) {\textbf{n8n --- 4 workflows}\\[2pt]{\footnotesize droplet DigitalOcean $\cdot$ Docker $\cdot$ Caddy HTTPS $\cdot$ camba.tech}};
+  \node[box, below=1.3cm of n8n, xshift=-3.9cm] (gem) {Gemini 2.5 Flash\\{\footnotesize + Search grounding}};
+  \node[box, below=1.3cm of n8n] (pg) {PostgreSQL 16\\{\footnotesize 7 tablas research\_*}};
+  \node[box, below=1.3cm of n8n, xshift=3.9cm] (out) {Gmail $\cdot$ Sheets\\{\footnotesize QuickChart $\cdot$ Evolution}};
+  \draw[arr] (landing) -- (n8n);
+  \draw[arr] (wa) -- (n8n);
+  \draw[arr] (n8n) -- (gem);
+  \draw[arr] (n8n) -- (pg);
+  \draw[arr] (n8n) -- (out);
+\end{tikzpicture}
+\caption{Arquitectura de la solución}
+\end{figure}
+
+\subsection{Herramientas Utilizadas}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{L{4.6cm} L{10.4cm}}
+\toprule
+\textbf{Herramienta} & \textbf{Función}\\ \midrule \endhead
+n8n (Docker) & Orquestación de los 4 workflows.\\
+PostgreSQL 16 & Solicitudes, fuentes, evidencia, datasets, ideas y configuración (playbook).\\
+Gemini 2.5 Flash + grounding & Investigación en 3 fases, generación de preguntas, refinado de ideas, digest.\\
+QuickChart & Gráficos PNG por URL sin API key.\\
+Gmail / Google Sheets (OAuth2) & Entrega del artículo y repositorio de datasets.\\
+Evolution API v2.2 & Canal WhatsApp (captura de ideas, comandos y avisos).\\
+Caddy + dominio \code{camba.tech} & Reverse proxy con HTTPS automático (Let's Encrypt).\\
+Vercel & Landing con rewrite \code{/api/investigar} (evita CORS).\\
+\bottomrule
+\end{longtable}
+
+%============ 10 ============
+\section{Diseño del Flujo de Trabajo}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{output/pdf/img/fig_workflow_n8n.png}
+\caption{Flujo de trabajo implementado en n8n (ejecución exitosa, todos los nodos en verde)}
+\end{figure}
+
+Workflow principal: \code{n8n\_workflow\_research\_production.json}. Recibe la solicitud por webhook, la registra en Postgres, carga el playbook y ejecuta la investigación en 3 fases (base y profundización con grounding, síntesis en JSON estricto), valida datasets, arma los gráficos y el artículo HTML, guarda la evidencia y entrega por Gmail, WhatsApp y Google Sheets.
+
+\subsection{Descripción de Nodos}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{L{4.6cm} L{10.4cm}}
+\toprule
+\textbf{Nodo} & \textbf{Función}\\ \midrule \endhead
+Webhook & Recepción de solicitudes (landing, WhatsApp o simulador).\\
+Normalizar solicitud & Estandariza nombre, email, whatsapp, tema, pregunta y canal.\\
+Postgres --- Registrar / Cargar playbook & INSERT con RETURNING id; lee la metodología editable de \code{app\_settings}.\\
+IF --- Con pregunta & Bifurca: investigar o proponer preguntas.\\
+Gemini --- Fase base / Profundizar / Síntesis & Investigación en 3 fases (grounding en 1--2; JSON estricto en 3).\\
+Procesar resultado & Valida datasets (solo cifras con fuente), arma QuickChart, HTML y filas.\\
+Gmail --- Enviar artículo & Envía el artículo HTML con gráficos incrustados.\\
+Google Sheets --- Registrar datos & Una fila por punto de dato en la hoja \code{datasets}.\\
+AI Agent --- Refinar idea & Agente con Gemini y memoria por número (flujo WhatsApp).\\
+Evolution API & Notificaciones y conversación por WhatsApp.\\
+Schedule Trigger & Digest semanal (lunes 8am).\\
+\bottomrule
+\end{longtable}
+
+%============ 11 ============
+\section{Implementación}
+\label{sec:deploy}
+\begin{enumerate}[leftmargin=1.6em]
+\item \textbf{Configuración de credenciales:} Postgres, Gmail OAuth2 y Google Sheets OAuth2 (proyecto Google Cloud con redirect URI de n8n) y Google Gemini para el AI Agent. La configuración sensible (claves, IDs, datos del propietario) se centraliza en un \code{.env} que n8n inyecta a los workflows vía \code{\{\{ \$env.* \}\}}.
+\item \textbf{Creación del flujo:} importación y activación de los 4 workflows.
+\item \textbf{Integración de APIs:} Gemini (\code{generateContent} con \code{google\_search} en fases 1--2 y salida JSON estricta en la síntesis), QuickChart por URL y Evolution \code{sendText}.
+\item \textbf{Webhooks:} la landing usa un rewrite de Vercel. Evolution envía el evento \path{messages.upsert} a \path{/webhook/researchflow-whatsapp}.
+\item \textbf{Pruebas unitarias:} validación por nodo con \code{test\_data/} (normalización, INSERT, parseo del JSON de síntesis, URLs QuickChart).
+\item \textbf{Pruebas integrales:} solicitud completa con entrega real de artículo por correo.
+\item \textbf{Puesta en producción:} droplet Ubuntu 24.04, dominio \code{camba.tech} con HTTPS, workflows activos.
+\end{enumerate}
+
+\medskip
+El sistema no quedó en diseño: fue desplegado y verificado en producción. Las siguientes subsecciones documentan el entorno real, la prueba end-to-end y los problemas de ingeniería resueltos.
+
+\subsection{Entorno de producción}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{L{4.4cm} L{10.6cm}}
+\toprule \textbf{Componente} & \textbf{Valor real}\\ \midrule \endhead
+Servidor & Droplet DigitalOcean, Ubuntu 24.04, IP \code{165.227.203.200}.\\
+Dominio & \code{camba.tech} (subdominios \code{n8n.}, \code{evo.}, \code{chat.}).\\
+n8n & \url{https://n8n.camba.tech} --- \code{HTTP/2 200} con HTTPS válido.\\
+Contenedores & caddy, postgres (healthy), redis, n8n, evolution, simulador --- todos \emph{running}.\\
+Base de datos & 7 tablas creadas; playbook sembrado en \code{app\_settings}.\\
+\bottomrule
+\end{longtable}
+
+\subsection{Prueba integral end-to-end (exitosa)}
+Se lanzó una investigación real por el webhook de producción. Respuesta inmediata:
+\begin{lstlisting}
+{"success":true,"modo":"investigacion","estado":"en_proceso",
+ "request_id":2,"mensaje":"Investigacion iniciada. El articulo llegara
+ a tu correo en unos minutos."}
+\end{lstlisting}
+En $\sim$1m~35s corrieron las 3 fases de Gemini, se guardó la evidencia en Postgres, se registraron los datos en Google Sheets y \textbf{el artículo HTML con su gráfico llegó al correo}. En la base de datos, las solicitudes quedan con estado \code{completado\_con\_busqueda}, lo que confirma que el pipeline completo (incluida la búsqueda web y el envío por Gmail) se ejecutó.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{output/pdf/img/fig_ejecucion_verde.png}
+\caption{Ejecución exitosa del workflow en n8n (panel \emph{Executions}, todos los nodos en verde)}
+\end{figure}
+
+\subsection{Problemas resueltos durante el despliegue}
+\renewcommand{\arraystretch}{1.25}
+\begin{longtable}{L{4.6cm} L{10.4cm}}
+\toprule \textbf{Problema} & \textbf{Solución aplicada}\\ \midrule \endhead
+Imagen de Evolution inaccesible & Se cambió al namespace oficial vigente \code{evoapicloud/evolution-api:v2.2.3}.\\
+Placeholders y claves inline en los JSON & Refactor a variables de entorno (\code{\{\{ \$env.* \}\}}) leídas del \code{.env}: sin secretos en archivos versionados.\\
+Llamada interna frágil a \code{localhost} & El flujo de WhatsApp usa la URL pública del webhook (\code{RESEARCH\_WEBHOOK\_URL}).\\
+Modelo de IA no disponible (503) & Se fijó el modelo estable \code{gemini-2.5-flash} en el AI Agent y los nodos HTTP.\\
+Restricción de WhatsApp (Baileys) & Ante la inestabilidad del canal WhatsApp no oficial, se construyó un \textbf{simulador de chat} que ejercita el mismo flujo real.\\
+\bottomrule
+\end{longtable}
+
+\subsection{Canal de chat: simulador desplegado}
+El canal conversacional se expone además como un \textbf{simulador de chat} desplegado en \url{https://chat.camba.tech}, que reproduce el bot (mismo prompt y modelo Gemini) y cuyo comando \code{investigar} dispara la investigación profunda real. Es una entrada estable e independiente del WhatsApp no oficial.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\textwidth]{output/pdf/img/fig_chat_simulador.png}
+\caption{Simulador de chat: el asistente refina una idea vaga en un tema con preguntas investigables}
+\end{figure}
+
+%============ 12 ============
+\section{Resultados}
+\begin{table}[H]
+\centering\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{L{5cm} L{4cm} L{4.5cm}}
+\toprule
+\textbf{Indicador} & \textbf{Antes (manual)} & \textbf{Después (ResearchFlow)}\\ \midrule
+Tiempo por investigación & 4 a 6 horas & $\sim$10 min + revisión breve\\
+Investigaciones por semana & 1 a 2 & 5 a 10\\
+Cifras sin fuente & Frecuentes & 0 (sin fuente no se grafica)\\
+Errores / trazabilidad & Dispersa & 100\% en Postgres, clasificada\\
+Costo operativo por tema & Horas de trabajo & Centavos de API\\
+Productividad & Baja & 4--5$\times$ mayor\\
+\bottomrule
+\end{tabular}
+\caption{Comparación de resultados antes y después de la automatización}
+\end{table}
+La mejora central no es solo velocidad: cada artículo queda \textbf{auditable} (qué fuente respalda qué hecho) y el conocimiento se acumula en una base consultable.
+
+%============ 13 ============
+\section{Retorno de Inversión (ROI)}
+\label{sec:roi}
+\begin{itemize}[leftmargin=1.4em]
+\item Investigaciones/mes: 16. Tiempo manual: 5~h c/u; con ResearchFlow: $\sim$0.67~h. \textbf{Ahorro: 4.33~h por investigación.}
+\item \textbf{Tiempo ahorrado:} $\sim$4.3~h/día, $\sim$21~h/semana, $\sim$69~h/mes.
+\item \textbf{Costo proceso manual:} 16$\times$5$\times$\$6 = \$480/mes. \textbf{Costo automatizado:} \$25/mes (droplet 4~GB + Gemini).
+\item Valor hora del analista: \$6. Inversión inicial: $\sim$\$240 (una vez).
+\end{itemize}
+\begin{lstlisting}
+Ahorro mensual          = 69.3 h x $6            = $415.80
+Costo mensual sistema   =                          $25.00
+Beneficio neto mensual  = 415.80 - 25.00         = $390.80
+ROI mensual             = 390.80 / 25 x 100      = 1,563%
+Recuperacion inversion  = 240 / 390.80           = ~3 semanas
+\end{lstlisting}
+Incluso recortando los supuestos a la mitad, el beneficio neto supera con holgura el costo del sistema.
+
+%============ 14 ============
+\section{Análisis Económico}
+\label{sec:econ}
+\subsection{Costos}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{L{10.5cm} L{4cm}}
+\toprule \textbf{Ítem} & \textbf{Costo/mes}\\ \midrule \endhead
+Infraestructura --- Droplet (con créditos DigitalOcean) & \$48 $\rightarrow$ \$0 efectivo\\
+Hosting --- Droplet 4~GB (post-créditos) & \$24\\
+APIs --- Gemini 2.5 Flash (uso personal) & $<$ \$1\\
+Licencias (n8n, Postgres, Evolution: open source) & \$0\\
+Servicios externos (QuickChart, Vercel, Gmail/Sheets) & \$0\\
+Dominio \code{camba.tech} & $\sim$\$2.5\\
+\bottomrule
+\end{longtable}
+
+\subsection{Beneficios}
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Reducción de errores:} cero cifras sin fuente publicadas.
+\item \textbf{Ahorro de tiempo:} $\sim$69 horas al mes.
+\item \textbf{Incremento de productividad:} 4--5$\times$ más investigaciones con el mismo tiempo.
+\item \textbf{Escalabilidad:} metodología editable en datos; el estilo se ajusta sin tocar los flujos.
+\item \textbf{Mejor experiencia:} entrega automática por Gmail, WhatsApp/chat y digest semanal.
+\end{itemize}
+
+%============ 15 ============
+\section{Conclusiones}
+\begin{enumerate}[leftmargin=1.6em]
+\item \textbf{Automatización:} n8n permite automatizar un proceso intelectual completo (investigación en 3 fases con grounding, clasificación de evidencia y entrega multicanal) sin intervención humana.
+\item \textbf{Productividad y transformación digital:} la producción crece 4--5$\times$ y la investigación pasa de artesanal a un servicio real en internet (Docker, HTTPS, dominio propio, webhooks públicos).
+\item \textbf{Impacto económico:} con \$25/mes de costo total, el ROI mensual supera el 1{,}500\% bajo supuestos conservadores; la inversión se recupera en $\sim$3 semanas.
+\item La IA generativa aporta valor cuando se somete a reglas verificables: el playbook con reglas duras convierte a Gemini de un riesgo de alucinaciones en un asistente auditable.
+\end{enumerate}
+
+%============ 16 ============
+\section{Recomendaciones}
+\begin{itemize}[leftmargin=1.4em]
+\item Integrar fuentes de datos primarias por API (Our World in Data, bancos centrales, INE) como herramientas del flujo.
+\item Implementar RAG sobre las investigaciones pasadas (tablas \code{research\_*}).
+\item Migrar el canal WhatsApp a la API oficial de Meta (Cloud API) para estabilidad de producción.
+\item Incorporar un segundo modelo como verificador cruzado de los hechos \code{requiere\_verificacion}.
+\item Programar respaldos automáticos de Postgres (\code{pg\_dump}) además del snapshot del droplet.
+\end{itemize}
+
+%============ 17 ============
+\section{Bibliografía}
+\begin{enumerate}[leftmargin=2.2em,label={[\arabic*]}]
+\item n8n GmbH, \emph{n8n Documentation}. \url{https://docs.n8n.io/}
+\item Google, \emph{Gemini API --- Grounding with Google Search}.\par \url{https://ai.google.dev/gemini-api/docs/google-search}
+\item Google, \emph{Gemini Developer API --- Pricing}. \url{https://ai.google.dev/gemini-api/docs/pricing}
+\item QuickChart, \emph{Documentation}. \url{https://quickchart.io/documentation/}
+\item Evolution API, \emph{Documentation}. \url{https://doc.evolution-api.com/}
+\item Docker Inc., \emph{Docker Compose Documentation}. \url{https://docs.docker.com/compose/}
+\item DigitalOcean, \emph{Droplets Documentation}.\par \url{https://docs.digitalocean.com/products/droplets/}
+\item PostgreSQL Global Development Group, \emph{PostgreSQL 16 Documentation}. \url{https://www.postgresql.org/docs/16/}
+\item Caddy, \emph{Automatic HTTPS}. \url{https://caddyserver.com/docs/automatic-https}
+\end{enumerate}
+
+%============ 18 ============
+\section{Rúbrica de Evaluación}
+\renewcommand{\arraystretch}{1.25}
+\begin{longtable}{L{7.5cm} r L{5cm}}
+\toprule \textbf{Criterio} & \textbf{Pts} & \textbf{Evidencia}\\ \midrule \endhead
+Identificación del problema empresarial & 10 & Sec.~4 y 7\\
+Justificación de la automatización & 10 & Sec.~8 y 13\\
+Diseño de la solución & 15 & Sec.~9 y 10, Figura 1--2\\
+Implementación funcional en n8n & 20 & Sec.~11, Anexos\\
+Integraciones externas & 15 & Gemini, Gmail, Sheets, Evolution, QuickChart, Postgres\\
+Innovación y creatividad & 10 & 3 fases + playbook editable + anti-alucinación\\
+Análisis económico y ROI & 10 & Sec.~13 y 14\\
+Calidad del informe técnico & 5 & Este informe + manuales\\
+Presentación y defensa & 5 & Demo en vivo (chat + correo real)\\
+\midrule \textbf{Total} & \textbf{100} & \\
+\bottomrule
+\end{longtable}
+
+%============ 19 ============
+\section{Anexos}
+Evidencias funcionales del sistema en producción:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{output/pdf/img/fig_evolution.png}
+\caption{Anexo A --- Integración de WhatsApp: instancia \code{researchflow} conectada en Evolution API}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{output/pdf/img/fig_dns.png}
+\caption{Anexo B --- Despliegue en dominio propio: registros DNS \code{n8n}, \code{evo} y \code{chat} apuntando al droplet}
+\end{figure}
+
+La guía operativa está en \path{DOCUMENTACION.md}. El paquete incluye además los workflows JSON, el esquema SQL, la infraestructura en \path{deploy/} y el simulador de chat.
+
+\vspace{0.8cm}
+\begin{center}\small\color{grismedio}\rule{0.5\textwidth}{0.4pt}\\[0.25cm]
+ResearchFlow --- desplegado en \url{https://n8n.camba.tech} $\cdot$ Daniel Cueto Torrico $\cdot$ 9 de julio de 2026
+\end{center}
+
+\end{document}

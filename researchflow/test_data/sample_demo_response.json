@@ -1,14 +1,11 @@
 {
   "success": true,
   "modo": "investigacion_demo",
-  "nota": "DEMO: investigacion simulada sin credenciales. El grafico QuickChart SI es real y se genera en vivo. En produccion los datos provienen de Gemini con Google Search grounding y el puntaje de confianza de la fase de verificacion adversarial.",
+  "nota": "DEMO: investigacion simulada sin credenciales. El grafico QuickChart SI es real y se genera en vivo. En produccion los datos provienen de Gemini con Google Search grounding.",
   "tema": "Adopcion de criptomonedas en Bolivia",
   "pregunta": "Se usan realmente las criptomonedas en Bolivia o solo se especula?",
-  "puntaje_calidad": 82,
-  "nivel_confianza": "alto",
-  "veredicto": "DEMO: informe consistente; los 2 hechos tienen fuente y la serie es coherente. En produccion este veredicto proviene de la auditoria adversarial real.",
   "respuesta_corta": "Respuesta corta de demostracion para: Se usan realmente las criptomonedas en Bolivia o solo se especula?",
-  "resumen": "Resumen de demostracion. El flujo de produccion realiza 3 fases de investigacion con grounding (base, profundizacion, sintesis JSON) y una 4a fase de verificacion adversarial que asigna el puntaje de confianza.",
+  "resumen": "Resumen de demostracion. El flujo de produccion realiza 2 fases de busqueda con grounding y una sintesis JSON con hechos, datasets con fuente y articulo.",
   "hechos": [
     {
       "afirmacion": "DEMO: hecho de ejemplo 1 (en produccion saldria de la busqueda con fuentes reales).",

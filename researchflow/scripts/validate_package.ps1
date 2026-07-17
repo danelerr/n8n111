@@ -7,7 +7,6 @@ $jsonFiles = @(
   "n8n_workflow_ideas_whatsapp.json",
   "n8n_workflow_weekly_digest.json",
   "n8n_workflow_demo_import.json",
-  "workflow_blueprint.json",
   "landing_page/vercel.json",
   "test_data/sample_request.json",
   "test_data/sample_request_solo_tema.json",

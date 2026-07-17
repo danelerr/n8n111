@@ -1,0 +1,11 @@
+{
+  "name": "researchflow-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "slot-text": "^0.3.3"
+  }
+}

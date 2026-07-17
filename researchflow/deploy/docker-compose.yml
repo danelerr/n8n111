@@ -24,14 +24,20 @@ services:
   simulador:
     image: python:3.12
     restart: unless-stopped
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - OWNER_NAME=${OWNER_NAME}
+      - OWNER_EMAIL=${OWNER_EMAIL}
+      - OWNER_WHATSAPP=${OWNER_WHATSAPP}
+      - RESEARCH_WEBHOOK_URL=https://n8n.${DOMAIN}/webhook/researchflow
+      - PORT=8777
     volumes:
       - ../simulador_whatsapp.py:/app/simulador_whatsapp.py:ro
+      - ../chat/dist:/app/chat/dist:ro
     working_dir: /app
     command: python3 simulador_whatsapp.py
     expose:
       - "8777"
-    ports:
-      - "8777:8777"   # acceso directo por IP (http://IP:8777) ademas del dominio
 
   postgres:
     image: postgres:16
@@ -55,7 +61,8 @@ services:
       - redis_data:/data
 
   n8n:
-    image: docker.n8n.io/n8nio/n8n:latest
+    # Version probada con los workflows V3. Actualizarla de forma explicita y con backup.
+    image: docker.n8n.io/n8nio/n8n:2.30.6
     restart: unless-stopped
     environment:
       - N8N_HOST=n8n.${DOMAIN}
@@ -72,6 +79,14 @@ services:
       - DB_POSTGRESDB_USER=postgres
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
       - N8N_PROXY_HOPS=1
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - N8N_PUBLIC_API_DISABLED=true
+      - N8N_PUBLIC_API_SWAGGERUI_DISABLED=true
+      - N8N_DIAGNOSTICS_ENABLED=false
+      # Retencion acotada: 14 dias o un maximo de 10 000 ejecuciones.
+      - EXECUTIONS_DATA_PRUNE=true
+      - EXECUTIONS_DATA_MAX_AGE=336
+      - EXECUTIONS_DATA_PRUNE_MAX_COUNT=10000
       # Permitir que los workflows lean variables de entorno via {{ $env.X }}
       - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
       # Config de ResearchFlow inyectada a los workflows (evita placeholders inline)
@@ -83,12 +98,6 @@ services:
       - OWNER_WHATSAPP=${OWNER_WHATSAPP}
       # URL publica del webhook del flujo de investigacion (usada por el flujo de WhatsApp)
       - RESEARCH_WEBHOOK_URL=https://n8n.${DOMAIN}/webhook/researchflow
-      # Permite que las expresiones lean $env (usado por el workflow de ideas para auto-llamarse).
-      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
-      # Base del webhook que usa "Ideas por WhatsApp" para lanzar la investigacion.
-      # Dentro del mismo contenedor localhost:5678 sirve; en produccion detras de Caddy
-      # puedes ponerlo en https://n8n.${DOMAIN} sin tocar el workflow.
-      - RF_WEBHOOK_BASE=${RF_WEBHOOK_BASE:-http://localhost:5678}
     volumes:
       - n8n_data:/home/node/.n8n
     depends_on:

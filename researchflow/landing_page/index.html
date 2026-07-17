@@ -90,14 +90,13 @@
         <ol class="steps">
           <li><span>1</span>El webhook de n8n recibe tu solicitud</li>
           <li><span>2</span>Sin pregunta: la IA propone preguntas investigables</li>
-          <li><span>3</span>Con pregunta: investigacion profunda con busqueda web (base, profundizacion y sintesis)</li>
-          <li><span>4</span>Verificacion adversarial: audita hechos y cifras y asigna un puntaje de confianza</li>
-          <li><span>5</span>Datos con fuente -&gt; graficos QuickChart + Google Sheets</li>
-          <li><span>6</span>Articulo con graficos y confianza por Gmail y aviso por WhatsApp</li>
+          <li><span>3</span>Con pregunta: investigacion profunda con busqueda web (2 fases + sintesis)</li>
+          <li><span>4</span>Datos con fuente -&gt; graficos QuickChart + Google Sheets</li>
+          <li><span>5</span>Articulo con graficos por Gmail y aviso por WhatsApp</li>
         </ol>
         <div class="note">
           <strong>Reglas de calidad:</strong>
-          <p>Nunca se inventan cifras ni fuentes. Todo hecho cita su fuente; lo no verificado se marca como requiere verificacion. Sin cifras confiables no hay grafico. Cada informe se autoaudita y publica su <strong>puntaje de confianza</strong>.</p>
+          <p>Nunca se inventan cifras ni fuentes. Todo hecho cita su fuente; lo no verificado se marca como requiere verificacion. Sin cifras confiables no hay grafico.</p>
         </div>
         <div class="note">
           <strong>Tip:</strong>

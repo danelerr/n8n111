@@ -1,0 +1,36 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      slot-text:
+        specifier: ^0.3.3
+        version: 0.3.3
+
+packages:
+
+  slot-text@0.3.3:
+    resolution: {integrity: sha512-9yJ0RJI9s5oFIo3NQV+fHJJoVXFpb7XpyYzRUt9mcUvSeuJ0fYt8WOQE5qljRqCyD6Elli12lO1/G9OqD2Kr/w==}
+    peerDependencies:
+      react: '>=18 <20'
+      solid-js: '>=1.8 <2'
+      svelte: '>=4 <6'
+      vue: '>=3.4 <4'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      solid-js:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+
+snapshots:
+
+  slot-text@0.3.3: {}

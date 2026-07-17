@@ -1,10 +1,10 @@
 {
-  "name": "ResearchFlow - Investigacion profunda V3",
+  "name": "ResearchFlow - Investigacion profunda V3 (candidato)",
   "nodes": [
     {
       "parameters": {
         "httpMethod": "POST",
-        "path": "researchflow",
+        "path": "researchflow-v3-candidate",
         "responseMode": "responseNode",
         "options": {
           "allowedOrigins": "*"
@@ -18,8 +18,8 @@
         0,
         0
       ],
-      "notes": "Webhook estable de ResearchFlow V3.",
-      "webhookId": "researchflow"
+      "notes": "Webhook exclusivo del candidato V3. No sustituye /researchflow mientras el workflow permanezca inactivo.",
+      "webhookId": "researchflow-v3-candidate"
     },
     {
       "parameters": {
@@ -415,7 +415,7 @@
         4620,
         -140
       ],
-      "notes": "Asignar credencial Gmail OAuth2.",
+      "notes": "Asignar credencial Gmail OAuth2. DESHABILITADO EN CANDIDATO: habilitar solo despues de las pruebas de staging.",
       "continueOnFail": true,
       "alwaysOutputData": true,
       "credentials": {
@@ -423,7 +423,8 @@
           "id": "42DoFh3hjEi0OKme",
           "name": "Gmail account"
         }
-      }
+      },
+      "disabled": true
     },
     {
       "parameters": {
@@ -455,9 +456,10 @@
         4840,
         -140
       ],
-      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080.",
+      "notes": "Evolution API, instancia 'researchflow'. En docker-compose el host es http://evolution:8080; en local http://localhost:8080. DESHABILITADO EN CANDIDATO: habilitar solo despues de las pruebas de staging.",
       "continueOnFail": true,
-      "alwaysOutputData": true
+      "alwaysOutputData": true,
+      "disabled": true
     },
     {
       "parameters": {
@@ -475,7 +477,7 @@
         5060,
         -140
       ],
-      "notes": "Actualizacion final parametrizada de ResearchFlow V3.",
+      "notes": "Actualizacion final parametrizada. Las entregas externas permanecen deshabilitadas en el candidato.",
       "continueOnFail": true,
       "alwaysOutputData": true,
       "credentials": {
@@ -530,14 +532,15 @@
         5500,
         -140
       ],
-      "notes": "Asignar credencial Google Sheets OAuth2. El ID del documento se lee de la variable de entorno GOOGLE_SHEET_ID (.env). Hoja: datasets.",
+      "notes": "Asignar credencial Google Sheets OAuth2. El ID del documento se lee de la variable de entorno GOOGLE_SHEET_ID (.env). Hoja: datasets. DESHABILITADO EN CANDIDATO: habilitar solo despues de las pruebas de staging.",
       "continueOnFail": true,
       "credentials": {
         "googleSheetsOAuth2Api": {
           "id": "03Fo6YBhMsBcA7B2",
           "name": "Google Sheets account"
         }
-      }
+      },
+      "disabled": true
     },
     {
       "parameters": {
@@ -643,7 +646,7 @@
         1980,
         260
       ],
-      "notes": "Asignar credencial Gmail OAuth2.",
+      "notes": "Asignar credencial Gmail OAuth2. DESHABILITADO EN CANDIDATO: habilitar solo despues de las pruebas de staging.",
       "continueOnFail": true,
       "alwaysOutputData": true,
       "credentials": {
@@ -651,7 +654,8 @@
           "id": "42DoFh3hjEi0OKme",
           "name": "Gmail account"
         }
-      }
+      },
+      "disabled": true
     },
     {
       "parameters": {
@@ -1228,12 +1232,15 @@
   },
   "staticData": null,
   "active": false,
-  "versionId": "c467edda-939a-44b1-860f-e60b30cc9521",
+  "versionId": "f6dca3c5-0c12-4cef-9d30-c03c44303e13",
   "meta": {
     "templateCredsSetupCompleted": false,
     "researchflowVersion": "3.0.0",
-    "verification": "adversarial"
+    "verification": "adversarial",
+    "candidate": true,
+    "candidateVersion": "3.0.0",
+    "warning": "Candidato inactivo. Aplicar migracion 003 y validar antes de habilitar entregas o activar."
   },
-  "id": "TMQnnUSlrZxe7z5C",
+  "id": "rfV3Candidate001",
   "tags": []
 }

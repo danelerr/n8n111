@@ -253,55 +253,6 @@ button:hover {
   font-size: 13px;
 }
 
-.confianza {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
-  margin: 4px 0 14px;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--muted);
-  background: #f8fafc;
-}
-
-.confianza-badge {
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 999px;
-  color: #fff;
-  font-weight: 750;
-  font-size: 13px;
-  background: var(--muted);
-}
-
-.confianza-veredicto {
-  color: #344450;
-  font-size: 13.5px;
-}
-
-.confianza-alto {
-  border-left-color: var(--success);
-}
-.confianza-alto .confianza-badge {
-  background: var(--success);
-}
-
-.confianza-medio {
-  border-left-color: var(--warn);
-}
-.confianza-medio .confianza-badge {
-  background: var(--warn);
-}
-
-.confianza-bajo {
-  border-left-color: var(--error);
-}
-.confianza-bajo .confianza-badge {
-  background: var(--error);
-}
-
 button:disabled {
   opacity: 0.6;
   cursor: wait;

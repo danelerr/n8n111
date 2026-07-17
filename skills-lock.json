@@ -1,12 +1,6 @@
 {
   "version": 1,
   "skills": {
-    "n8n-mcp-tools-expert": {
-      "source": "czlonkowski/n8n-skills",
-      "sourceType": "github",
-      "skillPath": "skills/n8n-mcp-tools-expert/SKILL.md",
-      "computedHash": "e97d91ddf5b0b39239ba208aaa09866827e8276be66f01cb2dcd1f1cab315cc4"
-    },
     "n8n-workflow-patterns": {
       "source": "czlonkowski/n8n-skills",
       "sourceType": "github",

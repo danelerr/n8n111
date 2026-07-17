@@ -1,68 +1,44 @@
-# ResearchFlow n8n
+# ResearchFlow
 
-Asistente de investigacion automatizado. Proyecto final del curso **Automatizacion de Negocios con n8n** (formato oficial: `curso_n8n/n8n_evaluacion.pdf`).
+Asistente de investigacion automatizado con n8n, Gemini, PostgreSQL, Gmail, Google Sheets, QuickChart y Evolution API.
+
+## Produccion
+
+- n8n: `https://n8n.camba.tech`
+- Chat: `https://chat.camba.tech`
+- Evolution: `https://evo.camba.tech`
+- Acceso al droplet: `deploy/SERVER_ACCESS.md`
 
 ## Que hace
 
-Le das un tema ("adopcion de cripto en Bolivia") o una pregunta concreta:
+- Convierte un tema sin pregunta en preguntas investigables.
+- Convierte una pregunta concreta en un articulo con fuentes y graficos respaldados.
+- Captura y refina ideas por WhatsApp o por el simulador.
+- Mantiene un backlog y envia un digest semanal.
+- Registra solicitudes, fuentes, evidencia, datasets y articulos en PostgreSQL.
 
-- **Sin pregunta**: genera 3-5 preguntas investigables e interesantes, las guarda en tu backlog y te las envia por correo.
-- **Con pregunta**: ejecuta una investigacion profunda en internet en 4 fases (base del tema, profundizacion con 5 porques y datos, sintesis, y **verificacion adversarial** que audita hechos y cifras), guiada por tu metodologia personal (playbook editable en la base de datos). Entrega un **articulo con hechos citados, graficos estadisticos reales (QuickChart), fuentes evaluadas y un puntaje de confianza (0-100)** por Gmail, aviso por WhatsApp, datos a Google Sheets y trazabilidad completa en Postgres.
-- **Por WhatsApp**: le mandas ideas vagas cuando se te ocurren; un agente con memoria las refina contigo, las guarda en el backlog, y con "investigar N" lanzas la investigacion completa.
-- **Digest semanal**: cada lunes resume tu backlog y recomienda que investigar.
+Regla central: ninguna cifra se grafica sin fuente y ninguna afirmacion dudosa se presenta como hecho verificado.
 
-Reglas de calidad innegociables: nunca inventa cifras ni fuentes; todo hecho cita fuente o queda marcado como requiere verificacion; **sin cifras confiables no hay grafico**; **cada informe se autoaudita** (verificacion adversarial) y publica su puntaje de confianza.
+## Estructura
 
-## Los 4 workflows
+| Recurso | Contenido |
+| --- | --- |
+| `DOCUMENTACION.md` | Uso, arquitectura, configuracion, operacion, metodologia y pruebas |
+| `CAMBIOS_v3.md` | Diseño y estado del candidato de verificacion adversarial V3 |
+| `deploy/` | Docker Compose, Caddy, entorno y acceso al servidor |
+| `chat/` | Interfaz responsive y build frontend con `slot-text` |
+| `landing_page/` | Interfaz web publicada en Vercel |
+| `n8n_workflow_*.json` | Cuatro workflows estables; investigacion profunda ya usa V3 |
+| `database_schema_postgres.sql` | Tablas y playbook activo |
+| `simulador_whatsapp.py` | Chat web conectado al flujo conversacional |
+| `test_data/` | Payloads de prueba |
+| `output/pdf/informe_researchflow.pdf` | Informe final canonico |
 
-| Archivo | Trigger | Funcion |
-| --- | --- | --- |
-| `n8n_workflow_research_production.json` | Webhook `/webhook/researchflow` | Investigacion profunda + generador de preguntas |
-| `n8n_workflow_ideas_whatsapp.json` | Webhook Evolution API | Captura y refinamiento de ideas, comandos `ideas` / `investigar N` |
-| `n8n_workflow_weekly_digest.json` | Schedule (lunes 8am) | Digest del backlog por Gmail y WhatsApp |
-| `n8n_workflow_demo_import.json` | Webhook `/webhook/researchflow-demo` | Demo sin credenciales (grafico QuickChart real) |
+## Punto de partida
 
-## Flujo principal
+1. Leer `DOCUMENTACION.md`.
+2. Consultar `deploy/SERVER_ACCESS.md` para operar produccion.
+3. Consultar `CAMBIOS_v3.md` para el estado de produccion y las rotaciones pendientes
+   de Gemini y Evolution.
 
-```text
-Landing (Vercel) / WhatsApp (Evolution)
-  -> Webhook n8n -> Normalizar -> Postgres (registro) -> Playbook (app_settings)
-  -> Sin pregunta: Gemini genera preguntas -> backlog + Gmail + respuesta en pantalla
-  -> Con pregunta: respuesta inmediata "en proceso"
-       -> Gemini fase base (Google Search grounding)
-       -> Gemini profundizacion (grounding: 5 porques + datos con fuente)
-       -> Gemini sintesis (JSON estricto)
-       -> Gemini verificacion adversarial (grounding: audita hechos/cifras -> puntaje de confianza)
-       -> QuickChart (graficos) + Postgres (evidencia/datasets/verificacion/articulo)
-       -> Gmail (articulo HTML con badge de confianza + graficos) + WhatsApp (aviso)
-       -> Google Sheets (datasets, fila por dato)
-```
-
-## Stack
-
-- **n8n** self-hosted en droplet DigitalOcean (Docker) - `deploy/`
-- **Gemini 2.5 Flash** con Google Search grounding (API key de AI Studio), 4 fases incluida verificacion adversarial
-- **Postgres 16** (8 tablas, ver `database_schema_postgres.sql`)
-- **QuickChart** (graficos PNG gratis, sin API key)
-- **Gmail + Google Sheets** (OAuth Google Cloud)
-- **Evolution API v2** (WhatsApp) + **Redis**
-- **Caddy** (HTTPS automatico) + **DuckDNS**
-- **Landing en Vercel** (`landing_page/`, proxy `/api/investigar` sin CORS)
-
-## Por donde empezar
-
-1. `CAMBIOS_v3.md` - que cambio en la v3 (verificacion adversarial + puntaje de confianza) y como aplicarlo (no hay workflow nuevo).
-2. `INDICE_ENTREGA.md` - que entregar y en que orden.
-3. `deploy/deploy_digitalocean.md` - levantar el stack completo en el droplet.
-4. `manual_tecnico.md` - credenciales, placeholders `REPLACE_WITH_*` y mantenimiento.
-5. `manual_usuario.md` - como se usa (landing, WhatsApp, digest).
-6. `plan_pruebas.md` - pruebas unitarias e integrales.
-7. `informe_final.md` - informe oficial de 19 secciones (PDF en `output/pdf/`).
-
-## Configuracion minima (resumen)
-
-La configuracion sensible se centraliza en `deploy/.env`: `GEMINI_API_KEY`, `EVOLUTION_API_KEY`, `GOOGLE_SHEET_ID`, `OWNER_NAME/EMAIL/WHATSAPP`. Los workflows la leen via `{{ $env.* }}`, asi que **no hay que editar placeholders nodo por nodo**. Solo quedan por crear en n8n las credenciales nativas (que n8n guarda cifradas): Postgres, Gmail OAuth2, Google Sheets OAuth2 y Google Gemini (para el AI Agent). El unico placeholder manual fuera de n8n es `REPLACE_WITH_N8N_DOMAIN` en `landing_page/vercel.json`. Detalle completo en `manual_tecnico.md` y `deploy/deploy_digitalocean.md`.
-
-## Metodologia de investigacion
-
-El comportamiento del asistente sigue `playbook_investigacion.md` (Wikipedia como punto de partida, vocabulario tecnico, jerarquia de fuentes por incentivos, Our World in Data, 5 porques, hechos/hipotesis/opiniones separados, y una verificacion adversarial final que asigna el puntaje de confianza). Se inyecta desde la tabla `app_settings`: **editar el registro cambia el estilo de investigacion sin tocar los workflows**.
+Los secretos permanecen exclusivamente en `deploy/.env` y en las credenciales cifradas de n8n.

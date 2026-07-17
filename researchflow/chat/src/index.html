@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#101b20" />
+    <meta
+      name="description"
+      content="ResearchFlow Idea Lab: transforma ideas vagas en preguntas investigables."
+    />
+    <title>ResearchFlow · Idea Lab</title>
+    <link rel="stylesheet" href="/assets/slot-text.css" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <script type="module" src="/assets/app.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <aside class="research-rail" aria-label="Contexto de ResearchFlow">
+        <a class="brand" href="/" aria-label="ResearchFlow Idea Lab">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path d="M8 7h10a6 6 0 0 1 0 12h-4" />
+              <path d="M8 7v18M8 19h7l7 6" />
+            </svg>
+          </span>
+          <span>
+            <strong>ResearchFlow</strong>
+            <small>Idea Lab</small>
+          </span>
+        </a>
+
+        <section class="rail-intro">
+          <p class="eyebrow">Tu mesa de investigación</p>
+          <h1>Las ideas no llegan ordenadas. <em>Aquí sí.</em></h1>
+          <p class="rail-copy">
+            Convierte una intuición en preguntas claras y lanza investigaciones con evidencia
+            sin salir de la conversación.
+          </p>
+        </section>
+
+        <section class="rail-status" aria-label="Estado de la sesión">
+          <div class="status-heading">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span id="connectionLabel">En línea</span>
+          </div>
+          <div class="status-metric">
+            <span class="metric-value" id="backlogCount">0</span>
+            <span class="metric-label">ideas en esta sesión</span>
+          </div>
+        </section>
+
+        <ol class="method-list" aria-label="Método de trabajo">
+          <li>
+            <span>01</span>
+            <div><strong>Captura</strong><small>Escribe la idea como venga.</small></div>
+          </li>
+          <li>
+            <span>02</span>
+            <div><strong>Enfoque</strong><small>Recibe preguntas investigables.</small></div>
+          </li>
+          <li>
+            <span>03</span>
+            <div><strong>Profundiza</strong><small>Lanza el informe con fuentes.</small></div>
+          </li>
+        </ol>
+
+        <p class="rail-footnote">Sesión privada · memoria temporal</p>
+      </aside>
+
+      <section class="conversation-panel" aria-label="Conversación con ResearchFlow">
+        <header class="conversation-header">
+          <div class="mobile-brand" aria-hidden="true">
+            <span class="brand-mark small">
+              <svg viewBox="0 0 32 32">
+                <path d="M8 7h10a6 6 0 0 1 0 12h-4" />
+                <path d="M8 7v18M8 19h7l7 6" />
+              </svg>
+            </span>
+          </div>
+          <div class="header-title">
+            <p class="eyebrow">ResearchFlow / sesión activa</p>
+            <h2><span id="modeLabel">Dale forma a tu idea</span></h2>
+          </div>
+          <div class="header-presence" aria-label="Estado del asistente">
+            <span class="presence-orb" aria-hidden="true"></span>
+            <span id="headerStatus">Disponible</span>
+          </div>
+        </header>
+
+        <nav class="quick-prompts" aria-label="Acciones rápidas">
+          <button type="button" data-prompt="Quiero aterrizar esta idea: ">
+            <span class="prompt-icon">+</span>
+            Aterrizar mi idea
+          </button>
+          <button type="button" data-prompt="ideas">
+            <span class="prompt-icon">↗</span>
+            Revisar mis ideas
+          </button>
+          <button type="button" data-prompt="investigar: ">
+            <span class="prompt-icon">◎</span>
+            Investigar ahora
+          </button>
+        </nav>
+
+        <section
+          class="message-stream"
+          id="chat"
+          role="log"
+          aria-live="polite"
+          aria-relevant="additions"
+          aria-label="Mensajes"
+        ></section>
+
+        <footer class="composer-wrap">
+          <div class="composer">
+            <label class="sr-only" for="messageInput">Escribe una idea o un comando</label>
+            <textarea
+              id="messageInput"
+              rows="1"
+              maxlength="4000"
+              placeholder="Escribe una idea, aunque todavía esté incompleta…"
+              autocomplete="off"
+            ></textarea>
+            <button class="send-button" id="sendButton" type="button">
+              <span id="sendLabel">Enviar</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="m4 10 11-6-3.4 12-2.2-4.2L4 10Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="composer-meta">
+            <span><kbd>Enter</kbd> enviar · <kbd>Shift</kbd> + <kbd>Enter</kbd> nueva línea</span>
+            <span>La IA puede equivocarse. Verifica antes de publicar.</span>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <div class="sr-only" id="announcer" aria-live="assertive"></div>
+  </body>
+</html>

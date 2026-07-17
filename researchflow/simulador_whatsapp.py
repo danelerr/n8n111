@@ -1,284 +1,316 @@
 #!/usr/bin/env python3
-"""
-Simulador de chat WhatsApp para ResearchFlow.
-Reproduce el bot "Ideas por WhatsApp" (mismo system prompt y modelo Gemini)
-sin depender de WhatsApp/Evolution. El comando "investigar N" dispara la
-investigacion REAL contra el webhook de produccion (llega articulo por correo).
+"""Servidor del ResearchFlow Idea Lab.
 
-Uso:
-    python3 simulador_whatsapp.py
-    -> abre http://localhost:8777 en tu navegador
+Sirve el frontend compilado de ``chat/dist`` y expone dos endpoints:
+``GET /api/health`` y ``POST /api/send``. La configuracion sensible se obtiene
+exclusivamente desde variables de entorno inyectadas por Docker Compose.
 """
+
+from __future__ import annotations
+
 import http.server
-import socketserver
 import json
+import mimetypes
+import os
+from pathlib import Path
 import re
+import sys
+import threading
+import urllib.parse
 import urllib.request
 
-# ----------------- Config (misma que el .env de produccion) -----------------
-GEMINI_API_KEY = "AIzaSyCyZwhONciJzsx4gnfAslIrznT46kSKzqI"
+
+BASE_DIR = Path(__file__).resolve().parent
+STATIC_DIR = BASE_DIR / "chat" / "dist"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY
+    "gemini-2.5-flash:generateContent"
 )
-RESEARCH_WEBHOOK = "https://n8n.camba.tech/webhook/researchflow"
-OWNER_NAME = "Daniel Cueto Torrico"
-OWNER_EMAIL = "danielcuetorrico@gmail.com"
-OWNER_WHATSAPP = "59177667376"
-PORT = 8777
+RESEARCH_WEBHOOK = os.environ.get(
+    "RESEARCH_WEBHOOK_URL",
+    "https://n8n.camba.tech/webhook/researchflow",
+)
+OWNER_NAME = os.environ.get("OWNER_NAME", "ResearchFlow")
+OWNER_EMAIL = os.environ.get("OWNER_EMAIL", "")
+OWNER_WHATSAPP = os.environ.get("OWNER_WHATSAPP", "")
+PORT = int(os.environ.get("PORT", "8777"))
 
-# System prompt IDENTICO al del nodo "AI Agent - Refinar idea"
+
 SYSTEM_PROMPT = (
-    "Eres ResearchFlow Ideas, el asistente de WhatsApp de Daniel para capturar y "
-    "refinar ideas de investigacion. El usuario suele mandar ideas vagas; tu trabajo "
-    "es convertirlas en material investigable, NO investigar todavia. En cada respuesta: "
-    "1) reformula la idea como un tema claro (linea que empiece con 'Tema:'), "
-    "2) propone 3 a 5 preguntas investigables numeradas (1. 2. 3.), especificas, "
-    "comprobables con evidencia e interesantes para compartir, mezclando angulos "
-    "(datos, causas, mitos, impacto, futuro), 3) si la idea es demasiado vaga, haz UNA "
-    "pregunta aclaratoria y aun asi propone 2 preguntas tentativas. Se breve (mensaje de "
-    "WhatsApp, maximo ~900 caracteres), tono cercano, espanol. No inventes datos ni cifras: "
-    "aqui solo se formulan preguntas. Toda idea queda guardada automaticamente en el backlog; "
-    "recuerda al usuario que puede escribir 'ideas' para ver su backlog e 'investigar N' para "
-    "lanzar la investigacion completa de la idea N."
+    "Eres ResearchFlow Ideas, el asistente de Daniel para capturar y refinar ideas "
+    "de investigacion. El usuario suele mandar ideas vagas; tu trabajo es convertirlas "
+    "en material investigable, NO investigar todavia. En cada respuesta: 1) reformula "
+    "la idea como un tema claro (linea que empiece con 'Tema:'), 2) propone 3 a 5 "
+    "preguntas investigables numeradas (1. 2. 3.), especificas, comprobables con "
+    "evidencia e interesantes para compartir, mezclando angulos (datos, causas, mitos, "
+    "impacto, futuro), 3) si la idea es demasiado vaga, haz UNA pregunta aclaratoria y "
+    "aun asi propone 2 preguntas tentativas. Se breve (maximo 900 caracteres), tono "
+    "cercano y espanol. No inventes datos ni cifras: aqui solo se formulan preguntas. "
+    "Toda idea queda guardada automaticamente en el backlog; recuerda que el usuario "
+    "puede escribir 'ideas' e 'investigar N'."
 )
 
-# Backlog en memoria (equivalente a research_ideas)
-backlog = []
+
+backlog: list[dict[str, str]] = []
+backlog_lock = threading.Lock()
 
 
-def call_gemini(user_text):
+def backlog_size() -> int:
+    with backlog_lock:
+        return len(backlog)
+
+
+def call_gemini(user_text: str) -> str:
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY no configurada")
+
     body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
         "contents": [{"role": "user", "parts": [{"text": user_text}]}],
     }
-    req = urllib.request.Request(
+    request = urllib.request.Request(
         GEMINI_URL,
-        data=json.dumps(body).encode(),
-        headers={"Content-Type": "application/json"},
+        data=json.dumps(body).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "x-goog-api-key": GEMINI_API_KEY,
+        },
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        d = json.loads(r.read())
-    return d["candidates"][0]["content"]["parts"][0]["text"].strip()
+    with urllib.request.urlopen(request, timeout=60) as response:
+        payload = json.loads(response.read())
+
+    try:
+        return payload["candidates"][0]["content"]["parts"][0]["text"].strip()
+    except (KeyError, IndexError, TypeError) as error:
+        raise RuntimeError("Respuesta inesperada de Gemini") from error
 
 
-def _clean(s):
-    # quita marcas markdown y puntuacion sobrante
-    return re.sub(r"^\**\s*", "", s.strip()).strip().strip("*").strip()
+def _clean(value: str) -> str:
+    return re.sub(r"^\**\s*", "", value.strip()).strip().strip("*").strip()
 
 
-def parse_tema_pregunta(text):
+def parse_tema_pregunta(text: str) -> tuple[str, str]:
     tema = ""
-    m = re.search(r"Tema:\**\s*(.+)", text)
-    if m:
-        tema = _clean(m.group(1))
+    match_tema = re.search(r"Tema:\**\s*(.+)", text)
+    if match_tema:
+        tema = _clean(match_tema.group(1))
+
     pregunta = ""
-    mq = re.search(r"^\s*\**\s*1[\).\.\-]\s*(.+)", text, re.M)
-    if mq:
-        pregunta = _clean(mq.group(1))
+    match_question = re.search(r"^\s*\**\s*1[).\-]\s*(.+)", text, re.MULTILINE)
+    if match_question:
+        pregunta = _clean(match_question.group(1))
     return tema, pregunta
 
 
-def lanzar_investigacion(idea):
+def lanzar_investigacion(idea: dict[str, str]) -> dict:
     payload = {
         "nombre": OWNER_NAME,
         "email": OWNER_EMAIL,
         "whatsapp": OWNER_WHATSAPP,
-        "tema": idea["tema"] or idea["idea_original"],
-        "pregunta": idea["pregunta"] or "",
+        "tema": idea.get("tema") or idea.get("idea_original", ""),
+        "pregunta": idea.get("pregunta", ""),
         "tipo_entregable": "articulo",
         "prioridad": "media",
         "origen": "simulador_whatsapp",
     }
-    req = urllib.request.Request(
+    request = urllib.request.Request(
         RESEARCH_WEBHOOK,
-        data=json.dumps(payload).encode(),
+        data=json.dumps(payload).encode("utf-8"),
         headers={"Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read())
 
 
-def handle_message(text):
-    t = (text or "").strip()
-    low = t.lower()
+def delivery_destination() -> str:
+    return f"*{OWNER_EMAIL}*" if OWNER_EMAIL else "el correo configurado"
 
-    if not t:
-        return "Mandame una idea de investigacion y la refino."
 
-    if low == "ideas":
-        if not backlog:
+def handle_message(text: str) -> str:
+    message = (text or "").strip()
+    normalized = message.lower()
+
+    if not message:
+        return "Mandame una idea de investigacion y la convierto en preguntas claras."
+
+    if normalized == "ideas":
+        with backlog_lock:
+            current_backlog = list(backlog)
+        if not current_backlog:
             return "Tu backlog esta vacio. Mandame una idea y la refino automaticamente."
         lines = ["*Tu backlog de ideas:*"]
-        for i, it in enumerate(backlog, 1):
-            lines.append(f"{i}. {it['tema'] or it['idea_original']}")
-        lines.append("\n_Escribe 'investigar N' para lanzar la investigacion de la idea N._")
+        for index, item in enumerate(current_backlog, 1):
+            lines.append(f"{index}. {item['tema'] or item['idea_original']}")
+        lines.append("\n_Escribe 'investigar N' para profundizar la idea N._")
         return "\n".join(lines)
 
-    # "investigar N" -> investigacion profunda de la idea N del backlog
-    m = re.match(r"investigar\s+(\d+)\s*$", low)
-    if m:
-        n = int(m.group(1))
-        if n < 1 or n > len(backlog):
-            return f"No encontre la idea #{n}. Escribe 'ideas' para ver tu backlog."
-        idea = backlog[n - 1]
+    numbered_command = re.match(r"investigar\s+(\d+)\s*$", normalized)
+    if numbered_command:
+        number = int(numbered_command.group(1))
+        with backlog_lock:
+            idea = dict(backlog[number - 1]) if 0 < number <= len(backlog) else None
+        if idea is None:
+            return f"No encontre la idea #{number}. Escribe 'ideas' para ver tu backlog."
         try:
-            resp = lanzar_investigacion(idea)
-            rid = resp.get("request_id", "?")
+            response = lanzar_investigacion(idea)
+            request_id = response.get("request_id", "?")
             return (
-                f"Investigacion profunda #{rid} lanzada para la idea #{n} "
+                f"Investigacion profunda #{request_id} lanzada para la idea #{number} "
                 f"(\"{idea['tema'] or idea['idea_original']}\").\n\n"
-                f"El articulo con graficos y fuentes llegara a *{OWNER_EMAIL}* en unos minutos."
+                f"El articulo con graficos y fuentes llegara a {delivery_destination()} "
+                "en unos minutos."
             )
-        except Exception as e:
-            return f"No pude lanzar la investigacion: {e}"
+        except Exception as error:  # noqa: BLE001 - frontera HTTP
+            print(f"No se pudo lanzar una investigacion: {type(error).__name__}", file=sys.stderr)
+            return "No pude lanzar la investigacion. Intentalo nuevamente en unos minutos."
 
-    # Investigacion profunda DIRECTA (sin pasar por el backlog):
-    #   "investigar: <pregunta>"  /  "investiga a fondo <tema>"  /  "profundo <tema>"
-    md = re.match(r"(?:investigar|investiga(?:\s+a\s+fondo)?|profund[ao]|investigacion\s+profunda)\s*[:\-]?\s+(.+)", t, re.I)
-    if md:
-        query = md.group(1).strip()
+    direct_command = re.match(
+        r"(?:investigar|investiga(?:\s+a\s+fondo)?|profund[ao]|investigacion\s+profunda)"
+        r"\s*[:\-]?\s+(.+)",
+        message,
+        re.IGNORECASE,
+    )
+    if direct_command:
+        query = direct_command.group(1).strip()
         idea = {"tema": query, "pregunta": query, "idea_original": query}
         try:
-            resp = lanzar_investigacion(idea)
-            rid = resp.get("request_id", "?")
+            response = lanzar_investigacion(idea)
+            request_id = response.get("request_id", "?")
             return (
-                f"Investigacion profunda #{rid} lanzada sobre: \"{query}\".\n\n"
-                f"En unos minutos llega el articulo con graficos, hechos citados y "
-                f"fuentes a *{OWNER_EMAIL}*."
+                f"Investigacion profunda #{request_id} lanzada sobre: \"{query}\".\n\n"
+                "En unos minutos llegara el articulo con graficos, hechos citados y "
+                f"fuentes a {delivery_destination()}."
             )
-        except Exception as e:
-            return f"No pude lanzar la investigacion: {e}"
+        except Exception as error:  # noqa: BLE001 - frontera HTTP
+            print(f"No se pudo lanzar una investigacion: {type(error).__name__}", file=sys.stderr)
+            return "No pude lanzar la investigacion. Intentalo nuevamente en unos minutos."
 
-    # Refinar idea con Gemini (comportamiento del AI Agent)
     try:
-        reply = call_gemini(t)
-    except Exception as e:
-        return f"(Error al contactar Gemini: {e})"
+        reply = call_gemini(message)
+    except Exception as error:  # noqa: BLE001 - frontera HTTP
+        print(f"No se pudo contactar Gemini: {type(error).__name__}", file=sys.stderr)
+        return "No pude contactar al motor de ideas. Intentalo nuevamente en unos segundos."
+
     tema, pregunta = parse_tema_pregunta(reply)
-    backlog.append(
-        {"idea_original": t, "tema": tema, "pregunta": pregunta, "respuesta": reply}
-    )
+    with backlog_lock:
+        backlog.append(
+            {
+                "idea_original": message,
+                "tema": tema,
+                "pregunta": pregunta,
+                "respuesta": reply,
+            }
+        )
     return reply
 
 
-HTML = """<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ResearchFlow - Simulador WhatsApp</title>
-<style>
-  :root { --wa-green:#25D366; --wa-dark:#075E54; --wa-bg:#ECE5DD; --out:#DCF8C6; }
-  * { box-sizing:border-box; }
-  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-         background:#111; display:flex; justify-content:center; align-items:center; height:100vh; }
-  .phone { width:420px; max-width:100%; height:92vh; background:var(--wa-bg);
-           display:flex; flex-direction:column; border-radius:14px; overflow:hidden;
-           box-shadow:0 10px 40px rgba(0,0,0,.5); }
-  .header { background:var(--wa-dark); color:#fff; padding:12px 16px; display:flex; align-items:center; gap:12px; }
-  .avatar { width:40px; height:40px; border-radius:50%; background:var(--wa-green);
-            display:flex; align-items:center; justify-content:center; font-weight:700; }
-  .header .name { font-weight:600; }
-  .header .sub { font-size:12px; opacity:.8; }
-  .chat { flex:1; overflow-y:auto; padding:16px;
-          background-image:linear-gradient(rgba(229,221,213,.6),rgba(229,221,213,.6)); }
-  .msg { max-width:78%; padding:8px 12px; border-radius:8px; margin:6px 0; white-space:pre-wrap;
-         word-wrap:break-word; font-size:14px; line-height:1.35; box-shadow:0 1px 1px rgba(0,0,0,.1); }
-  .bot { background:#fff; align-self:flex-start; border-top-left-radius:0; }
-  .me  { background:var(--out); margin-left:auto; border-top-right-radius:0; }
-  .row { display:flex; }
-  .time { font-size:10px; color:#888; text-align:right; margin-top:2px; }
-  .typing { font-style:italic; color:#555; }
-  .inputbar { display:flex; padding:10px; gap:8px; background:#f0f0f0; }
-  .inputbar input { flex:1; padding:11px 14px; border:none; border-radius:22px; font-size:14px; outline:none; }
-  .inputbar button { background:var(--wa-green); color:#fff; border:none; width:46px; height:46px;
-                     border-radius:50%; font-size:20px; cursor:pointer; }
-  .hint { text-align:center; font-size:11px; color:#667; padding:4px; }
-  b { font-weight:600; }
-</style>
-</head>
-<body>
-  <div class="phone">
-    <div class="header">
-      <div class="avatar">RF</div>
-      <div>
-        <div class="name">ResearchFlow Ideas</div>
-        <div class="sub" id="sub">en linea (simulador)</div>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="hint">Idea &middot; <b>ideas</b> &middot; <b>investigar 1</b> &middot; <b>investigar: tu pregunta</b></div>
-    <div class="inputbar">
-      <input id="inp" placeholder="Escribe una idea..." autocomplete="off">
-      <button id="send">&#10148;</button>
-    </div>
-  </div>
-<script>
-const chat = document.getElementById('chat');
-const inp = document.getElementById('inp');
-const btn = document.getElementById('send');
-function now(){ const d=new Date(); return d.getHours().toString().padStart(2,'0')+':'+d.getMinutes().toString().padStart(2,'0'); }
-function fmt(t){ return t.replace(/\\*(.+?)\\*/g,'<b>$1</b>').replace(/_(.+?)_/g,'<i>$1</i>'); }
-function bubble(text, who){
-  const row=document.createElement('div'); row.className='row';
-  const b=document.createElement('div'); b.className='msg '+(who==='me'?'me':'bot');
-  b.innerHTML=fmt(text)+'<div class="time">'+now()+'</div>';
-  if(who==='me') row.style.justifyContent='flex-end';
-  row.appendChild(b); chat.appendChild(row); chat.scrollTop=chat.scrollHeight;
-  return b;
-}
-async function send(){
-  const text=inp.value.trim(); if(!text) return;
-  bubble(text,'me'); inp.value=''; btn.disabled=true;
-  const t=bubble('escribiendo...','bot'); t.classList.add('typing');
-  try{
-    const r=await fetch('/api/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text})});
-    const d=await r.json();
-    t.classList.remove('typing'); t.innerHTML=fmt(d.reply)+'<div class="time">'+now()+'</div>';
-  }catch(e){ t.classList.remove('typing'); t.textContent='(error de conexion)'; }
-  chat.scrollTop=chat.scrollHeight; btn.disabled=false; inp.focus();
-}
-btn.onclick=send;
-inp.addEventListener('keydown',e=>{ if(e.key==='Enter') send(); });
-bubble('Hola! Soy tu asistente de investigacion.\\n\\n1) Mandame una *idea vaga* y la refino en un tema con preguntas.\\n2) Escribe *ideas* para ver tu backlog.\\n3) *investigar N* lanza la investigacion profunda de la idea N.\\n\\nO pide una investigacion profunda directa asi:\\n*investigar: tu pregunta concreta*\\n(llega un articulo con graficos y fuentes a tu correo)','bot');
-inp.focus();
-</script>
-</body>
-</html>"""
-
-
 class Handler(http.server.BaseHTTPRequestHandler):
-    def log_message(self, *a):
-        pass
+    server_version = "ResearchFlow/3"
 
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-Type", "text/html; charset=utf-8")
+    def log_message(self, *_args) -> None:
+        return
+
+    def _security_headers(self) -> None:
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("Referrer-Policy", "no-referrer")
+        self.send_header("X-Frame-Options", "DENY")
+        self.send_header(
+            "Content-Security-Policy",
+            "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; "
+            "img-src 'self' data:; connect-src 'self'; base-uri 'none'; "
+            "frame-ancestors 'none'",
+        )
+
+    def _send_json(self, payload: dict, status: int = 200, head_only: bool = False) -> None:
+        body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Cache-Control", "no-store")
+        self._security_headers()
         self.end_headers()
-        self.wfile.write(HTML.encode("utf-8"))
+        if not head_only:
+            self.wfile.write(body)
 
-    def do_POST(self):
-        if self.path != "/api/send":
-            self.send_response(404)
-            self.end_headers()
+    def _send_static(self, head_only: bool = False) -> None:
+        request_path = urllib.parse.unquote(urllib.parse.urlsplit(self.path).path)
+        relative_path = "index.html" if request_path == "/" else request_path.lstrip("/")
+        static_root = STATIC_DIR.resolve()
+        candidate = (static_root / relative_path).resolve()
+
+        try:
+            candidate.relative_to(static_root)
+        except ValueError:
+            self.send_error(404)
             return
-        length = int(self.headers.get("Content-Length", 0))
-        data = json.loads(self.rfile.read(length) or b"{}")
-        reply = handle_message(data.get("text", ""))
-        out = json.dumps({"reply": reply}).encode("utf-8")
+
+        if not candidate.is_file():
+            self.send_error(404)
+            return
+
+        body = candidate.read_bytes()
+        content_type = mimetypes.guess_type(candidate.name)[0] or "application/octet-stream"
+        if candidate.suffix == ".js":
+            content_type = "application/javascript"
+
         self.send_response(200)
-        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Type", f"{content_type}; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header(
+            "Cache-Control",
+            "no-cache" if candidate.name == "index.html" else "public, max-age=3600",
+        )
+        self._security_headers()
         self.end_headers()
-        self.wfile.write(out)
+        if not head_only:
+            self.wfile.write(body)
+
+    def do_GET(self) -> None:  # noqa: N802 - API de BaseHTTPRequestHandler
+        if urllib.parse.urlsplit(self.path).path == "/api/health":
+            self._send_json({"status": "ok", "backlog_count": backlog_size()})
+            return
+        self._send_static()
+
+    def do_HEAD(self) -> None:  # noqa: N802 - API de BaseHTTPRequestHandler
+        if urllib.parse.urlsplit(self.path).path == "/api/health":
+            self._send_json(
+                {"status": "ok", "backlog_count": backlog_size()},
+                head_only=True,
+            )
+            return
+        self._send_static(head_only=True)
+
+    def do_POST(self) -> None:  # noqa: N802 - API de BaseHTTPRequestHandler
+        if urllib.parse.urlsplit(self.path).path != "/api/send":
+            self._send_json({"error": "Ruta no encontrada"}, 404)
+            return
+
+        try:
+            content_length = int(self.headers.get("Content-Length", "0"))
+            if content_length > 65536:
+                self._send_json({"error": "Mensaje demasiado grande"}, 413)
+                return
+            data = json.loads(self.rfile.read(content_length) or b"{}")
+            text = data.get("text", "")
+            if not isinstance(text, str):
+                raise ValueError("text debe ser string")
+        except (ValueError, json.JSONDecodeError):
+            self._send_json({"error": "Solicitud invalida"}, 400)
+            return
+
+        reply = handle_message(text)
+        self._send_json({"reply": reply, "backlog_count": backlog_size()})
 
 
 if __name__ == "__main__":
-    print(f"\n  ResearchFlow - Simulador WhatsApp")
-    print(f"  Abre en tu navegador:  http://localhost:{PORT}\n")
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    if not (STATIC_DIR / "index.html").is_file():
+        raise SystemExit("Falta chat/dist. Ejecuta: cd chat && pnpm build")
+
+    print(f"ResearchFlow Idea Lab disponible en http://localhost:{PORT}")
+    http.server.ThreadingHTTPServer.allow_reuse_address = True
+    with http.server.ThreadingHTTPServer(("", PORT), Handler) as httpd:
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:
-            print("\n  Simulador detenido.")
+            print("ResearchFlow Idea Lab detenido")
